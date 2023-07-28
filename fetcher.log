@@ -553,3 +553,65 @@
 [2023-07-29 00:44:32] INFO root fetch - processPackages [InvokeAI]: Remove: archive file [/home/abi/fetcher/tmp/InvokeAI-3.0.1rc2.tar.gz]
 [2023-07-29 00:44:32] INFO root fetch - main [MainThread]: End processing [InvokeAI]: success
 [2023-07-29 00:44:32] INFO root fetch - main [MainThread]: Store serial: [19082237]
+[2023-07-29 00:49:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19082237]
+[2023-07-29 00:49:40] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-29 00:49:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-07-29 00:49:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crate-docs-theme
+[2023-07-29 00:49:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ensmallen
+[2023-07-29 00:49:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: discord-webhook
+[2023-07-29 00:49:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ha-av
+[2023-07-29 00:49:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mkdocs-python-classy
+[2023-07-29 00:49:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: git4net
+[2023-07-29 00:49:40] INFO root fetch - processPackages [mkdocs-python-classy]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-29 00:49:40] INFO root fetch - processPackages [discord-webhook]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-29 00:49:40] INFO root fetch - processPackages [crate-docs-theme]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-29 00:49:40] INFO root fetch - processPackages [ensmallen]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-07-29 00:49:40] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.413] Old Version: [0.3.412]
+[2023-07-29 00:49:40] INFO root fetch - processPackages [ha-av]: New version: [9.2.0.post1] Old Version: [9.1.1.post3]
+[2023-07-29 00:49:40] INFO root fetch - processPackages [git4net]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-29 00:49:40] INFO root fetch - processPackages [mkdocs-python-classy]: Downloading https://files.pythonhosted.org/packages/18/3a/cf00b5cc7437d77f51481a1d596ae2fd8fa2385b8c5f510c197202c689ec/mkdocs_python_classy-0.1.1.tar.gz
+[2023-07-29 00:49:41] INFO root fetch - processPackages [crate-docs-theme]: Downloading https://files.pythonhosted.org/packages/6c/9f/eb33f10cf57946abf11bae3bca0be62acb66e1dcee1db3a1a183569375d5/crate-docs-theme-0.9.5.tar.gz
+[2023-07-29 00:49:41] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/64/4f/29d31807ab8b2659ba0a239cafedf21dbc315edcf5353a9a92c5ee1c55fe/pepperize.cdk-ses-smtp-credentials-0.3.412.tar.gz
+[2023-07-29 00:49:41] INFO root fetch - processPackages [discord-webhook]: Downloading https://files.pythonhosted.org/packages/8c/cb/fbd4dd7e057f96a33fc5ca12c89d67692c951a154472dd156717cd966b93/discord-webhook-1.2.0.tar.gz
+[2023-07-29 00:49:41] INFO root fetch - processPackages [ensmallen]: Downloading https://files.pythonhosted.org/packages/75/07/70c25877db695ae02b4a944b722513282eaca44b6bec77e09bed7e8bea0c/ensmallen-0.8.8-cp37-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-07-29 00:49:41] INFO root fetch - processPackages [ha-av]: Downloading https://files.pythonhosted.org/packages/ec/39/60239a364f1bc671cc320c22ab12031dc8741e378ec4e31c0d51357d4d05/ha-av-9.1.1.post3.tar.gz
+[2023-07-29 00:49:41] INFO root fetch - processPackages [git4net]: Downloading https://files.pythonhosted.org/packages/06/aa/58e44a8aa3eb158f99d02710792c2eec5f95927bea9a1b8040efa87b6509/git4net-0.0.1.tar.gz
+[2023-07-29 00:49:41] WARNING root fetch - processPackages [ensmallen]: Skipping package: exceeds size limit 18826030>=10485760
+[2023-07-29 00:49:41] INFO root fetch - main [MainThread]: End processing [ensmallen] error
+[2023-07-29 00:49:41] INFO root fetch - processPackages [mkdocs-python-classy]: Downloading https://files.pythonhosted.org/packages/46/84/15efe82c146ce9f5d9bfe5e70cf0e4722eefbb1cd9c529caf7ce5ccb67fc/mkdocs_python_classy-0.1.2.tar.gz
+[2023-07-29 00:49:41] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/2f/fa/6bb8556b082fb8c16ec7ad61ad9ccb5d55fb59a2da62a65ac4b2bb26c0dd/pepperize.cdk-ses-smtp-credentials-0.3.413.tar.gz
+[2023-07-29 00:49:41] INFO root fetch - processPackages [crate-docs-theme]: Downloading https://files.pythonhosted.org/packages/6e/c2/8e89446e5c72f10d30d1b58dfa420e9e08162dc8b8a9553111774fd516a5/crate-docs-theme-0.9.6.tar.gz
+[2023-07-29 00:49:41] INFO root fetch - processPackages [discord-webhook]: Downloading https://files.pythonhosted.org/packages/e7/43/fb772a7fa6640584da9fb01041ac1a52bfc69b4516d7450abd89a3b4d8bf/discord-webhook-1.2.1.tar.gz
+[2023-07-29 00:49:41] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-07-29 00:49:41] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.412.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.413.tar.gz --markdown 20230729/p/pepperize.cdk-ses-smtp-credentials/0.3.412-0.3.413/diff.md --exclude *.pyd
+[2023-07-29 00:49:41] INFO root fetch - processPackages [mkdocs-python-classy]: executing diffoscope
+[2023-07-29 00:49:41] INFO root fetch - processPackages [mkdocs-python-classy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_python_classy-0.1.1.tar.gz tmp/mkdocs_python_classy-0.1.2.tar.gz --markdown 20230729/m/mkdocs-python-classy/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-29 00:49:41] INFO root fetch - processPackages [git4net]: Downloading https://files.pythonhosted.org/packages/2c/ef/119f628c172c5333b507237320770ecc0ec47c28dba6ec6fba19f4dd5b2b/git4net-0.0.2.tar.gz
+[2023-07-29 00:49:41] INFO root fetch - processPackages [crate-docs-theme]: executing diffoscope
+[2023-07-29 00:49:41] INFO root fetch - processPackages [crate-docs-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crate-docs-theme-0.9.5.tar.gz tmp/crate-docs-theme-0.9.6.tar.gz --markdown 20230729/c/crate-docs-theme/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-29 00:49:41] INFO root fetch - processPackages [discord-webhook]: executing diffoscope
+[2023-07-29 00:49:41] INFO root fetch - processPackages [discord-webhook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord-webhook-1.2.0.tar.gz tmp/discord-webhook-1.2.1.tar.gz --markdown 20230729/d/discord-webhook/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-29 00:49:42] INFO root fetch - processPackages [git4net]: executing diffoscope
+[2023-07-29 00:49:42] INFO root fetch - processPackages [git4net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git4net-0.0.1.tar.gz tmp/git4net-0.0.2.tar.gz --markdown 20230729/g/git4net/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-29 00:49:42] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.412.tar.gz]
+[2023-07-29 00:49:42] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.413.tar.gz]
+[2023-07-29 00:49:42] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-07-29 00:49:42] INFO root fetch - processPackages [mkdocs-python-classy]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_python_classy-0.1.1.tar.gz]
+[2023-07-29 00:49:42] INFO root fetch - processPackages [mkdocs-python-classy]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_python_classy-0.1.2.tar.gz]
+[2023-07-29 00:49:42] INFO root fetch - main [MainThread]: End processing [mkdocs-python-classy]: success
+[2023-07-29 00:49:42] INFO root fetch - processPackages [discord-webhook]: Remove: archive file [/home/abi/fetcher/tmp/discord-webhook-1.2.0.tar.gz]
+[2023-07-29 00:49:42] INFO root fetch - processPackages [discord-webhook]: Remove: archive file [/home/abi/fetcher/tmp/discord-webhook-1.2.1.tar.gz]
+[2023-07-29 00:49:42] INFO root fetch - main [MainThread]: End processing [discord-webhook]: success
+[2023-07-29 00:49:42] INFO root fetch - processPackages [ha-av]: Downloading https://files.pythonhosted.org/packages/6c/85/306d7d4e343cb8b09b9242db415536a8140f2e5640135f671531ae19113a/ha-av-9.2.0.post1.tar.gz
+[2023-07-29 00:49:43] INFO root fetch - processPackages [git4net]: Remove: archive file [/home/abi/fetcher/tmp/git4net-0.0.1.tar.gz]
+[2023-07-29 00:49:43] INFO root fetch - processPackages [git4net]: Remove: archive file [/home/abi/fetcher/tmp/git4net-0.0.2.tar.gz]
+[2023-07-29 00:49:43] INFO root fetch - main [MainThread]: End processing [git4net]: success
+[2023-07-29 00:49:43] INFO root fetch - processPackages [crate-docs-theme]: Remove: archive file [/home/abi/fetcher/tmp/crate-docs-theme-0.9.5.tar.gz]
+[2023-07-29 00:49:43] INFO root fetch - processPackages [crate-docs-theme]: Remove: archive file [/home/abi/fetcher/tmp/crate-docs-theme-0.9.6.tar.gz]
+[2023-07-29 00:49:43] INFO root fetch - main [MainThread]: End processing [crate-docs-theme]: success
+[2023-07-29 00:49:43] INFO root fetch - processPackages [ha-av]: executing diffoscope
+[2023-07-29 00:49:43] INFO root fetch - processPackages [ha-av]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ha-av-9.1.1.post3.tar.gz tmp/ha-av-9.2.0.post1.tar.gz --markdown 20230729/h/ha-av/9.1.1.post3-9.2.0.post1/diff.md --exclude *.pyd
+[2023-07-29 00:49:48] INFO root fetch - processPackages [ha-av]: Remove: archive file [/home/abi/fetcher/tmp/ha-av-9.1.1.post3.tar.gz]
+[2023-07-29 00:49:48] INFO root fetch - processPackages [ha-av]: Remove: archive file [/home/abi/fetcher/tmp/ha-av-9.2.0.post1.tar.gz]
+[2023-07-29 00:49:48] INFO root fetch - main [MainThread]: End processing [ha-av]: success
+[2023-07-29 00:49:48] INFO root fetch - main [MainThread]: Store serial: [19082263]
