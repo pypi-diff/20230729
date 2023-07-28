@@ -1225,3 +1225,65 @@
 [2023-07-29 01:36:48] INFO root fetch - processPackages [kkpyutil]: Remove: archive file [/home/abi/fetcher/tmp/kkpyutil-0.99.1.tar.gz]
 [2023-07-29 01:36:48] INFO root fetch - main [MainThread]: End processing [kkpyutil]: success
 [2023-07-29 01:36:48] INFO root fetch - main [MainThread]: Store serial: [19082511]
+[2023-07-29 01:41:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19082511]
+[2023-07-29 01:41:58] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-29 01:41:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pandasai
+[2023-07-29 01:41:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dash-component-editor
+[2023-07-29 01:41:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: orca-parser
+[2023-07-29 01:41:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: orca-parser
+[2023-07-29 01:41:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mcptbr
+[2023-07-29 01:41:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mypy-boto3-appflow
+[2023-07-29 01:41:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: orca-parser
+[2023-07-29 01:41:58] INFO root fetch - processPackages [orca-parser]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-29 01:41:58] INFO root fetch - processPackages [orca-parser]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-29 01:41:58] INFO root fetch - processPackages [dash-component-editor]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-29 01:41:58] INFO root fetch - processPackages [orca-parser]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-29 01:41:58] INFO root fetch - processPackages [pandasai]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-29 01:41:58] INFO root fetch - processPackages [mypy-boto3-appflow]: New version: [1.28.15.post1] Old Version: [1.28.15]
+[2023-07-29 01:41:58] INFO root fetch - processPackages [mcptbr]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-29 01:41:58] INFO root fetch - processPackages [mcptbr]: Downloading https://files.pythonhosted.org/packages/9b/00/7bc6adbc8463c1231c1fb77a1fc2f90b50a5cc97461679acdec73509566b/mcptbr-0.2.1.tar.gz
+[2023-07-29 01:41:58] INFO root fetch - processPackages [mypy-boto3-appflow]: Downloading https://files.pythonhosted.org/packages/0b/7e/ca2d9cb181b520ca30a7fb935b27dda966fd9ac75f9eeabc48b1b2dddb26/mypy-boto3-appflow-1.28.15.tar.gz
+[2023-07-29 01:41:58] INFO root fetch - processPackages [orca-parser]: Downloading https://files.pythonhosted.org/packages/57/62/66d889837646a7dbe4f2a902bbce6b36c5c44485e75e1721758e41799dea/orca_parser-0.1.6-py2.py3-none-any.whl
+[2023-07-29 01:41:58] INFO root fetch - processPackages [orca-parser]: Downloading https://files.pythonhosted.org/packages/57/62/66d889837646a7dbe4f2a902bbce6b36c5c44485e75e1721758e41799dea/orca_parser-0.1.6-py2.py3-none-any.whl
+[2023-07-29 01:41:58] INFO root fetch - processPackages [orca-parser]: Downloading https://files.pythonhosted.org/packages/57/62/66d889837646a7dbe4f2a902bbce6b36c5c44485e75e1721758e41799dea/orca_parser-0.1.6-py2.py3-none-any.whl
+[2023-07-29 01:41:58] INFO root fetch - processPackages [dash-component-editor]: Downloading https://files.pythonhosted.org/packages/7b/94/5b16a20aa5faa3ef72307352206e31e04a4edc8621404022644d4ee435a4/dash_component_editor-0.0.6.tar.gz
+[2023-07-29 01:41:58] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/4d/5f/81819a22aa1fc306e08c41d2ad7b3c24a7b1003221304265de33b9a43f3f/pandasai-0.8.0.tar.gz
+[2023-07-29 01:41:59] INFO root fetch - processPackages [orca-parser]: Downloading https://files.pythonhosted.org/packages/d6/fe/219e3617ea68d634a1dbd46021369e1c1fcfd1a65a48216a5dc5d0168264/orca_parser-0.1.7-py2.py3-none-any.whl
+[2023-07-29 01:41:59] INFO root fetch - processPackages [orca-parser]: Downloading https://files.pythonhosted.org/packages/d6/fe/219e3617ea68d634a1dbd46021369e1c1fcfd1a65a48216a5dc5d0168264/orca_parser-0.1.7-py2.py3-none-any.whl
+[2023-07-29 01:41:59] INFO root fetch - processPackages [orca-parser]: Downloading https://files.pythonhosted.org/packages/d6/fe/219e3617ea68d634a1dbd46021369e1c1fcfd1a65a48216a5dc5d0168264/orca_parser-0.1.7-py2.py3-none-any.whl
+[2023-07-29 01:41:59] INFO root fetch - processPackages [mypy-boto3-appflow]: Downloading https://files.pythonhosted.org/packages/86/90/cfde06b520470856f678dcff9e3b519ec77456ff5847179019981109f082/mypy-boto3-appflow-1.28.15.post1.tar.gz
+[2023-07-29 01:41:59] INFO root fetch - processPackages [mcptbr]: Downloading https://files.pythonhosted.org/packages/04/d4/c82e1e8830cb4588c5d3c7d9579c5077f560c4cb197debeba1c3fc34ad6a/mcptbr-0.2.2.tar.gz
+[2023-07-29 01:41:59] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/43/02/e34ba5dc7edb320a1cbf69972637288b5218ad28f17c2adfcbe3b89e3f98/pandasai-0.8.1.tar.gz
+[2023-07-29 01:41:59] INFO root fetch - processPackages [dash-component-editor]: Downloading https://files.pythonhosted.org/packages/cd/27/334d6d56154384c50997938481da90edc96b69babe299ad34ca3511e7585/dash_component_editor-0.0.7.tar.gz
+[2023-07-29 01:41:59] INFO root fetch - processPackages [orca-parser]: executing diffoscope
+[2023-07-29 01:41:59] INFO root fetch - processPackages [orca-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orca_parser-0.1.6-py2.py3-none-any.whl.zip tmp/orca_parser-0.1.7-py2.py3-none-any.whl.zip --markdown 20230729/o/orca-parser/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-29 01:41:59] INFO root fetch - processPackages [orca-parser]: executing diffoscope
+[2023-07-29 01:41:59] INFO root fetch - processPackages [orca-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orca_parser-0.1.6-py2.py3-none-any.whl.zip tmp/orca_parser-0.1.7-py2.py3-none-any.whl.zip --markdown 20230729/o/orca-parser/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-29 01:41:59] INFO root fetch - processPackages [orca-parser]: executing diffoscope
+[2023-07-29 01:41:59] INFO root fetch - processPackages [orca-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orca_parser-0.1.6-py2.py3-none-any.whl.zip tmp/orca_parser-0.1.7-py2.py3-none-any.whl.zip --markdown 20230729/o/orca-parser/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-29 01:41:59] INFO root fetch - processPackages [mcptbr]: executing diffoscope
+[2023-07-29 01:41:59] INFO root fetch - processPackages [mcptbr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcptbr-0.2.1.tar.gz tmp/mcptbr-0.2.2.tar.gz --markdown 20230729/m/mcptbr/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-29 01:41:59] INFO root fetch - processPackages [mypy-boto3-appflow]: executing diffoscope
+[2023-07-29 01:41:59] INFO root fetch - processPackages [mypy-boto3-appflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-appflow-1.28.15.tar.gz tmp/mypy-boto3-appflow-1.28.15.post1.tar.gz --markdown 20230729/m/mypy-boto3-appflow/1.28.15-1.28.15.post1/diff.md --exclude *.pyd
+[2023-07-29 01:41:59] INFO root fetch - processPackages [pandasai]: executing diffoscope
+[2023-07-29 01:41:59] INFO root fetch - processPackages [pandasai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasai-0.8.0.tar.gz tmp/pandasai-0.8.1.tar.gz --markdown 20230729/p/pandasai/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-29 01:41:59] INFO root fetch - processPackages [dash-component-editor]: executing diffoscope
+[2023-07-29 01:41:59] INFO root fetch - processPackages [dash-component-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_component_editor-0.0.6.tar.gz tmp/dash_component_editor-0.0.7.tar.gz --markdown 20230729/d/dash-component-editor/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-29 01:42:00] INFO root fetch - processPackages [orca-parser]: Remove: archive file [/home/abi/fetcher/tmp/orca_parser-0.1.6-py2.py3-none-any.whl.zip]
+[2023-07-29 01:42:00] INFO root fetch - processPackages [orca-parser]: Remove: archive file [/home/abi/fetcher/tmp/orca_parser-0.1.7-py2.py3-none-any.whl.zip]
+[2023-07-29 01:42:00] INFO root fetch - main [MainThread]: End processing [orca-parser]: success
+[2023-07-29 01:42:00] INFO root fetch - main [MainThread]: End processing [orca-parser]: success
+[2023-07-29 01:42:00] INFO root fetch - main [MainThread]: End processing [orca-parser]: success
+[2023-07-29 01:42:00] INFO root fetch - processPackages [mypy-boto3-appflow]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-appflow-1.28.15.tar.gz]
+[2023-07-29 01:42:00] INFO root fetch - processPackages [mypy-boto3-appflow]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-appflow-1.28.15.post1.tar.gz]
+[2023-07-29 01:42:00] INFO root fetch - main [MainThread]: End processing [mypy-boto3-appflow]: success
+[2023-07-29 01:42:00] INFO root fetch - processPackages [mcptbr]: Remove: archive file [/home/abi/fetcher/tmp/mcptbr-0.2.1.tar.gz]
+[2023-07-29 01:42:00] INFO root fetch - processPackages [mcptbr]: Remove: archive file [/home/abi/fetcher/tmp/mcptbr-0.2.2.tar.gz]
+[2023-07-29 01:42:00] INFO root fetch - main [MainThread]: End processing [mcptbr]: success
+[2023-07-29 01:42:00] INFO root fetch - processPackages [dash-component-editor]: Remove: archive file [/home/abi/fetcher/tmp/dash_component_editor-0.0.6.tar.gz]
+[2023-07-29 01:42:00] INFO root fetch - processPackages [dash-component-editor]: Remove: archive file [/home/abi/fetcher/tmp/dash_component_editor-0.0.7.tar.gz]
+[2023-07-29 01:42:00] INFO root fetch - main [MainThread]: End processing [dash-component-editor]: success
+[2023-07-29 01:42:00] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-0.8.0.tar.gz]
+[2023-07-29 01:42:00] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-0.8.1.tar.gz]
+[2023-07-29 01:42:00] INFO root fetch - main [MainThread]: End processing [pandasai]: success
+[2023-07-29 01:42:00] INFO root fetch - main [MainThread]: Store serial: [19082528]
