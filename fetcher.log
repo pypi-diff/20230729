@@ -1684,3 +1684,128 @@
 [2023-07-29 01:47:21] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230727.tar.gz]
 [2023-07-29 01:47:21] INFO root fetch - main [MainThread]: End processing [skyplane-nightly]: success
 [2023-07-29 01:47:21] INFO root fetch - main [MainThread]: Store serial: [19082668]
+[2023-07-29 01:52:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19082668]
+[2023-07-29 01:52:29] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-29 01:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: live-example-python-test
+[2023-07-29 01:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: always-updates
+[2023-07-29 01:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ctransformers
+[2023-07-29 01:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mcptbr
+[2023-07-29 01:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stable-ts
+[2023-07-29 01:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytapo
+[2023-07-29 01:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: utz
+[2023-07-29 01:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py-randomprime
+[2023-07-29 01:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbcpu
+[2023-07-29 01:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: opticalmapping
+[2023-07-29 01:52:29] INFO root fetch - processPackages [nbcpu]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-29 01:52:29] INFO root fetch - processPackages [stable-ts]: New version: [2.7.2] Old Version: [2.7.1]
+[2023-07-29 01:52:29] WARNING root fetch - processPackages [live-example-python-test]: Skipping, unable to determine old version
+[2023-07-29 01:52:29] INFO root fetch - processPackages [live-example-python-test]: Start processing: pepperize.cdk-github
+[2023-07-29 01:52:29] INFO root fetch - main [MainThread]: End processing [live-example-python-test] error
+[2023-07-29 01:52:29] INFO root fetch - processPackages [ctransformers]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-29 01:52:29] WARNING root fetch - processPackages [opticalmapping]: Skipping, unable to determine old version
+[2023-07-29 01:52:29] INFO root fetch - processPackages [opticalmapping]: Start processing: mentat-ai
+[2023-07-29 01:52:29] INFO root fetch - main [MainThread]: End processing [opticalmapping] error
+[2023-07-29 01:52:29] INFO root fetch - processPackages [mcptbr]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-29 01:52:29] INFO root fetch - processPackages [pytapo]: New version: [3.2] Old Version: [3.1.9]
+[2023-07-29 01:52:29] INFO root fetch - processPackages [utz]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-29 01:52:29] INFO root fetch - processPackages [py-randomprime]: New version: [16.3] Old Version: [1.9.6]
+[2023-07-29 01:52:30] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-07-29 01:52:30] INFO root fetch - processPackages [mentat-ai]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-29 01:52:30] INFO root fetch - processPackages [pepperize.cdk-github]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-29 01:52:30] INFO root fetch - processPackages [ctransformers]: Downloading https://files.pythonhosted.org/packages/f8/b5/b244e28dbaa3006d70a3ce502e7ba862384f95cbd5df6718038b58d30bc9/ctransformers-0.2.8.tar.gz
+[2023-07-29 01:52:30] INFO root fetch - processPackages [mcptbr]: Downloading https://files.pythonhosted.org/packages/04/d4/c82e1e8830cb4588c5d3c7d9579c5077f560c4cb197debeba1c3fc34ad6a/mcptbr-0.2.2.tar.gz
+[2023-07-29 01:52:30] INFO root fetch - processPackages [nbcpu]: Downloading https://files.pythonhosted.org/packages/50/1f/d4a8104913d8cbd628660d479eac49916434e5c3556b1246b9bac5ab0845/nbcpu-0.2.0.tar.gz
+[2023-07-29 01:52:30] INFO root fetch - processPackages [stable-ts]: Downloading https://files.pythonhosted.org/packages/d1/08/d898282d6178f67fdf93da1d6e82af7fc7a820389d0a4c3750b94185b92d/stable-ts-2.7.1.tar.gz
+[2023-07-29 01:52:30] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/24/6d/598d06b1a4e959b347586ba22a01a1bc105e61fe7d1318c6fb190d545b38/pepperize.cdk-github-0.0.98.tar.gz
+[2023-07-29 01:52:30] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-07-29 01:52:30] INFO root fetch - processPackages [utz]: Downloading https://files.pythonhosted.org/packages/80/5f/632b487240e81298c96f27358e4e8fc33b1e968a339752086cd6a4018782/utz-0.3.8.tar.gz
+[2023-07-29 01:52:30] INFO root fetch - processPackages [pytapo]: Downloading https://files.pythonhosted.org/packages/b8/35/ef0eb89373b79054918fa255f52e89f05fbd7b56d9e1930c405ad90d46b7/pytapo-3.1.9.tar.gz
+[2023-07-29 01:52:30] INFO root fetch - processPackages [mentat-ai]: Downloading https://files.pythonhosted.org/packages/53/9f/dce79e2ce7377472909a2534c555297aa46746b79013f9a02c57340009f1/mentat-ai-0.1.3.tar.gz
+[2023-07-29 01:52:30] INFO root fetch - processPackages [py-randomprime]: Downloading https://files.pythonhosted.org/packages/c5/cb/9cc1448eb361b462e124fc84bb2c65b7f7564775472990df44de475a065c/py-randomprime-16.3.tar.gz
+[2023-07-29 01:52:30] WARNING root fetch - processPackages [py-randomprime]: Skipping package: exceeds size limit 32716661>=10485760
+[2023-07-29 01:52:30] INFO root fetch - processPackages [py-randomprime]: Start processing: evo-prot-grad
+[2023-07-29 01:52:30] INFO root fetch - main [MainThread]: End processing [py-randomprime] error
+[2023-07-29 01:52:30] INFO root fetch - processPackages [ctransformers]: Downloading https://files.pythonhosted.org/packages/6c/6a/51fe0e5f1a8aa79becd03dc0b6c195896d7c8eddfae48dd1190c1c0b7710/ctransformers-0.2.9.tar.gz
+[2023-07-29 01:52:30] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/c3/a7/0446f664eacf32838f54f1c66d5396c5ab08f1bcd671ef0f29c503c0f763/pepperize.cdk-github-0.0.99.tar.gz
+[2023-07-29 01:52:30] INFO root fetch - processPackages [nbcpu]: Downloading https://files.pythonhosted.org/packages/fa/50/08b3e00b7f4092ed5c6debc672d43479b7807cfbc512198063fca513ba2e/nbcpu-0.3.0.tar.gz
+[2023-07-29 01:52:30] INFO root fetch - processPackages [stable-ts]: Downloading https://files.pythonhosted.org/packages/32/e3/d0ca3aa2d3f3634617f8143cc3dc6f1ab2d38f1b63ca21f2f095f2b139f9/stable-ts-2.7.2.tar.gz
+[2023-07-29 01:52:30] INFO root fetch - processPackages [evo-prot-grad]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-29 01:52:30] INFO root fetch - processPackages [mcptbr]: Downloading https://files.pythonhosted.org/packages/c4/3b/51390ca29c22d24c3e3845da81c1e9450ee17aa1725aa850debf0d1e4ae9/mcptbr-0.2.3.tar.gz
+[2023-07-29 01:52:30] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-07-29 01:52:30] INFO root fetch - processPackages [utz]: Downloading https://files.pythonhosted.org/packages/88/0b/8af56a1053a885d3e989d8a3bb2f4d2042bf37cbce047607a41d2b89d5d3/utz-0.3.9.tar.gz
+[2023-07-29 01:52:30] INFO root fetch - processPackages [nbcpu]: executing diffoscope
+[2023-07-29 01:52:30] INFO root fetch - processPackages [nbcpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbcpu-0.2.0.tar.gz tmp/nbcpu-0.3.0.tar.gz --markdown 20230729/n/nbcpu/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-29 01:52:30] INFO root fetch - processPackages [stable-ts]: executing diffoscope
+[2023-07-29 01:52:30] INFO root fetch - processPackages [stable-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stable-ts-2.7.1.tar.gz tmp/stable-ts-2.7.2.tar.gz --markdown 20230729/s/stable-ts/2.7.1-2.7.2/diff.md --exclude *.pyd
+[2023-07-29 01:52:31] INFO root fetch - processPackages [ctransformers]: executing diffoscope
+[2023-07-29 01:52:31] INFO root fetch - processPackages [ctransformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctransformers-0.2.8.tar.gz tmp/ctransformers-0.2.9.tar.gz --markdown 20230729/c/ctransformers/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-29 01:52:31] INFO root fetch - processPackages [mcptbr]: executing diffoscope
+[2023-07-29 01:52:31] INFO root fetch - processPackages [mcptbr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcptbr-0.2.2.tar.gz tmp/mcptbr-0.2.3.tar.gz --markdown 20230729/m/mcptbr/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-29 01:52:31] INFO root fetch - processPackages [mentat-ai]: Downloading https://files.pythonhosted.org/packages/e5/19/830423cfc0d64dc88a8dbec944f2b1a2eec676ff10723a80d46e07971cac/mentat-ai-0.1.4.tar.gz
+[2023-07-29 01:52:31] INFO root fetch - processPackages [pepperize.cdk-github]: executing diffoscope
+[2023-07-29 01:52:31] INFO root fetch - processPackages [pepperize.cdk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-github-0.0.98.tar.gz tmp/pepperize.cdk-github-0.0.99.tar.gz --markdown 20230729/p/pepperize.cdk-github/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-29 01:52:31] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-07-29 01:52:31] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230729/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-07-29 01:52:31] INFO root fetch - processPackages [evo-prot-grad]: Downloading https://files.pythonhosted.org/packages/75/c0/7f59fcc2af0a0796221cd9a33be00b496f2f5fe5fd102dfd388bf79ec978/evo_prot_grad-0.1.3.tar.gz
+[2023-07-29 01:52:31] INFO root fetch - processPackages [utz]: executing diffoscope
+[2023-07-29 01:52:31] INFO root fetch - processPackages [utz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utz-0.3.8.tar.gz tmp/utz-0.3.9.tar.gz --markdown 20230729/u/utz/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-29 01:52:31] INFO root fetch - processPackages [pytapo]: Downloading https://files.pythonhosted.org/packages/68/63/17904d683057865feea35149f85a57c9c7f516223de447c39b6809139f23/pytapo-3.2.tar.gz
+[2023-07-29 01:52:31] INFO root fetch - processPackages [mentat-ai]: executing diffoscope
+[2023-07-29 01:52:31] INFO root fetch - processPackages [mentat-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mentat-ai-0.1.3.tar.gz tmp/mentat-ai-0.1.4.tar.gz --markdown 20230729/m/mentat-ai/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-29 01:52:31] INFO root fetch - processPackages [pytapo]: executing diffoscope
+[2023-07-29 01:52:31] INFO root fetch - processPackages [pytapo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytapo-3.1.9.tar.gz tmp/pytapo-3.2.tar.gz --markdown 20230729/p/pytapo/3.1.9-3.2/diff.md --exclude *.pyd
+[2023-07-29 01:52:31] INFO root fetch - processPackages [evo-prot-grad]: Downloading https://files.pythonhosted.org/packages/06/36/5659194805a73118d983c2b42b85b43ad1cf9d8bf66bd48e1c80ee259143/evo_prot_grad-0.1.4.tar.gz
+[2023-07-29 01:52:31] INFO root fetch - processPackages [evo-prot-grad]: executing diffoscope
+[2023-07-29 01:52:31] INFO root fetch - processPackages [evo-prot-grad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evo_prot_grad-0.1.3.tar.gz tmp/evo_prot_grad-0.1.4.tar.gz --markdown 20230729/e/evo-prot-grad/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-29 01:52:32] INFO root fetch - processPackages [nbcpu]: Remove: archive file [/home/abi/fetcher/tmp/nbcpu-0.2.0.tar.gz]
+[2023-07-29 01:52:32] INFO root fetch - processPackages [nbcpu]: Remove: archive file [/home/abi/fetcher/tmp/nbcpu-0.3.0.tar.gz]
+[2023-07-29 01:52:32] INFO root fetch - processPackages [nbcpu]: Start processing: meeko
+[2023-07-29 01:52:32] INFO root fetch - main [MainThread]: End processing [nbcpu]: success
+[2023-07-29 01:52:32] INFO root fetch - processPackages [mcptbr]: Remove: archive file [/home/abi/fetcher/tmp/mcptbr-0.2.2.tar.gz]
+[2023-07-29 01:52:32] INFO root fetch - processPackages [mcptbr]: Remove: archive file [/home/abi/fetcher/tmp/mcptbr-0.2.3.tar.gz]
+[2023-07-29 01:52:32] INFO root fetch - processPackages [mcptbr]: Start processing: proc-img
+[2023-07-29 01:52:32] INFO root fetch - main [MainThread]: End processing [mcptbr]: success
+[2023-07-29 01:52:32] INFO root fetch - processPackages [meeko]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-29 01:52:32] WARNING root fetch - processPackages [proc-img]: Skipping, unable to determine old version
+[2023-07-29 01:52:32] INFO root fetch - processPackages [proc-img]: Start processing: aorta-sirius-dev
+[2023-07-29 01:52:32] INFO root fetch - main [MainThread]: End processing [proc-img] error
+[2023-07-29 01:52:32] INFO root fetch - processPackages [aorta-sirius-dev]: New version: [0.9] Old Version: [0.8]
+[2023-07-29 01:52:32] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-07-29 01:52:32] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-07-29 01:52:32] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-07-29 01:52:32] INFO root fetch - processPackages [meeko]: Downloading https://files.pythonhosted.org/packages/df/e8/5599f1f3b4d82a6fd509e9ba1494866c9be26cb9cba57cffe433fb6573e1/meeko-0.4.0.tar.gz
+[2023-07-29 01:52:32] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/6c/4c/c918e6e5e63eb0d5372ac266f3937706bc885abfa445f3f76b7b86574022/aorta_sirius_dev-0.8.tar.gz
+[2023-07-29 01:52:32] INFO root fetch - processPackages [stable-ts]: Remove: archive file [/home/abi/fetcher/tmp/stable-ts-2.7.1.tar.gz]
+[2023-07-29 01:52:32] INFO root fetch - processPackages [stable-ts]: Remove: archive file [/home/abi/fetcher/tmp/stable-ts-2.7.2.tar.gz]
+[2023-07-29 01:52:32] INFO root fetch - main [MainThread]: End processing [stable-ts]: success
+[2023-07-29 01:52:32] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.98.tar.gz]
+[2023-07-29 01:52:32] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.99.tar.gz]
+[2023-07-29 01:52:32] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-github]: success
+[2023-07-29 01:52:32] INFO root fetch - processPackages [utz]: Remove: archive file [/home/abi/fetcher/tmp/utz-0.3.8.tar.gz]
+[2023-07-29 01:52:32] INFO root fetch - processPackages [utz]: Remove: archive file [/home/abi/fetcher/tmp/utz-0.3.9.tar.gz]
+[2023-07-29 01:52:32] INFO root fetch - main [MainThread]: End processing [utz]: success
+[2023-07-29 01:52:32] INFO root fetch - processPackages [mentat-ai]: Remove: archive file [/home/abi/fetcher/tmp/mentat-ai-0.1.3.tar.gz]
+[2023-07-29 01:52:32] INFO root fetch - processPackages [mentat-ai]: Remove: archive file [/home/abi/fetcher/tmp/mentat-ai-0.1.4.tar.gz]
+[2023-07-29 01:52:32] INFO root fetch - main [MainThread]: End processing [mentat-ai]: success
+[2023-07-29 01:52:32] INFO root fetch - processPackages [pytapo]: Remove: archive file [/home/abi/fetcher/tmp/pytapo-3.1.9.tar.gz]
+[2023-07-29 01:52:32] INFO root fetch - processPackages [pytapo]: Remove: archive file [/home/abi/fetcher/tmp/pytapo-3.2.tar.gz]
+[2023-07-29 01:52:32] INFO root fetch - main [MainThread]: End processing [pytapo]: success
+[2023-07-29 01:52:32] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/54/97/7f1ed0ff86adcf398afae687f938569644f9daea26539a68715f7373921f/aorta_sirius_dev-0.9.tar.gz
+[2023-07-29 01:52:33] INFO root fetch - processPackages [evo-prot-grad]: Remove: archive file [/home/abi/fetcher/tmp/evo_prot_grad-0.1.3.tar.gz]
+[2023-07-29 01:52:33] INFO root fetch - processPackages [evo-prot-grad]: Remove: archive file [/home/abi/fetcher/tmp/evo_prot_grad-0.1.4.tar.gz]
+[2023-07-29 01:52:33] INFO root fetch - main [MainThread]: End processing [evo-prot-grad]: success
+[2023-07-29 01:52:33] INFO root fetch - processPackages [meeko]: Downloading https://files.pythonhosted.org/packages/78/17/8947c029c13d2f55f3a4833e17722dd275f94b10a7c32914374981eb8c8e/meeko-0.5.0.tar.gz
+[2023-07-29 01:52:33] INFO root fetch - processPackages [aorta-sirius-dev]: executing diffoscope
+[2023-07-29 01:52:33] INFO root fetch - processPackages [aorta-sirius-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius_dev-0.8.tar.gz tmp/aorta_sirius_dev-0.9.tar.gz --markdown 20230729/a/aorta-sirius-dev/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-29 01:52:33] INFO root fetch - processPackages [ctransformers]: Remove: archive file [/home/abi/fetcher/tmp/ctransformers-0.2.8.tar.gz]
+[2023-07-29 01:52:33] INFO root fetch - processPackages [ctransformers]: Remove: archive file [/home/abi/fetcher/tmp/ctransformers-0.2.9.tar.gz]
+[2023-07-29 01:52:33] INFO root fetch - main [MainThread]: End processing [ctransformers]: success
+[2023-07-29 01:52:33] INFO root fetch - processPackages [meeko]: executing diffoscope
+[2023-07-29 01:52:33] INFO root fetch - processPackages [meeko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meeko-0.4.0.tar.gz tmp/meeko-0.5.0.tar.gz --markdown 20230729/m/meeko/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-29 01:52:33] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.8.tar.gz]
+[2023-07-29 01:52:33] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.9.tar.gz]
+[2023-07-29 01:52:33] INFO root fetch - main [MainThread]: End processing [aorta-sirius-dev]: success
+[2023-07-29 01:52:34] INFO root fetch - processPackages [meeko]: Remove: archive file [/home/abi/fetcher/tmp/meeko-0.4.0.tar.gz]
+[2023-07-29 01:52:34] INFO root fetch - processPackages [meeko]: Remove: archive file [/home/abi/fetcher/tmp/meeko-0.5.0.tar.gz]
+[2023-07-29 01:52:34] INFO root fetch - main [MainThread]: End processing [meeko]: success
+[2023-07-29 01:52:34] INFO root fetch - main [MainThread]: Store serial: [19082724]
