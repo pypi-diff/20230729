@@ -860,3 +860,81 @@
 [2023-07-29 01:05:31] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.2.0rc5.tar.gz]
 [2023-07-29 01:05:31] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
 [2023-07-29 01:05:31] INFO root fetch - main [MainThread]: Store serial: [19082383]
+[2023-07-29 01:10:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19082383]
+[2023-07-29 01:10:40] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-29 01:10:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aorta-sirius-dev
+[2023-07-29 01:10:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: d20-securityLayer
+[2023-07-29 01:10:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyfsdb
+[2023-07-29 01:10:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyfsdb-viewer
+[2023-07-29 01:10:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mcptbr
+[2023-07-29 01:10:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xpiz
+[2023-07-29 01:10:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lean
+[2023-07-29 01:10:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: abacusai
+[2023-07-29 01:10:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: evenity
+[2023-07-29 01:10:40] INFO root fetch - processPackages [pyfsdb-viewer]: New version: [0.4] Old Version: [0.3]
+[2023-07-29 01:10:40] INFO root fetch - processPackages [d20-securityLayer]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-07-29 01:10:40] INFO root fetch - processPackages [aorta-sirius-dev]: New version: [0.9] Old Version: [0.8]
+[2023-07-29 01:10:40] INFO root fetch - processPackages [mcptbr]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-29 01:10:40] INFO root fetch - processPackages [xpiz]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-29 01:10:40] INFO root fetch - processPackages [pyfsdb]: New version: [2.2.1] Old Version: [2.2]
+[2023-07-29 01:10:40] INFO root fetch - processPackages [lean]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-29 01:10:40] WARNING root fetch - processPackages [evenity]: Skipping, unable to determine old version
+[2023-07-29 01:10:40] INFO root fetch - main [MainThread]: End processing [evenity] error
+[2023-07-29 01:10:40] INFO root fetch - processPackages [abacusai]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-29 01:10:40] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/6c/4c/c918e6e5e63eb0d5372ac266f3937706bc885abfa445f3f76b7b86574022/aorta_sirius_dev-0.8.tar.gz
+[2023-07-29 01:10:40] INFO root fetch - processPackages [mcptbr]: Downloading https://files.pythonhosted.org/packages/b7/4d/ac3ee02f3aa7b42ad3be93bd0507ae8eec91a8e4c17553665605b76db8e5/mcptbr-0.2.0.tar.gz
+[2023-07-29 01:10:40] INFO root fetch - processPackages [d20-securityLayer]: Downloading https://files.pythonhosted.org/packages/b5/7f/086f837981170217116052b05373bbf9ede287aa375d582b42e31e612cf5/d20-securityLayer-2.0.0a8.tar.gz
+[2023-07-29 01:10:40] INFO root fetch - processPackages [xpiz]: Downloading https://files.pythonhosted.org/packages/bb/db/264e57fb4c257d283cd38a174aeb7d14abea0661aaee29288907c0de9474/xpiz-0.0.2.tar.gz
+[2023-07-29 01:10:40] INFO root fetch - processPackages [pyfsdb-viewer]: Downloading https://files.pythonhosted.org/packages/c3/cc/4324aa59580154f44152d57e81a8222e032e135fb1401900eb52d21fe44c/pyfsdb-viewer-0.3.tar.gz
+[2023-07-29 01:10:40] INFO root fetch - processPackages [lean]: Downloading https://files.pythonhosted.org/packages/81/84/aa7a74f65750436a15b38183f9eefe7f25e7578b5617ab6ccf158e947080/lean-1.0.98.tar.gz
+[2023-07-29 01:10:41] INFO root fetch - processPackages [pyfsdb]: Downloading https://files.pythonhosted.org/packages/26/99/40cd7345623cfb4934d10255e4a0cadee85c27eab63633d2eef4e6b2d7bb/pyfsdb-2.2.tar.gz
+[2023-07-29 01:10:41] INFO root fetch - processPackages [abacusai]: Downloading https://files.pythonhosted.org/packages/20/05/12e6e66d0f2b20efe2d4562023d068bd5ea84aba0ae3272ff7660d944e48/abacusai-0.9.1.tar.gz
+[2023-07-29 01:10:41] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/54/97/7f1ed0ff86adcf398afae687f938569644f9daea26539a68715f7373921f/aorta_sirius_dev-0.9.tar.gz
+[2023-07-29 01:10:41] INFO root fetch - processPackages [mcptbr]: Downloading https://files.pythonhosted.org/packages/9b/00/7bc6adbc8463c1231c1fb77a1fc2f90b50a5cc97461679acdec73509566b/mcptbr-0.2.1.tar.gz
+[2023-07-29 01:10:41] INFO root fetch - processPackages [mcptbr]: executing diffoscope
+[2023-07-29 01:10:41] INFO root fetch - processPackages [mcptbr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcptbr-0.2.0.tar.gz tmp/mcptbr-0.2.1.tar.gz --markdown 20230729/m/mcptbr/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-29 01:10:41] INFO root fetch - processPackages [xpiz]: Downloading https://files.pythonhosted.org/packages/63/47/15edcefdf653c71d97878d6ebb37e6a03241e72a1ea3809782288622d2b7/xpiz-0.0.3.tar.gz
+[2023-07-29 01:10:41] INFO root fetch - processPackages [d20-securityLayer]: Downloading https://files.pythonhosted.org/packages/56/46/f3ba1d8980a81e7e0579b812ea29d2c68be9c442ea0e7168a51afcd8c79e/d20-securityLayer-2.0.0a9.tar.gz
+[2023-07-29 01:10:41] INFO root fetch - processPackages [aorta-sirius-dev]: executing diffoscope
+[2023-07-29 01:10:41] INFO root fetch - processPackages [aorta-sirius-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius_dev-0.8.tar.gz tmp/aorta_sirius_dev-0.9.tar.gz --markdown 20230729/a/aorta-sirius-dev/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-29 01:10:41] INFO root fetch - processPackages [pyfsdb-viewer]: Downloading https://files.pythonhosted.org/packages/da/ca/a420227769749bae0b80dc21b02d5abf798f9cccd92d04a32af780d9ed8d/pyfsdb-viewer-0.4.tar.gz
+[2023-07-29 01:10:41] INFO root fetch - processPackages [pyfsdb]: Downloading https://files.pythonhosted.org/packages/9a/ae/704ad3721268eb736d55446ae46820b3a89839fff684ff525433b3938bf4/pyfsdb-2.2.1.tar.gz
+[2023-07-29 01:10:41] INFO root fetch - processPackages [xpiz]: executing diffoscope
+[2023-07-29 01:10:41] INFO root fetch - processPackages [xpiz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xpiz-0.0.2.tar.gz tmp/xpiz-0.0.3.tar.gz --markdown 20230729/x/xpiz/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-29 01:10:41] INFO root fetch - processPackages [abacusai]: Downloading https://files.pythonhosted.org/packages/2f/8d/d78246b87fef32ca67a6fb9bdb4bfda9bdd690736e1f658aac9fd292cf85/abacusai-0.9.2.tar.gz
+[2023-07-29 01:10:41] INFO root fetch - processPackages [lean]: Downloading https://files.pythonhosted.org/packages/3e/2f/0bee377e322251efe06c06a9769bd227936117bc32f26bc970e1580283b2/lean-1.0.99.tar.gz
+[2023-07-29 01:10:41] INFO root fetch - processPackages [pyfsdb-viewer]: executing diffoscope
+[2023-07-29 01:10:41] INFO root fetch - processPackages [pyfsdb-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfsdb-viewer-0.3.tar.gz tmp/pyfsdb-viewer-0.4.tar.gz --markdown 20230729/p/pyfsdb-viewer/0.3-0.4/diff.md --exclude *.pyd
+[2023-07-29 01:10:41] INFO root fetch - processPackages [d20-securityLayer]: executing diffoscope
+[2023-07-29 01:10:41] INFO root fetch - processPackages [d20-securityLayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d20-securityLayer-2.0.0a8.tar.gz tmp/d20-securityLayer-2.0.0a9.tar.gz --markdown 20230729/d/d20-securityLayer/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-07-29 01:10:41] INFO root fetch - processPackages [pyfsdb]: executing diffoscope
+[2023-07-29 01:10:41] INFO root fetch - processPackages [pyfsdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfsdb-2.2.tar.gz tmp/pyfsdb-2.2.1.tar.gz --markdown 20230729/p/pyfsdb/2.2-2.2.1/diff.md --exclude *.pyd
+[2023-07-29 01:10:41] INFO root fetch - processPackages [abacusai]: executing diffoscope
+[2023-07-29 01:10:41] INFO root fetch - processPackages [abacusai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abacusai-0.9.1.tar.gz tmp/abacusai-0.9.2.tar.gz --markdown 20230729/a/abacusai/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-29 01:10:41] INFO root fetch - processPackages [lean]: executing diffoscope
+[2023-07-29 01:10:41] INFO root fetch - processPackages [lean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lean-1.0.98.tar.gz tmp/lean-1.0.99.tar.gz --markdown 20230729/l/lean/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-29 01:10:42] INFO root fetch - processPackages [mcptbr]: Remove: archive file [/home/abi/fetcher/tmp/mcptbr-0.2.0.tar.gz]
+[2023-07-29 01:10:42] INFO root fetch - processPackages [mcptbr]: Remove: archive file [/home/abi/fetcher/tmp/mcptbr-0.2.1.tar.gz]
+[2023-07-29 01:10:42] INFO root fetch - main [MainThread]: End processing [mcptbr]: success
+[2023-07-29 01:10:42] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.8.tar.gz]
+[2023-07-29 01:10:42] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.9.tar.gz]
+[2023-07-29 01:10:42] INFO root fetch - main [MainThread]: End processing [aorta-sirius-dev]: success
+[2023-07-29 01:10:42] INFO root fetch - processPackages [xpiz]: Remove: archive file [/home/abi/fetcher/tmp/xpiz-0.0.2.tar.gz]
+[2023-07-29 01:10:42] INFO root fetch - processPackages [xpiz]: Remove: archive file [/home/abi/fetcher/tmp/xpiz-0.0.3.tar.gz]
+[2023-07-29 01:10:42] INFO root fetch - main [MainThread]: End processing [xpiz]: success
+[2023-07-29 01:10:42] INFO root fetch - processPackages [pyfsdb-viewer]: Remove: archive file [/home/abi/fetcher/tmp/pyfsdb-viewer-0.3.tar.gz]
+[2023-07-29 01:10:42] INFO root fetch - processPackages [pyfsdb-viewer]: Remove: archive file [/home/abi/fetcher/tmp/pyfsdb-viewer-0.4.tar.gz]
+[2023-07-29 01:10:42] INFO root fetch - main [MainThread]: End processing [pyfsdb-viewer]: success
+[2023-07-29 01:10:43] INFO root fetch - processPackages [d20-securityLayer]: Remove: archive file [/home/abi/fetcher/tmp/d20-securityLayer-2.0.0a8.tar.gz]
+[2023-07-29 01:10:43] INFO root fetch - processPackages [d20-securityLayer]: Remove: archive file [/home/abi/fetcher/tmp/d20-securityLayer-2.0.0a9.tar.gz]
+[2023-07-29 01:10:43] INFO root fetch - main [MainThread]: End processing [d20-securityLayer]: success
+[2023-07-29 01:10:43] INFO root fetch - processPackages [abacusai]: Remove: archive file [/home/abi/fetcher/tmp/abacusai-0.9.1.tar.gz]
+[2023-07-29 01:10:43] INFO root fetch - processPackages [abacusai]: Remove: archive file [/home/abi/fetcher/tmp/abacusai-0.9.2.tar.gz]
+[2023-07-29 01:10:43] INFO root fetch - main [MainThread]: End processing [abacusai]: success
+[2023-07-29 01:10:43] INFO root fetch - processPackages [pyfsdb]: Remove: archive file [/home/abi/fetcher/tmp/pyfsdb-2.2.tar.gz]
+[2023-07-29 01:10:43] INFO root fetch - processPackages [pyfsdb]: Remove: archive file [/home/abi/fetcher/tmp/pyfsdb-2.2.1.tar.gz]
+[2023-07-29 01:10:43] INFO root fetch - main [MainThread]: End processing [pyfsdb]: success
+[2023-07-29 01:10:43] INFO root fetch - processPackages [lean]: Remove: archive file [/home/abi/fetcher/tmp/lean-1.0.98.tar.gz]
+[2023-07-29 01:10:43] INFO root fetch - processPackages [lean]: Remove: archive file [/home/abi/fetcher/tmp/lean-1.0.99.tar.gz]
+[2023-07-29 01:10:43] INFO root fetch - main [MainThread]: End processing [lean]: success
+[2023-07-29 01:10:43] INFO root fetch - main [MainThread]: Store serial: [19082409]
