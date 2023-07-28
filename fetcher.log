@@ -707,3 +707,105 @@
 [2023-07-29 00:55:03] INFO root fetch - processPackages [dojah-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dojah_python_sdk-4.1.0.tar.gz]
 [2023-07-29 00:55:03] INFO root fetch - main [MainThread]: End processing [dojah-python-sdk]: success
 [2023-07-29 00:55:03] INFO root fetch - main [MainThread]: Store serial: [19082334]
+[2023-07-29 01:00:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19082334]
+[2023-07-29 01:00:12] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-29 01:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: beewi-smartclim-ble
+[2023-07-29 01:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: naruno
+[2023-07-29 01:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: naruno-api
+[2023-07-29 01:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: naruno-gui
+[2023-07-29 01:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: naruno-remote-app
+[2023-07-29 01:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: naruno-tests
+[2023-07-29 01:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: monarch-py
+[2023-07-29 01:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mcptbr
+[2023-07-29 01:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-terraform
+[2023-07-29 01:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lucupy
+[2023-07-29 01:00:12] INFO root fetch - processPackages [mcptbr]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-29 01:00:12] INFO root fetch - processPackages [beewi-smartclim-ble]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-29 01:00:12] INFO root fetch - processPackages [naruno]: New version: [0.60.0] Old Version: [0.59.0]
+[2023-07-29 01:00:12] INFO root fetch - processPackages [naruno-tests]: New version: [0.60.0] Old Version: [0.59.0]
+[2023-07-29 01:00:12] INFO root fetch - processPackages [monarch-py]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-29 01:00:12] INFO root fetch - processPackages [naruno-api]: New version: [0.60.0] Old Version: [0.59.0]
+[2023-07-29 01:00:12] INFO root fetch - processPackages [naruno-gui]: New version: [0.60.0] Old Version: [0.59.0]
+[2023-07-29 01:00:12] INFO root fetch - processPackages [lucupy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-29 01:00:12] INFO root fetch - processPackages [pulumi-terraform]: New version: [5.9.0] Old Version: [5.8.0a1675048832]
+[2023-07-29 01:00:12] INFO root fetch - processPackages [naruno-remote-app]: New version: [0.60.0] Old Version: [0.59.0]
+[2023-07-29 01:00:12] INFO root fetch - processPackages [monarch-py]: Downloading https://files.pythonhosted.org/packages/6d/48/f8584db7808c58dfe36efe458cdf928f83c7345eafb177d0517f07dac0c4/monarch_py-0.9.4.tar.gz
+[2023-07-29 01:00:12] INFO root fetch - processPackages [lucupy]: Downloading https://files.pythonhosted.org/packages/48/24/564fb7fc12915db3e559e4a44c2c2ea56620d4da2174d3da93586a4d9af4/lucupy-0.1.8.tar.gz
+[2023-07-29 01:00:12] INFO root fetch - processPackages [pulumi-terraform]: Downloading https://files.pythonhosted.org/packages/cc/d0/8a68b0c849ff5e8a56b66dbf2eec33b7b7a0331d44c93e68ebbb6ee4ebc5/pulumi_terraform-5.8.0a1675048832.tar.gz
+[2023-07-29 01:00:12] INFO root fetch - processPackages [mcptbr]: Downloading https://files.pythonhosted.org/packages/85/52/30b1c4e7b0035273a414e181c2a33ec05b4010e29d81cc5045307b9c27ae/mcptbr-0.1.9.tar.gz
+[2023-07-29 01:00:12] INFO root fetch - processPackages [beewi-smartclim-ble]: Downloading https://files.pythonhosted.org/packages/ac/b1/b24eba59cd48bc6327061d083b63fbdb65ba181627956e74b52e42ebe355/beewi_smartclim_ble-0.3.0.tar.gz
+[2023-07-29 01:00:12] INFO root fetch - processPackages [naruno-tests]: Downloading https://files.pythonhosted.org/packages/90/c1/f6797f12ab68dd9c32acbd16091d7a6636465a0149fd954f673a170a6b6e/naruno_tests-0.59.0.tar.gz
+[2023-07-29 01:00:12] INFO root fetch - processPackages [naruno]: Downloading https://files.pythonhosted.org/packages/9e/70/21f88c79f6c031a926b62ee85839c93369e2c7711ec7d626bc569c7a7848/naruno-0.59.0.tar.gz
+[2023-07-29 01:00:12] INFO root fetch - processPackages [naruno-api]: Downloading https://files.pythonhosted.org/packages/46/20/16d3397e308f8d8c3e8e5e1d2c6b1541fb958f5e3222e49966d07c55324c/naruno_api-0.59.0.tar.gz
+[2023-07-29 01:00:12] INFO root fetch - processPackages [naruno-gui]: Downloading https://files.pythonhosted.org/packages/9b/5a/83486bcd0d5d4732f1f266ee85a72b245f7fa03fe23cb1d55f1d5a3726e6/naruno_gui-0.59.0.tar.gz
+[2023-07-29 01:00:12] INFO root fetch - processPackages [naruno-remote-app]: Downloading https://files.pythonhosted.org/packages/be/ab/e1d84c97b1ec26582477c7904b382eaf96cf308db1ff2037605fb1673558/naruno_remote_app-0.59.0.tar.gz
+[2023-07-29 01:00:13] INFO root fetch - processPackages [monarch-py]: Downloading https://files.pythonhosted.org/packages/f2/a8/60e40f29cd6213ebb7999bf65fcc3c1afdcb0e84887f0d2d7736866e4844/monarch_py-0.9.5.tar.gz
+[2023-07-29 01:00:13] INFO root fetch - processPackages [pulumi-terraform]: Downloading https://files.pythonhosted.org/packages/f7/2a/ba233e0a470929317e460f8f1955899c56295ad9a19bac2eea8df8579d7c/pulumi_terraform-5.9.0.tar.gz
+[2023-07-29 01:00:13] INFO root fetch - processPackages [mcptbr]: Downloading https://files.pythonhosted.org/packages/b7/4d/ac3ee02f3aa7b42ad3be93bd0507ae8eec91a8e4c17553665605b76db8e5/mcptbr-0.2.0.tar.gz
+[2023-07-29 01:00:13] INFO root fetch - processPackages [beewi-smartclim-ble]: Downloading https://files.pythonhosted.org/packages/4f/5a/109d92799738477ab15d8bf88bf897976f6d813d58d2b7775ff9fa0b955f/beewi_smartclim_ble-0.4.0.tar.gz
+[2023-07-29 01:00:13] INFO root fetch - processPackages [naruno-remote-app]: Downloading https://files.pythonhosted.org/packages/c9/9d/2480644b0b668c0a2bee0f9701b0710fea9361332f723ab69691550dee09/naruno_remote_app-0.60.0.tar.gz
+[2023-07-29 01:00:13] INFO root fetch - processPackages [monarch-py]: executing diffoscope
+[2023-07-29 01:00:13] INFO root fetch - processPackages [monarch-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monarch_py-0.9.4.tar.gz tmp/monarch_py-0.9.5.tar.gz --markdown 20230729/m/monarch-py/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-29 01:00:13] INFO root fetch - processPackages [lucupy]: Downloading https://files.pythonhosted.org/packages/8e/71/90824741abbd5f41e02cef3f27573135ac7ee3e561efa91dfd0394c03374/lucupy-0.1.9.tar.gz
+[2023-07-29 01:00:13] INFO root fetch - processPackages [pulumi-terraform]: executing diffoscope
+[2023-07-29 01:00:13] INFO root fetch - processPackages [pulumi-terraform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_terraform-5.8.0a1675048832.tar.gz tmp/pulumi_terraform-5.9.0.tar.gz --markdown 20230729/p/pulumi-terraform/5.8.0a1675048832-5.9.0/diff.md --exclude *.pyd
+[2023-07-29 01:00:13] INFO root fetch - processPackages [naruno-gui]: Downloading https://files.pythonhosted.org/packages/f2/2c/12038e155e9d15bfe8f41da1050523271fe2c9a91587f71ea70482b1c065/naruno_gui-0.60.0.tar.gz
+[2023-07-29 01:00:13] INFO root fetch - processPackages [naruno-api]: Downloading https://files.pythonhosted.org/packages/b5/30/656de5f926a44cda6a22d6d792cfbb581866b4d76bb676e886cf892bbce2/naruno_api-0.60.0.tar.gz
+[2023-07-29 01:00:13] INFO root fetch - processPackages [naruno]: Downloading https://files.pythonhosted.org/packages/4f/6e/b6c36c8eb819fd346f2fe21d6dad5978b87ac33c160ed72dda27de791d44/naruno-0.60.0.tar.gz
+[2023-07-29 01:00:13] INFO root fetch - processPackages [mcptbr]: executing diffoscope
+[2023-07-29 01:00:13] INFO root fetch - processPackages [mcptbr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcptbr-0.1.9.tar.gz tmp/mcptbr-0.2.0.tar.gz --markdown 20230729/m/mcptbr/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-29 01:00:13] INFO root fetch - processPackages [beewi-smartclim-ble]: executing diffoscope
+[2023-07-29 01:00:13] INFO root fetch - processPackages [beewi-smartclim-ble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beewi_smartclim_ble-0.3.0.tar.gz tmp/beewi_smartclim_ble-0.4.0.tar.gz --markdown 20230729/b/beewi-smartclim-ble/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-29 01:00:13] INFO root fetch - processPackages [naruno-tests]: Downloading https://files.pythonhosted.org/packages/9f/ff/909648695595f97534ab237a98e7dfb68f123356bab7a1d594ff56106127/naruno_tests-0.60.0.tar.gz
+[2023-07-29 01:00:13] INFO root fetch - processPackages [naruno-remote-app]: executing diffoscope
+[2023-07-29 01:00:13] INFO root fetch - processPackages [naruno-remote-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naruno_remote_app-0.59.0.tar.gz tmp/naruno_remote_app-0.60.0.tar.gz --markdown 20230729/n/naruno-remote-app/0.59.0-0.60.0/diff.md --exclude *.pyd
+[2023-07-29 01:00:13] INFO root fetch - processPackages [lucupy]: executing diffoscope
+[2023-07-29 01:00:13] INFO root fetch - processPackages [lucupy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lucupy-0.1.8.tar.gz tmp/lucupy-0.1.9.tar.gz --markdown 20230729/l/lucupy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-29 01:00:13] INFO root fetch - processPackages [naruno-gui]: executing diffoscope
+[2023-07-29 01:00:13] INFO root fetch - processPackages [naruno-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naruno_gui-0.59.0.tar.gz tmp/naruno_gui-0.60.0.tar.gz --markdown 20230729/n/naruno-gui/0.59.0-0.60.0/diff.md --exclude *.pyd
+[2023-07-29 01:00:13] INFO root fetch - processPackages [naruno-api]: executing diffoscope
+[2023-07-29 01:00:13] INFO root fetch - processPackages [naruno-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naruno_api-0.59.0.tar.gz tmp/naruno_api-0.60.0.tar.gz --markdown 20230729/n/naruno-api/0.59.0-0.60.0/diff.md --exclude *.pyd
+[2023-07-29 01:00:13] INFO root fetch - processPackages [naruno-tests]: executing diffoscope
+[2023-07-29 01:00:13] INFO root fetch - processPackages [naruno-tests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naruno_tests-0.59.0.tar.gz tmp/naruno_tests-0.60.0.tar.gz --markdown 20230729/n/naruno-tests/0.59.0-0.60.0/diff.md --exclude *.pyd
+[2023-07-29 01:00:13] INFO root fetch - processPackages [naruno]: executing diffoscope
+[2023-07-29 01:00:13] INFO root fetch - processPackages [naruno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naruno-0.59.0.tar.gz tmp/naruno-0.60.0.tar.gz --markdown 20230729/n/naruno/0.59.0-0.60.0/diff.md --exclude *.pyd
+[2023-07-29 01:00:14] INFO root fetch - processPackages [pulumi-terraform]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_terraform-5.8.0a1675048832.tar.gz]
+[2023-07-29 01:00:14] INFO root fetch - processPackages [pulumi-terraform]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_terraform-5.9.0.tar.gz]
+[2023-07-29 01:00:14] INFO root fetch - processPackages [pulumi-terraform]: Start processing: garrett-streamlit-auth0
+[2023-07-29 01:00:14] INFO root fetch - main [MainThread]: End processing [pulumi-terraform]: success
+[2023-07-29 01:00:14] INFO root fetch - processPackages [garrett-streamlit-auth0]: New version: [0.4] Old Version: [0.3.0.5.dev1690261241]
+[2023-07-29 01:00:14] INFO root fetch - processPackages [naruno-gui]: Remove: archive file [/home/abi/fetcher/tmp/naruno_gui-0.59.0.tar.gz]
+[2023-07-29 01:00:14] INFO root fetch - processPackages [naruno-gui]: Remove: archive file [/home/abi/fetcher/tmp/naruno_gui-0.60.0.tar.gz]
+[2023-07-29 01:00:14] INFO root fetch - main [MainThread]: End processing [naruno-gui]: success
+[2023-07-29 01:00:15] INFO root fetch - processPackages [garrett-streamlit-auth0]: Downloading https://files.pythonhosted.org/packages/bf/e6/f5edbd0f5712f19bdc89e1f0195fb7d66b37f84eee3bd2e2d11e07eacc80/garrett-streamlit-auth0-0.3.0.5.dev1690261241.tar.gz
+[2023-07-29 01:00:15] INFO root fetch - processPackages [beewi-smartclim-ble]: Remove: archive file [/home/abi/fetcher/tmp/beewi_smartclim_ble-0.3.0.tar.gz]
+[2023-07-29 01:00:15] INFO root fetch - processPackages [beewi-smartclim-ble]: Remove: archive file [/home/abi/fetcher/tmp/beewi_smartclim_ble-0.4.0.tar.gz]
+[2023-07-29 01:00:15] INFO root fetch - main [MainThread]: End processing [beewi-smartclim-ble]: success
+[2023-07-29 01:00:15] INFO root fetch - processPackages [monarch-py]: Remove: archive file [/home/abi/fetcher/tmp/monarch_py-0.9.4.tar.gz]
+[2023-07-29 01:00:15] INFO root fetch - processPackages [monarch-py]: Remove: archive file [/home/abi/fetcher/tmp/monarch_py-0.9.5.tar.gz]
+[2023-07-29 01:00:15] INFO root fetch - main [MainThread]: End processing [monarch-py]: success
+[2023-07-29 01:00:15] INFO root fetch - processPackages [lucupy]: Remove: archive file [/home/abi/fetcher/tmp/lucupy-0.1.8.tar.gz]
+[2023-07-29 01:00:15] INFO root fetch - processPackages [lucupy]: Remove: archive file [/home/abi/fetcher/tmp/lucupy-0.1.9.tar.gz]
+[2023-07-29 01:00:15] INFO root fetch - main [MainThread]: End processing [lucupy]: success
+[2023-07-29 01:00:15] INFO root fetch - processPackages [naruno-remote-app]: Remove: archive file [/home/abi/fetcher/tmp/naruno_remote_app-0.59.0.tar.gz]
+[2023-07-29 01:00:15] INFO root fetch - processPackages [naruno-remote-app]: Remove: archive file [/home/abi/fetcher/tmp/naruno_remote_app-0.60.0.tar.gz]
+[2023-07-29 01:00:15] INFO root fetch - main [MainThread]: End processing [naruno-remote-app]: success
+[2023-07-29 01:00:15] INFO root fetch - processPackages [mcptbr]: Remove: archive file [/home/abi/fetcher/tmp/mcptbr-0.1.9.tar.gz]
+[2023-07-29 01:00:15] INFO root fetch - processPackages [mcptbr]: Remove: archive file [/home/abi/fetcher/tmp/mcptbr-0.2.0.tar.gz]
+[2023-07-29 01:00:15] INFO root fetch - main [MainThread]: End processing [mcptbr]: success
+[2023-07-29 01:00:15] INFO root fetch - processPackages [naruno-tests]: Remove: archive file [/home/abi/fetcher/tmp/naruno_tests-0.59.0.tar.gz]
+[2023-07-29 01:00:15] INFO root fetch - processPackages [naruno-tests]: Remove: archive file [/home/abi/fetcher/tmp/naruno_tests-0.60.0.tar.gz]
+[2023-07-29 01:00:15] INFO root fetch - main [MainThread]: End processing [naruno-tests]: success
+[2023-07-29 01:00:15] INFO root fetch - processPackages [naruno-api]: Remove: archive file [/home/abi/fetcher/tmp/naruno_api-0.59.0.tar.gz]
+[2023-07-29 01:00:15] INFO root fetch - processPackages [naruno-api]: Remove: archive file [/home/abi/fetcher/tmp/naruno_api-0.60.0.tar.gz]
+[2023-07-29 01:00:15] INFO root fetch - main [MainThread]: End processing [naruno-api]: success
+[2023-07-29 01:00:15] INFO root fetch - processPackages [garrett-streamlit-auth0]: Downloading https://files.pythonhosted.org/packages/e6/a9/fea15b809c8919c88bc5fc8fa2e735d98567fadd471fd9ddbe0e9c2c3128/garrett-streamlit-auth0-0.4.tar.gz
+[2023-07-29 01:00:15] INFO root fetch - processPackages [garrett-streamlit-auth0]: executing diffoscope
+[2023-07-29 01:00:15] INFO root fetch - processPackages [garrett-streamlit-auth0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garrett-streamlit-auth0-0.3.0.5.dev1690261241.tar.gz tmp/garrett-streamlit-auth0-0.4.tar.gz --markdown 20230729/g/garrett-streamlit-auth0/0.3.0.5.dev1690261241-0.4/diff.md --exclude *.pyd
+[2023-07-29 01:00:16] INFO root fetch - processPackages [naruno]: Remove: archive file [/home/abi/fetcher/tmp/naruno-0.59.0.tar.gz]
+[2023-07-29 01:00:16] INFO root fetch - processPackages [naruno]: Remove: archive file [/home/abi/fetcher/tmp/naruno-0.60.0.tar.gz]
+[2023-07-29 01:00:16] INFO root fetch - main [MainThread]: End processing [naruno]: success
+[2023-07-29 01:00:18] INFO root fetch - processPackages [garrett-streamlit-auth0]: Remove: archive file [/home/abi/fetcher/tmp/garrett-streamlit-auth0-0.3.0.5.dev1690261241.tar.gz]
+[2023-07-29 01:00:18] INFO root fetch - processPackages [garrett-streamlit-auth0]: Remove: archive file [/home/abi/fetcher/tmp/garrett-streamlit-auth0-0.4.tar.gz]
+[2023-07-29 01:00:18] INFO root fetch - main [MainThread]: End processing [garrett-streamlit-auth0]: success
+[2023-07-29 01:00:18] INFO root fetch - main [MainThread]: Store serial: [19082365]
