@@ -809,3 +809,54 @@
 [2023-07-29 01:00:18] INFO root fetch - processPackages [garrett-streamlit-auth0]: Remove: archive file [/home/abi/fetcher/tmp/garrett-streamlit-auth0-0.4.tar.gz]
 [2023-07-29 01:00:18] INFO root fetch - main [MainThread]: End processing [garrett-streamlit-auth0]: success
 [2023-07-29 01:00:18] INFO root fetch - main [MainThread]: Store serial: [19082365]
+[2023-07-29 01:05:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19082365]
+[2023-07-29 01:05:27] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-29 01:05:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tmnt-cu101
+[2023-07-29 01:05:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tmnt
+[2023-07-29 01:05:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bdrc-volume-manifest-builder
+[2023-07-29 01:05:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-ssi-fleet-work-order
+[2023-07-29 01:05:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: napari-guitils
+[2023-07-29 01:05:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rime-sdk
+[2023-07-29 01:05:27] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230728] Old Version: [0.7.0b20230727]
+[2023-07-29 01:05:27] WARNING root fetch - processPackages [napari-guitils]: Skipping, unable to determine old version
+[2023-07-29 01:05:27] INFO root fetch - processPackages [odoo14-addon-ssi-fleet-work-order]: New version: [14.0.2.1.0] Old Version: [14.0.2.0.1.dev1]
+[2023-07-29 01:05:27] INFO root fetch - main [MainThread]: End processing [napari-guitils] error
+[2023-07-29 01:05:27] INFO root fetch - processPackages [rime-sdk]: New version: [2.2.0rc5] Old Version: [2.2.0rc4]
+[2023-07-29 01:05:27] INFO root fetch - processPackages [bdrc-volume-manifest-builder]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-29 01:05:27] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230728] Old Version: [0.7.0b20230727]
+[2023-07-29 01:05:27] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/92/63/bd33d12932ffebb8b4b808d333824613c15bbb734dd4e1b7bbbf1876d321/tmnt-cu101-0.7.0b20230727.tar.gz
+[2023-07-29 01:05:27] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/c9/72/2079f5ef48a348f1bdb24e09585b261cb0cf1b3b113370c57420e3cf1c06/rime_sdk-2.2.0rc4.tar.gz
+[2023-07-29 01:05:27] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/ea/a0/a9ae356d17bc0eb7d9aaefea84870f72e328d5fbfd8c96aa4548dec87cbc/tmnt-0.7.0b20230727.tar.gz
+[2023-07-29 01:05:27] INFO root fetch - processPackages [odoo14-addon-ssi-fleet-work-order]: Downloading https://files.pythonhosted.org/packages/1f/6d/56847bbc4300da80d2dd47bd4df9e685bc85de4658da36fa72feb9dbe977/odoo14_addon_ssi_fleet_work_order-14.0.2.0.1.dev1-py3-none-any.whl
+[2023-07-29 01:05:27] INFO root fetch - processPackages [bdrc-volume-manifest-builder]: Downloading https://files.pythonhosted.org/packages/3a/c7/aea4defd366f46511c2a15cd4013f4c80073ebca3ba95803f5b14b720ff1/bdrc_volume_manifest_builder-1.2.8-py3-none-any.whl
+[2023-07-29 01:05:28] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/bd/1f/7596d69433525f46ae5f805ad86e58239ecf47829319d1da73db3869b7f8/rime_sdk-2.2.0rc5.tar.gz
+[2023-07-29 01:05:28] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/03/a8/33750cce3f0a02e0fb7868cd9d7c8f9ec3a845914614184427f9f43cdb43/tmnt-cu101-0.7.0b20230728.tar.gz
+[2023-07-29 01:05:28] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/60/4b/45e09d80ae4382d7fb9f4dedc3cf421eff9f5e78a60122837b6955531c9d/tmnt-0.7.0b20230728.tar.gz
+[2023-07-29 01:05:28] INFO root fetch - processPackages [bdrc-volume-manifest-builder]: Downloading https://files.pythonhosted.org/packages/78/2b/3a0976070432b5bd9289af5178cebde04b53418a761a1f5e2d88e063368c/bdrc_volume_manifest_builder-1.2.9-py3-none-any.whl
+[2023-07-29 01:05:28] INFO root fetch - processPackages [rime-sdk]: executing diffoscope
+[2023-07-29 01:05:28] INFO root fetch - processPackages [rime-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rime_sdk-2.2.0rc4.tar.gz tmp/rime_sdk-2.2.0rc5.tar.gz --markdown 20230729/r/rime-sdk/2.2.0rc4-2.2.0rc5/diff.md --exclude *.pyd
+[2023-07-29 01:05:28] INFO root fetch - processPackages [odoo14-addon-ssi-fleet-work-order]: Downloading https://files.pythonhosted.org/packages/95/5a/4d7d2748d410ea9fe58c085f682a1c8134ebad50fce850c4cf06090607f8/odoo14_addon_ssi_fleet_work_order-14.0.2.1.0-py3-none-any.whl
+[2023-07-29 01:05:28] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-07-29 01:05:28] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230727.tar.gz tmp/tmnt-cu101-0.7.0b20230728.tar.gz --markdown 20230729/t/tmnt-cu101/0.7.0b20230727-0.7.0b20230728/diff.md --exclude *.pyd
+[2023-07-29 01:05:28] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-07-29 01:05:28] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230727.tar.gz tmp/tmnt-0.7.0b20230728.tar.gz --markdown 20230729/t/tmnt/0.7.0b20230727-0.7.0b20230728/diff.md --exclude *.pyd
+[2023-07-29 01:05:28] INFO root fetch - processPackages [bdrc-volume-manifest-builder]: executing diffoscope
+[2023-07-29 01:05:28] INFO root fetch - processPackages [bdrc-volume-manifest-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdrc_volume_manifest_builder-1.2.8-py3-none-any.whl.zip tmp/bdrc_volume_manifest_builder-1.2.9-py3-none-any.whl.zip --markdown 20230729/b/bdrc-volume-manifest-builder/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-29 01:05:28] INFO root fetch - processPackages [odoo14-addon-ssi-fleet-work-order]: executing diffoscope
+[2023-07-29 01:05:28] INFO root fetch - processPackages [odoo14-addon-ssi-fleet-work-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_fleet_work_order-14.0.2.0.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_ssi_fleet_work_order-14.0.2.1.0-py3-none-any.whl.zip --markdown 20230729/o/odoo14-addon-ssi-fleet-work-order/14.0.2.0.1.dev1-14.0.2.1.0/diff.md --exclude *.pyd
+[2023-07-29 01:05:29] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230727.tar.gz]
+[2023-07-29 01:05:29] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230728.tar.gz]
+[2023-07-29 01:05:29] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-07-29 01:05:29] INFO root fetch - processPackages [odoo14-addon-ssi-fleet-work-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_fleet_work_order-14.0.2.0.1.dev1-py3-none-any.whl.zip]
+[2023-07-29 01:05:29] INFO root fetch - processPackages [odoo14-addon-ssi-fleet-work-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_fleet_work_order-14.0.2.1.0-py3-none-any.whl.zip]
+[2023-07-29 01:05:29] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-fleet-work-order]: success
+[2023-07-29 01:05:29] INFO root fetch - processPackages [bdrc-volume-manifest-builder]: Remove: archive file [/home/abi/fetcher/tmp/bdrc_volume_manifest_builder-1.2.8-py3-none-any.whl.zip]
+[2023-07-29 01:05:29] INFO root fetch - processPackages [bdrc-volume-manifest-builder]: Remove: archive file [/home/abi/fetcher/tmp/bdrc_volume_manifest_builder-1.2.9-py3-none-any.whl.zip]
+[2023-07-29 01:05:29] INFO root fetch - main [MainThread]: End processing [bdrc-volume-manifest-builder]: success
+[2023-07-29 01:05:29] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230727.tar.gz]
+[2023-07-29 01:05:29] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230728.tar.gz]
+[2023-07-29 01:05:29] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-07-29 01:05:31] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.2.0rc4.tar.gz]
+[2023-07-29 01:05:31] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.2.0rc5.tar.gz]
+[2023-07-29 01:05:31] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
+[2023-07-29 01:05:31] INFO root fetch - main [MainThread]: Store serial: [19082383]
