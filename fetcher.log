@@ -489,3 +489,67 @@
 [2023-07-29 00:39:01] INFO root fetch - processPackages [kdp-api-python-client]: Remove: archive file [/home/abi/fetcher/tmp/kdp-api-python-client-4.9.0.tar.gz]
 [2023-07-29 00:39:01] INFO root fetch - main [MainThread]: End processing [kdp-api-python-client]: success
 [2023-07-29 00:39:01] INFO root fetch - main [MainThread]: Store serial: [19082220]
+[2023-07-29 00:44:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19082220]
+[2023-07-29 00:44:09] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-29 00:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: InvokeAI
+[2023-07-29 00:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vstutils
+[2023-07-29 00:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-07-29 00:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: valipy
+[2023-07-29 00:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yet-another-wizz-cli
+[2023-07-29 00:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: asana-preview
+[2023-07-29 00:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-07-29 00:44:09] INFO root fetch - processPackages [valipy]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-29 00:44:09] INFO root fetch - processPackages [InvokeAI]: New version: [3.0.1rc2] Old Version: [3.0.1rc1]
+[2023-07-29 00:44:09] INFO root fetch - processPackages [vstutils]: New version: [5.6.6] Old Version: [5.6.5]
+[2023-07-29 00:44:09] INFO root fetch - processPackages [yet-another-wizz-cli]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-07-29 00:44:09] INFO root fetch - processPackages [asana-preview]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-29 00:44:09] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.412] Old Version: [0.3.411]
+[2023-07-29 00:44:09] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.412] Old Version: [0.3.411]
+[2023-07-29 00:44:10] INFO root fetch - processPackages [asana-preview]: Downloading https://files.pythonhosted.org/packages/3a/3b/f1517b56e0b08628cdcf3b05fb7d690794e7ea0fb89e16b534d6e1a5f5c1/asana_preview-1.0.8.tar.gz
+[2023-07-29 00:44:10] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/d1/08/c2c174f6005fc7206d8b47b845b1ed33d3b8d67566e908d44baefc323a8d/pepperize.cdk-ses-smtp-credentials-0.3.411.tar.gz
+[2023-07-29 00:44:10] INFO root fetch - processPackages [vstutils]: Downloading https://files.pythonhosted.org/packages/05/1c/d761980157faf639fb656bd0393b52a2060b3d0f9605387726468e95330b/vstutils-5.6.5.tar.gz
+[2023-07-29 00:44:10] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/d1/08/c2c174f6005fc7206d8b47b845b1ed33d3b8d67566e908d44baefc323a8d/pepperize.cdk-ses-smtp-credentials-0.3.411.tar.gz
+[2023-07-29 00:44:10] INFO root fetch - processPackages [valipy]: Downloading https://files.pythonhosted.org/packages/f0/86/99fc50fb81314bedca37c698db74965ae57ec33d834c1120caa16b6a66a1/valipy-0.1.0.tar.gz
+[2023-07-29 00:44:10] INFO root fetch - processPackages [InvokeAI]: Downloading https://files.pythonhosted.org/packages/02/de/4888688b1edf6106de348331d43ba0a58d0da08f31e67ff8118c0b5597f7/InvokeAI-3.0.1rc1.tar.gz
+[2023-07-29 00:44:10] INFO root fetch - processPackages [yet-another-wizz-cli]: Downloading https://files.pythonhosted.org/packages/24/bc/b1d0211d41451e97b822176a7a4e94219a04c643ea2bd2ed637e621e9760/yet_another_wizz_cli-1.2.4.tar.gz
+[2023-07-29 00:44:10] INFO root fetch - processPackages [asana-preview]: Downloading https://files.pythonhosted.org/packages/40/0c/73be80ef3493809a86453d7d59f33741d4521aa7e79b0326f6457cdad900/asana_preview-1.0.9.tar.gz
+[2023-07-29 00:44:10] INFO root fetch - processPackages [asana-preview]: executing diffoscope
+[2023-07-29 00:44:10] INFO root fetch - processPackages [asana-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asana_preview-1.0.8.tar.gz tmp/asana_preview-1.0.9.tar.gz --markdown 20230729/a/asana-preview/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-29 00:44:10] INFO root fetch - processPackages [valipy]: Downloading https://files.pythonhosted.org/packages/4b/c5/e1be37c5fc72c37d4a9a43e05647a150950e734582bd7d96746f905f9934/valipy-0.1.1.tar.gz
+[2023-07-29 00:44:10] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/64/4f/29d31807ab8b2659ba0a239cafedf21dbc315edcf5353a9a92c5ee1c55fe/pepperize.cdk-ses-smtp-credentials-0.3.412.tar.gz
+[2023-07-29 00:44:10] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/64/4f/29d31807ab8b2659ba0a239cafedf21dbc315edcf5353a9a92c5ee1c55fe/pepperize.cdk-ses-smtp-credentials-0.3.412.tar.gz
+[2023-07-29 00:44:10] INFO root fetch - processPackages [vstutils]: Downloading https://files.pythonhosted.org/packages/a0/3f/68b60e414115fa9874da90dcade69395f0cd3628dcf03bb29529d1beedd3/vstutils-5.6.6.tar.gz
+[2023-07-29 00:44:10] INFO root fetch - processPackages [yet-another-wizz-cli]: Downloading https://files.pythonhosted.org/packages/0b/8d/3b3b8e13293870621ebf2f98aa7cece0394c44da91749676199003145e97/yet_another_wizz_cli-1.2.5.tar.gz
+[2023-07-29 00:44:10] INFO root fetch - processPackages [valipy]: executing diffoscope
+[2023-07-29 00:44:10] INFO root fetch - processPackages [valipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valipy-0.1.0.tar.gz tmp/valipy-0.1.1.tar.gz --markdown 20230729/v/valipy/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-29 00:44:10] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-07-29 00:44:10] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.411.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.412.tar.gz --markdown 20230729/p/pepperize.cdk-ses-smtp-credentials/0.3.411-0.3.412/diff.md --exclude *.pyd
+[2023-07-29 00:44:10] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-07-29 00:44:10] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.411.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.412.tar.gz --markdown 20230729/p/pepperize.cdk-ses-smtp-credentials/0.3.411-0.3.412/diff.md --exclude *.pyd
+[2023-07-29 00:44:10] INFO root fetch - processPackages [vstutils]: executing diffoscope
+[2023-07-29 00:44:10] INFO root fetch - processPackages [vstutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vstutils-5.6.5.tar.gz tmp/vstutils-5.6.6.tar.gz --markdown 20230729/v/vstutils/5.6.5-5.6.6/diff.md --exclude *.pyd
+[2023-07-29 00:44:10] INFO root fetch - processPackages [yet-another-wizz-cli]: executing diffoscope
+[2023-07-29 00:44:10] INFO root fetch - processPackages [yet-another-wizz-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yet_another_wizz_cli-1.2.4.tar.gz tmp/yet_another_wizz_cli-1.2.5.tar.gz --markdown 20230729/y/yet-another-wizz-cli/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-07-29 00:44:10] INFO root fetch - processPackages [InvokeAI]: Downloading https://files.pythonhosted.org/packages/16/6c/907d3828ea5ddb4f21489e07a540747101b37f7bbdc6fd597aca5dffdcbe/InvokeAI-3.0.1rc2.tar.gz
+[2023-07-29 00:44:11] INFO root fetch - processPackages [InvokeAI]: executing diffoscope
+[2023-07-29 00:44:11] INFO root fetch - processPackages [InvokeAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/InvokeAI-3.0.1rc1.tar.gz tmp/InvokeAI-3.0.1rc2.tar.gz --markdown 20230729/I/InvokeAI/3.0.1rc1-3.0.1rc2/diff.md --exclude *.pyd
+[2023-07-29 00:44:11] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.411.tar.gz]
+[2023-07-29 00:44:11] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.412.tar.gz]
+[2023-07-29 00:44:11] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-07-29 00:44:11] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-07-29 00:44:12] INFO root fetch - processPackages [valipy]: Remove: archive file [/home/abi/fetcher/tmp/valipy-0.1.0.tar.gz]
+[2023-07-29 00:44:12] INFO root fetch - processPackages [valipy]: Remove: archive file [/home/abi/fetcher/tmp/valipy-0.1.1.tar.gz]
+[2023-07-29 00:44:12] INFO root fetch - main [MainThread]: End processing [valipy]: success
+[2023-07-29 00:44:12] INFO root fetch - processPackages [yet-another-wizz-cli]: Remove: archive file [/home/abi/fetcher/tmp/yet_another_wizz_cli-1.2.4.tar.gz]
+[2023-07-29 00:44:12] INFO root fetch - processPackages [yet-another-wizz-cli]: Remove: archive file [/home/abi/fetcher/tmp/yet_another_wizz_cli-1.2.5.tar.gz]
+[2023-07-29 00:44:12] INFO root fetch - main [MainThread]: End processing [yet-another-wizz-cli]: success
+[2023-07-29 00:44:12] INFO root fetch - processPackages [vstutils]: Remove: archive file [/home/abi/fetcher/tmp/vstutils-5.6.5.tar.gz]
+[2023-07-29 00:44:12] INFO root fetch - processPackages [vstutils]: Remove: archive file [/home/abi/fetcher/tmp/vstutils-5.6.6.tar.gz]
+[2023-07-29 00:44:12] INFO root fetch - main [MainThread]: End processing [vstutils]: success
+[2023-07-29 00:44:15] INFO root fetch - processPackages [asana-preview]: Remove: archive file [/home/abi/fetcher/tmp/asana_preview-1.0.8.tar.gz]
+[2023-07-29 00:44:15] INFO root fetch - processPackages [asana-preview]: Remove: archive file [/home/abi/fetcher/tmp/asana_preview-1.0.9.tar.gz]
+[2023-07-29 00:44:15] INFO root fetch - main [MainThread]: End processing [asana-preview]: success
+[2023-07-29 00:44:32] INFO root fetch - processPackages [InvokeAI]: Remove: archive file [/home/abi/fetcher/tmp/InvokeAI-3.0.1rc1.tar.gz]
+[2023-07-29 00:44:32] INFO root fetch - processPackages [InvokeAI]: Remove: archive file [/home/abi/fetcher/tmp/InvokeAI-3.0.1rc2.tar.gz]
+[2023-07-29 00:44:32] INFO root fetch - main [MainThread]: End processing [InvokeAI]: success
+[2023-07-29 00:44:32] INFO root fetch - main [MainThread]: Store serial: [19082237]
