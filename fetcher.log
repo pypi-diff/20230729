@@ -379,3 +379,38 @@
 [2023-07-29 00:28:34] INFO root fetch - processPackages [chpass]: Remove: archive file [/home/abi/fetcher/tmp/chpass-0.3.1.tar.gz]
 [2023-07-29 00:28:34] INFO root fetch - main [MainThread]: End processing [chpass]: success
 [2023-07-29 00:28:34] INFO root fetch - main [MainThread]: Store serial: [19082167]
+[2023-07-29 00:33:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19082167]
+[2023-07-29 00:33:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-29 00:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pysr
+[2023-07-29 00:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-kubernetes
+[2023-07-29 00:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yet-another-wizz
+[2023-07-29 00:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jupytext
+[2023-07-29 00:33:43] INFO root fetch - processPackages [yet-another-wizz]: New version: [2.5.post0] Old Version: [2.5.5]
+[2023-07-29 00:33:43] INFO root fetch - processPackages [pulumi-kubernetes]: New version: [4.1.0a1690580034] Old Version: [4.1.0a1689971798]
+[2023-07-29 00:33:43] INFO root fetch - processPackages [pysr]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-29 00:33:43] INFO root fetch - processPackages [jupytext]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-29 00:33:43] INFO root fetch - processPackages [yet-another-wizz]: Downloading https://files.pythonhosted.org/packages/ce/b5/5a6e9b2c3ca3331524662310ef480c439fc588f7169b7bb7d78fcd83a626/yet_another_wizz-2.5.5.tar.gz
+[2023-07-29 00:33:43] INFO root fetch - processPackages [pysr]: Downloading https://files.pythonhosted.org/packages/73/ab/db4ac056fdd819802b0be21ffe3646ee022a42f6a5dc9284315b12b4a5a0/pysr-0.9.4.tar.gz
+[2023-07-29 00:33:43] INFO root fetch - processPackages [pulumi-kubernetes]: Downloading https://files.pythonhosted.org/packages/ad/5a/216555c2c80831d211ece4934d2da0116b0f542481c3e2e71e4b51f671d8/pulumi_kubernetes-4.1.0a1689971798.tar.gz
+[2023-07-29 00:33:44] INFO root fetch - processPackages [jupytext]: Downloading https://files.pythonhosted.org/packages/9a/ea/989cad1f4454819b08737a97c155a82f486e21cfbeda5451457f990679d6/jupytext-1.9.1.tar.gz
+[2023-07-29 00:33:44] WARNING root fetch - processPackages [jupytext]: Skipping package: exceeds size limit 44883075>=10485760
+[2023-07-29 00:33:44] INFO root fetch - main [MainThread]: End processing [jupytext] error
+[2023-07-29 00:33:44] INFO root fetch - processPackages [pysr]: Downloading https://files.pythonhosted.org/packages/94/ab/d3fde0e696012fdbfa1a72dbc577dac59abbdf676445377b79642490eea7/pysr-0.9.5.tar.gz
+[2023-07-29 00:33:44] INFO root fetch - processPackages [yet-another-wizz]: Downloading https://files.pythonhosted.org/packages/22/77/13f66c1f947d8aa062564534678703b9c9d4a8f640323aa54a9bc8525113/yet_another_wizz-2.5.post0.tar.gz
+[2023-07-29 00:33:44] INFO root fetch - processPackages [pulumi-kubernetes]: Downloading https://files.pythonhosted.org/packages/73/7c/1cfe02466d1920f2d44fd289e2624786b23b1211b42f1b41f60845f0fb0e/pulumi_kubernetes-4.1.0a1690580034.tar.gz
+[2023-07-29 00:33:44] INFO root fetch - processPackages [yet-another-wizz]: executing diffoscope
+[2023-07-29 00:33:44] INFO root fetch - processPackages [yet-another-wizz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yet_another_wizz-2.5.5.tar.gz tmp/yet_another_wizz-2.5.post0.tar.gz --markdown 20230729/y/yet-another-wizz/2.5.5-2.5.post0/diff.md --exclude *.pyd
+[2023-07-29 00:33:44] INFO root fetch - processPackages [pysr]: executing diffoscope
+[2023-07-29 00:33:44] INFO root fetch - processPackages [pysr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysr-0.9.4.tar.gz tmp/pysr-0.9.5.tar.gz --markdown 20230729/p/pysr/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-29 00:33:44] INFO root fetch - processPackages [pulumi-kubernetes]: executing diffoscope
+[2023-07-29 00:33:44] INFO root fetch - processPackages [pulumi-kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes-4.1.0a1689971798.tar.gz tmp/pulumi_kubernetes-4.1.0a1690580034.tar.gz --markdown 20230729/p/pulumi-kubernetes/4.1.0a1689971798-4.1.0a1690580034/diff.md --exclude *.pyd
+[2023-07-29 00:33:45] INFO root fetch - processPackages [pysr]: Remove: archive file [/home/abi/fetcher/tmp/pysr-0.9.4.tar.gz]
+[2023-07-29 00:33:45] INFO root fetch - processPackages [pysr]: Remove: archive file [/home/abi/fetcher/tmp/pysr-0.9.5.tar.gz]
+[2023-07-29 00:33:45] INFO root fetch - main [MainThread]: End processing [pysr]: success
+[2023-07-29 00:33:45] INFO root fetch - processPackages [yet-another-wizz]: Remove: archive file [/home/abi/fetcher/tmp/yet_another_wizz-2.5.5.tar.gz]
+[2023-07-29 00:33:45] INFO root fetch - processPackages [yet-another-wizz]: Remove: archive file [/home/abi/fetcher/tmp/yet_another_wizz-2.5.post0.tar.gz]
+[2023-07-29 00:33:45] INFO root fetch - main [MainThread]: End processing [yet-another-wizz]: success
+[2023-07-29 00:33:48] INFO root fetch - processPackages [pulumi-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes-4.1.0a1689971798.tar.gz]
+[2023-07-29 00:33:48] INFO root fetch - processPackages [pulumi-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes-4.1.0a1690580034.tar.gz]
+[2023-07-29 00:33:48] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes]: success
+[2023-07-29 00:33:48] INFO root fetch - main [MainThread]: Store serial: [19082197]
