@@ -178,3 +178,127 @@
 [2023-07-29 00:18:07] INFO root fetch - processPackages [harlequin]: Remove: archive file [/home/abi/fetcher/tmp/harlequin-0.0.9.tar.gz]
 [2023-07-29 00:18:07] INFO root fetch - main [MainThread]: End processing [harlequin]: success
 [2023-07-29 00:18:07] INFO root fetch - main [MainThread]: Store serial: [19082078]
+[2023-07-29 00:23:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19082078]
+[2023-07-29 00:23:16] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-29 00:23:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pforacle
+[2023-07-29 00:23:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pforacle
+[2023-07-29 00:23:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trongrid-extractor
+[2023-07-29 00:23:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opower
+[2023-07-29 00:23:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stonefish
+[2023-07-29 00:23:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: truss
+[2023-07-29 00:23:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trongrid-extractoor
+[2023-07-29 00:23:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aistore
+[2023-07-29 00:23:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: partiql-python
+[2023-07-29 00:23:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xpiz
+[2023-07-29 00:23:16] WARNING root fetch - processPackages [partiql-python]: Skipping, unable to determine old version
+[2023-07-29 00:23:16] INFO root fetch - processPackages [partiql-python]: Start processing: qonnx
+[2023-07-29 00:23:16] INFO root fetch - main [MainThread]: End processing [partiql-python] error
+[2023-07-29 00:23:16] INFO root fetch - processPackages [aistore]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-07-29 00:23:16] INFO root fetch - processPackages [xpiz]: New version: [0.0.2] Old Version: [0.0.0]
+[2023-07-29 00:23:16] INFO root fetch - processPackages [stonefish]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-29 00:23:16] INFO root fetch - processPackages [truss]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-29 00:23:16] INFO root fetch - processPackages [trongrid-extractor]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-29 00:23:16] INFO root fetch - processPackages [pforacle]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-29 00:23:16] INFO root fetch - processPackages [pforacle]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-29 00:23:16] WARNING root fetch - processPackages [trongrid-extractoor]: Skipping, unable to determine old version
+[2023-07-29 00:23:16] INFO root fetch - processPackages [trongrid-extractoor]: Start processing: OctoBot-Trading
+[2023-07-29 00:23:16] INFO root fetch - main [MainThread]: End processing [trongrid-extractoor] error
+[2023-07-29 00:23:16] INFO root fetch - processPackages [opower]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-29 00:23:16] INFO root fetch - processPackages [qonnx]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-29 00:23:16] INFO root fetch - processPackages [pforacle]: Downloading https://files.pythonhosted.org/packages/ef/51/3d03f134913005dc7c16335d882162943ba3db6ce6a072a7418e695134b1/pforacle-0.0.1.tar.gz
+[2023-07-29 00:23:16] INFO root fetch - processPackages [pforacle]: Downloading https://files.pythonhosted.org/packages/ef/51/3d03f134913005dc7c16335d882162943ba3db6ce6a072a7418e695134b1/pforacle-0.0.1.tar.gz
+[2023-07-29 00:23:16] INFO root fetch - processPackages [OctoBot-Trading]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-07-29 00:23:16] INFO root fetch - processPackages [stonefish]: Downloading https://files.pythonhosted.org/packages/a8/6c/c6ef70461a3438ac080f95dc6f92a6d936f5fd2bf489273959e7f2274c23/stonefish-0.3.8-py3-none-any.whl
+[2023-07-29 00:23:16] INFO root fetch - processPackages [aistore]: Downloading https://files.pythonhosted.org/packages/af/40/00127a1758e5558ecb341bd88f726d88b9212bbfc6b40916d31d975f049b/aistore-1.4.2.tar.gz
+[2023-07-29 00:23:16] INFO root fetch - processPackages [xpiz]: Downloading https://files.pythonhosted.org/packages/b6/31/68d78c185958ceabf46422ffe1f9add9b85d99a2d52a5ea24986f71f6c12/xpiz-0.0.0.tar.gz
+[2023-07-29 00:23:16] INFO root fetch - processPackages [truss]: Downloading https://files.pythonhosted.org/packages/13/8b/691d8acd3f4025a9bd8d53a30034b6561764072ff2ea02f26e7bb2e2e3f0/truss-0.5.1.tar.gz
+[2023-07-29 00:23:16] INFO root fetch - processPackages [opower]: Downloading https://files.pythonhosted.org/packages/de/e7/5d0e2eea618e46b3230cd28958d2cca7ca8ef0ec3acf7d333b499bc466db/opower-0.0.8.tar.gz
+[2023-07-29 00:23:16] INFO root fetch - processPackages [qonnx]: Downloading https://files.pythonhosted.org/packages/31/c3/27d6d895bd2f3279d024c35611584c0b8ce204bc87eaa28dd7b004d9b15b/qonnx-0.2.0.tar.gz
+[2023-07-29 00:23:16] INFO root fetch - processPackages [trongrid-extractor]: Downloading https://files.pythonhosted.org/packages/af/29/747609d4db37f662da6d18bab7378b70a2295745d6a870f9d48dd25619ee/trongrid_extractor-1.0.0.tar.gz
+[2023-07-29 00:23:17] INFO root fetch - processPackages [OctoBot-Trading]: Downloading https://files.pythonhosted.org/packages/73/23/c1d7881529a8c9625e383e42f1dc81df6232f45c2ceb32da5ce75194f893/OctoBot-Trading-2.4.8.tar.gz
+[2023-07-29 00:23:17] INFO root fetch - processPackages [pforacle]: Downloading https://files.pythonhosted.org/packages/fc/0d/bbac13a4b99a56c304bebbfcd59acd73b97fb8d676e473ebea1580c348ae/pforacle-0.0.2.tar.gz
+[2023-07-29 00:23:17] INFO root fetch - processPackages [pforacle]: Downloading https://files.pythonhosted.org/packages/fc/0d/bbac13a4b99a56c304bebbfcd59acd73b97fb8d676e473ebea1580c348ae/pforacle-0.0.2.tar.gz
+[2023-07-29 00:23:17] INFO root fetch - processPackages [xpiz]: Downloading https://files.pythonhosted.org/packages/bb/db/264e57fb4c257d283cd38a174aeb7d14abea0661aaee29288907c0de9474/xpiz-0.0.2.tar.gz
+[2023-07-29 00:23:17] INFO root fetch - processPackages [stonefish]: Downloading https://files.pythonhosted.org/packages/d1/a1/3faea75bc2e483e14078f7017fb42c494d76fc44900b71482d95eec9140a/stonefish-0.3.9-py3-none-any.whl
+[2023-07-29 00:23:17] INFO root fetch - processPackages [aistore]: Downloading https://files.pythonhosted.org/packages/12/d2/91b21e2d2708c4e73fa9e01e11d8ddba82a346906d927cd79c730706d697/aistore-1.4.3.tar.gz
+[2023-07-29 00:23:17] INFO root fetch - processPackages [truss]: Downloading https://files.pythonhosted.org/packages/65/33/28546e6e6a09d92eb6b503004f71dde2fe6261098831e7612b8111d2096f/truss-0.5.2.tar.gz
+[2023-07-29 00:23:17] INFO root fetch - processPackages [trongrid-extractor]: Downloading https://files.pythonhosted.org/packages/f4/5c/015cb204273814e8f80716797260225e9d5fae4a893f8a0d6b2027b03bc7/trongrid_extractor-1.1.0.tar.gz
+[2023-07-29 00:23:17] INFO root fetch - processPackages [qonnx]: Downloading https://files.pythonhosted.org/packages/76/8d/477e48a0388c8c2a99b0fb55a6319f6041eda7ac2646d250055e12005453/qonnx-0.3.0.tar.gz
+[2023-07-29 00:23:17] INFO root fetch - processPackages [opower]: Downloading https://files.pythonhosted.org/packages/86/54/64abf478f9a76b0937adc32bc301690e94e6e745928ac9cfcd0eeb625f56/opower-0.0.9.tar.gz
+[2023-07-29 00:23:17] INFO root fetch - processPackages [pforacle]: executing diffoscope
+[2023-07-29 00:23:17] INFO root fetch - processPackages [pforacle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pforacle-0.0.1.tar.gz tmp/pforacle-0.0.2.tar.gz --markdown 20230729/p/pforacle/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-29 00:23:17] INFO root fetch - processPackages [pforacle]: executing diffoscope
+[2023-07-29 00:23:17] INFO root fetch - processPackages [pforacle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pforacle-0.0.1.tar.gz tmp/pforacle-0.0.2.tar.gz --markdown 20230729/p/pforacle/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-29 00:23:17] INFO root fetch - processPackages [stonefish]: executing diffoscope
+[2023-07-29 00:23:17] INFO root fetch - processPackages [stonefish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stonefish-0.3.8-py3-none-any.whl.zip tmp/stonefish-0.3.9-py3-none-any.whl.zip --markdown 20230729/s/stonefish/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-29 00:23:17] INFO root fetch - processPackages [aistore]: executing diffoscope
+[2023-07-29 00:23:17] INFO root fetch - processPackages [aistore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aistore-1.4.2.tar.gz tmp/aistore-1.4.3.tar.gz --markdown 20230729/a/aistore/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-07-29 00:23:17] INFO root fetch - processPackages [xpiz]: executing diffoscope
+[2023-07-29 00:23:17] INFO root fetch - processPackages [xpiz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xpiz-0.0.0.tar.gz tmp/xpiz-0.0.2.tar.gz --markdown 20230729/x/xpiz/0.0.0-0.0.2/diff.md --exclude *.pyd
+[2023-07-29 00:23:17] INFO root fetch - processPackages [truss]: executing diffoscope
+[2023-07-29 00:23:17] INFO root fetch - processPackages [truss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/truss-0.5.1.tar.gz tmp/truss-0.5.2.tar.gz --markdown 20230729/t/truss/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-29 00:23:17] INFO root fetch - processPackages [trongrid-extractor]: executing diffoscope
+[2023-07-29 00:23:17] INFO root fetch - processPackages [trongrid-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trongrid_extractor-1.0.0.tar.gz tmp/trongrid_extractor-1.1.0.tar.gz --markdown 20230729/t/trongrid-extractor/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-29 00:23:17] INFO root fetch - processPackages [OctoBot-Trading]: Downloading https://files.pythonhosted.org/packages/77/bc/ecdb68086de1f382830bf4a54be7e64fdcf11183cbc9e6485fe1c829615e/OctoBot-Trading-2.4.9.tar.gz
+[2023-07-29 00:23:17] INFO root fetch - processPackages [qonnx]: executing diffoscope
+[2023-07-29 00:23:17] INFO root fetch - processPackages [qonnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qonnx-0.2.0.tar.gz tmp/qonnx-0.3.0.tar.gz --markdown 20230729/q/qonnx/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-29 00:23:17] INFO root fetch - processPackages [opower]: executing diffoscope
+[2023-07-29 00:23:17] INFO root fetch - processPackages [opower]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opower-0.0.8.tar.gz tmp/opower-0.0.9.tar.gz --markdown 20230729/o/opower/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-29 00:23:17] INFO root fetch - processPackages [OctoBot-Trading]: executing diffoscope
+[2023-07-29 00:23:17] INFO root fetch - processPackages [OctoBot-Trading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OctoBot-Trading-2.4.8.tar.gz tmp/OctoBot-Trading-2.4.9.tar.gz --markdown 20230729/O/OctoBot-Trading/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-07-29 00:23:18] INFO root fetch - processPackages [pforacle]: Remove: archive file [/home/abi/fetcher/tmp/pforacle-0.0.1.tar.gz]
+[2023-07-29 00:23:18] INFO root fetch - processPackages [pforacle]: Remove: archive file [/home/abi/fetcher/tmp/pforacle-0.0.2.tar.gz]
+[2023-07-29 00:23:18] INFO root fetch - processPackages [pforacle]: Start processing: coiled
+[2023-07-29 00:23:18] INFO root fetch - main [MainThread]: End processing [pforacle]: success
+[2023-07-29 00:23:18] INFO root fetch - processPackages [coiled]: New version: [0.9.1.dev9] Old Version: [0.9.1.dev8]
+[2023-07-29 00:23:19] INFO root fetch - processPackages [pforacle]: Start processing: s4-clarity
+[2023-07-29 00:23:19] INFO root fetch - main [MainThread]: End processing [pforacle]: success
+[2023-07-29 00:23:19] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/2f/d9/9a8245a5dc98d6194ae098d07776683055392bc0c589361b02c24de69510/coiled-0.9.1.dev8.tar.gz
+[2023-07-29 00:23:19] INFO root fetch - processPackages [stonefish]: Remove: archive file [/home/abi/fetcher/tmp/stonefish-0.3.8-py3-none-any.whl.zip]
+[2023-07-29 00:23:19] INFO root fetch - processPackages [stonefish]: Remove: archive file [/home/abi/fetcher/tmp/stonefish-0.3.9-py3-none-any.whl.zip]
+[2023-07-29 00:23:19] INFO root fetch - processPackages [stonefish]: Start processing: veilcord
+[2023-07-29 00:23:19] INFO root fetch - main [MainThread]: End processing [stonefish]: success
+[2023-07-29 00:23:19] INFO root fetch - processPackages [s4-clarity]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-07-29 00:23:19] INFO root fetch - processPackages [xpiz]: Remove: archive file [/home/abi/fetcher/tmp/xpiz-0.0.0.tar.gz]
+[2023-07-29 00:23:19] INFO root fetch - processPackages [xpiz]: Remove: archive file [/home/abi/fetcher/tmp/xpiz-0.0.2.tar.gz]
+[2023-07-29 00:23:19] INFO root fetch - main [MainThread]: End processing [xpiz]: success
+[2023-07-29 00:23:19] INFO root fetch - processPackages [veilcord]: New version: [0.0.3.2] Old Version: [0.0.3.1]
+[2023-07-29 00:23:19] INFO root fetch - processPackages [trongrid-extractor]: Remove: archive file [/home/abi/fetcher/tmp/trongrid_extractor-1.0.0.tar.gz]
+[2023-07-29 00:23:19] INFO root fetch - processPackages [trongrid-extractor]: Remove: archive file [/home/abi/fetcher/tmp/trongrid_extractor-1.1.0.tar.gz]
+[2023-07-29 00:23:19] INFO root fetch - main [MainThread]: End processing [trongrid-extractor]: success
+[2023-07-29 00:23:19] INFO root fetch - processPackages [aistore]: Remove: archive file [/home/abi/fetcher/tmp/aistore-1.4.2.tar.gz]
+[2023-07-29 00:23:19] INFO root fetch - processPackages [aistore]: Remove: archive file [/home/abi/fetcher/tmp/aistore-1.4.3.tar.gz]
+[2023-07-29 00:23:19] INFO root fetch - main [MainThread]: End processing [aistore]: success
+[2023-07-29 00:23:19] INFO root fetch - processPackages [s4-clarity]: Downloading https://files.pythonhosted.org/packages/9e/e8/25587a1146d55d7829518d4b43983efe075ed93ff9f1b4747bf4e467e034/s4-clarity-1.4.1.tar.gz
+[2023-07-29 00:23:19] INFO root fetch - processPackages [opower]: Remove: archive file [/home/abi/fetcher/tmp/opower-0.0.8.tar.gz]
+[2023-07-29 00:23:19] INFO root fetch - processPackages [opower]: Remove: archive file [/home/abi/fetcher/tmp/opower-0.0.9.tar.gz]
+[2023-07-29 00:23:19] INFO root fetch - main [MainThread]: End processing [opower]: success
+[2023-07-29 00:23:19] INFO root fetch - processPackages [veilcord]: Downloading https://files.pythonhosted.org/packages/86/19/c02e9d58d1c3945b1006b77bf8d46a280ccdac9b04e4ef4e8f71162fb03f/veilcord-0.0.3.1.tar.gz
+[2023-07-29 00:23:19] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/e5/19/9e1516693b8358f602073aa0363dc7345cdf931e92a34e46bdce3d9e19f6/coiled-0.9.1.dev9.tar.gz
+[2023-07-29 00:23:19] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-29 00:23:19] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.9.1.dev8.tar.gz tmp/coiled-0.9.1.dev9.tar.gz --markdown 20230729/c/coiled/0.9.1.dev8-0.9.1.dev9/diff.md --exclude *.pyd
+[2023-07-29 00:23:19] INFO root fetch - processPackages [s4-clarity]: Downloading https://files.pythonhosted.org/packages/ab/71/bd297dc30900153a5c1aa3862a0ce7ba291f473244fe4869a68f13c09218/s4-clarity-1.4.2.tar.gz
+[2023-07-29 00:23:19] INFO root fetch - processPackages [veilcord]: Downloading https://files.pythonhosted.org/packages/ef/f4/a815dfe1c8ed7acb1ea620e38d87c68d075c059617823de6a2044dd1673d/veilcord-0.0.3.2.tar.gz
+[2023-07-29 00:23:19] INFO root fetch - processPackages [truss]: Remove: archive file [/home/abi/fetcher/tmp/truss-0.5.1.tar.gz]
+[2023-07-29 00:23:19] INFO root fetch - processPackages [truss]: Remove: archive file [/home/abi/fetcher/tmp/truss-0.5.2.tar.gz]
+[2023-07-29 00:23:19] INFO root fetch - main [MainThread]: End processing [truss]: success
+[2023-07-29 00:23:20] INFO root fetch - processPackages [veilcord]: executing diffoscope
+[2023-07-29 00:23:20] INFO root fetch - processPackages [veilcord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veilcord-0.0.3.1.tar.gz tmp/veilcord-0.0.3.2.tar.gz --markdown 20230729/v/veilcord/0.0.3.1-0.0.3.2/diff.md --exclude *.pyd
+[2023-07-29 00:23:20] INFO root fetch - processPackages [s4-clarity]: executing diffoscope
+[2023-07-29 00:23:20] INFO root fetch - processPackages [s4-clarity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s4-clarity-1.4.1.tar.gz tmp/s4-clarity-1.4.2.tar.gz --markdown 20230729/s/s4-clarity/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-07-29 00:23:20] INFO root fetch - processPackages [qonnx]: Remove: archive file [/home/abi/fetcher/tmp/qonnx-0.2.0.tar.gz]
+[2023-07-29 00:23:20] INFO root fetch - processPackages [qonnx]: Remove: archive file [/home/abi/fetcher/tmp/qonnx-0.3.0.tar.gz]
+[2023-07-29 00:23:20] INFO root fetch - main [MainThread]: End processing [qonnx]: success
+[2023-07-29 00:23:20] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.9.1.dev8.tar.gz]
+[2023-07-29 00:23:20] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.9.1.dev9.tar.gz]
+[2023-07-29 00:23:20] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-29 00:23:20] INFO root fetch - processPackages [veilcord]: Remove: archive file [/home/abi/fetcher/tmp/veilcord-0.0.3.1.tar.gz]
+[2023-07-29 00:23:20] INFO root fetch - processPackages [veilcord]: Remove: archive file [/home/abi/fetcher/tmp/veilcord-0.0.3.2.tar.gz]
+[2023-07-29 00:23:20] INFO root fetch - main [MainThread]: End processing [veilcord]: success
+[2023-07-29 00:23:21] INFO root fetch - processPackages [s4-clarity]: Remove: archive file [/home/abi/fetcher/tmp/s4-clarity-1.4.1.tar.gz]
+[2023-07-29 00:23:21] INFO root fetch - processPackages [s4-clarity]: Remove: archive file [/home/abi/fetcher/tmp/s4-clarity-1.4.2.tar.gz]
+[2023-07-29 00:23:21] INFO root fetch - main [MainThread]: End processing [s4-clarity]: success
+[2023-07-29 00:23:21] INFO root fetch - processPackages [OctoBot-Trading]: Remove: archive file [/home/abi/fetcher/tmp/OctoBot-Trading-2.4.8.tar.gz]
+[2023-07-29 00:23:21] INFO root fetch - processPackages [OctoBot-Trading]: Remove: archive file [/home/abi/fetcher/tmp/OctoBot-Trading-2.4.9.tar.gz]
+[2023-07-29 00:23:21] INFO root fetch - main [MainThread]: End processing [OctoBot-Trading]: success
+[2023-07-29 00:23:21] INFO root fetch - main [MainThread]: Store serial: [19082126]
