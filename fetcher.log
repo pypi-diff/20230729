@@ -1,0 +1,24 @@
+[2023-07-29 00:02:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19082018]
+[2023-07-29 00:02:21] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-29 00:02:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BloxPy
+[2023-07-29 00:02:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alea-inference
+[2023-07-29 00:02:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: not1mm
+[2023-07-29 00:02:22] WARNING root fetch - processPackages [alea-inference]: Skipping, unable to determine old version
+[2023-07-29 00:02:22] INFO root fetch - main [MainThread]: End processing [alea-inference] error
+[2023-07-29 00:02:22] INFO root fetch - processPackages [BloxPy]: New version: [0.1.11] Old Version: [0.1.1]
+[2023-07-29 00:02:22] INFO root fetch - processPackages [not1mm]: New version: [23.7.5] Old Version: [23.7.28]
+[2023-07-29 00:02:22] INFO root fetch - processPackages [BloxPy]: Downloading https://files.pythonhosted.org/packages/f9/e4/9e845edfe856dab776f75f878c21648dad1ee5c6103c436adf63834e55fc/BloxPy-0.1.1.tar.gz
+[2023-07-29 00:02:22] INFO root fetch - processPackages [not1mm]: Downloading https://files.pythonhosted.org/packages/4f/8c/30532123739eb411183d576b1dc1ee4b2f6a7d7095d5616e104bc78ac3f6/not1mm-23.7.28.tar.gz
+[2023-07-29 00:02:22] INFO root fetch - processPackages [BloxPy]: Downloading https://files.pythonhosted.org/packages/f4/b1/a816e7783827cc066d3babdf2cfa7ff9a1e4059574ef3b0e4bf98375bafb/BloxPy-0.1.11.tar.gz
+[2023-07-29 00:02:22] INFO root fetch - processPackages [BloxPy]: executing diffoscope
+[2023-07-29 00:02:22] INFO root fetch - processPackages [BloxPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BloxPy-0.1.1.tar.gz tmp/BloxPy-0.1.11.tar.gz --markdown 20230729/B/BloxPy/0.1.1-0.1.11/diff.md --exclude *.pyd
+[2023-07-29 00:02:22] INFO root fetch - processPackages [not1mm]: Downloading https://files.pythonhosted.org/packages/0f/74/bcd01321629495c1cb7e8955b07622e3b31ffe00e23020de1b8e98cea136/not1mm-23.7.5.tar.gz
+[2023-07-29 00:02:23] INFO root fetch - processPackages [BloxPy]: Remove: archive file [/home/abi/fetcher/tmp/BloxPy-0.1.1.tar.gz]
+[2023-07-29 00:02:23] INFO root fetch - processPackages [BloxPy]: Remove: archive file [/home/abi/fetcher/tmp/BloxPy-0.1.11.tar.gz]
+[2023-07-29 00:02:23] INFO root fetch - main [MainThread]: End processing [BloxPy]: success
+[2023-07-29 00:02:23] INFO root fetch - processPackages [not1mm]: executing diffoscope
+[2023-07-29 00:02:23] INFO root fetch - processPackages [not1mm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/not1mm-23.7.28.tar.gz tmp/not1mm-23.7.5.tar.gz --markdown 20230729/n/not1mm/23.7.28-23.7.5/diff.md --exclude *.pyd
+[2023-07-29 00:02:25] INFO root fetch - processPackages [not1mm]: Remove: archive file [/home/abi/fetcher/tmp/not1mm-23.7.28.tar.gz]
+[2023-07-29 00:02:25] INFO root fetch - processPackages [not1mm]: Remove: archive file [/home/abi/fetcher/tmp/not1mm-23.7.5.tar.gz]
+[2023-07-29 00:02:25] INFO root fetch - main [MainThread]: End processing [not1mm]: success
+[2023-07-29 00:02:25] INFO root fetch - main [MainThread]: Store serial: [19082029]
