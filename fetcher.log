@@ -1108,3 +1108,54 @@
 [2023-07-29 01:26:26] INFO root fetch - processPackages [neon-phal-plugin-reset]: Remove: archive file [/home/abi/fetcher/tmp/neon-phal-plugin-reset-0.2.2a1.tar.gz]
 [2023-07-29 01:26:26] INFO root fetch - main [MainThread]: End processing [neon-phal-plugin-reset]: success
 [2023-07-29 01:26:26] INFO root fetch - main [MainThread]: Store serial: [19082470]
+[2023-07-29 01:31:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19082470]
+[2023-07-29 01:31:34] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-29 01:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: garrett-streamlit-auth0
+[2023-07-29 01:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sdock
+[2023-07-29 01:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seismic2dreem
+[2023-07-29 01:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: usolitaire
+[2023-07-29 01:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest_param_files
+[2023-07-29 01:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: astroQTpy
+[2023-07-29 01:31:35] INFO root fetch - processPackages [garrett-streamlit-auth0]: New version: [0.3.dev1690586794] Old Version: [0.3.dev1690586245]
+[2023-07-29 01:31:35] INFO root fetch - processPackages [pytest_param_files]: New version: [0.4.0] Old Version: [0.3.5]
+[2023-07-29 01:31:35] INFO root fetch - processPackages [sdock]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-29 01:31:35] WARNING root fetch - processPackages [seismic2dreem]: Skipping, unable to determine old version
+[2023-07-29 01:31:35] INFO root fetch - main [MainThread]: End processing [seismic2dreem] error
+[2023-07-29 01:31:35] INFO root fetch - processPackages [astroQTpy]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-29 01:31:35] INFO root fetch - processPackages [usolitaire]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-29 01:31:35] INFO root fetch - processPackages [garrett-streamlit-auth0]: Downloading https://files.pythonhosted.org/packages/3f/4c/dece676f71bef3be92dbd1052a048ce982b4e29bbfff6432d35184608287/garrett-streamlit-auth0-0.3.dev1690586245.tar.gz
+[2023-07-29 01:31:35] INFO root fetch - processPackages [sdock]: Downloading https://files.pythonhosted.org/packages/41/ee/21a196c7677db2662eda40c9eec68cc25f925d35f8961226cfbf3ee9a7cb/sdock-0.1.8.tar.gz
+[2023-07-29 01:31:35] INFO root fetch - processPackages [pytest_param_files]: Downloading https://files.pythonhosted.org/packages/24/0b/0207aa6bef94dacddbf8c22f209aefbb1b9c3cc74bfeea14553a604b1451/pytest_param_files-0.3.5.tar.gz
+[2023-07-29 01:31:35] INFO root fetch - processPackages [astroQTpy]: Downloading https://files.pythonhosted.org/packages/5e/d6/243a712d6de2256926a884ffd6eee074f2f9cf718ab2c916ff6f31d50f1c/astroQTpy-0.1.2.tar.gz
+[2023-07-29 01:31:35] INFO root fetch - processPackages [usolitaire]: Downloading https://files.pythonhosted.org/packages/af/e6/05e30786e98093e3c14691cea20420fc68022a28c010737828c0d5f25e54/usolitaire-1.0.2.tar.gz
+[2023-07-29 01:31:35] INFO root fetch - processPackages [pytest_param_files]: Downloading https://files.pythonhosted.org/packages/df/6a/b1573ff61fc01c8edc6c52590a02ea6266a41e2b7be99ac9f65707617dd8/pytest_param_files-0.4.0.tar.gz
+[2023-07-29 01:31:35] INFO root fetch - processPackages [garrett-streamlit-auth0]: Downloading https://files.pythonhosted.org/packages/ff/3d/dda182373726017c5daf830fb15c739299c997b3545320df10fd9b93be8c/garrett-streamlit-auth0-0.3.dev1690586794.tar.gz
+[2023-07-29 01:31:35] INFO root fetch - processPackages [pytest_param_files]: executing diffoscope
+[2023-07-29 01:31:35] INFO root fetch - processPackages [pytest_param_files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_param_files-0.3.5.tar.gz tmp/pytest_param_files-0.4.0.tar.gz --markdown 20230729/p/pytest_param_files/0.3.5-0.4.0/diff.md --exclude *.pyd
+[2023-07-29 01:31:35] INFO root fetch - processPackages [sdock]: Downloading https://files.pythonhosted.org/packages/45/a7/929bd031aeedd6564b477e14caa297078664bb434accb97d098c6ee76c94/sdock-0.1.9.tar.gz
+[2023-07-29 01:31:35] INFO root fetch - processPackages [astroQTpy]: Downloading https://files.pythonhosted.org/packages/6d/a8/cddd3ca2d8eb7a8fb3ed7f4e23d937ea1d6cb57feb7a5c85df1fc7e4a182/astroQTpy-0.1.3.tar.gz
+[2023-07-29 01:31:35] INFO root fetch - processPackages [sdock]: executing diffoscope
+[2023-07-29 01:31:35] INFO root fetch - processPackages [sdock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdock-0.1.8.tar.gz tmp/sdock-0.1.9.tar.gz --markdown 20230729/s/sdock/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-29 01:31:35] INFO root fetch - processPackages [usolitaire]: Downloading https://files.pythonhosted.org/packages/db/b8/0ee14ca2f36e1d37c09b83087655dbda92571126ed5d81d209a4ceceaaa9/usolitaire-1.0.3.tar.gz
+[2023-07-29 01:31:35] INFO root fetch - processPackages [garrett-streamlit-auth0]: executing diffoscope
+[2023-07-29 01:31:35] INFO root fetch - processPackages [garrett-streamlit-auth0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garrett-streamlit-auth0-0.3.dev1690586245.tar.gz tmp/garrett-streamlit-auth0-0.3.dev1690586794.tar.gz --markdown 20230729/g/garrett-streamlit-auth0/0.3.dev1690586245-0.3.dev1690586794/diff.md --exclude *.pyd
+[2023-07-29 01:31:35] INFO root fetch - processPackages [astroQTpy]: executing diffoscope
+[2023-07-29 01:31:35] INFO root fetch - processPackages [astroQTpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astroQTpy-0.1.2.tar.gz tmp/astroQTpy-0.1.3.tar.gz --markdown 20230729/a/astroQTpy/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-29 01:31:36] INFO root fetch - processPackages [usolitaire]: executing diffoscope
+[2023-07-29 01:31:36] INFO root fetch - processPackages [usolitaire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usolitaire-1.0.2.tar.gz tmp/usolitaire-1.0.3.tar.gz --markdown 20230729/u/usolitaire/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-29 01:31:36] INFO root fetch - processPackages [pytest_param_files]: Remove: archive file [/home/abi/fetcher/tmp/pytest_param_files-0.3.5.tar.gz]
+[2023-07-29 01:31:36] INFO root fetch - processPackages [pytest_param_files]: Remove: archive file [/home/abi/fetcher/tmp/pytest_param_files-0.4.0.tar.gz]
+[2023-07-29 01:31:36] INFO root fetch - main [MainThread]: End processing [pytest_param_files]: success
+[2023-07-29 01:31:36] INFO root fetch - processPackages [sdock]: Remove: archive file [/home/abi/fetcher/tmp/sdock-0.1.8.tar.gz]
+[2023-07-29 01:31:36] INFO root fetch - processPackages [sdock]: Remove: archive file [/home/abi/fetcher/tmp/sdock-0.1.9.tar.gz]
+[2023-07-29 01:31:36] INFO root fetch - main [MainThread]: End processing [sdock]: success
+[2023-07-29 01:31:36] INFO root fetch - processPackages [usolitaire]: Remove: archive file [/home/abi/fetcher/tmp/usolitaire-1.0.2.tar.gz]
+[2023-07-29 01:31:36] INFO root fetch - processPackages [usolitaire]: Remove: archive file [/home/abi/fetcher/tmp/usolitaire-1.0.3.tar.gz]
+[2023-07-29 01:31:36] INFO root fetch - main [MainThread]: End processing [usolitaire]: success
+[2023-07-29 01:31:36] INFO root fetch - processPackages [garrett-streamlit-auth0]: Remove: archive file [/home/abi/fetcher/tmp/garrett-streamlit-auth0-0.3.dev1690586245.tar.gz]
+[2023-07-29 01:31:36] INFO root fetch - processPackages [garrett-streamlit-auth0]: Remove: archive file [/home/abi/fetcher/tmp/garrett-streamlit-auth0-0.3.dev1690586794.tar.gz]
+[2023-07-29 01:31:36] INFO root fetch - main [MainThread]: End processing [garrett-streamlit-auth0]: success
+[2023-07-29 01:31:36] INFO root fetch - processPackages [astroQTpy]: Remove: archive file [/home/abi/fetcher/tmp/astroQTpy-0.1.2.tar.gz]
+[2023-07-29 01:31:36] INFO root fetch - processPackages [astroQTpy]: Remove: archive file [/home/abi/fetcher/tmp/astroQTpy-0.1.3.tar.gz]
+[2023-07-29 01:31:36] INFO root fetch - main [MainThread]: End processing [astroQTpy]: success
+[2023-07-29 01:31:36] INFO root fetch - main [MainThread]: Store serial: [19082492]
