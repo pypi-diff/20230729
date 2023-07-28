@@ -70,3 +70,51 @@
 [2023-07-29 00:07:40] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
 [2023-07-29 00:07:40] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-07-29 00:07:40] INFO root fetch - main [MainThread]: Store serial: [19082043]
+[2023-07-29 00:12:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19082043]
+[2023-07-29 00:12:50] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-29 00:12:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lumeny
+[2023-07-29 00:12:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: snitch-protos
+[2023-07-29 00:12:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onecode
+[2023-07-29 00:12:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: appconfig-cli
+[2023-07-29 00:12:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oloren
+[2023-07-29 00:12:50] INFO root fetch - processPackages [appconfig-cli]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-29 00:12:50] INFO root fetch - processPackages [lumeny]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-29 00:12:50] INFO root fetch - processPackages [snitch-protos]: New version: [0.0.53] Old Version: [0.0.52]
+[2023-07-29 00:12:50] INFO root fetch - processPackages [onecode]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-07-29 00:12:50] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-29 00:12:50] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/a3/76/06db9dcd349a4094baa829da1112066fd4fe60d5748d1b0c8c0833367603/oloren-0.0.8.tar.gz
+[2023-07-29 00:12:50] INFO root fetch - processPackages [lumeny]: Downloading https://files.pythonhosted.org/packages/cd/e4/5fd0601e4563093f924dac855134f3a9eed8862caf8fed8fa9db7259c5fc/lumeny-0.2.0.tar.gz
+[2023-07-29 00:12:50] INFO root fetch - processPackages [appconfig-cli]: Downloading https://files.pythonhosted.org/packages/05/ba/a28874b69769e6368e47254887cb4810f1626ffed173f693decd6b60200a/appconfig_cli-0.1.0.tar.gz
+[2023-07-29 00:12:50] INFO root fetch - processPackages [onecode]: Downloading https://files.pythonhosted.org/packages/a4/d6/caf1f2543988f6c631a89bd83c5e16c9678cd1d0870650531c6e922d19f2/onecode-0.2.1-py3-none-any.whl
+[2023-07-29 00:12:50] INFO root fetch - processPackages [snitch-protos]: Downloading https://files.pythonhosted.org/packages/df/72/80ab83969b0c2044c7063adf9f5d08ba4358205b97df58bc246549b34b6a/snitch-protos-0.0.52.tar.gz
+[2023-07-29 00:12:50] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/8f/84/66581190d09357a5dd522267963c2d727e20650e6690064dc2efadd1c020/oloren-0.0.9.tar.gz
+[2023-07-29 00:12:51] INFO root fetch - processPackages [lumeny]: Downloading https://files.pythonhosted.org/packages/d1/c5/c7c886e0b9645bd78ba9447f04325cb29d7c1b274541f1111de3f50cd363/lumeny-0.3.0.tar.gz
+[2023-07-29 00:12:51] INFO root fetch - processPackages [appconfig-cli]: Downloading https://files.pythonhosted.org/packages/51/be/c66caefd44cbf24e597866dfb565696989b6aaa5bd871e9fbd0b4d823687/appconfig_cli-0.1.1.tar.gz
+[2023-07-29 00:12:51] INFO root fetch - processPackages [snitch-protos]: Downloading https://files.pythonhosted.org/packages/e2/f9/fefbeff58091f04ba4cd633bef30ea620621ea337d185a7076de2f99d7a5/snitch-protos-0.0.53.tar.gz
+[2023-07-29 00:12:51] INFO root fetch - processPackages [lumeny]: executing diffoscope
+[2023-07-29 00:12:51] INFO root fetch - processPackages [lumeny]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lumeny-0.2.0.tar.gz tmp/lumeny-0.3.0.tar.gz --markdown 20230729/l/lumeny/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-29 00:12:51] INFO root fetch - processPackages [snitch-protos]: executing diffoscope
+[2023-07-29 00:12:51] INFO root fetch - processPackages [snitch-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snitch-protos-0.0.52.tar.gz tmp/snitch-protos-0.0.53.tar.gz --markdown 20230729/s/snitch-protos/0.0.52-0.0.53/diff.md --exclude *.pyd
+[2023-07-29 00:12:51] INFO root fetch - processPackages [onecode]: Downloading https://files.pythonhosted.org/packages/a1/37/57c496135c1905cb502426ee3a1af2a04498a6f041b2b683dde1cb60390c/onecode-0.3.0-py3-none-any.whl
+[2023-07-29 00:12:51] INFO root fetch - processPackages [appconfig-cli]: executing diffoscope
+[2023-07-29 00:12:51] INFO root fetch - processPackages [appconfig-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appconfig_cli-0.1.0.tar.gz tmp/appconfig_cli-0.1.1.tar.gz --markdown 20230729/a/appconfig-cli/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-29 00:12:51] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-07-29 00:12:51] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230729/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-29 00:12:51] INFO root fetch - processPackages [onecode]: executing diffoscope
+[2023-07-29 00:12:51] INFO root fetch - processPackages [onecode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onecode-0.2.1-py3-none-any.whl.zip tmp/onecode-0.3.0-py3-none-any.whl.zip --markdown 20230729/o/onecode/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-07-29 00:12:52] INFO root fetch - processPackages [lumeny]: Remove: archive file [/home/abi/fetcher/tmp/lumeny-0.2.0.tar.gz]
+[2023-07-29 00:12:52] INFO root fetch - processPackages [lumeny]: Remove: archive file [/home/abi/fetcher/tmp/lumeny-0.3.0.tar.gz]
+[2023-07-29 00:12:52] INFO root fetch - main [MainThread]: End processing [lumeny]: success
+[2023-07-29 00:12:52] INFO root fetch - processPackages [snitch-protos]: Remove: archive file [/home/abi/fetcher/tmp/snitch-protos-0.0.52.tar.gz]
+[2023-07-29 00:12:52] INFO root fetch - processPackages [snitch-protos]: Remove: archive file [/home/abi/fetcher/tmp/snitch-protos-0.0.53.tar.gz]
+[2023-07-29 00:12:52] INFO root fetch - main [MainThread]: End processing [snitch-protos]: success
+[2023-07-29 00:12:52] INFO root fetch - processPackages [appconfig-cli]: Remove: archive file [/home/abi/fetcher/tmp/appconfig_cli-0.1.0.tar.gz]
+[2023-07-29 00:12:52] INFO root fetch - processPackages [appconfig-cli]: Remove: archive file [/home/abi/fetcher/tmp/appconfig_cli-0.1.1.tar.gz]
+[2023-07-29 00:12:52] INFO root fetch - main [MainThread]: End processing [appconfig-cli]: success
+[2023-07-29 00:12:52] INFO root fetch - processPackages [onecode]: Remove: archive file [/home/abi/fetcher/tmp/onecode-0.2.1-py3-none-any.whl.zip]
+[2023-07-29 00:12:52] INFO root fetch - processPackages [onecode]: Remove: archive file [/home/abi/fetcher/tmp/onecode-0.3.0-py3-none-any.whl.zip]
+[2023-07-29 00:12:52] INFO root fetch - main [MainThread]: End processing [onecode]: success
+[2023-07-29 00:12:55] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.8.tar.gz]
+[2023-07-29 00:12:55] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
+[2023-07-29 00:12:55] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-07-29 00:12:55] INFO root fetch - main [MainThread]: Store serial: [19082056]
