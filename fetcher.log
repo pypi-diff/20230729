@@ -1809,3 +1809,51 @@
 [2023-07-29 01:52:34] INFO root fetch - processPackages [meeko]: Remove: archive file [/home/abi/fetcher/tmp/meeko-0.5.0.tar.gz]
 [2023-07-29 01:52:34] INFO root fetch - main [MainThread]: End processing [meeko]: success
 [2023-07-29 01:52:34] INFO root fetch - main [MainThread]: Store serial: [19082724]
+[2023-07-29 01:57:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19082724]
+[2023-07-29 01:57:43] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-29 01:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-github
+[2023-07-29 01:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: evque
+[2023-07-29 01:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easy-deployer
+[2023-07-29 01:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: live-example-python-test
+[2023-07-29 01:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: attune-project-api
+[2023-07-29 01:57:44] INFO root fetch - processPackages [live-example-python-test]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-29 01:57:44] INFO root fetch - processPackages [evque]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-07-29 01:57:44] INFO root fetch - processPackages [easy-deployer]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-29 01:57:44] INFO root fetch - processPackages [attune-project-api]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-29 01:57:44] INFO root fetch - processPackages [pepperize.cdk-github]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-29 01:57:44] INFO root fetch - processPackages [easy-deployer]: Downloading https://files.pythonhosted.org/packages/a9/35/297fdccc9e27313ff10c31bbce54a45fc6a3f7ecd6edbe721068e546a72b/easy_deployer-0.1.8.tar.gz
+[2023-07-29 01:57:44] INFO root fetch - processPackages [attune-project-api]: Downloading https://files.pythonhosted.org/packages/d7/f8/ced67fc9acf12de675f2d634457c7373e34106fd88baa6288503685dd4d6/attune-project-api-0.9.8.tar.gz
+[2023-07-29 01:57:44] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/24/6d/598d06b1a4e959b347586ba22a01a1bc105e61fe7d1318c6fb190d545b38/pepperize.cdk-github-0.0.98.tar.gz
+[2023-07-29 01:57:44] INFO root fetch - processPackages [live-example-python-test]: Downloading https://files.pythonhosted.org/packages/21/42/970a78437896e47516d5e19d82ba2d4a91be4c5a4ef851ccf8a36a14248d/live_example_python_test-0.0.1.tar.gz
+[2023-07-29 01:57:44] INFO root fetch - processPackages [evque]: Downloading https://files.pythonhosted.org/packages/f2/33/36ebef869fdeb42fab519dcd350e6de11482406bacaee0fbc2b209d4d30a/evque-1.0.3.tar.gz
+[2023-07-29 01:57:44] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/c3/a7/0446f664eacf32838f54f1c66d5396c5ab08f1bcd671ef0f29c503c0f763/pepperize.cdk-github-0.0.99.tar.gz
+[2023-07-29 01:57:44] INFO root fetch - processPackages [easy-deployer]: Downloading https://files.pythonhosted.org/packages/8c/6a/d217eb2e1b597398470ee5603240d37a40d5c9577f6d2da77bbbb655f3cd/easy_deployer-0.1.9.tar.gz
+[2023-07-29 01:57:44] INFO root fetch - processPackages [attune-project-api]: Downloading https://files.pythonhosted.org/packages/c7/16/d44eb9ceaa1f24e93d7e0ef5a7cc8f16ca2354efe09e1f3d05025fa94147/attune-project-api-0.9.9.tar.gz
+[2023-07-29 01:57:44] INFO root fetch - processPackages [live-example-python-test]: Downloading https://files.pythonhosted.org/packages/ac/ae/8e5a13506949737689b1d3f90e996277ecb0c1e8d245bda8ea8a09269736/live_example_python_test-0.0.2.tar.gz
+[2023-07-29 01:57:44] INFO root fetch - processPackages [evque]: Downloading https://files.pythonhosted.org/packages/c4/96/845903aded7d158394ca0d9aa6853e6b2cecaa456f912af4a97903b230b7/evque-1.1.0.tar.gz
+[2023-07-29 01:57:44] INFO root fetch - processPackages [easy-deployer]: executing diffoscope
+[2023-07-29 01:57:44] INFO root fetch - processPackages [easy-deployer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_deployer-0.1.8.tar.gz tmp/easy_deployer-0.1.9.tar.gz --markdown 20230729/e/easy-deployer/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-29 01:57:44] INFO root fetch - processPackages [pepperize.cdk-github]: executing diffoscope
+[2023-07-29 01:57:44] INFO root fetch - processPackages [pepperize.cdk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-github-0.0.98.tar.gz tmp/pepperize.cdk-github-0.0.99.tar.gz --markdown 20230729/p/pepperize.cdk-github/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-29 01:57:44] INFO root fetch - processPackages [live-example-python-test]: executing diffoscope
+[2023-07-29 01:57:44] INFO root fetch - processPackages [live-example-python-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/live_example_python_test-0.0.1.tar.gz tmp/live_example_python_test-0.0.2.tar.gz --markdown 20230729/l/live-example-python-test/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-29 01:57:44] INFO root fetch - processPackages [evque]: executing diffoscope
+[2023-07-29 01:57:44] INFO root fetch - processPackages [evque]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evque-1.0.3.tar.gz tmp/evque-1.1.0.tar.gz --markdown 20230729/e/evque/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-07-29 01:57:44] INFO root fetch - processPackages [attune-project-api]: executing diffoscope
+[2023-07-29 01:57:44] INFO root fetch - processPackages [attune-project-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/attune-project-api-0.9.8.tar.gz tmp/attune-project-api-0.9.9.tar.gz --markdown 20230729/a/attune-project-api/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-29 01:57:45] INFO root fetch - processPackages [evque]: Remove: archive file [/home/abi/fetcher/tmp/evque-1.0.3.tar.gz]
+[2023-07-29 01:57:45] INFO root fetch - processPackages [evque]: Remove: archive file [/home/abi/fetcher/tmp/evque-1.1.0.tar.gz]
+[2023-07-29 01:57:45] INFO root fetch - main [MainThread]: End processing [evque]: success
+[2023-07-29 01:57:45] INFO root fetch - processPackages [easy-deployer]: Remove: archive file [/home/abi/fetcher/tmp/easy_deployer-0.1.8.tar.gz]
+[2023-07-29 01:57:45] INFO root fetch - processPackages [easy-deployer]: Remove: archive file [/home/abi/fetcher/tmp/easy_deployer-0.1.9.tar.gz]
+[2023-07-29 01:57:45] INFO root fetch - main [MainThread]: End processing [easy-deployer]: success
+[2023-07-29 01:57:45] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.98.tar.gz]
+[2023-07-29 01:57:45] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.99.tar.gz]
+[2023-07-29 01:57:45] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-github]: success
+[2023-07-29 01:57:45] INFO root fetch - processPackages [live-example-python-test]: Remove: archive file [/home/abi/fetcher/tmp/live_example_python_test-0.0.1.tar.gz]
+[2023-07-29 01:57:45] INFO root fetch - processPackages [live-example-python-test]: Remove: archive file [/home/abi/fetcher/tmp/live_example_python_test-0.0.2.tar.gz]
+[2023-07-29 01:57:45] INFO root fetch - main [MainThread]: End processing [live-example-python-test]: success
+[2023-07-29 01:57:45] INFO root fetch - processPackages [attune-project-api]: Remove: archive file [/home/abi/fetcher/tmp/attune-project-api-0.9.8.tar.gz]
+[2023-07-29 01:57:45] INFO root fetch - processPackages [attune-project-api]: Remove: archive file [/home/abi/fetcher/tmp/attune-project-api-0.9.9.tar.gz]
+[2023-07-29 01:57:45] INFO root fetch - main [MainThread]: End processing [attune-project-api]: success
+[2023-07-29 01:57:45] INFO root fetch - main [MainThread]: Store serial: [19082736]
