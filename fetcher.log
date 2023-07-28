@@ -938,3 +938,51 @@
 [2023-07-29 01:10:43] INFO root fetch - processPackages [lean]: Remove: archive file [/home/abi/fetcher/tmp/lean-1.0.99.tar.gz]
 [2023-07-29 01:10:43] INFO root fetch - main [MainThread]: End processing [lean]: success
 [2023-07-29 01:10:43] INFO root fetch - main [MainThread]: Store serial: [19082409]
+[2023-07-29 01:15:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19082409]
+[2023-07-29 01:15:52] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-29 01:15:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pretext
+[2023-07-29 01:15:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: app-toggles
+[2023-07-29 01:15:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jedi
+[2023-07-29 01:15:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scrunch
+[2023-07-29 01:15:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ckanext-dcat-usmetadata
+[2023-07-29 01:15:53] INFO root fetch - processPackages [ckanext-dcat-usmetadata]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-07-29 01:15:53] INFO root fetch - processPackages [app-toggles]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-29 01:15:53] INFO root fetch - processPackages [jedi]: New version: [0.9.0] Old Version: [0.8.1-final0]
+[2023-07-29 01:15:53] INFO root fetch - processPackages [scrunch]: New version: [6.5.2019.post1690570998] Old Version: [6.5.2018.post1690565515]
+[2023-07-29 01:15:53] INFO root fetch - processPackages [pretext]: New version: [1.7.3.dev20230728] Old Version: [1.7.3.dev20230727]
+[2023-07-29 01:15:53] INFO root fetch - processPackages [app-toggles]: Downloading https://files.pythonhosted.org/packages/5c/e0/1ee2a4205853bddb931a17a722eb7690705ac02c0f95af4e4b5493bdf469/app_toggles-0.1.1.tar.gz
+[2023-07-29 01:15:53] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/34/4d/11c6b2e751d34ef098112527ff5c37e3bf3e3c79357f81c5017e5d15f91d/scrunch-6.5.2018.post1690565515.tar.gz
+[2023-07-29 01:15:53] INFO root fetch - processPackages [ckanext-dcat-usmetadata]: Downloading https://files.pythonhosted.org/packages/bc/e7/56eecd76acc30af46cef7b960c01deaf61f1826ea35bae1e471f658e0b64/ckanext-dcat_usmetadata-0.4.2.tar.gz
+[2023-07-29 01:15:53] INFO root fetch - processPackages [jedi]: Downloading https://files.pythonhosted.org/packages/41/86/63615d366ddb093b0844b7b6af6e2c20563493e7202a7b667c1ceb55e2a1/jedi-0.8.1-final0.tar.gz
+[2023-07-29 01:15:53] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/bf/c8/0c6e2be5da9e98f3ef9785b90534561c96614596a7f0aebaa9d36627b045/pretext-1.7.3.dev20230727.tar.gz
+[2023-07-29 01:15:53] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/db/5c/3b49249954066d98fcb3619ff2ec05dfc6031a235801bb7624b55586f9a4/scrunch-6.5.2019.post1690570998.tar.gz
+[2023-07-29 01:15:53] INFO root fetch - processPackages [app-toggles]: Downloading https://files.pythonhosted.org/packages/91/ed/d6e400c334234e898c94e3c6b43a40ee1ba86857d63a9c5234575b831851/app_toggles-0.1.2.tar.gz
+[2023-07-29 01:15:53] INFO root fetch - processPackages [scrunch]: executing diffoscope
+[2023-07-29 01:15:53] INFO root fetch - processPackages [scrunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrunch-6.5.2018.post1690565515.tar.gz tmp/scrunch-6.5.2019.post1690570998.tar.gz --markdown 20230729/s/scrunch/6.5.2018.post1690565515-6.5.2019.post1690570998/diff.md --exclude *.pyd
+[2023-07-29 01:15:53] INFO root fetch - processPackages [app-toggles]: executing diffoscope
+[2023-07-29 01:15:53] INFO root fetch - processPackages [app-toggles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/app_toggles-0.1.1.tar.gz tmp/app_toggles-0.1.2.tar.gz --markdown 20230729/a/app-toggles/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-29 01:15:53] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/46/6a/89c315d0917b2c9bb8a70c9db811ff1cc7f2c39fb074de635697f905ccbe/pretext-1.7.3.dev20230728.tar.gz
+[2023-07-29 01:15:53] INFO root fetch - processPackages [jedi]: Downloading https://files.pythonhosted.org/packages/3a/37/629080b92b87bc65e3b1b4f5d539e22aa5dc45637eab0dd4b0cd8cf236c2/jedi-0.9.0.tar.gz
+[2023-07-29 01:15:54] INFO root fetch - processPackages [jedi]: executing diffoscope
+[2023-07-29 01:15:54] INFO root fetch - processPackages [jedi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jedi-0.8.1-final0.tar.gz tmp/jedi-0.9.0.tar.gz --markdown 20230729/j/jedi/0.8.1-final0-0.9.0/diff.md --exclude *.pyd
+[2023-07-29 01:15:54] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-07-29 01:15:54] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.7.3.dev20230727.tar.gz tmp/pretext-1.7.3.dev20230728.tar.gz --markdown 20230729/p/pretext/1.7.3.dev20230727-1.7.3.dev20230728/diff.md --exclude *.pyd
+[2023-07-29 01:15:54] INFO root fetch - processPackages [ckanext-dcat-usmetadata]: Downloading https://files.pythonhosted.org/packages/0e/51/84086012a3d6d4d8a3e1a1b340f8fcbc17646d093c708dac43a34098fc0a/ckanext-dcat_usmetadata-0.5.0.tar.gz
+[2023-07-29 01:15:54] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2018.post1690565515.tar.gz]
+[2023-07-29 01:15:54] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2019.post1690570998.tar.gz]
+[2023-07-29 01:15:54] INFO root fetch - main [MainThread]: End processing [scrunch]: success
+[2023-07-29 01:15:54] INFO root fetch - processPackages [app-toggles]: Remove: archive file [/home/abi/fetcher/tmp/app_toggles-0.1.1.tar.gz]
+[2023-07-29 01:15:54] INFO root fetch - processPackages [app-toggles]: Remove: archive file [/home/abi/fetcher/tmp/app_toggles-0.1.2.tar.gz]
+[2023-07-29 01:15:54] INFO root fetch - main [MainThread]: End processing [app-toggles]: success
+[2023-07-29 01:15:54] INFO root fetch - processPackages [ckanext-dcat-usmetadata]: executing diffoscope
+[2023-07-29 01:15:54] INFO root fetch - processPackages [ckanext-dcat-usmetadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-dcat_usmetadata-0.4.2.tar.gz tmp/ckanext-dcat_usmetadata-0.5.0.tar.gz --markdown 20230729/c/ckanext-dcat-usmetadata/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-07-29 01:15:55] INFO root fetch - processPackages [jedi]: Remove: archive file [/home/abi/fetcher/tmp/jedi-0.8.1-final0.tar.gz]
+[2023-07-29 01:15:55] INFO root fetch - processPackages [jedi]: Remove: archive file [/home/abi/fetcher/tmp/jedi-0.9.0.tar.gz]
+[2023-07-29 01:15:55] INFO root fetch - main [MainThread]: End processing [jedi]: success
+[2023-07-29 01:15:57] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.7.3.dev20230727.tar.gz]
+[2023-07-29 01:15:57] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.7.3.dev20230728.tar.gz]
+[2023-07-29 01:15:57] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-07-29 01:16:00] INFO root fetch - processPackages [ckanext-dcat-usmetadata]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-dcat_usmetadata-0.4.2.tar.gz]
+[2023-07-29 01:16:00] INFO root fetch - processPackages [ckanext-dcat-usmetadata]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-dcat_usmetadata-0.5.0.tar.gz]
+[2023-07-29 01:16:00] INFO root fetch - main [MainThread]: End processing [ckanext-dcat-usmetadata]: success
+[2023-07-29 01:16:00] INFO root fetch - main [MainThread]: Store serial: [19082426]
