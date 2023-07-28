@@ -414,3 +414,78 @@
 [2023-07-29 00:33:48] INFO root fetch - processPackages [pulumi-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes-4.1.0a1690580034.tar.gz]
 [2023-07-29 00:33:48] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes]: success
 [2023-07-29 00:33:48] INFO root fetch - main [MainThread]: Store serial: [19082197]
+[2023-07-29 00:38:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19082197]
+[2023-07-29 00:38:56] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-29 00:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pysyd
+[2023-07-29 00:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-07-29 00:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: auto-dns
+[2023-07-29 00:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: strongmind-deployment
+[2023-07-29 00:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: amazon-braket-default-simulator
+[2023-07-29 00:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: verisptab
+[2023-07-29 00:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyxet
+[2023-07-29 00:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kdp-api-python-client
+[2023-07-29 00:38:56] INFO root fetch - processPackages [pyxet]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-29 00:38:56] INFO root fetch - processPackages [amazon-braket-default-simulator]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-29 00:38:56] INFO root fetch - processPackages [auto-dns]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-29 00:38:56] INFO root fetch - processPackages [strongmind-deployment]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-29 00:38:56] INFO root fetch - processPackages [verisptab]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-07-29 00:38:56] INFO root fetch - processPackages [pysyd]: New version: [6.10.5] Old Version: [6.10.0]
+[2023-07-29 00:38:56] INFO root fetch - processPackages [kdp-api-python-client]: New version: [4.9.0] Old Version: [4.8.0]
+[2023-07-29 00:38:56] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.411] Old Version: [0.3.410]
+[2023-07-29 00:38:56] INFO root fetch - processPackages [pysyd]: Downloading https://files.pythonhosted.org/packages/3b/5f/9b44645eb0cd75ac18d9eb312637c39b1e0313d5336b8cbc157ce71ca415/pysyd-6.10.0.tar.gz
+[2023-07-29 00:38:56] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/f3/a9/180fac1e32afb194a77b372c07bcff04e2889880640863178e2cad61e94a/pepperize.cdk-ses-smtp-credentials-0.3.410.tar.gz
+[2023-07-29 00:38:57] INFO root fetch - processPackages [pyxet]: Downloading https://files.pythonhosted.org/packages/23/95/1b1c3fd9cc22427414f9078349ca922f2ac26433da3e76e445114d26f6db/pyxet-0.1.0.tar.gz
+[2023-07-29 00:38:57] INFO root fetch - processPackages [auto-dns]: Downloading https://files.pythonhosted.org/packages/b8/d5/3f29d6e456c0d4552770a2b30918eed2729f7afc6a8aaf5163deeb5f7030/auto_dns-0.1.0.tar.gz
+[2023-07-29 00:38:57] INFO root fetch - processPackages [amazon-braket-default-simulator]: Downloading https://files.pythonhosted.org/packages/7a/54/afd1e44249d5686858ad0d2bf2cae1c33a712e04c7a97a79ae6b17ec38c5/amazon-braket-default-simulator-1.9.0.tar.gz
+[2023-07-29 00:38:57] INFO root fetch - processPackages [strongmind-deployment]: Downloading https://files.pythonhosted.org/packages/44/37/1fa9e511059e9286981228d061a848835373aa0d2564f1817d7e1cb50c09/strongmind_deployment-1.0.8-py3-none-any.whl
+[2023-07-29 00:38:57] INFO root fetch - processPackages [verisptab]: Downloading https://files.pythonhosted.org/packages/10/1d/659191543a9af54f5d7a6ca6ea3cba0530d707c2f89d662705dda8d00a21/verisptab-0.0.1.tar.gz
+[2023-07-29 00:38:57] INFO root fetch - processPackages [kdp-api-python-client]: Downloading https://files.pythonhosted.org/packages/be/d1/9b097111cec9a1546318f5d94614b7332be358510506c48774d6d3c5040e/kdp-api-python-client-4.8.0.tar.gz
+[2023-07-29 00:38:57] INFO root fetch - processPackages [pysyd]: Downloading https://files.pythonhosted.org/packages/a1/ca/7d0b0934ddfd29e208b46e59208edd808a18b6deb29affca8d786d13a6ca/pysyd-6.10.5.tar.gz
+[2023-07-29 00:38:57] INFO root fetch - processPackages [pysyd]: executing diffoscope
+[2023-07-29 00:38:57] INFO root fetch - processPackages [pysyd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysyd-6.10.0.tar.gz tmp/pysyd-6.10.5.tar.gz --markdown 20230729/p/pysyd/6.10.0-6.10.5/diff.md --exclude *.pyd
+[2023-07-29 00:38:57] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/d1/08/c2c174f6005fc7206d8b47b845b1ed33d3b8d67566e908d44baefc323a8d/pepperize.cdk-ses-smtp-credentials-0.3.411.tar.gz
+[2023-07-29 00:38:57] INFO root fetch - processPackages [auto-dns]: Downloading https://files.pythonhosted.org/packages/91/c3/11e214d2114cbd1527c1e5d10b511296cfad8110f275d00f8c4aaf8a525d/auto_dns-0.1.1.tar.gz
+[2023-07-29 00:38:57] INFO root fetch - processPackages [pyxet]: Downloading https://files.pythonhosted.org/packages/9a/74/3f7277655c3e5bee6c4da73f47e85349b832ddf0be8fb6152f3c982ff4fc/pyxet-0.1.1.tar.gz
+[2023-07-29 00:38:57] INFO root fetch - processPackages [verisptab]: Downloading https://files.pythonhosted.org/packages/22/ee/eb2896ae3b2158cb42e5ae2e018b16344a4c69161f7eb41c260e430af811/verisptab-0.1.0.tar.gz
+[2023-07-29 00:38:57] INFO root fetch - processPackages [auto-dns]: executing diffoscope
+[2023-07-29 00:38:57] INFO root fetch - processPackages [auto-dns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_dns-0.1.0.tar.gz tmp/auto_dns-0.1.1.tar.gz --markdown 20230729/a/auto-dns/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-29 00:38:57] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-07-29 00:38:57] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.410.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.411.tar.gz --markdown 20230729/p/pepperize.cdk-ses-smtp-credentials/0.3.410-0.3.411/diff.md --exclude *.pyd
+[2023-07-29 00:38:57] INFO root fetch - processPackages [amazon-braket-default-simulator]: Downloading https://files.pythonhosted.org/packages/19/51/99a137715b8e8e9cd12028bbbcfb41c842f5047587e62140eb7463a3014f/amazon-braket-default-simulator-1.9.1.tar.gz
+[2023-07-29 00:38:57] INFO root fetch - processPackages [strongmind-deployment]: Downloading https://files.pythonhosted.org/packages/6a/1b/90068fc2357bb338535372b0a54aaf7542de3c94754f32c7d29dfd0aa361/strongmind_deployment-1.0.9-py3-none-any.whl
+[2023-07-29 00:38:57] INFO root fetch - processPackages [pyxet]: executing diffoscope
+[2023-07-29 00:38:57] INFO root fetch - processPackages [pyxet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxet-0.1.0.tar.gz tmp/pyxet-0.1.1.tar.gz --markdown 20230729/p/pyxet/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-29 00:38:57] INFO root fetch - processPackages [verisptab]: executing diffoscope
+[2023-07-29 00:38:57] INFO root fetch - processPackages [verisptab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/verisptab-0.0.1.tar.gz tmp/verisptab-0.1.0.tar.gz --markdown 20230729/v/verisptab/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-07-29 00:38:57] INFO root fetch - processPackages [kdp-api-python-client]: Downloading https://files.pythonhosted.org/packages/df/18/8343e941e07355b3e02283c2ce750ecaffdc2560780723d4b248e0680d79/kdp-api-python-client-4.9.0.tar.gz
+[2023-07-29 00:38:57] INFO root fetch - processPackages [strongmind-deployment]: executing diffoscope
+[2023-07-29 00:38:57] INFO root fetch - processPackages [strongmind-deployment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strongmind_deployment-1.0.8-py3-none-any.whl.zip tmp/strongmind_deployment-1.0.9-py3-none-any.whl.zip --markdown 20230729/s/strongmind-deployment/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-29 00:38:57] INFO root fetch - processPackages [amazon-braket-default-simulator]: executing diffoscope
+[2023-07-29 00:38:57] INFO root fetch - processPackages [amazon-braket-default-simulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-braket-default-simulator-1.9.0.tar.gz tmp/amazon-braket-default-simulator-1.9.1.tar.gz --markdown 20230729/a/amazon-braket-default-simulator/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-29 00:38:57] INFO root fetch - processPackages [kdp-api-python-client]: executing diffoscope
+[2023-07-29 00:38:57] INFO root fetch - processPackages [kdp-api-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kdp-api-python-client-4.8.0.tar.gz tmp/kdp-api-python-client-4.9.0.tar.gz --markdown 20230729/k/kdp-api-python-client/4.8.0-4.9.0/diff.md --exclude *.pyd
+[2023-07-29 00:38:58] INFO root fetch - processPackages [auto-dns]: Remove: archive file [/home/abi/fetcher/tmp/auto_dns-0.1.0.tar.gz]
+[2023-07-29 00:38:58] INFO root fetch - processPackages [auto-dns]: Remove: archive file [/home/abi/fetcher/tmp/auto_dns-0.1.1.tar.gz]
+[2023-07-29 00:38:58] INFO root fetch - main [MainThread]: End processing [auto-dns]: success
+[2023-07-29 00:38:58] INFO root fetch - processPackages [pysyd]: Remove: archive file [/home/abi/fetcher/tmp/pysyd-6.10.0.tar.gz]
+[2023-07-29 00:38:58] INFO root fetch - processPackages [pysyd]: Remove: archive file [/home/abi/fetcher/tmp/pysyd-6.10.5.tar.gz]
+[2023-07-29 00:38:58] INFO root fetch - main [MainThread]: End processing [pysyd]: success
+[2023-07-29 00:38:58] INFO root fetch - processPackages [verisptab]: Remove: archive file [/home/abi/fetcher/tmp/verisptab-0.0.1.tar.gz]
+[2023-07-29 00:38:58] INFO root fetch - processPackages [verisptab]: Remove: archive file [/home/abi/fetcher/tmp/verisptab-0.1.0.tar.gz]
+[2023-07-29 00:38:58] INFO root fetch - main [MainThread]: End processing [verisptab]: success
+[2023-07-29 00:38:58] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.410.tar.gz]
+[2023-07-29 00:38:58] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.411.tar.gz]
+[2023-07-29 00:38:58] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-07-29 00:38:58] INFO root fetch - processPackages [strongmind-deployment]: Remove: archive file [/home/abi/fetcher/tmp/strongmind_deployment-1.0.8-py3-none-any.whl.zip]
+[2023-07-29 00:38:58] INFO root fetch - processPackages [strongmind-deployment]: Remove: archive file [/home/abi/fetcher/tmp/strongmind_deployment-1.0.9-py3-none-any.whl.zip]
+[2023-07-29 00:38:58] INFO root fetch - main [MainThread]: End processing [strongmind-deployment]: success
+[2023-07-29 00:38:59] INFO root fetch - processPackages [pyxet]: Remove: archive file [/home/abi/fetcher/tmp/pyxet-0.1.0.tar.gz]
+[2023-07-29 00:38:59] INFO root fetch - processPackages [pyxet]: Remove: archive file [/home/abi/fetcher/tmp/pyxet-0.1.1.tar.gz]
+[2023-07-29 00:38:59] INFO root fetch - main [MainThread]: End processing [pyxet]: success
+[2023-07-29 00:38:59] INFO root fetch - processPackages [amazon-braket-default-simulator]: Remove: archive file [/home/abi/fetcher/tmp/amazon-braket-default-simulator-1.9.0.tar.gz]
+[2023-07-29 00:38:59] INFO root fetch - processPackages [amazon-braket-default-simulator]: Remove: archive file [/home/abi/fetcher/tmp/amazon-braket-default-simulator-1.9.1.tar.gz]
+[2023-07-29 00:38:59] INFO root fetch - main [MainThread]: End processing [amazon-braket-default-simulator]: success
+[2023-07-29 00:39:01] INFO root fetch - processPackages [kdp-api-python-client]: Remove: archive file [/home/abi/fetcher/tmp/kdp-api-python-client-4.8.0.tar.gz]
+[2023-07-29 00:39:01] INFO root fetch - processPackages [kdp-api-python-client]: Remove: archive file [/home/abi/fetcher/tmp/kdp-api-python-client-4.9.0.tar.gz]
+[2023-07-29 00:39:01] INFO root fetch - main [MainThread]: End processing [kdp-api-python-client]: success
+[2023-07-29 00:39:01] INFO root fetch - main [MainThread]: Store serial: [19082220]
