@@ -1079,3 +1079,32 @@
 [2023-07-29 01:21:15] INFO root fetch - processPackages [garrett-streamlit-auth0]: Remove: archive file [/home/abi/fetcher/tmp/garrett-streamlit-auth0-0.3.dev1690586245.tar.gz]
 [2023-07-29 01:21:15] INFO root fetch - main [MainThread]: End processing [garrett-streamlit-auth0]: success
 [2023-07-29 01:21:15] INFO root fetch - main [MainThread]: Store serial: [19082456]
+[2023-07-29 01:26:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19082456]
+[2023-07-29 01:26:24] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-29 01:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neon-phal-plugin-reset
+[2023-07-29 01:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ovito
+[2023-07-29 01:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smartloop
+[2023-07-29 01:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: evenity
+[2023-07-29 01:26:24] INFO root fetch - processPackages [neon-phal-plugin-reset]: New version: [0.2.2a1] Old Version: [0.2.1a1]
+[2023-07-29 01:26:24] INFO root fetch - processPackages [evenity]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-29 01:26:24] WARNING root fetch - processPackages [smartloop]: Skipping, unable to determine old version
+[2023-07-29 01:26:24] INFO root fetch - main [MainThread]: End processing [smartloop] error
+[2023-07-29 01:26:24] INFO root fetch - processPackages [ovito]: New version: [3.9.0.dev118] Old Version: [3.8.5]
+[2023-07-29 01:26:25] INFO root fetch - processPackages [evenity]: Downloading https://files.pythonhosted.org/packages/94/cf/d3c94efef58707d0e2ca8a36122890f74723478c22e4b12bee047dbeebe1/evenity-0.0.1.tar.gz
+[2023-07-29 01:26:25] INFO root fetch - processPackages [neon-phal-plugin-reset]: Downloading https://files.pythonhosted.org/packages/fb/56/5a465e82e593ba895a58ab46fc067ae886bf1c9e346083717f1422b4affa/neon_phal_plugin_reset-0.2.1a1-py3-none-any.whl
+[2023-07-29 01:26:25] INFO root fetch - processPackages [ovito]: Downloading https://files.pythonhosted.org/packages/ac/0a/150454adf4d1b8ae20a2da811a48db6acd87054340943f0db3766c13453e/ovito-3.8.5-cp39-cp39-win_amd64.whl
+[2023-07-29 01:26:25] WARNING root fetch - processPackages [ovito]: Skipping package: exceeds size limit 75825203>=10485760
+[2023-07-29 01:26:25] INFO root fetch - main [MainThread]: End processing [ovito] error
+[2023-07-29 01:26:25] INFO root fetch - processPackages [evenity]: Downloading https://files.pythonhosted.org/packages/80/c6/fca69eda9274291761ab2bc6ef4b550f4cface52deae3482a72d2b361b87/evenity-0.0.2.tar.gz
+[2023-07-29 01:26:25] INFO root fetch - processPackages [evenity]: executing diffoscope
+[2023-07-29 01:26:25] INFO root fetch - processPackages [evenity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evenity-0.0.1.tar.gz tmp/evenity-0.0.2.tar.gz --markdown 20230729/e/evenity/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-29 01:26:26] INFO root fetch - processPackages [neon-phal-plugin-reset]: Downloading https://files.pythonhosted.org/packages/68/dc/7ed0cfda492af31ac6642d240f214803249e403e6dda4316effee292961f/neon-phal-plugin-reset-0.2.2a1.tar.gz
+[2023-07-29 01:26:26] INFO root fetch - processPackages [evenity]: Remove: archive file [/home/abi/fetcher/tmp/evenity-0.0.1.tar.gz]
+[2023-07-29 01:26:26] INFO root fetch - processPackages [evenity]: Remove: archive file [/home/abi/fetcher/tmp/evenity-0.0.2.tar.gz]
+[2023-07-29 01:26:26] INFO root fetch - main [MainThread]: End processing [evenity]: success
+[2023-07-29 01:26:26] INFO root fetch - processPackages [neon-phal-plugin-reset]: executing diffoscope
+[2023-07-29 01:26:26] INFO root fetch - processPackages [neon-phal-plugin-reset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_phal_plugin_reset-0.2.1a1-py3-none-any.whl.zip tmp/neon-phal-plugin-reset-0.2.2a1.tar.gz --markdown 20230729/n/neon-phal-plugin-reset/0.2.1a1-0.2.2a1/diff.md --exclude *.pyd
+[2023-07-29 01:26:26] INFO root fetch - processPackages [neon-phal-plugin-reset]: Remove: archive file [/home/abi/fetcher/tmp/neon_phal_plugin_reset-0.2.1a1-py3-none-any.whl.zip]
+[2023-07-29 01:26:26] INFO root fetch - processPackages [neon-phal-plugin-reset]: Remove: archive file [/home/abi/fetcher/tmp/neon-phal-plugin-reset-0.2.2a1.tar.gz]
+[2023-07-29 01:26:26] INFO root fetch - main [MainThread]: End processing [neon-phal-plugin-reset]: success
+[2023-07-29 01:26:26] INFO root fetch - main [MainThread]: Store serial: [19082470]
