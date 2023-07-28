@@ -302,3 +302,80 @@
 [2023-07-29 00:23:21] INFO root fetch - processPackages [OctoBot-Trading]: Remove: archive file [/home/abi/fetcher/tmp/OctoBot-Trading-2.4.9.tar.gz]
 [2023-07-29 00:23:21] INFO root fetch - main [MainThread]: End processing [OctoBot-Trading]: success
 [2023-07-29 00:23:21] INFO root fetch - main [MainThread]: Store serial: [19082126]
+[2023-07-29 00:28:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19082126]
+[2023-07-29 00:28:31] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-29 00:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: st-paywall
+[2023-07-29 00:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bgstools
+[2023-07-29 00:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bgstools
+[2023-07-29 00:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Print-Tricks-And-More-Alpha
+[2023-07-29 00:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ohnlptk-xlang-python
+[2023-07-29 00:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: invoice-parser
+[2023-07-29 00:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Print-Tricks-And-More-Alpha
+[2023-07-29 00:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: neon-phal-plugin-device-updater
+[2023-07-29 00:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pysyd
+[2023-07-29 00:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: chpass
+[2023-07-29 00:28:32] INFO root fetch - processPackages [bgstools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-29 00:28:32] INFO root fetch - processPackages [st-paywall]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-29 00:28:32] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: New version: [0.3.93] Old Version: [0.3.86rc0]
+[2023-07-29 00:28:32] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: New version: [0.3.93] Old Version: [0.3.86rc0]
+[2023-07-29 00:28:32] INFO root fetch - processPackages [ohnlptk-xlang-python]: New version: [1.0.0] Old Version: [0.0.3]
+[2023-07-29 00:28:32] INFO root fetch - processPackages [pysyd]: New version: [6.10.5] Old Version: [6.10.0]
+[2023-07-29 00:28:32] WARNING root fetch - processPackages [invoice-parser]: Skipping, unable to determine old version
+[2023-07-29 00:28:32] INFO root fetch - main [MainThread]: End processing [invoice-parser] error
+[2023-07-29 00:28:32] INFO root fetch - processPackages [bgstools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-29 00:28:32] WARNING root fetch - processPackages [neon-phal-plugin-device-updater]: Skipping, unable to determine old version
+[2023-07-29 00:28:32] INFO root fetch - main [MainThread]: End processing [neon-phal-plugin-device-updater] error
+[2023-07-29 00:28:32] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: Downloading https://files.pythonhosted.org/packages/8f/f9/da11bf3bad3b52c3a366e5fae56ac6dfb588a06b8ef2132c99128ce17ec6/Print_Tricks_And_More_Alpha-0.3.86rc0-py3-none-any.whl
+[2023-07-29 00:28:32] INFO root fetch - processPackages [chpass]: New version: [0.3.1] Old Version: [0.2.3]
+[2023-07-29 00:28:32] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/a3/d9/0f2b579fbbb29225abec7da824c3d2177fa751c84913339da89e8d0b4f89/bgstools-0.1.8.tar.gz
+[2023-07-29 00:28:32] INFO root fetch - processPackages [pysyd]: Downloading https://files.pythonhosted.org/packages/3b/5f/9b44645eb0cd75ac18d9eb312637c39b1e0313d5336b8cbc157ce71ca415/pysyd-6.10.0.tar.gz
+[2023-07-29 00:28:32] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/a3/d9/0f2b579fbbb29225abec7da824c3d2177fa751c84913339da89e8d0b4f89/bgstools-0.1.8.tar.gz
+[2023-07-29 00:28:32] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: Downloading https://files.pythonhosted.org/packages/8f/f9/da11bf3bad3b52c3a366e5fae56ac6dfb588a06b8ef2132c99128ce17ec6/Print_Tricks_And_More_Alpha-0.3.86rc0-py3-none-any.whl
+[2023-07-29 00:28:32] INFO root fetch - processPackages [ohnlptk-xlang-python]: Downloading https://files.pythonhosted.org/packages/b0/83/827cb290a585867132b0d32729e92ed0f825818cb4792531e5e6b63c3826/ohnlptk-xlang-python-0.0.3.tar.gz
+[2023-07-29 00:28:32] INFO root fetch - processPackages [st-paywall]: Downloading https://files.pythonhosted.org/packages/6d/d8/af3837ea9456e6ae8879601c4a0601f02179e704598a9d6ec74c961bbc67/st-paywall-0.1.3.tar.gz
+[2023-07-29 00:28:32] INFO root fetch - processPackages [chpass]: Downloading https://files.pythonhosted.org/packages/40/2d/160650cb97020b12619cf9170a21113761e8ca43b2faaa2378c1d09c11f5/chpass-0.2.3.tar.gz
+[2023-07-29 00:28:32] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/0a/3c/638191cc7a3a6135dbf58e2857b29d83bacba72ac3e579510aae9606e202/bgstools-0.1.9.tar.gz
+[2023-07-29 00:28:32] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/0a/3c/638191cc7a3a6135dbf58e2857b29d83bacba72ac3e579510aae9606e202/bgstools-0.1.9.tar.gz
+[2023-07-29 00:28:32] INFO root fetch - processPackages [pysyd]: Downloading https://files.pythonhosted.org/packages/a1/ca/7d0b0934ddfd29e208b46e59208edd808a18b6deb29affca8d786d13a6ca/pysyd-6.10.5.tar.gz
+[2023-07-29 00:28:32] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: Downloading https://files.pythonhosted.org/packages/77/f7/273d823a68ff6af798ba296987acee8ca3bf9a159bac3abf6675a93da6f7/Print_Tricks_And_More_Alpha-0.3.93-py3-none-any.whl
+[2023-07-29 00:28:33] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: Downloading https://files.pythonhosted.org/packages/77/f7/273d823a68ff6af798ba296987acee8ca3bf9a159bac3abf6675a93da6f7/Print_Tricks_And_More_Alpha-0.3.93-py3-none-any.whl
+[2023-07-29 00:28:33] INFO root fetch - processPackages [ohnlptk-xlang-python]: Downloading https://files.pythonhosted.org/packages/f6/7a/e0a7109945d7395b20e4439b74ff6aaaa3f24c17856e2be8f0498302c79d/ohnlptk-xlang-python-1.0.0.tar.gz
+[2023-07-29 00:28:33] INFO root fetch - processPackages [st-paywall]: Downloading https://files.pythonhosted.org/packages/69/79/7c95348125d0a4a076bac9de7bacfb66c9f36ed4524ccec6c0e4257aaf57/st-paywall-0.1.4.tar.gz
+[2023-07-29 00:28:33] INFO root fetch - processPackages [bgstools]: executing diffoscope
+[2023-07-29 00:28:33] INFO root fetch - processPackages [bgstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgstools-0.1.8.tar.gz tmp/bgstools-0.1.9.tar.gz --markdown 20230729/b/bgstools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-29 00:28:33] INFO root fetch - processPackages [bgstools]: executing diffoscope
+[2023-07-29 00:28:33] INFO root fetch - processPackages [bgstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgstools-0.1.8.tar.gz tmp/bgstools-0.1.9.tar.gz --markdown 20230729/b/bgstools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-29 00:28:33] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: executing diffoscope
+[2023-07-29 00:28:33] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Print_Tricks_And_More_Alpha-0.3.86rc0-py3-none-any.whl.zip tmp/Print_Tricks_And_More_Alpha-0.3.93-py3-none-any.whl.zip --markdown 20230729/P/Print-Tricks-And-More-Alpha/0.3.86rc0-0.3.93/diff.md --exclude *.pyd
+[2023-07-29 00:28:33] INFO root fetch - processPackages [pysyd]: executing diffoscope
+[2023-07-29 00:28:33] INFO root fetch - processPackages [pysyd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysyd-6.10.0.tar.gz tmp/pysyd-6.10.5.tar.gz --markdown 20230729/p/pysyd/6.10.0-6.10.5/diff.md --exclude *.pyd
+[2023-07-29 00:28:33] INFO root fetch - processPackages [ohnlptk-xlang-python]: executing diffoscope
+[2023-07-29 00:28:33] INFO root fetch - processPackages [ohnlptk-xlang-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ohnlptk-xlang-python-0.0.3.tar.gz tmp/ohnlptk-xlang-python-1.0.0.tar.gz --markdown 20230729/o/ohnlptk-xlang-python/0.0.3-1.0.0/diff.md --exclude *.pyd
+[2023-07-29 00:28:33] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: executing diffoscope
+[2023-07-29 00:28:33] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Print_Tricks_And_More_Alpha-0.3.86rc0-py3-none-any.whl.zip tmp/Print_Tricks_And_More_Alpha-0.3.93-py3-none-any.whl.zip --markdown 20230729/P/Print-Tricks-And-More-Alpha/0.3.86rc0-0.3.93/diff.md --exclude *.pyd
+[2023-07-29 00:28:33] INFO root fetch - processPackages [st-paywall]: executing diffoscope
+[2023-07-29 00:28:33] INFO root fetch - processPackages [st-paywall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st-paywall-0.1.3.tar.gz tmp/st-paywall-0.1.4.tar.gz --markdown 20230729/s/st-paywall/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-29 00:28:33] INFO root fetch - processPackages [chpass]: Downloading https://files.pythonhosted.org/packages/e2/d8/60d52c45d8d655251b2cf201327594585c8aa70cbe7d43d19b553aeac613/chpass-0.3.1.tar.gz
+[2023-07-29 00:28:33] INFO root fetch - processPackages [chpass]: executing diffoscope
+[2023-07-29 00:28:33] INFO root fetch - processPackages [chpass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chpass-0.2.3.tar.gz tmp/chpass-0.3.1.tar.gz --markdown 20230729/c/chpass/0.2.3-0.3.1/diff.md --exclude *.pyd
+[2023-07-29 00:28:34] INFO root fetch - processPackages [ohnlptk-xlang-python]: Remove: archive file [/home/abi/fetcher/tmp/ohnlptk-xlang-python-0.0.3.tar.gz]
+[2023-07-29 00:28:34] INFO root fetch - processPackages [ohnlptk-xlang-python]: Remove: archive file [/home/abi/fetcher/tmp/ohnlptk-xlang-python-1.0.0.tar.gz]
+[2023-07-29 00:28:34] INFO root fetch - main [MainThread]: End processing [ohnlptk-xlang-python]: success
+[2023-07-29 00:28:34] INFO root fetch - processPackages [bgstools]: Remove: archive file [/home/abi/fetcher/tmp/bgstools-0.1.8.tar.gz]
+[2023-07-29 00:28:34] INFO root fetch - processPackages [bgstools]: Remove: archive file [/home/abi/fetcher/tmp/bgstools-0.1.9.tar.gz]
+[2023-07-29 00:28:34] INFO root fetch - main [MainThread]: End processing [bgstools]: success
+[2023-07-29 00:28:34] INFO root fetch - main [MainThread]: End processing [bgstools]: success
+[2023-07-29 00:28:34] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: Remove: archive file [/home/abi/fetcher/tmp/Print_Tricks_And_More_Alpha-0.3.86rc0-py3-none-any.whl.zip]
+[2023-07-29 00:28:34] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: Remove: archive file [/home/abi/fetcher/tmp/Print_Tricks_And_More_Alpha-0.3.93-py3-none-any.whl.zip]
+[2023-07-29 00:28:34] INFO root fetch - main [MainThread]: End processing [Print-Tricks-And-More-Alpha]: success
+[2023-07-29 00:28:34] INFO root fetch - processPackages [st-paywall]: Remove: archive file [/home/abi/fetcher/tmp/st-paywall-0.1.3.tar.gz]
+[2023-07-29 00:28:34] INFO root fetch - processPackages [st-paywall]: Remove: archive file [/home/abi/fetcher/tmp/st-paywall-0.1.4.tar.gz]
+[2023-07-29 00:28:34] INFO root fetch - main [MainThread]: End processing [st-paywall]: success
+[2023-07-29 00:28:34] INFO root fetch - processPackages [pysyd]: Remove: archive file [/home/abi/fetcher/tmp/pysyd-6.10.0.tar.gz]
+[2023-07-29 00:28:34] INFO root fetch - processPackages [pysyd]: Remove: archive file [/home/abi/fetcher/tmp/pysyd-6.10.5.tar.gz]
+[2023-07-29 00:28:34] INFO root fetch - main [MainThread]: End processing [pysyd]: success
+[2023-07-29 00:28:34] INFO root fetch - main [MainThread]: End processing [Print-Tricks-And-More-Alpha]: success
+[2023-07-29 00:28:34] INFO root fetch - processPackages [chpass]: Remove: archive file [/home/abi/fetcher/tmp/chpass-0.2.3.tar.gz]
+[2023-07-29 00:28:34] INFO root fetch - processPackages [chpass]: Remove: archive file [/home/abi/fetcher/tmp/chpass-0.3.1.tar.gz]
+[2023-07-29 00:28:34] INFO root fetch - main [MainThread]: End processing [chpass]: success
+[2023-07-29 00:28:34] INFO root fetch - main [MainThread]: Store serial: [19082167]
