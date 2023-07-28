@@ -22,3 +22,51 @@
 [2023-07-29 00:02:25] INFO root fetch - processPackages [not1mm]: Remove: archive file [/home/abi/fetcher/tmp/not1mm-23.7.5.tar.gz]
 [2023-07-29 00:02:25] INFO root fetch - main [MainThread]: End processing [not1mm]: success
 [2023-07-29 00:02:25] INFO root fetch - main [MainThread]: Store serial: [19082029]
+[2023-07-29 00:07:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19082029]
+[2023-07-29 00:07:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-29 00:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chipsec
+[2023-07-29 00:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vstutils
+[2023-07-29 00:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: app-toggles
+[2023-07-29 00:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: github4api
+[2023-07-29 00:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oloren
+[2023-07-29 00:07:34] INFO root fetch - processPackages [github4api]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-29 00:07:34] INFO root fetch - processPackages [app-toggles]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-29 00:07:34] INFO root fetch - processPackages [chipsec]: New version: [1.5.1] Old Version: [1.4.4]
+[2023-07-29 00:07:34] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-29 00:07:34] INFO root fetch - processPackages [vstutils]: New version: [5.6.5] Old Version: [5.6.4]
+[2023-07-29 00:07:34] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/a3/76/06db9dcd349a4094baa829da1112066fd4fe60d5748d1b0c8c0833367603/oloren-0.0.8.tar.gz
+[2023-07-29 00:07:35] INFO root fetch - processPackages [chipsec]: Downloading https://files.pythonhosted.org/packages/90/90/81c7673faccad48b106f78c884101c12f6f7f5e4effdab101f89779cd4ab/chipsec-1.4.4.0.tar.gz
+[2023-07-29 00:07:35] INFO root fetch - processPackages [app-toggles]: Downloading https://files.pythonhosted.org/packages/1e/44/8ed7fbed38b5dc8796907d7d716ec28ab30de76bcc5c05297a7b4bab9984/app_toggles-0.1.0.tar.gz
+[2023-07-29 00:07:35] INFO root fetch - processPackages [github4api]: Downloading https://files.pythonhosted.org/packages/ce/0c/050eb50bb9dabf2c4a233458880aba89c20c5a73b6d8227d76f30919aac7/github4api-1.1.8.tar.gz
+[2023-07-29 00:07:35] INFO root fetch - processPackages [vstutils]: Downloading https://files.pythonhosted.org/packages/c1/d6/0633ba6c3823f849b542c44b54572b4b81472b0b905cbb9e226ad163b158/vstutils-5.6.4.tar.gz
+[2023-07-29 00:07:35] INFO root fetch - processPackages [app-toggles]: Downloading https://files.pythonhosted.org/packages/5c/e0/1ee2a4205853bddb931a17a722eb7690705ac02c0f95af4e4b5493bdf469/app_toggles-0.1.1.tar.gz
+[2023-07-29 00:07:35] INFO root fetch - processPackages [github4api]: Downloading https://files.pythonhosted.org/packages/6a/82/18258a8e9e7034bb3e724c6d0d06453b0fd149c297b5fc5e2471a274c2f8/github4api-1.1.9.tar.gz
+[2023-07-29 00:07:35] INFO root fetch - processPackages [app-toggles]: executing diffoscope
+[2023-07-29 00:07:35] INFO root fetch - processPackages [app-toggles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/app_toggles-0.1.0.tar.gz tmp/app_toggles-0.1.1.tar.gz --markdown 20230729/a/app-toggles/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-29 00:07:35] INFO root fetch - processPackages [github4api]: executing diffoscope
+[2023-07-29 00:07:35] INFO root fetch - processPackages [github4api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/github4api-1.1.8.tar.gz tmp/github4api-1.1.9.tar.gz --markdown 20230729/g/github4api/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-29 00:07:35] INFO root fetch - processPackages [chipsec]: Downloading https://files.pythonhosted.org/packages/44/9e/fa63ce34fd9536c609d4af25c06adb42adb9199ed0d0e9e3931d9ad7c45a/chipsec-1.5.1.tar.gz
+[2023-07-29 00:07:35] INFO root fetch - processPackages [chipsec]: executing diffoscope
+[2023-07-29 00:07:35] INFO root fetch - processPackages [chipsec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chipsec-1.4.4.0.tar.gz tmp/chipsec-1.5.1.tar.gz --markdown 20230729/c/chipsec/1.4.4-1.5.1/diff.md --exclude *.pyd
+[2023-07-29 00:07:35] INFO root fetch - processPackages [vstutils]: Downloading https://files.pythonhosted.org/packages/05/1c/d761980157faf639fb656bd0393b52a2060b3d0f9605387726468e95330b/vstutils-5.6.5.tar.gz
+[2023-07-29 00:07:35] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/8f/84/66581190d09357a5dd522267963c2d727e20650e6690064dc2efadd1c020/oloren-0.0.9.tar.gz
+[2023-07-29 00:07:36] INFO root fetch - processPackages [vstutils]: executing diffoscope
+[2023-07-29 00:07:36] INFO root fetch - processPackages [vstutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vstutils-5.6.4.tar.gz tmp/vstutils-5.6.5.tar.gz --markdown 20230729/v/vstutils/5.6.4-5.6.5/diff.md --exclude *.pyd
+[2023-07-29 00:07:36] INFO root fetch - processPackages [app-toggles]: Remove: archive file [/home/abi/fetcher/tmp/app_toggles-0.1.0.tar.gz]
+[2023-07-29 00:07:36] INFO root fetch - processPackages [app-toggles]: Remove: archive file [/home/abi/fetcher/tmp/app_toggles-0.1.1.tar.gz]
+[2023-07-29 00:07:36] INFO root fetch - main [MainThread]: End processing [app-toggles]: success
+[2023-07-29 00:07:36] INFO root fetch - processPackages [github4api]: Remove: archive file [/home/abi/fetcher/tmp/github4api-1.1.8.tar.gz]
+[2023-07-29 00:07:36] INFO root fetch - processPackages [github4api]: Remove: archive file [/home/abi/fetcher/tmp/github4api-1.1.9.tar.gz]
+[2023-07-29 00:07:36] INFO root fetch - main [MainThread]: End processing [github4api]: success
+[2023-07-29 00:07:36] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-07-29 00:07:36] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230729/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-29 00:07:37] INFO root fetch - processPackages [vstutils]: Remove: archive file [/home/abi/fetcher/tmp/vstutils-5.6.4.tar.gz]
+[2023-07-29 00:07:37] INFO root fetch - processPackages [vstutils]: Remove: archive file [/home/abi/fetcher/tmp/vstutils-5.6.5.tar.gz]
+[2023-07-29 00:07:37] INFO root fetch - main [MainThread]: End processing [vstutils]: success
+[2023-07-29 00:07:38] INFO root fetch - processPackages [chipsec]: Remove: archive file [/home/abi/fetcher/tmp/chipsec-1.4.4.0.tar.gz]
+[2023-07-29 00:07:38] INFO root fetch - processPackages [chipsec]: Remove: archive file [/home/abi/fetcher/tmp/chipsec-1.5.1.tar.gz]
+[2023-07-29 00:07:38] INFO root fetch - main [MainThread]: End processing [chipsec]: success
+[2023-07-29 00:07:40] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.8.tar.gz]
+[2023-07-29 00:07:40] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
+[2023-07-29 00:07:40] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-07-29 00:07:40] INFO root fetch - main [MainThread]: Store serial: [19082043]
