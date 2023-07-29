@@ -9816,3 +9816,38 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 07:57:49] INFO root fetch - processPackages [markdownparser]: Remove: archive file [/home/abi/fetcher/tmp/markdownparser-0.5.5.tar.gz]
 [2023-07-29 07:57:49] INFO root fetch - main [MainThread]: End processing [markdownparser]: success
 [2023-07-29 07:57:49] INFO root fetch - main [MainThread]: Store serial: [19085855]
+[2023-07-29 08:02:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19085855]
+[2023-07-29 08:02:58] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-29 08:02:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Finance-Hermes
+[2023-07-29 08:02:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flybrains
+[2023-07-29 08:02:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: colcon-lint
+[2023-07-29 08:02:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-web-m2x-options
+[2023-07-29 08:02:58] INFO root fetch - processPackages [colcon-lint]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-07-29 08:02:58] INFO root fetch - processPackages [Finance-Hermes]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-29 08:02:58] INFO root fetch - processPackages [flybrains]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-29 08:02:58] INFO root fetch - processPackages [odoo-addon-web-m2x-options]: New version: [16.0.1.1.1.1] Old Version: [16.0.1.1.1]
+[2023-07-29 08:02:58] INFO root fetch - processPackages [Finance-Hermes]: Downloading https://files.pythonhosted.org/packages/34/1c/01323a58cb6d4052894b0378d534ecd1688ddcacacfb4d287eaf5f9c70cf/Finance-Hermes-0.2.8.tar.gz
+[2023-07-29 08:02:58] INFO root fetch - processPackages [colcon-lint]: Downloading https://files.pythonhosted.org/packages/6a/cb/90fcd28fccb64923986d613d0204cc4d2c807f394e5a93eac4b8100da689/colcon-lint-0.2.1.tar.gz
+[2023-07-29 08:02:58] INFO root fetch - processPackages [flybrains]: Downloading https://files.pythonhosted.org/packages/a4/69/99c43c05ad7b42b2c8d36d806315cc7aa989e6530c6fc671c946a65c1af1/flybrains-0.2.7.tar.gz
+[2023-07-29 08:02:58] INFO root fetch - processPackages [odoo-addon-web-m2x-options]: Downloading https://files.pythonhosted.org/packages/37/32/54b6ec70c744d5bf1c2801fb37ce6a0ec8a696f6e8b54518d0fde0933a2c/odoo_addon_web_m2x_options-16.0.1.1.1-py3-none-any.whl
+[2023-07-29 08:02:58] INFO root fetch - processPackages [Finance-Hermes]: Downloading https://files.pythonhosted.org/packages/72/b7/48cbdd5b965e6db68a27722409e2de31a88e86230012f83249097b510b99/Finance-Hermes-0.2.9.tar.gz
+[2023-07-29 08:02:58] INFO root fetch - processPackages [colcon-lint]: Downloading https://files.pythonhosted.org/packages/00/c7/85529953d1c15d5c0194f678ab1bc8c9a6a2856231bffecb0d8e29207d93/colcon-lint-0.3.0.tar.gz
+[2023-07-29 08:02:58] WARNING root fetch - processPackages [flybrains]: Skipping package: exceeds size limit 11565765>=10485760
+[2023-07-29 08:02:58] INFO root fetch - main [MainThread]: End processing [flybrains] error
+[2023-07-29 08:02:58] INFO root fetch - processPackages [odoo-addon-web-m2x-options]: Downloading https://files.pythonhosted.org/packages/b2/92/b12bd48c13f7b5c6182798518bcb32cefcb10ed99f62238a04609e96f6d1/odoo_addon_web_m2x_options-16.0.1.1.1.1-py3-none-any.whl
+[2023-07-29 08:02:58] INFO root fetch - processPackages [Finance-Hermes]: executing diffoscope
+[2023-07-29 08:02:58] INFO root fetch - processPackages [Finance-Hermes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Finance-Hermes-0.2.8.tar.gz tmp/Finance-Hermes-0.2.9.tar.gz --markdown 20230729/F/Finance-Hermes/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-29 08:02:58] INFO root fetch - processPackages [colcon-lint]: executing diffoscope
+[2023-07-29 08:02:58] INFO root fetch - processPackages [colcon-lint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colcon-lint-0.2.1.tar.gz tmp/colcon-lint-0.3.0.tar.gz --markdown 20230729/c/colcon-lint/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-07-29 08:02:59] INFO root fetch - processPackages [odoo-addon-web-m2x-options]: executing diffoscope
+[2023-07-29 08:02:59] INFO root fetch - processPackages [odoo-addon-web-m2x-options]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_m2x_options-16.0.1.1.1-py3-none-any.whl.zip tmp/odoo_addon_web_m2x_options-16.0.1.1.1.1-py3-none-any.whl.zip --markdown 20230729/o/odoo-addon-web-m2x-options/16.0.1.1.1-16.0.1.1.1.1/diff.md --exclude *.pyd
+[2023-07-29 08:02:59] INFO root fetch - processPackages [colcon-lint]: Remove: archive file [/home/abi/fetcher/tmp/colcon-lint-0.2.1.tar.gz]
+[2023-07-29 08:02:59] INFO root fetch - processPackages [colcon-lint]: Remove: archive file [/home/abi/fetcher/tmp/colcon-lint-0.3.0.tar.gz]
+[2023-07-29 08:02:59] INFO root fetch - main [MainThread]: End processing [colcon-lint]: success
+[2023-07-29 08:02:59] INFO root fetch - processPackages [Finance-Hermes]: Remove: archive file [/home/abi/fetcher/tmp/Finance-Hermes-0.2.8.tar.gz]
+[2023-07-29 08:02:59] INFO root fetch - processPackages [Finance-Hermes]: Remove: archive file [/home/abi/fetcher/tmp/Finance-Hermes-0.2.9.tar.gz]
+[2023-07-29 08:02:59] INFO root fetch - main [MainThread]: End processing [Finance-Hermes]: success
+[2023-07-29 08:03:00] INFO root fetch - processPackages [odoo-addon-web-m2x-options]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_m2x_options-16.0.1.1.1-py3-none-any.whl.zip]
+[2023-07-29 08:03:00] INFO root fetch - processPackages [odoo-addon-web-m2x-options]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_m2x_options-16.0.1.1.1.1-py3-none-any.whl.zip]
+[2023-07-29 08:03:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-m2x-options]: success
+[2023-07-29 08:03:00] INFO root fetch - main [MainThread]: Store serial: [19085864]
