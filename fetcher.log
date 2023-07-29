@@ -8603,3 +8603,50 @@
 [2023-07-29 06:44:01] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
 [2023-07-29 06:44:01] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-07-29 06:44:01] INFO root fetch - main [MainThread]: Store serial: [19085414]
+[2023-07-29 06:49:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19085414]
+[2023-07-29 06:49:10] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-29 06:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: UIron
+[2023-07-29 06:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scoda-tk
+[2023-07-29 06:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simple-regex-generator
+[2023-07-29 06:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: centralcli
+[2023-07-29 06:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fdfat
+[2023-07-29 06:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: generic-grader
+[2023-07-29 06:49:10] WARNING root fetch - processPackages [simple-regex-generator]: Skipping, unable to determine old version
+[2023-07-29 06:49:10] INFO root fetch - main [MainThread]: End processing [simple-regex-generator] error
+[2023-07-29 06:49:10] INFO root fetch - processPackages [scoda-tk]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-29 06:49:10] INFO root fetch - processPackages [generic-grader]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-29 06:49:10] INFO root fetch - processPackages [fdfat]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-29 06:49:10] INFO root fetch - processPackages [UIron]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-29 06:49:10] INFO root fetch - processPackages [centralcli]: New version: [1.9] Old Version: [1.8]
+[2023-07-29 06:49:11] INFO root fetch - processPackages [fdfat]: Downloading https://files.pythonhosted.org/packages/52/42/506d3fba14d58806c280bd41827378afbc8feb465c3c9021fad9db01c7fe/fdfat-0.1.8.tar.gz
+[2023-07-29 06:49:11] INFO root fetch - processPackages [UIron]: Downloading https://files.pythonhosted.org/packages/fa/77/1541dce83b762860eb6eb598b64616f6162966a73610027d735ad76dabb3/UIron-0.0.7.tar.gz
+[2023-07-29 06:49:11] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/e6/7b/856c0703e0410a653fbb9cec40b851dbdde413774b75ea6977fd1ed6a54b/scoda-tk-0.0.6.tar.gz
+[2023-07-29 06:49:11] WARNING root fetch - processPackages [scoda-tk]: Skipping package: exceeds size limit 11118354>=10485760
+[2023-07-29 06:49:11] INFO root fetch - main [MainThread]: End processing [scoda-tk] error
+[2023-07-29 06:49:11] INFO root fetch - processPackages [generic-grader]: Downloading https://files.pythonhosted.org/packages/ce/7c/e24676cd81921e9e028dde88e12fcfbfe558576930fca67a0df540229e2f/generic_grader-0.0.1.tar.gz
+[2023-07-29 06:49:11] INFO root fetch - processPackages [centralcli]: Downloading https://files.pythonhosted.org/packages/ac/2c/8971ad083c228473dee1b89729468b3aec1908d2a673f6a1c7ae247bc697/centralcli-1.8.tar.gz
+[2023-07-29 06:49:11] INFO root fetch - processPackages [fdfat]: Downloading https://files.pythonhosted.org/packages/33/f3/6899c69370589ad43d818b9e5cdb2d0d01d7ef88af4613948080645b45db/fdfat-0.1.9.tar.gz
+[2023-07-29 06:49:11] INFO root fetch - processPackages [UIron]: Downloading https://files.pythonhosted.org/packages/2b/e6/90e047b3d759c8034743a573fba2c4825cd863600e194bfef302632ff8f7/UIron-0.0.8.tar.gz
+[2023-07-29 06:49:11] INFO root fetch - processPackages [fdfat]: executing diffoscope
+[2023-07-29 06:49:11] INFO root fetch - processPackages [fdfat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdfat-0.1.8.tar.gz tmp/fdfat-0.1.9.tar.gz --markdown 20230729/f/fdfat/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-29 06:49:11] INFO root fetch - processPackages [generic-grader]: Downloading https://files.pythonhosted.org/packages/79/98/fcda7e9dd8c14082d421a544c516f2a2ba32abcafa7d5f456ae9fda089f7/generic_grader-0.0.2.tar.gz
+[2023-07-29 06:49:11] INFO root fetch - processPackages [centralcli]: Downloading https://files.pythonhosted.org/packages/44/28/a40ea20815bee95db9b68238b92b40a3eaa4da3bb83bca0cfba0869c3406/centralcli-1.9.tar.gz
+[2023-07-29 06:49:11] INFO root fetch - processPackages [generic-grader]: executing diffoscope
+[2023-07-29 06:49:11] INFO root fetch - processPackages [generic-grader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/generic_grader-0.0.1.tar.gz tmp/generic_grader-0.0.2.tar.gz --markdown 20230729/g/generic-grader/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-29 06:49:11] INFO root fetch - processPackages [UIron]: executing diffoscope
+[2023-07-29 06:49:11] INFO root fetch - processPackages [UIron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UIron-0.0.7.tar.gz tmp/UIron-0.0.8.tar.gz --markdown 20230729/U/UIron/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-29 06:49:11] INFO root fetch - processPackages [centralcli]: executing diffoscope
+[2023-07-29 06:49:11] INFO root fetch - processPackages [centralcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/centralcli-1.8.tar.gz tmp/centralcli-1.9.tar.gz --markdown 20230729/c/centralcli/1.8-1.9/diff.md --exclude *.pyd
+[2023-07-29 06:49:12] INFO root fetch - processPackages [fdfat]: Remove: archive file [/home/abi/fetcher/tmp/fdfat-0.1.8.tar.gz]
+[2023-07-29 06:49:12] INFO root fetch - processPackages [fdfat]: Remove: archive file [/home/abi/fetcher/tmp/fdfat-0.1.9.tar.gz]
+[2023-07-29 06:49:12] INFO root fetch - main [MainThread]: End processing [fdfat]: success
+[2023-07-29 06:49:12] INFO root fetch - processPackages [generic-grader]: Remove: archive file [/home/abi/fetcher/tmp/generic_grader-0.0.1.tar.gz]
+[2023-07-29 06:49:12] INFO root fetch - processPackages [generic-grader]: Remove: archive file [/home/abi/fetcher/tmp/generic_grader-0.0.2.tar.gz]
+[2023-07-29 06:49:12] INFO root fetch - main [MainThread]: End processing [generic-grader]: success
+[2023-07-29 06:49:12] INFO root fetch - processPackages [UIron]: Remove: archive file [/home/abi/fetcher/tmp/UIron-0.0.7.tar.gz]
+[2023-07-29 06:49:12] INFO root fetch - processPackages [UIron]: Remove: archive file [/home/abi/fetcher/tmp/UIron-0.0.8.tar.gz]
+[2023-07-29 06:49:12] INFO root fetch - main [MainThread]: End processing [UIron]: success
+[2023-07-29 06:49:12] INFO root fetch - processPackages [centralcli]: Remove: archive file [/home/abi/fetcher/tmp/centralcli-1.8.tar.gz]
+[2023-07-29 06:49:12] INFO root fetch - processPackages [centralcli]: Remove: archive file [/home/abi/fetcher/tmp/centralcli-1.9.tar.gz]
+[2023-07-29 06:49:12] INFO root fetch - main [MainThread]: End processing [centralcli]: success
+[2023-07-29 06:49:12] INFO root fetch - main [MainThread]: Store serial: [19085434]
