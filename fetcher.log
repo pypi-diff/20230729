@@ -16899,3 +16899,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 14:24:12] INFO root fetch - processPackages [gpt-code-ui]: Remove: archive file [/home/abi/fetcher/tmp/gpt_code_ui-0.42.9.tar.gz]
 [2023-07-29 14:24:12] INFO root fetch - main [MainThread]: End processing [gpt-code-ui]: success
 [2023-07-29 14:24:12] INFO root fetch - main [MainThread]: Store serial: [19088519]
+[2023-07-29 14:29:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19088519]
+[2023-07-29 14:29:20] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-29 14:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scientific-plots
+[2023-07-29 14:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xxhash
+[2023-07-29 14:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wwpdb.utils.emdb
+[2023-07-29 14:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: roidynamics
+[2023-07-29 14:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: djangoldp-babelfish
+[2023-07-29 14:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytest_param_files
+[2023-07-29 14:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: budgeteer
+[2023-07-29 14:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jinja2-eval
+[2023-07-29 14:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wwpdb.apps.releasemodule
+[2023-07-29 14:29:20] INFO root fetch - processPackages [pytest_param_files]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-29 14:29:20] WARNING root fetch - processPackages [jinja2-eval]: Skipping, unable to determine old version
+[2023-07-29 14:29:20] INFO root fetch - main [MainThread]: End processing [jinja2-eval] error
+[2023-07-29 14:29:20] INFO root fetch - processPackages [wwpdb.utils.emdb]: New version: [1.5] Old Version: [1.4.3]
+[2023-07-29 14:29:20] INFO root fetch - processPackages [scientific-plots]: New version: [1.7.2] Old Version: [1.7.1]
+[2023-07-29 14:29:20] WARNING root fetch - processPackages [roidynamics]: Skipping, unable to determine old version
+[2023-07-29 14:29:20] INFO root fetch - processPackages [wwpdb.apps.releasemodule]: New version: [0.29.dev1] Old Version: [0.29.1]
+[2023-07-29 14:29:20] INFO root fetch - main [MainThread]: End processing [roidynamics] error
+[2023-07-29 14:29:20] WARNING root fetch - processPackages [budgeteer]: Skipping, unable to determine old version
+[2023-07-29 14:29:20] INFO root fetch - main [MainThread]: End processing [budgeteer] error
+[2023-07-29 14:29:20] INFO root fetch - processPackages [djangoldp-babelfish]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-29 14:29:20] INFO root fetch - processPackages [xxhash]: New version: [3.3.0] Old Version: [3.2.0]
+[2023-07-29 14:29:21] INFO root fetch - processPackages [xxhash]: Downloading https://files.pythonhosted.org/packages/24/90/666a4d4d96a93ddaaaa0142ef8c1bd20f7135a7f1114a894f4d6efac16c5/xxhash-3.2.0.tar.gz
+[2023-07-29 14:29:21] INFO root fetch - processPackages [djangoldp-babelfish]: Downloading https://files.pythonhosted.org/packages/a5/f0/6b7bd5ac8d8bf586a1a8516280794604ea1b10c07a6f3339d8b49d8e8f89/djangoldp_babelfish-1.0.3.tar.gz
+[2023-07-29 14:29:21] INFO root fetch - processPackages [scientific-plots]: Downloading https://files.pythonhosted.org/packages/e4/13/f9a2b2c5f3bf2e7bf97acd0665731af4e1a555392f67c3e07aad4f1fd14a/scientific_plots-1.7.1.tar.gz
+[2023-07-29 14:29:21] INFO root fetch - processPackages [wwpdb.apps.releasemodule]: Downloading https://files.pythonhosted.org/packages/2f/bf/40fb08aac632150d9dc45c3244c28cd1f3eef1eb2676ce7262058f8e7ca4/wwpdb.apps.releasemodule-0.29.1.tar.gz
+[2023-07-29 14:29:21] INFO root fetch - processPackages [pytest_param_files]: Downloading https://files.pythonhosted.org/packages/ed/d4/c51aba31f7abb380a208c872ccd4a95de36aa3897a44d4f58b9c12e42183/pytest_param_files-0.5.0.tar.gz
+[2023-07-29 14:29:21] INFO root fetch - processPackages [wwpdb.utils.emdb]: Downloading https://files.pythonhosted.org/packages/3a/86/9eb0994dc31303421b06591ac856173716454e29e29fe5305d314ee79656/wwpdb.utils.emdb-1.4.3.tar.gz
+[2023-07-29 14:29:21] INFO root fetch - processPackages [djangoldp-babelfish]: Downloading https://files.pythonhosted.org/packages/b7/20/f6637ca5863d402f9b5f440aa5dbd4d34545e6084eef5f79f8925787105e/djangoldp_babelfish-1.0.4.tar.gz
+[2023-07-29 14:29:21] INFO root fetch - processPackages [scientific-plots]: Downloading https://files.pythonhosted.org/packages/81/06/1ba8195778f9569501502b41001800af9357054bcad6666de4f75f69426d/scientific_plots-1.7.2.tar.gz
+[2023-07-29 14:29:21] INFO root fetch - processPackages [djangoldp-babelfish]: executing diffoscope
+[2023-07-29 14:29:21] INFO root fetch - processPackages [djangoldp-babelfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_babelfish-1.0.3.tar.gz tmp/djangoldp_babelfish-1.0.4.tar.gz --markdown 20230729/d/djangoldp-babelfish/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-29 14:29:21] INFO root fetch - processPackages [xxhash]: Downloading https://files.pythonhosted.org/packages/07/5f/6951f7496b0a452f3e79e39d48e7166b3445d1e064691b7df99d1ee80196/xxhash-3.3.0.tar.gz
+[2023-07-29 14:29:21] INFO root fetch - processPackages [pytest_param_files]: Downloading https://files.pythonhosted.org/packages/f7/54/023b260066b36cc8ebd42c52c7c65b94110c4a1abb08d0edf7eac71e21a5/pytest_param_files-0.6.0.tar.gz
+[2023-07-29 14:29:21] INFO root fetch - processPackages [wwpdb.utils.emdb]: Downloading https://files.pythonhosted.org/packages/22/aa/2d2b188ad23ae0ad8349dc8e457b758029190b8910e8a3550cf5bafbc92c/wwpdb.utils.emdb-1.5.tar.gz
+[2023-07-29 14:29:21] INFO root fetch - processPackages [wwpdb.apps.releasemodule]: Downloading https://files.pythonhosted.org/packages/25/7e/93a637920603659cad390ba9c0625b37d05df1de634da0dc732f912fadd9/wwpdb.apps.releasemodule-0.29.dev1.tar.gz
+[2023-07-29 14:29:21] INFO root fetch - processPackages [scientific-plots]: executing diffoscope
+[2023-07-29 14:29:21] INFO root fetch - processPackages [scientific-plots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scientific_plots-1.7.1.tar.gz tmp/scientific_plots-1.7.2.tar.gz --markdown 20230729/s/scientific-plots/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2023-07-29 14:29:21] INFO root fetch - processPackages [pytest_param_files]: executing diffoscope
+[2023-07-29 14:29:21] INFO root fetch - processPackages [pytest_param_files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_param_files-0.5.0.tar.gz tmp/pytest_param_files-0.6.0.tar.gz --markdown 20230729/p/pytest_param_files/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-29 14:29:21] INFO root fetch - processPackages [xxhash]: executing diffoscope
+[2023-07-29 14:29:21] INFO root fetch - processPackages [xxhash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xxhash-3.2.0.tar.gz tmp/xxhash-3.3.0.tar.gz --markdown 20230729/x/xxhash/3.2.0-3.3.0/diff.md --exclude *.pyd
+[2023-07-29 14:29:21] INFO root fetch - processPackages [wwpdb.utils.emdb]: executing diffoscope
+[2023-07-29 14:29:21] INFO root fetch - processPackages [wwpdb.utils.emdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwpdb.utils.emdb-1.4.3.tar.gz tmp/wwpdb.utils.emdb-1.5.tar.gz --markdown 20230729/w/wwpdb.utils.emdb/1.4.3-1.5/diff.md --exclude *.pyd
+[2023-07-29 14:29:22] INFO root fetch - processPackages [wwpdb.apps.releasemodule]: executing diffoscope
+[2023-07-29 14:29:22] INFO root fetch - processPackages [wwpdb.apps.releasemodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwpdb.apps.releasemodule-0.29.1.tar.gz tmp/wwpdb.apps.releasemodule-0.29.dev1.tar.gz --markdown 20230729/w/wwpdb.apps.releasemodule/0.29.1-0.29.dev1/diff.md --exclude *.pyd
+[2023-07-29 14:29:22] INFO root fetch - processPackages [djangoldp-babelfish]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_babelfish-1.0.3.tar.gz]
+[2023-07-29 14:29:22] INFO root fetch - processPackages [djangoldp-babelfish]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_babelfish-1.0.4.tar.gz]
+[2023-07-29 14:29:22] INFO root fetch - main [MainThread]: End processing [djangoldp-babelfish]: success
+[2023-07-29 14:29:22] INFO root fetch - processPackages [scientific-plots]: Remove: archive file [/home/abi/fetcher/tmp/scientific_plots-1.7.1.tar.gz]
+[2023-07-29 14:29:22] INFO root fetch - processPackages [scientific-plots]: Remove: archive file [/home/abi/fetcher/tmp/scientific_plots-1.7.2.tar.gz]
+[2023-07-29 14:29:22] INFO root fetch - main [MainThread]: End processing [scientific-plots]: success
+[2023-07-29 14:29:22] INFO root fetch - processPackages [pytest_param_files]: Remove: archive file [/home/abi/fetcher/tmp/pytest_param_files-0.5.0.tar.gz]
+[2023-07-29 14:29:22] INFO root fetch - processPackages [pytest_param_files]: Remove: archive file [/home/abi/fetcher/tmp/pytest_param_files-0.6.0.tar.gz]
+[2023-07-29 14:29:22] INFO root fetch - main [MainThread]: End processing [pytest_param_files]: success
+[2023-07-29 14:29:22] INFO root fetch - processPackages [xxhash]: Remove: archive file [/home/abi/fetcher/tmp/xxhash-3.2.0.tar.gz]
+[2023-07-29 14:29:22] INFO root fetch - processPackages [xxhash]: Remove: archive file [/home/abi/fetcher/tmp/xxhash-3.3.0.tar.gz]
+[2023-07-29 14:29:22] INFO root fetch - main [MainThread]: End processing [xxhash]: success
+[2023-07-29 14:29:23] INFO root fetch - processPackages [wwpdb.utils.emdb]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.utils.emdb-1.4.3.tar.gz]
+[2023-07-29 14:29:23] INFO root fetch - processPackages [wwpdb.utils.emdb]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.utils.emdb-1.5.tar.gz]
+[2023-07-29 14:29:23] INFO root fetch - main [MainThread]: End processing [wwpdb.utils.emdb]: success
+[2023-07-29 14:29:23] INFO root fetch - processPackages [wwpdb.apps.releasemodule]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.apps.releasemodule-0.29.1.tar.gz]
+[2023-07-29 14:29:23] INFO root fetch - processPackages [wwpdb.apps.releasemodule]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.apps.releasemodule-0.29.dev1.tar.gz]
+[2023-07-29 14:29:23] INFO root fetch - main [MainThread]: End processing [wwpdb.apps.releasemodule]: success
+[2023-07-29 14:29:23] INFO root fetch - main [MainThread]: Store serial: [19088633]
