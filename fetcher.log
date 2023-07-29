@@ -11528,3 +11528,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 11:10:04] INFO root fetch - processPackages [django-classy-tags]: Remove: archive file [/home/abi/fetcher/tmp/django-classy-tags-4.1.0.tar.gz]
 [2023-07-29 11:10:04] INFO root fetch - main [MainThread]: End processing [django-classy-tags]: success
 [2023-07-29 11:10:04] INFO root fetch - main [MainThread]: Store serial: [19086560]
+[2023-07-29 11:15:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19086560]
+[2023-07-29 11:15:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-29 11:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pywr-stoch
+[2023-07-29 11:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pqv
+[2023-07-29 11:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiogram3-di
+[2023-07-29 11:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vsketch
+[2023-07-29 11:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ExpoSeq
+[2023-07-29 11:15:12] INFO root fetch - processPackages [vsketch]: New version: [1.0.0a1] Old Version: [1.0.0a0]
+[2023-07-29 11:15:12] INFO root fetch - processPackages [pywr-stoch]: New version: [1.21.0.post1] Old Version: [1.20.2.post1]
+[2023-07-29 11:15:12] INFO root fetch - processPackages [pqv]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-29 11:15:12] INFO root fetch - processPackages [aiogram3-di]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-29 11:15:13] INFO root fetch - processPackages [vsketch]: Downloading https://files.pythonhosted.org/packages/1a/74/1ab9419e923137232d32eaa70a8a6fd139273f5e387bbdb50d137fb01a85/vsketch-1.0.0a0.tar.gz
+[2023-07-29 11:15:13] INFO root fetch - processPackages [aiogram3-di]: Downloading https://files.pythonhosted.org/packages/3f/0f/e676e468380cbb9874a170bf3fe1d1a5abb9ac537aea24fefbc92b068ad3/aiogram3_di-1.0.1.tar.gz
+[2023-07-29 11:15:13] INFO root fetch - processPackages [ExpoSeq]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-29 11:15:13] INFO root fetch - processPackages [pywr-stoch]: Downloading https://files.pythonhosted.org/packages/be/28/8b0bef7ca90d43c428519916daf646e322a5293fc714d47802d49eab19b5/pywr_stoch-1.20.2.post1-cp310-cp310-win_amd64.whl
+[2023-07-29 11:15:13] INFO root fetch - processPackages [pqv]: Downloading https://files.pythonhosted.org/packages/0d/37/0b8492e7c7b55257da6c1ad05a59a8a2ab76124fc5fe07255ac7113c668a/pqv-0.6.0.tar.gz
+[2023-07-29 11:15:13] INFO root fetch - processPackages [ExpoSeq]: Downloading https://files.pythonhosted.org/packages/11/7e/6f074f6c391a3e4bf984e80003176648aaccf416f459d25af863fe4441ce/ExpoSeq-2.0.0.tar.gz
+[2023-07-29 11:15:13] INFO root fetch - processPackages [vsketch]: Downloading https://files.pythonhosted.org/packages/de/d6/9eeedbababa7f67bce7ac2a40387e06cbabec717e1a0b48cf2cbb0c3b5cd/vsketch-1.0.0a1.tar.gz
+[2023-07-29 11:15:13] INFO root fetch - processPackages [aiogram3-di]: Downloading https://files.pythonhosted.org/packages/f8/e8/3b3d1c708dc5ca38d0ec5126d3105cdfb5bb46d54f75a85722fd24e14181/aiogram3_di-1.0.2.tar.gz
+[2023-07-29 11:15:13] INFO root fetch - processPackages [aiogram3-di]: executing diffoscope
+[2023-07-29 11:15:13] INFO root fetch - processPackages [aiogram3-di]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiogram3_di-1.0.1.tar.gz tmp/aiogram3_di-1.0.2.tar.gz --markdown 20230729/a/aiogram3-di/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-29 11:15:13] INFO root fetch - processPackages [pqv]: Downloading https://files.pythonhosted.org/packages/90/78/773f32d2036704b2f32c9a1b412aa5a009a968dbcccd937ec34f7749cfe8/pqv-0.6.1.tar.gz
+[2023-07-29 11:15:13] INFO root fetch - processPackages [vsketch]: executing diffoscope
+[2023-07-29 11:15:13] INFO root fetch - processPackages [vsketch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vsketch-1.0.0a0.tar.gz tmp/vsketch-1.0.0a1.tar.gz --markdown 20230729/v/vsketch/1.0.0a0-1.0.0a1/diff.md --exclude *.pyd
+[2023-07-29 11:15:13] INFO root fetch - processPackages [pqv]: executing diffoscope
+[2023-07-29 11:15:13] INFO root fetch - processPackages [pqv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pqv-0.6.0.tar.gz tmp/pqv-0.6.1.tar.gz --markdown 20230729/p/pqv/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-29 11:15:13] INFO root fetch - processPackages [pywr-stoch]: Downloading https://files.pythonhosted.org/packages/f7/8e/ccbd7e4f4175f7e966bb0c3b07888f74bc71f689fca5266688c3f641d268/pywr_stoch-1.21.0.post1-cp310-cp310-win_amd64.whl
+[2023-07-29 11:15:13] INFO root fetch - processPackages [pywr-stoch]: executing diffoscope
+[2023-07-29 11:15:13] INFO root fetch - processPackages [pywr-stoch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywr_stoch-1.20.2.post1-cp310-cp310-win_amd64.whl.zip tmp/pywr_stoch-1.21.0.post1-cp310-cp310-win_amd64.whl.zip --markdown 20230729/p/pywr-stoch/1.20.2.post1-1.21.0.post1/diff.md --exclude *.pyd
+[2023-07-29 11:15:14] INFO root fetch - processPackages [pqv]: Remove: archive file [/home/abi/fetcher/tmp/pqv-0.6.0.tar.gz]
+[2023-07-29 11:15:14] INFO root fetch - processPackages [pqv]: Remove: archive file [/home/abi/fetcher/tmp/pqv-0.6.1.tar.gz]
+[2023-07-29 11:15:14] INFO root fetch - main [MainThread]: End processing [pqv]: success
+[2023-07-29 11:15:14] INFO root fetch - processPackages [aiogram3-di]: Remove: archive file [/home/abi/fetcher/tmp/aiogram3_di-1.0.1.tar.gz]
+[2023-07-29 11:15:14] INFO root fetch - processPackages [aiogram3-di]: Remove: archive file [/home/abi/fetcher/tmp/aiogram3_di-1.0.2.tar.gz]
+[2023-07-29 11:15:14] INFO root fetch - main [MainThread]: End processing [aiogram3-di]: success
+[2023-07-29 11:15:14] INFO root fetch - processPackages [vsketch]: Remove: archive file [/home/abi/fetcher/tmp/vsketch-1.0.0a0.tar.gz]
+[2023-07-29 11:15:14] INFO root fetch - processPackages [vsketch]: Remove: archive file [/home/abi/fetcher/tmp/vsketch-1.0.0a1.tar.gz]
+[2023-07-29 11:15:14] INFO root fetch - main [MainThread]: End processing [vsketch]: success
+[2023-07-29 11:15:14] INFO root fetch - processPackages [pywr-stoch]: Remove: archive file [/home/abi/fetcher/tmp/pywr_stoch-1.20.2.post1-cp310-cp310-win_amd64.whl.zip]
+[2023-07-29 11:15:14] INFO root fetch - processPackages [pywr-stoch]: Remove: archive file [/home/abi/fetcher/tmp/pywr_stoch-1.21.0.post1-cp310-cp310-win_amd64.whl.zip]
+[2023-07-29 11:15:14] INFO root fetch - main [MainThread]: End processing [pywr-stoch]: success
+[2023-07-29 11:15:14] INFO root fetch - processPackages [ExpoSeq]: Downloading https://files.pythonhosted.org/packages/ca/01/4dc5169aee77e5fed65c08ab3adae4d687a8428ca70078a433b75481dfcd/ExpoSeq-2.0.1.tar.gz
+[2023-07-29 11:15:17] INFO root fetch - processPackages [ExpoSeq]: executing diffoscope
+[2023-07-29 11:15:17] INFO root fetch - processPackages [ExpoSeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ExpoSeq-2.0.0.tar.gz tmp/ExpoSeq-2.0.1.tar.gz --markdown 20230729/E/ExpoSeq/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-29 11:15:19] INFO root fetch - processPackages [ExpoSeq]: Remove: archive file [/home/abi/fetcher/tmp/ExpoSeq-2.0.0.tar.gz]
+[2023-07-29 11:15:19] INFO root fetch - processPackages [ExpoSeq]: Remove: archive file [/home/abi/fetcher/tmp/ExpoSeq-2.0.1.tar.gz]
+[2023-07-29 11:15:19] INFO root fetch - main [MainThread]: End processing [ExpoSeq]: success
+[2023-07-29 11:15:19] INFO root fetch - main [MainThread]: Store serial: [19086577]
