@@ -19630,3 +19630,78 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 17:46:24] INFO root fetch - processPackages [urlfetch]: Remove: archive file [/home/abi/fetcher/tmp/urlfetch-2.0.0.tar.gz]
 [2023-07-29 17:46:24] INFO root fetch - main [MainThread]: End processing [urlfetch]: success
 [2023-07-29 17:46:24] INFO root fetch - main [MainThread]: Store serial: [19089873]
+[2023-07-29 17:51:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19089873]
+[2023-07-29 17:51:33] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-29 17:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: habiticaApiClient
+[2023-07-29 17:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hacktools
+[2023-07-29 17:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: itemparser
+[2023-07-29 17:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: napiod
+[2023-07-29 17:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xpag
+[2023-07-29 17:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TheSilent
+[2023-07-29 17:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: UliEngineering
+[2023-07-29 17:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: daily-task-manager
+[2023-07-29 17:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dicergirl
+[2023-07-29 17:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: market-engine
+[2023-07-29 17:51:33] WARNING root fetch - processPackages [habiticaApiClient]: Skipping, unable to determine old version
+[2023-07-29 17:51:33] INFO root fetch - main [MainThread]: End processing [habiticaApiClient] error
+[2023-07-29 17:51:33] INFO root fetch - processPackages [UliEngineering]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-07-29 17:51:33] INFO root fetch - processPackages [xpag]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-29 17:51:33] INFO root fetch - processPackages [market-engine]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-29 17:51:33] INFO root fetch - processPackages [itemparser]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-29 17:51:33] INFO root fetch - processPackages [hacktools]: New version: [0.9.0] Old Version: [0.8.7]
+[2023-07-29 17:51:33] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-29 17:51:33] WARNING root fetch - processPackages [napiod]: Skipping, unable to determine old version
+[2023-07-29 17:51:33] INFO root fetch - main [MainThread]: End processing [napiod] error
+[2023-07-29 17:51:33] WARNING root fetch - processPackages [daily-task-manager]: Skipping, unable to determine old version
+[2023-07-29 17:51:33] INFO root fetch - main [MainThread]: End processing [daily-task-manager] error
+[2023-07-29 17:51:33] INFO root fetch - processPackages [dicergirl]: New version: [3.0.3] Old Version: [3.0.2]
+[2023-07-29 17:51:33] INFO root fetch - processPackages [UliEngineering]: Downloading https://files.pythonhosted.org/packages/72/f4/69b5fea78ec5f43ff34dc743760497178716405e959144977d5b40141077/UliEngineering-0.4.3.tar.gz
+[2023-07-29 17:51:33] INFO root fetch - processPackages [xpag]: Downloading https://files.pythonhosted.org/packages/fe/8b/4db11d109548fe80ab9673f2a96bbda4c40d64fe6a36373e3856df837897/xpag-0.2.1-py3-none-any.whl
+[2023-07-29 17:51:33] INFO root fetch - processPackages [market-engine]: Downloading https://files.pythonhosted.org/packages/d8/bd/82a9be9afd2e3a96f90ebba4b98815d7c0d5c6661a2819b61db3eabf4cc2/market-engine-0.1.8.tar.gz
+[2023-07-29 17:51:33] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-29 17:51:33] INFO root fetch - processPackages [dicergirl]: Downloading https://files.pythonhosted.org/packages/16/00/73ac5d5f862b850c9728f7cde42cbc456323e0a8e967454ab4c7c14cbc2b/dicergirl-3.0.2.tar.gz
+[2023-07-29 17:51:33] INFO root fetch - processPackages [itemparser]: Downloading https://files.pythonhosted.org/packages/d1/61/317dc908a5e6811809a2e536095046157553ec82a133fc97cf50163f413a/itemparser-0.2.0.tar.gz
+[2023-07-29 17:51:33] INFO root fetch - processPackages [hacktools]: Downloading https://files.pythonhosted.org/packages/e4/c3/3c280c8e98e8d2851ec6e26962dd71a2e982b607a801367380dffe1b9104/hacktools-0.8.7.tar.gz
+[2023-07-29 17:51:34] INFO root fetch - processPackages [UliEngineering]: Downloading https://files.pythonhosted.org/packages/5c/64/5b59a5b871bd7a4a0a430162cdecf5dfbd6924bc85747fa5b8c4f5dda4b9/UliEngineering-0.4.4.tar.gz
+[2023-07-29 17:51:34] INFO root fetch - processPackages [xpag]: Downloading https://files.pythonhosted.org/packages/77/0c/fe55c5e183bd920d4279cd71dd31cc505677999440fb435d28796cd8e6cc/xpag-0.2.2-py3-none-any.whl
+[2023-07-29 17:51:34] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-29 17:51:34] INFO root fetch - processPackages [market-engine]: Downloading https://files.pythonhosted.org/packages/3b/e0/436fca5207f1cd4f34ca629d8709efe1ef4b8955f65769c7375c0278d2c5/market-engine-0.1.9.tar.gz
+[2023-07-29 17:51:34] INFO root fetch - processPackages [itemparser]: Downloading https://files.pythonhosted.org/packages/70/34/e39ac5e256e3bfceea0bc5ac6cdd317159f7998c76b908c7571cbd1220d7/itemparser-0.2.1.tar.gz
+[2023-07-29 17:51:34] INFO root fetch - processPackages [xpag]: executing diffoscope
+[2023-07-29 17:51:34] INFO root fetch - processPackages [xpag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xpag-0.2.1-py3-none-any.whl.zip tmp/xpag-0.2.2-py3-none-any.whl.zip --markdown 20230729/x/xpag/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-29 17:51:34] INFO root fetch - processPackages [dicergirl]: Downloading https://files.pythonhosted.org/packages/73/e5/7f4f0639b37f454e68a250d4e379695db8a80ef82a8ef87eac404be30c68/dicergirl-3.0.3.tar.gz
+[2023-07-29 17:51:34] INFO root fetch - processPackages [UliEngineering]: executing diffoscope
+[2023-07-29 17:51:34] INFO root fetch - processPackages [market-engine]: executing diffoscope
+[2023-07-29 17:51:34] INFO root fetch - processPackages [UliEngineering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UliEngineering-0.4.3.tar.gz tmp/UliEngineering-0.4.4.tar.gz --markdown 20230729/U/UliEngineering/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-07-29 17:51:34] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-29 17:51:34] INFO root fetch - processPackages [market-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/market-engine-0.1.8.tar.gz tmp/market-engine-0.1.9.tar.gz --markdown 20230729/m/market-engine/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-29 17:51:34] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230729/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-29 17:51:34] INFO root fetch - processPackages [itemparser]: executing diffoscope
+[2023-07-29 17:51:34] INFO root fetch - processPackages [itemparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itemparser-0.2.0.tar.gz tmp/itemparser-0.2.1.tar.gz --markdown 20230729/i/itemparser/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-29 17:51:34] INFO root fetch - processPackages [hacktools]: Downloading https://files.pythonhosted.org/packages/b6/83/60990d272c11fd6564f42220419d25ec97bfa5d49fa5a5885d2ebd116f4b/hacktools-0.9.0.tar.gz
+[2023-07-29 17:51:34] INFO root fetch - processPackages [dicergirl]: executing diffoscope
+[2023-07-29 17:51:34] INFO root fetch - processPackages [dicergirl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicergirl-3.0.2.tar.gz tmp/dicergirl-3.0.3.tar.gz --markdown 20230729/d/dicergirl/3.0.2-3.0.3/diff.md --exclude *.pyd
+[2023-07-29 17:51:34] INFO root fetch - processPackages [hacktools]: executing diffoscope
+[2023-07-29 17:51:34] INFO root fetch - processPackages [hacktools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hacktools-0.8.7.tar.gz tmp/hacktools-0.9.0.tar.gz --markdown 20230729/h/hacktools/0.8.7-0.9.0/diff.md --exclude *.pyd
+[2023-07-29 17:51:35] INFO root fetch - processPackages [itemparser]: Remove: archive file [/home/abi/fetcher/tmp/itemparser-0.2.0.tar.gz]
+[2023-07-29 17:51:35] INFO root fetch - processPackages [itemparser]: Remove: archive file [/home/abi/fetcher/tmp/itemparser-0.2.1.tar.gz]
+[2023-07-29 17:51:35] INFO root fetch - main [MainThread]: End processing [itemparser]: success
+[2023-07-29 17:51:35] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-29 17:51:35] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-29 17:51:35] INFO root fetch - processPackages [market-engine]: Remove: archive file [/home/abi/fetcher/tmp/market-engine-0.1.8.tar.gz]
+[2023-07-29 17:51:35] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-29 17:51:35] INFO root fetch - processPackages [market-engine]: Remove: archive file [/home/abi/fetcher/tmp/market-engine-0.1.9.tar.gz]
+[2023-07-29 17:51:35] INFO root fetch - main [MainThread]: End processing [market-engine]: success
+[2023-07-29 17:51:35] INFO root fetch - processPackages [xpag]: Remove: archive file [/home/abi/fetcher/tmp/xpag-0.2.1-py3-none-any.whl.zip]
+[2023-07-29 17:51:35] INFO root fetch - processPackages [xpag]: Remove: archive file [/home/abi/fetcher/tmp/xpag-0.2.2-py3-none-any.whl.zip]
+[2023-07-29 17:51:35] INFO root fetch - main [MainThread]: End processing [xpag]: success
+[2023-07-29 17:51:35] INFO root fetch - processPackages [hacktools]: Remove: archive file [/home/abi/fetcher/tmp/hacktools-0.8.7.tar.gz]
+[2023-07-29 17:51:35] INFO root fetch - processPackages [hacktools]: Remove: archive file [/home/abi/fetcher/tmp/hacktools-0.9.0.tar.gz]
+[2023-07-29 17:51:35] INFO root fetch - main [MainThread]: End processing [hacktools]: success
+[2023-07-29 17:51:35] INFO root fetch - processPackages [dicergirl]: Remove: archive file [/home/abi/fetcher/tmp/dicergirl-3.0.2.tar.gz]
+[2023-07-29 17:51:35] INFO root fetch - processPackages [dicergirl]: Remove: archive file [/home/abi/fetcher/tmp/dicergirl-3.0.3.tar.gz]
+[2023-07-29 17:51:35] INFO root fetch - main [MainThread]: End processing [dicergirl]: success
+[2023-07-29 17:51:35] INFO root fetch - processPackages [UliEngineering]: Remove: archive file [/home/abi/fetcher/tmp/UliEngineering-0.4.3.tar.gz]
+[2023-07-29 17:51:35] INFO root fetch - processPackages [UliEngineering]: Remove: archive file [/home/abi/fetcher/tmp/UliEngineering-0.4.4.tar.gz]
+[2023-07-29 17:51:35] INFO root fetch - main [MainThread]: End processing [UliEngineering]: success
+[2023-07-29 17:51:35] INFO root fetch - main [MainThread]: Store serial: [19089955]
