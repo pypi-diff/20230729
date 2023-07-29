@@ -11136,3 +11136,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 10:38:52] INFO root fetch - processPackages [pg8000]: Remove: archive file [/home/abi/fetcher/tmp/pg8000-1.9.9.tar.gz]
 [2023-07-29 10:38:52] INFO root fetch - main [MainThread]: End processing [pg8000]: success
 [2023-07-29 10:38:52] INFO root fetch - main [MainThread]: Store serial: [19086436]
+[2023-07-29 10:43:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19086436]
+[2023-07-29 10:44:01] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-29 10:44:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-estimator-nightly
+[2023-07-29 10:44:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tff-nightly
+[2023-07-29 10:44:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SPCEj9bbotw
+[2023-07-29 10:44:01] INFO root fetch - processPackages [SPCEj9bbotw]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-29 10:44:01] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-07-29 10:44:01] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230729] Old Version: [0.0.1.dev20230728]
+[2023-07-29 10:44:01] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/31/a0/5e1b898e43043b32d95e8719e2eb127692fd8261edbdad4801876a46893f/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl
+[2023-07-29 10:44:01] INFO root fetch - processPackages [SPCEj9bbotw]: Downloading https://files.pythonhosted.org/packages/7e/e2/3c8497d93085b0ff7e79cf9abf8917f13f699e48a0fcfa491cda36374386/SPCEj9bbotw-0.0.1.tar.gz
+[2023-07-29 10:44:01] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/a6/aa/d87adad3244b7e3d0143e46a736e03c4faa0d2f884071bd70c213b4e7b47/tff_nightly-0.0.1.dev20230728-py2.py3-none-any.whl
+[2023-07-29 10:44:02] INFO root fetch - processPackages [SPCEj9bbotw]: Downloading https://files.pythonhosted.org/packages/5f/85/b606290f53a554d638bcbee219679a9b2f5f26f28a680d943f15c7aa56ab/SPCEj9bbotw-0.0.2.tar.gz
+[2023-07-29 10:44:02] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b6/fe4f7077ae036fd90bf9dfdc09b52cf611b857e7a26c3bc44a2e76c94af2/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl
+[2023-07-29 10:44:02] INFO root fetch - processPackages [SPCEj9bbotw]: executing diffoscope
+[2023-07-29 10:44:02] INFO root fetch - processPackages [SPCEj9bbotw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SPCEj9bbotw-0.0.1.tar.gz tmp/SPCEj9bbotw-0.0.2.tar.gz --markdown 20230729/S/SPCEj9bbotw/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-29 10:44:02] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-07-29 10:44:02] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230729/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-07-29 10:44:02] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/3c/fe/590e630e4f2a481196c221bdabaa17c31e3bf70013dee7eabc914714b566/tff_nightly-0.0.1.dev20230729-py2.py3-none-any.whl
+[2023-07-29 10:44:02] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-07-29 10:44:02] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230728-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230729-py2.py3-none-any.whl.zip --markdown 20230729/t/tff-nightly/0.0.1.dev20230728-0.0.1.dev20230729/diff.md --exclude *.pyd
+[2023-07-29 10:44:03] INFO root fetch - processPackages [SPCEj9bbotw]: Remove: archive file [/home/abi/fetcher/tmp/SPCEj9bbotw-0.0.1.tar.gz]
+[2023-07-29 10:44:03] INFO root fetch - processPackages [SPCEj9bbotw]: Remove: archive file [/home/abi/fetcher/tmp/SPCEj9bbotw-0.0.2.tar.gz]
+[2023-07-29 10:44:03] INFO root fetch - main [MainThread]: End processing [SPCEj9bbotw]: success
+[2023-07-29 10:44:03] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip]
+[2023-07-29 10:44:03] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
+[2023-07-29 10:44:03] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-07-29 10:44:04] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230728-py2.py3-none-any.whl.zip]
+[2023-07-29 10:44:04] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230729-py2.py3-none-any.whl.zip]
+[2023-07-29 10:44:04] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-07-29 10:44:04] INFO root fetch - main [MainThread]: Store serial: [19086443]
