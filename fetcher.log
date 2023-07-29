@@ -8264,3 +8264,63 @@
 [2023-07-29 06:07:37] INFO root fetch - processPackages [red_utils]: Remove: archive file [/home/abi/fetcher/tmp/red_utils-0.1.8.tar.gz]
 [2023-07-29 06:07:37] INFO root fetch - main [MainThread]: End processing [red_utils]: success
 [2023-07-29 06:07:37] INFO root fetch - main [MainThread]: Store serial: [19085224]
+[2023-07-29 06:12:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19085224]
+[2023-07-29 06:12:46] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-29 06:12:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bezier
+[2023-07-29 06:12:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-it-withholding-tax
+[2023-07-29 06:12:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stdflow
+[2023-07-29 06:12:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wordcel
+[2023-07-29 06:12:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kkpyutil
+[2023-07-29 06:12:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MCS3897
+[2023-07-29 06:12:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fdfat
+[2023-07-29 06:12:46] INFO root fetch - processPackages [stdflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-29 06:12:46] INFO root fetch - processPackages [odoo-addon-l10n-it-withholding-tax]: New version: [16.0.1.1.2.1] Old Version: [16.0.1.1.2]
+[2023-07-29 06:12:46] INFO root fetch - processPackages [fdfat]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-29 06:12:46] INFO root fetch - processPackages [wordcel]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-29 06:12:46] WARNING root fetch - processPackages [MCS3897]: Skipping, unable to determine old version
+[2023-07-29 06:12:46] INFO root fetch - main [MainThread]: End processing [MCS3897] error
+[2023-07-29 06:12:46] INFO root fetch - processPackages [kkpyutil]: New version: [0.99.1] Old Version: [0.99.0]
+[2023-07-29 06:12:46] INFO root fetch - processPackages [bezier]: New version: [2023.7.28] Old Version: [2021.2.12]
+[2023-07-29 06:12:46] INFO root fetch - processPackages [stdflow]: Downloading https://files.pythonhosted.org/packages/37/2b/dc718c9a789aae941c5744468c42fa99c1ca83c6fc824add3debc6df543d/stdflow-0.0.8.tar.gz
+[2023-07-29 06:12:46] INFO root fetch - processPackages [kkpyutil]: Downloading https://files.pythonhosted.org/packages/fd/24/affb7fe4496d087c3b175a07aae0ea898dcf008ef4be91f51a39e9000c24/kkpyutil-0.99.0.tar.gz
+[2023-07-29 06:12:46] INFO root fetch - processPackages [odoo-addon-l10n-it-withholding-tax]: Downloading https://files.pythonhosted.org/packages/44/d6/9f9b18f26232a76e9baea1446d25950a36c4420fea31c8592856da191a83/odoo_addon_l10n_it_withholding_tax-16.0.1.1.2-py3-none-any.whl
+[2023-07-29 06:12:46] INFO root fetch - processPackages [fdfat]: Downloading https://files.pythonhosted.org/packages/52/42/506d3fba14d58806c280bd41827378afbc8feb465c3c9021fad9db01c7fe/fdfat-0.1.8.tar.gz
+[2023-07-29 06:12:46] INFO root fetch - processPackages [bezier]: Downloading https://files.pythonhosted.org/packages/cb/e8/0073ac3f92cbe8ced10e5e5822594a8f63b9a3dc91258c681b7ee96b80b0/bezier-2021.2.12.tar.gz
+[2023-07-29 06:12:46] INFO root fetch - processPackages [wordcel]: Downloading https://files.pythonhosted.org/packages/27/3a/23a0a26249c2a4fad5907b6cc15f56da9a64ac3b6ebf859185dc1aed1b2c/wordcel-0.0.2.tar.gz
+[2023-07-29 06:12:47] INFO root fetch - processPackages [kkpyutil]: Downloading https://files.pythonhosted.org/packages/55/42/485d53cc78b791f1dd32900d05d05c1a2070176870f678253c86b332956b/kkpyutil-0.99.1.tar.gz
+[2023-07-29 06:12:47] INFO root fetch - processPackages [stdflow]: Downloading https://files.pythonhosted.org/packages/93/a7/7a92845fb1a7092159c2fbc2b23c0b733e7c93e5cd012f6538ca900ea3b6/stdflow-0.0.9-py3-none-any.whl
+[2023-07-29 06:12:47] INFO root fetch - processPackages [fdfat]: Downloading https://files.pythonhosted.org/packages/33/f3/6899c69370589ad43d818b9e5cdb2d0d01d7ef88af4613948080645b45db/fdfat-0.1.9.tar.gz
+[2023-07-29 06:12:47] INFO root fetch - processPackages [kkpyutil]: executing diffoscope
+[2023-07-29 06:12:47] INFO root fetch - processPackages [kkpyutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kkpyutil-0.99.0.tar.gz tmp/kkpyutil-0.99.1.tar.gz --markdown 20230729/k/kkpyutil/0.99.0-0.99.1/diff.md --exclude *.pyd
+[2023-07-29 06:12:47] INFO root fetch - processPackages [stdflow]: executing diffoscope
+[2023-07-29 06:12:47] INFO root fetch - processPackages [stdflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stdflow-0.0.8.tar.gz tmp/stdflow-0.0.9-py3-none-any.whl.zip --markdown 20230729/s/stdflow/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-29 06:12:47] INFO root fetch - processPackages [fdfat]: executing diffoscope
+[2023-07-29 06:12:47] INFO root fetch - processPackages [fdfat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdfat-0.1.8.tar.gz tmp/fdfat-0.1.9.tar.gz --markdown 20230729/f/fdfat/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-29 06:12:47] INFO root fetch - processPackages [odoo-addon-l10n-it-withholding-tax]: Downloading https://files.pythonhosted.org/packages/31/ee/0fd9dc80178018cb6f39852b0c14f090a8ce524aa8b8d07a29c13b667649/odoo_addon_l10n_it_withholding_tax-16.0.1.1.2.1-py3-none-any.whl
+[2023-07-29 06:12:47] INFO root fetch - processPackages [bezier]: Downloading https://files.pythonhosted.org/packages/cb/b4/bc9fcd3ea73fb084a1686b11313e91276168a53d85ecc161d3bab8832c6a/bezier-2023.7.28.tar.gz
+[2023-07-29 06:12:47] INFO root fetch - processPackages [wordcel]: Downloading https://files.pythonhosted.org/packages/ec/a6/8d1eea5ae0e4fdd8db41dff7050b8e6740ffc818256c0fd52ecbb22ab9bd/wordcel-0.0.3.tar.gz
+[2023-07-29 06:12:47] INFO root fetch - processPackages [odoo-addon-l10n-it-withholding-tax]: executing diffoscope
+[2023-07-29 06:12:47] INFO root fetch - processPackages [odoo-addon-l10n-it-withholding-tax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_it_withholding_tax-16.0.1.1.2-py3-none-any.whl.zip tmp/odoo_addon_l10n_it_withholding_tax-16.0.1.1.2.1-py3-none-any.whl.zip --markdown 20230729/o/odoo-addon-l10n-it-withholding-tax/16.0.1.1.2-16.0.1.1.2.1/diff.md --exclude *.pyd
+[2023-07-29 06:12:47] INFO root fetch - processPackages [bezier]: executing diffoscope
+[2023-07-29 06:12:47] INFO root fetch - processPackages [bezier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bezier-2021.2.12.tar.gz tmp/bezier-2023.7.28.tar.gz --markdown 20230729/b/bezier/2021.2.12-2023.7.28/diff.md --exclude *.pyd
+[2023-07-29 06:12:47] INFO root fetch - processPackages [wordcel]: executing diffoscope
+[2023-07-29 06:12:47] INFO root fetch - processPackages [wordcel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wordcel-0.0.2.tar.gz tmp/wordcel-0.0.3.tar.gz --markdown 20230729/w/wordcel/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-29 06:12:48] INFO root fetch - processPackages [stdflow]: Remove: archive file [/home/abi/fetcher/tmp/stdflow-0.0.8.tar.gz]
+[2023-07-29 06:12:48] INFO root fetch - processPackages [stdflow]: Remove: archive file [/home/abi/fetcher/tmp/stdflow-0.0.9-py3-none-any.whl.zip]
+[2023-07-29 06:12:48] INFO root fetch - main [MainThread]: End processing [stdflow]: success
+[2023-07-29 06:12:48] INFO root fetch - processPackages [kkpyutil]: Remove: archive file [/home/abi/fetcher/tmp/kkpyutil-0.99.0.tar.gz]
+[2023-07-29 06:12:48] INFO root fetch - processPackages [kkpyutil]: Remove: archive file [/home/abi/fetcher/tmp/kkpyutil-0.99.1.tar.gz]
+[2023-07-29 06:12:48] INFO root fetch - main [MainThread]: End processing [kkpyutil]: success
+[2023-07-29 06:12:48] INFO root fetch - processPackages [fdfat]: Remove: archive file [/home/abi/fetcher/tmp/fdfat-0.1.8.tar.gz]
+[2023-07-29 06:12:48] INFO root fetch - processPackages [fdfat]: Remove: archive file [/home/abi/fetcher/tmp/fdfat-0.1.9.tar.gz]
+[2023-07-29 06:12:48] INFO root fetch - main [MainThread]: End processing [fdfat]: success
+[2023-07-29 06:12:48] INFO root fetch - processPackages [wordcel]: Remove: archive file [/home/abi/fetcher/tmp/wordcel-0.0.2.tar.gz]
+[2023-07-29 06:12:48] INFO root fetch - processPackages [wordcel]: Remove: archive file [/home/abi/fetcher/tmp/wordcel-0.0.3.tar.gz]
+[2023-07-29 06:12:48] INFO root fetch - main [MainThread]: End processing [wordcel]: success
+[2023-07-29 06:12:48] INFO root fetch - processPackages [odoo-addon-l10n-it-withholding-tax]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_withholding_tax-16.0.1.1.2-py3-none-any.whl.zip]
+[2023-07-29 06:12:48] INFO root fetch - processPackages [odoo-addon-l10n-it-withholding-tax]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_withholding_tax-16.0.1.1.2.1-py3-none-any.whl.zip]
+[2023-07-29 06:12:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-withholding-tax]: success
+[2023-07-29 06:12:49] INFO root fetch - processPackages [bezier]: Remove: archive file [/home/abi/fetcher/tmp/bezier-2021.2.12.tar.gz]
+[2023-07-29 06:12:49] INFO root fetch - processPackages [bezier]: Remove: archive file [/home/abi/fetcher/tmp/bezier-2023.7.28.tar.gz]
+[2023-07-29 06:12:49] INFO root fetch - main [MainThread]: End processing [bezier]: success
+[2023-07-29 06:12:49] INFO root fetch - main [MainThread]: Store serial: [19085265]
