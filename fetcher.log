@@ -18130,3 +18130,96 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 15:48:40] INFO root fetch - processPackages [bigdl-chronos-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark2-2.4.0b20230729-py3-none-manylinux1_x86_64.whl.zip]
 [2023-07-29 15:48:40] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark2]: success
 [2023-07-29 15:48:40] INFO root fetch - main [MainThread]: Store serial: [19089135]
+[2023-07-29 15:53:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19089135]
+[2023-07-29 15:53:49] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-29 15:53:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rfb-mc
+[2023-07-29 15:53:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oneat
+[2023-07-29 15:53:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aio-dt-protocol
+[2023-07-29 15:53:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sedi
+[2023-07-29 15:53:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: logger-extras
+[2023-07-29 15:53:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MAZAlib
+[2023-07-29 15:53:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: FinLogic
+[2023-07-29 15:53:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tensordict-nightly
+[2023-07-29 15:53:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: salabim
+[2023-07-29 15:53:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: knnor
+[2023-07-29 15:53:49] INFO root fetch - processPackages [aio-dt-protocol]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-29 15:53:49] INFO root fetch - processPackages [rfb-mc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-29 15:53:49] INFO root fetch - processPackages [sedi]: New version: [0.8] Old Version: [0.7]
+[2023-07-29 15:53:49] INFO root fetch - processPackages [knnor]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-29 15:53:49] INFO root fetch - processPackages [FinLogic]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-29 15:53:49] INFO root fetch - processPackages [logger-extras]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-29 15:53:49] INFO root fetch - processPackages [MAZAlib]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-29 15:53:49] INFO root fetch - processPackages [tensordict-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-29 15:53:49] INFO root fetch - processPackages [oneat]: New version: [6.2.3] Old Version: [6.2.0]
+[2023-07-29 15:53:49] INFO root fetch - processPackages [aio-dt-protocol]: Downloading https://files.pythonhosted.org/packages/54/38/bcdc35cc96269b06ee71d7bf57840faea648805bce873b124563b8185324/aio_dt_protocol-1.2.0.tar.gz
+[2023-07-29 15:53:49] INFO root fetch - processPackages [salabim]: New version: [23.3.5] Old Version: [23.3.4]
+[2023-07-29 15:53:49] INFO root fetch - processPackages [knnor]: Downloading https://files.pythonhosted.org/packages/a9/56/ec41ed8f2ee323afce1f4c234febdae31c9cf013c64ba14c827d29492fed/knnor-0.1.0.tar.gz
+[2023-07-29 15:53:49] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/e7/5f/a8e12c8c9db4733b807edf690c79f8ee7fb4897c1bec72f6bfafdf1cf1c6/tensordict_nightly-2023.7.8-cp39-cp39-win_amd64.whl
+[2023-07-29 15:53:49] INFO root fetch - processPackages [rfb-mc]: Downloading https://files.pythonhosted.org/packages/05/c5/29693a817bc17859a5f6ec4a37ee294b20a406f55b5fd32cb82d5901b2b1/rfb_mc-0.0.8.tar.gz
+[2023-07-29 15:53:49] INFO root fetch - processPackages [oneat]: Downloading https://files.pythonhosted.org/packages/16/d5/02f1a5bd3bc851ca73d5cfc92aa06d1c7c6a3fb9baae74282c35ab1ee70e/oneat-6.2.0.tar.gz
+[2023-07-29 15:53:49] INFO root fetch - processPackages [sedi]: Downloading https://files.pythonhosted.org/packages/9a/7a/e50fa738b0cea31b0d57e6cc52f5e0fdd54367607bff8ccd5d8575293da2/sedi-0.7.tar.gz
+[2023-07-29 15:53:49] INFO root fetch - processPackages [MAZAlib]: Downloading https://files.pythonhosted.org/packages/7e/15/1bd007a8e93608fd49aae8dd821ca41254114c54044b30592a8fb08b1e51/MAZAlib-0.0.5.tar.gz
+[2023-07-29 15:53:49] INFO root fetch - processPackages [logger-extras]: Downloading https://files.pythonhosted.org/packages/cc/ac/fea20d8480ab867d610862d04f02fbeecc242fc26a548f0b610b50bf12b3/logger_extras-0.3.0.tar.gz
+[2023-07-29 15:53:49] INFO root fetch - processPackages [FinLogic]: Downloading https://files.pythonhosted.org/packages/41/03/71919bb92236b7d89f3a04b40aefab346ed5ded7777b42db3b02ee375115/finlogic-0.6.0.tar.gz
+[2023-07-29 15:53:49] INFO root fetch - processPackages [salabim]: Downloading https://files.pythonhosted.org/packages/28/06/4d0224a3e5ac82fa17944d49c98639c3e41db07baefd54bf340320646cb0/salabim-23.3.4.tar.gz
+[2023-07-29 15:53:50] INFO root fetch - processPackages [aio-dt-protocol]: Downloading https://files.pythonhosted.org/packages/85/93/c67036adefc53a03af50119cd0df1fdb63d534276c846197519cae0909ef/aio_dt_protocol-1.2.1.tar.gz
+[2023-07-29 15:53:50] INFO root fetch - processPackages [knnor]: Downloading https://files.pythonhosted.org/packages/ca/37/b9547164ccccd8ca53b642404652ae6c9ce7e27be0544b275a6b8e90ad30/knnor-0.1.1.tar.gz
+[2023-07-29 15:53:50] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/20/92/5489eefecb62a3da531fb19097d65b32ec71c60f929be10b1407a03894e5/tensordict_nightly-2023.7.9-cp39-cp39-win_amd64.whl
+[2023-07-29 15:53:50] INFO root fetch - processPackages [oneat]: Downloading https://files.pythonhosted.org/packages/79/51/5a21a9ccd447869b3965cb701828240137264e4f38a65566feab8d3f2ae9/oneat-6.2.3.tar.gz
+[2023-07-29 15:53:50] INFO root fetch - processPackages [sedi]: Downloading https://files.pythonhosted.org/packages/71/ce/eb3e9e1a9f53a85744b8d8dfc81bf872b929035770f70dfe77f3a4b2a514/sedi-0.8.tar.gz
+[2023-07-29 15:53:50] INFO root fetch - processPackages [MAZAlib]: Downloading https://files.pythonhosted.org/packages/42/a2/352c70aedf09257f84bfaec4c2ff07086e540de2d6e6f7fe2dc4dc0fe029/MAZAlib-0.0.6.tar.gz
+[2023-07-29 15:53:50] INFO root fetch - processPackages [aio-dt-protocol]: executing diffoscope
+[2023-07-29 15:53:50] INFO root fetch - processPackages [aio-dt-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aio_dt_protocol-1.2.0.tar.gz tmp/aio_dt_protocol-1.2.1.tar.gz --markdown 20230729/a/aio-dt-protocol/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-29 15:53:50] INFO root fetch - processPackages [rfb-mc]: Downloading https://files.pythonhosted.org/packages/59/61/a560e967a33b31f463d3acb0b536c24771ca3708a5870276a3adc2d97e11/rfb_mc-0.0.9.tar.gz
+[2023-07-29 15:53:50] INFO root fetch - processPackages [logger-extras]: Downloading https://files.pythonhosted.org/packages/8d/17/85a22e4a142876de247bb21325fbe0be0ef0a6bdc59badb0604a0a4f5811/logger_extras-0.3.1.tar.gz
+[2023-07-29 15:53:50] INFO root fetch - processPackages [sedi]: executing diffoscope
+[2023-07-29 15:53:50] INFO root fetch - processPackages [FinLogic]: Downloading https://files.pythonhosted.org/packages/3c/c9/fc65aab5ff81d8d6d9300a57252c8da5d347a4e7447dc180dd5baec5ef7a/finlogic-0.6.1.tar.gz
+[2023-07-29 15:53:50] INFO root fetch - processPackages [sedi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sedi-0.7.tar.gz tmp/sedi-0.8.tar.gz --markdown 20230729/s/sedi/0.7-0.8/diff.md --exclude *.pyd
+[2023-07-29 15:53:50] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2023-07-29 15:53:50] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip tmp/tensordict_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip --markdown 20230729/t/tensordict-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-29 15:53:50] INFO root fetch - processPackages [knnor]: executing diffoscope
+[2023-07-29 15:53:50] INFO root fetch - processPackages [knnor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knnor-0.1.0.tar.gz tmp/knnor-0.1.1.tar.gz --markdown 20230729/k/knnor/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-29 15:53:50] INFO root fetch - processPackages [MAZAlib]: executing diffoscope
+[2023-07-29 15:53:50] INFO root fetch - processPackages [MAZAlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MAZAlib-0.0.5.tar.gz tmp/MAZAlib-0.0.6.tar.gz --markdown 20230729/M/MAZAlib/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-29 15:53:50] INFO root fetch - processPackages [oneat]: executing diffoscope
+[2023-07-29 15:53:50] INFO root fetch - processPackages [oneat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oneat-6.2.0.tar.gz tmp/oneat-6.2.3.tar.gz --markdown 20230729/o/oneat/6.2.0-6.2.3/diff.md --exclude *.pyd
+[2023-07-29 15:53:50] INFO root fetch - processPackages [logger-extras]: executing diffoscope
+[2023-07-29 15:53:50] INFO root fetch - processPackages [FinLogic]: executing diffoscope
+[2023-07-29 15:53:50] INFO root fetch - processPackages [logger-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logger_extras-0.3.0.tar.gz tmp/logger_extras-0.3.1.tar.gz --markdown 20230729/l/logger-extras/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-29 15:53:50] INFO root fetch - processPackages [FinLogic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finlogic-0.6.0.tar.gz tmp/finlogic-0.6.1.tar.gz --markdown 20230729/F/FinLogic/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-29 15:53:50] INFO root fetch - processPackages [rfb-mc]: executing diffoscope
+[2023-07-29 15:53:50] INFO root fetch - processPackages [rfb-mc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rfb_mc-0.0.8.tar.gz tmp/rfb_mc-0.0.9.tar.gz --markdown 20230729/r/rfb-mc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-29 15:53:50] INFO root fetch - processPackages [salabim]: Downloading https://files.pythonhosted.org/packages/43/ef/bdb71fffb93a653be144ef69429bbe52e08617c50a5f603180fa229e7417/salabim-23.3.5.tar.gz
+[2023-07-29 15:53:51] INFO root fetch - processPackages [salabim]: executing diffoscope
+[2023-07-29 15:53:51] INFO root fetch - processPackages [salabim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salabim-23.3.4.tar.gz tmp/salabim-23.3.5.tar.gz --markdown 20230729/s/salabim/23.3.4-23.3.5/diff.md --exclude *.pyd
+[2023-07-29 15:53:51] INFO root fetch - processPackages [sedi]: Remove: archive file [/home/abi/fetcher/tmp/sedi-0.7.tar.gz]
+[2023-07-29 15:53:51] INFO root fetch - processPackages [sedi]: Remove: archive file [/home/abi/fetcher/tmp/sedi-0.8.tar.gz]
+[2023-07-29 15:53:51] INFO root fetch - main [MainThread]: End processing [sedi]: success
+[2023-07-29 15:53:52] INFO root fetch - processPackages [knnor]: Remove: archive file [/home/abi/fetcher/tmp/knnor-0.1.0.tar.gz]
+[2023-07-29 15:53:52] INFO root fetch - processPackages [knnor]: Remove: archive file [/home/abi/fetcher/tmp/knnor-0.1.1.tar.gz]
+[2023-07-29 15:53:52] INFO root fetch - main [MainThread]: End processing [knnor]: success
+[2023-07-29 15:53:52] INFO root fetch - processPackages [logger-extras]: Remove: archive file [/home/abi/fetcher/tmp/logger_extras-0.3.0.tar.gz]
+[2023-07-29 15:53:52] INFO root fetch - processPackages [logger-extras]: Remove: archive file [/home/abi/fetcher/tmp/logger_extras-0.3.1.tar.gz]
+[2023-07-29 15:53:52] INFO root fetch - main [MainThread]: End processing [logger-extras]: success
+[2023-07-29 15:53:52] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip]
+[2023-07-29 15:53:52] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-29 15:53:52] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2023-07-29 15:53:52] INFO root fetch - processPackages [aio-dt-protocol]: Remove: archive file [/home/abi/fetcher/tmp/aio_dt_protocol-1.2.0.tar.gz]
+[2023-07-29 15:53:52] INFO root fetch - processPackages [aio-dt-protocol]: Remove: archive file [/home/abi/fetcher/tmp/aio_dt_protocol-1.2.1.tar.gz]
+[2023-07-29 15:53:52] INFO root fetch - main [MainThread]: End processing [aio-dt-protocol]: success
+[2023-07-29 15:53:52] INFO root fetch - processPackages [FinLogic]: Remove: archive file [/home/abi/fetcher/tmp/finlogic-0.6.0.tar.gz]
+[2023-07-29 15:53:52] INFO root fetch - processPackages [FinLogic]: Remove: archive file [/home/abi/fetcher/tmp/finlogic-0.6.1.tar.gz]
+[2023-07-29 15:53:52] INFO root fetch - main [MainThread]: End processing [FinLogic]: success
+[2023-07-29 15:53:52] INFO root fetch - processPackages [MAZAlib]: Remove: archive file [/home/abi/fetcher/tmp/MAZAlib-0.0.5.tar.gz]
+[2023-07-29 15:53:52] INFO root fetch - processPackages [MAZAlib]: Remove: archive file [/home/abi/fetcher/tmp/MAZAlib-0.0.6.tar.gz]
+[2023-07-29 15:53:52] INFO root fetch - main [MainThread]: End processing [MAZAlib]: success
+[2023-07-29 15:53:52] INFO root fetch - processPackages [rfb-mc]: Remove: archive file [/home/abi/fetcher/tmp/rfb_mc-0.0.8.tar.gz]
+[2023-07-29 15:53:52] INFO root fetch - processPackages [rfb-mc]: Remove: archive file [/home/abi/fetcher/tmp/rfb_mc-0.0.9.tar.gz]
+[2023-07-29 15:53:52] INFO root fetch - main [MainThread]: End processing [rfb-mc]: success
+[2023-07-29 15:53:52] INFO root fetch - processPackages [oneat]: Remove: archive file [/home/abi/fetcher/tmp/oneat-6.2.0.tar.gz]
+[2023-07-29 15:53:52] INFO root fetch - processPackages [oneat]: Remove: archive file [/home/abi/fetcher/tmp/oneat-6.2.3.tar.gz]
+[2023-07-29 15:53:52] INFO root fetch - main [MainThread]: End processing [oneat]: success
+[2023-07-29 15:53:53] INFO root fetch - processPackages [salabim]: Remove: archive file [/home/abi/fetcher/tmp/salabim-23.3.4.tar.gz]
+[2023-07-29 15:53:53] INFO root fetch - processPackages [salabim]: Remove: archive file [/home/abi/fetcher/tmp/salabim-23.3.5.tar.gz]
+[2023-07-29 15:53:53] INFO root fetch - main [MainThread]: End processing [salabim]: success
+[2023-07-29 15:53:53] INFO root fetch - main [MainThread]: Store serial: [19089159]
