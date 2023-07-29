@@ -11634,3 +11634,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 11:20:33] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
 [2023-07-29 11:20:33] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
 [2023-07-29 11:20:33] INFO root fetch - main [MainThread]: Store serial: [19086611]
+[2023-07-29 11:25:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19086611]
+[2023-07-29 11:25:41] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-29 11:25:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tagpatch
+[2023-07-29 11:25:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pandora-client
+[2023-07-29 11:25:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: amazon-scrape
+[2023-07-29 11:25:41] WARNING root fetch - processPackages [tagpatch]: Skipping, unable to determine old version
+[2023-07-29 11:25:41] INFO root fetch - main [MainThread]: End processing [tagpatch] error
+[2023-07-29 11:25:41] INFO root fetch - processPackages [pandora-client]: New version: [0.3.6] Old Version: [0.3.21]
+[2023-07-29 11:25:41] INFO root fetch - processPackages [amazon-scrape]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-29 11:25:42] INFO root fetch - processPackages [pandora-client]: Downloading https://files.pythonhosted.org/packages/46/01/05cc54d2610c52a45b9706ec471b671d3a88da3b3eec7a0a6a57128a072d/pandora_client-0.3.21.tar.gz
+[2023-07-29 11:25:42] INFO root fetch - processPackages [amazon-scrape]: Downloading https://files.pythonhosted.org/packages/90/58/b7ff182a00c848c6b5cc6e443a8b1bf35f219d8f166cb49e8b02e8423e82/amazon_scrape-1.0.5.tar.gz
+[2023-07-29 11:25:42] INFO root fetch - processPackages [pandora-client]: Downloading https://files.pythonhosted.org/packages/cc/4c/ca7124f6b95f1b7b5562ed75e59967b01ddc1cd8af98b8aafacca92179ca/pandora_client-0.3.6.tar.gz
+[2023-07-29 11:25:42] INFO root fetch - processPackages [pandora-client]: executing diffoscope
+[2023-07-29 11:25:42] INFO root fetch - processPackages [pandora-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandora_client-0.3.21.tar.gz tmp/pandora_client-0.3.6.tar.gz --markdown 20230729/p/pandora-client/0.3.21-0.3.6/diff.md --exclude *.pyd
+[2023-07-29 11:25:42] INFO root fetch - processPackages [amazon-scrape]: Downloading https://files.pythonhosted.org/packages/1b/3c/7b7fc4460731196e591eeaace6313b430539fb68c26925d0a0509b77b188/amazon_scrape-1.0.6.tar.gz
+[2023-07-29 11:25:42] INFO root fetch - processPackages [amazon-scrape]: executing diffoscope
+[2023-07-29 11:25:42] INFO root fetch - processPackages [amazon-scrape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon_scrape-1.0.5.tar.gz tmp/amazon_scrape-1.0.6.tar.gz --markdown 20230729/a/amazon-scrape/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-29 11:25:43] INFO root fetch - processPackages [pandora-client]: Remove: archive file [/home/abi/fetcher/tmp/pandora_client-0.3.21.tar.gz]
+[2023-07-29 11:25:43] INFO root fetch - processPackages [pandora-client]: Remove: archive file [/home/abi/fetcher/tmp/pandora_client-0.3.6.tar.gz]
+[2023-07-29 11:25:43] INFO root fetch - main [MainThread]: End processing [pandora-client]: success
+[2023-07-29 11:25:43] INFO root fetch - processPackages [amazon-scrape]: Remove: archive file [/home/abi/fetcher/tmp/amazon_scrape-1.0.5.tar.gz]
+[2023-07-29 11:25:43] INFO root fetch - processPackages [amazon-scrape]: Remove: archive file [/home/abi/fetcher/tmp/amazon_scrape-1.0.6.tar.gz]
+[2023-07-29 11:25:43] INFO root fetch - main [MainThread]: End processing [amazon-scrape]: success
+[2023-07-29 11:25:43] INFO root fetch - main [MainThread]: Store serial: [19086623]
