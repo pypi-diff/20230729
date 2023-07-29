@@ -6502,3 +6502,97 @@
 [2023-07-29 03:27:22] ERROR root fetch - processPackages [bioregistry]: Timeout during execution of pkgdiff
 [2023-07-29 03:27:22] INFO root fetch - main [MainThread]: End processing [bioregistry] error
 [2023-07-29 03:27:22] INFO root fetch - main [MainThread]: Store serial: [19084106]
+[2023-07-29 03:32:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19084106]
+[2023-07-29 03:32:30] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-29 03:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: localstack-extension-httpbin
+[2023-07-29 03:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: richvalues
+[2023-07-29 03:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-wordpress
+[2023-07-29 03:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: popcorn-api
+[2023-07-29 03:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jarvis-ironman
+[2023-07-29 03:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyagrum-nightly
+[2023-07-29 03:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hyfi
+[2023-07-29 03:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: osuExchange
+[2023-07-29 03:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aistore
+[2023-07-29 03:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: popcorn-api
+[2023-07-29 03:32:31] INFO root fetch - processPackages [richvalues]: New version: [4.0.0] Old Version: [3.1.5]
+[2023-07-29 03:32:31] INFO root fetch - processPackages [popcorn-api]: New version: [0.0.1a4] Old Version: [0.0.1a3]
+[2023-07-29 03:32:31] INFO root fetch - processPackages [jarvis-ironman]: New version: [3.3] Old Version: [3.2]
+[2023-07-29 03:32:31] WARNING root fetch - processPackages [osuExchange]: Skipping, unable to determine old version
+[2023-07-29 03:32:31] INFO root fetch - processPackages [osuExchange]: Start processing: nbdev-stdlib
+[2023-07-29 03:32:31] INFO root fetch - main [MainThread]: End processing [osuExchange] error
+[2023-07-29 03:32:31] INFO root fetch - processPackages [localstack-extension-httpbin]: New version: [0.1.0.dev3] Old Version: [0.1.0.dev2]
+[2023-07-29 03:32:31] INFO root fetch - processPackages [popcorn-api]: New version: [0.0.1a4] Old Version: [0.0.1a3]
+[2023-07-29 03:32:31] INFO root fetch - processPackages [aistore]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-07-29 03:32:31] INFO root fetch - processPackages [hyfi]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-07-29 03:32:31] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-29 03:32:31] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-29 03:32:31] INFO root fetch - processPackages [richvalues]: Downloading https://files.pythonhosted.org/packages/21/c6/22b272b03b00dfae64d02b47cf3282cddbadacb1227b69a93f3d4e549189/richvalues-3.1.5.tar.gz
+[2023-07-29 03:32:31] INFO root fetch - processPackages [aistore]: Downloading https://files.pythonhosted.org/packages/12/d2/91b21e2d2708c4e73fa9e01e11d8ddba82a346906d927cd79c730706d697/aistore-1.4.3.tar.gz
+[2023-07-29 03:32:31] INFO root fetch - processPackages [pyagrum-nightly]: New version: [1.9.0.9.dev202307291690302491] Old Version: [1.9.0.9.dev202307281690302491]
+[2023-07-29 03:32:31] INFO root fetch - processPackages [popcorn-api]: Downloading https://files.pythonhosted.org/packages/4c/58/628704637b80f0159abdaa70177182346d0f1783ee3b61dfd4fd3c2a444f/popcorn_api-0.0.1a3.tar.gz
+[2023-07-29 03:32:31] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/0c/d5/2fbe9416a9203508f74c38267bf24cf38ed818a052d4711ab45e5c44cb06/hyfi-1.9.3.tar.gz
+[2023-07-29 03:32:31] INFO root fetch - processPackages [popcorn-api]: Downloading https://files.pythonhosted.org/packages/4c/58/628704637b80f0159abdaa70177182346d0f1783ee3b61dfd4fd3c2a444f/popcorn_api-0.0.1a3.tar.gz
+[2023-07-29 03:32:31] INFO root fetch - processPackages [localstack-extension-httpbin]: Downloading https://files.pythonhosted.org/packages/fc/47/f3cb9848a9e2233592def36168b94c511873de0d53b09bde439babe7fec4/localstack-extension-httpbin-0.1.0.dev2.tar.gz
+[2023-07-29 03:32:31] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-07-29 03:32:31] INFO root fetch - processPackages [jarvis-ironman]: Downloading https://files.pythonhosted.org/packages/da/19/7b3709cd7c918c6c5a64e318b6fe37b209612de589124ef6d6d38fc9b600/jarvis_ironman-3.2-py3-none-any.whl
+[2023-07-29 03:32:31] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/95/5a/46730445b7c8db7cad33c0b319cbd75004ba42b6cbe2f00628d2191c5516/cdk-wordpress-0.0.98.tar.gz
+[2023-07-29 03:32:31] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/6d/f4/029bec7c4d8572fa2ec7976763a4c12818f90c36ed81f002985dd2528f13/pyAgrum_nightly-1.9.0.9.dev202307281690302491-cp39-cp39-win_amd64.whl
+[2023-07-29 03:32:32] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/2f/e2/024fd591185726de091f0bca9a73624944543bd52f723541d967066ff8c9/hyfi-1.9.4.tar.gz
+[2023-07-29 03:32:32] INFO root fetch - processPackages [richvalues]: Downloading https://files.pythonhosted.org/packages/cd/29/a1d471e86ebada4731438d0f5b31032f106bdcf0d6c2e97ef649a71e3342/richvalues-4.0.0.tar.gz
+[2023-07-29 03:32:32] INFO root fetch - processPackages [aistore]: Downloading https://files.pythonhosted.org/packages/71/9e/20f522659a9e66cd42717097d266d83ef07748c32ce24aae1c1f87125493/aistore-1.4.4.tar.gz
+[2023-07-29 03:32:32] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-07-29 03:32:32] INFO root fetch - processPackages [popcorn-api]: Downloading https://files.pythonhosted.org/packages/88/43/5494e7a81c68992a7482c650cb3a9e02c60c80171cd565a583a965e04af0/popcorn_api-0.0.1a4.tar.gz
+[2023-07-29 03:32:32] INFO root fetch - processPackages [popcorn-api]: Downloading https://files.pythonhosted.org/packages/88/43/5494e7a81c68992a7482c650cb3a9e02c60c80171cd565a583a965e04af0/popcorn_api-0.0.1a4.tar.gz
+[2023-07-29 03:32:32] INFO root fetch - processPackages [localstack-extension-httpbin]: Downloading https://files.pythonhosted.org/packages/a9/a0/e723e609a14858030993d6f673ca7753fd8de0759ceb3794d356fab811c2/localstack-extension-httpbin-0.1.0.dev3.tar.gz
+[2023-07-29 03:32:32] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-07-29 03:32:32] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-1.9.3.tar.gz tmp/hyfi-1.9.4.tar.gz --markdown 20230729/h/hyfi/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-07-29 03:32:32] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/f5/33/8bc435266e926cea52eb7df452e54c2c0657beef07580a86eae44236d88b/cdk-wordpress-0.0.99.tar.gz
+[2023-07-29 03:32:32] INFO root fetch - processPackages [richvalues]: executing diffoscope
+[2023-07-29 03:32:32] INFO root fetch - processPackages [richvalues]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/richvalues-3.1.5.tar.gz tmp/richvalues-4.0.0.tar.gz --markdown 20230729/r/richvalues/3.1.5-4.0.0/diff.md --exclude *.pyd
+[2023-07-29 03:32:32] INFO root fetch - processPackages [popcorn-api]: executing diffoscope
+[2023-07-29 03:32:32] INFO root fetch - processPackages [popcorn-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/popcorn_api-0.0.1a3.tar.gz tmp/popcorn_api-0.0.1a4.tar.gz --markdown 20230729/p/popcorn-api/0.0.1a3-0.0.1a4/diff.md --exclude *.pyd
+[2023-07-29 03:32:32] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-07-29 03:32:32] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230729/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-29 03:32:32] INFO root fetch - processPackages [popcorn-api]: executing diffoscope
+[2023-07-29 03:32:32] INFO root fetch - processPackages [popcorn-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/popcorn_api-0.0.1a3.tar.gz tmp/popcorn_api-0.0.1a4.tar.gz --markdown 20230729/p/popcorn-api/0.0.1a3-0.0.1a4/diff.md --exclude *.pyd
+[2023-07-29 03:32:32] INFO root fetch - processPackages [localstack-extension-httpbin]: executing diffoscope
+[2023-07-29 03:32:32] INFO root fetch - processPackages [localstack-extension-httpbin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-extension-httpbin-0.1.0.dev2.tar.gz tmp/localstack-extension-httpbin-0.1.0.dev3.tar.gz --markdown 20230729/l/localstack-extension-httpbin/0.1.0.dev2-0.1.0.dev3/diff.md --exclude *.pyd
+[2023-07-29 03:32:32] INFO root fetch - processPackages [aistore]: executing diffoscope
+[2023-07-29 03:32:32] INFO root fetch - processPackages [aistore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aistore-1.4.3.tar.gz tmp/aistore-1.4.4.tar.gz --markdown 20230729/a/aistore/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-07-29 03:32:32] INFO root fetch - processPackages [jarvis-ironman]: Downloading https://files.pythonhosted.org/packages/ee/d6/5ffc813acb6fcf904722b880a2295fdaa026b9db41b879dc6a9f82b763cf/jarvis_ironman-3.3-py3-none-any.whl
+[2023-07-29 03:32:32] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2023-07-29 03:32:32] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20230729/c/cdk-wordpress/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-29 03:32:32] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/80/92/e195c8c38b8df23fcaef945b62c89a4c70a46873ff81eca94077385cd393/pyAgrum_nightly-1.9.0.9.dev202307291690302491-cp39-cp39-win_amd64.whl
+[2023-07-29 03:32:32] INFO root fetch - processPackages [jarvis-ironman]: executing diffoscope
+[2023-07-29 03:32:32] INFO root fetch - processPackages [jarvis-ironman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jarvis_ironman-3.2-py3-none-any.whl.zip tmp/jarvis_ironman-3.3-py3-none-any.whl.zip --markdown 20230729/j/jarvis-ironman/3.2-3.3/diff.md --exclude *.pyd
+[2023-07-29 03:32:33] INFO root fetch - processPackages [pyagrum-nightly]: executing diffoscope
+[2023-07-29 03:32:33] INFO root fetch - processPackages [pyagrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.9.0.9.dev202307281690302491-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.9.0.9.dev202307291690302491-cp39-cp39-win_amd64.whl.zip --markdown 20230729/p/pyagrum-nightly/1.9.0.9.dev202307281690302491-1.9.0.9.dev202307291690302491/diff.md --exclude *.pyd
+[2023-07-29 03:32:33] INFO root fetch - processPackages [popcorn-api]: Remove: archive file [/home/abi/fetcher/tmp/popcorn_api-0.0.1a3.tar.gz]
+[2023-07-29 03:32:33] INFO root fetch - processPackages [popcorn-api]: Remove: archive file [/home/abi/fetcher/tmp/popcorn_api-0.0.1a4.tar.gz]
+[2023-07-29 03:32:33] INFO root fetch - main [MainThread]: End processing [popcorn-api]: success
+[2023-07-29 03:32:33] INFO root fetch - main [MainThread]: End processing [popcorn-api]: success
+[2023-07-29 03:32:33] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-07-29 03:32:33] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-07-29 03:32:33] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-07-29 03:32:33] INFO root fetch - processPackages [richvalues]: Remove: archive file [/home/abi/fetcher/tmp/richvalues-3.1.5.tar.gz]
+[2023-07-29 03:32:33] INFO root fetch - processPackages [richvalues]: Remove: archive file [/home/abi/fetcher/tmp/richvalues-4.0.0.tar.gz]
+[2023-07-29 03:32:34] INFO root fetch - main [MainThread]: End processing [richvalues]: success
+[2023-07-29 03:32:34] INFO root fetch - processPackages [localstack-extension-httpbin]: Remove: archive file [/home/abi/fetcher/tmp/localstack-extension-httpbin-0.1.0.dev2.tar.gz]
+[2023-07-29 03:32:34] INFO root fetch - processPackages [localstack-extension-httpbin]: Remove: archive file [/home/abi/fetcher/tmp/localstack-extension-httpbin-0.1.0.dev3.tar.gz]
+[2023-07-29 03:32:34] INFO root fetch - main [MainThread]: End processing [localstack-extension-httpbin]: success
+[2023-07-29 03:32:34] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.98.tar.gz]
+[2023-07-29 03:32:34] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.99.tar.gz]
+[2023-07-29 03:32:34] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2023-07-29 03:32:34] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.9.3.tar.gz]
+[2023-07-29 03:32:34] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.9.4.tar.gz]
+[2023-07-29 03:32:34] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-07-29 03:32:34] INFO root fetch - processPackages [aistore]: Remove: archive file [/home/abi/fetcher/tmp/aistore-1.4.3.tar.gz]
+[2023-07-29 03:32:34] INFO root fetch - processPackages [aistore]: Remove: archive file [/home/abi/fetcher/tmp/aistore-1.4.4.tar.gz]
+[2023-07-29 03:32:34] INFO root fetch - main [MainThread]: End processing [aistore]: success
+[2023-07-29 03:32:34] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202307281690302491-cp39-cp39-win_amd64.whl.zip]
+[2023-07-29 03:32:34] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202307291690302491-cp39-cp39-win_amd64.whl.zip]
+[2023-07-29 03:32:34] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
+[2023-07-29 03:32:34] INFO root fetch - processPackages [jarvis-ironman]: Remove: archive file [/home/abi/fetcher/tmp/jarvis_ironman-3.2-py3-none-any.whl.zip]
+[2023-07-29 03:32:34] INFO root fetch - processPackages [jarvis-ironman]: Remove: archive file [/home/abi/fetcher/tmp/jarvis_ironman-3.3-py3-none-any.whl.zip]
+[2023-07-29 03:32:34] INFO root fetch - main [MainThread]: End processing [jarvis-ironman]: success
+[2023-07-29 03:32:34] INFO root fetch - main [MainThread]: Store serial: [19084438]
