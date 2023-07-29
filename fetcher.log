@@ -7460,3 +7460,45 @@
 [2023-07-29 04:50:48] INFO root fetch - processPackages [drizzutojr-vader]: Remove: archive file [/home/abi/fetcher/tmp/drizzutojr_vader-0.0.9-py3-none-any.whl.zip]
 [2023-07-29 04:50:48] INFO root fetch - main [MainThread]: End processing [drizzutojr-vader]: success
 [2023-07-29 04:50:48] INFO root fetch - main [MainThread]: Store serial: [19084908]
+[2023-07-29 04:55:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19084908]
+[2023-07-29 04:55:56] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-29 04:55:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: codedapertures
+[2023-07-29 04:55:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sidbasiccalculator
+[2023-07-29 04:55:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-agreement-serviceprofile
+[2023-07-29 04:55:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addons-oca-agreement
+[2023-07-29 04:55:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: progfiguration
+[2023-07-29 04:55:56] INFO root fetch - processPackages [odoo-addons-oca-agreement]: New version: [16.0.20230608.0] Old Version: [16.0.20230316.0]
+[2023-07-29 04:55:56] INFO root fetch - processPackages [codedapertures]: New version: [0.6] Old Version: [0.5]
+[2023-07-29 04:55:56] WARNING root fetch - processPackages [sidbasiccalculator]: Skipping, unable to determine old version
+[2023-07-29 04:55:56] INFO root fetch - main [MainThread]: End processing [sidbasiccalculator] error
+[2023-07-29 04:55:56] INFO root fetch - processPackages [progfiguration]: New version: [0.0.2a5] Old Version: [0.0.2a4]
+[2023-07-29 04:55:56] INFO root fetch - processPackages [odoo-addon-agreement-serviceprofile]: New version: [15.0.1.0.0.3] Old Version: [15.0.1.0.0.2]
+[2023-07-29 04:55:56] INFO root fetch - processPackages [progfiguration]: Downloading https://files.pythonhosted.org/packages/34/8a/6dc80a295e9197c01e54b4def54fa72bfaa5f90295ee50451851b2a13361/progfiguration-0.0.2a4.tar.gz
+[2023-07-29 04:55:57] INFO root fetch - processPackages [codedapertures]: Downloading https://files.pythonhosted.org/packages/2d/fa/f56e5d33a1860b50059c403fdb86237b2fb0df1d1db4f50272d954fe190f/codedapertures-0.5.tar.gz
+[2023-07-29 04:55:57] INFO root fetch - processPackages [odoo-addons-oca-agreement]: Downloading https://files.pythonhosted.org/packages/df/17/a40cc0c3b60583c9fd61d2d3540c97352790baafb36b8d55365cbe3bafc9/odoo_addons_oca_agreement-16.0.20230316.0-py3-none-any.whl
+[2023-07-29 04:55:57] INFO root fetch - processPackages [odoo-addon-agreement-serviceprofile]: Downloading https://files.pythonhosted.org/packages/4c/33/3afc2f3c69196bad00c35c0115344c4c3f18a3b2d2c6b6f4a4b791e7e6f3/odoo_addon_agreement_serviceprofile-15.0.1.0.0.2-py3-none-any.whl
+[2023-07-29 04:55:57] INFO root fetch - processPackages [progfiguration]: Downloading https://files.pythonhosted.org/packages/87/8f/90490d1b2de84ffa9b7c3a0a564af9564edfe14c61e8faceae2abd121712/progfiguration-0.0.2a5.tar.gz
+[2023-07-29 04:55:57] INFO root fetch - processPackages [codedapertures]: Downloading https://files.pythonhosted.org/packages/0f/4a/0f7faee55161aba153db00c5527e1a9e5e3caa5dbe7ea2bc50253ebee786/codedapertures-0.6.tar.gz
+[2023-07-29 04:55:57] INFO root fetch - processPackages [codedapertures]: executing diffoscope
+[2023-07-29 04:55:57] INFO root fetch - processPackages [codedapertures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codedapertures-0.5.tar.gz tmp/codedapertures-0.6.tar.gz --markdown 20230729/c/codedapertures/0.5-0.6/diff.md --exclude *.pyd
+[2023-07-29 04:55:57] INFO root fetch - processPackages [odoo-addons-oca-agreement]: Downloading https://files.pythonhosted.org/packages/3d/08/19228baa487d0ec89b55d0e1a65625897335855e3b88e7bba45ae3fdd3a7/odoo_addons_oca_agreement-16.0.20230608.0-py3-none-any.whl
+[2023-07-29 04:55:57] INFO root fetch - processPackages [progfiguration]: executing diffoscope
+[2023-07-29 04:55:57] INFO root fetch - processPackages [progfiguration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/progfiguration-0.0.2a4.tar.gz tmp/progfiguration-0.0.2a5.tar.gz --markdown 20230729/p/progfiguration/0.0.2a4-0.0.2a5/diff.md --exclude *.pyd
+[2023-07-29 04:55:57] INFO root fetch - processPackages [odoo-addon-agreement-serviceprofile]: Downloading https://files.pythonhosted.org/packages/1a/81/015d1f940f50d7a2558f3430443dd26e9916a2c3a9d395f8bacc22d74a83/odoo_addon_agreement_serviceprofile-15.0.1.0.0.3-py3-none-any.whl
+[2023-07-29 04:55:57] INFO root fetch - processPackages [odoo-addon-agreement-serviceprofile]: executing diffoscope
+[2023-07-29 04:55:57] INFO root fetch - processPackages [odoo-addon-agreement-serviceprofile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_agreement_serviceprofile-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_agreement_serviceprofile-15.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230729/o/odoo-addon-agreement-serviceprofile/15.0.1.0.0.2-15.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-07-29 04:55:57] INFO root fetch - processPackages [odoo-addons-oca-agreement]: executing diffoscope
+[2023-07-29 04:55:57] INFO root fetch - processPackages [odoo-addons-oca-agreement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_agreement-16.0.20230316.0-py3-none-any.whl.zip tmp/odoo_addons_oca_agreement-16.0.20230608.0-py3-none-any.whl.zip --markdown 20230729/o/odoo-addons-oca-agreement/16.0.20230316.0-16.0.20230608.0/diff.md --exclude *.pyd
+[2023-07-29 04:55:58] INFO root fetch - processPackages [codedapertures]: Remove: archive file [/home/abi/fetcher/tmp/codedapertures-0.5.tar.gz]
+[2023-07-29 04:55:58] INFO root fetch - processPackages [codedapertures]: Remove: archive file [/home/abi/fetcher/tmp/codedapertures-0.6.tar.gz]
+[2023-07-29 04:55:58] INFO root fetch - main [MainThread]: End processing [codedapertures]: success
+[2023-07-29 04:55:58] INFO root fetch - processPackages [progfiguration]: Remove: archive file [/home/abi/fetcher/tmp/progfiguration-0.0.2a4.tar.gz]
+[2023-07-29 04:55:58] INFO root fetch - processPackages [progfiguration]: Remove: archive file [/home/abi/fetcher/tmp/progfiguration-0.0.2a5.tar.gz]
+[2023-07-29 04:55:58] INFO root fetch - main [MainThread]: End processing [progfiguration]: success
+[2023-07-29 04:55:58] INFO root fetch - processPackages [odoo-addons-oca-agreement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_agreement-16.0.20230316.0-py3-none-any.whl.zip]
+[2023-07-29 04:55:58] INFO root fetch - processPackages [odoo-addons-oca-agreement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_agreement-16.0.20230608.0-py3-none-any.whl.zip]
+[2023-07-29 04:55:58] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-agreement]: success
+[2023-07-29 04:55:58] INFO root fetch - processPackages [odoo-addon-agreement-serviceprofile]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_agreement_serviceprofile-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-29 04:55:58] INFO root fetch - processPackages [odoo-addon-agreement-serviceprofile]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_agreement_serviceprofile-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-29 04:55:58] INFO root fetch - main [MainThread]: End processing [odoo-addon-agreement-serviceprofile]: success
+[2023-07-29 04:55:58] INFO root fetch - main [MainThread]: Store serial: [19084921]
