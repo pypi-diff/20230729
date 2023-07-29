@@ -15423,3 +15423,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 12:29:44] INFO root fetch - processPackages [chainsaddiction]: Remove: archive file [/home/abi/fetcher/tmp/chainsaddiction-0.2.5.dev1.tar.gz]
 [2023-07-29 12:29:44] INFO root fetch - main [MainThread]: End processing [chainsaddiction]: success
 [2023-07-29 12:29:44] INFO root fetch - main [MainThread]: Store serial: [19087913]
+[2023-07-29 12:34:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19087913]
+[2023-07-29 12:34:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-29 12:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plantable
+[2023-07-29 12:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: djangoldp-component
+[2023-07-29 12:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: metabase-api-python
+[2023-07-29 12:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: porkbun-ddns
+[2023-07-29 12:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: knifes
+[2023-07-29 12:34:53] INFO root fetch - processPackages [djangoldp-component]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-07-29 12:34:53] WARNING root fetch - processPackages [plantable]: Skipping, unable to determine old version
+[2023-07-29 12:34:53] INFO root fetch - main [MainThread]: End processing [plantable] error
+[2023-07-29 12:34:53] INFO root fetch - processPackages [metabase-api-python]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-29 12:34:53] INFO root fetch - processPackages [porkbun-ddns]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-29 12:34:53] INFO root fetch - processPackages [knifes]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-07-29 12:34:53] INFO root fetch - processPackages [metabase-api-python]: Downloading https://files.pythonhosted.org/packages/a5/fd/ae62bc3a683c5baa17ab3407f9283a1fe5848225a358ecd5e0f17628cf05/metabase-api-python-0.0.4.tar.gz
+[2023-07-29 12:34:53] INFO root fetch - processPackages [knifes]: Downloading https://files.pythonhosted.org/packages/47/dc/9b70eaa9ada5c17c527442c7f6913d9f419b00084ca98bf313a61f6ebb19/knifes-0.8.8.tar.gz
+[2023-07-29 12:34:53] INFO root fetch - processPackages [djangoldp-component]: Downloading https://files.pythonhosted.org/packages/5e/79/7f8536c06e478c18e1e2eb6358600552bff590e721fa22a7b807e9b24236/djangoldp_component-2.0.1.tar.gz
+[2023-07-29 12:34:53] INFO root fetch - processPackages [porkbun-ddns]: Downloading https://files.pythonhosted.org/packages/0b/71/286ae1631533eb3cf35e57cfef1d30eff815e0d6efd21ff80e8c3b0e3adb/porkbun_ddns-0.1.4-py3-none-any.whl
+[2023-07-29 12:34:53] INFO root fetch - processPackages [knifes]: Downloading https://files.pythonhosted.org/packages/e7/be/f84349fc65ba6f31df45d2dfb2d03897b26e1c0962d5927c173699f6b248/knifes-0.8.9.tar.gz
+[2023-07-29 12:34:53] INFO root fetch - processPackages [metabase-api-python]: Downloading https://files.pythonhosted.org/packages/c7/6f/717e3f922888d5d99d3fa9e125cd0e0e98834c34d90d3fb3be950739dd6d/metabase-api-python-0.0.5.tar.gz
+[2023-07-29 12:34:53] INFO root fetch - processPackages [knifes]: executing diffoscope
+[2023-07-29 12:34:53] INFO root fetch - processPackages [knifes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knifes-0.8.8.tar.gz tmp/knifes-0.8.9.tar.gz --markdown 20230729/k/knifes/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-07-29 12:34:54] INFO root fetch - processPackages [djangoldp-component]: Downloading https://files.pythonhosted.org/packages/4f/9c/34492c262a3f84e50335558b81fab69d332e2b94811a1fad67f63ddc56a5/djangoldp_component-2.0.2.tar.gz
+[2023-07-29 12:34:54] INFO root fetch - processPackages [porkbun-ddns]: Downloading https://files.pythonhosted.org/packages/37/8a/32fe7f80f11e92c660136856513175e2bb9ed3e6c5856389a0d95a57e0d8/porkbun_ddns-0.1.5-py3-none-any.whl
+[2023-07-29 12:34:54] INFO root fetch - processPackages [metabase-api-python]: executing diffoscope
+[2023-07-29 12:34:54] INFO root fetch - processPackages [metabase-api-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metabase-api-python-0.0.4.tar.gz tmp/metabase-api-python-0.0.5.tar.gz --markdown 20230729/m/metabase-api-python/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-29 12:34:54] INFO root fetch - processPackages [djangoldp-component]: executing diffoscope
+[2023-07-29 12:34:54] INFO root fetch - processPackages [djangoldp-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_component-2.0.1.tar.gz tmp/djangoldp_component-2.0.2.tar.gz --markdown 20230729/d/djangoldp-component/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-07-29 12:34:54] INFO root fetch - processPackages [porkbun-ddns]: executing diffoscope
+[2023-07-29 12:34:54] INFO root fetch - processPackages [porkbun-ddns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/porkbun_ddns-0.1.4-py3-none-any.whl.zip tmp/porkbun_ddns-0.1.5-py3-none-any.whl.zip --markdown 20230729/p/porkbun-ddns/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-29 12:34:54] INFO root fetch - processPackages [metabase-api-python]: Remove: archive file [/home/abi/fetcher/tmp/metabase-api-python-0.0.4.tar.gz]
+[2023-07-29 12:34:54] INFO root fetch - processPackages [metabase-api-python]: Remove: archive file [/home/abi/fetcher/tmp/metabase-api-python-0.0.5.tar.gz]
+[2023-07-29 12:34:54] INFO root fetch - main [MainThread]: End processing [metabase-api-python]: success
+[2023-07-29 12:34:54] INFO root fetch - processPackages [porkbun-ddns]: Remove: archive file [/home/abi/fetcher/tmp/porkbun_ddns-0.1.4-py3-none-any.whl.zip]
+[2023-07-29 12:34:54] INFO root fetch - processPackages [porkbun-ddns]: Remove: archive file [/home/abi/fetcher/tmp/porkbun_ddns-0.1.5-py3-none-any.whl.zip]
+[2023-07-29 12:34:54] INFO root fetch - main [MainThread]: End processing [porkbun-ddns]: success
+[2023-07-29 12:34:55] INFO root fetch - processPackages [djangoldp-component]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_component-2.0.1.tar.gz]
+[2023-07-29 12:34:55] INFO root fetch - processPackages [djangoldp-component]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_component-2.0.2.tar.gz]
+[2023-07-29 12:34:55] INFO root fetch - main [MainThread]: End processing [djangoldp-component]: success
+[2023-07-29 12:34:55] INFO root fetch - processPackages [knifes]: Remove: archive file [/home/abi/fetcher/tmp/knifes-0.8.8.tar.gz]
+[2023-07-29 12:34:55] INFO root fetch - processPackages [knifes]: Remove: archive file [/home/abi/fetcher/tmp/knifes-0.8.9.tar.gz]
+[2023-07-29 12:34:55] INFO root fetch - main [MainThread]: End processing [knifes]: success
+[2023-07-29 12:34:55] INFO root fetch - main [MainThread]: Store serial: [19087931]
