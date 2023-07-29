@@ -17803,3 +17803,97 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 15:27:46] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
 [2023-07-29 15:27:46] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-07-29 15:27:46] INFO root fetch - main [MainThread]: Store serial: [19089011]
+[2023-07-29 15:32:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19089011]
+[2023-07-29 15:32:57] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-29 15:32:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yascheduler
+[2023-07-29 15:32:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lighthouse-python-plus
+[2023-07-29 15:32:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rescan
+[2023-07-29 15:32:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymonntorch
+[2023-07-29 15:32:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cf2tf
+[2023-07-29 15:32:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-dllib-spark3
+[2023-07-29 15:32:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-orca-spark3
+[2023-07-29 15:32:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl-friesian-spark3
+[2023-07-29 15:32:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bigdl-chronos-spark3
+[2023-07-29 15:32:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigdl-spark3
+[2023-07-29 15:32:57] INFO root fetch - processPackages [yascheduler]: New version: [1.2.0] Old Version: [1.0.9]
+[2023-07-29 15:32:57] INFO root fetch - processPackages [pymonntorch]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-29 15:32:57] INFO root fetch - processPackages [bigdl-orca-spark3]: New version: [2.4.0b20230729] Old Version: [2.4.0b20230728]
+[2023-07-29 15:32:57] INFO root fetch - processPackages [rescan]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-29 15:32:57] INFO root fetch - processPackages [lighthouse-python-plus]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-29 15:32:57] INFO root fetch - processPackages [cf2tf]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-29 15:32:57] INFO root fetch - processPackages [bigdl-dllib-spark3]: New version: [2.4.0b20230729] Old Version: [2.4.0b20230728]
+[2023-07-29 15:32:57] INFO root fetch - processPackages [bigdl-spark3]: New version: [2.4.0b20230729] Old Version: [2.4.0b20230728]
+[2023-07-29 15:32:57] INFO root fetch - processPackages [bigdl-friesian-spark3]: New version: [2.4.0b20230729] Old Version: [2.4.0b20230728]
+[2023-07-29 15:32:57] INFO root fetch - processPackages [bigdl-chronos-spark3]: New version: [2.4.0b20230729] Old Version: [2.4.0b20230728]
+[2023-07-29 15:32:57] INFO root fetch - processPackages [rescan]: Downloading https://files.pythonhosted.org/packages/6a/86/85bbb061eb7027407dabc24e22a145d38a17e4e8ca2d698079a1f1eab06e/rescan-1.0.1.tar.gz
+[2023-07-29 15:32:57] INFO root fetch - processPackages [yascheduler]: Downloading https://files.pythonhosted.org/packages/cc/5a/85dd6c7d3d2f13967a4bc3649d90b1b5c66d2da548cb8a78c4d16d062cce/yascheduler-1.0.9.tar.gz
+[2023-07-29 15:32:57] INFO root fetch - processPackages [cf2tf]: Downloading https://files.pythonhosted.org/packages/c7/53/2ce2793794e97b5d7898bdae33a30c5f302bf5b9da0cfacb5be9c4f83ff8/cf2tf-0.6.0.tar.gz
+[2023-07-29 15:32:57] INFO root fetch - processPackages [pymonntorch]: Downloading https://files.pythonhosted.org/packages/5c/3c/1a10c09c801708c6e746ea5fd719bac3df59b2ea366265e49fbb699d0485/pymonntorch-0.1.1.tar.gz
+[2023-07-29 15:32:57] INFO root fetch - processPackages [bigdl-orca-spark3]: Downloading https://files.pythonhosted.org/packages/17/6b/52479aec42e4ab8294daa52ea30d0963655751d37ec88b30f24d57b05bad/bigdl_orca_spark3-2.4.0b20230728-py3-none-manylinux1_x86_64.whl
+[2023-07-29 15:32:57] INFO root fetch - processPackages [lighthouse-python-plus]: Downloading https://files.pythonhosted.org/packages/ba/34/563be9f56a8b95e014a66edefb049c7c68e14aaa2b8c67ae6c0c8abbc5e6/lighthouse_python_plus-1.1.0.tar.gz
+[2023-07-29 15:32:57] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/29/4d/4c20f1506cc820767f0d7683d67b54048d3689c26d9059764f6069249c7f/bigdl_friesian_spark3-2.4.0b20230728-py3-none-manylinux1_x86_64.whl
+[2023-07-29 15:32:57] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/dc/f6/1e8fef9d3a9c2b357ddf4fd4d5e58ec7fdf5659e9e23fdc1ec23705af7ae/bigdl_spark3-2.4.0b20230728-py3-none-manylinux1_x86_64.whl
+[2023-07-29 15:32:57] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/cb/6a/f09d5396f43f7d45df508e877a43406d11ca6c602b61ab47ce8cf7152350/bigdl_chronos_spark3-2.4.0b20230728-py3-none-manylinux1_x86_64.whl
+[2023-07-29 15:32:58] WARNING root fetch - processPackages [bigdl-orca-spark3]: Skipping package: exceeds size limit 20212178>=10485760
+[2023-07-29 15:32:58] INFO root fetch - processPackages [bigdl-orca-spark3]: Start processing: MAZAlib
+[2023-07-29 15:32:58] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark3] error
+[2023-07-29 15:32:58] INFO root fetch - processPackages [bigdl-dllib-spark3]: Downloading https://files.pythonhosted.org/packages/0c/80/9d8494dc777377f4fa4ecd8ca436790a9d69a53a435aada948297e26e64b/bigdl-dllib-spark3-2.4.0b20230728.tar.gz
+[2023-07-29 15:32:58] INFO root fetch - processPackages [MAZAlib]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-29 15:32:58] WARNING root fetch - processPackages [bigdl-dllib-spark3]: Skipping package: exceeds size limit 63745098>=10485760
+[2023-07-29 15:32:58] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark3] error
+[2023-07-29 15:32:58] INFO root fetch - processPackages [rescan]: Downloading https://files.pythonhosted.org/packages/c7/38/8fbdddecefaf0e5382a4458e5e9579d2a74042815a6c83bb42b5191ae9bc/rescan-1.0.2.tar.gz
+[2023-07-29 15:32:58] INFO root fetch - processPackages [MAZAlib]: Downloading https://files.pythonhosted.org/packages/84/68/086bda548b2836fe96884972e0687cf1ae904eafbfb08a2f34867472df24/MAZAlib-0.0.1.tar.gz
+[2023-07-29 15:32:58] INFO root fetch - processPackages [yascheduler]: Downloading https://files.pythonhosted.org/packages/b6/2a/804dc882d51f5d14f389b47bb708efa552fce2d1b78f4fe9b4c920d9e41a/yascheduler-1.2.0.tar.gz
+[2023-07-29 15:32:58] INFO root fetch - processPackages [rescan]: executing diffoscope
+[2023-07-29 15:32:58] INFO root fetch - processPackages [rescan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rescan-1.0.1.tar.gz tmp/rescan-1.0.2.tar.gz --markdown 20230729/r/rescan/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-29 15:32:58] INFO root fetch - processPackages [pymonntorch]: Downloading https://files.pythonhosted.org/packages/c6/74/71c9138eb1ec876bed7257f819af016151a2b10af735398a19348ba379dc/pymonntorch-0.1.2.tar.gz
+[2023-07-29 15:32:58] INFO root fetch - processPackages [lighthouse-python-plus]: Downloading https://files.pythonhosted.org/packages/7f/c8/86af2112c4b0db202f76d1f1f1d99d902d784202cc07c5ada5d8767fb005/lighthouse_python_plus-1.2.0.tar.gz
+[2023-07-29 15:32:58] INFO root fetch - processPackages [cf2tf]: Downloading https://files.pythonhosted.org/packages/1e/0f/6bcd8bba734912fce43afa887d6008bc3774edea3f32231cd82c99492cd1/cf2tf-0.6.1.tar.gz
+[2023-07-29 15:32:58] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/8d/d5/3e8d4333c2e5f74813c70464844fcb8a6b369349679f19b4c34dcf288f7b/bigdl_friesian_spark3-2.4.0b20230729-py3-none-manylinux1_x86_64.whl
+[2023-07-29 15:32:58] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/bf/0b/12ac3b5234d694f2fed1dd6a66212a89586facc641cca87227133f3b9dd6/bigdl_spark3-2.4.0b20230729-py3-none-manylinux1_x86_64.whl
+[2023-07-29 15:32:58] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/de/b8/a7faed98a8498ca90f32259b70c23976bc4b9a0870d13f856c0c58702e29/bigdl_chronos_spark3-2.4.0b20230729-py3-none-manylinux1_x86_64.whl
+[2023-07-29 15:32:58] INFO root fetch - processPackages [yascheduler]: executing diffoscope
+[2023-07-29 15:32:58] INFO root fetch - processPackages [yascheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yascheduler-1.0.9.tar.gz tmp/yascheduler-1.2.0.tar.gz --markdown 20230729/y/yascheduler/1.0.9-1.2.0/diff.md --exclude *.pyd
+[2023-07-29 15:32:58] INFO root fetch - processPackages [lighthouse-python-plus]: executing diffoscope
+[2023-07-29 15:32:58] INFO root fetch - processPackages [lighthouse-python-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lighthouse_python_plus-1.1.0.tar.gz tmp/lighthouse_python_plus-1.2.0.tar.gz --markdown 20230729/l/lighthouse-python-plus/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-29 15:32:58] INFO root fetch - processPackages [MAZAlib]: Downloading https://files.pythonhosted.org/packages/fa/01/cb8e5ce946cf2b7680506961c4a696c2f3750dbbbe768cc4468d2a26b8a2/MAZAlib-0.0.2.tar.gz
+[2023-07-29 15:32:58] INFO root fetch - processPackages [cf2tf]: executing diffoscope
+[2023-07-29 15:32:58] INFO root fetch - processPackages [cf2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cf2tf-0.6.0.tar.gz tmp/cf2tf-0.6.1.tar.gz --markdown 20230729/c/cf2tf/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-29 15:32:58] INFO root fetch - processPackages [pymonntorch]: executing diffoscope
+[2023-07-29 15:32:58] INFO root fetch - processPackages [pymonntorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymonntorch-0.1.1.tar.gz tmp/pymonntorch-0.1.2.tar.gz --markdown 20230729/p/pymonntorch/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-29 15:32:58] INFO root fetch - processPackages [bigdl-friesian-spark3]: executing diffoscope
+[2023-07-29 15:32:58] INFO root fetch - processPackages [bigdl-friesian-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark3-2.4.0b20230728-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark3-2.4.0b20230729-py3-none-manylinux1_x86_64.whl.zip --markdown 20230729/b/bigdl-friesian-spark3/2.4.0b20230728-2.4.0b20230729/diff.md --exclude *.pyd
+[2023-07-29 15:32:58] INFO root fetch - processPackages [bigdl-spark3]: executing diffoscope
+[2023-07-29 15:32:58] INFO root fetch - processPackages [bigdl-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark3-2.4.0b20230728-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark3-2.4.0b20230729-py3-none-manylinux1_x86_64.whl.zip --markdown 20230729/b/bigdl-spark3/2.4.0b20230728-2.4.0b20230729/diff.md --exclude *.pyd
+[2023-07-29 15:32:58] INFO root fetch - processPackages [MAZAlib]: executing diffoscope
+[2023-07-29 15:32:58] INFO root fetch - processPackages [MAZAlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MAZAlib-0.0.1.tar.gz tmp/MAZAlib-0.0.2.tar.gz --markdown 20230729/M/MAZAlib/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-29 15:32:58] INFO root fetch - processPackages [bigdl-chronos-spark3]: executing diffoscope
+[2023-07-29 15:32:58] INFO root fetch - processPackages [bigdl-chronos-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark3-2.4.0b20230728-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark3-2.4.0b20230729-py3-none-manylinux1_x86_64.whl.zip --markdown 20230729/b/bigdl-chronos-spark3/2.4.0b20230728-2.4.0b20230729/diff.md --exclude *.pyd
+[2023-07-29 15:32:59] INFO root fetch - processPackages [rescan]: Remove: archive file [/home/abi/fetcher/tmp/rescan-1.0.1.tar.gz]
+[2023-07-29 15:32:59] INFO root fetch - processPackages [rescan]: Remove: archive file [/home/abi/fetcher/tmp/rescan-1.0.2.tar.gz]
+[2023-07-29 15:32:59] INFO root fetch - main [MainThread]: End processing [rescan]: success
+[2023-07-29 15:32:59] INFO root fetch - processPackages [lighthouse-python-plus]: Remove: archive file [/home/abi/fetcher/tmp/lighthouse_python_plus-1.1.0.tar.gz]
+[2023-07-29 15:32:59] INFO root fetch - processPackages [lighthouse-python-plus]: Remove: archive file [/home/abi/fetcher/tmp/lighthouse_python_plus-1.2.0.tar.gz]
+[2023-07-29 15:32:59] INFO root fetch - main [MainThread]: End processing [lighthouse-python-plus]: success
+[2023-07-29 15:33:00] INFO root fetch - processPackages [cf2tf]: Remove: archive file [/home/abi/fetcher/tmp/cf2tf-0.6.0.tar.gz]
+[2023-07-29 15:33:00] INFO root fetch - processPackages [cf2tf]: Remove: archive file [/home/abi/fetcher/tmp/cf2tf-0.6.1.tar.gz]
+[2023-07-29 15:33:00] INFO root fetch - main [MainThread]: End processing [cf2tf]: success
+[2023-07-29 15:33:00] INFO root fetch - processPackages [MAZAlib]: Remove: archive file [/home/abi/fetcher/tmp/MAZAlib-0.0.1.tar.gz]
+[2023-07-29 15:33:00] INFO root fetch - processPackages [MAZAlib]: Remove: archive file [/home/abi/fetcher/tmp/MAZAlib-0.0.2.tar.gz]
+[2023-07-29 15:33:00] INFO root fetch - main [MainThread]: End processing [MAZAlib]: success
+[2023-07-29 15:33:00] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230728-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-29 15:33:00] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230729-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-29 15:33:00] INFO root fetch - main [MainThread]: End processing [bigdl-spark3]: success
+[2023-07-29 15:33:00] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230728-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-29 15:33:00] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230729-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-29 15:33:00] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark3]: success
+[2023-07-29 15:33:00] INFO root fetch - processPackages [pymonntorch]: Remove: archive file [/home/abi/fetcher/tmp/pymonntorch-0.1.1.tar.gz]
+[2023-07-29 15:33:00] INFO root fetch - processPackages [pymonntorch]: Remove: archive file [/home/abi/fetcher/tmp/pymonntorch-0.1.2.tar.gz]
+[2023-07-29 15:33:00] INFO root fetch - main [MainThread]: End processing [pymonntorch]: success
+[2023-07-29 15:33:00] INFO root fetch - processPackages [yascheduler]: Remove: archive file [/home/abi/fetcher/tmp/yascheduler-1.0.9.tar.gz]
+[2023-07-29 15:33:00] INFO root fetch - processPackages [yascheduler]: Remove: archive file [/home/abi/fetcher/tmp/yascheduler-1.2.0.tar.gz]
+[2023-07-29 15:33:00] INFO root fetch - main [MainThread]: End processing [yascheduler]: success
+[2023-07-29 15:33:00] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230728-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-29 15:33:00] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230729-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-29 15:33:00] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark3]: success
+[2023-07-29 15:33:00] INFO root fetch - main [MainThread]: Store serial: [19089039]
