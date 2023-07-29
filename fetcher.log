@@ -10594,3 +10594,66 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 09:41:50] INFO root fetch - processPackages [iman]: Remove: archive file [/home/abi/fetcher/tmp/iman-0.0.94.tar.gz]
 [2023-07-29 09:41:50] INFO root fetch - main [MainThread]: End processing [iman]: success
 [2023-07-29 09:41:50] INFO root fetch - main [MainThread]: Store serial: [19086184]
+[2023-07-29 09:46:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19086184]
+[2023-07-29 09:46:59] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-29 09:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dxlib
+[2023-07-29 09:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coconut
+[2023-07-29 09:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ai-scraper-toolkit
+[2023-07-29 09:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sdkit
+[2023-07-29 09:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ixBrowser
+[2023-07-29 09:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyrsm
+[2023-07-29 09:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pystools
+[2023-07-29 09:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dfv
+[2023-07-29 09:46:59] WARNING root fetch - processPackages [ai-scraper-toolkit]: Skipping, unable to determine old version
+[2023-07-29 09:46:59] INFO root fetch - main [MainThread]: End processing [ai-scraper-toolkit] error
+[2023-07-29 09:46:59] INFO root fetch - processPackages [dxlib]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-29 09:46:59] INFO root fetch - processPackages [pystools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-29 09:46:59] INFO root fetch - processPackages [ixBrowser]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-07-29 09:46:59] INFO root fetch - processPackages [coconut]: New version: [3.0.3] Old Version: [3.0.2]
+[2023-07-29 09:46:59] INFO root fetch - processPackages [pyrsm]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-29 09:46:59] INFO root fetch - processPackages [sdkit]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-29 09:46:59] WARNING root fetch - processPackages [dfv]: Skipping, unable to determine old version
+[2023-07-29 09:46:59] INFO root fetch - main [MainThread]: End processing [dfv] error
+[2023-07-29 09:46:59] INFO root fetch - processPackages [ixBrowser]: Downloading https://files.pythonhosted.org/packages/1f/58/7cdda9ddfbd159c0c7a08972b384c00813d25645c7271a6fdda56aeb2a2f/ixBrowser-1.6.0.tar.gz
+[2023-07-29 09:46:59] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/d1/c1/f3e251106f7f4c022d55f8fe3a3c0eacdb5bfdf84ce4182f71368c4f3a5f/sdkit-1.0.98.tar.gz
+[2023-07-29 09:46:59] INFO root fetch - processPackages [pystools]: Downloading https://files.pythonhosted.org/packages/d3/f1/f6fef6b574bd57970579f257d2f3b2adf9f6b87b20d9dc2c11e18d2a4a47/pystools-0.0.8.tar.gz
+[2023-07-29 09:46:59] INFO root fetch - processPackages [dxlib]: Downloading https://files.pythonhosted.org/packages/b3/8c/4201a5eaa9144a8b1e54391f95cf9a8721944ed60cd52ab29f5f769932dd/dxlib-0.2.4.tar.gz
+[2023-07-29 09:46:59] INFO root fetch - processPackages [pyrsm]: Downloading https://files.pythonhosted.org/packages/51/eb/61bd4cb8618f83e56bfaa382ccd4a4e9d93d726c953200f9114481e9a886/pyrsm-0.9.1.tar.gz
+[2023-07-29 09:47:00] INFO root fetch - processPackages [coconut]: Downloading https://files.pythonhosted.org/packages/8d/e5/4097e94b7c45536499e03f319a30fd88173e9ec9da79fee2234559d29be8/coconut-3.0.2.tar.gz
+[2023-07-29 09:47:00] INFO root fetch - processPackages [pystools]: Downloading https://files.pythonhosted.org/packages/9b/5a/9f2cf38e22565c5aa2ecb7be3dbecb7a44f7d23efbd86fd532eacd613f62/pystools-0.0.9.tar.gz
+[2023-07-29 09:47:00] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/7e/69/b60dd118fa3c33f9ff305ec5ce9de04303dfdfc9be5d286e20cbc1ee1e7b/sdkit-1.0.99.tar.gz
+[2023-07-29 09:47:00] INFO root fetch - processPackages [ixBrowser]: Downloading https://files.pythonhosted.org/packages/ba/a6/5bcd9bfb90f1ef63e8abee3299291a03dea021192cb061a70eca2cd806d2/ixBrowser-1.6.1.tar.gz
+[2023-07-29 09:47:00] INFO root fetch - processPackages [dxlib]: Downloading https://files.pythonhosted.org/packages/6a/af/4fd7c2f5cf235e9e3556b1fd6faea192cfe3577376e293a4bc36e9aa78b7/dxlib-0.2.5.tar.gz
+[2023-07-29 09:47:00] INFO root fetch - processPackages [pystools]: executing diffoscope
+[2023-07-29 09:47:00] INFO root fetch - processPackages [pystools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystools-0.0.8.tar.gz tmp/pystools-0.0.9.tar.gz --markdown 20230729/p/pystools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-29 09:47:00] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-07-29 09:47:00] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.98.tar.gz tmp/sdkit-1.0.99.tar.gz --markdown 20230729/s/sdkit/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-29 09:47:00] INFO root fetch - processPackages [ixBrowser]: executing diffoscope
+[2023-07-29 09:47:00] INFO root fetch - processPackages [ixBrowser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ixBrowser-1.6.0.tar.gz tmp/ixBrowser-1.6.1.tar.gz --markdown 20230729/i/ixBrowser/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-07-29 09:47:00] INFO root fetch - processPackages [pyrsm]: Downloading https://files.pythonhosted.org/packages/3d/65/0a4b8a89b7adf7364b0fdf6ce1a2dafe1cdea5c6f236c5d5fa4f410e63bd/pyrsm-0.9.2.tar.gz
+[2023-07-29 09:47:00] INFO root fetch - processPackages [coconut]: Downloading https://files.pythonhosted.org/packages/b0/ab/0d6b1a95bc554d35763451f17315d61c763fb4316bdc9a47129353b90e65/coconut-3.0.3.tar.gz
+[2023-07-29 09:47:00] INFO root fetch - processPackages [dxlib]: executing diffoscope
+[2023-07-29 09:47:00] INFO root fetch - processPackages [dxlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxlib-0.2.4.tar.gz tmp/dxlib-0.2.5.tar.gz --markdown 20230729/d/dxlib/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-29 09:47:00] INFO root fetch - processPackages [coconut]: executing diffoscope
+[2023-07-29 09:47:00] INFO root fetch - processPackages [coconut]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coconut-3.0.2.tar.gz tmp/coconut-3.0.3.tar.gz --markdown 20230729/c/coconut/3.0.2-3.0.3/diff.md --exclude *.pyd
+[2023-07-29 09:47:00] INFO root fetch - processPackages [pyrsm]: executing diffoscope
+[2023-07-29 09:47:00] INFO root fetch - processPackages [pyrsm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrsm-0.9.1.tar.gz tmp/pyrsm-0.9.2.tar.gz --markdown 20230729/p/pyrsm/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-29 09:47:01] INFO root fetch - processPackages [pystools]: Remove: archive file [/home/abi/fetcher/tmp/pystools-0.0.8.tar.gz]
+[2023-07-29 09:47:01] INFO root fetch - processPackages [pystools]: Remove: archive file [/home/abi/fetcher/tmp/pystools-0.0.9.tar.gz]
+[2023-07-29 09:47:01] INFO root fetch - main [MainThread]: End processing [pystools]: success
+[2023-07-29 09:47:01] INFO root fetch - processPackages [ixBrowser]: Remove: archive file [/home/abi/fetcher/tmp/ixBrowser-1.6.0.tar.gz]
+[2023-07-29 09:47:01] INFO root fetch - processPackages [ixBrowser]: Remove: archive file [/home/abi/fetcher/tmp/ixBrowser-1.6.1.tar.gz]
+[2023-07-29 09:47:01] INFO root fetch - main [MainThread]: End processing [ixBrowser]: success
+[2023-07-29 09:47:01] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.98.tar.gz]
+[2023-07-29 09:47:01] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.99.tar.gz]
+[2023-07-29 09:47:01] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-07-29 09:47:01] INFO root fetch - processPackages [dxlib]: Remove: archive file [/home/abi/fetcher/tmp/dxlib-0.2.4.tar.gz]
+[2023-07-29 09:47:01] INFO root fetch - processPackages [dxlib]: Remove: archive file [/home/abi/fetcher/tmp/dxlib-0.2.5.tar.gz]
+[2023-07-29 09:47:01] INFO root fetch - main [MainThread]: End processing [dxlib]: success
+[2023-07-29 09:47:02] INFO root fetch - processPackages [pyrsm]: Remove: archive file [/home/abi/fetcher/tmp/pyrsm-0.9.1.tar.gz]
+[2023-07-29 09:47:02] INFO root fetch - processPackages [pyrsm]: Remove: archive file [/home/abi/fetcher/tmp/pyrsm-0.9.2.tar.gz]
+[2023-07-29 09:47:02] INFO root fetch - main [MainThread]: End processing [pyrsm]: success
+[2023-07-29 09:47:02] INFO root fetch - processPackages [coconut]: Remove: archive file [/home/abi/fetcher/tmp/coconut-3.0.2.tar.gz]
+[2023-07-29 09:47:02] INFO root fetch - processPackages [coconut]: Remove: archive file [/home/abi/fetcher/tmp/coconut-3.0.3.tar.gz]
+[2023-07-29 09:47:02] INFO root fetch - main [MainThread]: End processing [coconut]: success
+[2023-07-29 09:47:02] INFO root fetch - main [MainThread]: Store serial: [19086215]
