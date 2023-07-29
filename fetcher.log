@@ -8804,3 +8804,100 @@
 [2023-07-29 07:04:45] INFO root fetch - processPackages [odoo-addons-oca-repair]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_repair-16.0.20230728.1-py3-none-any.whl.zip]
 [2023-07-29 07:04:45] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-repair]: success
 [2023-07-29 07:04:45] INFO root fetch - main [MainThread]: Store serial: [19085500]
+[2023-07-29 07:09:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19085500]
+[2023-07-29 07:09:53] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-29 07:09:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: antropy
+[2023-07-29 07:09:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: t265
+[2023-07-29 07:09:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: videoslides
+[2023-07-29 07:09:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rapid-pe
+[2023-07-29 07:09:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: htscf
+[2023-07-29 07:09:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sparkdantic
+[2023-07-29 07:09:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: constellatus
+[2023-07-29 07:09:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: speech-intelligibility-index
+[2023-07-29 07:09:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dask-cuda
+[2023-07-29 07:09:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dask-cuda
+[2023-07-29 07:09:53] INFO root fetch - processPackages [videoslides]: New version: [1.0.0] Old Version: [0.0.9]
+[2023-07-29 07:09:53] INFO root fetch - processPackages [speech-intelligibility-index]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-29 07:09:53] WARNING root fetch - processPackages [constellatus]: Skipping, unable to determine old version
+[2023-07-29 07:09:53] INFO root fetch - processPackages [constellatus]: Start processing: newline
+[2023-07-29 07:09:53] INFO root fetch - main [MainThread]: End processing [constellatus] error
+[2023-07-29 07:09:53] WARNING root fetch - processPackages [sparkdantic]: Skipping, unable to determine old version
+[2023-07-29 07:09:53] INFO root fetch - processPackages [sparkdantic]: Start processing: hyfi
+[2023-07-29 07:09:53] INFO root fetch - main [MainThread]: End processing [sparkdantic] error
+[2023-07-29 07:09:53] INFO root fetch - processPackages [t265]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-29 07:09:53] INFO root fetch - processPackages [htscf]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-29 07:09:53] INFO root fetch - processPackages [antropy]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-29 07:09:54] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230729] Old Version: [23.8.0a230728]
+[2023-07-29 07:09:54] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230729] Old Version: [0.1.1.dev20230728]
+[2023-07-29 07:09:54] INFO root fetch - processPackages [newline]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-29 07:09:54] INFO root fetch - processPackages [hyfi]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-07-29 07:09:54] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230729] Old Version: [23.8.0a230728]
+[2023-07-29 07:09:54] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/09/76/06ab56f57926875c24a749cec431b238b7b2140c6a9385650fa5cc847d46/dask-cuda-23.8.0a230728.tar.gz
+[2023-07-29 07:09:54] INFO root fetch - processPackages [speech-intelligibility-index]: Downloading https://files.pythonhosted.org/packages/d7/b2/53f4341252fb1ffd18231ebb805eebe46f736f2a96551f183a1332f29b36/speech_intelligibility_index-1.0.1.tar.gz
+[2023-07-29 07:09:54] INFO root fetch - processPackages [t265]: Downloading https://files.pythonhosted.org/packages/78/d8/b53d21c15261e29cec44bbd6ea6f8b5646ea90561c7d0f2d51713b46069d/t265-0.1.4.tar.gz
+[2023-07-29 07:09:54] INFO root fetch - processPackages [htscf]: Downloading https://files.pythonhosted.org/packages/c8/e9/433ebd24b2457e1ffcd9a6f543cd43dd34bcf7322cf71c2fe114c40ff539/htscf-0.0.8.tar.gz
+[2023-07-29 07:09:54] INFO root fetch - processPackages [videoslides]: Downloading https://files.pythonhosted.org/packages/59/e5/76dc8f3066ef52a95bb37120ba5b475832009506a42dd35d8ace4f669dd0/videoslides-0.0.9.tar.gz
+[2023-07-29 07:09:54] INFO root fetch - processPackages [newline]: Downloading https://files.pythonhosted.org/packages/de/36/868a0846bf75b0644702cb485308d58097504b8025aab797ef836e4719e9/newline-0.0.1.tar.gz
+[2023-07-29 07:09:54] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/0c/d5/2fbe9416a9203508f74c38267bf24cf38ed818a052d4711ab45e5c44cb06/hyfi-1.9.3.tar.gz
+[2023-07-29 07:09:54] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/09/76/06ab56f57926875c24a749cec431b238b7b2140c6a9385650fa5cc847d46/dask-cuda-23.8.0a230728.tar.gz
+[2023-07-29 07:09:54] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/8d/d3/2e0388d97dfd7dd4f833c0cbd78077a5620c94456a644eb0f2479ef2f365/rapid_pe-0.1.1.dev20230728.tar.gz
+[2023-07-29 07:09:54] INFO root fetch - processPackages [antropy]: Downloading https://files.pythonhosted.org/packages/37/ec/3cdc494dfcc7c2a379c4387be02549b50d58121befd9cce77cd0e396349d/antropy-0.1.5.tar.gz
+[2023-07-29 07:09:54] INFO root fetch - processPackages [htscf]: Downloading https://files.pythonhosted.org/packages/7f/35/bbaf42ecce41b0a1aaec9012e9c22f97ede668deb3ddeeef6fb0e250f1fb/htscf-0.0.9.tar.gz
+[2023-07-29 07:09:54] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/21/f3/1315c118196ed3cf2a57965be0a8b47f3f64edf8636e985dee37eaa2cb11/dask-cuda-23.8.0a230729.tar.gz
+[2023-07-29 07:09:54] INFO root fetch - processPackages [newline]: Downloading https://files.pythonhosted.org/packages/37/2f/8b27bcc7e62379739afb36bfbe3eee8412814a14c8b8ab71f4033c7f445f/newline-0.0.2.tar.gz
+[2023-07-29 07:09:54] INFO root fetch - processPackages [speech-intelligibility-index]: Downloading https://files.pythonhosted.org/packages/7a/0f/789109305cd53c9c36544b5ee8ca3328350877373c50f2736a1e4089891a/speech_intelligibility_index-1.0.2.tar.gz
+[2023-07-29 07:09:54] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/21/f3/1315c118196ed3cf2a57965be0a8b47f3f64edf8636e985dee37eaa2cb11/dask-cuda-23.8.0a230729.tar.gz
+[2023-07-29 07:09:54] INFO root fetch - processPackages [t265]: Downloading https://files.pythonhosted.org/packages/73/2c/e060d882916487e193fda3512e8aacf23771b60b5fcd3ed40e7aae70a154/t265-0.1.5.tar.gz
+[2023-07-29 07:09:54] INFO root fetch - processPackages [videoslides]: Downloading https://files.pythonhosted.org/packages/e8/89/5f56e56890dc87ea4e4e41360baeb7a2b0ff0400c63208c3dc85fc05e44e/videoslides-1.0.0.tar.gz
+[2023-07-29 07:09:54] INFO root fetch - processPackages [htscf]: executing diffoscope
+[2023-07-29 07:09:54] INFO root fetch - processPackages [htscf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htscf-0.0.8.tar.gz tmp/htscf-0.0.9.tar.gz --markdown 20230729/h/htscf/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-29 07:09:54] INFO root fetch - processPackages [antropy]: Downloading https://files.pythonhosted.org/packages/61/cc/37f2e95331467c7def6ad9c138603939c3f533c48000ed20bd0794baff4f/antropy-0.1.6.tar.gz
+[2023-07-29 07:09:55] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/2f/e2/024fd591185726de091f0bca9a73624944543bd52f723541d967066ff8c9/hyfi-1.9.4.tar.gz
+[2023-07-29 07:09:55] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/2b/9e/cb02a66418dea42a6aabfaa378af1a7cef11d63fd8bf8deb036f17533952/rapid_pe-0.1.1.dev20230729.tar.gz
+[2023-07-29 07:09:55] INFO root fetch - processPackages [newline]: executing diffoscope
+[2023-07-29 07:09:55] INFO root fetch - processPackages [newline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newline-0.0.1.tar.gz tmp/newline-0.0.2.tar.gz --markdown 20230729/n/newline/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-29 07:09:55] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-07-29 07:09:55] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230728.tar.gz tmp/dask-cuda-23.8.0a230729.tar.gz --markdown 20230729/d/dask-cuda/23.8.0a230728-23.8.0a230729/diff.md --exclude *.pyd
+[2023-07-29 07:09:55] INFO root fetch - processPackages [speech-intelligibility-index]: executing diffoscope
+[2023-07-29 07:09:55] INFO root fetch - processPackages [speech-intelligibility-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speech_intelligibility_index-1.0.1.tar.gz tmp/speech_intelligibility_index-1.0.2.tar.gz --markdown 20230729/s/speech-intelligibility-index/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-29 07:09:55] INFO root fetch - processPackages [videoslides]: executing diffoscope
+[2023-07-29 07:09:55] INFO root fetch - processPackages [videoslides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/videoslides-0.0.9.tar.gz tmp/videoslides-1.0.0.tar.gz --markdown 20230729/v/videoslides/0.0.9-1.0.0/diff.md --exclude *.pyd
+[2023-07-29 07:09:55] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-07-29 07:09:55] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230728.tar.gz tmp/dask-cuda-23.8.0a230729.tar.gz --markdown 20230729/d/dask-cuda/23.8.0a230728-23.8.0a230729/diff.md --exclude *.pyd
+[2023-07-29 07:09:55] INFO root fetch - processPackages [t265]: executing diffoscope
+[2023-07-29 07:09:55] INFO root fetch - processPackages [t265]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t265-0.1.4.tar.gz tmp/t265-0.1.5.tar.gz --markdown 20230729/t/t265/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-29 07:09:55] INFO root fetch - processPackages [antropy]: executing diffoscope
+[2023-07-29 07:09:55] INFO root fetch - processPackages [antropy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antropy-0.1.5.tar.gz tmp/antropy-0.1.6.tar.gz --markdown 20230729/a/antropy/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-29 07:09:55] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-07-29 07:09:55] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-1.9.3.tar.gz tmp/hyfi-1.9.4.tar.gz --markdown 20230729/h/hyfi/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-07-29 07:09:55] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-07-29 07:09:55] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230728.tar.gz tmp/rapid_pe-0.1.1.dev20230729.tar.gz --markdown 20230729/r/rapid-pe/0.1.1.dev20230728-0.1.1.dev20230729/diff.md --exclude *.pyd
+[2023-07-29 07:09:56] INFO root fetch - processPackages [newline]: Remove: archive file [/home/abi/fetcher/tmp/newline-0.0.1.tar.gz]
+[2023-07-29 07:09:56] INFO root fetch - processPackages [newline]: Remove: archive file [/home/abi/fetcher/tmp/newline-0.0.2.tar.gz]
+[2023-07-29 07:09:56] INFO root fetch - main [MainThread]: End processing [newline]: success
+[2023-07-29 07:09:56] INFO root fetch - processPackages [htscf]: Remove: archive file [/home/abi/fetcher/tmp/htscf-0.0.8.tar.gz]
+[2023-07-29 07:09:56] INFO root fetch - processPackages [htscf]: Remove: archive file [/home/abi/fetcher/tmp/htscf-0.0.9.tar.gz]
+[2023-07-29 07:09:56] INFO root fetch - main [MainThread]: End processing [htscf]: success
+[2023-07-29 07:09:56] INFO root fetch - processPackages [speech-intelligibility-index]: Remove: archive file [/home/abi/fetcher/tmp/speech_intelligibility_index-1.0.1.tar.gz]
+[2023-07-29 07:09:56] INFO root fetch - processPackages [speech-intelligibility-index]: Remove: archive file [/home/abi/fetcher/tmp/speech_intelligibility_index-1.0.2.tar.gz]
+[2023-07-29 07:09:56] INFO root fetch - main [MainThread]: End processing [speech-intelligibility-index]: success
+[2023-07-29 07:09:56] INFO root fetch - processPackages [videoslides]: Remove: archive file [/home/abi/fetcher/tmp/videoslides-0.0.9.tar.gz]
+[2023-07-29 07:09:56] INFO root fetch - processPackages [videoslides]: Remove: archive file [/home/abi/fetcher/tmp/videoslides-1.0.0.tar.gz]
+[2023-07-29 07:09:56] INFO root fetch - main [MainThread]: End processing [videoslides]: success
+[2023-07-29 07:09:56] INFO root fetch - processPackages [antropy]: Remove: archive file [/home/abi/fetcher/tmp/antropy-0.1.5.tar.gz]
+[2023-07-29 07:09:56] INFO root fetch - processPackages [antropy]: Remove: archive file [/home/abi/fetcher/tmp/antropy-0.1.6.tar.gz]
+[2023-07-29 07:09:56] INFO root fetch - main [MainThread]: End processing [antropy]: success
+[2023-07-29 07:09:56] INFO root fetch - processPackages [t265]: Remove: archive file [/home/abi/fetcher/tmp/t265-0.1.4.tar.gz]
+[2023-07-29 07:09:56] INFO root fetch - processPackages [t265]: Remove: archive file [/home/abi/fetcher/tmp/t265-0.1.5.tar.gz]
+[2023-07-29 07:09:56] INFO root fetch - main [MainThread]: End processing [t265]: success
+[2023-07-29 07:09:56] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230728.tar.gz]
+[2023-07-29 07:09:56] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230729.tar.gz]
+[2023-07-29 07:09:56] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-07-29 07:09:56] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230728.tar.gz]
+[2023-07-29 07:09:56] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230729.tar.gz]
+[2023-07-29 07:09:57] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-07-29 07:09:57] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-07-29 07:09:57] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.9.3.tar.gz]
+[2023-07-29 07:09:57] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.9.4.tar.gz]
+[2023-07-29 07:09:57] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-07-29 07:09:57] INFO root fetch - main [MainThread]: Store serial: [19085538]
