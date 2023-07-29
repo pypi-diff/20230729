@@ -3136,3 +3136,60 @@
 [2023-07-29 03:07:12] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.51.tar.gz]
 [2023-07-29 03:07:12] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-data-client]: success
 [2023-07-29 03:07:12] INFO root fetch - main [MainThread]: Store serial: [19083259]
+[2023-07-29 03:12:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19083259]
+[2023-07-29 03:12:20] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-29 03:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-hugo-deploy
+[2023-07-29 03:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Geode-Simplex
+[2023-07-29 03:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: irisml-tasks-training
+[2023-07-29 03:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: covalent-cloud
+[2023-07-29 03:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sotai
+[2023-07-29 03:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: michina
+[2023-07-29 03:12:21] INFO root fetch - processPackages [covalent-cloud]: New version: [0.8.0rc0] Old Version: [0.19.1rc0]
+[2023-07-29 03:12:21] INFO root fetch - processPackages [michina]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-29 03:12:21] INFO root fetch - processPackages [sotai]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-29 03:12:21] INFO root fetch - processPackages [irisml-tasks-training]: New version: [0.0.9] Old Version: [0.0.83.dev0]
+[2023-07-29 03:12:21] INFO root fetch - processPackages [Geode-Simplex]: New version: [6.1.2rc1] Old Version: [6.1.2]
+[2023-07-29 03:12:21] INFO root fetch - processPackages [cdk-hugo-deploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-29 03:12:21] INFO root fetch - processPackages [michina]: Downloading https://files.pythonhosted.org/packages/01/03/10440a47cba2ff66fac7da1df19794a92f6bb229bbfeaeb50ca1dd7a5cae/michina-0.2.1.tar.gz
+[2023-07-29 03:12:21] INFO root fetch - processPackages [sotai]: Downloading https://files.pythonhosted.org/packages/40/65/5d3d46bbefeb52648d70567dff10ccf870a844ee58a8c24abfc11f540281/sotai-0.3.1.tar.gz
+[2023-07-29 03:12:21] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/33/a0/02c1c61c08488072b10045f13351cac91a6dc5b3b289a3a38fb162ac9cfa/cdk-hugo-deploy-0.0.98.tar.gz
+[2023-07-29 03:12:21] INFO root fetch - processPackages [covalent-cloud]: Downloading https://files.pythonhosted.org/packages/f6/4b/6963f0f5274a066a6c9c9d935b12d71191aa817d335826b2a0bbdc6b8c67/covalent-cloud-0.19.1rc0.tar.gz
+[2023-07-29 03:12:21] INFO root fetch - processPackages [irisml-tasks-training]: Downloading https://files.pythonhosted.org/packages/67/95/ec8c42d88610ae609f30c4f2736914fd6a475fffec183b8f17537021c886/irisml-tasks-training-0.0.83.dev0.tar.gz
+[2023-07-29 03:12:21] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/10/f5/1fedfb6bde101d04ef6abe08cfde32b4fe7bbe6da6954a7602032a0db281/Geode_Simplex-6.1.2-cp39-cp39-win_amd64.whl
+[2023-07-29 03:12:21] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/69/65/61cf4e2d01ce9f811649f2d5a9b579e9603a4b6257774c90a60bc13109ee/cdk-hugo-deploy-0.0.99.tar.gz
+[2023-07-29 03:12:21] INFO root fetch - processPackages [sotai]: Downloading https://files.pythonhosted.org/packages/1b/63/8174e3b34c9e97e26cbf80e2b4c0b30f95fea17a0f057d84af08bf729de2/sotai-0.3.2.tar.gz
+[2023-07-29 03:12:21] INFO root fetch - processPackages [michina]: Downloading https://files.pythonhosted.org/packages/ac/85/05cde11bcdc4db788c7f9fc67187244c895739f99032750897e6329503d8/michina-0.2.2.tar.gz
+[2023-07-29 03:12:21] INFO root fetch - processPackages [cdk-hugo-deploy]: executing diffoscope
+[2023-07-29 03:12:21] INFO root fetch - processPackages [cdk-hugo-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-hugo-deploy-0.0.98.tar.gz tmp/cdk-hugo-deploy-0.0.99.tar.gz --markdown 20230729/c/cdk-hugo-deploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-29 03:12:21] INFO root fetch - processPackages [michina]: executing diffoscope
+[2023-07-29 03:12:21] INFO root fetch - processPackages [michina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/michina-0.2.1.tar.gz tmp/michina-0.2.2.tar.gz --markdown 20230729/m/michina/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-29 03:12:21] INFO root fetch - processPackages [sotai]: executing diffoscope
+[2023-07-29 03:12:21] INFO root fetch - processPackages [sotai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sotai-0.3.1.tar.gz tmp/sotai-0.3.2.tar.gz --markdown 20230729/s/sotai/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-29 03:12:21] INFO root fetch - processPackages [irisml-tasks-training]: Downloading https://files.pythonhosted.org/packages/03/95/02a31958b7096b95e04d4d97bdb225fccca86651bbe1faf0e72395d98604/irisml-tasks-training-0.0.9.tar.gz
+[2023-07-29 03:12:21] INFO root fetch - processPackages [covalent-cloud]: Downloading https://files.pythonhosted.org/packages/9d/6b/963496992471906d52efe4acd2b398cf33b051d8558409d9ec37a3ee1bcf/covalent-cloud-0.8.0rc0.tar.gz
+[2023-07-29 03:12:21] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/14/d8/50f8c7fd9e60f6ab24dbcc515624c8c117aa0c68c63924a93604bd006633/Geode_Simplex-6.1.2rc1-cp39-cp39-win_amd64.whl
+[2023-07-29 03:12:22] INFO root fetch - processPackages [irisml-tasks-training]: executing diffoscope
+[2023-07-29 03:12:22] INFO root fetch - processPackages [irisml-tasks-training]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irisml-tasks-training-0.0.83.dev0.tar.gz tmp/irisml-tasks-training-0.0.9.tar.gz --markdown 20230729/i/irisml-tasks-training/0.0.83.dev0-0.0.9/diff.md --exclude *.pyd
+[2023-07-29 03:12:22] INFO root fetch - processPackages [covalent-cloud]: executing diffoscope
+[2023-07-29 03:12:22] INFO root fetch - processPackages [covalent-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/covalent-cloud-0.19.1rc0.tar.gz tmp/covalent-cloud-0.8.0rc0.tar.gz --markdown 20230729/c/covalent-cloud/0.19.1rc0-0.8.0rc0/diff.md --exclude *.pyd
+[2023-07-29 03:12:22] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.98.tar.gz]
+[2023-07-29 03:12:22] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.99.tar.gz]
+[2023-07-29 03:12:22] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
+[2023-07-29 03:12:22] INFO root fetch - processPackages [michina]: Remove: archive file [/home/abi/fetcher/tmp/michina-0.2.1.tar.gz]
+[2023-07-29 03:12:22] INFO root fetch - processPackages [michina]: Remove: archive file [/home/abi/fetcher/tmp/michina-0.2.2.tar.gz]
+[2023-07-29 03:12:22] INFO root fetch - main [MainThread]: End processing [michina]: success
+[2023-07-29 03:12:22] INFO root fetch - processPackages [sotai]: Remove: archive file [/home/abi/fetcher/tmp/sotai-0.3.1.tar.gz]
+[2023-07-29 03:12:22] INFO root fetch - processPackages [sotai]: Remove: archive file [/home/abi/fetcher/tmp/sotai-0.3.2.tar.gz]
+[2023-07-29 03:12:22] INFO root fetch - main [MainThread]: End processing [sotai]: success
+[2023-07-29 03:12:22] INFO root fetch - processPackages [Geode-Simplex]: executing diffoscope
+[2023-07-29 03:12:22] INFO root fetch - processPackages [Geode-Simplex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Simplex-6.1.2-cp39-cp39-win_amd64.whl.zip tmp/Geode_Simplex-6.1.2rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230729/G/Geode-Simplex/6.1.2-6.1.2rc1/diff.md --exclude *.pyd
+[2023-07-29 03:12:23] INFO root fetch - processPackages [irisml-tasks-training]: Remove: archive file [/home/abi/fetcher/tmp/irisml-tasks-training-0.0.83.dev0.tar.gz]
+[2023-07-29 03:12:23] INFO root fetch - processPackages [irisml-tasks-training]: Remove: archive file [/home/abi/fetcher/tmp/irisml-tasks-training-0.0.9.tar.gz]
+[2023-07-29 03:12:23] INFO root fetch - main [MainThread]: End processing [irisml-tasks-training]: success
+[2023-07-29 03:12:23] INFO root fetch - processPackages [covalent-cloud]: Remove: archive file [/home/abi/fetcher/tmp/covalent-cloud-0.19.1rc0.tar.gz]
+[2023-07-29 03:12:23] INFO root fetch - processPackages [covalent-cloud]: Remove: archive file [/home/abi/fetcher/tmp/covalent-cloud-0.8.0rc0.tar.gz]
+[2023-07-29 03:12:23] INFO root fetch - main [MainThread]: End processing [covalent-cloud]: success
+[2023-07-29 03:12:39] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.1.2-cp39-cp39-win_amd64.whl.zip]
+[2023-07-29 03:12:39] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.1.2rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-29 03:12:39] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
+[2023-07-29 03:12:39] INFO root fetch - main [MainThread]: Store serial: [19083282]
