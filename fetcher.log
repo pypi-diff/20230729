@@ -1941,3 +1941,110 @@
 [2023-07-29 02:02:57] INFO root fetch - processPackages [lucupy]: Remove: archive file [/home/abi/fetcher/tmp/lucupy-0.1.9.tar.gz]
 [2023-07-29 02:02:57] INFO root fetch - main [MainThread]: End processing [lucupy]: success
 [2023-07-29 02:02:57] INFO root fetch - main [MainThread]: Store serial: [19082763]
+[2023-07-29 02:08:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19082763]
+[2023-07-29 02:08:04] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-29 02:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchdatasets-nightly
+[2023-07-29 02:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lollms
+[2023-07-29 02:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yapx
+[2023-07-29 02:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mct-nightly
+[2023-07-29 02:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: multion
+[2023-07-29 02:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jaxkern-nightly
+[2023-07-29 02:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: easy-deployer
+[2023-07-29 02:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: garrett-streamlit-auth0
+[2023-07-29 02:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: evque
+[2023-07-29 02:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jaxutils-nightly
+[2023-07-29 02:08:05] INFO root fetch - processPackages [yapx]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-29 02:08:05] INFO root fetch - processPackages [multion]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-29 02:08:05] INFO root fetch - processPackages [garrett-streamlit-auth0]: New version: [0.3.dev1690588875] Old Version: [0.3.dev1690586794]
+[2023-07-29 02:08:05] INFO root fetch - processPackages [evque]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-07-29 02:08:05] INFO root fetch - processPackages [easy-deployer]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-29 02:08:05] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230728] Old Version: [0.0.8.dev20230727]
+[2023-07-29 02:08:05] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-07-29 02:08:05] INFO root fetch - processPackages [lollms]: New version: [2.2.0] Old Version: [2.1.9]
+[2023-07-29 02:08:05] INFO root fetch - processPackages [mct-nightly]: New version: [1.9.0.20230728.post401] Old Version: [1.9.0.20230727.post419]
+[2023-07-29 02:08:05] INFO root fetch - processPackages [yapx]: Downloading https://files.pythonhosted.org/packages/75/bd/85bc7f28c4addf64a820ffc04349a8d27b527675876a6cac6b8fff126cca/yapx-0.2.2.tar.gz
+[2023-07-29 02:08:05] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1690588967] Old Version: [1690502578]
+[2023-07-29 02:08:05] INFO root fetch - processPackages [garrett-streamlit-auth0]: Downloading https://files.pythonhosted.org/packages/ff/3d/dda182373726017c5daf830fb15c739299c997b3545320df10fd9b93be8c/garrett-streamlit-auth0-0.3.dev1690586794.tar.gz
+[2023-07-29 02:08:05] INFO root fetch - processPackages [evque]: Downloading https://files.pythonhosted.org/packages/f2/33/36ebef869fdeb42fab519dcd350e6de11482406bacaee0fbc2b209d4d30a/evque-1.0.3.tar.gz
+[2023-07-29 02:08:05] INFO root fetch - processPackages [easy-deployer]: Downloading https://files.pythonhosted.org/packages/a9/35/297fdccc9e27313ff10c31bbce54a45fc6a3f7ecd6edbe721068e546a72b/easy_deployer-0.1.8.tar.gz
+[2023-07-29 02:08:05] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/97/d1/878a207a52d2d4e7c255a4dcab1544538dfb4d752947eb082ca38170d09a/jaxutils-nightly-0.0.8.dev20230727.tar.gz
+[2023-07-29 02:08:05] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-07-29 02:08:05] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/37/3a/49512cd028d576ec581b279553727f0392f034f8a6f8f5e295cc1aee66f7/mct-nightly-1.9.0.20230727.post419.tar.gz
+[2023-07-29 02:08:05] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/6a/83/7745db4a743155e7a857ec418630027696e10e7fb67dfd6805a2496bdb64/lollms-2.1.9.tar.gz
+[2023-07-29 02:08:05] INFO root fetch - processPackages [multion]: Downloading https://files.pythonhosted.org/packages/d6/43/02bc870af4fa102cebd16359306dcad5fa14e8e9c01dc9fb58766ba6d578/multion-0.1.8.tar.gz
+[2023-07-29 02:08:05] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/e5/07/711e8877a803ea0a03fd8581235c3c64ce017a4bb1274af9b6197442a129/torchdatasets-nightly-1690502578.tar.gz
+[2023-07-29 02:08:05] ERROR root fetch - processPackages [evque]: Unable to fetch info: No such project/version 'evque' 1.1.0
+[2023-07-29 02:08:05] INFO root fetch - processPackages [evque]: Start processing: ml-compiler-opt
+[2023-07-29 02:08:05] INFO root fetch - main [MainThread]: End processing [evque] error
+[2023-07-29 02:08:05] INFO root fetch - processPackages [easy-deployer]: Downloading https://files.pythonhosted.org/packages/8c/6a/d217eb2e1b597398470ee5603240d37a40d5c9577f6d2da77bbbb655f3cd/easy_deployer-0.1.9.tar.gz
+[2023-07-29 02:08:05] INFO root fetch - processPackages [yapx]: Downloading https://files.pythonhosted.org/packages/e8/d4/26cf68bb6207f6917c8ea146657e548c24f2162a9a08e05ff63e0bc0dcaf/yapx-0.2.3.tar.gz
+[2023-07-29 02:08:05] INFO root fetch - processPackages [ml-compiler-opt]: New version: [0.0.1.dev202307280006] Old Version: [0.0.1.dev202307270006]
+[2023-07-29 02:08:05] INFO root fetch - processPackages [garrett-streamlit-auth0]: Downloading https://files.pythonhosted.org/packages/29/be/f5d58e87105c5cb56ef27931b9245ff1089585589ee601e7aa9498a7a587/garrett-streamlit-auth0-0.3.dev1690588875.tar.gz
+[2023-07-29 02:08:06] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-07-29 02:08:06] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/02/92/812e567006dbc26e93527726860ffad4c2882608176999f10553ebc046e7/jaxutils-nightly-0.0.8.dev20230728.tar.gz
+[2023-07-29 02:08:06] INFO root fetch - processPackages [easy-deployer]: executing diffoscope
+[2023-07-29 02:08:06] INFO root fetch - processPackages [easy-deployer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_deployer-0.1.8.tar.gz tmp/easy_deployer-0.1.9.tar.gz --markdown 20230729/e/easy-deployer/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-29 02:08:06] INFO root fetch - processPackages [multion]: Downloading https://files.pythonhosted.org/packages/e5/2f/980afa9d6c01bdbb0bd9ff59f522a5ef520b0ad1456d6633ec11136cfc6c/multion-0.1.9.tar.gz
+[2023-07-29 02:08:06] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/4b/7f/8a81b3e557a51147a8c41ce7ddd8047e8f700e6ada81b388cb42ce262cf3/ml-compiler-opt-0.0.1.dev202307270006.tar.gz
+[2023-07-29 02:08:06] INFO root fetch - processPackages [yapx]: executing diffoscope
+[2023-07-29 02:08:06] INFO root fetch - processPackages [yapx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yapx-0.2.2.tar.gz tmp/yapx-0.2.3.tar.gz --markdown 20230729/y/yapx/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-29 02:08:06] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/e1/d7/f2fe125f357f8458f62bb4dddf52d206aaba2011f34ce878af97f3aaaf92/lollms-2.2.0.tar.gz
+[2023-07-29 02:08:06] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/34/e0/8adeb4d9a4abc59a5547ef97be421c683fb1f3532f2472ce2c06a2e4537c/torchdatasets-nightly-1690588967.tar.gz
+[2023-07-29 02:08:06] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/0a/b7/017b4c2c9ac48e49d2755c33de24e4a85a2fc187da4fdc522b6cab45d69e/mct-nightly-1.9.0.20230728.post401.tar.gz
+[2023-07-29 02:08:06] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-07-29 02:08:06] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230727.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230728.tar.gz --markdown 20230729/j/jaxutils-nightly/0.0.8.dev20230727-0.0.8.dev20230728/diff.md --exclude *.pyd
+[2023-07-29 02:08:06] INFO root fetch - processPackages [multion]: executing diffoscope
+[2023-07-29 02:08:06] INFO root fetch - processPackages [multion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multion-0.1.8.tar.gz tmp/multion-0.1.9.tar.gz --markdown 20230729/m/multion/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-29 02:08:06] INFO root fetch - processPackages [garrett-streamlit-auth0]: executing diffoscope
+[2023-07-29 02:08:06] INFO root fetch - processPackages [garrett-streamlit-auth0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garrett-streamlit-auth0-0.3.dev1690586794.tar.gz tmp/garrett-streamlit-auth0-0.3.dev1690588875.tar.gz --markdown 20230729/g/garrett-streamlit-auth0/0.3.dev1690586794-0.3.dev1690588875/diff.md --exclude *.pyd
+[2023-07-29 02:08:06] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/26/34/079da1cf24048d6e6b62e0c7eba10261536278e6ca402de6bfd91fc7e745/ml-compiler-opt-0.0.1.dev202307280006.tar.gz
+[2023-07-29 02:08:06] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-07-29 02:08:06] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1690502578.tar.gz tmp/torchdatasets-nightly-1690588967.tar.gz --markdown 20230729/t/torchdatasets-nightly/1690502578-1690588967/diff.md --exclude *.pyd
+[2023-07-29 02:08:06] INFO root fetch - processPackages [lollms]: executing diffoscope
+[2023-07-29 02:08:06] INFO root fetch - processPackages [lollms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lollms-2.1.9.tar.gz tmp/lollms-2.2.0.tar.gz --markdown 20230729/l/lollms/2.1.9-2.2.0/diff.md --exclude *.pyd
+[2023-07-29 02:08:06] INFO root fetch - processPackages [ml-compiler-opt]: executing diffoscope
+[2023-07-29 02:08:06] INFO root fetch - processPackages [ml-compiler-opt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-compiler-opt-0.0.1.dev202307270006.tar.gz tmp/ml-compiler-opt-0.0.1.dev202307280006.tar.gz --markdown 20230729/m/ml-compiler-opt/0.0.1.dev202307270006-0.0.1.dev202307280006/diff.md --exclude *.pyd
+[2023-07-29 02:08:06] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-07-29 02:08:06] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.9.0.20230727.post419.tar.gz tmp/mct-nightly-1.9.0.20230728.post401.tar.gz --markdown 20230729/m/mct-nightly/1.9.0.20230727.post419-1.9.0.20230728.post401/diff.md --exclude *.pyd
+[2023-07-29 02:08:06] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-07-29 02:08:06] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230729/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-07-29 02:08:07] INFO root fetch - processPackages [easy-deployer]: Remove: archive file [/home/abi/fetcher/tmp/easy_deployer-0.1.8.tar.gz]
+[2023-07-29 02:08:07] INFO root fetch - processPackages [easy-deployer]: Remove: archive file [/home/abi/fetcher/tmp/easy_deployer-0.1.9.tar.gz]
+[2023-07-29 02:08:07] INFO root fetch - processPackages [easy-deployer]: Start processing: torchlayers-nightly
+[2023-07-29 02:08:07] INFO root fetch - main [MainThread]: End processing [easy-deployer]: success
+[2023-07-29 02:08:07] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1690502850] Old Version: [1690416438]
+[2023-07-29 02:08:07] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/73/16/fd2ca80319e30addc5fb4d6191aba65ef2b84c0d9610b07cb7ce012ded26/torchlayers-nightly-1690416438.tar.gz
+[2023-07-29 02:08:07] INFO root fetch - processPackages [multion]: Remove: archive file [/home/abi/fetcher/tmp/multion-0.1.8.tar.gz]
+[2023-07-29 02:08:07] INFO root fetch - processPackages [multion]: Remove: archive file [/home/abi/fetcher/tmp/multion-0.1.9.tar.gz]
+[2023-07-29 02:08:07] INFO root fetch - main [MainThread]: End processing [multion]: success
+[2023-07-29 02:08:07] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230727.tar.gz]
+[2023-07-29 02:08:07] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230728.tar.gz]
+[2023-07-29 02:08:07] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-07-29 02:08:07] INFO root fetch - processPackages [garrett-streamlit-auth0]: Remove: archive file [/home/abi/fetcher/tmp/garrett-streamlit-auth0-0.3.dev1690586794.tar.gz]
+[2023-07-29 02:08:07] INFO root fetch - processPackages [garrett-streamlit-auth0]: Remove: archive file [/home/abi/fetcher/tmp/garrett-streamlit-auth0-0.3.dev1690588875.tar.gz]
+[2023-07-29 02:08:07] INFO root fetch - main [MainThread]: End processing [garrett-streamlit-auth0]: success
+[2023-07-29 02:08:07] INFO root fetch - processPackages [yapx]: Remove: archive file [/home/abi/fetcher/tmp/yapx-0.2.2.tar.gz]
+[2023-07-29 02:08:07] INFO root fetch - processPackages [yapx]: Remove: archive file [/home/abi/fetcher/tmp/yapx-0.2.3.tar.gz]
+[2023-07-29 02:08:07] INFO root fetch - main [MainThread]: End processing [yapx]: success
+[2023-07-29 02:08:07] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/b6/4f/99bccbd54980f0fa9fbb9efac3429d20566cadf7b823913addb505475a7d/torchlayers-nightly-1690502850.tar.gz
+[2023-07-29 02:08:07] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1690502578.tar.gz]
+[2023-07-29 02:08:07] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1690588967.tar.gz]
+[2023-07-29 02:08:07] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-07-29 02:08:08] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-07-29 02:08:08] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1690416438.tar.gz tmp/torchlayers-nightly-1690502850.tar.gz --markdown 20230729/t/torchlayers-nightly/1690416438-1690502850/diff.md --exclude *.pyd
+[2023-07-29 02:08:08] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.1.9.tar.gz]
+[2023-07-29 02:08:08] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.2.0.tar.gz]
+[2023-07-29 02:08:08] INFO root fetch - main [MainThread]: End processing [lollms]: success
+[2023-07-29 02:08:08] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-07-29 02:08:08] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-07-29 02:08:08] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-07-29 02:08:08] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202307270006.tar.gz]
+[2023-07-29 02:08:08] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202307280006.tar.gz]
+[2023-07-29 02:08:08] INFO root fetch - main [MainThread]: End processing [ml-compiler-opt]: success
+[2023-07-29 02:08:08] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1690416438.tar.gz]
+[2023-07-29 02:08:08] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1690502850.tar.gz]
+[2023-07-29 02:08:08] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-07-29 02:08:09] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230727.post419.tar.gz]
+[2023-07-29 02:08:09] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230728.post401.tar.gz]
+[2023-07-29 02:08:09] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-07-29 02:08:09] INFO root fetch - main [MainThread]: Store serial: [19082799]
