@@ -11576,3 +11576,61 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 11:15:19] INFO root fetch - processPackages [ExpoSeq]: Remove: archive file [/home/abi/fetcher/tmp/ExpoSeq-2.0.1.tar.gz]
 [2023-07-29 11:15:19] INFO root fetch - main [MainThread]: End processing [ExpoSeq]: success
 [2023-07-29 11:15:19] INFO root fetch - main [MainThread]: Store serial: [19086577]
+[2023-07-29 11:20:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19086577]
+[2023-07-29 11:20:28] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-29 11:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: freeGPT
+[2023-07-29 11:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spanishconjugator
+[2023-07-29 11:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spanishconjugator
+[2023-07-29 11:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mypy-boto3-dynamodb
+[2023-07-29 11:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyordstat
+[2023-07-29 11:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tbp-nightly
+[2023-07-29 11:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dash-intersection-observer
+[2023-07-29 11:20:28] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-29 11:20:28] INFO root fetch - processPackages [freeGPT]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-07-29 11:20:28] INFO root fetch - processPackages [mypy-boto3-dynamodb]: New version: [1.28.15] Old Version: [1.28.12]
+[2023-07-29 11:20:28] INFO root fetch - processPackages [dash-intersection-observer]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-29 11:20:28] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-07-29 11:20:28] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-29 11:20:28] WARNING root fetch - processPackages [pyordstat]: Skipping, unable to determine old version
+[2023-07-29 11:20:28] INFO root fetch - main [MainThread]: End processing [pyordstat] error
+[2023-07-29 11:20:28] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-29 11:20:28] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-29 11:20:28] INFO root fetch - processPackages [dash-intersection-observer]: Downloading https://files.pythonhosted.org/packages/c8/2e/f8168e1bfb947cbbe32a85184dd9b28f766a828df152b40d7dd6ade293ea/dash_intersection_observer-1.0.0.tar.gz
+[2023-07-29 11:20:28] INFO root fetch - processPackages [freeGPT]: Downloading https://files.pythonhosted.org/packages/cc/bc/17850af4bf12cf2d8910a4be7a4193e7397d44659917ef40b95e05795c96/freeGPT-1.2.5.tar.gz
+[2023-07-29 11:20:28] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2023-07-29 11:20:28] INFO root fetch - processPackages [mypy-boto3-dynamodb]: Downloading https://files.pythonhosted.org/packages/d0/eb/eef16c32b2d0e2afb817a7906e34607229afdd47317fa9ff0a9c1394caf3/mypy-boto3-dynamodb-1.28.12.tar.gz
+[2023-07-29 11:20:29] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-29 11:20:29] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-29 11:20:29] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-29 11:20:29] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230729/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-29 11:20:29] INFO root fetch - processPackages [freeGPT]: Downloading https://files.pythonhosted.org/packages/e1/89/052fdb6891f034bf5e851b00dd32c21dfab465bd4deea7edd18781e605b3/freeGPT-1.2.6.tar.gz
+[2023-07-29 11:20:29] INFO root fetch - processPackages [mypy-boto3-dynamodb]: Downloading https://files.pythonhosted.org/packages/59/f5/4defc41dcb086309a911e92bb31076460446370c5b6b737de0ee1592c48b/mypy-boto3-dynamodb-1.28.15.tar.gz
+[2023-07-29 11:20:29] INFO root fetch - processPackages [dash-intersection-observer]: Downloading https://files.pythonhosted.org/packages/22/e8/40022cc6ccadeee2b3dc4813603f555be716ffc7ad85b5148067933a93bc/dash_intersection_observer-1.0.1.tar.gz
+[2023-07-29 11:20:29] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-29 11:20:29] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230729/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-29 11:20:29] INFO root fetch - processPackages [freeGPT]: executing diffoscope
+[2023-07-29 11:20:29] INFO root fetch - processPackages [freeGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freeGPT-1.2.5.tar.gz tmp/freeGPT-1.2.6.tar.gz --markdown 20230729/f/freeGPT/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-07-29 11:20:29] INFO root fetch - processPackages [dash-intersection-observer]: executing diffoscope
+[2023-07-29 11:20:29] INFO root fetch - processPackages [dash-intersection-observer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_intersection_observer-1.0.0.tar.gz tmp/dash_intersection_observer-1.0.1.tar.gz --markdown 20230729/d/dash-intersection-observer/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-29 11:20:29] INFO root fetch - processPackages [mypy-boto3-dynamodb]: executing diffoscope
+[2023-07-29 11:20:29] INFO root fetch - processPackages [mypy-boto3-dynamodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-dynamodb-1.28.12.tar.gz tmp/mypy-boto3-dynamodb-1.28.15.tar.gz --markdown 20230729/m/mypy-boto3-dynamodb/1.28.12-1.28.15/diff.md --exclude *.pyd
+[2023-07-29 11:20:30] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2023-07-29 11:20:30] INFO root fetch - processPackages [freeGPT]: Remove: archive file [/home/abi/fetcher/tmp/freeGPT-1.2.5.tar.gz]
+[2023-07-29 11:20:30] INFO root fetch - processPackages [freeGPT]: Remove: archive file [/home/abi/fetcher/tmp/freeGPT-1.2.6.tar.gz]
+[2023-07-29 11:20:30] INFO root fetch - main [MainThread]: End processing [freeGPT]: success
+[2023-07-29 11:20:30] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-29 11:20:30] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-29 11:20:30] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-29 11:20:30] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-29 11:20:30] INFO root fetch - processPackages [mypy-boto3-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-dynamodb-1.28.12.tar.gz]
+[2023-07-29 11:20:30] INFO root fetch - processPackages [mypy-boto3-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-dynamodb-1.28.15.tar.gz]
+[2023-07-29 11:20:30] INFO root fetch - main [MainThread]: End processing [mypy-boto3-dynamodb]: success
+[2023-07-29 11:20:30] INFO root fetch - processPackages [dash-intersection-observer]: Remove: archive file [/home/abi/fetcher/tmp/dash_intersection_observer-1.0.0.tar.gz]
+[2023-07-29 11:20:30] INFO root fetch - processPackages [dash-intersection-observer]: Remove: archive file [/home/abi/fetcher/tmp/dash_intersection_observer-1.0.1.tar.gz]
+[2023-07-29 11:20:30] INFO root fetch - main [MainThread]: End processing [dash-intersection-observer]: success
+[2023-07-29 11:20:30] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-07-29 11:20:30] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230729/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-07-29 11:20:33] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2023-07-29 11:20:33] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2023-07-29 11:20:33] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-07-29 11:20:33] INFO root fetch - main [MainThread]: Store serial: [19086611]
