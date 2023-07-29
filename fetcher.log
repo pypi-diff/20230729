@@ -15714,3 +15714,57 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 13:00:52] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.9.tar.gz]
 [2023-07-29 13:00:52] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-07-29 13:00:52] INFO root fetch - main [MainThread]: Store serial: [19088063]
+[2023-07-29 13:05:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19088063]
+[2023-07-29 13:06:01] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-29 13:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ixBrowser
+[2023-07-29 13:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: promptengine-catapult
+[2023-07-29 13:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crypto-screening
+[2023-07-29 13:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modnet
+[2023-07-29 13:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: radioplayer-dataclasses
+[2023-07-29 13:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dicergirl
+[2023-07-29 13:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sqlite-s3-query
+[2023-07-29 13:06:01] INFO root fetch - processPackages [promptengine-catapult]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-29 13:06:01] INFO root fetch - processPackages [modnet]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-29 13:06:01] INFO root fetch - processPackages [crypto-screening]: New version: [8.2.8] Old Version: [8.2.7]
+[2023-07-29 13:06:01] WARNING root fetch - processPackages [ixBrowser]: Skipping, unable to determine old version
+[2023-07-29 13:06:01] INFO root fetch - main [MainThread]: End processing [ixBrowser] error
+[2023-07-29 13:06:01] WARNING root fetch - processPackages [dicergirl]: Skipping, unable to determine old version
+[2023-07-29 13:06:01] INFO root fetch - main [MainThread]: End processing [dicergirl] error
+[2023-07-29 13:06:01] INFO root fetch - processPackages [promptengine-catapult]: Downloading https://files.pythonhosted.org/packages/64/c3/89d2505ca69daba8a2722d0e10650b34735279671d3e7717b1c7aa7cb1bc/promptengine_catapult-0.1.4.tar.gz
+[2023-07-29 13:06:01] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/ce/d5/21b5cef149cf33c84636b8554ff1a2644ed73a231f2465268d2c61f9c3be/crypto-screening-8.2.7.tar.gz
+[2023-07-29 13:06:01] INFO root fetch - processPackages [radioplayer-dataclasses]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-29 13:06:02] INFO root fetch - processPackages [sqlite-s3-query]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-29 13:06:02] INFO root fetch - processPackages [modnet]: Downloading https://files.pythonhosted.org/packages/c6/91/2a971ad639577955bb9bfd983772879f1ca354afe7ba9a6fd80f29dd49e7/modnet-0.4.0.tar.gz
+[2023-07-29 13:06:02] INFO root fetch - processPackages [radioplayer-dataclasses]: Downloading https://files.pythonhosted.org/packages/c8/1a/c70ddae55b6dd1655434b84d0ffa3a8f0ca8e3b0e91d134e0f4b48330181/radioplayer_dataclasses-0.5.0.tar.gz
+[2023-07-29 13:06:02] INFO root fetch - processPackages [promptengine-catapult]: Downloading https://files.pythonhosted.org/packages/bb/ec/73dd94a289e01a18d3c02a25b21764da3c909b6396d4d582d0c1d7975240/promptengine_catapult-0.1.5.tar.gz
+[2023-07-29 13:06:02] INFO root fetch - processPackages [sqlite-s3-query]: Downloading https://files.pythonhosted.org/packages/aa/14/cad65f475efbb501da73f4a422278f6291e61b2dc4a91b5c0577228a4c5a/sqlite-s3-query-0.0.8.tar.gz
+[2023-07-29 13:06:02] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/bf/16/3a9166c0db516bf7ba84c1795a26385efd55890a6cf7c91d004267bd6417/crypto-screening-8.2.8.tar.gz
+[2023-07-29 13:06:02] INFO root fetch - processPackages [promptengine-catapult]: executing diffoscope
+[2023-07-29 13:06:02] INFO root fetch - processPackages [promptengine-catapult]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptengine_catapult-0.1.4.tar.gz tmp/promptengine_catapult-0.1.5.tar.gz --markdown 20230729/p/promptengine-catapult/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-29 13:06:02] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-29 13:06:02] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-8.2.7.tar.gz tmp/crypto-screening-8.2.8.tar.gz --markdown 20230729/c/crypto-screening/8.2.7-8.2.8/diff.md --exclude *.pyd
+[2023-07-29 13:06:02] INFO root fetch - processPackages [radioplayer-dataclasses]: Downloading https://files.pythonhosted.org/packages/27/58/88d8b54643e8e42c58a21c74675fd20683592d175b84af55034ef99d0d75/radioplayer_dataclasses-0.5.1.tar.gz
+[2023-07-29 13:06:02] INFO root fetch - processPackages [radioplayer-dataclasses]: executing diffoscope
+[2023-07-29 13:06:02] INFO root fetch - processPackages [radioplayer-dataclasses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radioplayer_dataclasses-0.5.0.tar.gz tmp/radioplayer_dataclasses-0.5.1.tar.gz --markdown 20230729/r/radioplayer-dataclasses/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-29 13:06:02] INFO root fetch - processPackages [sqlite-s3-query]: Downloading https://files.pythonhosted.org/packages/28/75/45c3be470104aea69f0c07c35cf53defdeef76b225be89725529ef679328/sqlite-s3-query-0.0.9.tar.gz
+[2023-07-29 13:06:03] INFO root fetch - processPackages [promptengine-catapult]: Remove: archive file [/home/abi/fetcher/tmp/promptengine_catapult-0.1.4.tar.gz]
+[2023-07-29 13:06:03] INFO root fetch - processPackages [promptengine-catapult]: Remove: archive file [/home/abi/fetcher/tmp/promptengine_catapult-0.1.5.tar.gz]
+[2023-07-29 13:06:03] INFO root fetch - main [MainThread]: End processing [promptengine-catapult]: success
+[2023-07-29 13:06:03] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-8.2.7.tar.gz]
+[2023-07-29 13:06:03] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-8.2.8.tar.gz]
+[2023-07-29 13:06:03] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-29 13:06:03] INFO root fetch - processPackages [modnet]: Downloading https://files.pythonhosted.org/packages/8c/92/0955bfb8f6fc281ef55e58fb30b298d7e8dd4d9e1add07bf8ae9cca8561d/modnet-0.4.1.tar.gz
+[2023-07-29 13:06:03] INFO root fetch - processPackages [sqlite-s3-query]: executing diffoscope
+[2023-07-29 13:06:03] INFO root fetch - processPackages [sqlite-s3-query]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite-s3-query-0.0.8.tar.gz tmp/sqlite-s3-query-0.0.9.tar.gz --markdown 20230729/s/sqlite-s3-query/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-29 13:06:03] INFO root fetch - processPackages [radioplayer-dataclasses]: Remove: archive file [/home/abi/fetcher/tmp/radioplayer_dataclasses-0.5.0.tar.gz]
+[2023-07-29 13:06:03] INFO root fetch - processPackages [radioplayer-dataclasses]: Remove: archive file [/home/abi/fetcher/tmp/radioplayer_dataclasses-0.5.1.tar.gz]
+[2023-07-29 13:06:03] INFO root fetch - main [MainThread]: End processing [radioplayer-dataclasses]: success
+[2023-07-29 13:06:03] INFO root fetch - processPackages [modnet]: executing diffoscope
+[2023-07-29 13:06:03] INFO root fetch - processPackages [modnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modnet-0.4.0.tar.gz tmp/modnet-0.4.1.tar.gz --markdown 20230729/m/modnet/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-29 13:06:04] INFO root fetch - processPackages [sqlite-s3-query]: Remove: archive file [/home/abi/fetcher/tmp/sqlite-s3-query-0.0.8.tar.gz]
+[2023-07-29 13:06:04] INFO root fetch - processPackages [sqlite-s3-query]: Remove: archive file [/home/abi/fetcher/tmp/sqlite-s3-query-0.0.9.tar.gz]
+[2023-07-29 13:06:04] INFO root fetch - main [MainThread]: End processing [sqlite-s3-query]: success
+[2023-07-29 13:06:05] INFO root fetch - processPackages [modnet]: Remove: archive file [/home/abi/fetcher/tmp/modnet-0.4.0.tar.gz]
+[2023-07-29 13:06:05] INFO root fetch - processPackages [modnet]: Remove: archive file [/home/abi/fetcher/tmp/modnet-0.4.1.tar.gz]
+[2023-07-29 13:06:05] INFO root fetch - main [MainThread]: End processing [modnet]: success
+[2023-07-29 13:06:05] INFO root fetch - main [MainThread]: Store serial: [19088079]
