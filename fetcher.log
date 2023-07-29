@@ -7665,3 +7665,42 @@
 [2023-07-29 05:20:27] INFO root fetch - processPackages [odoo8-addon-mass-mailing-partner]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_mass_mailing_partner-8.0.2.1.0.99.dev9-py2-none-any.whl.zip]
 [2023-07-29 05:20:27] INFO root fetch - main [MainThread]: End processing [odoo8-addon-mass-mailing-partner]: success
 [2023-07-29 05:20:27] INFO root fetch - main [MainThread]: Store serial: [19085018]
+[2023-07-29 05:25:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19085018]
+[2023-07-29 05:25:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-29 05:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: red_utils
+[2023-07-29 05:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: logg3r
+[2023-07-29 05:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addons-oca-delivery-carrier
+[2023-07-29 05:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: konfuzio-sdk
+[2023-07-29 05:25:35] INFO root fetch - processPackages [logg3r]: New version: [2.0] Old Version: [1.0]
+[2023-07-29 05:25:35] INFO root fetch - processPackages [red_utils]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-29 05:25:35] INFO root fetch - processPackages [odoo14-addons-oca-delivery-carrier]: New version: [14.0.20230728.0] Old Version: [14.0.20230425.0]
+[2023-07-29 05:25:35] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.2.9.dev20230104175944] Old Version: [0.2.9.dev20221227125623]
+[2023-07-29 05:25:35] INFO root fetch - processPackages [red_utils]: Downloading https://files.pythonhosted.org/packages/71/23/454d0daefbdeab3489a68945eda764f0ee0c03988f63a5578ecf6a6be9f7/red_utils-0.1.7.tar.gz
+[2023-07-29 05:25:36] INFO root fetch - processPackages [logg3r]: Downloading https://files.pythonhosted.org/packages/a1/15/e70b7eb9fc224221a1eb6a2acab27504237618e85aa1bb51921430d7b333/logg3r-1.0.tar.gz
+[2023-07-29 05:25:36] INFO root fetch - processPackages [odoo14-addons-oca-delivery-carrier]: Downloading https://files.pythonhosted.org/packages/cd/f3/7cbb596dda92a6d5414c97e090399f4c7c13889f5fb38aa966fc2aa3f482/odoo14_addons_oca_delivery_carrier-14.0.20230425.0-py3-none-any.whl
+[2023-07-29 05:25:36] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/ac/dc/9465335e6231c486f3c6bdbe6b292085b01976718bb1af6f33d8d890281a/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz
+[2023-07-29 05:25:36] INFO root fetch - processPackages [odoo14-addons-oca-delivery-carrier]: Downloading https://files.pythonhosted.org/packages/f5/a8/24b51741c22739ccedea6a5f5a7f7eb1317ec7cde5aff7eb2853b3ce590b/odoo14_addons_oca_delivery_carrier-14.0.20230728.0-py3-none-any.whl
+[2023-07-29 05:25:36] INFO root fetch - processPackages [logg3r]: Downloading https://files.pythonhosted.org/packages/9b/83/28d9cac88a465fe2337ec857f44a4259c98b34b64a18e72cdf5cb3539484/logg3r-2.0.tar.gz
+[2023-07-29 05:25:36] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/4a/3b/875a5d1cf74ec597eceaf7095d68ea13e58abb9f095fff321dc0709029f0/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz
+[2023-07-29 05:25:36] INFO root fetch - processPackages [odoo14-addons-oca-delivery-carrier]: executing diffoscope
+[2023-07-29 05:25:36] INFO root fetch - processPackages [odoo14-addons-oca-delivery-carrier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_delivery_carrier-14.0.20230425.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_delivery_carrier-14.0.20230728.0-py3-none-any.whl.zip --markdown 20230729/o/odoo14-addons-oca-delivery-carrier/14.0.20230425.0-14.0.20230728.0/diff.md --exclude *.pyd
+[2023-07-29 05:25:36] INFO root fetch - processPackages [logg3r]: executing diffoscope
+[2023-07-29 05:25:36] INFO root fetch - processPackages [logg3r]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logg3r-1.0.tar.gz tmp/logg3r-2.0.tar.gz --markdown 20230729/l/logg3r/1.0-2.0/diff.md --exclude *.pyd
+[2023-07-29 05:25:36] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2023-07-29 05:25:36] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz --markdown 20230729/k/konfuzio-sdk/0.2.9.dev20221227125623-0.2.9.dev20230104175944/diff.md --exclude *.pyd
+[2023-07-29 05:25:36] INFO root fetch - processPackages [red_utils]: Downloading https://files.pythonhosted.org/packages/db/50/0f8365e42c9e379605196075f02241e65e4f5e0d80a46726a47ac5393d09/red_utils-0.1.8.tar.gz
+[2023-07-29 05:25:36] INFO root fetch - processPackages [red_utils]: executing diffoscope
+[2023-07-29 05:25:36] INFO root fetch - processPackages [red_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/red_utils-0.1.7.tar.gz tmp/red_utils-0.1.8.tar.gz --markdown 20230729/r/red_utils/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-29 05:25:37] INFO root fetch - processPackages [logg3r]: Remove: archive file [/home/abi/fetcher/tmp/logg3r-1.0.tar.gz]
+[2023-07-29 05:25:37] INFO root fetch - processPackages [logg3r]: Remove: archive file [/home/abi/fetcher/tmp/logg3r-2.0.tar.gz]
+[2023-07-29 05:25:37] INFO root fetch - main [MainThread]: End processing [logg3r]: success
+[2023-07-29 05:25:37] INFO root fetch - processPackages [odoo14-addons-oca-delivery-carrier]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_delivery_carrier-14.0.20230425.0-py3-none-any.whl.zip]
+[2023-07-29 05:25:37] INFO root fetch - processPackages [odoo14-addons-oca-delivery-carrier]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_delivery_carrier-14.0.20230728.0-py3-none-any.whl.zip]
+[2023-07-29 05:25:37] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-delivery-carrier]: success
+[2023-07-29 05:25:37] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz]
+[2023-07-29 05:25:37] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz]
+[2023-07-29 05:25:37] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2023-07-29 05:25:39] INFO root fetch - processPackages [red_utils]: Remove: archive file [/home/abi/fetcher/tmp/red_utils-0.1.7.tar.gz]
+[2023-07-29 05:25:39] INFO root fetch - processPackages [red_utils]: Remove: archive file [/home/abi/fetcher/tmp/red_utils-0.1.8.tar.gz]
+[2023-07-29 05:25:39] INFO root fetch - main [MainThread]: End processing [red_utils]: success
+[2023-07-29 05:25:39] INFO root fetch - main [MainThread]: Store serial: [19085029]
