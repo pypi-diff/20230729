@@ -18431,3 +18431,108 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 16:09:43] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.3.post0.dev2.tar.gz]
 [2023-07-29 16:09:43] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
 [2023-07-29 16:09:43] INFO root fetch - main [MainThread]: Store serial: [19089254]
+[2023-07-29 16:14:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19089254]
+[2023-07-29 16:14:52] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-29 16:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ldimbenchmark
+[2023-07-29 16:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xiaobaisaf
+[2023-07-29 16:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ankigengpt
+[2023-07-29 16:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: feltpy
+[2023-07-29 16:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cerebrium
+[2023-07-29 16:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: equilibrator-cache
+[2023-07-29 16:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: MAZAlib
+[2023-07-29 16:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bgstools
+[2023-07-29 16:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jsno
+[2023-07-29 16:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-errors
+[2023-07-29 16:14:52] INFO root fetch - processPackages [equilibrator-cache]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-07-29 16:14:52] INFO root fetch - processPackages [ankigengpt]: New version: [1.1.6] Old Version: [0.1.0]
+[2023-07-29 16:14:53] INFO root fetch - processPackages [cerebrium]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-07-29 16:14:53] WARNING root fetch - processPackages [feltpy]: Skipping, unable to determine old version
+[2023-07-29 16:14:53] INFO root fetch - processPackages [feltpy]: Start processing: taxoniumtools
+[2023-07-29 16:14:53] INFO root fetch - main [MainThread]: End processing [feltpy] error
+[2023-07-29 16:14:53] INFO root fetch - processPackages [xiaobaisaf]: New version: [2.3.7] Old Version: [2.3.5]
+[2023-07-29 16:14:53] INFO root fetch - processPackages [MAZAlib]: New version: [0.0.8] Old Version: [0.0.6]
+[2023-07-29 16:14:53] INFO root fetch - processPackages [django-errors]: New version: [2.1.0] Old Version: [1.6.8]
+[2023-07-29 16:14:53] INFO root fetch - processPackages [bgstools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-29 16:14:53] INFO root fetch - processPackages [jsno]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-29 16:14:53] INFO root fetch - processPackages [ldimbenchmark]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-29 16:14:53] INFO root fetch - processPackages [MAZAlib]: Downloading https://files.pythonhosted.org/packages/42/a2/352c70aedf09257f84bfaec4c2ff07086e540de2d6e6f7fe2dc4dc0fe029/MAZAlib-0.0.6.tar.gz
+[2023-07-29 16:14:53] INFO root fetch - processPackages [taxoniumtools]: New version: [2.0.91] Old Version: [2.0.90]
+[2023-07-29 16:14:53] INFO root fetch - processPackages [cerebrium]: Downloading https://files.pythonhosted.org/packages/70/ad/ef5fd57c2b0e935aaf7ac5718e6321bfaebb651aa6122cd8aed06702acee/cerebrium-1.3.0.tar.gz
+[2023-07-29 16:14:53] INFO root fetch - processPackages [django-errors]: Downloading https://files.pythonhosted.org/packages/b0/97/ec69fed89cefb351eb78d419f76fb5284995ca72a4d4557cdb4bd8431cee/django-errors-1.6.8.tar.gz
+[2023-07-29 16:14:53] INFO root fetch - processPackages [ankigengpt]: Downloading https://files.pythonhosted.org/packages/d4/61/2f4cb2e9de2c3f1d960c3b84e9e8622b2c2a3d212ffd8fa66935412e6097/ankigengpt-0.1.0-py3-none-any.whl
+[2023-07-29 16:14:53] INFO root fetch - processPackages [equilibrator-cache]: Downloading https://files.pythonhosted.org/packages/12/0d/82bb2b47d1df76f2d089cbc2d9b884cd96ac0e6bbe5e9ae5cbcfb885984a/equilibrator-cache-0.4.5.tar.gz
+[2023-07-29 16:14:53] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/a3/d9/0f2b579fbbb29225abec7da824c3d2177fa751c84913339da89e8d0b4f89/bgstools-0.1.8.tar.gz
+[2023-07-29 16:14:53] INFO root fetch - processPackages [xiaobaisaf]: Downloading https://files.pythonhosted.org/packages/2b/9d/45aba52c7d261a020091f235836630bed2e26b4a69624126a27041d217b2/xiaobaisaf-2.3.5.tar.gz
+[2023-07-29 16:14:53] INFO root fetch - processPackages [jsno]: Downloading https://files.pythonhosted.org/packages/ee/bc/e752ae4d0980415d96e367842d5e1f23d7c16661db47fca2ce18bf23c205/jsno-1.0.1.tar.gz
+[2023-07-29 16:14:53] INFO root fetch - processPackages [taxoniumtools]: Downloading https://files.pythonhosted.org/packages/a6/fb/f176ebc61ca187ea7fc446368c62ce5e9863c233473f2eb2c5d40794fd63/taxoniumtools-2.0.90.tar.gz
+[2023-07-29 16:14:53] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/40/ad/2f487f62a551984a54e0a4dc768ff692f22874530d9695d257d30b206c65/ldimbenchmark-0.2.8.tar.gz
+[2023-07-29 16:14:53] INFO root fetch - processPackages [MAZAlib]: Downloading https://files.pythonhosted.org/packages/50/f4/08487d2e9ffaf4c2459a82bdb215d7a1e77e96862254778678316ddb1a94/MAZAlib-0.0.8.tar.gz
+[2023-07-29 16:14:53] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/0a/3c/638191cc7a3a6135dbf58e2857b29d83bacba72ac3e579510aae9606e202/bgstools-0.1.9.tar.gz
+[2023-07-29 16:14:53] INFO root fetch - processPackages [cerebrium]: Downloading https://files.pythonhosted.org/packages/4f/d3/39ff489e03ecbad5b55cc2a11d98520808ed52e0918f61a58505dec5c834/cerebrium-1.3.1.tar.gz
+[2023-07-29 16:14:53] INFO root fetch - processPackages [django-errors]: Downloading https://files.pythonhosted.org/packages/ae/f0/2fc05d627c6e295c01f9138de2206f66baa4282e21ee1f971e8c1d7887c0/django-errors-2.1.0.tar.gz
+[2023-07-29 16:14:53] INFO root fetch - processPackages [ankigengpt]: Downloading https://files.pythonhosted.org/packages/e0/90/3b4f96d44430174a6e7f16915f7d53b1ed4caf4aed457e2084851ae11847/ankigengpt-1.1.6-py3-none-any.whl
+[2023-07-29 16:14:53] INFO root fetch - processPackages [equilibrator-cache]: Downloading https://files.pythonhosted.org/packages/19/27/b2a25165af23bf01c67172b7b91dfb618966b5eae855fd770fc8d864e90a/equilibrator-cache-0.4.6.tar.gz
+[2023-07-29 16:14:53] INFO root fetch - processPackages [bgstools]: executing diffoscope
+[2023-07-29 16:14:53] INFO root fetch - processPackages [bgstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgstools-0.1.8.tar.gz tmp/bgstools-0.1.9.tar.gz --markdown 20230729/b/bgstools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-29 16:14:54] INFO root fetch - processPackages [MAZAlib]: executing diffoscope
+[2023-07-29 16:14:54] INFO root fetch - processPackages [MAZAlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MAZAlib-0.0.6.tar.gz tmp/MAZAlib-0.0.8.tar.gz --markdown 20230729/M/MAZAlib/0.0.6-0.0.8/diff.md --exclude *.pyd
+[2023-07-29 16:14:54] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/1c/0e/d7ff04c87c7e7e468653d7cd9cbde0ab35f48885a880c1e2229267475009/ldimbenchmark-0.2.9.tar.gz
+[2023-07-29 16:14:54] INFO root fetch - processPackages [xiaobaisaf]: Downloading https://files.pythonhosted.org/packages/4c/73/902837b07956851a92ffb91342be39203395043f8fe5279a921a497e556f/xiaobaisaf-2.3.7.tar.gz
+[2023-07-29 16:14:54] INFO root fetch - processPackages [taxoniumtools]: Downloading https://files.pythonhosted.org/packages/31/c1/937969429e3f0e64650088958cff4f9f8436974a1490f7c3ffa9e1962711/taxoniumtools-2.0.91.tar.gz
+[2023-07-29 16:14:54] INFO root fetch - processPackages [cerebrium]: executing diffoscope
+[2023-07-29 16:14:54] INFO root fetch - processPackages [cerebrium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerebrium-1.3.0.tar.gz tmp/cerebrium-1.3.1.tar.gz --markdown 20230729/c/cerebrium/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-07-29 16:14:54] INFO root fetch - processPackages [ankigengpt]: executing diffoscope
+[2023-07-29 16:14:54] INFO root fetch - processPackages [ankigengpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ankigengpt-0.1.0-py3-none-any.whl.zip tmp/ankigengpt-1.1.6-py3-none-any.whl.zip --markdown 20230729/a/ankigengpt/0.1.0-1.1.6/diff.md --exclude *.pyd
+[2023-07-29 16:14:54] INFO root fetch - processPackages [django-errors]: executing diffoscope
+[2023-07-29 16:14:54] INFO root fetch - processPackages [django-errors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-errors-1.6.8.tar.gz tmp/django-errors-2.1.0.tar.gz --markdown 20230729/d/django-errors/1.6.8-2.1.0/diff.md --exclude *.pyd
+[2023-07-29 16:14:54] INFO root fetch - processPackages [jsno]: Downloading https://files.pythonhosted.org/packages/59/31/b9e6e3da295808e76773fb288f71e7f5ba5e2944346748f6056b869901a2/jsno-1.0.2.tar.gz
+[2023-07-29 16:14:54] INFO root fetch - processPackages [equilibrator-cache]: executing diffoscope
+[2023-07-29 16:14:54] INFO root fetch - processPackages [equilibrator-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/equilibrator-cache-0.4.5.tar.gz tmp/equilibrator-cache-0.4.6.tar.gz --markdown 20230729/e/equilibrator-cache/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-07-29 16:14:54] INFO root fetch - processPackages [xiaobaisaf]: executing diffoscope
+[2023-07-29 16:14:54] INFO root fetch - processPackages [xiaobaisaf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaobaisaf-2.3.5.tar.gz tmp/xiaobaisaf-2.3.7.tar.gz --markdown 20230729/x/xiaobaisaf/2.3.5-2.3.7/diff.md --exclude *.pyd
+[2023-07-29 16:14:54] INFO root fetch - processPackages [ldimbenchmark]: executing diffoscope
+[2023-07-29 16:14:54] INFO root fetch - processPackages [ldimbenchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldimbenchmark-0.2.8.tar.gz tmp/ldimbenchmark-0.2.9.tar.gz --markdown 20230729/l/ldimbenchmark/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-29 16:14:54] INFO root fetch - processPackages [taxoniumtools]: executing diffoscope
+[2023-07-29 16:14:54] INFO root fetch - processPackages [taxoniumtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taxoniumtools-2.0.90.tar.gz tmp/taxoniumtools-2.0.91.tar.gz --markdown 20230729/t/taxoniumtools/2.0.90-2.0.91/diff.md --exclude *.pyd
+[2023-07-29 16:14:54] INFO root fetch - processPackages [jsno]: executing diffoscope
+[2023-07-29 16:14:54] INFO root fetch - processPackages [jsno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsno-1.0.1.tar.gz tmp/jsno-1.0.2.tar.gz --markdown 20230729/j/jsno/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-29 16:14:55] INFO root fetch - processPackages [bgstools]: Remove: archive file [/home/abi/fetcher/tmp/bgstools-0.1.8.tar.gz]
+[2023-07-29 16:14:55] INFO root fetch - processPackages [bgstools]: Remove: archive file [/home/abi/fetcher/tmp/bgstools-0.1.9.tar.gz]
+[2023-07-29 16:14:55] INFO root fetch - processPackages [bgstools]: Start processing: lit
+[2023-07-29 16:14:55] INFO root fetch - main [MainThread]: End processing [bgstools]: success
+[2023-07-29 16:14:55] INFO root fetch - processPackages [MAZAlib]: Remove: archive file [/home/abi/fetcher/tmp/MAZAlib-0.0.6.tar.gz]
+[2023-07-29 16:14:55] INFO root fetch - processPackages [MAZAlib]: Remove: archive file [/home/abi/fetcher/tmp/MAZAlib-0.0.8.tar.gz]
+[2023-07-29 16:14:55] INFO root fetch - main [MainThread]: End processing [MAZAlib]: success
+[2023-07-29 16:14:55] INFO root fetch - processPackages [lit]: New version: [17.0.0rc1] Old Version: [16.0.6]
+[2023-07-29 16:14:55] INFO root fetch - processPackages [ankigengpt]: Remove: archive file [/home/abi/fetcher/tmp/ankigengpt-0.1.0-py3-none-any.whl.zip]
+[2023-07-29 16:14:55] INFO root fetch - processPackages [ankigengpt]: Remove: archive file [/home/abi/fetcher/tmp/ankigengpt-1.1.6-py3-none-any.whl.zip]
+[2023-07-29 16:14:55] INFO root fetch - main [MainThread]: End processing [ankigengpt]: success
+[2023-07-29 16:14:55] INFO root fetch - processPackages [cerebrium]: Remove: archive file [/home/abi/fetcher/tmp/cerebrium-1.3.0.tar.gz]
+[2023-07-29 16:14:55] INFO root fetch - processPackages [cerebrium]: Remove: archive file [/home/abi/fetcher/tmp/cerebrium-1.3.1.tar.gz]
+[2023-07-29 16:14:55] INFO root fetch - main [MainThread]: End processing [cerebrium]: success
+[2023-07-29 16:14:55] INFO root fetch - processPackages [lit]: Downloading https://files.pythonhosted.org/packages/bf/fa/0b75c53253ebf3ab566be702a9da16f5783862d8c1ae404c907a8830f283/lit-16.0.6.tar.gz
+[2023-07-29 16:14:55] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.8.tar.gz]
+[2023-07-29 16:14:55] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.9.tar.gz]
+[2023-07-29 16:14:55] INFO root fetch - main [MainThread]: End processing [ldimbenchmark]: success
+[2023-07-29 16:14:55] INFO root fetch - processPackages [equilibrator-cache]: Remove: archive file [/home/abi/fetcher/tmp/equilibrator-cache-0.4.5.tar.gz]
+[2023-07-29 16:14:55] INFO root fetch - processPackages [equilibrator-cache]: Remove: archive file [/home/abi/fetcher/tmp/equilibrator-cache-0.4.6.tar.gz]
+[2023-07-29 16:14:55] INFO root fetch - main [MainThread]: End processing [equilibrator-cache]: success
+[2023-07-29 16:14:56] INFO root fetch - processPackages [jsno]: Remove: archive file [/home/abi/fetcher/tmp/jsno-1.0.1.tar.gz]
+[2023-07-29 16:14:56] INFO root fetch - processPackages [django-errors]: Remove: archive file [/home/abi/fetcher/tmp/django-errors-1.6.8.tar.gz]
+[2023-07-29 16:14:56] INFO root fetch - processPackages [jsno]: Remove: archive file [/home/abi/fetcher/tmp/jsno-1.0.2.tar.gz]
+[2023-07-29 16:14:56] INFO root fetch - processPackages [django-errors]: Remove: archive file [/home/abi/fetcher/tmp/django-errors-2.1.0.tar.gz]
+[2023-07-29 16:14:56] INFO root fetch - main [MainThread]: End processing [jsno]: success
+[2023-07-29 16:14:56] INFO root fetch - main [MainThread]: End processing [django-errors]: success
+[2023-07-29 16:14:56] INFO root fetch - processPackages [xiaobaisaf]: Remove: archive file [/home/abi/fetcher/tmp/xiaobaisaf-2.3.5.tar.gz]
+[2023-07-29 16:14:56] INFO root fetch - processPackages [xiaobaisaf]: Remove: archive file [/home/abi/fetcher/tmp/xiaobaisaf-2.3.7.tar.gz]
+[2023-07-29 16:14:56] INFO root fetch - main [MainThread]: End processing [xiaobaisaf]: success
+[2023-07-29 16:14:56] INFO root fetch - processPackages [taxoniumtools]: Remove: archive file [/home/abi/fetcher/tmp/taxoniumtools-2.0.90.tar.gz]
+[2023-07-29 16:14:56] INFO root fetch - processPackages [taxoniumtools]: Remove: archive file [/home/abi/fetcher/tmp/taxoniumtools-2.0.91.tar.gz]
+[2023-07-29 16:14:56] INFO root fetch - main [MainThread]: End processing [taxoniumtools]: success
+[2023-07-29 16:14:56] INFO root fetch - processPackages [lit]: Downloading https://files.pythonhosted.org/packages/9c/93/e8ee29f8248e2ed84bfe007b567a22bde714f3d07842a79ff087ec7d8f47/lit-17.0.0rc1.tar.gz
+[2023-07-29 16:14:56] INFO root fetch - processPackages [lit]: executing diffoscope
+[2023-07-29 16:14:56] INFO root fetch - processPackages [lit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lit-16.0.6.tar.gz tmp/lit-17.0.0rc1.tar.gz --markdown 20230729/l/lit/16.0.6-17.0.0rc1/diff.md --exclude *.pyd
+[2023-07-29 16:14:58] INFO root fetch - processPackages [lit]: Remove: archive file [/home/abi/fetcher/tmp/lit-16.0.6.tar.gz]
+[2023-07-29 16:14:58] INFO root fetch - processPackages [lit]: Remove: archive file [/home/abi/fetcher/tmp/lit-17.0.0rc1.tar.gz]
+[2023-07-29 16:14:58] INFO root fetch - main [MainThread]: End processing [lit]: success
+[2023-07-29 16:14:58] INFO root fetch - main [MainThread]: Store serial: [19089293]
