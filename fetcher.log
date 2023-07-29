@@ -16965,3 +16965,84 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 14:29:23] INFO root fetch - processPackages [wwpdb.apps.releasemodule]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.apps.releasemodule-0.29.dev1.tar.gz]
 [2023-07-29 14:29:23] INFO root fetch - main [MainThread]: End processing [wwpdb.apps.releasemodule]: success
 [2023-07-29 14:29:23] INFO root fetch - main [MainThread]: Store serial: [19088633]
+[2023-07-29 14:34:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19088633]
+[2023-07-29 14:34:32] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-29 14:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vsure
+[2023-07-29 14:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swiftly-sys
+[2023-07-29 14:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wwpdb.apps.editormodule
+[2023-07-29 14:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airflow-code-editor
+[2023-07-29 14:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rescan
+[2023-07-29 14:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MAZAlib
+[2023-07-29 14:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wwpdb.apps.chem-ref-data
+[2023-07-29 14:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: areixlib
+[2023-07-29 14:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tritondse
+[2023-07-29 14:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: promptify
+[2023-07-29 14:34:32] INFO root fetch - processPackages [rescan]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-29 14:34:32] INFO root fetch - processPackages [vsure]: New version: [2.6.4] Old Version: [2.6.3]
+[2023-07-29 14:34:32] WARNING root fetch - processPackages [MAZAlib]: Skipping, unable to determine old version
+[2023-07-29 14:34:32] INFO root fetch - main [MainThread]: End processing [MAZAlib] error
+[2023-07-29 14:34:32] INFO root fetch - processPackages [wwpdb.apps.chem-ref-data]: New version: [0.21] Old Version: [0.20.dev1]
+[2023-07-29 14:34:32] INFO root fetch - processPackages [tritondse]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-29 14:34:32] INFO root fetch - processPackages [areixlib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-29 14:34:32] INFO root fetch - processPackages [wwpdb.apps.editormodule]: New version: [0.17.2] Old Version: [0.17.1]
+[2023-07-29 14:34:32] WARNING root fetch - processPackages [swiftly-sys]: Skipping, unable to determine old version
+[2023-07-29 14:34:32] INFO root fetch - main [MainThread]: End processing [swiftly-sys] error
+[2023-07-29 14:34:32] INFO root fetch - processPackages [airflow-code-editor]: New version: [7.4.0] Old Version: [7.3.0]
+[2023-07-29 14:34:32] INFO root fetch - processPackages [promptify]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-29 14:34:32] INFO root fetch - processPackages [rescan]: Downloading https://files.pythonhosted.org/packages/e7/55/f0515db63a72c266bdeab3c2253914ee2f5a3244587789cfd2f803023472/rescan-1.0.0.tar.gz
+[2023-07-29 14:34:32] INFO root fetch - processPackages [vsure]: Downloading https://files.pythonhosted.org/packages/90/42/a020fdcfc45f47f42b752567be362a4df7d17236edef9b4a9d174501b839/vsure-2.6.3.tar.gz
+[2023-07-29 14:34:32] INFO root fetch - processPackages [wwpdb.apps.editormodule]: Downloading https://files.pythonhosted.org/packages/d5/fb/2f218a8818f8dc2a6023ba9c590734ed4cf5db6d638197c3e413654e9f5c/wwpdb.apps.editormodule-0.17.1.tar.gz
+[2023-07-29 14:34:32] INFO root fetch - processPackages [wwpdb.apps.chem-ref-data]: Downloading https://files.pythonhosted.org/packages/1f/c8/79e4f93741aec76ec755c4da356c5c0b98ed8f089a1bc1d976c625f31661/wwpdb.apps.chem_ref_data-0.20.dev1.tar.gz
+[2023-07-29 14:34:32] INFO root fetch - processPackages [airflow-code-editor]: Downloading https://files.pythonhosted.org/packages/2c/ff/df7b3e6c51cfbd69aba9f97f9ad2caa97ebcf0fd5bb3bc6c1f01c76ed481/airflow_code_editor-7.3.0.tar.gz
+[2023-07-29 14:34:32] INFO root fetch - processPackages [tritondse]: Downloading https://files.pythonhosted.org/packages/81/7c/1c2bb2eff8ed34d487f58622911fced33dba562aaf1e321464085cb3100e/tritondse-0.1.6.tar.gz
+[2023-07-29 14:34:32] INFO root fetch - processPackages [areixlib]: Downloading https://files.pythonhosted.org/packages/2f/5e/82622925325cc40694a164901608e142eed6fe99d83a8e99327bd5a0ac16/areixlib-0.1.8.tar.gz
+[2023-07-29 14:34:32] INFO root fetch - processPackages [promptify]: Downloading https://files.pythonhosted.org/packages/e4/94/0ea137d2f4c4b5fcac645d81f66d1adc6746d50d4646b7dd5ef39e9b6bb1/promptify-0.1.4.tar.gz
+[2023-07-29 14:34:32] INFO root fetch - processPackages [rescan]: Downloading https://files.pythonhosted.org/packages/6a/86/85bbb061eb7027407dabc24e22a145d38a17e4e8ca2d698079a1f1eab06e/rescan-1.0.1.tar.gz
+[2023-07-29 14:34:32] INFO root fetch - processPackages [vsure]: Downloading https://files.pythonhosted.org/packages/a7/ab/aeb805add7e55e6b1c1f4585cd0b7c5d2b48a1ac2a41573225b6084e0733/vsure-2.6.4.tar.gz
+[2023-07-29 14:34:33] INFO root fetch - processPackages [wwpdb.apps.editormodule]: Downloading https://files.pythonhosted.org/packages/30/94/24ce072b4764c772b5a75950da4ee8a6c18298897e7a1eb8cae47e258a6e/wwpdb.apps.editormodule-0.17.2.tar.gz
+[2023-07-29 14:34:33] INFO root fetch - processPackages [tritondse]: Downloading https://files.pythonhosted.org/packages/d9/eb/3cdd447e1a6b1f494e605647ce0e68aa83ce3c219f5469b4cf64db109aff/tritondse-0.1.7.tar.gz
+[2023-07-29 14:34:33] INFO root fetch - processPackages [rescan]: executing diffoscope
+[2023-07-29 14:34:33] INFO root fetch - processPackages [rescan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rescan-1.0.0.tar.gz tmp/rescan-1.0.1.tar.gz --markdown 20230729/r/rescan/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-29 14:34:33] INFO root fetch - processPackages [vsure]: executing diffoscope
+[2023-07-29 14:34:33] INFO root fetch - processPackages [vsure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vsure-2.6.3.tar.gz tmp/vsure-2.6.4.tar.gz --markdown 20230729/v/vsure/2.6.3-2.6.4/diff.md --exclude *.pyd
+[2023-07-29 14:34:33] INFO root fetch - processPackages [areixlib]: Downloading https://files.pythonhosted.org/packages/0e/30/827f03b0c15db63f31ae32ac76732b2adeffa605ca1625390c1b47464679/areixlib-0.1.9.tar.gz
+[2023-07-29 14:34:33] INFO root fetch - processPackages [wwpdb.apps.chem-ref-data]: Downloading https://files.pythonhosted.org/packages/dd/eb/b0e1a60681270574ce1d1c4c83ed55bd2f0daee993c01c07258515fc5b43/wwpdb.apps.chem_ref_data-0.21.tar.gz
+[2023-07-29 14:34:33] INFO root fetch - processPackages [promptify]: Downloading https://files.pythonhosted.org/packages/e1/30/d70a2b0d9d797749c9e34300e9e2dce6ad6037a143bbe1055b65df4e7bb4/promptify-0.1.5.tar.gz
+[2023-07-29 14:34:33] INFO root fetch - processPackages [wwpdb.apps.editormodule]: executing diffoscope
+[2023-07-29 14:34:33] INFO root fetch - processPackages [wwpdb.apps.editormodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwpdb.apps.editormodule-0.17.1.tar.gz tmp/wwpdb.apps.editormodule-0.17.2.tar.gz --markdown 20230729/w/wwpdb.apps.editormodule/0.17.1-0.17.2/diff.md --exclude *.pyd
+[2023-07-29 14:34:33] INFO root fetch - processPackages [airflow-code-editor]: Downloading https://files.pythonhosted.org/packages/9d/e2/d3760d2b2428c554de1ed2948e4b2ec4ab3552f5007e84a092f43f520863/airflow_code_editor-7.4.0.tar.gz
+[2023-07-29 14:34:33] INFO root fetch - processPackages [wwpdb.apps.chem-ref-data]: executing diffoscope
+[2023-07-29 14:34:33] INFO root fetch - processPackages [wwpdb.apps.chem-ref-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwpdb.apps.chem_ref_data-0.20.dev1.tar.gz tmp/wwpdb.apps.chem_ref_data-0.21.tar.gz --markdown 20230729/w/wwpdb.apps.chem-ref-data/0.20.dev1-0.21/diff.md --exclude *.pyd
+[2023-07-29 14:34:33] INFO root fetch - processPackages [tritondse]: executing diffoscope
+[2023-07-29 14:34:33] INFO root fetch - processPackages [tritondse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tritondse-0.1.6.tar.gz tmp/tritondse-0.1.7.tar.gz --markdown 20230729/t/tritondse/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-29 14:34:33] INFO root fetch - processPackages [promptify]: executing diffoscope
+[2023-07-29 14:34:33] INFO root fetch - processPackages [promptify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptify-0.1.4.tar.gz tmp/promptify-0.1.5.tar.gz --markdown 20230729/p/promptify/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-29 14:34:33] INFO root fetch - processPackages [airflow-code-editor]: executing diffoscope
+[2023-07-29 14:34:33] INFO root fetch - processPackages [airflow-code-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow_code_editor-7.3.0.tar.gz tmp/airflow_code_editor-7.4.0.tar.gz --markdown 20230729/a/airflow-code-editor/7.3.0-7.4.0/diff.md --exclude *.pyd
+[2023-07-29 14:34:33] INFO root fetch - processPackages [areixlib]: executing diffoscope
+[2023-07-29 14:34:33] INFO root fetch - processPackages [areixlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/areixlib-0.1.8.tar.gz tmp/areixlib-0.1.9.tar.gz --markdown 20230729/a/areixlib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-29 14:34:34] INFO root fetch - processPackages [rescan]: Remove: archive file [/home/abi/fetcher/tmp/rescan-1.0.0.tar.gz]
+[2023-07-29 14:34:34] INFO root fetch - processPackages [rescan]: Remove: archive file [/home/abi/fetcher/tmp/rescan-1.0.1.tar.gz]
+[2023-07-29 14:34:34] INFO root fetch - main [MainThread]: End processing [rescan]: success
+[2023-07-29 14:34:34] INFO root fetch - processPackages [vsure]: Remove: archive file [/home/abi/fetcher/tmp/vsure-2.6.3.tar.gz]
+[2023-07-29 14:34:34] INFO root fetch - processPackages [vsure]: Remove: archive file [/home/abi/fetcher/tmp/vsure-2.6.4.tar.gz]
+[2023-07-29 14:34:34] INFO root fetch - main [MainThread]: End processing [vsure]: success
+[2023-07-29 14:34:34] INFO root fetch - processPackages [wwpdb.apps.editormodule]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.apps.editormodule-0.17.1.tar.gz]
+[2023-07-29 14:34:34] INFO root fetch - processPackages [wwpdb.apps.editormodule]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.apps.editormodule-0.17.2.tar.gz]
+[2023-07-29 14:34:34] INFO root fetch - main [MainThread]: End processing [wwpdb.apps.editormodule]: success
+[2023-07-29 14:34:34] INFO root fetch - processPackages [tritondse]: Remove: archive file [/home/abi/fetcher/tmp/tritondse-0.1.6.tar.gz]
+[2023-07-29 14:34:34] INFO root fetch - processPackages [tritondse]: Remove: archive file [/home/abi/fetcher/tmp/tritondse-0.1.7.tar.gz]
+[2023-07-29 14:34:34] INFO root fetch - main [MainThread]: End processing [tritondse]: success
+[2023-07-29 14:34:34] INFO root fetch - processPackages [wwpdb.apps.chem-ref-data]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.apps.chem_ref_data-0.20.dev1.tar.gz]
+[2023-07-29 14:34:34] INFO root fetch - processPackages [wwpdb.apps.chem-ref-data]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.apps.chem_ref_data-0.21.tar.gz]
+[2023-07-29 14:34:34] INFO root fetch - main [MainThread]: End processing [wwpdb.apps.chem-ref-data]: success
+[2023-07-29 14:34:34] INFO root fetch - processPackages [promptify]: Remove: archive file [/home/abi/fetcher/tmp/promptify-0.1.4.tar.gz]
+[2023-07-29 14:34:34] INFO root fetch - processPackages [promptify]: Remove: archive file [/home/abi/fetcher/tmp/promptify-0.1.5.tar.gz]
+[2023-07-29 14:34:34] INFO root fetch - main [MainThread]: End processing [promptify]: success
+[2023-07-29 14:34:35] INFO root fetch - processPackages [areixlib]: Remove: archive file [/home/abi/fetcher/tmp/areixlib-0.1.8.tar.gz]
+[2023-07-29 14:34:35] INFO root fetch - processPackages [areixlib]: Remove: archive file [/home/abi/fetcher/tmp/areixlib-0.1.9.tar.gz]
+[2023-07-29 14:34:35] INFO root fetch - main [MainThread]: End processing [areixlib]: success
+[2023-07-29 14:34:44] INFO root fetch - processPackages [airflow-code-editor]: Remove: archive file [/home/abi/fetcher/tmp/airflow_code_editor-7.3.0.tar.gz]
+[2023-07-29 14:34:44] INFO root fetch - processPackages [airflow-code-editor]: Remove: archive file [/home/abi/fetcher/tmp/airflow_code_editor-7.4.0.tar.gz]
+[2023-07-29 14:34:44] INFO root fetch - main [MainThread]: End processing [airflow-code-editor]: success
+[2023-07-29 14:34:44] INFO root fetch - main [MainThread]: Store serial: [19088661]
