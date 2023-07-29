@@ -9118,3 +9118,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 07:26:25] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.0.0a5.tar.gz]
 [2023-07-29 07:26:25] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
 [2023-07-29 07:26:25] INFO root fetch - main [MainThread]: Store serial: [19085591]
+[2023-07-29 07:31:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19085591]
+[2023-07-29 07:31:34] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-29 07:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: newline
+[2023-07-29 07:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: markdownparser
+[2023-07-29 07:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hojichar
+[2023-07-29 07:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mia-accounting
+[2023-07-29 07:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crazy-thursday
+[2023-07-29 07:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbcpu
+[2023-07-29 07:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cy-account
+[2023-07-29 07:31:34] INFO root fetch - processPackages [hojichar]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-29 07:31:34] INFO root fetch - processPackages [newline]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-29 07:31:34] INFO root fetch - processPackages [cy-account]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-29 07:31:34] INFO root fetch - processPackages [nbcpu]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-29 07:31:34] INFO root fetch - processPackages [mia-accounting]: New version: [1.5.7] Old Version: [1.5.6]
+[2023-07-29 07:31:34] INFO root fetch - processPackages [markdownparser]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-07-29 07:31:34] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.7.9.1] Old Version: [2023.7.9.0]
+[2023-07-29 07:31:34] INFO root fetch - processPackages [nbcpu]: Downloading https://files.pythonhosted.org/packages/fa/50/08b3e00b7f4092ed5c6debc672d43479b7807cfbc512198063fca513ba2e/nbcpu-0.3.0.tar.gz
+[2023-07-29 07:31:34] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/6a/c9/15f9add630932cf1d361c73bada17a4fe2e962fe6ae5ac9e61297aedec22/crazy-thursday-2023.7.9.0.tar.gz
+[2023-07-29 07:31:34] INFO root fetch - processPackages [newline]: Downloading https://files.pythonhosted.org/packages/e2/b4/46aebcfbf2224f1860946573b094b786d5d33df8f507076535c702d51d62/newline-0.0.7.tar.gz
+[2023-07-29 07:31:35] INFO root fetch - processPackages [hojichar]: Downloading https://files.pythonhosted.org/packages/41/5e/cdfcf1820f46c9b9faf0fd6f5390daed420d3fbc70c19b25147e650f7b88/hojichar-0.7.0.tar.gz
+[2023-07-29 07:31:35] INFO root fetch - processPackages [cy-account]: Downloading https://files.pythonhosted.org/packages/9e/06/f1a56e36597bcfaaa056521022156d2552a15a3616e30c6c2ceeef44c3c7/cy_account-0.1.8.tar.gz
+[2023-07-29 07:31:35] INFO root fetch - processPackages [mia-accounting]: Downloading https://files.pythonhosted.org/packages/d7/91/cdd4c582a143cc258ba85e678f5f4bf35e63838ae6e03b3fecd150758f02/mia-accounting-1.5.6.tar.gz
+[2023-07-29 07:31:35] INFO root fetch - processPackages [markdownparser]: Downloading https://files.pythonhosted.org/packages/f1/f4/f4e6eb4f780d9e97ec37f7d210e803ea1ffb759db8633b7b557514f4c350/markdownparser-0.5.3.tar.gz
+[2023-07-29 07:31:35] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/8d/ea/65adb6d9f2ff058a84add9a25d8423ef870914ed904a071fcd26e8e9ba74/crazy-thursday-2023.7.9.1.tar.gz
+[2023-07-29 07:31:35] INFO root fetch - processPackages [nbcpu]: Downloading https://files.pythonhosted.org/packages/6a/e2/fd789e31c608a219bcd52653ec32253aeb4f2ace0f329c3ed8a7b9f195f7/nbcpu-0.4.0.tar.gz
+[2023-07-29 07:31:35] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-07-29 07:31:35] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.7.9.0.tar.gz tmp/crazy-thursday-2023.7.9.1.tar.gz --markdown 20230729/c/crazy-thursday/2023.7.9.0-2023.7.9.1/diff.md --exclude *.pyd
+[2023-07-29 07:31:35] INFO root fetch - processPackages [newline]: Downloading https://files.pythonhosted.org/packages/c5/95/0a9bb35bc960cf93829e3d4bac5c67465dc3ac069452d14d7d740b3af9c3/newline-0.0.8.tar.gz
+[2023-07-29 07:31:35] INFO root fetch - processPackages [nbcpu]: executing diffoscope
+[2023-07-29 07:31:35] INFO root fetch - processPackages [nbcpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbcpu-0.3.0.tar.gz tmp/nbcpu-0.4.0.tar.gz --markdown 20230729/n/nbcpu/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-29 07:31:35] INFO root fetch - processPackages [hojichar]: Downloading https://files.pythonhosted.org/packages/73/8f/6198c5751335a8ca67071c491ff1fa7f869e71f5c11899afb48cdf564cce/hojichar-0.7.1.tar.gz
+[2023-07-29 07:31:35] INFO root fetch - processPackages [newline]: executing diffoscope
+[2023-07-29 07:31:35] INFO root fetch - processPackages [newline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newline-0.0.7.tar.gz tmp/newline-0.0.8.tar.gz --markdown 20230729/n/newline/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-29 07:31:35] INFO root fetch - processPackages [markdownparser]: Downloading https://files.pythonhosted.org/packages/eb/dd/9d2adaed22cf59150894117752de214a5882d95185c7dc298b8fcf97c6ce/markdownparser-0.5.4.tar.gz
+[2023-07-29 07:31:35] INFO root fetch - processPackages [mia-accounting]: Downloading https://files.pythonhosted.org/packages/a0/c7/ea83015f569610e9845335ea2d4343d718c9c10bd6d725b41cea5f0aa4f8/mia-accounting-1.5.7.tar.gz
+[2023-07-29 07:31:35] INFO root fetch - processPackages [cy-account]: Downloading https://files.pythonhosted.org/packages/c0/4a/0a5e3a784173ca5386a6809f99209db2bf3fd4761e2777ffa239558d46f7/cy_account-0.1.9.tar.gz
+[2023-07-29 07:31:35] INFO root fetch - processPackages [hojichar]: executing diffoscope
+[2023-07-29 07:31:35] INFO root fetch - processPackages [hojichar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hojichar-0.7.0.tar.gz tmp/hojichar-0.7.1.tar.gz --markdown 20230729/h/hojichar/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-29 07:31:35] INFO root fetch - processPackages [cy-account]: executing diffoscope
+[2023-07-29 07:31:35] INFO root fetch - processPackages [cy-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cy_account-0.1.8.tar.gz tmp/cy_account-0.1.9.tar.gz --markdown 20230729/c/cy-account/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-29 07:31:35] INFO root fetch - processPackages [mia-accounting]: executing diffoscope
+[2023-07-29 07:31:35] INFO root fetch - processPackages [mia-accounting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mia-accounting-1.5.6.tar.gz tmp/mia-accounting-1.5.7.tar.gz --markdown 20230729/m/mia-accounting/1.5.6-1.5.7/diff.md --exclude *.pyd
+[2023-07-29 07:31:35] INFO root fetch - processPackages [markdownparser]: executing diffoscope
+[2023-07-29 07:31:35] INFO root fetch - processPackages [markdownparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdownparser-0.5.3.tar.gz tmp/markdownparser-0.5.4.tar.gz --markdown 20230729/m/markdownparser/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-07-29 07:31:36] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.9.0.tar.gz]
+[2023-07-29 07:31:36] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.9.1.tar.gz]
+[2023-07-29 07:31:36] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-07-29 07:31:36] INFO root fetch - processPackages [cy-account]: Remove: archive file [/home/abi/fetcher/tmp/cy_account-0.1.8.tar.gz]
+[2023-07-29 07:31:36] INFO root fetch - processPackages [cy-account]: Remove: archive file [/home/abi/fetcher/tmp/cy_account-0.1.9.tar.gz]
+[2023-07-29 07:31:36] INFO root fetch - main [MainThread]: End processing [cy-account]: success
+[2023-07-29 07:31:36] INFO root fetch - processPackages [newline]: Remove: archive file [/home/abi/fetcher/tmp/newline-0.0.7.tar.gz]
+[2023-07-29 07:31:36] INFO root fetch - processPackages [newline]: Remove: archive file [/home/abi/fetcher/tmp/newline-0.0.8.tar.gz]
+[2023-07-29 07:31:36] INFO root fetch - main [MainThread]: End processing [newline]: success
+[2023-07-29 07:31:36] INFO root fetch - processPackages [nbcpu]: Remove: archive file [/home/abi/fetcher/tmp/nbcpu-0.3.0.tar.gz]
+[2023-07-29 07:31:36] INFO root fetch - processPackages [nbcpu]: Remove: archive file [/home/abi/fetcher/tmp/nbcpu-0.4.0.tar.gz]
+[2023-07-29 07:31:36] INFO root fetch - main [MainThread]: End processing [nbcpu]: success
+[2023-07-29 07:31:36] INFO root fetch - processPackages [hojichar]: Remove: archive file [/home/abi/fetcher/tmp/hojichar-0.7.0.tar.gz]
+[2023-07-29 07:31:36] INFO root fetch - processPackages [hojichar]: Remove: archive file [/home/abi/fetcher/tmp/hojichar-0.7.1.tar.gz]
+[2023-07-29 07:31:36] INFO root fetch - main [MainThread]: End processing [hojichar]: success
+[2023-07-29 07:31:36] INFO root fetch - processPackages [markdownparser]: Remove: archive file [/home/abi/fetcher/tmp/markdownparser-0.5.3.tar.gz]
+[2023-07-29 07:31:36] INFO root fetch - processPackages [markdownparser]: Remove: archive file [/home/abi/fetcher/tmp/markdownparser-0.5.4.tar.gz]
+[2023-07-29 07:31:36] INFO root fetch - main [MainThread]: End processing [markdownparser]: success
+[2023-07-29 07:31:38] INFO root fetch - processPackages [mia-accounting]: Remove: archive file [/home/abi/fetcher/tmp/mia-accounting-1.5.6.tar.gz]
+[2023-07-29 07:31:38] INFO root fetch - processPackages [mia-accounting]: Remove: archive file [/home/abi/fetcher/tmp/mia-accounting-1.5.7.tar.gz]
+[2023-07-29 07:31:38] INFO root fetch - main [MainThread]: End processing [mia-accounting]: success
+[2023-07-29 07:31:38] INFO root fetch - main [MainThread]: Store serial: [19085612]
