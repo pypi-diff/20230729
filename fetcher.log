@@ -7150,3 +7150,33 @@
 [2023-07-29 04:24:37] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230729.tar.gz]
 [2023-07-29 04:24:37] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2023-07-29 04:24:37] INFO root fetch - main [MainThread]: Store serial: [19084728]
+[2023-07-29 04:29:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19084728]
+[2023-07-29 04:29:50] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-29 04:29:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: covalent-cloud
+[2023-07-29 04:29:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: naif-eop-high-prec
+[2023-07-29 04:29:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fovus
+[2023-07-29 04:29:50] INFO root fetch - processPackages [fovus]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-29 04:29:50] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-29 04:29:50] INFO root fetch - processPackages [covalent-cloud]: New version: [0.8.0rc0] Old Version: [0.19.2rc0]
+[2023-07-29 04:29:51] INFO root fetch - processPackages [covalent-cloud]: Downloading https://files.pythonhosted.org/packages/9f/ba/74c7f13899432b754d8fdc9fa3897657bf3f34192aa6221e3ff5d6570139/covalent-cloud-0.19.2rc0.tar.gz
+[2023-07-29 04:29:51] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/09/ed/7488d5d961ce08546f5ee7ced9b28382ede88767e23d898f7a089dbd5065/naif_eop_high_prec-2023.7.8.tar.gz
+[2023-07-29 04:29:51] INFO root fetch - processPackages [fovus]: Downloading https://files.pythonhosted.org/packages/ee/a6/ed77aa0c4e3fbd54c43c7758bcc95f9253663613dd90dedbcabb9d7fb094/fovus-1.0.7-py3-none-any.whl
+[2023-07-29 04:29:51] INFO root fetch - processPackages [covalent-cloud]: Downloading https://files.pythonhosted.org/packages/9d/6b/963496992471906d52efe4acd2b398cf33b051d8558409d9ec37a3ee1bcf/covalent-cloud-0.8.0rc0.tar.gz
+[2023-07-29 04:29:51] INFO root fetch - processPackages [fovus]: Downloading https://files.pythonhosted.org/packages/2d/44/d6510fed9223d09814f7def3cda26b799b83aa2e4e977c2a801670853719/fovus-1.0.8-py3-none-any.whl
+[2023-07-29 04:29:51] INFO root fetch - processPackages [covalent-cloud]: executing diffoscope
+[2023-07-29 04:29:51] INFO root fetch - processPackages [covalent-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/covalent-cloud-0.19.2rc0.tar.gz tmp/covalent-cloud-0.8.0rc0.tar.gz --markdown 20230729/c/covalent-cloud/0.19.2rc0-0.8.0rc0/diff.md --exclude *.pyd
+[2023-07-29 04:29:51] INFO root fetch - processPackages [fovus]: executing diffoscope
+[2023-07-29 04:29:51] INFO root fetch - processPackages [fovus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fovus-1.0.7-py3-none-any.whl.zip tmp/fovus-1.0.8-py3-none-any.whl.zip --markdown 20230729/f/fovus/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-29 04:29:52] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/a2/f8/57853410d5affd1adacbfb12a5d90596ba94081ec97e3ffc215261ba9fea/naif_eop_high_prec-2023.7.9.tar.gz
+[2023-07-29 04:29:52] INFO root fetch - processPackages [covalent-cloud]: Remove: archive file [/home/abi/fetcher/tmp/covalent-cloud-0.19.2rc0.tar.gz]
+[2023-07-29 04:29:52] INFO root fetch - processPackages [covalent-cloud]: Remove: archive file [/home/abi/fetcher/tmp/covalent-cloud-0.8.0rc0.tar.gz]
+[2023-07-29 04:29:52] INFO root fetch - main [MainThread]: End processing [covalent-cloud]: success
+[2023-07-29 04:29:52] INFO root fetch - processPackages [fovus]: Remove: archive file [/home/abi/fetcher/tmp/fovus-1.0.7-py3-none-any.whl.zip]
+[2023-07-29 04:29:52] INFO root fetch - processPackages [fovus]: Remove: archive file [/home/abi/fetcher/tmp/fovus-1.0.8-py3-none-any.whl.zip]
+[2023-07-29 04:29:52] INFO root fetch - main [MainThread]: End processing [fovus]: success
+[2023-07-29 04:29:52] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2023-07-29 04:29:52] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2023.7.8.tar.gz tmp/naif_eop_high_prec-2023.7.9.tar.gz --markdown 20230729/n/naif-eop-high-prec/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-29 04:29:55] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.8.tar.gz]
+[2023-07-29 04:29:55] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.9.tar.gz]
+[2023-07-29 04:29:55] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2023-07-29 04:29:55] INFO root fetch - main [MainThread]: Store serial: [19084744]
