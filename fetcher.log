@@ -11259,3 +11259,90 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 10:49:19] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2023-07-29 10:49:19] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-07-29 10:49:19] INFO root fetch - main [MainThread]: Store serial: [19086470]
+[2023-07-29 10:54:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19086470]
+[2023-07-29 10:54:27] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-29 10:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pgsqlx
+[2023-07-29 10:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pgsqlx-generator
+[2023-07-29 10:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tomodachi-testcontainers
+[2023-07-29 10:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kubernetes-square
+[2023-07-29 10:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hds-stats
+[2023-07-29 10:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PrEditor
+[2023-07-29 10:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pydeum
+[2023-07-29 10:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zerocap-api-new-test
+[2023-07-29 10:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sphractal
+[2023-07-29 10:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: metabase-api-python
+[2023-07-29 10:54:28] INFO root fetch - processPackages [kubernetes-square]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-07-29 10:54:28] INFO root fetch - processPackages [sphractal]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-29 10:54:28] INFO root fetch - processPackages [pgsqlx]: New version: [1.7.0] Old Version: [1.6.9]
+[2023-07-29 10:54:28] INFO root fetch - processPackages [tomodachi-testcontainers]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-29 10:54:28] INFO root fetch - processPackages [pgsqlx-generator]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-07-29 10:54:28] WARNING root fetch - processPackages [metabase-api-python]: Skipping, unable to determine old version
+[2023-07-29 10:54:28] INFO root fetch - main [MainThread]: End processing [metabase-api-python] error
+[2023-07-29 10:54:28] INFO root fetch - processPackages [zerocap-api-new-test]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-29 10:54:28] INFO root fetch - processPackages [pydeum]: New version: [0.0.2] Old Version: [0.0.1a1]
+[2023-07-29 10:54:28] INFO root fetch - processPackages [PrEditor]: New version: [0.1.0rc1] Old Version: [0.0.0.dev1]
+[2023-07-29 10:54:28] INFO root fetch - processPackages [hds-stats]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-07-29 10:54:28] INFO root fetch - processPackages [kubernetes-square]: Downloading https://files.pythonhosted.org/packages/27/10/8c7c32c319bc2666eb72c9cce0484a14b88979df840ee599d9b8d1a5429c/kubernetes_square-1.4.0.tar.gz
+[2023-07-29 10:54:28] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/b1/6d/156256fa9e3fa7de2df2059d47e10f9622e16808846d88bf7a096397ad36/sphractal-0.9.0.tar.gz
+[2023-07-29 10:54:28] INFO root fetch - processPackages [pgsqlx]: Downloading https://files.pythonhosted.org/packages/3a/2e/67e759aebb45274b8eeecfc0733c9623d997e9d13e5b962401b26f452e61/pgsqlx-1.6.9.tar.gz
+[2023-07-29 10:54:28] INFO root fetch - processPackages [pgsqlx-generator]: Downloading https://files.pythonhosted.org/packages/bc/30/dc518f2149a64ba299e6f3e62697837ffc029ec816a015171e285ee1ed2d/pgsqlx-generator-1.7.0.tar.gz
+[2023-07-29 10:54:28] INFO root fetch - processPackages [pydeum]: Downloading https://files.pythonhosted.org/packages/61/07/72afbc8a4f2cef12210615329cd129c7b11982880d0573d2ae752c6a8eed/pydeum-0.0.1a1.tar.gz
+[2023-07-29 10:54:28] INFO root fetch - processPackages [zerocap-api-new-test]: Downloading https://files.pythonhosted.org/packages/91/09/1eb10e00b7efb66f61d0762263b373a820e43936912b1cc2b3350b53d339/zerocap_api_new_test-0.1.1.tar.gz
+[2023-07-29 10:54:28] INFO root fetch - processPackages [hds-stats]: Downloading https://files.pythonhosted.org/packages/5b/73/69d96bba9c5051d6a9e0cd32646fbdf4ac282f9a5f74116a2fa311bfc7db/hds-stats-0.3.4.tar.gz
+[2023-07-29 10:54:28] INFO root fetch - processPackages [tomodachi-testcontainers]: Downloading https://files.pythonhosted.org/packages/c5/ca/8e6fbf5bffeefdfa7973778e4796a59a435d7c4cb87c1defe63f3451315d/tomodachi_testcontainers-0.2.1.tar.gz
+[2023-07-29 10:54:28] INFO root fetch - processPackages [PrEditor]: Downloading https://files.pythonhosted.org/packages/eb/98/723681d8d52c67aa3679807a7f420a7ad09290f69fb6f13a0fb17e25c5fc/PrEditor-0.0.0.dev1-py2.py3-none-any.whl
+[2023-07-29 10:54:28] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/b7/3c/357fa6f2eda84dc8aff5499145b341ad2d8a7162270a504b401c65b633a3/sphractal-0.9.1.tar.gz
+[2023-07-29 10:54:28] INFO root fetch - processPackages [pgsqlx]: Downloading https://files.pythonhosted.org/packages/a3/31/0047775bb27ad46471a694c5525a2126b06552c1440e92bfa6fd4dadc9f5/pgsqlx-1.7.0.tar.gz
+[2023-07-29 10:54:28] INFO root fetch - processPackages [pgsqlx-generator]: Downloading https://files.pythonhosted.org/packages/a9/26/774b84337832e41a27b9885ac4a4a963a5d1a490c204bc07745b13bf801e/pgsqlx-generator-1.7.1.tar.gz
+[2023-07-29 10:54:28] INFO root fetch - processPackages [zerocap-api-new-test]: Downloading https://files.pythonhosted.org/packages/9e/e4/f4f588eab66c913623dd0934bcbb89c8d659df78f53d421cea727ae0692e/zerocap_api_new_test-0.1.2.tar.gz
+[2023-07-29 10:54:28] INFO root fetch - processPackages [kubernetes-square]: Downloading https://files.pythonhosted.org/packages/0d/a5/87f3174fee0c0a3b8ddf9425253865cc6c0dd4746132b26be4ccf64d7f1e/kubernetes_square-1.5.0.tar.gz
+[2023-07-29 10:54:28] INFO root fetch - processPackages [pydeum]: Downloading https://files.pythonhosted.org/packages/0e/22/13748ac365c2967bb83fec508b73686584faea04b27aa1bb3c1f144f59fb/pydeum-0.0.2.tar.gz
+[2023-07-29 10:54:28] INFO root fetch - processPackages [sphractal]: executing diffoscope
+[2023-07-29 10:54:28] INFO root fetch - processPackages [sphractal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphractal-0.9.0.tar.gz tmp/sphractal-0.9.1.tar.gz --markdown 20230729/s/sphractal/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-29 10:54:29] INFO root fetch - processPackages [tomodachi-testcontainers]: Downloading https://files.pythonhosted.org/packages/58/b7/f8ba842f1d1a5318a9edbc8672e81cd98ea0f0ed1d589c5fef15360c9448/tomodachi_testcontainers-0.2.2.tar.gz
+[2023-07-29 10:54:29] INFO root fetch - processPackages [hds-stats]: Downloading https://files.pythonhosted.org/packages/de/f3/a7ca8090fd3fb5bd070cad7f9c8c52ca9895eb23e79886f4bd28bd45c029/hds-stats-0.3.5.tar.gz
+[2023-07-29 10:54:29] INFO root fetch - processPackages [pgsqlx]: executing diffoscope
+[2023-07-29 10:54:29] INFO root fetch - processPackages [pgsqlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgsqlx-1.6.9.tar.gz tmp/pgsqlx-1.7.0.tar.gz --markdown 20230729/p/pgsqlx/1.6.9-1.7.0/diff.md --exclude *.pyd
+[2023-07-29 10:54:29] INFO root fetch - processPackages [zerocap-api-new-test]: executing diffoscope
+[2023-07-29 10:54:29] INFO root fetch - processPackages [zerocap-api-new-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zerocap_api_new_test-0.1.1.tar.gz tmp/zerocap_api_new_test-0.1.2.tar.gz --markdown 20230729/z/zerocap-api-new-test/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-29 10:54:29] INFO root fetch - processPackages [pgsqlx-generator]: executing diffoscope
+[2023-07-29 10:54:29] INFO root fetch - processPackages [pgsqlx-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgsqlx-generator-1.7.0.tar.gz tmp/pgsqlx-generator-1.7.1.tar.gz --markdown 20230729/p/pgsqlx-generator/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-07-29 10:54:29] INFO root fetch - processPackages [pydeum]: executing diffoscope
+[2023-07-29 10:54:29] INFO root fetch - processPackages [pydeum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydeum-0.0.1a1.tar.gz tmp/pydeum-0.0.2.tar.gz --markdown 20230729/p/pydeum/0.0.1a1-0.0.2/diff.md --exclude *.pyd
+[2023-07-29 10:54:29] INFO root fetch - processPackages [PrEditor]: Downloading https://files.pythonhosted.org/packages/9d/82/f879387c8e9f51b48598b5f9206d7c5361a2742806d4fe6b03f7136f17cd/PrEditor-0.1.0rc1-py2.py3-none-any.whl
+[2023-07-29 10:54:29] INFO root fetch - processPackages [kubernetes-square]: executing diffoscope
+[2023-07-29 10:54:29] INFO root fetch - processPackages [kubernetes-square]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubernetes_square-1.4.0.tar.gz tmp/kubernetes_square-1.5.0.tar.gz --markdown 20230729/k/kubernetes-square/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-07-29 10:54:29] INFO root fetch - processPackages [hds-stats]: executing diffoscope
+[2023-07-29 10:54:29] INFO root fetch - processPackages [hds-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hds-stats-0.3.4.tar.gz tmp/hds-stats-0.3.5.tar.gz --markdown 20230729/h/hds-stats/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-29 10:54:29] INFO root fetch - processPackages [tomodachi-testcontainers]: executing diffoscope
+[2023-07-29 10:54:29] INFO root fetch - processPackages [tomodachi-testcontainers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomodachi_testcontainers-0.2.1.tar.gz tmp/tomodachi_testcontainers-0.2.2.tar.gz --markdown 20230729/t/tomodachi-testcontainers/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-29 10:54:29] INFO root fetch - processPackages [PrEditor]: executing diffoscope
+[2023-07-29 10:54:29] INFO root fetch - processPackages [PrEditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PrEditor-0.0.0.dev1-py2.py3-none-any.whl.zip tmp/PrEditor-0.1.0rc1-py2.py3-none-any.whl.zip --markdown 20230729/P/PrEditor/0.0.0.dev1-0.1.0rc1/diff.md --exclude *.pyd
+[2023-07-29 10:54:30] INFO root fetch - processPackages [pgsqlx-generator]: Remove: archive file [/home/abi/fetcher/tmp/pgsqlx-generator-1.7.0.tar.gz]
+[2023-07-29 10:54:30] INFO root fetch - processPackages [pgsqlx-generator]: Remove: archive file [/home/abi/fetcher/tmp/pgsqlx-generator-1.7.1.tar.gz]
+[2023-07-29 10:54:30] INFO root fetch - main [MainThread]: End processing [pgsqlx-generator]: success
+[2023-07-29 10:54:30] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.9.0.tar.gz]
+[2023-07-29 10:54:30] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.9.1.tar.gz]
+[2023-07-29 10:54:30] INFO root fetch - main [MainThread]: End processing [sphractal]: success
+[2023-07-29 10:54:30] INFO root fetch - processPackages [pgsqlx]: Remove: archive file [/home/abi/fetcher/tmp/pgsqlx-1.6.9.tar.gz]
+[2023-07-29 10:54:30] INFO root fetch - processPackages [pgsqlx]: Remove: archive file [/home/abi/fetcher/tmp/pgsqlx-1.7.0.tar.gz]
+[2023-07-29 10:54:30] INFO root fetch - main [MainThread]: End processing [pgsqlx]: success
+[2023-07-29 10:54:30] INFO root fetch - processPackages [zerocap-api-new-test]: Remove: archive file [/home/abi/fetcher/tmp/zerocap_api_new_test-0.1.1.tar.gz]
+[2023-07-29 10:54:30] INFO root fetch - processPackages [zerocap-api-new-test]: Remove: archive file [/home/abi/fetcher/tmp/zerocap_api_new_test-0.1.2.tar.gz]
+[2023-07-29 10:54:30] INFO root fetch - main [MainThread]: End processing [zerocap-api-new-test]: success
+[2023-07-29 10:54:30] INFO root fetch - processPackages [tomodachi-testcontainers]: Remove: archive file [/home/abi/fetcher/tmp/tomodachi_testcontainers-0.2.1.tar.gz]
+[2023-07-29 10:54:30] INFO root fetch - processPackages [tomodachi-testcontainers]: Remove: archive file [/home/abi/fetcher/tmp/tomodachi_testcontainers-0.2.2.tar.gz]
+[2023-07-29 10:54:30] INFO root fetch - main [MainThread]: End processing [tomodachi-testcontainers]: success
+[2023-07-29 10:54:30] INFO root fetch - processPackages [kubernetes-square]: Remove: archive file [/home/abi/fetcher/tmp/kubernetes_square-1.4.0.tar.gz]
+[2023-07-29 10:54:30] INFO root fetch - processPackages [kubernetes-square]: Remove: archive file [/home/abi/fetcher/tmp/kubernetes_square-1.5.0.tar.gz]
+[2023-07-29 10:54:30] INFO root fetch - main [MainThread]: End processing [kubernetes-square]: success
+[2023-07-29 10:54:30] INFO root fetch - processPackages [pydeum]: Remove: archive file [/home/abi/fetcher/tmp/pydeum-0.0.1a1.tar.gz]
+[2023-07-29 10:54:30] INFO root fetch - processPackages [pydeum]: Remove: archive file [/home/abi/fetcher/tmp/pydeum-0.0.2.tar.gz]
+[2023-07-29 10:54:30] INFO root fetch - main [MainThread]: End processing [pydeum]: success
+[2023-07-29 10:54:30] INFO root fetch - processPackages [hds-stats]: Remove: archive file [/home/abi/fetcher/tmp/hds-stats-0.3.4.tar.gz]
+[2023-07-29 10:54:30] INFO root fetch - processPackages [hds-stats]: Remove: archive file [/home/abi/fetcher/tmp/hds-stats-0.3.5.tar.gz]
+[2023-07-29 10:54:30] INFO root fetch - main [MainThread]: End processing [hds-stats]: success
+[2023-07-29 10:54:31] INFO root fetch - processPackages [PrEditor]: Remove: archive file [/home/abi/fetcher/tmp/PrEditor-0.0.0.dev1-py2.py3-none-any.whl.zip]
+[2023-07-29 10:54:31] INFO root fetch - processPackages [PrEditor]: Remove: archive file [/home/abi/fetcher/tmp/PrEditor-0.1.0rc1-py2.py3-none-any.whl.zip]
+[2023-07-29 10:54:31] INFO root fetch - main [MainThread]: End processing [PrEditor]: success
+[2023-07-29 10:54:31] INFO root fetch - main [MainThread]: Store serial: [19086501]
