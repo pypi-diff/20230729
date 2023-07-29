@@ -20051,3 +20051,75 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 18:12:30] INFO root fetch - processPackages [composabl-ray]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray-0.3.5-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
 [2023-07-29 18:12:30] INFO root fetch - main [MainThread]: End processing [composabl-ray]: success
 [2023-07-29 18:12:30] INFO root fetch - main [MainThread]: Store serial: [19090100]
+[2023-07-29 18:17:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19090100]
+[2023-07-29 18:17:52] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-29 18:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydatawork
+[2023-07-29 18:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nastranio
+[2023-07-29 18:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plux
+[2023-07-29 18:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: boum
+[2023-07-29 18:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MAZAlib
+[2023-07-29 18:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: promptify
+[2023-07-29 18:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hishel
+[2023-07-29 18:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: p2p-payme
+[2023-07-29 18:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-errors
+[2023-07-29 18:17:53] WARNING root fetch - processPackages [p2p-payme]: Skipping, unable to determine old version
+[2023-07-29 18:17:53] INFO root fetch - main [MainThread]: End processing [p2p-payme] error
+[2023-07-29 18:17:53] INFO root fetch - processPackages [pydatawork]: New version: [0.17.5.9] Old Version: [0.17.5.8]
+[2023-07-29 18:17:53] INFO root fetch - processPackages [boum]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-29 18:17:53] INFO root fetch - processPackages [promptify]: New version: [2.0.0] Old Version: [0.1.5]
+[2023-07-29 18:17:53] INFO root fetch - processPackages [MAZAlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-29 18:17:53] WARNING root fetch - processPackages [nastranio]: Skipping, unable to determine old version
+[2023-07-29 18:17:53] INFO root fetch - main [MainThread]: End processing [nastranio] error
+[2023-07-29 18:17:53] INFO root fetch - processPackages [plux]: New version: [1.4.0] Old Version: [1.3.4]
+[2023-07-29 18:17:53] INFO root fetch - processPackages [hishel]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-29 18:17:53] INFO root fetch - processPackages [django-errors]: New version: [2.3.0] Old Version: [2.1.0]
+[2023-07-29 18:17:53] INFO root fetch - processPackages [boum]: Downloading https://files.pythonhosted.org/packages/32/a6/c60455d7df61b3e3ef2373015edb553beebe8bc0cd8b9d89cba4506a8287/boum-1.2.0.tar.gz
+[2023-07-29 18:17:53] INFO root fetch - processPackages [promptify]: Downloading https://files.pythonhosted.org/packages/e1/30/d70a2b0d9d797749c9e34300e9e2dce6ad6037a143bbe1055b65df4e7bb4/promptify-0.1.5.tar.gz
+[2023-07-29 18:17:53] INFO root fetch - processPackages [hishel]: Downloading https://files.pythonhosted.org/packages/9e/aa/444eaad9ac79e926d628257ee445a0f053f1cfdf0fdbcc83ac13f8e95537/hishel-0.0.5.tar.gz
+[2023-07-29 18:17:53] INFO root fetch - processPackages [MAZAlib]: Downloading https://files.pythonhosted.org/packages/50/f4/08487d2e9ffaf4c2459a82bdb215d7a1e77e96862254778678316ddb1a94/MAZAlib-0.0.8.tar.gz
+[2023-07-29 18:17:53] INFO root fetch - processPackages [plux]: Downloading https://files.pythonhosted.org/packages/6e/e7/0158da147a732da14cdd41c7274441746e790d3ec77093211bcc982877a9/plux-1.3.4.tar.gz
+[2023-07-29 18:17:53] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/1a/c0/6d888fe7bc34aa9b5b3a46dc95a6b43fa768df6a5f91426957303564fac0/pydatawork-0.17.5.8.tar.gz
+[2023-07-29 18:17:53] INFO root fetch - processPackages [django-errors]: Downloading https://files.pythonhosted.org/packages/ae/f0/2fc05d627c6e295c01f9138de2206f66baa4282e21ee1f971e8c1d7887c0/django-errors-2.1.0.tar.gz
+[2023-07-29 18:17:53] INFO root fetch - processPackages [MAZAlib]: Downloading https://files.pythonhosted.org/packages/ee/bf/644071a273d92a917989a5acc834c89301fde3a6a32435ce6290de2d5504/MAZAlib-0.0.9.tar.gz
+[2023-07-29 18:17:53] INFO root fetch - processPackages [django-errors]: Downloading https://files.pythonhosted.org/packages/1f/fb/f151f48f2af250e5c259652f6d5a32ce9d444e87df107fa07dcc2b82953d/django-errors-2.3.0.tar.gz
+[2023-07-29 18:17:53] INFO root fetch - processPackages [boum]: Downloading https://files.pythonhosted.org/packages/ef/e0/a7051527f7dcc2c5b16a84323b40e781b03b3b7f7d05fb72f68470889962/boum-1.2.1.tar.gz
+[2023-07-29 18:17:53] INFO root fetch - processPackages [hishel]: Downloading https://files.pythonhosted.org/packages/01/bc/c7d392a71dc3d9b6f84d389d4e9791f63c9a79abc22890d3d93b998171a2/hishel-0.0.6.tar.gz
+[2023-07-29 18:17:53] INFO root fetch - processPackages [promptify]: Downloading https://files.pythonhosted.org/packages/ce/93/bb1ae0e00e402cfac14c67a6064b5b97039a826d9a63389c048fd7c2ac22/promptify-2.0.0.tar.gz
+[2023-07-29 18:17:54] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/43/6e/a4845f19c5bceb629a0576d20024e011c3afbaf1a7e41a133055a84516de/pydatawork-0.17.5.9.tar.gz
+[2023-07-29 18:17:54] INFO root fetch - processPackages [plux]: Downloading https://files.pythonhosted.org/packages/e4/26/abe61e23f24ba1beb6ebcf30ca571d33bc62cad14e44824057a38b97a4e6/plux-1.4.0.tar.gz
+[2023-07-29 18:17:54] INFO root fetch - processPackages [MAZAlib]: executing diffoscope
+[2023-07-29 18:17:54] INFO root fetch - processPackages [MAZAlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MAZAlib-0.0.8.tar.gz tmp/MAZAlib-0.0.9.tar.gz --markdown 20230729/M/MAZAlib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-29 18:17:54] INFO root fetch - processPackages [django-errors]: executing diffoscope
+[2023-07-29 18:17:54] INFO root fetch - processPackages [django-errors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-errors-2.1.0.tar.gz tmp/django-errors-2.3.0.tar.gz --markdown 20230729/d/django-errors/2.1.0-2.3.0/diff.md --exclude *.pyd
+[2023-07-29 18:17:54] INFO root fetch - processPackages [boum]: executing diffoscope
+[2023-07-29 18:17:54] INFO root fetch - processPackages [boum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boum-1.2.0.tar.gz tmp/boum-1.2.1.tar.gz --markdown 20230729/b/boum/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-29 18:17:54] INFO root fetch - processPackages [promptify]: executing diffoscope
+[2023-07-29 18:17:54] INFO root fetch - processPackages [promptify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptify-0.1.5.tar.gz tmp/promptify-2.0.0.tar.gz --markdown 20230729/p/promptify/0.1.5-2.0.0/diff.md --exclude *.pyd
+[2023-07-29 18:17:54] INFO root fetch - processPackages [hishel]: executing diffoscope
+[2023-07-29 18:17:54] INFO root fetch - processPackages [hishel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hishel-0.0.5.tar.gz tmp/hishel-0.0.6.tar.gz --markdown 20230729/h/hishel/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-29 18:17:54] INFO root fetch - processPackages [pydatawork]: executing diffoscope
+[2023-07-29 18:17:54] INFO root fetch - processPackages [pydatawork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatawork-0.17.5.8.tar.gz tmp/pydatawork-0.17.5.9.tar.gz --markdown 20230729/p/pydatawork/0.17.5.8-0.17.5.9/diff.md --exclude *.pyd
+[2023-07-29 18:17:54] INFO root fetch - processPackages [plux]: executing diffoscope
+[2023-07-29 18:17:54] INFO root fetch - processPackages [plux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plux-1.3.4.tar.gz tmp/plux-1.4.0.tar.gz --markdown 20230729/p/plux/1.3.4-1.4.0/diff.md --exclude *.pyd
+[2023-07-29 18:17:55] INFO root fetch - processPackages [MAZAlib]: Remove: archive file [/home/abi/fetcher/tmp/MAZAlib-0.0.8.tar.gz]
+[2023-07-29 18:17:55] INFO root fetch - processPackages [MAZAlib]: Remove: archive file [/home/abi/fetcher/tmp/MAZAlib-0.0.9.tar.gz]
+[2023-07-29 18:17:55] INFO root fetch - main [MainThread]: End processing [MAZAlib]: success
+[2023-07-29 18:17:55] INFO root fetch - processPackages [boum]: Remove: archive file [/home/abi/fetcher/tmp/boum-1.2.0.tar.gz]
+[2023-07-29 18:17:55] INFO root fetch - processPackages [boum]: Remove: archive file [/home/abi/fetcher/tmp/boum-1.2.1.tar.gz]
+[2023-07-29 18:17:55] INFO root fetch - main [MainThread]: End processing [boum]: success
+[2023-07-29 18:17:55] INFO root fetch - processPackages [hishel]: Remove: archive file [/home/abi/fetcher/tmp/hishel-0.0.5.tar.gz]
+[2023-07-29 18:17:55] INFO root fetch - processPackages [hishel]: Remove: archive file [/home/abi/fetcher/tmp/hishel-0.0.6.tar.gz]
+[2023-07-29 18:17:55] INFO root fetch - main [MainThread]: End processing [hishel]: success
+[2023-07-29 18:17:55] INFO root fetch - processPackages [plux]: Remove: archive file [/home/abi/fetcher/tmp/plux-1.3.4.tar.gz]
+[2023-07-29 18:17:55] INFO root fetch - processPackages [plux]: Remove: archive file [/home/abi/fetcher/tmp/plux-1.4.0.tar.gz]
+[2023-07-29 18:17:55] INFO root fetch - main [MainThread]: End processing [plux]: success
+[2023-07-29 18:17:55] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.17.5.8.tar.gz]
+[2023-07-29 18:17:55] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.17.5.9.tar.gz]
+[2023-07-29 18:17:55] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
+[2023-07-29 18:17:55] INFO root fetch - processPackages [django-errors]: Remove: archive file [/home/abi/fetcher/tmp/django-errors-2.1.0.tar.gz]
+[2023-07-29 18:17:55] INFO root fetch - processPackages [django-errors]: Remove: archive file [/home/abi/fetcher/tmp/django-errors-2.3.0.tar.gz]
+[2023-07-29 18:17:55] INFO root fetch - main [MainThread]: End processing [django-errors]: success
+[2023-07-29 18:17:55] INFO root fetch - processPackages [promptify]: Remove: archive file [/home/abi/fetcher/tmp/promptify-0.1.5.tar.gz]
+[2023-07-29 18:17:55] INFO root fetch - processPackages [promptify]: Remove: archive file [/home/abi/fetcher/tmp/promptify-2.0.0.tar.gz]
+[2023-07-29 18:17:55] INFO root fetch - main [MainThread]: End processing [promptify]: success
+[2023-07-29 18:17:55] INFO root fetch - main [MainThread]: Store serial: [19090126]
