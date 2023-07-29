@@ -10834,3 +10834,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 10:02:37] INFO root fetch - processPackages [buildverse]: Remove: archive file [/home/abi/fetcher/tmp/buildverse-0.0.1-py3-none-any.whl.zip]
 [2023-07-29 10:02:37] INFO root fetch - main [MainThread]: End processing [buildverse]: success
 [2023-07-29 10:02:37] INFO root fetch - main [MainThread]: Store serial: [19086286]
+[2023-07-29 10:07:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19086286]
+[2023-07-29 10:07:45] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-29 10:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pystools
+[2023-07-29 10:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-webstack
+[2023-07-29 10:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyrsm
+[2023-07-29 10:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: anymaker
+[2023-07-29 10:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyglove
+[2023-07-29 10:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tf-nightly
+[2023-07-29 10:07:45] WARNING root fetch - processPackages [anymaker]: Skipping, unable to determine old version
+[2023-07-29 10:07:45] INFO root fetch - main [MainThread]: End processing [anymaker] error
+[2023-07-29 10:07:45] INFO root fetch - processPackages [django-webstack]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-07-29 10:07:45] INFO root fetch - processPackages [pystools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-29 10:07:45] INFO root fetch - processPackages [pyrsm]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-29 10:07:45] INFO root fetch - processPackages [pyglove]: New version: [0.4.3.dev20230729] Old Version: [0.4.2.dev20230728]
+[2023-07-29 10:07:46] INFO root fetch - processPackages [pystools]: Downloading https://files.pythonhosted.org/packages/d3/f1/f6fef6b574bd57970579f257d2f3b2adf9f6b87b20d9dc2c11e18d2a4a47/pystools-0.0.8.tar.gz
+[2023-07-29 10:07:46] INFO root fetch - processPackages [django-webstack]: Downloading https://files.pythonhosted.org/packages/a0/96/fbd1a4c631d3b1476dc33ab3913929ed80e4eda1498912887d3b6d636255/django-webstack-1.5.0.tar.gz
+[2023-07-29 10:07:46] INFO root fetch - processPackages [pyrsm]: Downloading https://files.pythonhosted.org/packages/3d/65/0a4b8a89b7adf7364b0fdf6ce1a2dafe1cdea5c6f236c5d5fa4f410e63bd/pyrsm-0.9.2.tar.gz
+[2023-07-29 10:07:46] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230729] Old Version: [2.14.0.dev20230728]
+[2023-07-29 10:07:46] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/dd/64/668be88d9bd02545a668222c2e9f07fdcf9c32d81412f08e9164fc95f164/pyglove-0.4.2.dev20230728.tar.gz
+[2023-07-29 10:07:46] INFO root fetch - processPackages [pystools]: Downloading https://files.pythonhosted.org/packages/9b/5a/9f2cf38e22565c5aa2ecb7be3dbecb7a44f7d23efbd86fd532eacd613f62/pystools-0.0.9.tar.gz
+[2023-07-29 10:07:46] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/33/80/972023b2ed40d4f1b17b275f039b21874567362c681730f5a855520cdec7/tf_nightly-2.14.0.dev20230728-cp39-cp39-win_amd64.whl
+[2023-07-29 10:07:46] INFO root fetch - processPackages [pystools]: executing diffoscope
+[2023-07-29 10:07:46] INFO root fetch - processPackages [pystools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystools-0.0.8.tar.gz tmp/pystools-0.0.9.tar.gz --markdown 20230729/p/pystools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-29 10:07:46] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/fa/34/e425522e37ff0035fdc85fd142db726bb5e9f8200325fcc388581f34a0bc/pyglove-0.4.3.dev20230729.tar.gz
+[2023-07-29 10:07:46] INFO root fetch - processPackages [pyrsm]: Downloading https://files.pythonhosted.org/packages/4d/42/f901673a99de98cd672dcf0c57b660881f55a93c934a6d5695a6c239c33b/pyrsm-0.9.3.tar.gz
+[2023-07-29 10:07:46] INFO root fetch - processPackages [django-webstack]: Downloading https://files.pythonhosted.org/packages/ae/bc/1f4da6e62d2df1cbef282f56c71f90957c81206348a608c9e4b59314f149/django-webstack-1.5.1.tar.gz
+[2023-07-29 10:07:46] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/6a/5f/6d4e82ddf0376f0d598abf1616001230898c8be1b1830debde2dfbd469a6/tf_nightly-2.14.0.dev20230729-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-29 10:07:46] INFO root fetch - processPackages [pyrsm]: executing diffoscope
+[2023-07-29 10:07:46] INFO root fetch - processPackages [pyrsm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrsm-0.9.2.tar.gz tmp/pyrsm-0.9.3.tar.gz --markdown 20230729/p/pyrsm/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-29 10:07:46] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-07-29 10:07:46] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.2.dev20230728.tar.gz tmp/pyglove-0.4.3.dev20230729.tar.gz --markdown 20230729/p/pyglove/0.4.2.dev20230728-0.4.3.dev20230729/diff.md --exclude *.pyd
+[2023-07-29 10:07:46] WARNING root fetch - processPackages [tf-nightly]: Skipping package: exceeds size limit 489658850>=10485760
+[2023-07-29 10:07:46] INFO root fetch - main [MainThread]: End processing [tf-nightly] error
+[2023-07-29 10:07:47] INFO root fetch - processPackages [django-webstack]: executing diffoscope
+[2023-07-29 10:07:47] INFO root fetch - processPackages [django-webstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-webstack-1.5.0.tar.gz tmp/django-webstack-1.5.1.tar.gz --markdown 20230729/d/django-webstack/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-07-29 10:07:47] INFO root fetch - processPackages [pystools]: Remove: archive file [/home/abi/fetcher/tmp/pystools-0.0.8.tar.gz]
+[2023-07-29 10:07:47] INFO root fetch - processPackages [pystools]: Remove: archive file [/home/abi/fetcher/tmp/pystools-0.0.9.tar.gz]
+[2023-07-29 10:07:47] INFO root fetch - main [MainThread]: End processing [pystools]: success
+[2023-07-29 10:07:47] INFO root fetch - processPackages [pyrsm]: Remove: archive file [/home/abi/fetcher/tmp/pyrsm-0.9.2.tar.gz]
+[2023-07-29 10:07:47] INFO root fetch - processPackages [pyrsm]: Remove: archive file [/home/abi/fetcher/tmp/pyrsm-0.9.3.tar.gz]
+[2023-07-29 10:07:47] INFO root fetch - main [MainThread]: End processing [pyrsm]: success
+[2023-07-29 10:07:48] INFO root fetch - processPackages [django-webstack]: Remove: archive file [/home/abi/fetcher/tmp/django-webstack-1.5.0.tar.gz]
+[2023-07-29 10:07:48] INFO root fetch - processPackages [django-webstack]: Remove: archive file [/home/abi/fetcher/tmp/django-webstack-1.5.1.tar.gz]
+[2023-07-29 10:07:48] INFO root fetch - main [MainThread]: End processing [django-webstack]: success
+[2023-07-29 10:07:48] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.2.dev20230728.tar.gz]
+[2023-07-29 10:07:48] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.3.dev20230729.tar.gz]
+[2023-07-29 10:07:48] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-07-29 10:07:48] INFO root fetch - main [MainThread]: Store serial: [19086306]
