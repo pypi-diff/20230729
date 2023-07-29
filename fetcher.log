@@ -7024,3 +7024,27 @@
 [2023-07-29 04:09:03] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.50.4.tar.gz]
 [2023-07-29 04:09:03] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
 [2023-07-29 04:09:03] INFO root fetch - main [MainThread]: Store serial: [19084680]
+[2023-07-29 04:14:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19084680]
+[2023-07-29 04:14:11] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-29 04:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easywrite
+[2023-07-29 04:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TheSilent
+[2023-07-29 04:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sm64-random-assets
+[2023-07-29 04:14:11] ERROR root fetch - processPackages [sm64-random-assets]: Unable to get metadata: No such project 'sm64-random-assets'
+[2023-07-29 04:14:11] INFO root fetch - main [MainThread]: End processing [sm64-random-assets] error
+[2023-07-29 04:14:11] INFO root fetch - processPackages [easywrite]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-07-29 04:14:11] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-29 04:14:11] INFO root fetch - processPackages [easywrite]: Downloading https://files.pythonhosted.org/packages/8e/ff/f547da1ae3a8b218eb33dc5f06947dfbe1987aef531b7267233f85cd90f9/easywrite-1.4.0.tar.gz
+[2023-07-29 04:14:11] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-29 04:14:11] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-29 04:14:12] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-29 04:14:12] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230729/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-29 04:14:12] INFO root fetch - processPackages [easywrite]: Downloading https://files.pythonhosted.org/packages/52/15/cf7ec9a35508e0d8d9779dea17ff81e2127f6e4b1ab225a9fee69b9d0f36/easywrite-1.5.0.tar.gz
+[2023-07-29 04:14:12] INFO root fetch - processPackages [easywrite]: executing diffoscope
+[2023-07-29 04:14:12] INFO root fetch - processPackages [easywrite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easywrite-1.4.0.tar.gz tmp/easywrite-1.5.0.tar.gz --markdown 20230729/e/easywrite/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-07-29 04:14:12] INFO root fetch - processPackages [easywrite]: Remove: archive file [/home/abi/fetcher/tmp/easywrite-1.4.0.tar.gz]
+[2023-07-29 04:14:12] INFO root fetch - processPackages [easywrite]: Remove: archive file [/home/abi/fetcher/tmp/easywrite-1.5.0.tar.gz]
+[2023-07-29 04:14:12] INFO root fetch - main [MainThread]: End processing [easywrite]: success
+[2023-07-29 04:14:12] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-29 04:14:12] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-29 04:14:12] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-29 04:14:12] INFO root fetch - main [MainThread]: Store serial: [19084691]
