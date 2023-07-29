@@ -7418,3 +7418,45 @@
 [2023-07-29 04:45:38] INFO root fetch - processPackages [odoo-addon-account-journal-general-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_journal_general_sequence-16.0.2.0.1.2-py3-none-any.whl.zip]
 [2023-07-29 04:45:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-journal-general-sequence]: success
 [2023-07-29 04:45:38] INFO root fetch - main [MainThread]: Store serial: [19084891]
+[2023-07-29 04:50:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19084891]
+[2023-07-29 04:50:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-29 04:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamlit-bls-connection
+[2023-07-29 04:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: attune-project-api
+[2023-07-29 04:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: drizzutojr-vader
+[2023-07-29 04:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: retakesearch
+[2023-07-29 04:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: awyes
+[2023-07-29 04:50:46] INFO root fetch - processPackages [awyes]: New version: [10.0.9] Old Version: [10.0.8]
+[2023-07-29 04:50:46] INFO root fetch - processPackages [drizzutojr-vader]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-29 04:50:46] WARNING root fetch - processPackages [streamlit-bls-connection]: Skipping, unable to determine old version
+[2023-07-29 04:50:46] INFO root fetch - main [MainThread]: End processing [streamlit-bls-connection] error
+[2023-07-29 04:50:46] INFO root fetch - processPackages [retakesearch]: New version: [0.1.17] Old Version: [0.1.16]
+[2023-07-29 04:50:46] INFO root fetch - processPackages [attune-project-api]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-29 04:50:46] INFO root fetch - processPackages [awyes]: Downloading https://files.pythonhosted.org/packages/e0/e6/e65039d7a3547e1ca4b9e7ea6eb09fb04feaa1714c91aa45d9f5c809c284/awyes-10.0.8.tar.gz
+[2023-07-29 04:50:46] INFO root fetch - processPackages [retakesearch]: Downloading https://files.pythonhosted.org/packages/38/04/0bd004e2f11b14c4c568af5b63fb14524398164df206f36ba59d7f9c5810/retakesearch-0.1.16.tar.gz
+[2023-07-29 04:50:46] INFO root fetch - processPackages [attune-project-api]: Downloading https://files.pythonhosted.org/packages/d7/f8/ced67fc9acf12de675f2d634457c7373e34106fd88baa6288503685dd4d6/attune-project-api-0.9.8.tar.gz
+[2023-07-29 04:50:47] INFO root fetch - processPackages [drizzutojr-vader]: Downloading https://files.pythonhosted.org/packages/db/5e/84370ebef063935cd1a933a1c270c5352724276bdec170a82b242a7e1eb1/drizzutojr_vader-0.0.8-py3-none-any.whl
+[2023-07-29 04:50:47] INFO root fetch - processPackages [awyes]: Downloading https://files.pythonhosted.org/packages/b4/b3/ef5cfd62bd3820ecf029b981474b2436064f394d8696994f9dd500790d3c/awyes-10.0.9.tar.gz
+[2023-07-29 04:50:47] INFO root fetch - processPackages [attune-project-api]: Downloading https://files.pythonhosted.org/packages/c7/16/d44eb9ceaa1f24e93d7e0ef5a7cc8f16ca2354efe09e1f3d05025fa94147/attune-project-api-0.9.9.tar.gz
+[2023-07-29 04:50:47] INFO root fetch - processPackages [retakesearch]: Downloading https://files.pythonhosted.org/packages/1c/a4/a79dbf5b602d2d3ac5cbf2dd0793170b0c3a1ad20a3e3e40cbc8b2bfee98/retakesearch-0.1.17.tar.gz
+[2023-07-29 04:50:47] INFO root fetch - processPackages [awyes]: executing diffoscope
+[2023-07-29 04:50:47] INFO root fetch - processPackages [awyes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awyes-10.0.8.tar.gz tmp/awyes-10.0.9.tar.gz --markdown 20230729/a/awyes/10.0.8-10.0.9/diff.md --exclude *.pyd
+[2023-07-29 04:50:47] INFO root fetch - processPackages [attune-project-api]: executing diffoscope
+[2023-07-29 04:50:47] INFO root fetch - processPackages [attune-project-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/attune-project-api-0.9.8.tar.gz tmp/attune-project-api-0.9.9.tar.gz --markdown 20230729/a/attune-project-api/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-29 04:50:47] INFO root fetch - processPackages [retakesearch]: executing diffoscope
+[2023-07-29 04:50:47] INFO root fetch - processPackages [retakesearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retakesearch-0.1.16.tar.gz tmp/retakesearch-0.1.17.tar.gz --markdown 20230729/r/retakesearch/0.1.16-0.1.17/diff.md --exclude *.pyd
+[2023-07-29 04:50:47] INFO root fetch - processPackages [drizzutojr-vader]: Downloading https://files.pythonhosted.org/packages/be/92/131ee5e1e15914cc4f2e26d19a7a24cd4d888ec0fce1f6e18ce711f886de/drizzutojr_vader-0.0.9-py3-none-any.whl
+[2023-07-29 04:50:47] INFO root fetch - processPackages [drizzutojr-vader]: executing diffoscope
+[2023-07-29 04:50:47] INFO root fetch - processPackages [drizzutojr-vader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drizzutojr_vader-0.0.8-py3-none-any.whl.zip tmp/drizzutojr_vader-0.0.9-py3-none-any.whl.zip --markdown 20230729/d/drizzutojr-vader/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-29 04:50:48] INFO root fetch - processPackages [retakesearch]: Remove: archive file [/home/abi/fetcher/tmp/retakesearch-0.1.16.tar.gz]
+[2023-07-29 04:50:48] INFO root fetch - processPackages [retakesearch]: Remove: archive file [/home/abi/fetcher/tmp/retakesearch-0.1.17.tar.gz]
+[2023-07-29 04:50:48] INFO root fetch - main [MainThread]: End processing [retakesearch]: success
+[2023-07-29 04:50:48] INFO root fetch - processPackages [awyes]: Remove: archive file [/home/abi/fetcher/tmp/awyes-10.0.8.tar.gz]
+[2023-07-29 04:50:48] INFO root fetch - processPackages [awyes]: Remove: archive file [/home/abi/fetcher/tmp/awyes-10.0.9.tar.gz]
+[2023-07-29 04:50:48] INFO root fetch - main [MainThread]: End processing [awyes]: success
+[2023-07-29 04:50:48] INFO root fetch - processPackages [attune-project-api]: Remove: archive file [/home/abi/fetcher/tmp/attune-project-api-0.9.8.tar.gz]
+[2023-07-29 04:50:48] INFO root fetch - processPackages [attune-project-api]: Remove: archive file [/home/abi/fetcher/tmp/attune-project-api-0.9.9.tar.gz]
+[2023-07-29 04:50:48] INFO root fetch - main [MainThread]: End processing [attune-project-api]: success
+[2023-07-29 04:50:48] INFO root fetch - processPackages [drizzutojr-vader]: Remove: archive file [/home/abi/fetcher/tmp/drizzutojr_vader-0.0.8-py3-none-any.whl.zip]
+[2023-07-29 04:50:48] INFO root fetch - processPackages [drizzutojr-vader]: Remove: archive file [/home/abi/fetcher/tmp/drizzutojr_vader-0.0.9-py3-none-any.whl.zip]
+[2023-07-29 04:50:48] INFO root fetch - main [MainThread]: End processing [drizzutojr-vader]: success
+[2023-07-29 04:50:48] INFO root fetch - main [MainThread]: Store serial: [19084908]
