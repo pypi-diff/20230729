@@ -17978,3 +17978,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 15:38:14] INFO root fetch - processPackages [composabl-ray]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray-0.3.5-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
 [2023-07-29 15:38:14] INFO root fetch - main [MainThread]: End processing [composabl-ray]: success
 [2023-07-29 15:38:14] INFO root fetch - main [MainThread]: Store serial: [19089078]
+[2023-07-29 15:43:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19089078]
+[2023-07-29 15:43:24] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-29 15:43:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sedi
+[2023-07-29 15:43:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oneat
+[2023-07-29 15:43:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MAZAlib
+[2023-07-29 15:43:24] INFO root fetch - processPackages [MAZAlib]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-29 15:43:24] INFO root fetch - processPackages [sedi]: New version: [0.7] Old Version: [0.6]
+[2023-07-29 15:43:24] INFO root fetch - processPackages [oneat]: New version: [6.2.0] Old Version: [6.1.9]
+[2023-07-29 15:43:24] INFO root fetch - processPackages [sedi]: Downloading https://files.pythonhosted.org/packages/b6/9f/a2f4c8299d7b8269f75348dfb794457cc421b460037ddd679a4fdc6a2a50/sedi-0.6.tar.gz
+[2023-07-29 15:43:24] INFO root fetch - processPackages [oneat]: Downloading https://files.pythonhosted.org/packages/fb/2a/e42c7dab25465c74e94fb7b0b05362728fa68fedd2ac33c1ebaed2ecf043/oneat-6.1.9.tar.gz
+[2023-07-29 15:43:24] INFO root fetch - processPackages [MAZAlib]: Downloading https://files.pythonhosted.org/packages/84/68/086bda548b2836fe96884972e0687cf1ae904eafbfb08a2f34867472df24/MAZAlib-0.0.1.tar.gz
+[2023-07-29 15:43:25] INFO root fetch - processPackages [sedi]: Downloading https://files.pythonhosted.org/packages/9a/7a/e50fa738b0cea31b0d57e6cc52f5e0fdd54367607bff8ccd5d8575293da2/sedi-0.7.tar.gz
+[2023-07-29 15:43:25] INFO root fetch - processPackages [sedi]: executing diffoscope
+[2023-07-29 15:43:25] INFO root fetch - processPackages [sedi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sedi-0.6.tar.gz tmp/sedi-0.7.tar.gz --markdown 20230729/s/sedi/0.6-0.7/diff.md --exclude *.pyd
+[2023-07-29 15:43:25] INFO root fetch - processPackages [MAZAlib]: Downloading https://files.pythonhosted.org/packages/fa/01/cb8e5ce946cf2b7680506961c4a696c2f3750dbbbe768cc4468d2a26b8a2/MAZAlib-0.0.2.tar.gz
+[2023-07-29 15:43:25] INFO root fetch - processPackages [MAZAlib]: executing diffoscope
+[2023-07-29 15:43:25] INFO root fetch - processPackages [MAZAlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MAZAlib-0.0.1.tar.gz tmp/MAZAlib-0.0.2.tar.gz --markdown 20230729/M/MAZAlib/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-29 15:43:25] INFO root fetch - processPackages [oneat]: Downloading https://files.pythonhosted.org/packages/16/d5/02f1a5bd3bc851ca73d5cfc92aa06d1c7c6a3fb9baae74282c35ab1ee70e/oneat-6.2.0.tar.gz
+[2023-07-29 15:43:25] INFO root fetch - processPackages [sedi]: Remove: archive file [/home/abi/fetcher/tmp/sedi-0.6.tar.gz]
+[2023-07-29 15:43:25] INFO root fetch - processPackages [sedi]: Remove: archive file [/home/abi/fetcher/tmp/sedi-0.7.tar.gz]
+[2023-07-29 15:43:25] INFO root fetch - main [MainThread]: End processing [sedi]: success
+[2023-07-29 15:43:26] INFO root fetch - processPackages [MAZAlib]: Remove: archive file [/home/abi/fetcher/tmp/MAZAlib-0.0.1.tar.gz]
+[2023-07-29 15:43:26] INFO root fetch - processPackages [MAZAlib]: Remove: archive file [/home/abi/fetcher/tmp/MAZAlib-0.0.2.tar.gz]
+[2023-07-29 15:43:26] INFO root fetch - main [MainThread]: End processing [MAZAlib]: success
+[2023-07-29 15:43:26] INFO root fetch - processPackages [oneat]: executing diffoscope
+[2023-07-29 15:43:26] INFO root fetch - processPackages [oneat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oneat-6.1.9.tar.gz tmp/oneat-6.2.0.tar.gz --markdown 20230729/o/oneat/6.1.9-6.2.0/diff.md --exclude *.pyd
+[2023-07-29 15:43:27] INFO root fetch - processPackages [oneat]: Remove: archive file [/home/abi/fetcher/tmp/oneat-6.1.9.tar.gz]
+[2023-07-29 15:43:27] INFO root fetch - processPackages [oneat]: Remove: archive file [/home/abi/fetcher/tmp/oneat-6.2.0.tar.gz]
+[2023-07-29 15:43:27] INFO root fetch - main [MainThread]: End processing [oneat]: success
+[2023-07-29 15:43:27] INFO root fetch - main [MainThread]: Store serial: [19089095]
