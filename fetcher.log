@@ -11097,3 +11097,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 10:33:42] INFO root fetch - processPackages [photobooth-app]: Remove: archive file [/home/abi/fetcher/tmp/photobooth_app-0.1.0rc9.tar.gz]
 [2023-07-29 10:33:42] INFO root fetch - main [MainThread]: End processing [photobooth-app]: success
 [2023-07-29 10:33:42] INFO root fetch - main [MainThread]: Store serial: [19086423]
+[2023-07-29 10:38:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19086423]
+[2023-07-29 10:38:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-29 10:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FSRS-Optimizer
+[2023-07-29 10:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pg8000
+[2023-07-29 10:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xiver-gpt
+[2023-07-29 10:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydeum
+[2023-07-29 10:38:51] INFO root fetch - processPackages [pydeum]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-29 10:38:51] INFO root fetch - processPackages [FSRS-Optimizer]: New version: [4.5.0] Old Version: [4.4.2]
+[2023-07-29 10:38:51] INFO root fetch - processPackages [xiver-gpt]: New version: [0.0.1b2] Old Version: [0.0.1b1]
+[2023-07-29 10:38:51] INFO root fetch - processPackages [pg8000]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-29 10:38:51] INFO root fetch - processPackages [FSRS-Optimizer]: Downloading https://files.pythonhosted.org/packages/d1/d7/5a42186ee26756788e6aa7245991873790e364d45f5d9d76bf04cbdfe29b/FSRS-Optimizer-4.4.2.tar.gz
+[2023-07-29 10:38:51] INFO root fetch - processPackages [pydeum]: Downloading https://files.pythonhosted.org/packages/62/c9/bdead213860d33cd4c2c08d5d2f04c4bc869a6c05d8940f2322ce225ed99/pydeum-0.0.1.tar.gz
+[2023-07-29 10:38:51] INFO root fetch - processPackages [pg8000]: Downloading https://files.pythonhosted.org/packages/65/e9/ec11aa94842e65712402367dde63c925ef6ed5bfa3491de9e4cda23530bc/pg8000-1.9.8.tar.gz
+[2023-07-29 10:38:51] INFO root fetch - processPackages [xiver-gpt]: Downloading https://files.pythonhosted.org/packages/d5/9f/71e1ed8c7c42971a52a367d9fd95493aab7506d2a20d023e42c21f5db74b/xiver_gpt-0.0.1b1.tar.gz
+[2023-07-29 10:38:51] INFO root fetch - processPackages [FSRS-Optimizer]: Downloading https://files.pythonhosted.org/packages/23/ff/ec1e58d651432dc86376823f72d0e28f9a2b3f9904ae26b396899f1f61e6/FSRS-Optimizer-4.5.0.tar.gz
+[2023-07-29 10:38:51] INFO root fetch - processPackages [xiver-gpt]: Downloading https://files.pythonhosted.org/packages/ae/97/a255364728c416ffef122897ca0241610f8b560900e188615090d6920244/xiver_gpt-0.0.1b2.tar.gz
+[2023-07-29 10:38:51] INFO root fetch - processPackages [FSRS-Optimizer]: executing diffoscope
+[2023-07-29 10:38:51] INFO root fetch - processPackages [FSRS-Optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FSRS-Optimizer-4.4.2.tar.gz tmp/FSRS-Optimizer-4.5.0.tar.gz --markdown 20230729/F/FSRS-Optimizer/4.4.2-4.5.0/diff.md --exclude *.pyd
+[2023-07-29 10:38:51] INFO root fetch - processPackages [pydeum]: Downloading https://files.pythonhosted.org/packages/0e/22/13748ac365c2967bb83fec508b73686584faea04b27aa1bb3c1f144f59fb/pydeum-0.0.2.tar.gz
+[2023-07-29 10:38:51] INFO root fetch - processPackages [pg8000]: Downloading https://files.pythonhosted.org/packages/76/38/3c2b3384c447bdac7cd3f1155894dd6522935f7c923492baed5cc3d9b2bf/pg8000-1.9.9.tar.gz
+[2023-07-29 10:38:51] INFO root fetch - processPackages [pydeum]: executing diffoscope
+[2023-07-29 10:38:51] INFO root fetch - processPackages [pydeum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydeum-0.0.1.tar.gz tmp/pydeum-0.0.2.tar.gz --markdown 20230729/p/pydeum/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-29 10:38:52] INFO root fetch - processPackages [xiver-gpt]: executing diffoscope
+[2023-07-29 10:38:52] INFO root fetch - processPackages [xiver-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiver_gpt-0.0.1b1.tar.gz tmp/xiver_gpt-0.0.1b2.tar.gz --markdown 20230729/x/xiver-gpt/0.0.1b1-0.0.1b2/diff.md --exclude *.pyd
+[2023-07-29 10:38:52] INFO root fetch - processPackages [pg8000]: executing diffoscope
+[2023-07-29 10:38:52] INFO root fetch - processPackages [pg8000]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg8000-1.9.8.tar.gz tmp/pg8000-1.9.9.tar.gz --markdown 20230729/p/pg8000/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-29 10:38:52] INFO root fetch - processPackages [pydeum]: Remove: archive file [/home/abi/fetcher/tmp/pydeum-0.0.1.tar.gz]
+[2023-07-29 10:38:52] INFO root fetch - processPackages [pydeum]: Remove: archive file [/home/abi/fetcher/tmp/pydeum-0.0.2.tar.gz]
+[2023-07-29 10:38:52] INFO root fetch - main [MainThread]: End processing [pydeum]: success
+[2023-07-29 10:38:52] INFO root fetch - processPackages [FSRS-Optimizer]: Remove: archive file [/home/abi/fetcher/tmp/FSRS-Optimizer-4.4.2.tar.gz]
+[2023-07-29 10:38:52] INFO root fetch - processPackages [FSRS-Optimizer]: Remove: archive file [/home/abi/fetcher/tmp/FSRS-Optimizer-4.5.0.tar.gz]
+[2023-07-29 10:38:52] INFO root fetch - main [MainThread]: End processing [FSRS-Optimizer]: success
+[2023-07-29 10:38:52] INFO root fetch - processPackages [xiver-gpt]: Remove: archive file [/home/abi/fetcher/tmp/xiver_gpt-0.0.1b1.tar.gz]
+[2023-07-29 10:38:52] INFO root fetch - processPackages [xiver-gpt]: Remove: archive file [/home/abi/fetcher/tmp/xiver_gpt-0.0.1b2.tar.gz]
+[2023-07-29 10:38:52] INFO root fetch - main [MainThread]: End processing [xiver-gpt]: success
+[2023-07-29 10:38:52] INFO root fetch - processPackages [pg8000]: Remove: archive file [/home/abi/fetcher/tmp/pg8000-1.9.8.tar.gz]
+[2023-07-29 10:38:52] INFO root fetch - processPackages [pg8000]: Remove: archive file [/home/abi/fetcher/tmp/pg8000-1.9.9.tar.gz]
+[2023-07-29 10:38:52] INFO root fetch - main [MainThread]: End processing [pg8000]: success
+[2023-07-29 10:38:52] INFO root fetch - main [MainThread]: Store serial: [19086436]

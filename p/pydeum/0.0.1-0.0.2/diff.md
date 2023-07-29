@@ -1,0 +1,91 @@
+# Comparing `tmp/pydeum-0.0.1.tar.gz` & `tmp/pydeum-0.0.2.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "pydeum-0.0.1.tar", last modified: Fri Jul 28 11:59:28 2023, max compression
++gzip compressed data, was "pydeum-0.0.2.tar", last modified: Sat Jul 29 08:36:48 2023, max compression
+```
+
+## Comparing `pydeum-0.0.1.tar` & `pydeum-0.0.2.tar`
+
+### file list
+
+```diff
+@@ -1,16 +1,16 @@
+-drwxr-xr-x   0 louisgrange   (501) staff       (20)        0 2023-07-28 11:59:28.704332 pydeum-0.0.1/
+--rw-r--r--   0 louisgrange   (501) staff       (20)     1068 2023-07-28 11:47:22.000000 pydeum-0.0.1/LICENSE
+--rw-r--r--   0 louisgrange   (501) staff       (20)      665 2023-07-28 11:59:28.704212 pydeum-0.0.1/PKG-INFO
+--rw-r--r--   0 louisgrange   (501) staff       (20)       60 2023-07-28 11:33:32.000000 pydeum-0.0.1/README.md
+--rw-r--r--   0 louisgrange   (501) staff       (20)      661 2023-07-28 11:59:01.000000 pydeum-0.0.1/pyproject.toml
+--rw-r--r--   0 louisgrange   (501) staff       (20)       38 2023-07-28 11:59:28.704373 pydeum-0.0.1/setup.cfg
+-drwxr-xr-x   0 louisgrange   (501) staff       (20)        0 2023-07-28 11:59:28.703226 pydeum-0.0.1/src/
+-drwxr-xr-x   0 louisgrange   (501) staff       (20)        0 2023-07-28 11:59:28.703438 pydeum-0.0.1/src/Iodeum/
+--rw-r--r--   0 louisgrange   (501) staff       (20)        0 2023-07-28 11:38:38.000000 pydeum-0.0.1/src/Iodeum/__init__.py
+--rw-r--r--   0 louisgrange   (501) staff       (20)      517 2023-07-28 11:33:32.000000 pydeum-0.0.1/src/Iodeum/main.py
+--rw-r--r--   0 louisgrange   (501) staff       (20)        0 2023-07-28 11:38:48.000000 pydeum-0.0.1/src/__init__.py
+-drwxr-xr-x   0 louisgrange   (501) staff       (20)        0 2023-07-28 11:59:28.704044 pydeum-0.0.1/src/pydeum.egg-info/
+--rw-r--r--   0 louisgrange   (501) staff       (20)      665 2023-07-28 11:59:28.000000 pydeum-0.0.1/src/pydeum.egg-info/PKG-INFO
+--rw-r--r--   0 louisgrange   (501) staff       (20)      226 2023-07-28 11:59:28.000000 pydeum-0.0.1/src/pydeum.egg-info/SOURCES.txt
+--rw-r--r--   0 louisgrange   (501) staff       (20)        1 2023-07-28 11:59:28.000000 pydeum-0.0.1/src/pydeum.egg-info/dependency_links.txt
+--rw-r--r--   0 louisgrange   (501) staff       (20)       16 2023-07-28 11:59:28.000000 pydeum-0.0.1/src/pydeum.egg-info/top_level.txt
++drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-07-29 08:36:48.564075 pydeum-0.0.2/
++-rw-r--r--   0 runner    (1001) docker     (123)     1068 2023-07-29 08:36:29.000000 pydeum-0.0.2/LICENSE
++-rw-r--r--   0 runner    (1001) docker     (123)     1398 2023-07-29 08:36:48.564075 pydeum-0.0.2/PKG-INFO
++-rw-r--r--   0 runner    (1001) docker     (123)      742 2023-07-29 08:36:29.000000 pydeum-0.0.2/README.md
++-rw-r--r--   0 runner    (1001) docker     (123)      705 2023-07-29 08:36:29.000000 pydeum-0.0.2/pyproject.toml
++-rw-r--r--   0 runner    (1001) docker     (123)       38 2023-07-29 08:36:48.564075 pydeum-0.0.2/setup.cfg
++drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-07-29 08:36:48.564075 pydeum-0.0.2/src/
++drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-07-29 08:36:48.564075 pydeum-0.0.2/src/Iodeum/
++-rw-r--r--   0 runner    (1001) docker     (123)        0 2023-07-29 08:36:29.000000 pydeum-0.0.2/src/Iodeum/__init__.py
++-rw-r--r--   0 runner    (1001) docker     (123)      517 2023-07-29 08:36:29.000000 pydeum-0.0.2/src/Iodeum/main.py
++-rw-r--r--   0 runner    (1001) docker     (123)        0 2023-07-29 08:36:29.000000 pydeum-0.0.2/src/__init__.py
++drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-07-29 08:36:48.564075 pydeum-0.0.2/src/pydeum.egg-info/
++-rw-r--r--   0 runner    (1001) docker     (123)     1398 2023-07-29 08:36:48.000000 pydeum-0.0.2/src/pydeum.egg-info/PKG-INFO
++-rw-r--r--   0 runner    (1001) docker     (123)      226 2023-07-29 08:36:48.000000 pydeum-0.0.2/src/pydeum.egg-info/SOURCES.txt
++-rw-r--r--   0 runner    (1001) docker     (123)        1 2023-07-29 08:36:48.000000 pydeum-0.0.2/src/pydeum.egg-info/dependency_links.txt
++-rw-r--r--   0 runner    (1001) docker     (123)       16 2023-07-29 08:36:48.000000 pydeum-0.0.2/src/pydeum.egg-info/top_level.txt
+```
+
+### Comparing `pydeum-0.0.1/LICENSE` & `pydeum-0.0.2/LICENSE`
+
+ * *Files identical despite different names*
+
+### Comparing `pydeum-0.0.1/pyproject.toml` & `pydeum-0.0.2/pyproject.toml`
+
+ * *Files 9% similar despite different names*
+
+```diff
+@@ -1,14 +1,14 @@
+ [build-system]
+ requires = ["setuptools"]
+ build-backend = "setuptools.build_meta"
+ 
+ [project]
+ name = "pydeum"
+-version = "0.0.1"
++version = "0.0.2"
+ authors = [
+   { name="Louis Grange", email="louisgrange@ik.me" },
+ ]
+ description = "Blockchain access to Ideum"
+ readme = "README.md"
+ requires-python = ">=3.10"
+ classifiers = [
+@@ -17,8 +17,9 @@
+     'License :: OSI Approved :: MIT License',
+     'Programming Language :: Python :: 3',
+     'Topic :: Office/Business :: Financial'
+ ]
+ 
+ [project.urls]
+ "Homepage" = "https://github.com/Iodeum/pydeum"
++"Documentation" = "https://iodeum.org/doc/"
+ "Bug Tracker" = "https://github.com/Iodeum/pydeum/issues"
+```
+
+### Comparing `pydeum-0.0.1/src/Iodeum/main.py` & `pydeum-0.0.2/src/Iodeum/main.py`
+
+ * *Files identical despite different names*
+
