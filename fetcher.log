@@ -9914,3 +9914,94 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 08:13:22] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230728.tar.gz]
 [2023-07-29 08:13:22] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-07-29 08:13:22] INFO root fetch - main [MainThread]: Store serial: [19085905]
+[2023-07-29 08:18:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19085905]
+[2023-07-29 08:18:31] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-29 08:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-groupmate-waifu
+[2023-07-29 08:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mknodes
+[2023-07-29 08:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk8s
+[2023-07-29 08:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: WinDbg-Copilot
+[2023-07-29 08:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Finance-Hermes
+[2023-07-29 08:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pretext
+[2023-07-29 08:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk8s
+[2023-07-29 08:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: freq-mob
+[2023-07-29 08:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonechat
+[2023-07-29 08:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: turbo-tunnel
+[2023-07-29 08:18:31] INFO root fetch - processPackages [nonechat]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-29 08:18:31] INFO root fetch - processPackages [nonebot-plugin-groupmate-waifu]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-07-29 08:18:31] INFO root fetch - processPackages [mknodes]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-07-29 08:18:31] INFO root fetch - processPackages [WinDbg-Copilot]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-29 08:18:31] INFO root fetch - processPackages [freq-mob]: New version: [0.13] Old Version: [0.12]
+[2023-07-29 08:18:31] INFO root fetch - processPackages [Finance-Hermes]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-07-29 08:18:31] INFO root fetch - processPackages [turbo-tunnel]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-29 08:18:31] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-07-29 08:18:31] INFO root fetch - processPackages [pretext]: New version: [1.7.4.dev20230729] Old Version: [1.7.3.dev20230728]
+[2023-07-29 08:18:31] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-07-29 08:18:31] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/7d/c5/592391e50b273450851cb1dd87401069971eead9d407a9d5c5ec13704f65/cdk8s-2.8.0.tar.gz
+[2023-07-29 08:18:31] INFO root fetch - processPackages [freq-mob]: Downloading https://files.pythonhosted.org/packages/c9/dc/ac664c0c2f8bb1c8a877bd2866d91e36ac4d8181b2b9461adfbacd4cc66d/freq_mob-0.12.tar.gz
+[2023-07-29 08:18:31] INFO root fetch - processPackages [Finance-Hermes]: Downloading https://files.pythonhosted.org/packages/72/b7/48cbdd5b965e6db68a27722409e2de31a88e86230012f83249097b510b99/Finance-Hermes-0.2.9.tar.gz
+[2023-07-29 08:18:31] INFO root fetch - processPackages [turbo-tunnel]: Downloading https://files.pythonhosted.org/packages/bf/e4/d455e5b1d9f247f2905931e9d800141bb510049100aa8477ff23d6bb15b7/turbo-tunnel-0.9.1.tar.gz
+[2023-07-29 08:18:32] INFO root fetch - processPackages [nonebot-plugin-groupmate-waifu]: Downloading https://files.pythonhosted.org/packages/83/94/ed3c800f3da58a3548d6d92c5114437c675edfb9b7644c285b70a9117884/nonebot_plugin_groupmate_waifu-1.3.0.tar.gz
+[2023-07-29 08:18:32] INFO root fetch - processPackages [mknodes]: Downloading https://files.pythonhosted.org/packages/7f/f1/533fbe0917ee95b4471dbbba2b0708b664d9aa3be25f84b08d6ccebde7ab/mknodes-0.8.3.tar.gz
+[2023-07-29 08:18:32] INFO root fetch - processPackages [nonechat]: Downloading https://files.pythonhosted.org/packages/b0/d7/96d862147ec9bbff72289d5824b673282fd22393010bb58c3fd57e067d7b/nonechat-0.2.0.tar.gz
+[2023-07-29 08:18:32] INFO root fetch - processPackages [WinDbg-Copilot]: Downloading https://files.pythonhosted.org/packages/71/ea/d2f007dd070009549069b211e1e744fff2561aa857f0710bebd2ec2846f9/windbg_copilot-1.0.8.tar.gz
+[2023-07-29 08:18:32] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/46/6a/89c315d0917b2c9bb8a70c9db811ff1cc7f2c39fb074de635697f905ccbe/pretext-1.7.3.dev20230728.tar.gz
+[2023-07-29 08:18:32] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-07-29 08:18:32] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20230729/c/cdk8s/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-07-29 08:18:32] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-07-29 08:18:32] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20230729/c/cdk8s/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-07-29 08:18:32] INFO root fetch - processPackages [turbo-tunnel]: Downloading https://files.pythonhosted.org/packages/cc/99/d81fc2e5176bc538be51b5464a11416603a66aa5a8d707155c39c440ef66/turbo-tunnel-0.9.2.tar.gz
+[2023-07-29 08:18:32] INFO root fetch - processPackages [Finance-Hermes]: Downloading https://files.pythonhosted.org/packages/54/f3/eb11a16e55ad0b6325af5107a3057d343c3e9800a2bb7009c40ecfab99af/Finance-Hermes-0.3.0.tar.gz
+[2023-07-29 08:18:32] INFO root fetch - processPackages [freq-mob]: Downloading https://files.pythonhosted.org/packages/cc/72/efbbe82db6955a1e8972ba77a670d21770345ca116e55c866f701d4962ab/freq_mob-0.13.tar.gz
+[2023-07-29 08:18:32] INFO root fetch - processPackages [nonebot-plugin-groupmate-waifu]: Downloading https://files.pythonhosted.org/packages/94/b2/03fb1e1c4d88aea9e027a10f7a71bdc2f2c361d0ecde7473bf0fe725f2e4/nonebot_plugin_groupmate_waifu-1.3.1.tar.gz
+[2023-07-29 08:18:32] INFO root fetch - processPackages [mknodes]: Downloading https://files.pythonhosted.org/packages/a9/23/d4351caa4d81e1d5dfee2da642c21895fe33271ddb4650d42f56940e3a64/mknodes-0.9.0.tar.gz
+[2023-07-29 08:18:32] INFO root fetch - processPackages [turbo-tunnel]: executing diffoscope
+[2023-07-29 08:18:32] INFO root fetch - processPackages [turbo-tunnel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turbo-tunnel-0.9.1.tar.gz tmp/turbo-tunnel-0.9.2.tar.gz --markdown 20230729/t/turbo-tunnel/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-29 08:18:32] INFO root fetch - processPackages [nonechat]: Downloading https://files.pythonhosted.org/packages/59/cd/f7c78b0f09f45f8db8bc84a9cc93be1f1720aac4f201b1d7cd82c2e8055f/nonechat-0.2.1.tar.gz
+[2023-07-29 08:18:32] INFO root fetch - processPackages [WinDbg-Copilot]: Downloading https://files.pythonhosted.org/packages/98/4d/f4ca3fba186c8dbb546368432f218fe011dcaffda000df1ec41915ec520d/windbg_copilot-1.0.9.tar.gz
+[2023-07-29 08:18:32] INFO root fetch - processPackages [Finance-Hermes]: executing diffoscope
+[2023-07-29 08:18:32] INFO root fetch - processPackages [Finance-Hermes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Finance-Hermes-0.2.9.tar.gz tmp/Finance-Hermes-0.3.0.tar.gz --markdown 20230729/F/Finance-Hermes/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-07-29 08:18:32] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/d2/20/1fbdb1873bb5b59829d439a0f21c8c797a22ca650fbe8e507943c3eee231/pretext-1.7.4.dev20230729.tar.gz
+[2023-07-29 08:18:32] INFO root fetch - processPackages [freq-mob]: executing diffoscope
+[2023-07-29 08:18:32] INFO root fetch - processPackages [freq-mob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freq_mob-0.12.tar.gz tmp/freq_mob-0.13.tar.gz --markdown 20230729/f/freq-mob/0.12-0.13/diff.md --exclude *.pyd
+[2023-07-29 08:18:32] INFO root fetch - processPackages [nonebot-plugin-groupmate-waifu]: executing diffoscope
+[2023-07-29 08:18:32] INFO root fetch - processPackages [nonebot-plugin-groupmate-waifu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_groupmate_waifu-1.3.0.tar.gz tmp/nonebot_plugin_groupmate_waifu-1.3.1.tar.gz --markdown 20230729/n/nonebot-plugin-groupmate-waifu/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-07-29 08:18:32] INFO root fetch - processPackages [nonechat]: executing diffoscope
+[2023-07-29 08:18:32] INFO root fetch - processPackages [nonechat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonechat-0.2.0.tar.gz tmp/nonechat-0.2.1.tar.gz --markdown 20230729/n/nonechat/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-29 08:18:32] INFO root fetch - processPackages [mknodes]: executing diffoscope
+[2023-07-29 08:18:32] INFO root fetch - processPackages [mknodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mknodes-0.8.3.tar.gz tmp/mknodes-0.9.0.tar.gz --markdown 20230729/m/mknodes/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-07-29 08:18:32] INFO root fetch - processPackages [WinDbg-Copilot]: executing diffoscope
+[2023-07-29 08:18:32] INFO root fetch - processPackages [WinDbg-Copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windbg_copilot-1.0.8.tar.gz tmp/windbg_copilot-1.0.9.tar.gz --markdown 20230729/W/WinDbg-Copilot/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-29 08:18:33] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-07-29 08:18:33] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.7.3.dev20230728.tar.gz tmp/pretext-1.7.4.dev20230729.tar.gz --markdown 20230729/p/pretext/1.7.3.dev20230728-1.7.4.dev20230729/diff.md --exclude *.pyd
+[2023-07-29 08:18:33] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.8.0.tar.gz]
+[2023-07-29 08:18:33] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.9.0.tar.gz]
+[2023-07-29 08:18:33] INFO root fetch - processPackages [cdk8s]: Start processing: aiscraper
+[2023-07-29 08:18:33] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-07-29 08:18:33] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-07-29 08:18:33] WARNING root fetch - processPackages [aiscraper]: Skipping, unable to determine old version
+[2023-07-29 08:18:33] INFO root fetch - main [MainThread]: End processing [aiscraper] error
+[2023-07-29 08:18:34] INFO root fetch - processPackages [freq-mob]: Remove: archive file [/home/abi/fetcher/tmp/freq_mob-0.12.tar.gz]
+[2023-07-29 08:18:34] INFO root fetch - processPackages [freq-mob]: Remove: archive file [/home/abi/fetcher/tmp/freq_mob-0.13.tar.gz]
+[2023-07-29 08:18:34] INFO root fetch - main [MainThread]: End processing [freq-mob]: success
+[2023-07-29 08:18:34] INFO root fetch - processPackages [turbo-tunnel]: Remove: archive file [/home/abi/fetcher/tmp/turbo-tunnel-0.9.1.tar.gz]
+[2023-07-29 08:18:34] INFO root fetch - processPackages [turbo-tunnel]: Remove: archive file [/home/abi/fetcher/tmp/turbo-tunnel-0.9.2.tar.gz]
+[2023-07-29 08:18:34] INFO root fetch - main [MainThread]: End processing [turbo-tunnel]: success
+[2023-07-29 08:18:34] INFO root fetch - processPackages [WinDbg-Copilot]: Remove: archive file [/home/abi/fetcher/tmp/windbg_copilot-1.0.8.tar.gz]
+[2023-07-29 08:18:34] INFO root fetch - processPackages [WinDbg-Copilot]: Remove: archive file [/home/abi/fetcher/tmp/windbg_copilot-1.0.9.tar.gz]
+[2023-07-29 08:18:34] INFO root fetch - main [MainThread]: End processing [WinDbg-Copilot]: success
+[2023-07-29 08:18:34] INFO root fetch - processPackages [nonechat]: Remove: archive file [/home/abi/fetcher/tmp/nonechat-0.2.0.tar.gz]
+[2023-07-29 08:18:34] INFO root fetch - processPackages [nonechat]: Remove: archive file [/home/abi/fetcher/tmp/nonechat-0.2.1.tar.gz]
+[2023-07-29 08:18:34] INFO root fetch - main [MainThread]: End processing [nonechat]: success
+[2023-07-29 08:18:34] INFO root fetch - processPackages [Finance-Hermes]: Remove: archive file [/home/abi/fetcher/tmp/Finance-Hermes-0.2.9.tar.gz]
+[2023-07-29 08:18:34] INFO root fetch - processPackages [Finance-Hermes]: Remove: archive file [/home/abi/fetcher/tmp/Finance-Hermes-0.3.0.tar.gz]
+[2023-07-29 08:18:34] INFO root fetch - main [MainThread]: End processing [Finance-Hermes]: success
+[2023-07-29 08:18:34] INFO root fetch - processPackages [mknodes]: Remove: archive file [/home/abi/fetcher/tmp/mknodes-0.8.3.tar.gz]
+[2023-07-29 08:18:34] INFO root fetch - processPackages [mknodes]: Remove: archive file [/home/abi/fetcher/tmp/mknodes-0.9.0.tar.gz]
+[2023-07-29 08:18:34] INFO root fetch - main [MainThread]: End processing [mknodes]: success
+[2023-07-29 08:18:34] INFO root fetch - processPackages [nonebot-plugin-groupmate-waifu]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_groupmate_waifu-1.3.0.tar.gz]
+[2023-07-29 08:18:34] INFO root fetch - processPackages [nonebot-plugin-groupmate-waifu]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_groupmate_waifu-1.3.1.tar.gz]
+[2023-07-29 08:18:34] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-groupmate-waifu]: success
+[2023-07-29 08:18:36] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.7.3.dev20230728.tar.gz]
+[2023-07-29 08:18:36] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.7.4.dev20230729.tar.gz]
+[2023-07-29 08:18:36] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-07-29 08:18:36] INFO root fetch - main [MainThread]: Store serial: [19085943]
