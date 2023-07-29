@@ -23032,3 +23032,48 @@ AssertionError: tmp/pulpcore-3.9.0.tar.gz does not exist
 [2023-07-29 21:46:50] INFO root fetch - processPackages [clear-skies]: Remove: archive file [/home/abi/fetcher/tmp/clear-skies-1.9.0.tar.gz]
 [2023-07-29 21:46:50] INFO root fetch - main [MainThread]: End processing [clear-skies]: success
 [2023-07-29 21:46:50] INFO root fetch - main [MainThread]: Store serial: [19091347]
+[2023-07-29 21:51:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19091347]
+[2023-07-29 21:51:59] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-29 21:51:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hdr-global-processing
+[2023-07-29 21:51:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nsj-queue-lib
+[2023-07-29 21:51:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clear-skies-auth-server
+[2023-07-29 21:51:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: toui
+[2023-07-29 21:51:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: abstract-webtools
+[2023-07-29 21:51:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytest-selenium-screenshot
+[2023-07-29 21:51:59] INFO root fetch - processPackages [nsj-queue-lib]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-07-29 21:51:59] INFO root fetch - processPackages [clear-skies-auth-server]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-29 21:51:59] WARNING root fetch - processPackages [pytest-selenium-screenshot]: Skipping, unable to determine old version
+[2023-07-29 21:51:59] INFO root fetch - main [MainThread]: End processing [pytest-selenium-screenshot] error
+[2023-07-29 21:51:59] INFO root fetch - processPackages [abstract-webtools]: New version: [0.0.14] Old Version: [0.0.13]
+[2023-07-29 21:51:59] WARNING root fetch - processPackages [hdr-global-processing]: Skipping, unable to determine old version
+[2023-07-29 21:51:59] INFO root fetch - main [MainThread]: End processing [hdr-global-processing] error
+[2023-07-29 21:51:59] INFO root fetch - processPackages [toui]: New version: [3.0.1b0] Old Version: [3.0.0b0]
+[2023-07-29 21:51:59] INFO root fetch - processPackages [nsj-queue-lib]: Downloading https://files.pythonhosted.org/packages/d3/e5/97980038efa41c1211718188bb302f876fdfd0df97bb231696204094b6d8/nsj_queue_lib-0.5.2.tar.gz
+[2023-07-29 21:51:59] INFO root fetch - processPackages [toui]: Downloading https://files.pythonhosted.org/packages/b0/75/121652373b5c63b15f30c975311485a63dea40f05b1aea4c1d0e01ffd3e1/toui-3.0.0b0.tar.gz
+[2023-07-29 21:51:59] INFO root fetch - processPackages [abstract-webtools]: Downloading https://files.pythonhosted.org/packages/3a/fe/b9900a66c6f61a79e14d0b4ee7a4730ce6f70d72f756ec22b788e985dcf6/abstract_webtools-0.0.13.tar.gz
+[2023-07-29 21:51:59] INFO root fetch - processPackages [clear-skies-auth-server]: Downloading https://files.pythonhosted.org/packages/b2/a8/4f730a01c2aa239d2bd71ade697129fe95cc1d9187ea9f690a997e66f041/clear_skies_auth_server-0.9.1.tar.gz
+[2023-07-29 21:51:59] INFO root fetch - processPackages [nsj-queue-lib]: Downloading https://files.pythonhosted.org/packages/6b/91/72933f0928cb02263568b218de3a9192934aa888bc27a2f15ed6c9966305/nsj_queue_lib-0.5.3.tar.gz
+[2023-07-29 21:51:59] INFO root fetch - processPackages [toui]: Downloading https://files.pythonhosted.org/packages/1b/a0/122a4f98d7def9deba0a4169dd8970394bf27022933cdd8882a7e956371c/toui-3.0.1b0.tar.gz
+[2023-07-29 21:51:59] INFO root fetch - processPackages [abstract-webtools]: Downloading https://files.pythonhosted.org/packages/2d/41/e9d2826fb63aaf7029bf13adb07fadd88461e5f202d457a4fc6f01ae9265/abstract_webtools-0.0.14.tar.gz
+[2023-07-29 21:51:59] INFO root fetch - processPackages [clear-skies-auth-server]: Downloading https://files.pythonhosted.org/packages/27/66/af0983f2208a2d4258d6d71e9bd0d4a67dff6af9ba973a57c94cfa972190/clear_skies_auth_server-0.9.2.tar.gz
+[2023-07-29 21:51:59] INFO root fetch - processPackages [nsj-queue-lib]: executing diffoscope
+[2023-07-29 21:51:59] INFO root fetch - processPackages [nsj-queue-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsj_queue_lib-0.5.2.tar.gz tmp/nsj_queue_lib-0.5.3.tar.gz --markdown 20230729/n/nsj-queue-lib/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-07-29 21:51:59] INFO root fetch - processPackages [toui]: executing diffoscope
+[2023-07-29 21:51:59] INFO root fetch - processPackages [toui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toui-3.0.0b0.tar.gz tmp/toui-3.0.1b0.tar.gz --markdown 20230729/t/toui/3.0.0b0-3.0.1b0/diff.md --exclude *.pyd
+[2023-07-29 21:52:00] INFO root fetch - processPackages [abstract-webtools]: executing diffoscope
+[2023-07-29 21:52:00] INFO root fetch - processPackages [abstract-webtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_webtools-0.0.13.tar.gz tmp/abstract_webtools-0.0.14.tar.gz --markdown 20230729/a/abstract-webtools/0.0.13-0.0.14/diff.md --exclude *.pyd
+[2023-07-29 21:52:00] INFO root fetch - processPackages [clear-skies-auth-server]: executing diffoscope
+[2023-07-29 21:52:00] INFO root fetch - processPackages [clear-skies-auth-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clear_skies_auth_server-0.9.1.tar.gz tmp/clear_skies_auth_server-0.9.2.tar.gz --markdown 20230729/c/clear-skies-auth-server/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-29 21:52:00] INFO root fetch - processPackages [abstract-webtools]: Remove: archive file [/home/abi/fetcher/tmp/abstract_webtools-0.0.13.tar.gz]
+[2023-07-29 21:52:00] INFO root fetch - processPackages [abstract-webtools]: Remove: archive file [/home/abi/fetcher/tmp/abstract_webtools-0.0.14.tar.gz]
+[2023-07-29 21:52:00] INFO root fetch - main [MainThread]: End processing [abstract-webtools]: success
+[2023-07-29 21:52:00] INFO root fetch - processPackages [clear-skies-auth-server]: Remove: archive file [/home/abi/fetcher/tmp/clear_skies_auth_server-0.9.1.tar.gz]
+[2023-07-29 21:52:00] INFO root fetch - processPackages [clear-skies-auth-server]: Remove: archive file [/home/abi/fetcher/tmp/clear_skies_auth_server-0.9.2.tar.gz]
+[2023-07-29 21:52:00] INFO root fetch - main [MainThread]: End processing [clear-skies-auth-server]: success
+[2023-07-29 21:52:01] INFO root fetch - processPackages [toui]: Remove: archive file [/home/abi/fetcher/tmp/toui-3.0.0b0.tar.gz]
+[2023-07-29 21:52:01] INFO root fetch - processPackages [toui]: Remove: archive file [/home/abi/fetcher/tmp/toui-3.0.1b0.tar.gz]
+[2023-07-29 21:52:01] INFO root fetch - main [MainThread]: End processing [toui]: success
+[2023-07-29 21:52:01] INFO root fetch - processPackages [nsj-queue-lib]: Remove: archive file [/home/abi/fetcher/tmp/nsj_queue_lib-0.5.2.tar.gz]
+[2023-07-29 21:52:01] INFO root fetch - processPackages [nsj-queue-lib]: Remove: archive file [/home/abi/fetcher/tmp/nsj_queue_lib-0.5.3.tar.gz]
+[2023-07-29 21:52:01] INFO root fetch - main [MainThread]: End processing [nsj-queue-lib]: success
+[2023-07-29 21:52:01] INFO root fetch - main [MainThread]: Store serial: [19091369]
