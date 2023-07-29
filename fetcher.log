@@ -2460,3 +2460,138 @@
 [2023-07-29 02:23:53] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9998.tar.gz]
 [2023-07-29 02:23:53] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
 [2023-07-29 02:23:53] INFO root fetch - main [MainThread]: Store serial: [19082946]
+[2023-07-29 02:28:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19082946]
+[2023-07-29 02:29:01] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-29 02:29:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bible-alignments
+[2023-07-29 02:29:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-certbot-dns-route53
+[2023-07-29 02:29:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-cr-constructs
+[2023-07-29 02:29:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-docker-image-deployment
+[2023-07-29 02:29:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: speech-intelligibility-index
+[2023-07-29 02:29:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cloca
+[2023-07-29 02:29:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-secret-manager-wrapper-layer
+[2023-07-29 02:29:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-certbot-dns-route53
+[2023-07-29 02:29:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-gitlab-runner
+[2023-07-29 02:29:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: naruno
+[2023-07-29 02:29:02] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-07-29 02:29:02] INFO root fetch - processPackages [speech-intelligibility-index]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-29 02:29:02] INFO root fetch - processPackages [bible-alignments]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-29 02:29:02] WARNING root fetch - processPackages [cloca]: Skipping, unable to determine old version
+[2023-07-29 02:29:02] INFO root fetch - processPackages [cloca]: Start processing: naruno-api
+[2023-07-29 02:29:02] INFO root fetch - main [MainThread]: End processing [cloca] error
+[2023-07-29 02:29:02] INFO root fetch - processPackages [naruno]: New version: [0.60.0] Old Version: [0.59.0]
+[2023-07-29 02:29:02] INFO root fetch - processPackages [cdk-cr-constructs]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-07-29 02:29:02] INFO root fetch - processPackages [cdk-docker-image-deployment]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-29 02:29:02] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-29 02:29:02] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-07-29 02:29:02] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-07-29 02:29:02] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/3a/17/b6246ecdc02e08f5a2a265eb410094bc1978a1c23a9ff1ef9625deee1c7c/cdk-certbot-dns-route53-2.1.98.tar.gz
+[2023-07-29 02:29:02] INFO root fetch - processPackages [naruno-api]: New version: [0.60.0] Old Version: [0.59.0]
+[2023-07-29 02:29:02] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2023-07-29 02:29:02] INFO root fetch - processPackages [naruno]: Downloading https://files.pythonhosted.org/packages/9e/70/21f88c79f6c031a926b62ee85839c93369e2c7711ec7d626bc569c7a7848/naruno-0.59.0.tar.gz
+[2023-07-29 02:29:02] INFO root fetch - processPackages [naruno-api]: Downloading https://files.pythonhosted.org/packages/46/20/16d3397e308f8d8c3e8e5e1d2c6b1541fb958f5e3222e49966d07c55324c/naruno_api-0.59.0.tar.gz
+[2023-07-29 02:29:02] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/3a/17/b6246ecdc02e08f5a2a265eb410094bc1978a1c23a9ff1ef9625deee1c7c/cdk-certbot-dns-route53-2.1.98.tar.gz
+[2023-07-29 02:29:02] INFO root fetch - processPackages [speech-intelligibility-index]: Downloading https://files.pythonhosted.org/packages/cc/6b/5e78bbd4e291ca941f8fa85e8b1387b2451fa579fba637519ec26368b327/speech_intelligibility_index-1.0.0.tar.gz
+[2023-07-29 02:29:02] INFO root fetch - processPackages [bible-alignments]: Downloading https://files.pythonhosted.org/packages/95/37/98ac89955226238ac597cff4884ec031d7c78b6bf67ddff8e8b20541bdf1/bible_alignments-0.2.8.tar.gz
+[2023-07-29 02:29:02] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/00/40/016cdb2fb9e28fe1b601ce7542603c38b93a78a9a0d77a0309e559d58a1c/cdk-gitlab-runner-2.1.98.tar.gz
+[2023-07-29 02:29:02] INFO root fetch - processPackages [cdk-docker-image-deployment]: Downloading https://files.pythonhosted.org/packages/df/53/1ddc54545e9ffbcefe4385747deddb0f87b200ddf27630a55f9728869564/cdk-docker-image-deployment-0.0.98.tar.gz
+[2023-07-29 02:29:02] INFO root fetch - processPackages [cdk-cr-constructs]: Downloading https://files.pythonhosted.org/packages/fe/58/3e435ab85ca79a785db1238624c29b48fc60946bcbae9b2813fd45cb0a41/cdk-cr-constructs-2.1.98.tar.gz
+[2023-07-29 02:29:02] WARNING root fetch - processPackages [cdk-cr-constructs]: Skipping package: exceeds size limit 12826336>=10485760
+[2023-07-29 02:29:02] INFO root fetch - processPackages [cdk-cr-constructs]: Start processing: nonebot-plugin-starrail-calendar
+[2023-07-29 02:29:02] INFO root fetch - main [MainThread]: End processing [cdk-cr-constructs] error
+[2023-07-29 02:29:02] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/cc/b6/654c84ec7d8620b5f17a064219a77d716eea46f886b19741e6e9cf3eff24/cdk-certbot-dns-route53-2.1.99.tar.gz
+[2023-07-29 02:29:02] INFO root fetch - processPackages [naruno-api]: Downloading https://files.pythonhosted.org/packages/b5/30/656de5f926a44cda6a22d6d792cfbb581866b4d76bb676e886cf892bbce2/naruno_api-0.60.0.tar.gz
+[2023-07-29 02:29:02] INFO root fetch - processPackages [nonebot-plugin-starrail-calendar]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-29 02:29:03] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/cc/b6/654c84ec7d8620b5f17a064219a77d716eea46f886b19741e6e9cf3eff24/cdk-certbot-dns-route53-2.1.99.tar.gz
+[2023-07-29 02:29:03] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2023-07-29 02:29:03] INFO root fetch - processPackages [naruno]: Downloading https://files.pythonhosted.org/packages/4f/6e/b6c36c8eb819fd346f2fe21d6dad5978b87ac33c160ed72dda27de791d44/naruno-0.60.0.tar.gz
+[2023-07-29 02:29:03] INFO root fetch - processPackages [speech-intelligibility-index]: Downloading https://files.pythonhosted.org/packages/d7/b2/53f4341252fb1ffd18231ebb805eebe46f736f2a96551f183a1332f29b36/speech_intelligibility_index-1.0.1.tar.gz
+[2023-07-29 02:29:03] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/89/96/8e14acbbed72ce7cf16a2f829e722ff9189610a1fe440e7d52bb6185d401/cdk-gitlab-runner-2.1.99.tar.gz
+[2023-07-29 02:29:03] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2023-07-29 02:29:03] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.1.98.tar.gz tmp/cdk-certbot-dns-route53-2.1.99.tar.gz --markdown 20230729/c/cdk-certbot-dns-route53/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-07-29 02:29:03] INFO root fetch - processPackages [naruno-api]: executing diffoscope
+[2023-07-29 02:29:03] INFO root fetch - processPackages [naruno-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naruno_api-0.59.0.tar.gz tmp/naruno_api-0.60.0.tar.gz --markdown 20230729/n/naruno-api/0.59.0-0.60.0/diff.md --exclude *.pyd
+[2023-07-29 02:29:03] INFO root fetch - processPackages [bible-alignments]: Downloading https://files.pythonhosted.org/packages/5e/48/ffb8e046e557f2109f9638327a3a5f51ab482ce20e818b671a5455bd3e70/bible_alignments-0.2.9.tar.gz
+[2023-07-29 02:29:03] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2023-07-29 02:29:03] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.1.98.tar.gz tmp/cdk-certbot-dns-route53-2.1.99.tar.gz --markdown 20230729/c/cdk-certbot-dns-route53/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-07-29 02:29:03] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2023-07-29 02:29:03] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20230729/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-29 02:29:03] INFO root fetch - processPackages [speech-intelligibility-index]: executing diffoscope
+[2023-07-29 02:29:03] INFO root fetch - processPackages [speech-intelligibility-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speech_intelligibility_index-1.0.0.tar.gz tmp/speech_intelligibility_index-1.0.1.tar.gz --markdown 20230729/s/speech-intelligibility-index/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-29 02:29:03] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2023-07-29 02:29:03] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.1.98.tar.gz tmp/cdk-gitlab-runner-2.1.99.tar.gz --markdown 20230729/c/cdk-gitlab-runner/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-07-29 02:29:03] INFO root fetch - processPackages [nonebot-plugin-starrail-calendar]: Downloading https://files.pythonhosted.org/packages/da/fb/73b3ce79901f24c1778e5afb1cc06bfc1e93a249703400a93637988d169f/nonebot_plugin_starrail_calendar-1.0.5.tar.gz
+[2023-07-29 02:29:03] INFO root fetch - processPackages [bible-alignments]: executing diffoscope
+[2023-07-29 02:29:03] INFO root fetch - processPackages [bible-alignments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bible_alignments-0.2.8.tar.gz tmp/bible_alignments-0.2.9.tar.gz --markdown 20230729/b/bible-alignments/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-29 02:29:03] INFO root fetch - processPackages [naruno]: executing diffoscope
+[2023-07-29 02:29:03] INFO root fetch - processPackages [naruno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naruno-0.59.0.tar.gz tmp/naruno-0.60.0.tar.gz --markdown 20230729/n/naruno/0.59.0-0.60.0/diff.md --exclude *.pyd
+[2023-07-29 02:29:03] INFO root fetch - processPackages [cdk-docker-image-deployment]: Downloading https://files.pythonhosted.org/packages/a3/f9/be2a564d48355f28c54c00f791e3f39262ae2d2d740e34b1e0d70ba48448/cdk-docker-image-deployment-0.0.99.tar.gz
+[2023-07-29 02:29:03] INFO root fetch - processPackages [nonebot-plugin-starrail-calendar]: Downloading https://files.pythonhosted.org/packages/32/ff/b6a99376d51f3cc00b6530e0d6c36e32afd78f8a43139aeeb064b930542d/nonebot_plugin_starrail_calendar-1.0.6.tar.gz
+[2023-07-29 02:29:03] INFO root fetch - processPackages [nonebot-plugin-starrail-calendar]: executing diffoscope
+[2023-07-29 02:29:03] INFO root fetch - processPackages [nonebot-plugin-starrail-calendar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_starrail_calendar-1.0.5.tar.gz tmp/nonebot_plugin_starrail_calendar-1.0.6.tar.gz --markdown 20230729/n/nonebot-plugin-starrail-calendar/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-29 02:29:03] INFO root fetch - processPackages [cdk-docker-image-deployment]: executing diffoscope
+[2023-07-29 02:29:03] INFO root fetch - processPackages [cdk-docker-image-deployment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-docker-image-deployment-0.0.98.tar.gz tmp/cdk-docker-image-deployment-0.0.99.tar.gz --markdown 20230729/c/cdk-docker-image-deployment/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-29 02:29:04] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.1.98.tar.gz]
+[2023-07-29 02:29:04] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.1.99.tar.gz]
+[2023-07-29 02:29:04] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Start processing: naruno-gui
+[2023-07-29 02:29:04] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2023-07-29 02:29:04] INFO root fetch - processPackages [naruno-gui]: New version: [0.60.0] Old Version: [0.59.0]
+[2023-07-29 02:29:04] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Start processing: naruno-remote-app
+[2023-07-29 02:29:04] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2023-07-29 02:29:04] INFO root fetch - processPackages [naruno-gui]: Downloading https://files.pythonhosted.org/packages/9b/5a/83486bcd0d5d4732f1f266ee85a72b245f7fa03fe23cb1d55f1d5a3726e6/naruno_gui-0.59.0.tar.gz
+[2023-07-29 02:29:04] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2023-07-29 02:29:04] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2023-07-29 02:29:04] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Start processing: naruno-tests
+[2023-07-29 02:29:04] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2023-07-29 02:29:04] INFO root fetch - processPackages [naruno-remote-app]: New version: [0.60.0] Old Version: [0.59.0]
+[2023-07-29 02:29:04] INFO root fetch - processPackages [naruno-remote-app]: Downloading https://files.pythonhosted.org/packages/be/ab/e1d84c97b1ec26582477c7904b382eaf96cf308db1ff2037605fb1673558/naruno_remote_app-0.59.0.tar.gz
+[2023-07-29 02:29:04] INFO root fetch - processPackages [naruno-tests]: New version: [0.60.1] Old Version: [0.60.0]
+[2023-07-29 02:29:04] INFO root fetch - processPackages [bible-alignments]: Remove: archive file [/home/abi/fetcher/tmp/bible_alignments-0.2.8.tar.gz]
+[2023-07-29 02:29:04] INFO root fetch - processPackages [bible-alignments]: Remove: archive file [/home/abi/fetcher/tmp/bible_alignments-0.2.9.tar.gz]
+[2023-07-29 02:29:04] INFO root fetch - processPackages [bible-alignments]: Start processing: cdk-ecs-service-extensions
+[2023-07-29 02:29:04] INFO root fetch - main [MainThread]: End processing [bible-alignments]: success
+[2023-07-29 02:29:04] INFO root fetch - processPackages [speech-intelligibility-index]: Remove: archive file [/home/abi/fetcher/tmp/speech_intelligibility_index-1.0.0.tar.gz]
+[2023-07-29 02:29:04] INFO root fetch - processPackages [speech-intelligibility-index]: Remove: archive file [/home/abi/fetcher/tmp/speech_intelligibility_index-1.0.1.tar.gz]
+[2023-07-29 02:29:04] INFO root fetch - main [MainThread]: End processing [speech-intelligibility-index]: success
+[2023-07-29 02:29:05] INFO root fetch - processPackages [naruno-gui]: Downloading https://files.pythonhosted.org/packages/f2/2c/12038e155e9d15bfe8f41da1050523271fe2c9a91587f71ea70482b1c065/naruno_gui-0.60.0.tar.gz
+[2023-07-29 02:29:05] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.1.98.tar.gz]
+[2023-07-29 02:29:05] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.1.99.tar.gz]
+[2023-07-29 02:29:05] INFO root fetch - processPackages [naruno-tests]: Downloading https://files.pythonhosted.org/packages/9f/ff/909648695595f97534ab237a98e7dfb68f123356bab7a1d594ff56106127/naruno_tests-0.60.0.tar.gz
+[2023-07-29 02:29:05] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2023-07-29 02:29:05] INFO root fetch - processPackages [naruno-api]: Remove: archive file [/home/abi/fetcher/tmp/naruno_api-0.59.0.tar.gz]
+[2023-07-29 02:29:05] INFO root fetch - processPackages [naruno-api]: Remove: archive file [/home/abi/fetcher/tmp/naruno_api-0.60.0.tar.gz]
+[2023-07-29 02:29:05] INFO root fetch - main [MainThread]: End processing [naruno-api]: success
+[2023-07-29 02:29:05] INFO root fetch - processPackages [cdk-ecs-service-extensions]: New version: [2.0.1a99] Old Version: [2.0.1a98]
+[2023-07-29 02:29:05] INFO root fetch - processPackages [naruno-remote-app]: Downloading https://files.pythonhosted.org/packages/c9/9d/2480644b0b668c0a2bee0f9701b0710fea9361332f723ab69691550dee09/naruno_remote_app-0.60.0.tar.gz
+[2023-07-29 02:29:05] INFO root fetch - processPackages [naruno-gui]: executing diffoscope
+[2023-07-29 02:29:05] INFO root fetch - processPackages [naruno-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naruno_gui-0.59.0.tar.gz tmp/naruno_gui-0.60.0.tar.gz --markdown 20230729/n/naruno-gui/0.59.0-0.60.0/diff.md --exclude *.pyd
+[2023-07-29 02:29:05] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/c9/ad/d7965da0f34d52de670def31464963b3971de03ac20cddf5eac577722b31/cdk-ecs-service-extensions-2.0.1a98.tar.gz
+[2023-07-29 02:29:05] INFO root fetch - processPackages [nonebot-plugin-starrail-calendar]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_starrail_calendar-1.0.5.tar.gz]
+[2023-07-29 02:29:05] INFO root fetch - processPackages [nonebot-plugin-starrail-calendar]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_starrail_calendar-1.0.6.tar.gz]
+[2023-07-29 02:29:05] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-starrail-calendar]: success
+[2023-07-29 02:29:05] INFO root fetch - processPackages [naruno-remote-app]: executing diffoscope
+[2023-07-29 02:29:05] INFO root fetch - processPackages [naruno-remote-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naruno_remote_app-0.59.0.tar.gz tmp/naruno_remote_app-0.60.0.tar.gz --markdown 20230729/n/naruno-remote-app/0.59.0-0.60.0/diff.md --exclude *.pyd
+[2023-07-29 02:29:05] INFO root fetch - processPackages [naruno-tests]: Downloading https://files.pythonhosted.org/packages/e5/31/9626cd10b4caa41a7e87938b0c81e2cd32aa1285153712dcaedc602ef533/naruno_tests-0.60.1.tar.gz
+[2023-07-29 02:29:05] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/9c/f7/1a593c4ae0d3c80332cec251caad8f13a27842299475718ad186eea220ba/cdk-ecs-service-extensions-2.0.1a99.tar.gz
+[2023-07-29 02:29:05] INFO root fetch - processPackages [cdk-ecs-service-extensions]: executing diffoscope
+[2023-07-29 02:29:05] INFO root fetch - processPackages [cdk-ecs-service-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz --markdown 20230729/c/cdk-ecs-service-extensions/2.0.1a98-2.0.1a99/diff.md --exclude *.pyd
+[2023-07-29 02:29:05] INFO root fetch - processPackages [naruno-tests]: executing diffoscope
+[2023-07-29 02:29:05] INFO root fetch - processPackages [naruno-tests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naruno_tests-0.60.0.tar.gz tmp/naruno_tests-0.60.1.tar.gz --markdown 20230729/n/naruno-tests/0.60.0-0.60.1/diff.md --exclude *.pyd
+[2023-07-29 02:29:05] INFO root fetch - processPackages [cdk-docker-image-deployment]: Remove: archive file [/home/abi/fetcher/tmp/cdk-docker-image-deployment-0.0.98.tar.gz]
+[2023-07-29 02:29:05] INFO root fetch - processPackages [cdk-docker-image-deployment]: Remove: archive file [/home/abi/fetcher/tmp/cdk-docker-image-deployment-0.0.99.tar.gz]
+[2023-07-29 02:29:05] INFO root fetch - main [MainThread]: End processing [cdk-docker-image-deployment]: success
+[2023-07-29 02:29:06] INFO root fetch - processPackages [naruno-remote-app]: Remove: archive file [/home/abi/fetcher/tmp/naruno_remote_app-0.59.0.tar.gz]
+[2023-07-29 02:29:06] INFO root fetch - processPackages [naruno-remote-app]: Remove: archive file [/home/abi/fetcher/tmp/naruno_remote_app-0.60.0.tar.gz]
+[2023-07-29 02:29:06] INFO root fetch - main [MainThread]: End processing [naruno-remote-app]: success
+[2023-07-29 02:29:06] INFO root fetch - processPackages [naruno-gui]: Remove: archive file [/home/abi/fetcher/tmp/naruno_gui-0.59.0.tar.gz]
+[2023-07-29 02:29:06] INFO root fetch - processPackages [naruno-gui]: Remove: archive file [/home/abi/fetcher/tmp/naruno_gui-0.60.0.tar.gz]
+[2023-07-29 02:29:06] INFO root fetch - main [MainThread]: End processing [naruno-gui]: success
+[2023-07-29 02:29:06] INFO root fetch - processPackages [naruno]: Remove: archive file [/home/abi/fetcher/tmp/naruno-0.59.0.tar.gz]
+[2023-07-29 02:29:06] INFO root fetch - processPackages [naruno]: Remove: archive file [/home/abi/fetcher/tmp/naruno-0.60.0.tar.gz]
+[2023-07-29 02:29:06] INFO root fetch - main [MainThread]: End processing [naruno]: success
+[2023-07-29 02:29:06] INFO root fetch - processPackages [naruno-tests]: Remove: archive file [/home/abi/fetcher/tmp/naruno_tests-0.60.0.tar.gz]
+[2023-07-29 02:29:06] INFO root fetch - processPackages [naruno-tests]: Remove: archive file [/home/abi/fetcher/tmp/naruno_tests-0.60.1.tar.gz]
+[2023-07-29 02:29:06] INFO root fetch - main [MainThread]: End processing [naruno-tests]: success
+[2023-07-29 02:29:06] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz]
+[2023-07-29 02:29:06] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz]
+[2023-07-29 02:29:06] INFO root fetch - main [MainThread]: End processing [cdk-ecs-service-extensions]: success
+[2023-07-29 02:29:06] INFO root fetch - main [MainThread]: Store serial: [19082992]
