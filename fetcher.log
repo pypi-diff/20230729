@@ -16474,3 +16474,39 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 14:08:21] INFO root fetch - processPackages [matan]: Remove: archive file [/home/abi/fetcher/tmp/matan-0.1.6.tar.gz]
 [2023-07-29 14:08:21] INFO root fetch - main [MainThread]: End processing [matan]: success
 [2023-07-29 14:08:21] INFO root fetch - main [MainThread]: Store serial: [19088356]
+[2023-07-29 14:13:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19088356]
+[2023-07-29 14:13:29] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-29 14:13:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-base-template
+[2023-07-29 14:13:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Boco
+[2023-07-29 14:13:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bgstools
+[2023-07-29 14:13:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quadrature
+[2023-07-29 14:13:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-aujob
+[2023-07-29 14:13:29] WARNING root fetch - processPackages [quadrature]: Skipping, unable to determine old version
+[2023-07-29 14:13:29] INFO root fetch - main [MainThread]: End processing [quadrature] error
+[2023-07-29 14:13:29] INFO root fetch - processPackages [django-base-template]: New version: [1.0.0] Old Version: [0.0.4]
+[2023-07-29 14:13:29] WARNING root fetch - processPackages [Boco]: Skipping, unable to determine old version
+[2023-07-29 14:13:29] INFO root fetch - main [MainThread]: End processing [Boco] error
+[2023-07-29 14:13:29] INFO root fetch - processPackages [bgstools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-29 14:13:29] INFO root fetch - processPackages [nonebot-plugin-aujob]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-29 14:13:29] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/a3/d9/0f2b579fbbb29225abec7da824c3d2177fa751c84913339da89e8d0b4f89/bgstools-0.1.8.tar.gz
+[2023-07-29 14:13:29] INFO root fetch - processPackages [nonebot-plugin-aujob]: Downloading https://files.pythonhosted.org/packages/6c/f4/60a9e05fab99ebb2854bddedcd8aec67100db3ab0baa8a884b4caa874a53/nonebot_plugin_aujob-0.1.1.tar.gz
+[2023-07-29 14:13:29] INFO root fetch - processPackages [django-base-template]: Downloading https://files.pythonhosted.org/packages/ea/87/f582cb3256c9f8f06762f090c2b098caab0730717ce50a2b8066245b636d/django_base_template-0.0.4.tar.gz
+[2023-07-29 14:13:30] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/0a/3c/638191cc7a3a6135dbf58e2857b29d83bacba72ac3e579510aae9606e202/bgstools-0.1.9.tar.gz
+[2023-07-29 14:13:30] INFO root fetch - processPackages [nonebot-plugin-aujob]: Downloading https://files.pythonhosted.org/packages/3a/c1/457fbc0cb2a1804bfeb174077dc7d56b142e74171a3a5a0d0c08a807d54d/nonebot_plugin_aujob-0.1.2.tar.gz
+[2023-07-29 14:13:30] INFO root fetch - processPackages [bgstools]: executing diffoscope
+[2023-07-29 14:13:30] INFO root fetch - processPackages [bgstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgstools-0.1.8.tar.gz tmp/bgstools-0.1.9.tar.gz --markdown 20230729/b/bgstools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-29 14:13:30] INFO root fetch - processPackages [django-base-template]: Downloading https://files.pythonhosted.org/packages/2a/01/f0a0bec971ca7f33d095b881ebd3d38c6726995da238616e067928fed2bd/django_base_template-1.0.0.tar.gz
+[2023-07-29 14:13:30] INFO root fetch - processPackages [nonebot-plugin-aujob]: executing diffoscope
+[2023-07-29 14:13:30] INFO root fetch - processPackages [nonebot-plugin-aujob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_aujob-0.1.1.tar.gz tmp/nonebot_plugin_aujob-0.1.2.tar.gz --markdown 20230729/n/nonebot-plugin-aujob/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-29 14:13:30] INFO root fetch - processPackages [django-base-template]: executing diffoscope
+[2023-07-29 14:13:30] INFO root fetch - processPackages [django-base-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_base_template-0.0.4.tar.gz tmp/django_base_template-1.0.0.tar.gz --markdown 20230729/d/django-base-template/0.0.4-1.0.0/diff.md --exclude *.pyd
+[2023-07-29 14:13:31] INFO root fetch - processPackages [bgstools]: Remove: archive file [/home/abi/fetcher/tmp/bgstools-0.1.8.tar.gz]
+[2023-07-29 14:13:31] INFO root fetch - processPackages [bgstools]: Remove: archive file [/home/abi/fetcher/tmp/bgstools-0.1.9.tar.gz]
+[2023-07-29 14:13:31] INFO root fetch - main [MainThread]: End processing [bgstools]: success
+[2023-07-29 14:13:31] INFO root fetch - processPackages [nonebot-plugin-aujob]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_aujob-0.1.1.tar.gz]
+[2023-07-29 14:13:31] INFO root fetch - processPackages [nonebot-plugin-aujob]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_aujob-0.1.2.tar.gz]
+[2023-07-29 14:13:31] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-aujob]: success
+[2023-07-29 14:13:32] INFO root fetch - processPackages [django-base-template]: Remove: archive file [/home/abi/fetcher/tmp/django_base_template-0.0.4.tar.gz]
+[2023-07-29 14:13:32] INFO root fetch - processPackages [django-base-template]: Remove: archive file [/home/abi/fetcher/tmp/django_base_template-1.0.0.tar.gz]
+[2023-07-29 14:13:32] INFO root fetch - main [MainThread]: End processing [django-base-template]: success
+[2023-07-29 14:13:32] INFO root fetch - main [MainThread]: Store serial: [19088382]
