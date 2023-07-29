@@ -16131,3 +16131,57 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 13:32:04] INFO root fetch - processPackages [torchrec-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrec_nightly-2023.7.29-py39-none-any.whl.zip]
 [2023-07-29 13:32:04] INFO root fetch - main [MainThread]: End processing [torchrec-nightly]: success
 [2023-07-29 13:32:04] INFO root fetch - main [MainThread]: Store serial: [19088211]
+[2023-07-29 13:37:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19088211]
+[2023-07-29 13:37:13] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-29 13:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ukmon-meteortools
+[2023-07-29 13:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sedi
+[2023-07-29 13:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onnx2tf
+[2023-07-29 13:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: idkwhttph
+[2023-07-29 13:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: music-assistant
+[2023-07-29 13:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sedi
+[2023-07-29 13:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pycur
+[2023-07-29 13:37:13] INFO root fetch - processPackages [ukmon-meteortools]: New version: [2023.7.7] Old Version: [2023.7.6]
+[2023-07-29 13:37:13] INFO root fetch - processPackages [sedi]: New version: [0.3] Old Version: [0.2]
+[2023-07-29 13:37:13] INFO root fetch - processPackages [idkwhttph]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-07-29 13:37:13] INFO root fetch - processPackages [sedi]: New version: [0.3] Old Version: [0.2]
+[2023-07-29 13:37:13] INFO root fetch - processPackages [onnx2tf]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-29 13:37:13] INFO root fetch - processPackages [sedi]: Downloading https://files.pythonhosted.org/packages/90/ab/5072b5995ea3dc7f71b227ce8c07a49de8942b12fe1c79b125fb82bc63c0/sedi-0.2.tar.gz
+[2023-07-29 13:37:13] INFO root fetch - processPackages [ukmon-meteortools]: Downloading https://files.pythonhosted.org/packages/be/e9/79af8ac28b4e25af2525ca65d3acf18fd862065a404403e4964d2d92c1b0/ukmon_meteortools-2023.7.6.tar.gz
+[2023-07-29 13:37:13] INFO root fetch - processPackages [sedi]: Downloading https://files.pythonhosted.org/packages/90/ab/5072b5995ea3dc7f71b227ce8c07a49de8942b12fe1c79b125fb82bc63c0/sedi-0.2.tar.gz
+[2023-07-29 13:37:13] WARNING root fetch - processPackages [pycur]: Skipping, unable to determine old version
+[2023-07-29 13:37:13] INFO root fetch - main [MainThread]: End processing [pycur] error
+[2023-07-29 13:37:13] INFO root fetch - processPackages [music-assistant]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2023-07-29 13:37:13] INFO root fetch - processPackages [idkwhttph]: Downloading https://files.pythonhosted.org/packages/54/d9/b5cb3a1c160e236d6d295daf078168a0d8e44fa0a74315d77263ae1b7f32/idkwhttph-0.3.6.tar.gz
+[2023-07-29 13:37:14] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/6f/b3/519ee148592d2531639c5f3c1434df000ecf2c24a5b55b61cba8fd4767f9/onnx2tf-1.9.8.tar.gz
+[2023-07-29 13:37:14] INFO root fetch - processPackages [music-assistant]: Downloading https://files.pythonhosted.org/packages/01/81/90b4aed85dc1c0ddc370cac2850f4f155120a91bed518c846ed8aaf92f03/music_assistant-2.0.0b8.tar.gz
+[2023-07-29 13:37:14] INFO root fetch - processPackages [ukmon-meteortools]: Downloading https://files.pythonhosted.org/packages/80/66/a2fc723606319b5662af27cedc335f63b1ce054b4f6ec1b7cdb1db59bc00/ukmon_meteortools-2023.7.7.tar.gz
+[2023-07-29 13:37:14] INFO root fetch - processPackages [sedi]: Downloading https://files.pythonhosted.org/packages/c4/15/6806f1d3337a430aa36b1e6eb4dff3e106c68f0dda33b2accd23418ac9ed/sedi-0.3.tar.gz
+[2023-07-29 13:37:14] INFO root fetch - processPackages [idkwhttph]: Downloading https://files.pythonhosted.org/packages/58/08/e6152f4e37eb7671bb84d75100ffae9124bdd9c90f37d1963a60cdc9c3d6/idkwhttph-0.3.7.tar.gz
+[2023-07-29 13:37:14] INFO root fetch - processPackages [sedi]: Downloading https://files.pythonhosted.org/packages/c4/15/6806f1d3337a430aa36b1e6eb4dff3e106c68f0dda33b2accd23418ac9ed/sedi-0.3.tar.gz
+[2023-07-29 13:37:14] INFO root fetch - processPackages [ukmon-meteortools]: executing diffoscope
+[2023-07-29 13:37:14] INFO root fetch - processPackages [ukmon-meteortools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ukmon_meteortools-2023.7.6.tar.gz tmp/ukmon_meteortools-2023.7.7.tar.gz --markdown 20230729/u/ukmon-meteortools/2023.7.6-2023.7.7/diff.md --exclude *.pyd
+[2023-07-29 13:37:14] INFO root fetch - processPackages [sedi]: executing diffoscope
+[2023-07-29 13:37:14] INFO root fetch - processPackages [sedi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sedi-0.2.tar.gz tmp/sedi-0.3.tar.gz --markdown 20230729/s/sedi/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-29 13:37:14] INFO root fetch - processPackages [idkwhttph]: executing diffoscope
+[2023-07-29 13:37:14] INFO root fetch - processPackages [idkwhttph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idkwhttph-0.3.6.tar.gz tmp/idkwhttph-0.3.7.tar.gz --markdown 20230729/i/idkwhttph/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-07-29 13:37:14] INFO root fetch - processPackages [sedi]: executing diffoscope
+[2023-07-29 13:37:14] INFO root fetch - processPackages [sedi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sedi-0.2.tar.gz tmp/sedi-0.3.tar.gz --markdown 20230729/s/sedi/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-29 13:37:14] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/0e/df/e0c6978b06db6c5c04de100ecbe0bbb281caed31c4dd88663e61e36ca571/onnx2tf-1.9.9.tar.gz
+[2023-07-29 13:37:14] INFO root fetch - processPackages [onnx2tf]: executing diffoscope
+[2023-07-29 13:37:14] INFO root fetch - processPackages [onnx2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2tf-1.9.8.tar.gz tmp/onnx2tf-1.9.9.tar.gz --markdown 20230729/o/onnx2tf/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-29 13:37:14] WARNING root fetch - processPackages [music-assistant]: Skipping package: exceeds size limit 60699137>=10485760
+[2023-07-29 13:37:14] INFO root fetch - main [MainThread]: End processing [music-assistant] error
+[2023-07-29 13:37:15] INFO root fetch - processPackages [idkwhttph]: Remove: archive file [/home/abi/fetcher/tmp/idkwhttph-0.3.6.tar.gz]
+[2023-07-29 13:37:15] INFO root fetch - processPackages [idkwhttph]: Remove: archive file [/home/abi/fetcher/tmp/idkwhttph-0.3.7.tar.gz]
+[2023-07-29 13:37:15] INFO root fetch - main [MainThread]: End processing [idkwhttph]: success
+[2023-07-29 13:37:15] INFO root fetch - processPackages [sedi]: Remove: archive file [/home/abi/fetcher/tmp/sedi-0.2.tar.gz]
+[2023-07-29 13:37:15] INFO root fetch - processPackages [sedi]: Remove: archive file [/home/abi/fetcher/tmp/sedi-0.3.tar.gz]
+[2023-07-29 13:37:15] INFO root fetch - main [MainThread]: End processing [sedi]: success
+[2023-07-29 13:37:15] INFO root fetch - main [MainThread]: End processing [sedi]: success
+[2023-07-29 13:37:15] INFO root fetch - processPackages [ukmon-meteortools]: Remove: archive file [/home/abi/fetcher/tmp/ukmon_meteortools-2023.7.6.tar.gz]
+[2023-07-29 13:37:15] INFO root fetch - processPackages [ukmon-meteortools]: Remove: archive file [/home/abi/fetcher/tmp/ukmon_meteortools-2023.7.7.tar.gz]
+[2023-07-29 13:37:15] INFO root fetch - main [MainThread]: End processing [ukmon-meteortools]: success
+[2023-07-29 13:37:16] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.8.tar.gz]
+[2023-07-29 13:37:16] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.9.tar.gz]
+[2023-07-29 13:37:16] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
+[2023-07-29 13:37:16] INFO root fetch - main [MainThread]: Store serial: [19088244]
