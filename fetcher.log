@@ -21668,3 +21668,42 @@ AssertionError: tmp/pulpcore-3.9.0.tar.gz does not exist
 [2023-07-29 19:43:32] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-6.99.0.tar.gz]
 [2023-07-29 19:43:32] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
 [2023-07-29 19:43:32] INFO root fetch - main [MainThread]: Store serial: [19090747]
+[2023-07-29 19:48:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19090747]
+[2023-07-29 19:48:41] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-29 19:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cmdix
+[2023-07-29 19:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: enot-autodl
+[2023-07-29 19:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easy-deployer
+[2023-07-29 19:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: actions-security-analyzer
+[2023-07-29 19:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scoda-tk
+[2023-07-29 19:48:41] INFO root fetch - processPackages [actions-security-analyzer]: New version: [1.2.2] Old Version: [1.1.1]
+[2023-07-29 19:48:41] INFO root fetch - processPackages [easy-deployer]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-29 19:48:41] INFO root fetch - processPackages [cmdix]: New version: [3.0.0] Old Version: [2.0.2]
+[2023-07-29 19:48:41] INFO root fetch - processPackages [scoda-tk]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-07-29 19:48:41] INFO root fetch - processPackages [enot-autodl]: New version: [3.4.0] Old Version: [3.3.2]
+[2023-07-29 19:48:41] INFO root fetch - processPackages [easy-deployer]: Downloading https://files.pythonhosted.org/packages/a9/35/297fdccc9e27313ff10c31bbce54a45fc6a3f7ecd6edbe721068e546a72b/easy_deployer-0.1.8.tar.gz
+[2023-07-29 19:48:41] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/e1/5c/ef1c0f8bdc2f7b6f69d9e5d089b06a9d910339d8c3f226d08967445b56e1/scoda-tk-0.0.9.tar.gz
+[2023-07-29 19:48:41] INFO root fetch - processPackages [cmdix]: Downloading https://files.pythonhosted.org/packages/94/0e/836f35982cc2335722f5a700799ba4c50f0284e3e36720286823f52f2c1b/cmdix-2.0.2.tar.gz
+[2023-07-29 19:48:41] INFO root fetch - processPackages [enot-autodl]: Downloading https://files.pythonhosted.org/packages/17/61/bbe858fa2dd60390b7d028f5aae051116df19af30e7568fd96c45f4b4226/enot_autodl-3.3.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-29 19:48:41] INFO root fetch - processPackages [easy-deployer]: Downloading https://files.pythonhosted.org/packages/8c/6a/d217eb2e1b597398470ee5603240d37a40d5c9577f6d2da77bbbb655f3cd/easy_deployer-0.1.9.tar.gz
+[2023-07-29 19:48:41] WARNING root fetch - processPackages [scoda-tk]: Skipping package: exceeds size limit 11118752>=10485760
+[2023-07-29 19:48:41] INFO root fetch - main [MainThread]: End processing [scoda-tk] error
+[2023-07-29 19:48:41] INFO root fetch - processPackages [actions-security-analyzer]: Downloading https://files.pythonhosted.org/packages/a0/5a/c6abfedb6dd0dc5ecd120d7df54abfbb0c0451ae988cd6225db69ddc87e8/actions_security_analyzer-1.2.2.tar.gz
+[2023-07-29 19:48:42] INFO root fetch - processPackages [easy-deployer]: executing diffoscope
+[2023-07-29 19:48:42] INFO root fetch - processPackages [easy-deployer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_deployer-0.1.8.tar.gz tmp/easy_deployer-0.1.9.tar.gz --markdown 20230729/e/easy-deployer/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-29 19:48:42] WARNING root fetch - processPackages [enot-autodl]: Skipping package: exceeds size limit 10935766>=10485760
+[2023-07-29 19:48:42] INFO root fetch - main [MainThread]: End processing [enot-autodl] error
+[2023-07-29 19:48:42] INFO root fetch - processPackages [actions-security-analyzer]: executing diffoscope
+[2023-07-29 19:48:42] INFO root fetch - processPackages [actions-security-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actions_security_analyzer-1.1.1.tar.gz tmp/actions_security_analyzer-1.2.2.tar.gz --markdown 20230729/a/actions-security-analyzer/1.1.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-29 19:48:42] INFO root fetch - processPackages [cmdix]: Downloading https://files.pythonhosted.org/packages/fe/e4/4b7921b778cc8826b28a3125ece22f5ec8dff44ca19928e253be2fdd8bce/cmdix-3.0.0.tar.gz
+[2023-07-29 19:48:42] INFO root fetch - processPackages [cmdix]: executing diffoscope
+[2023-07-29 19:48:42] INFO root fetch - processPackages [cmdix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmdix-2.0.2.tar.gz tmp/cmdix-3.0.0.tar.gz --markdown 20230729/c/cmdix/2.0.2-3.0.0/diff.md --exclude *.pyd
+[2023-07-29 19:48:42] INFO root fetch - processPackages [easy-deployer]: Remove: archive file [/home/abi/fetcher/tmp/easy_deployer-0.1.8.tar.gz]
+[2023-07-29 19:48:42] INFO root fetch - processPackages [easy-deployer]: Remove: archive file [/home/abi/fetcher/tmp/easy_deployer-0.1.9.tar.gz]
+[2023-07-29 19:48:42] INFO root fetch - main [MainThread]: End processing [easy-deployer]: success
+[2023-07-29 19:48:43] INFO root fetch - processPackages [actions-security-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/actions_security_analyzer-1.1.1.tar.gz]
+[2023-07-29 19:48:43] INFO root fetch - processPackages [actions-security-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/actions_security_analyzer-1.2.2.tar.gz]
+[2023-07-29 19:48:43] INFO root fetch - main [MainThread]: End processing [actions-security-analyzer]: success
+[2023-07-29 19:48:43] INFO root fetch - processPackages [cmdix]: Remove: archive file [/home/abi/fetcher/tmp/cmdix-2.0.2.tar.gz]
+[2023-07-29 19:48:43] INFO root fetch - processPackages [cmdix]: Remove: archive file [/home/abi/fetcher/tmp/cmdix-3.0.0.tar.gz]
+[2023-07-29 19:48:43] INFO root fetch - main [MainThread]: End processing [cmdix]: success
+[2023-07-29 19:48:43] INFO root fetch - main [MainThread]: Store serial: [19090764]
