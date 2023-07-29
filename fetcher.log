@@ -2896,3 +2896,51 @@
 [2023-07-29 02:45:43] INFO root fetch - processPackages [mentat-ai]: Remove: archive file [/home/abi/fetcher/tmp/mentat-ai-0.1.6.tar.gz]
 [2023-07-29 02:45:43] INFO root fetch - main [MainThread]: End processing [mentat-ai]: success
 [2023-07-29 02:45:43] INFO root fetch - main [MainThread]: Store serial: [19083100]
+[2023-07-29 02:50:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19083100]
+[2023-07-29 02:50:51] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-29 02:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: garrett-streamlit-auth0
+[2023-07-29 02:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Geode-Common
+[2023-07-29 02:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: RUTTS
+[2023-07-29 02:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OpenGeode-GeosciencesIO
+[2023-07-29 02:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mcptbr
+[2023-07-29 02:50:51] INFO root fetch - processPackages [garrett-streamlit-auth0]: New version: [0.3.dev1690591552] Old Version: [0.3.dev1690590920]
+[2023-07-29 02:50:51] INFO root fetch - processPackages [RUTTS]: New version: [0.0.4] Old Version: [0.0.1]
+[2023-07-29 02:50:51] INFO root fetch - processPackages [mcptbr]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-29 02:50:51] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: New version: [4.2.1rc1] Old Version: [4.2.1]
+[2023-07-29 02:50:51] INFO root fetch - processPackages [Geode-Common]: New version: [26.1.5rc1] Old Version: [26.1.5]
+[2023-07-29 02:50:51] INFO root fetch - processPackages [garrett-streamlit-auth0]: Downloading https://files.pythonhosted.org/packages/3b/61/e51ff38fe9843df3e669106bc1516dc114d367586461cc9664ac47851743/garrett-streamlit-auth0-0.3.dev1690590920.tar.gz
+[2023-07-29 02:50:51] INFO root fetch - processPackages [RUTTS]: Downloading https://files.pythonhosted.org/packages/67/0c/376752d9d164dd8c0bdaadc775ba7bf723c852141a0929c706065b7a7f59/RUTTS-0.0.1.tar.gz
+[2023-07-29 02:50:51] INFO root fetch - processPackages [mcptbr]: Downloading https://files.pythonhosted.org/packages/fe/0a/c1cb80fa74a21b6f5daa12afb7f7cfda1b6548a48aa3645aa4253ffb0ea4/mcptbr-0.2.5.tar.gz
+[2023-07-29 02:50:51] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: Downloading https://files.pythonhosted.org/packages/39/47/5fa5347252882c0eb90307a9c3dfab56f1d16afc7e80855cb00731057de4/OpenGeode_GeosciencesIO-4.2.1-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-29 02:50:51] INFO root fetch - processPackages [Geode-Common]: Downloading https://files.pythonhosted.org/packages/b0/be/403148b1864510611ca992c0cba8a918f7b720f1551b9d61f6b943a7eebc/Geode_Common-26.1.5-cp39-cp39-win_amd64.whl
+[2023-07-29 02:50:51] INFO root fetch - processPackages [RUTTS]: Downloading https://files.pythonhosted.org/packages/4c/3a/b9705bcbf3781c9f730a495a46139f6af51457d9a7c07b9c28d205e43b5b/RUTTS-0.0.4.tar.gz
+[2023-07-29 02:50:51] INFO root fetch - processPackages [garrett-streamlit-auth0]: Downloading https://files.pythonhosted.org/packages/55/65/a5de48f8a9f50f5a0f93d011e0edc4bd80df149f9d051164db8b12a0dbbb/garrett-streamlit-auth0-0.3.dev1690591552.tar.gz
+[2023-07-29 02:50:51] INFO root fetch - processPackages [mcptbr]: Downloading https://files.pythonhosted.org/packages/e6/f8/81db61633fc13b84f97b27e2b39a4be1519297086b6a7a8c5195ff436fe7/mcptbr-0.2.6.tar.gz
+[2023-07-29 02:50:51] INFO root fetch - processPackages [RUTTS]: executing diffoscope
+[2023-07-29 02:50:51] INFO root fetch - processPackages [RUTTS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RUTTS-0.0.1.tar.gz tmp/RUTTS-0.0.4.tar.gz --markdown 20230729/R/RUTTS/0.0.1-0.0.4/diff.md --exclude *.pyd
+[2023-07-29 02:50:51] INFO root fetch - processPackages [mcptbr]: executing diffoscope
+[2023-07-29 02:50:51] INFO root fetch - processPackages [mcptbr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcptbr-0.2.5.tar.gz tmp/mcptbr-0.2.6.tar.gz --markdown 20230729/m/mcptbr/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-29 02:50:51] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: Downloading https://files.pythonhosted.org/packages/93/4e/54cf89f1bb820f890081bdba9bdcbacd70a58ee05fbc47f268c068e3d6ac/OpenGeode_GeosciencesIO-4.2.1rc1-cp39-cp39-win_amd64.whl
+[2023-07-29 02:50:51] INFO root fetch - processPackages [Geode-Common]: Downloading https://files.pythonhosted.org/packages/3c/93/5d8f7f9458f083baa40705d475760a9b6f987ec101218aef18cac6e83389/Geode_Common-26.1.5rc1-cp39-cp39-win_amd64.whl
+[2023-07-29 02:50:51] INFO root fetch - processPackages [garrett-streamlit-auth0]: executing diffoscope
+[2023-07-29 02:50:51] INFO root fetch - processPackages [garrett-streamlit-auth0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garrett-streamlit-auth0-0.3.dev1690590920.tar.gz tmp/garrett-streamlit-auth0-0.3.dev1690591552.tar.gz --markdown 20230729/g/garrett-streamlit-auth0/0.3.dev1690590920-0.3.dev1690591552/diff.md --exclude *.pyd
+[2023-07-29 02:50:52] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: executing diffoscope
+[2023-07-29 02:50:52] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_GeosciencesIO-4.2.1-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/OpenGeode_GeosciencesIO-4.2.1rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230729/O/OpenGeode-GeosciencesIO/4.2.1-4.2.1rc1/diff.md --exclude *.pyd
+[2023-07-29 02:50:52] INFO root fetch - processPackages [Geode-Common]: executing diffoscope
+[2023-07-29 02:50:52] INFO root fetch - processPackages [Geode-Common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Common-26.1.5-cp39-cp39-win_amd64.whl.zip tmp/Geode_Common-26.1.5rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230729/G/Geode-Common/26.1.5-26.1.5rc1/diff.md --exclude *.pyd
+[2023-07-29 02:50:52] INFO root fetch - processPackages [RUTTS]: Remove: archive file [/home/abi/fetcher/tmp/RUTTS-0.0.1.tar.gz]
+[2023-07-29 02:50:52] INFO root fetch - processPackages [RUTTS]: Remove: archive file [/home/abi/fetcher/tmp/RUTTS-0.0.4.tar.gz]
+[2023-07-29 02:50:52] INFO root fetch - main [MainThread]: End processing [RUTTS]: success
+[2023-07-29 02:50:52] INFO root fetch - processPackages [mcptbr]: Remove: archive file [/home/abi/fetcher/tmp/mcptbr-0.2.5.tar.gz]
+[2023-07-29 02:50:52] INFO root fetch - processPackages [mcptbr]: Remove: archive file [/home/abi/fetcher/tmp/mcptbr-0.2.6.tar.gz]
+[2023-07-29 02:50:52] INFO root fetch - main [MainThread]: End processing [mcptbr]: success
+[2023-07-29 02:50:52] INFO root fetch - processPackages [garrett-streamlit-auth0]: Remove: archive file [/home/abi/fetcher/tmp/garrett-streamlit-auth0-0.3.dev1690590920.tar.gz]
+[2023-07-29 02:50:52] INFO root fetch - processPackages [garrett-streamlit-auth0]: Remove: archive file [/home/abi/fetcher/tmp/garrett-streamlit-auth0-0.3.dev1690591552.tar.gz]
+[2023-07-29 02:50:52] INFO root fetch - main [MainThread]: End processing [garrett-streamlit-auth0]: success
+[2023-07-29 02:50:53] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_GeosciencesIO-4.2.1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-29 02:50:53] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_GeosciencesIO-4.2.1rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-29 02:50:53] INFO root fetch - main [MainThread]: End processing [OpenGeode-GeosciencesIO]: success
+[2023-07-29 02:51:01] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-26.1.5-cp39-cp39-win_amd64.whl.zip]
+[2023-07-29 02:51:01] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-26.1.5rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-29 02:51:01] INFO root fetch - main [MainThread]: End processing [Geode-Common]: success
+[2023-07-29 02:51:01] INFO root fetch - main [MainThread]: Store serial: [19083129]
