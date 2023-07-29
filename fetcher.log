@@ -10954,3 +10954,18 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 10:12:59] INFO root fetch - processPackages [django-webstack]: Remove: archive file [/home/abi/fetcher/tmp/django-webstack-1.5.2.tar.gz]
 [2023-07-29 10:12:59] INFO root fetch - main [MainThread]: End processing [django-webstack]: success
 [2023-07-29 10:12:59] INFO root fetch - main [MainThread]: Store serial: [19086336]
+[2023-07-29 10:18:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19086336]
+[2023-07-29 10:18:08] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-29 10:18:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vsketch
+[2023-07-29 10:18:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datarails
+[2023-07-29 10:18:08] WARNING root fetch - processPackages [vsketch]: Skipping, unable to determine old version
+[2023-07-29 10:18:08] INFO root fetch - main [MainThread]: End processing [vsketch] error
+[2023-07-29 10:18:08] INFO root fetch - processPackages [datarails]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-29 10:18:08] INFO root fetch - processPackages [datarails]: Downloading https://files.pythonhosted.org/packages/0c/a3/5c683c5dcabb750bedb979e78d83c63f2ff4d5bf318f9be550d390b0be67/datarails-0.2.4.tar.gz
+[2023-07-29 10:18:08] INFO root fetch - processPackages [datarails]: Downloading https://files.pythonhosted.org/packages/3e/e1/ecfd2dac82012584b3bc59693ca11f9296da4ecb4cefe914f7660be507c0/datarails-0.2.5.tar.gz
+[2023-07-29 10:18:08] INFO root fetch - processPackages [datarails]: executing diffoscope
+[2023-07-29 10:18:08] INFO root fetch - processPackages [datarails]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datarails-0.2.4.tar.gz tmp/datarails-0.2.5.tar.gz --markdown 20230729/d/datarails/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-29 10:18:09] INFO root fetch - processPackages [datarails]: Remove: archive file [/home/abi/fetcher/tmp/datarails-0.2.4.tar.gz]
+[2023-07-29 10:18:09] INFO root fetch - processPackages [datarails]: Remove: archive file [/home/abi/fetcher/tmp/datarails-0.2.5.tar.gz]
+[2023-07-29 10:18:09] INFO root fetch - main [MainThread]: End processing [datarails]: success
+[2023-07-29 10:18:09] INFO root fetch - main [MainThread]: Store serial: [19086350]
