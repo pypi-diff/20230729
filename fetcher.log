@@ -19765,3 +19765,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 17:56:47] INFO root fetch - processPackages [py3status]: Remove: archive file [/home/abi/fetcher/tmp/py3status-3.9-py3-none-any.whl.zip]
 [2023-07-29 17:56:47] INFO root fetch - main [MainThread]: End processing [py3status]: success
 [2023-07-29 17:56:47] INFO root fetch - main [MainThread]: Store serial: [19089980]
+[2023-07-29 18:01:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19089980]
+[2023-07-29 18:01:57] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-29 18:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: compel
+[2023-07-29 18:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FSRS-Optimizer
+[2023-07-29 18:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sdkit
+[2023-07-29 18:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vpd
+[2023-07-29 18:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: revmap
+[2023-07-29 18:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: docarray
+[2023-07-29 18:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hmsysteme
+[2023-07-29 18:01:57] INFO root fetch - processPackages [hmsysteme]: New version: [1.3] Old Version: [1.2]
+[2023-07-29 18:01:57] INFO root fetch - processPackages [sdkit]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-29 18:01:57] INFO root fetch - processPackages [revmap]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-29 18:01:57] INFO root fetch - processPackages [compel]: New version: [2.0.1rc1] Old Version: [2.0.1]
+[2023-07-29 18:01:57] INFO root fetch - processPackages [vpd]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-29 18:01:57] INFO root fetch - processPackages [FSRS-Optimizer]: New version: [4.5.1] Old Version: [4.5.0]
+[2023-07-29 18:01:57] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-07-29 18:01:57] INFO root fetch - processPackages [hmsysteme]: Downloading https://files.pythonhosted.org/packages/cd/1c/c793c4afaa8ee455075470b3ea15cbfb2dd9e4e7c069cbdbef3e18a2c341/hmsysteme-1.2.tar.gz
+[2023-07-29 18:01:57] INFO root fetch - processPackages [vpd]: Downloading https://files.pythonhosted.org/packages/8a/61/b80d1b1a3c85a58ed5493dd3f99d1c989375ed2e9a3f8c7d6944179eda30/vpd-0.9.3.tar.gz
+[2023-07-29 18:01:57] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/d1/c1/f3e251106f7f4c022d55f8fe3a3c0eacdb5bfdf84ce4182f71368c4f3a5f/sdkit-1.0.98.tar.gz
+[2023-07-29 18:01:57] INFO root fetch - processPackages [revmap]: Downloading https://files.pythonhosted.org/packages/9e/6c/31668fe1d45b9a8c4d200e19cdedc1c4d0e69f116addfddff2b51dabcad8/revmap-0.0.6.tar.gz
+[2023-07-29 18:01:57] INFO root fetch - processPackages [FSRS-Optimizer]: Downloading https://files.pythonhosted.org/packages/23/ff/ec1e58d651432dc86376823f72d0e28f9a2b3f9904ae26b396899f1f61e6/FSRS-Optimizer-4.5.0.tar.gz
+[2023-07-29 18:01:57] INFO root fetch - processPackages [compel]: Downloading https://files.pythonhosted.org/packages/5d/17/85f62f482d8768e1e88f1265cef03d04a6478e585a815f8e9713e7abbec3/compel-2.0.1.tar.gz
+[2023-07-29 18:01:57] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/da/d0/4e039d9e7c4e19f30fbd831f0bd4670ae9aa6b5c8b29e21ed55f7886c9fe/docarray-0.9.9.dev4.tar.gz
+[2023-07-29 18:01:57] INFO root fetch - processPackages [vpd]: Downloading https://files.pythonhosted.org/packages/7e/84/55c1adafb72a923126e9c99c2541f452f6993e4da6a2af32f8f65d2ab0fe/vpd-0.9.4.tar.gz
+[2023-07-29 18:01:57] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/7e/69/b60dd118fa3c33f9ff305ec5ce9de04303dfdfc9be5d286e20cbc1ee1e7b/sdkit-1.0.99.tar.gz
+[2023-07-29 18:01:57] INFO root fetch - processPackages [hmsysteme]: Downloading https://files.pythonhosted.org/packages/11/39/00d9375bd142d9a460e23c2e1fbe69f1a6e719ea353b6fb80fc1ea9e27fa/hmsysteme-1.3-py3-none-any.whl
+[2023-07-29 18:01:57] INFO root fetch - processPackages [revmap]: Downloading https://files.pythonhosted.org/packages/04/ec/e9969c87352589bc311ff7f4f258efbc0eaa7efd0b95db95abdb041c6202/revmap-0.0.7.tar.gz
+[2023-07-29 18:01:57] INFO root fetch - processPackages [FSRS-Optimizer]: Downloading https://files.pythonhosted.org/packages/46/ae/e849d63d50f1d97224d4f741c80788ec1bca7e5e6a36fd0f46cd63c8f6a0/FSRS-Optimizer-4.5.1.tar.gz
+[2023-07-29 18:01:57] INFO root fetch - processPackages [vpd]: executing diffoscope
+[2023-07-29 18:01:57] INFO root fetch - processPackages [vpd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vpd-0.9.3.tar.gz tmp/vpd-0.9.4.tar.gz --markdown 20230729/v/vpd/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-29 18:01:57] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-07-29 18:01:57] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.98.tar.gz tmp/sdkit-1.0.99.tar.gz --markdown 20230729/s/sdkit/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-29 18:01:58] INFO root fetch - processPackages [hmsysteme]: executing diffoscope
+[2023-07-29 18:01:58] INFO root fetch - processPackages [hmsysteme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmsysteme-1.2.tar.gz tmp/hmsysteme-1.3-py3-none-any.whl.zip --markdown 20230729/h/hmsysteme/1.2-1.3/diff.md --exclude *.pyd
+[2023-07-29 18:01:58] INFO root fetch - processPackages [compel]: Downloading https://files.pythonhosted.org/packages/9e/5b/6fd9f4e0b73b59bcc71fd8d54c80974cb439f2c7686d3f5c0591ecef18db/compel-2.0.1rc1.tar.gz
+[2023-07-29 18:01:58] INFO root fetch - processPackages [FSRS-Optimizer]: executing diffoscope
+[2023-07-29 18:01:58] INFO root fetch - processPackages [FSRS-Optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FSRS-Optimizer-4.5.0.tar.gz tmp/FSRS-Optimizer-4.5.1.tar.gz --markdown 20230729/F/FSRS-Optimizer/4.5.0-4.5.1/diff.md --exclude *.pyd
+[2023-07-29 18:01:58] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/2b/4f/53a641fcaefc8774128d5f48cb2a7b2e692c8adfce1e2afaf8d9260d8b2a/docarray-0.9.9.dev5.tar.gz
+[2023-07-29 18:01:58] INFO root fetch - processPackages [compel]: executing diffoscope
+[2023-07-29 18:01:58] INFO root fetch - processPackages [compel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compel-2.0.1.tar.gz tmp/compel-2.0.1rc1.tar.gz --markdown 20230729/c/compel/2.0.1-2.0.1rc1/diff.md --exclude *.pyd
+[2023-07-29 18:01:58] INFO root fetch - processPackages [revmap]: executing diffoscope
+[2023-07-29 18:01:58] INFO root fetch - processPackages [revmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revmap-0.0.6.tar.gz tmp/revmap-0.0.7.tar.gz --markdown 20230729/r/revmap/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-29 18:01:58] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-07-29 18:01:58] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230729/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-07-29 18:01:59] INFO root fetch - processPackages [FSRS-Optimizer]: Remove: archive file [/home/abi/fetcher/tmp/FSRS-Optimizer-4.5.0.tar.gz]
+[2023-07-29 18:01:59] INFO root fetch - processPackages [FSRS-Optimizer]: Remove: archive file [/home/abi/fetcher/tmp/FSRS-Optimizer-4.5.1.tar.gz]
+[2023-07-29 18:01:59] INFO root fetch - main [MainThread]: End processing [FSRS-Optimizer]: success
+[2023-07-29 18:01:59] INFO root fetch - processPackages [vpd]: Remove: archive file [/home/abi/fetcher/tmp/vpd-0.9.3.tar.gz]
+[2023-07-29 18:01:59] INFO root fetch - processPackages [vpd]: Remove: archive file [/home/abi/fetcher/tmp/vpd-0.9.4.tar.gz]
+[2023-07-29 18:01:59] INFO root fetch - main [MainThread]: End processing [vpd]: success
+[2023-07-29 18:01:59] INFO root fetch - processPackages [hmsysteme]: Remove: archive file [/home/abi/fetcher/tmp/hmsysteme-1.2.tar.gz]
+[2023-07-29 18:01:59] INFO root fetch - processPackages [hmsysteme]: Remove: archive file [/home/abi/fetcher/tmp/hmsysteme-1.3-py3-none-any.whl.zip]
+[2023-07-29 18:01:59] INFO root fetch - main [MainThread]: End processing [hmsysteme]: success
+[2023-07-29 18:01:59] INFO root fetch - processPackages [compel]: Remove: archive file [/home/abi/fetcher/tmp/compel-2.0.1.tar.gz]
+[2023-07-29 18:01:59] INFO root fetch - processPackages [compel]: Remove: archive file [/home/abi/fetcher/tmp/compel-2.0.1rc1.tar.gz]
+[2023-07-29 18:01:59] INFO root fetch - main [MainThread]: End processing [compel]: success
+[2023-07-29 18:01:59] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.98.tar.gz]
+[2023-07-29 18:01:59] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.99.tar.gz]
+[2023-07-29 18:01:59] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-07-29 18:01:59] INFO root fetch - processPackages [revmap]: Remove: archive file [/home/abi/fetcher/tmp/revmap-0.0.6.tar.gz]
+[2023-07-29 18:01:59] INFO root fetch - processPackages [revmap]: Remove: archive file [/home/abi/fetcher/tmp/revmap-0.0.7.tar.gz]
+[2023-07-29 18:01:59] INFO root fetch - main [MainThread]: End processing [revmap]: success
+[2023-07-29 18:01:59] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev4.tar.gz]
+[2023-07-29 18:01:59] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev5.tar.gz]
+[2023-07-29 18:01:59] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-07-29 18:01:59] INFO root fetch - main [MainThread]: Store serial: [19090000]
