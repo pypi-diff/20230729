@@ -8677,3 +8677,61 @@
 [2023-07-29 06:54:23] INFO root fetch - processPackages [t265]: Remove: archive file [/home/abi/fetcher/tmp/t265-0.1.4.tar.gz]
 [2023-07-29 06:54:23] INFO root fetch - main [MainThread]: End processing [t265]: success
 [2023-07-29 06:54:23] INFO root fetch - main [MainThread]: Store serial: [19085449]
+[2023-07-29 06:59:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19085449]
+[2023-07-29 06:59:31] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-29 06:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yunxiao
+[2023-07-29 06:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pbake
+[2023-07-29 06:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ha-ssh-helpers
+[2023-07-29 06:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fdfat
+[2023-07-29 06:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: actions-security-analyzer
+[2023-07-29 06:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: htscf
+[2023-07-29 06:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pbake
+[2023-07-29 06:59:31] INFO root fetch - processPackages [htscf]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-29 06:59:31] INFO root fetch - processPackages [pbake]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-29 06:59:31] INFO root fetch - processPackages [pbake]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-29 06:59:31] WARNING root fetch - processPackages [ha-ssh-helpers]: Skipping, unable to determine old version
+[2023-07-29 06:59:31] INFO root fetch - main [MainThread]: End processing [ha-ssh-helpers] error
+[2023-07-29 06:59:31] INFO root fetch - processPackages [actions-security-analyzer]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-29 06:59:31] INFO root fetch - processPackages [fdfat]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-29 06:59:31] INFO root fetch - processPackages [yunxiao]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-07-29 06:59:31] INFO root fetch - processPackages [htscf]: Downloading https://files.pythonhosted.org/packages/c8/e9/433ebd24b2457e1ffcd9a6f543cd43dd34bcf7322cf71c2fe114c40ff539/htscf-0.0.8.tar.gz
+[2023-07-29 06:59:31] INFO root fetch - processPackages [pbake]: Downloading https://files.pythonhosted.org/packages/05/ac/37c0f400227657c20b47d5ad1d2dbd81d0d9f0c3bd162a291a286077962e/pbake-0.0.4.tar.gz
+[2023-07-29 06:59:31] INFO root fetch - processPackages [pbake]: Downloading https://files.pythonhosted.org/packages/05/ac/37c0f400227657c20b47d5ad1d2dbd81d0d9f0c3bd162a291a286077962e/pbake-0.0.4.tar.gz
+[2023-07-29 06:59:31] INFO root fetch - processPackages [actions-security-analyzer]: Downloading https://files.pythonhosted.org/packages/14/f2/d86d8ae053b7e38fb8bf24641e255cd625956d0cfe01e898cd902a77cef0/actions_security_analyzer-1.1.0.tar.gz
+[2023-07-29 06:59:31] INFO root fetch - processPackages [fdfat]: Downloading https://files.pythonhosted.org/packages/52/42/506d3fba14d58806c280bd41827378afbc8feb465c3c9021fad9db01c7fe/fdfat-0.1.8.tar.gz
+[2023-07-29 06:59:31] INFO root fetch - processPackages [yunxiao]: Downloading https://files.pythonhosted.org/packages/f1/10/4dae498b5104f316f6bf5c2a3f6258f6177cfefa7cd8f0b1c20e8ff8344e/yunxiao-0.3.4.tar.gz
+[2023-07-29 06:59:32] INFO root fetch - processPackages [htscf]: Downloading https://files.pythonhosted.org/packages/7f/35/bbaf42ecce41b0a1aaec9012e9c22f97ede668deb3ddeeef6fb0e250f1fb/htscf-0.0.9.tar.gz
+[2023-07-29 06:59:32] INFO root fetch - processPackages [fdfat]: Downloading https://files.pythonhosted.org/packages/33/f3/6899c69370589ad43d818b9e5cdb2d0d01d7ef88af4613948080645b45db/fdfat-0.1.9.tar.gz
+[2023-07-29 06:59:32] INFO root fetch - processPackages [htscf]: executing diffoscope
+[2023-07-29 06:59:32] INFO root fetch - processPackages [htscf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htscf-0.0.8.tar.gz tmp/htscf-0.0.9.tar.gz --markdown 20230729/h/htscf/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-29 06:59:32] INFO root fetch - processPackages [pbake]: Downloading https://files.pythonhosted.org/packages/1b/ff/5cdf6d98e2d288b125a2c877c9c29e42f7ae467fc119638a81829c947fc6/pbake-0.0.5-py3-none-any.whl
+[2023-07-29 06:59:32] INFO root fetch - processPackages [pbake]: Downloading https://files.pythonhosted.org/packages/1b/ff/5cdf6d98e2d288b125a2c877c9c29e42f7ae467fc119638a81829c947fc6/pbake-0.0.5-py3-none-any.whl
+[2023-07-29 06:59:32] INFO root fetch - processPackages [fdfat]: executing diffoscope
+[2023-07-29 06:59:32] INFO root fetch - processPackages [fdfat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdfat-0.1.8.tar.gz tmp/fdfat-0.1.9.tar.gz --markdown 20230729/f/fdfat/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-29 06:59:32] INFO root fetch - processPackages [actions-security-analyzer]: Downloading https://files.pythonhosted.org/packages/22/40/1f502e8c0c19cdb17caccb0fca585b667d76e945126c42321af902ff623b/actions_security_analyzer-1.1.1.tar.gz
+[2023-07-29 06:59:32] INFO root fetch - processPackages [yunxiao]: Downloading https://files.pythonhosted.org/packages/9b/31/a59d441b06f7ed93eaf36cf3f69bf77a801dfee9c0c16580eb2c2fc6e28b/yunxiao-0.3.5.tar.gz
+[2023-07-29 06:59:32] INFO root fetch - processPackages [pbake]: executing diffoscope
+[2023-07-29 06:59:32] INFO root fetch - processPackages [pbake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbake-0.0.4.tar.gz tmp/pbake-0.0.5-py3-none-any.whl.zip --markdown 20230729/p/pbake/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-29 06:59:32] INFO root fetch - processPackages [pbake]: executing diffoscope
+[2023-07-29 06:59:32] INFO root fetch - processPackages [pbake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbake-0.0.4.tar.gz tmp/pbake-0.0.5-py3-none-any.whl.zip --markdown 20230729/p/pbake/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-29 06:59:32] INFO root fetch - processPackages [yunxiao]: executing diffoscope
+[2023-07-29 06:59:32] INFO root fetch - processPackages [yunxiao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yunxiao-0.3.4.tar.gz tmp/yunxiao-0.3.5.tar.gz --markdown 20230729/y/yunxiao/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-29 06:59:33] INFO root fetch - processPackages [actions-security-analyzer]: executing diffoscope
+[2023-07-29 06:59:33] INFO root fetch - processPackages [actions-security-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actions_security_analyzer-1.1.0.tar.gz tmp/actions_security_analyzer-1.1.1.tar.gz --markdown 20230729/a/actions-security-analyzer/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-29 06:59:33] INFO root fetch - processPackages [htscf]: Remove: archive file [/home/abi/fetcher/tmp/htscf-0.0.8.tar.gz]
+[2023-07-29 06:59:33] INFO root fetch - processPackages [htscf]: Remove: archive file [/home/abi/fetcher/tmp/htscf-0.0.9.tar.gz]
+[2023-07-29 06:59:33] INFO root fetch - main [MainThread]: End processing [htscf]: success
+[2023-07-29 06:59:33] INFO root fetch - processPackages [pbake]: Remove: archive file [/home/abi/fetcher/tmp/pbake-0.0.4.tar.gz]
+[2023-07-29 06:59:33] INFO root fetch - processPackages [pbake]: Remove: archive file [/home/abi/fetcher/tmp/pbake-0.0.5-py3-none-any.whl.zip]
+[2023-07-29 06:59:33] INFO root fetch - main [MainThread]: End processing [pbake]: success
+[2023-07-29 06:59:33] INFO root fetch - processPackages [fdfat]: Remove: archive file [/home/abi/fetcher/tmp/fdfat-0.1.8.tar.gz]
+[2023-07-29 06:59:33] INFO root fetch - processPackages [fdfat]: Remove: archive file [/home/abi/fetcher/tmp/fdfat-0.1.9.tar.gz]
+[2023-07-29 06:59:33] INFO root fetch - main [MainThread]: End processing [fdfat]: success
+[2023-07-29 06:59:33] INFO root fetch - main [MainThread]: End processing [pbake]: success
+[2023-07-29 06:59:33] INFO root fetch - processPackages [yunxiao]: Remove: archive file [/home/abi/fetcher/tmp/yunxiao-0.3.4.tar.gz]
+[2023-07-29 06:59:33] INFO root fetch - processPackages [yunxiao]: Remove: archive file [/home/abi/fetcher/tmp/yunxiao-0.3.5.tar.gz]
+[2023-07-29 06:59:33] INFO root fetch - main [MainThread]: End processing [yunxiao]: success
+[2023-07-29 06:59:34] INFO root fetch - processPackages [actions-security-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/actions_security_analyzer-1.1.0.tar.gz]
+[2023-07-29 06:59:34] INFO root fetch - processPackages [actions-security-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/actions_security_analyzer-1.1.1.tar.gz]
+[2023-07-29 06:59:34] INFO root fetch - main [MainThread]: End processing [actions-security-analyzer]: success
+[2023-07-29 06:59:34] INFO root fetch - main [MainThread]: Store serial: [19085474]
