@@ -15873,3 +15873,93 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 13:16:27] INFO root fetch - processPackages [fern-sentra]: Remove: archive file [/home/abi/fetcher/tmp/fern_sentra-0.0.6.tar.gz]
 [2023-07-29 13:16:27] INFO root fetch - main [MainThread]: End processing [fern-sentra]: success
 [2023-07-29 13:16:27] INFO root fetch - main [MainThread]: Store serial: [19088112]
+[2023-07-29 13:21:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19088112]
+[2023-07-29 13:21:35] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-29 13:21:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ukmon-meteortools
+[2023-07-29 13:21:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CircuitCalculator
+[2023-07-29 13:21:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lazysdk
+[2023-07-29 13:21:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sedi
+[2023-07-29 13:21:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CipherProgram
+[2023-07-29 13:21:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: porkbun-ddns
+[2023-07-29 13:21:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: djangoldp-babelfish
+[2023-07-29 13:21:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: beanclerk
+[2023-07-29 13:21:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: twitternewsbot
+[2023-07-29 13:21:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Bokit
+[2023-07-29 13:21:35] INFO root fetch - processPackages [lazysdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-29 13:21:35] INFO root fetch - processPackages [beanclerk]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-29 13:21:36] INFO root fetch - processPackages [CircuitCalculator]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-29 13:21:36] INFO root fetch - processPackages [porkbun-ddns]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-29 13:21:36] WARNING root fetch - processPackages [sedi]: Skipping, unable to determine old version
+[2023-07-29 13:21:36] INFO root fetch - processPackages [sedi]: Start processing: SPCEj9bbotw
+[2023-07-29 13:21:36] INFO root fetch - main [MainThread]: End processing [sedi] error
+[2023-07-29 13:21:36] INFO root fetch - processPackages [djangoldp-babelfish]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-29 13:21:36] INFO root fetch - processPackages [twitternewsbot]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-07-29 13:21:36] INFO root fetch - processPackages [CipherProgram]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-29 13:21:36] INFO root fetch - processPackages [SPCEj9bbotw]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-29 13:21:36] INFO root fetch - processPackages [ukmon-meteortools]: New version: [2023.7.6] Old Version: [2023.7.5]
+[2023-07-29 13:21:36] WARNING root fetch - processPackages [Bokit]: Skipping, unable to determine old version
+[2023-07-29 13:21:36] INFO root fetch - main [MainThread]: End processing [Bokit] error
+[2023-07-29 13:21:36] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/38/6e/873c1f710606f91c4d8dd01b66a600b8f53828c838a79ba123c316f77c05/lazysdk-0.1.8.tar.gz
+[2023-07-29 13:21:36] INFO root fetch - processPackages [porkbun-ddns]: Downloading https://files.pythonhosted.org/packages/37/8a/32fe7f80f11e92c660136856513175e2bb9ed3e6c5856389a0d95a57e0d8/porkbun_ddns-0.1.5-py3-none-any.whl
+[2023-07-29 13:21:36] INFO root fetch - processPackages [CircuitCalculator]: Downloading https://files.pythonhosted.org/packages/bf/1f/61591bd6874775c2a603db5f2f5a8b3f266e9003b2a8738b62779b126602/CircuitCalculator-0.0.8.tar.gz
+[2023-07-29 13:21:36] INFO root fetch - processPackages [CipherProgram]: Downloading https://files.pythonhosted.org/packages/e3/b3/74393bf1740952d1c67d8c847657b8f39c582f1c02525f88d0b44651870e/CipherProgram-0.0.2.tar.gz
+[2023-07-29 13:21:36] INFO root fetch - processPackages [djangoldp-babelfish]: Downloading https://files.pythonhosted.org/packages/10/13/1bc66e4f0223f9b39a25318f6fac684087838cd535bebea2c02e1c853bbf/djangoldp_babelfish-1.0.2.tar.gz
+[2023-07-29 13:21:36] INFO root fetch - processPackages [ukmon-meteortools]: Downloading https://files.pythonhosted.org/packages/9e/22/250898cbbba7fd3d1734d25ec39ae512e5d8b5b8f2a9bb3946d1db3c2f5b/ukmon_meteortools-2023.7.5.tar.gz
+[2023-07-29 13:21:36] INFO root fetch - processPackages [beanclerk]: Downloading https://files.pythonhosted.org/packages/ce/ac/2966a6f5a073849c820e91bb88c5eab04e878b2f122e831cd094f5c25545/beanclerk-0.0.4.tar.gz
+[2023-07-29 13:21:36] INFO root fetch - processPackages [twitternewsbot]: Downloading https://files.pythonhosted.org/packages/dc/b1/4f5930ff268c2b43ceb3beb5a51b5333215dbca1e5208b3807d223880640/twitternewsbot-2.0.2.tar.gz
+[2023-07-29 13:21:36] INFO root fetch - processPackages [SPCEj9bbotw]: Downloading https://files.pythonhosted.org/packages/7e/e2/3c8497d93085b0ff7e79cf9abf8917f13f699e48a0fcfa491cda36374386/SPCEj9bbotw-0.0.1.tar.gz
+[2023-07-29 13:21:36] INFO root fetch - processPackages [CircuitCalculator]: Downloading https://files.pythonhosted.org/packages/e9/6b/012f1855b3854bed914cfc1577b7852d1bbf3b9d8ef65de04bf67ea35775/CircuitCalculator-0.0.9.tar.gz
+[2023-07-29 13:21:36] INFO root fetch - processPackages [porkbun-ddns]: Downloading https://files.pythonhosted.org/packages/98/55/4eeb473a35c051fe11d94bc1755c9eb0a42fc62007a80b6bf5d9f484a9e3/porkbun_ddns-0.1.6-py3-none-any.whl
+[2023-07-29 13:21:36] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/56/f7/82feafe86145b2d6d28587748503b8e9a4aaab1142447bc3345f6b0683e6/lazysdk-0.1.9.tar.gz
+[2023-07-29 13:21:36] INFO root fetch - processPackages [djangoldp-babelfish]: Downloading https://files.pythonhosted.org/packages/a5/f0/6b7bd5ac8d8bf586a1a8516280794604ea1b10c07a6f3339d8b49d8e8f89/djangoldp_babelfish-1.0.3.tar.gz
+[2023-07-29 13:21:36] INFO root fetch - processPackages [SPCEj9bbotw]: Downloading https://files.pythonhosted.org/packages/5f/85/b606290f53a554d638bcbee219679a9b2f5f26f28a680d943f15c7aa56ab/SPCEj9bbotw-0.0.2.tar.gz
+[2023-07-29 13:21:36] INFO root fetch - processPackages [CircuitCalculator]: executing diffoscope
+[2023-07-29 13:21:36] INFO root fetch - processPackages [CircuitCalculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CircuitCalculator-0.0.8.tar.gz tmp/CircuitCalculator-0.0.9.tar.gz --markdown 20230729/C/CircuitCalculator/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-29 13:21:36] INFO root fetch - processPackages [lazysdk]: executing diffoscope
+[2023-07-29 13:21:36] INFO root fetch - processPackages [lazysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazysdk-0.1.8.tar.gz tmp/lazysdk-0.1.9.tar.gz --markdown 20230729/l/lazysdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-29 13:21:36] INFO root fetch - processPackages [porkbun-ddns]: executing diffoscope
+[2023-07-29 13:21:36] INFO root fetch - processPackages [porkbun-ddns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/porkbun_ddns-0.1.5-py3-none-any.whl.zip tmp/porkbun_ddns-0.1.6-py3-none-any.whl.zip --markdown 20230729/p/porkbun-ddns/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-29 13:21:36] INFO root fetch - processPackages [CipherProgram]: Downloading https://files.pythonhosted.org/packages/a6/88/42c4a551e1f8ccd859135c6cfa2e083a2a032a12344f49662a6242dca55e/CipherProgram-0.0.3.tar.gz
+[2023-07-29 13:21:36] INFO root fetch - processPackages [ukmon-meteortools]: Downloading https://files.pythonhosted.org/packages/be/e9/79af8ac28b4e25af2525ca65d3acf18fd862065a404403e4964d2d92c1b0/ukmon_meteortools-2023.7.6.tar.gz
+[2023-07-29 13:21:36] INFO root fetch - processPackages [beanclerk]: Downloading https://files.pythonhosted.org/packages/c2/3f/e5a7477c11ec70c8a042c77503b9eb7c34bcd9ec78b8787575bd38358786/beanclerk-0.0.5.tar.gz
+[2023-07-29 13:21:36] INFO root fetch - processPackages [djangoldp-babelfish]: executing diffoscope
+[2023-07-29 13:21:36] INFO root fetch - processPackages [djangoldp-babelfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_babelfish-1.0.2.tar.gz tmp/djangoldp_babelfish-1.0.3.tar.gz --markdown 20230729/d/djangoldp-babelfish/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-29 13:21:37] INFO root fetch - processPackages [SPCEj9bbotw]: executing diffoscope
+[2023-07-29 13:21:37] INFO root fetch - processPackages [SPCEj9bbotw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SPCEj9bbotw-0.0.1.tar.gz tmp/SPCEj9bbotw-0.0.2.tar.gz --markdown 20230729/S/SPCEj9bbotw/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-29 13:21:37] INFO root fetch - processPackages [twitternewsbot]: Downloading https://files.pythonhosted.org/packages/04/7b/f0e0a7669ff4a39e27fb327fbdb5798f69a410a95196a077627635dfd5bf/twitternewsbot-2.0.3.tar.gz
+[2023-07-29 13:21:37] INFO root fetch - processPackages [CipherProgram]: executing diffoscope
+[2023-07-29 13:21:37] INFO root fetch - processPackages [CipherProgram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CipherProgram-0.0.2.tar.gz tmp/CipherProgram-0.0.3.tar.gz --markdown 20230729/C/CipherProgram/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-29 13:21:37] INFO root fetch - processPackages [twitternewsbot]: executing diffoscope
+[2023-07-29 13:21:37] INFO root fetch - processPackages [twitternewsbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twitternewsbot-2.0.2.tar.gz tmp/twitternewsbot-2.0.3.tar.gz --markdown 20230729/t/twitternewsbot/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-07-29 13:21:37] INFO root fetch - processPackages [beanclerk]: executing diffoscope
+[2023-07-29 13:21:37] INFO root fetch - processPackages [beanclerk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beanclerk-0.0.4.tar.gz tmp/beanclerk-0.0.5.tar.gz --markdown 20230729/b/beanclerk/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-29 13:21:37] INFO root fetch - processPackages [ukmon-meteortools]: executing diffoscope
+[2023-07-29 13:21:37] INFO root fetch - processPackages [ukmon-meteortools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ukmon_meteortools-2023.7.5.tar.gz tmp/ukmon_meteortools-2023.7.6.tar.gz --markdown 20230729/u/ukmon-meteortools/2023.7.5-2023.7.6/diff.md --exclude *.pyd
+[2023-07-29 13:21:38] INFO root fetch - processPackages [SPCEj9bbotw]: Remove: archive file [/home/abi/fetcher/tmp/SPCEj9bbotw-0.0.1.tar.gz]
+[2023-07-29 13:21:38] INFO root fetch - processPackages [SPCEj9bbotw]: Remove: archive file [/home/abi/fetcher/tmp/SPCEj9bbotw-0.0.2.tar.gz]
+[2023-07-29 13:21:38] INFO root fetch - main [MainThread]: End processing [SPCEj9bbotw]: success
+[2023-07-29 13:21:38] INFO root fetch - processPackages [porkbun-ddns]: Remove: archive file [/home/abi/fetcher/tmp/porkbun_ddns-0.1.5-py3-none-any.whl.zip]
+[2023-07-29 13:21:38] INFO root fetch - processPackages [porkbun-ddns]: Remove: archive file [/home/abi/fetcher/tmp/porkbun_ddns-0.1.6-py3-none-any.whl.zip]
+[2023-07-29 13:21:38] INFO root fetch - main [MainThread]: End processing [porkbun-ddns]: success
+[2023-07-29 13:21:38] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.8.tar.gz]
+[2023-07-29 13:21:38] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.9.tar.gz]
+[2023-07-29 13:21:38] INFO root fetch - main [MainThread]: End processing [lazysdk]: success
+[2023-07-29 13:21:38] INFO root fetch - processPackages [CircuitCalculator]: Remove: archive file [/home/abi/fetcher/tmp/CircuitCalculator-0.0.8.tar.gz]
+[2023-07-29 13:21:38] INFO root fetch - processPackages [CircuitCalculator]: Remove: archive file [/home/abi/fetcher/tmp/CircuitCalculator-0.0.9.tar.gz]
+[2023-07-29 13:21:38] INFO root fetch - main [MainThread]: End processing [CircuitCalculator]: success
+[2023-07-29 13:21:38] INFO root fetch - processPackages [CipherProgram]: Remove: archive file [/home/abi/fetcher/tmp/CipherProgram-0.0.2.tar.gz]
+[2023-07-29 13:21:38] INFO root fetch - processPackages [CipherProgram]: Remove: archive file [/home/abi/fetcher/tmp/CipherProgram-0.0.3.tar.gz]
+[2023-07-29 13:21:38] INFO root fetch - main [MainThread]: End processing [CipherProgram]: success
+[2023-07-29 13:21:38] INFO root fetch - processPackages [djangoldp-babelfish]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_babelfish-1.0.2.tar.gz]
+[2023-07-29 13:21:38] INFO root fetch - processPackages [djangoldp-babelfish]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_babelfish-1.0.3.tar.gz]
+[2023-07-29 13:21:38] INFO root fetch - main [MainThread]: End processing [djangoldp-babelfish]: success
+[2023-07-29 13:21:38] INFO root fetch - processPackages [twitternewsbot]: Remove: archive file [/home/abi/fetcher/tmp/twitternewsbot-2.0.2.tar.gz]
+[2023-07-29 13:21:38] INFO root fetch - processPackages [twitternewsbot]: Remove: archive file [/home/abi/fetcher/tmp/twitternewsbot-2.0.3.tar.gz]
+[2023-07-29 13:21:38] INFO root fetch - main [MainThread]: End processing [twitternewsbot]: success
+[2023-07-29 13:21:38] INFO root fetch - processPackages [beanclerk]: Remove: archive file [/home/abi/fetcher/tmp/beanclerk-0.0.4.tar.gz]
+[2023-07-29 13:21:38] INFO root fetch - processPackages [beanclerk]: Remove: archive file [/home/abi/fetcher/tmp/beanclerk-0.0.5.tar.gz]
+[2023-07-29 13:21:38] INFO root fetch - main [MainThread]: End processing [beanclerk]: success
+[2023-07-29 13:21:39] INFO root fetch - processPackages [ukmon-meteortools]: Remove: archive file [/home/abi/fetcher/tmp/ukmon_meteortools-2023.7.5.tar.gz]
+[2023-07-29 13:21:39] INFO root fetch - processPackages [ukmon-meteortools]: Remove: archive file [/home/abi/fetcher/tmp/ukmon_meteortools-2023.7.6.tar.gz]
+[2023-07-29 13:21:39] INFO root fetch - main [MainThread]: End processing [ukmon-meteortools]: success
+[2023-07-29 13:21:39] INFO root fetch - main [MainThread]: Store serial: [19088147]
