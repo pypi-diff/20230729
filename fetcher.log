@@ -17897,3 +17897,84 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 15:33:00] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230729-py3-none-manylinux1_x86_64.whl.zip]
 [2023-07-29 15:33:00] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark3]: success
 [2023-07-29 15:33:00] INFO root fetch - main [MainThread]: Store serial: [19089039]
+[2023-07-29 15:38:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19089039]
+[2023-07-29 15:38:09] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-29 15:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tendril-interests
+[2023-07-29 15:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fbgemm-gpu-nightly
+[2023-07-29 15:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fajrGPT
+[2023-07-29 15:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oneat
+[2023-07-29 15:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: FlowTutor
+[2023-07-29 15:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hezar
+[2023-07-29 15:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: axabc
+[2023-07-29 15:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: composabl-ray
+[2023-07-29 15:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: apixdev
+[2023-07-29 15:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: oneat
+[2023-07-29 15:38:09] INFO root fetch - processPackages [composabl-ray]: New version: [0.3.5] Old Version: [0.2.4]
+[2023-07-29 15:38:09] INFO root fetch - processPackages [tendril-interests]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-29 15:38:09] INFO root fetch - processPackages [hezar]: New version: [0.17.3] Old Version: [0.17.2]
+[2023-07-29 15:38:09] WARNING root fetch - processPackages [FlowTutor]: Skipping, unable to determine old version
+[2023-07-29 15:38:09] INFO root fetch - main [MainThread]: End processing [FlowTutor] error
+[2023-07-29 15:38:09] INFO root fetch - processPackages [apixdev]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-07-29 15:38:09] INFO root fetch - processPackages [axabc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-29 15:38:09] INFO root fetch - processPackages [fajrGPT]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-29 15:38:09] INFO root fetch - processPackages [oneat]: New version: [6.1.8] Old Version: [6.1.7]
+[2023-07-29 15:38:09] INFO root fetch - processPackages [fbgemm-gpu-nightly]: New version: [2023.7.29] Old Version: [2023.7.28]
+[2023-07-29 15:38:09] INFO root fetch - processPackages [oneat]: New version: [6.1.8] Old Version: [6.1.7]
+[2023-07-29 15:38:09] INFO root fetch - processPackages [tendril-interests]: Downloading https://files.pythonhosted.org/packages/11/24/4eb68b585eb68f66062df8cbd7547dd98b9c8a5ff5cc6b6c438efd20cd59/tendril-interests-0.3.2.tar.gz
+[2023-07-29 15:38:09] INFO root fetch - processPackages [hezar]: Downloading https://files.pythonhosted.org/packages/17/c9/fa6211721af011501c90dbf4b3d4a993b704cf67e35b849ce4cb5b28aef1/hezar-0.17.2.tar.gz
+[2023-07-29 15:38:09] INFO root fetch - processPackages [axabc]: Downloading https://files.pythonhosted.org/packages/41/c5/b797e58b17775ec27f68316c932448dfa73c089804cd7a559dea828dcd85/axabc-0.0.8.tar.gz
+[2023-07-29 15:38:09] INFO root fetch - processPackages [apixdev]: Downloading https://files.pythonhosted.org/packages/55/15/d40d38546737b95366ea2cd90868d3563b8140fae61f4ce12e0c6547555c/apixdev-0.3.5.tar.gz
+[2023-07-29 15:38:09] INFO root fetch - processPackages [oneat]: Downloading https://files.pythonhosted.org/packages/b5/fd/bf8af4d0b558712bab3baa532a224cde2c62d3a1a692220c95d8859bde6a/oneat-6.1.7.tar.gz
+[2023-07-29 15:38:09] INFO root fetch - processPackages [composabl-ray]: Downloading https://files.pythonhosted.org/packages/95/f3/a837f616e0220bda79663b4ae1ea52567b670cd007f476fad201f7543d40/composabl_ray-0.2.4-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-07-29 15:38:09] INFO root fetch - processPackages [oneat]: Downloading https://files.pythonhosted.org/packages/b5/fd/bf8af4d0b558712bab3baa532a224cde2c62d3a1a692220c95d8859bde6a/oneat-6.1.7.tar.gz
+[2023-07-29 15:38:09] INFO root fetch - processPackages [fajrGPT]: Downloading https://files.pythonhosted.org/packages/86/98/eaa6142712579ac4cc0a5d369351297e5eb5e08955668f513da6698c1920/fajrGPT-1.4.8.tar.gz
+[2023-07-29 15:38:10] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/d7/e2/a443168c86542e95a0ceb6049d0afb9498cc076223d46870b53590779b10/fbgemm_gpu_nightly-2023.7.28-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-29 15:38:10] INFO root fetch - processPackages [axabc]: Downloading https://files.pythonhosted.org/packages/60/61/87ebd4434765200cd248acf948bf78aef84ae73165a7cb8854e4f5a4f66d/axabc-0.0.9.tar.gz
+[2023-07-29 15:38:10] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping package: exceeds size limit 218112171>=10485760
+[2023-07-29 15:38:10] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2023-07-29 15:38:10] INFO root fetch - processPackages [tendril-interests]: Downloading https://files.pythonhosted.org/packages/de/1a/2ffe4a6a975fdeb0606d87ffca0115f36acb0a3b55fb9ca05018bb2ee5e4/tendril-interests-0.3.3.tar.gz
+[2023-07-29 15:38:10] INFO root fetch - processPackages [apixdev]: Downloading https://files.pythonhosted.org/packages/85/29/3a515abe59a1f9aa8b7c8d79ba54cf244ca0925829851a238f2b77f9068e/apixdev-0.3.6.tar.gz
+[2023-07-29 15:38:10] INFO root fetch - processPackages [hezar]: Downloading https://files.pythonhosted.org/packages/8f/70/5c7a158a5e3b26f3fcb301fd27c0416001079e2d82ce6127de19e44ee8e1/hezar-0.17.3.tar.gz
+[2023-07-29 15:38:10] INFO root fetch - processPackages [axabc]: executing diffoscope
+[2023-07-29 15:38:10] INFO root fetch - processPackages [axabc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axabc-0.0.8.tar.gz tmp/axabc-0.0.9.tar.gz --markdown 20230729/a/axabc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-29 15:38:10] INFO root fetch - processPackages [fajrGPT]: Downloading https://files.pythonhosted.org/packages/54/e1/66c6c4fe0d6083e9701a2524302575e13a0547d6abf78a5f936c069548de/fajrGPT-1.4.9.tar.gz
+[2023-07-29 15:38:10] INFO root fetch - processPackages [tendril-interests]: executing diffoscope
+[2023-07-29 15:38:10] INFO root fetch - processPackages [tendril-interests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-interests-0.3.2.tar.gz tmp/tendril-interests-0.3.3.tar.gz --markdown 20230729/t/tendril-interests/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-29 15:38:10] INFO root fetch - processPackages [hezar]: executing diffoscope
+[2023-07-29 15:38:10] INFO root fetch - processPackages [hezar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hezar-0.17.2.tar.gz tmp/hezar-0.17.3.tar.gz --markdown 20230729/h/hezar/0.17.2-0.17.3/diff.md --exclude *.pyd
+[2023-07-29 15:38:10] INFO root fetch - processPackages [apixdev]: executing diffoscope
+[2023-07-29 15:38:10] INFO root fetch - processPackages [apixdev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apixdev-0.3.5.tar.gz tmp/apixdev-0.3.6.tar.gz --markdown 20230729/a/apixdev/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-07-29 15:38:10] INFO root fetch - processPackages [fajrGPT]: executing diffoscope
+[2023-07-29 15:38:10] INFO root fetch - processPackages [fajrGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fajrGPT-1.4.8.tar.gz tmp/fajrGPT-1.4.9.tar.gz --markdown 20230729/f/fajrGPT/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-29 15:38:10] INFO root fetch - processPackages [composabl-ray]: Downloading https://files.pythonhosted.org/packages/e1/1b/1a0e6e0c5528acf219a4d1c376c51cc8abd64347d86b1deb4f7d0d985764/composabl_ray-0.3.5-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-07-29 15:38:10] INFO root fetch - processPackages [oneat]: Downloading https://files.pythonhosted.org/packages/fe/d1/a924f5829480ee782a55131e2c8175e9a8fdfed0191721824314a8c34b59/oneat-6.1.8.tar.gz
+[2023-07-29 15:38:10] INFO root fetch - processPackages [oneat]: Downloading https://files.pythonhosted.org/packages/fe/d1/a924f5829480ee782a55131e2c8175e9a8fdfed0191721824314a8c34b59/oneat-6.1.8.tar.gz
+[2023-07-29 15:38:10] INFO root fetch - processPackages [composabl-ray]: executing diffoscope
+[2023-07-29 15:38:10] INFO root fetch - processPackages [composabl-ray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_ray-0.2.4-cp38-cp38-musllinux_1_1_x86_64.whl.zip tmp/composabl_ray-0.3.5-cp38-cp38-musllinux_1_1_x86_64.whl.zip --markdown 20230729/c/composabl-ray/0.2.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-29 15:38:11] INFO root fetch - processPackages [oneat]: executing diffoscope
+[2023-07-29 15:38:11] INFO root fetch - processPackages [oneat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oneat-6.1.7.tar.gz tmp/oneat-6.1.8.tar.gz --markdown 20230729/o/oneat/6.1.7-6.1.8/diff.md --exclude *.pyd
+[2023-07-29 15:38:11] INFO root fetch - processPackages [oneat]: executing diffoscope
+[2023-07-29 15:38:11] INFO root fetch - processPackages [oneat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oneat-6.1.7.tar.gz tmp/oneat-6.1.8.tar.gz --markdown 20230729/o/oneat/6.1.7-6.1.8/diff.md --exclude *.pyd
+[2023-07-29 15:38:11] INFO root fetch - processPackages [axabc]: Remove: archive file [/home/abi/fetcher/tmp/axabc-0.0.8.tar.gz]
+[2023-07-29 15:38:11] INFO root fetch - processPackages [axabc]: Remove: archive file [/home/abi/fetcher/tmp/axabc-0.0.9.tar.gz]
+[2023-07-29 15:38:11] INFO root fetch - main [MainThread]: End processing [axabc]: success
+[2023-07-29 15:38:11] INFO root fetch - processPackages [apixdev]: Remove: archive file [/home/abi/fetcher/tmp/apixdev-0.3.5.tar.gz]
+[2023-07-29 15:38:11] INFO root fetch - processPackages [apixdev]: Remove: archive file [/home/abi/fetcher/tmp/apixdev-0.3.6.tar.gz]
+[2023-07-29 15:38:11] INFO root fetch - main [MainThread]: End processing [apixdev]: success
+[2023-07-29 15:38:11] INFO root fetch - processPackages [tendril-interests]: Remove: archive file [/home/abi/fetcher/tmp/tendril-interests-0.3.2.tar.gz]
+[2023-07-29 15:38:11] INFO root fetch - processPackages [tendril-interests]: Remove: archive file [/home/abi/fetcher/tmp/tendril-interests-0.3.3.tar.gz]
+[2023-07-29 15:38:11] INFO root fetch - main [MainThread]: End processing [tendril-interests]: success
+[2023-07-29 15:38:11] INFO root fetch - processPackages [fajrGPT]: Remove: archive file [/home/abi/fetcher/tmp/fajrGPT-1.4.8.tar.gz]
+[2023-07-29 15:38:11] INFO root fetch - processPackages [fajrGPT]: Remove: archive file [/home/abi/fetcher/tmp/fajrGPT-1.4.9.tar.gz]
+[2023-07-29 15:38:11] INFO root fetch - main [MainThread]: End processing [fajrGPT]: success
+[2023-07-29 15:38:11] INFO root fetch - processPackages [hezar]: Remove: archive file [/home/abi/fetcher/tmp/hezar-0.17.2.tar.gz]
+[2023-07-29 15:38:11] INFO root fetch - processPackages [hezar]: Remove: archive file [/home/abi/fetcher/tmp/hezar-0.17.3.tar.gz]
+[2023-07-29 15:38:11] INFO root fetch - main [MainThread]: End processing [hezar]: success
+[2023-07-29 15:38:12] INFO root fetch - processPackages [oneat]: Remove: archive file [/home/abi/fetcher/tmp/oneat-6.1.7.tar.gz]
+[2023-07-29 15:38:12] INFO root fetch - processPackages [oneat]: Remove: archive file [/home/abi/fetcher/tmp/oneat-6.1.8.tar.gz]
+[2023-07-29 15:38:12] INFO root fetch - main [MainThread]: End processing [oneat]: success
+[2023-07-29 15:38:12] INFO root fetch - main [MainThread]: End processing [oneat]: success
+[2023-07-29 15:38:14] INFO root fetch - processPackages [composabl-ray]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray-0.2.4-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-07-29 15:38:14] INFO root fetch - processPackages [composabl-ray]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray-0.3.5-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-07-29 15:38:14] INFO root fetch - main [MainThread]: End processing [composabl-ray]: success
+[2023-07-29 15:38:14] INFO root fetch - main [MainThread]: Store serial: [19089078]
