@@ -22799,3 +22799,27 @@ AssertionError: tmp/pulpcore-3.9.0.tar.gz does not exist
 [2023-07-29 21:26:00] INFO root fetch - processPackages [cudagrad]: Remove: archive file [/home/abi/fetcher/tmp/cudagrad-0.0.31.tar.gz]
 [2023-07-29 21:26:00] INFO root fetch - main [MainThread]: End processing [cudagrad]: success
 [2023-07-29 21:26:00] INFO root fetch - main [MainThread]: Store serial: [19091259]
+[2023-07-29 21:31:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19091259]
+[2023-07-29 21:31:09] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-29 21:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: z4d-certified-devices
+[2023-07-29 21:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: djtools
+[2023-07-29 21:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abstract-webtools
+[2023-07-29 21:31:09] WARNING root fetch - processPackages [abstract-webtools]: Skipping, unable to determine old version
+[2023-07-29 21:31:09] INFO root fetch - processPackages [djtools]: New version: [2.7.0b0] Old Version: [2.6.1b0]
+[2023-07-29 21:31:09] INFO root fetch - main [MainThread]: End processing [abstract-webtools] error
+[2023-07-29 21:31:09] INFO root fetch - processPackages [z4d-certified-devices]: New version: [2.79] Old Version: [2.78]
+[2023-07-29 21:31:09] INFO root fetch - processPackages [djtools]: Downloading https://files.pythonhosted.org/packages/24/b8/132d2897dee45d39a0bbdb89795cdbd97954bf5144a88e3e721e2854c14e/djtools-2.6.1b0.tar.gz
+[2023-07-29 21:31:09] INFO root fetch - processPackages [z4d-certified-devices]: Downloading https://files.pythonhosted.org/packages/38/ee/238dd0b19762bb8997037943a1388f1f9f81e05622c58b90f747079b3c17/z4d-certified-devices-2.78.tar.gz
+[2023-07-29 21:31:09] INFO root fetch - processPackages [z4d-certified-devices]: Downloading https://files.pythonhosted.org/packages/51/e0/21a99e268ac1d9d8bb4aa10e1350b84bb12406b16dc5a9bab9a19c7b4887/z4d-certified-devices-2.79.tar.gz
+[2023-07-29 21:31:09] INFO root fetch - processPackages [djtools]: Downloading https://files.pythonhosted.org/packages/31/d7/c45f4d4dc1383c4979f87db1989c9ef9445bbb758062e42eddc6e6eb9081/djtools-2.7.0b0.tar.gz
+[2023-07-29 21:31:10] INFO root fetch - processPackages [z4d-certified-devices]: executing diffoscope
+[2023-07-29 21:31:10] INFO root fetch - processPackages [z4d-certified-devices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/z4d-certified-devices-2.78.tar.gz tmp/z4d-certified-devices-2.79.tar.gz --markdown 20230729/z/z4d-certified-devices/2.78-2.79/diff.md --exclude *.pyd
+[2023-07-29 21:31:10] INFO root fetch - processPackages [djtools]: executing diffoscope
+[2023-07-29 21:31:10] INFO root fetch - processPackages [djtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djtools-2.6.1b0.tar.gz tmp/djtools-2.7.0b0.tar.gz --markdown 20230729/d/djtools/2.6.1b0-2.7.0b0/diff.md --exclude *.pyd
+[2023-07-29 21:31:11] INFO root fetch - processPackages [djtools]: Remove: archive file [/home/abi/fetcher/tmp/djtools-2.6.1b0.tar.gz]
+[2023-07-29 21:31:11] INFO root fetch - processPackages [djtools]: Remove: archive file [/home/abi/fetcher/tmp/djtools-2.7.0b0.tar.gz]
+[2023-07-29 21:31:11] INFO root fetch - main [MainThread]: End processing [djtools]: success
+[2023-07-29 21:31:11] INFO root fetch - processPackages [z4d-certified-devices]: Remove: archive file [/home/abi/fetcher/tmp/z4d-certified-devices-2.78.tar.gz]
+[2023-07-29 21:31:11] INFO root fetch - processPackages [z4d-certified-devices]: Remove: archive file [/home/abi/fetcher/tmp/z4d-certified-devices-2.79.tar.gz]
+[2023-07-29 21:31:11] INFO root fetch - main [MainThread]: End processing [z4d-certified-devices]: success
+[2023-07-29 21:31:11] INFO root fetch - main [MainThread]: Store serial: [19091268]
