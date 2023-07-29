@@ -10116,3 +10116,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 08:39:21] INFO root fetch - processPackages [mkdocs-mermaid2-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-mermaid2-plugin-1.0.5.tar.gz]
 [2023-07-29 08:39:21] INFO root fetch - main [MainThread]: End processing [mkdocs-mermaid2-plugin]: success
 [2023-07-29 08:39:21] INFO root fetch - main [MainThread]: Store serial: [19085973]
+[2023-07-29 08:44:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19085973]
+[2023-07-29 08:44:30] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-29 08:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pipen-board
+[2023-07-29 08:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hahomematic
+[2023-07-29 08:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: idkwhttph
+[2023-07-29 08:44:30] INFO root fetch - processPackages [idkwhttph]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-07-29 08:44:30] INFO root fetch - processPackages [pipen-board]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-07-29 08:44:30] INFO root fetch - processPackages [hahomematic]: New version: [2023.7.6] Old Version: [2023.7.5]
+[2023-07-29 08:44:30] INFO root fetch - processPackages [idkwhttph]: Downloading https://files.pythonhosted.org/packages/4f/43/d54d158e57545ee1a1988fc53aa8b39b9bf2fad86b40d401cd8bba4376fd/idkwhttph-0.3.4.tar.gz
+[2023-07-29 08:44:30] INFO root fetch - processPackages [pipen-board]: Downloading https://files.pythonhosted.org/packages/31/54/d8ac530455d4e135a084c74ac01dceb2befc79b69d1303265f8a68b33107/pipen_board-0.8.1.tar.gz
+[2023-07-29 08:44:30] INFO root fetch - processPackages [hahomematic]: Downloading https://files.pythonhosted.org/packages/74/50/15f3391a4b42294752fb2846a55f6d6d14e27e063d17e3905cc043cc45c3/hahomematic-2023.7.5.tar.gz
+[2023-07-29 08:44:30] INFO root fetch - processPackages [idkwhttph]: Downloading https://files.pythonhosted.org/packages/53/c0/41c523a4b14357ad16875d7762004f899318492b8ab5f735f3576e652659/idkwhttph-0.3.5.tar.gz
+[2023-07-29 08:44:30] INFO root fetch - processPackages [idkwhttph]: executing diffoscope
+[2023-07-29 08:44:30] INFO root fetch - processPackages [idkwhttph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idkwhttph-0.3.4.tar.gz tmp/idkwhttph-0.3.5.tar.gz --markdown 20230729/i/idkwhttph/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-29 08:44:30] INFO root fetch - processPackages [hahomematic]: Downloading https://files.pythonhosted.org/packages/18/e3/d199508bbef54d96666f49c2c2479d0ceb5c247c815576737c9caa52c6fb/hahomematic-2023.7.6.tar.gz
+[2023-07-29 08:44:30] INFO root fetch - processPackages [pipen-board]: Downloading https://files.pythonhosted.org/packages/39/46/155587d4dc7a49a3e667d67c929574d377514122b3dbde2b0c46798b6495/pipen_board-0.8.2.tar.gz
+[2023-07-29 08:44:30] INFO root fetch - processPackages [hahomematic]: executing diffoscope
+[2023-07-29 08:44:30] INFO root fetch - processPackages [hahomematic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hahomematic-2023.7.5.tar.gz tmp/hahomematic-2023.7.6.tar.gz --markdown 20230729/h/hahomematic/2023.7.5-2023.7.6/diff.md --exclude *.pyd
+[2023-07-29 08:44:30] INFO root fetch - processPackages [pipen-board]: executing diffoscope
+[2023-07-29 08:44:30] INFO root fetch - processPackages [pipen-board]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_board-0.8.1.tar.gz tmp/pipen_board-0.8.2.tar.gz --markdown 20230729/p/pipen-board/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-07-29 08:44:31] INFO root fetch - processPackages [idkwhttph]: Remove: archive file [/home/abi/fetcher/tmp/idkwhttph-0.3.4.tar.gz]
+[2023-07-29 08:44:31] INFO root fetch - processPackages [idkwhttph]: Remove: archive file [/home/abi/fetcher/tmp/idkwhttph-0.3.5.tar.gz]
+[2023-07-29 08:44:31] INFO root fetch - main [MainThread]: End processing [idkwhttph]: success
+[2023-07-29 08:44:31] INFO root fetch - processPackages [pipen-board]: Remove: archive file [/home/abi/fetcher/tmp/pipen_board-0.8.1.tar.gz]
+[2023-07-29 08:44:31] INFO root fetch - processPackages [pipen-board]: Remove: archive file [/home/abi/fetcher/tmp/pipen_board-0.8.2.tar.gz]
+[2023-07-29 08:44:31] INFO root fetch - main [MainThread]: End processing [pipen-board]: success
+[2023-07-29 08:44:31] INFO root fetch - processPackages [hahomematic]: Remove: archive file [/home/abi/fetcher/tmp/hahomematic-2023.7.5.tar.gz]
+[2023-07-29 08:44:31] INFO root fetch - processPackages [hahomematic]: Remove: archive file [/home/abi/fetcher/tmp/hahomematic-2023.7.6.tar.gz]
+[2023-07-29 08:44:31] INFO root fetch - main [MainThread]: End processing [hahomematic]: success
+[2023-07-29 08:44:31] INFO root fetch - main [MainThread]: Store serial: [19085982]
