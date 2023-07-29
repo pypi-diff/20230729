@@ -21955,3 +21955,90 @@ AssertionError: tmp/pulpcore-3.9.0.tar.gz does not exist
 [2023-07-29 20:14:38] INFO root fetch - processPackages [pymkpsxiso]: Remove: archive file [/home/abi/fetcher/tmp/pymkpsxiso-0.1.4.tar.gz]
 [2023-07-29 20:14:38] INFO root fetch - main [MainThread]: End processing [pymkpsxiso]: success
 [2023-07-29 20:14:38] INFO root fetch - main [MainThread]: Store serial: [19090921]
+[2023-07-29 20:19:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19090921]
+[2023-07-29 20:19:47] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-29 20:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gammarer.aws-secure-flow-log-bucket
+[2023-07-29 20:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gammarer.aws-secure-cloudfront-origin-bucket
+[2023-07-29 20:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mols2grid
+[2023-07-29 20:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qpandas
+[2023-07-29 20:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: easy-deployer
+[2023-07-29 20:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gammarer.aws-secure-log-bucket
+[2023-07-29 20:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyfixest
+[2023-07-29 20:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mercoa
+[2023-07-29 20:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dalinicus.aiolyric
+[2023-07-29 20:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: foc
+[2023-07-29 20:19:47] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-29 20:19:47] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-07-29 20:19:47] INFO root fetch - processPackages [pyfixest]: New version: [0.7.2] Old Version: [0.7.0]
+[2023-07-29 20:19:47] INFO root fetch - processPackages [mols2grid]: New version: [2.0.0rc1] Old Version: [2.0.0]
+[2023-07-29 20:19:47] INFO root fetch - processPackages [mercoa]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-29 20:19:47] INFO root fetch - processPackages [qpandas]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-29 20:19:47] INFO root fetch - processPackages [foc]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-29 20:19:47] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-29 20:19:47] INFO root fetch - processPackages [easy-deployer]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-29 20:19:47] WARNING root fetch - processPackages [dalinicus.aiolyric]: Skipping, unable to determine old version
+[2023-07-29 20:19:47] INFO root fetch - main [MainThread]: End processing [dalinicus.aiolyric] error
+[2023-07-29 20:19:47] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: Downloading https://files.pythonhosted.org/packages/b0/ef/ce6be9ab643739d987f3f5ce37e7542b7c2feb2e82b33f4f52ecb9acb599/gammarer.aws-secure-cloudfront-origin-bucket-0.6.8.tar.gz
+[2023-07-29 20:19:48] INFO root fetch - processPackages [easy-deployer]: Downloading https://files.pythonhosted.org/packages/a9/35/297fdccc9e27313ff10c31bbce54a45fc6a3f7ecd6edbe721068e546a72b/easy_deployer-0.1.8.tar.gz
+[2023-07-29 20:19:48] INFO root fetch - processPackages [qpandas]: Downloading https://files.pythonhosted.org/packages/ae/23/154a4fbe170facc7d264716b7bfa10e26e754cadaf2ae816451b6ab8ee53/qpandas-1.0.0.tar.gz
+[2023-07-29 20:19:48] INFO root fetch - processPackages [mercoa]: Downloading https://files.pythonhosted.org/packages/0c/91/100f96f2f2cf984e04f11403a6619adcc6e9c3c8c920d19db72222723b9c/mercoa-0.2.5.tar.gz
+[2023-07-29 20:19:48] INFO root fetch - processPackages [pyfixest]: Downloading https://files.pythonhosted.org/packages/20/c0/093fa9b901c261e645293859c21a49ac8a376bc103ba4d27840b935ab58f/pyfixest-0.7.0.tar.gz
+[2023-07-29 20:19:48] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: Downloading https://files.pythonhosted.org/packages/24/2e/11cb152699573d94a8adb12346a042d125e832a97ddbd07af24be39bcfa5/gammarer.aws-secure-log-bucket-0.9.8.tar.gz
+[2023-07-29 20:19:48] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: Downloading https://files.pythonhosted.org/packages/41/d1/1609d9136e2768b4a42f2595a3278ac4d8b74caf161d765430c143a23f9e/gammarer.aws-secure-flow-log-bucket-0.3.8.tar.gz
+[2023-07-29 20:19:48] INFO root fetch - processPackages [mols2grid]: Downloading https://files.pythonhosted.org/packages/4c/69/2c55f5d11f083d99d35ceac9da3ceb000323928bf18b1a3c66c5f49703b8/mols2grid-2.0.0.tar.gz
+[2023-07-29 20:19:48] INFO root fetch - processPackages [foc]: Downloading https://files.pythonhosted.org/packages/8d/e9/e4a4fd84ad5dc5107cd2fd9f2e8920fb8c84d5d59db1fbdc1f1da196e771/foc-0.1.8.tar.gz
+[2023-07-29 20:19:48] INFO root fetch - processPackages [easy-deployer]: Downloading https://files.pythonhosted.org/packages/8c/6a/d217eb2e1b597398470ee5603240d37a40d5c9577f6d2da77bbbb655f3cd/easy_deployer-0.1.9.tar.gz
+[2023-07-29 20:19:48] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: Downloading https://files.pythonhosted.org/packages/bb/75/eb5697658075456054ab05ad5a8c8a9eee27b8d5d462e5bdfa6a75ee225c/gammarer.aws-secure-cloudfront-origin-bucket-0.6.9.tar.gz
+[2023-07-29 20:19:48] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: Downloading https://files.pythonhosted.org/packages/9c/47/ec93eb5c7f8705cbd3473157e9c73c15ce6ece6a660d1d3d36194eaf741a/gammarer.aws-secure-log-bucket-0.9.9.tar.gz
+[2023-07-29 20:19:48] INFO root fetch - processPackages [mols2grid]: Downloading https://files.pythonhosted.org/packages/df/72/492632245671394a7543886ee82268c94e785daa02d1e5c9727c93a47ace/mols2grid-2.0.0rc1.tar.gz
+[2023-07-29 20:19:48] INFO root fetch - processPackages [qpandas]: Downloading https://files.pythonhosted.org/packages/73/34/7eba28e7d31a0d22fa0386648b187aafbe63f4d6ad2bb68d3d4d7f633da4/qpandas-1.0.1.tar.gz
+[2023-07-29 20:19:48] INFO root fetch - processPackages [mercoa]: Downloading https://files.pythonhosted.org/packages/d7/c5/aab88da58c1453dd7bd3342198086fdeb31eae74cea61d4a90c38ab337d0/mercoa-0.2.6.tar.gz
+[2023-07-29 20:19:48] INFO root fetch - processPackages [easy-deployer]: executing diffoscope
+[2023-07-29 20:19:48] INFO root fetch - processPackages [easy-deployer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_deployer-0.1.8.tar.gz tmp/easy_deployer-0.1.9.tar.gz --markdown 20230729/e/easy-deployer/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-29 20:19:48] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: executing diffoscope
+[2023-07-29 20:19:48] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-secure-cloudfront-origin-bucket-0.6.8.tar.gz tmp/gammarer.aws-secure-cloudfront-origin-bucket-0.6.9.tar.gz --markdown 20230729/g/gammarer.aws-secure-cloudfront-origin-bucket/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-07-29 20:19:48] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: executing diffoscope
+[2023-07-29 20:19:48] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-secure-log-bucket-0.9.8.tar.gz tmp/gammarer.aws-secure-log-bucket-0.9.9.tar.gz --markdown 20230729/g/gammarer.aws-secure-log-bucket/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-29 20:19:48] INFO root fetch - processPackages [pyfixest]: Downloading https://files.pythonhosted.org/packages/17/e4/1d90d8b06688737b356860c6641f5b8cb7c7a4890c71f7b55349367dc708/pyfixest-0.7.2.tar.gz
+[2023-07-29 20:19:48] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: Downloading https://files.pythonhosted.org/packages/8b/9e/1444bb150a643d143d15a3e71f4ec01b157852a6248fcde9039057364f2a/gammarer.aws-secure-flow-log-bucket-0.3.9.tar.gz
+[2023-07-29 20:19:48] INFO root fetch - processPackages [mercoa]: executing diffoscope
+[2023-07-29 20:19:48] INFO root fetch - processPackages [mercoa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercoa-0.2.5.tar.gz tmp/mercoa-0.2.6.tar.gz --markdown 20230729/m/mercoa/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-29 20:19:48] INFO root fetch - processPackages [mols2grid]: executing diffoscope
+[2023-07-29 20:19:48] INFO root fetch - processPackages [mols2grid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mols2grid-2.0.0.tar.gz tmp/mols2grid-2.0.0rc1.tar.gz --markdown 20230729/m/mols2grid/2.0.0-2.0.0rc1/diff.md --exclude *.pyd
+[2023-07-29 20:19:48] INFO root fetch - processPackages [qpandas]: executing diffoscope
+[2023-07-29 20:19:48] INFO root fetch - processPackages [qpandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qpandas-1.0.0.tar.gz tmp/qpandas-1.0.1.tar.gz --markdown 20230729/q/qpandas/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-29 20:19:48] INFO root fetch - processPackages [foc]: Downloading https://files.pythonhosted.org/packages/db/f4/25afa7b10b80df2c11a9dfab8ab256a868f7bfb1d15a3da95d4947e91daf/foc-0.1.9.tar.gz
+[2023-07-29 20:19:48] INFO root fetch - processPackages [pyfixest]: executing diffoscope
+[2023-07-29 20:19:48] INFO root fetch - processPackages [pyfixest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfixest-0.7.0.tar.gz tmp/pyfixest-0.7.2.tar.gz --markdown 20230729/p/pyfixest/0.7.0-0.7.2/diff.md --exclude *.pyd
+[2023-07-29 20:19:48] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: executing diffoscope
+[2023-07-29 20:19:48] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-secure-flow-log-bucket-0.3.8.tar.gz tmp/gammarer.aws-secure-flow-log-bucket-0.3.9.tar.gz --markdown 20230729/g/gammarer.aws-secure-flow-log-bucket/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-29 20:19:48] INFO root fetch - processPackages [foc]: executing diffoscope
+[2023-07-29 20:19:48] INFO root fetch - processPackages [foc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foc-0.1.8.tar.gz tmp/foc-0.1.9.tar.gz --markdown 20230729/f/foc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-29 20:19:50] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-cloudfront-origin-bucket-0.6.8.tar.gz]
+[2023-07-29 20:19:50] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-cloudfront-origin-bucket-0.6.9.tar.gz]
+[2023-07-29 20:19:50] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-cloudfront-origin-bucket]: success
+[2023-07-29 20:19:50] INFO root fetch - processPackages [easy-deployer]: Remove: archive file [/home/abi/fetcher/tmp/easy_deployer-0.1.8.tar.gz]
+[2023-07-29 20:19:50] INFO root fetch - processPackages [easy-deployer]: Remove: archive file [/home/abi/fetcher/tmp/easy_deployer-0.1.9.tar.gz]
+[2023-07-29 20:19:50] INFO root fetch - main [MainThread]: End processing [easy-deployer]: success
+[2023-07-29 20:19:50] INFO root fetch - processPackages [pyfixest]: Remove: archive file [/home/abi/fetcher/tmp/pyfixest-0.7.0.tar.gz]
+[2023-07-29 20:19:50] INFO root fetch - processPackages [pyfixest]: Remove: archive file [/home/abi/fetcher/tmp/pyfixest-0.7.2.tar.gz]
+[2023-07-29 20:19:50] INFO root fetch - main [MainThread]: End processing [pyfixest]: success
+[2023-07-29 20:19:50] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-log-bucket-0.9.8.tar.gz]
+[2023-07-29 20:19:50] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-log-bucket-0.9.9.tar.gz]
+[2023-07-29 20:19:50] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-log-bucket]: success
+[2023-07-29 20:19:50] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-flow-log-bucket-0.3.8.tar.gz]
+[2023-07-29 20:19:50] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-flow-log-bucket-0.3.9.tar.gz]
+[2023-07-29 20:19:50] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-flow-log-bucket]: success
+[2023-07-29 20:19:50] INFO root fetch - processPackages [qpandas]: Remove: archive file [/home/abi/fetcher/tmp/qpandas-1.0.0.tar.gz]
+[2023-07-29 20:19:50] INFO root fetch - processPackages [qpandas]: Remove: archive file [/home/abi/fetcher/tmp/qpandas-1.0.1.tar.gz]
+[2023-07-29 20:19:50] INFO root fetch - main [MainThread]: End processing [qpandas]: success
+[2023-07-29 20:19:50] INFO root fetch - processPackages [foc]: Remove: archive file [/home/abi/fetcher/tmp/foc-0.1.8.tar.gz]
+[2023-07-29 20:19:50] INFO root fetch - processPackages [foc]: Remove: archive file [/home/abi/fetcher/tmp/foc-0.1.9.tar.gz]
+[2023-07-29 20:19:50] INFO root fetch - main [MainThread]: End processing [foc]: success
+[2023-07-29 20:19:50] INFO root fetch - processPackages [mercoa]: Remove: archive file [/home/abi/fetcher/tmp/mercoa-0.2.5.tar.gz]
+[2023-07-29 20:19:50] INFO root fetch - processPackages [mercoa]: Remove: archive file [/home/abi/fetcher/tmp/mercoa-0.2.6.tar.gz]
+[2023-07-29 20:19:50] INFO root fetch - main [MainThread]: End processing [mercoa]: success
+[2023-07-29 20:19:51] INFO root fetch - processPackages [mols2grid]: Remove: archive file [/home/abi/fetcher/tmp/mols2grid-2.0.0.tar.gz]
+[2023-07-29 20:19:51] INFO root fetch - processPackages [mols2grid]: Remove: archive file [/home/abi/fetcher/tmp/mols2grid-2.0.0rc1.tar.gz]
+[2023-07-29 20:19:51] INFO root fetch - main [MainThread]: End processing [mols2grid]: success
+[2023-07-29 20:19:51] INFO root fetch - main [MainThread]: Store serial: [19090955]
