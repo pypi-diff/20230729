@@ -20684,3 +20684,92 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 18:59:32] INFO root fetch - processPackages [pyPhasesML]: Remove: archive file [/home/abi/fetcher/tmp/pyPhasesML-0.7.0.tar.gz]
 [2023-07-29 18:59:32] INFO root fetch - main [MainThread]: End processing [pyPhasesML]: success
 [2023-07-29 18:59:32] INFO root fetch - main [MainThread]: Store serial: [19090349]
+[2023-07-29 19:04:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19090349]
+[2023-07-29 19:04:40] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-29 19:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geomancy
+[2023-07-29 19:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: open-prime-rando
+[2023-07-29 19:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyflakes
+[2023-07-29 19:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kriegspiel
+[2023-07-29 19:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gitlabx
+[2023-07-29 19:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-minio
+[2023-07-29 19:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sbot
+[2023-07-29 19:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: databend
+[2023-07-29 19:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bizlogic
+[2023-07-29 19:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Simba-UW-tf-dev
+[2023-07-29 19:04:41] INFO root fetch - processPackages [sbot]: New version: [1.0.0rc2] Old Version: [1.0.0rc1]
+[2023-07-29 19:04:41] INFO root fetch - processPackages [kriegspiel]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-29 19:04:41] INFO root fetch - processPackages [geomancy]: New version: [0.9.3] Old Version: [0.9.1]
+[2023-07-29 19:04:41] INFO root fetch - processPackages [pyflakes]: New version: [3.1.0] Old Version: [3.0.1]
+[2023-07-29 19:04:41] INFO root fetch - processPackages [open-prime-rando]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-29 19:04:41] INFO root fetch - processPackages [gitlabx]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-29 19:04:41] INFO root fetch - processPackages [pulumi-minio]: New version: [0.9.1a1682440158] Old Version: [0.9.1a1681933919]
+[2023-07-29 19:04:41] INFO root fetch - processPackages [databend]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-07-29 19:04:41] INFO root fetch - processPackages [bizlogic]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-29 19:04:41] INFO root fetch - processPackages [sbot]: Downloading https://files.pythonhosted.org/packages/f5/07/0e0e46b8e2a202fa861eb79282f34e784e62eb904b0b4348d2664402c481/sbot-1.0.0rc1.tar.gz
+[2023-07-29 19:04:41] INFO root fetch - processPackages [Simba-UW-tf-dev]: New version: [1.71.2] Old Version: [1.71.1]
+[2023-07-29 19:04:41] INFO root fetch - processPackages [databend]: Downloading https://files.pythonhosted.org/packages/12/f6/b900d9db17f14e3b5b29a70678a77c9b13ec65fb952712fcc1c6868905ac/databend-1.2.7-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-29 19:04:41] INFO root fetch - processPackages [kriegspiel]: Downloading https://files.pythonhosted.org/packages/7a/4d/bb4bb97842f139f9a77b9eb9dc22bd353d9f5c19aaf1277873f38e6b7d67/kriegspiel-1.1.0.tar.gz
+[2023-07-29 19:04:41] INFO root fetch - processPackages [pyflakes]: Downloading https://files.pythonhosted.org/packages/f2/51/506ddcfab10d708e8460554cc1cf37c727a6a2cccbad8dfe57766cfce33c/pyflakes-3.0.1.tar.gz
+[2023-07-29 19:04:41] INFO root fetch - processPackages [open-prime-rando]: Downloading https://files.pythonhosted.org/packages/ca/89/c6795227920800583336b431d56f334ffec173f273098dfc1aaabc306d91/open-prime-rando-0.8.0.tar.gz
+[2023-07-29 19:04:41] INFO root fetch - processPackages [geomancy]: Downloading https://files.pythonhosted.org/packages/77/93/b9aea869a504149d716c76dadd5140c924b256ff7a874e12ea110d89308c/geomancy-0.9.1.tar.gz
+[2023-07-29 19:04:41] WARNING root fetch - processPackages [databend]: Skipping package: exceeds size limit 31220931>=10485760
+[2023-07-29 19:04:41] INFO root fetch - main [MainThread]: End processing [databend] error
+[2023-07-29 19:04:41] INFO root fetch - processPackages [gitlabx]: Downloading https://files.pythonhosted.org/packages/72/66/0bacfa79df1f91a202b8173143e45087a06e8831ead51e7a6fca5a224b00/gitlabx-0.6.0-py3-none-any.whl
+[2023-07-29 19:04:41] INFO root fetch - processPackages [bizlogic]: Downloading https://files.pythonhosted.org/packages/15/a4/7fc14200c0c31e9fd08391e1d8ffd70345d98aba2c1f4a19342fa0b51ed6/bizlogic-0.2.8.tar.gz
+[2023-07-29 19:04:41] INFO root fetch - processPackages [pulumi-minio]: Downloading https://files.pythonhosted.org/packages/ff/08/d2cadf5bfe93247a9689d335d5a90c90c3437bae7996f31d22e6a1e18bc8/pulumi_minio-0.9.1a1681933919.tar.gz
+[2023-07-29 19:04:41] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/30/67/42ca8c1a205936dbee203ffc21917cc4432e3177b6f8d76f9e03af3ed4ed/Simba-UW-tf-dev-1.71.1.tar.gz
+[2023-07-29 19:04:41] INFO root fetch - processPackages [sbot]: Downloading https://files.pythonhosted.org/packages/f2/27/f677c388b1f1d250e0948855e99036902fc035079bafcaaf6b68af74765f/sbot-1.0.0rc2.tar.gz
+[2023-07-29 19:04:41] INFO root fetch - processPackages [sbot]: executing diffoscope
+[2023-07-29 19:04:41] INFO root fetch - processPackages [sbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbot-1.0.0rc1.tar.gz tmp/sbot-1.0.0rc2.tar.gz --markdown 20230729/s/sbot/1.0.0rc1-1.0.0rc2/diff.md --exclude *.pyd
+[2023-07-29 19:04:41] INFO root fetch - processPackages [kriegspiel]: Downloading https://files.pythonhosted.org/packages/a2/2d/b70e7e4914c01570af80e85adafe2c4693f7e716ebb00d6df33142667c1e/kriegspiel-1.1.1.tar.gz
+[2023-07-29 19:04:41] INFO root fetch - processPackages [pyflakes]: Downloading https://files.pythonhosted.org/packages/8b/fb/7251eaec19a055ec6aafb3d1395db7622348130d1b9b763f78567b2aab32/pyflakes-3.1.0.tar.gz
+[2023-07-29 19:04:41] INFO root fetch - processPackages [gitlabx]: Downloading https://files.pythonhosted.org/packages/bb/b3/28aab41315c3162306ed085e1e800d538456243736391e2aabd93bcd907c/gitlabx-0.6.1-py3-none-any.whl
+[2023-07-29 19:04:41] INFO root fetch - processPackages [geomancy]: Downloading https://files.pythonhosted.org/packages/39/68/93a021685485931338b68ee160db5475a06bbf1cc06b9e7d7ad8a040b602/geomancy-0.9.3.tar.gz
+[2023-07-29 19:04:42] INFO root fetch - processPackages [bizlogic]: Downloading https://files.pythonhosted.org/packages/70/d6/eb4fce7d479b8752585ed0ce78e483587aa78514aa160d2ff745d9c0d42f/bizlogic-0.2.9.tar.gz
+[2023-07-29 19:04:42] INFO root fetch - processPackages [pulumi-minio]: Downloading https://files.pythonhosted.org/packages/15/55/586e40a427bb324461e4077406c21f75ad5bd1d406ec365a59f65e7790bd/pulumi_minio-0.9.1a1682440158.tar.gz
+[2023-07-29 19:04:42] INFO root fetch - processPackages [open-prime-rando]: Downloading https://files.pythonhosted.org/packages/64/be/beea015395813d331a23438897e7943331f1b12dfd3bf866fef192a50211/open-prime-rando-0.9.0.tar.gz
+[2023-07-29 19:04:42] INFO root fetch - processPackages [kriegspiel]: executing diffoscope
+[2023-07-29 19:04:42] INFO root fetch - processPackages [kriegspiel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kriegspiel-1.1.0.tar.gz tmp/kriegspiel-1.1.1.tar.gz --markdown 20230729/k/kriegspiel/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-29 19:04:42] INFO root fetch - processPackages [pyflakes]: executing diffoscope
+[2023-07-29 19:04:42] INFO root fetch - processPackages [pyflakes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyflakes-3.0.1.tar.gz tmp/pyflakes-3.1.0.tar.gz --markdown 20230729/p/pyflakes/3.0.1-3.1.0/diff.md --exclude *.pyd
+[2023-07-29 19:04:42] INFO root fetch - processPackages [gitlabx]: executing diffoscope
+[2023-07-29 19:04:42] INFO root fetch - processPackages [gitlabx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlabx-0.6.0-py3-none-any.whl.zip tmp/gitlabx-0.6.1-py3-none-any.whl.zip --markdown 20230729/g/gitlabx/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-29 19:04:42] INFO root fetch - processPackages [bizlogic]: executing diffoscope
+[2023-07-29 19:04:42] INFO root fetch - processPackages [bizlogic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bizlogic-0.2.8.tar.gz tmp/bizlogic-0.2.9.tar.gz --markdown 20230729/b/bizlogic/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-29 19:04:42] INFO root fetch - processPackages [geomancy]: executing diffoscope
+[2023-07-29 19:04:42] INFO root fetch - processPackages [geomancy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geomancy-0.9.1.tar.gz tmp/geomancy-0.9.3.tar.gz --markdown 20230729/g/geomancy/0.9.1-0.9.3/diff.md --exclude *.pyd
+[2023-07-29 19:04:42] INFO root fetch - processPackages [pulumi-minio]: executing diffoscope
+[2023-07-29 19:04:42] INFO root fetch - processPackages [pulumi-minio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_minio-0.9.1a1681933919.tar.gz tmp/pulumi_minio-0.9.1a1682440158.tar.gz --markdown 20230729/p/pulumi-minio/0.9.1a1681933919-0.9.1a1682440158/diff.md --exclude *.pyd
+[2023-07-29 19:04:42] INFO root fetch - processPackages [open-prime-rando]: executing diffoscope
+[2023-07-29 19:04:42] INFO root fetch - processPackages [open-prime-rando]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-prime-rando-0.8.0.tar.gz tmp/open-prime-rando-0.9.0.tar.gz --markdown 20230729/o/open-prime-rando/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-29 19:04:42] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/2f/6f/e1823c50765df1f07823c7678c0404b7587f0b7a6415c693ce1c5a8b51bc/Simba-UW-tf-dev-1.71.2.tar.gz
+[2023-07-29 19:04:42] INFO root fetch - processPackages [Simba-UW-tf-dev]: executing diffoscope
+[2023-07-29 19:04:42] INFO root fetch - processPackages [Simba-UW-tf-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Simba-UW-tf-dev-1.71.1.tar.gz tmp/Simba-UW-tf-dev-1.71.2.tar.gz --markdown 20230729/S/Simba-UW-tf-dev/1.71.1-1.71.2/diff.md --exclude *.pyd
+[2023-07-29 19:04:43] INFO root fetch - processPackages [sbot]: Remove: archive file [/home/abi/fetcher/tmp/sbot-1.0.0rc1.tar.gz]
+[2023-07-29 19:04:43] INFO root fetch - processPackages [sbot]: Remove: archive file [/home/abi/fetcher/tmp/sbot-1.0.0rc2.tar.gz]
+[2023-07-29 19:04:43] INFO root fetch - main [MainThread]: End processing [sbot]: success
+[2023-07-29 19:04:43] INFO root fetch - processPackages [kriegspiel]: Remove: archive file [/home/abi/fetcher/tmp/kriegspiel-1.1.0.tar.gz]
+[2023-07-29 19:04:43] INFO root fetch - processPackages [kriegspiel]: Remove: archive file [/home/abi/fetcher/tmp/kriegspiel-1.1.1.tar.gz]
+[2023-07-29 19:04:43] INFO root fetch - main [MainThread]: End processing [kriegspiel]: success
+[2023-07-29 19:04:43] INFO root fetch - processPackages [gitlabx]: Remove: archive file [/home/abi/fetcher/tmp/gitlabx-0.6.0-py3-none-any.whl.zip]
+[2023-07-29 19:04:43] INFO root fetch - processPackages [gitlabx]: Remove: archive file [/home/abi/fetcher/tmp/gitlabx-0.6.1-py3-none-any.whl.zip]
+[2023-07-29 19:04:43] INFO root fetch - main [MainThread]: End processing [gitlabx]: success
+[2023-07-29 19:04:43] INFO root fetch - processPackages [bizlogic]: Remove: archive file [/home/abi/fetcher/tmp/bizlogic-0.2.8.tar.gz]
+[2023-07-29 19:04:43] INFO root fetch - processPackages [bizlogic]: Remove: archive file [/home/abi/fetcher/tmp/bizlogic-0.2.9.tar.gz]
+[2023-07-29 19:04:43] INFO root fetch - main [MainThread]: End processing [bizlogic]: success
+[2023-07-29 19:04:43] INFO root fetch - processPackages [pulumi-minio]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_minio-0.9.1a1681933919.tar.gz]
+[2023-07-29 19:04:43] INFO root fetch - processPackages [pulumi-minio]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_minio-0.9.1a1682440158.tar.gz]
+[2023-07-29 19:04:43] INFO root fetch - main [MainThread]: End processing [pulumi-minio]: success
+[2023-07-29 19:04:43] INFO root fetch - processPackages [pyflakes]: Remove: archive file [/home/abi/fetcher/tmp/pyflakes-3.0.1.tar.gz]
+[2023-07-29 19:04:43] INFO root fetch - processPackages [pyflakes]: Remove: archive file [/home/abi/fetcher/tmp/pyflakes-3.1.0.tar.gz]
+[2023-07-29 19:04:43] INFO root fetch - main [MainThread]: End processing [pyflakes]: success
+[2023-07-29 19:04:43] INFO root fetch - processPackages [geomancy]: Remove: archive file [/home/abi/fetcher/tmp/geomancy-0.9.1.tar.gz]
+[2023-07-29 19:04:43] INFO root fetch - processPackages [geomancy]: Remove: archive file [/home/abi/fetcher/tmp/geomancy-0.9.3.tar.gz]
+[2023-07-29 19:04:43] INFO root fetch - main [MainThread]: End processing [geomancy]: success
+[2023-07-29 19:04:44] INFO root fetch - processPackages [open-prime-rando]: Remove: archive file [/home/abi/fetcher/tmp/open-prime-rando-0.8.0.tar.gz]
+[2023-07-29 19:04:44] INFO root fetch - processPackages [open-prime-rando]: Remove: archive file [/home/abi/fetcher/tmp/open-prime-rando-0.9.0.tar.gz]
+[2023-07-29 19:04:44] INFO root fetch - main [MainThread]: End processing [open-prime-rando]: success
+[2023-07-29 19:04:46] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.71.1.tar.gz]
+[2023-07-29 19:04:46] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.71.2.tar.gz]
+[2023-07-29 19:04:46] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
+[2023-07-29 19:04:46] INFO root fetch - main [MainThread]: Store serial: [19090379]
