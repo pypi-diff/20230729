@@ -11489,3 +11489,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 11:04:54] INFO root fetch - processPackages [autogluon.eda]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.eda-0.8.3b20230728.tar.gz]
 [2023-07-29 11:04:54] INFO root fetch - main [MainThread]: End processing [autogluon.eda]: success
 [2023-07-29 11:04:54] INFO root fetch - main [MainThread]: Store serial: [19086549]
+[2023-07-29 11:09:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19086549]
+[2023-07-29 11:10:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-29 11:10:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: djangoldp-babelfish
+[2023-07-29 11:10:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-aujob
+[2023-07-29 11:10:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-classy-tags
+[2023-07-29 11:10:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-l10n-ro-stock-account
+[2023-07-29 11:10:03] INFO root fetch - processPackages [nonebot-plugin-aujob]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-29 11:10:03] INFO root fetch - processPackages [django-classy-tags]: New version: [4.1.0] Old Version: [4.0.0]
+[2023-07-29 11:10:03] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: New version: [16.0.1.3.0] Old Version: [16.0.1.2.0]
+[2023-07-29 11:10:03] INFO root fetch - processPackages [djangoldp-babelfish]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-29 11:10:03] INFO root fetch - processPackages [nonebot-plugin-aujob]: Downloading https://files.pythonhosted.org/packages/1b/7a/5abb8865b3af1fd61b073ce3944fba3e1deca7757e980b52267a63eabd33/nonebot_plugin_aujob-0.1.0.tar.gz
+[2023-07-29 11:10:03] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Downloading https://files.pythonhosted.org/packages/61/6b/f4e32bdd4f4fb3607fdb26d32bf8b73c6e67d09a29dba77e5eb4ebf07909/odoo_addon_l10n_ro_stock_account-16.0.1.2.0-py3-none-any.whl
+[2023-07-29 11:10:03] INFO root fetch - processPackages [djangoldp-babelfish]: Downloading https://files.pythonhosted.org/packages/3c/7f/792bddb64f3e6253eb280460049b7303c8188db6f3c9c7c4f9eb70267c55/djangoldp_babelfish-1.0.0.tar.gz
+[2023-07-29 11:10:03] INFO root fetch - processPackages [django-classy-tags]: Downloading https://files.pythonhosted.org/packages/71/9f/b17edfaf693657490bb32d49d4b02533b65d0e216082be16f44f947c4dec/django-classy-tags-4.0.0.tar.gz
+[2023-07-29 11:10:03] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Downloading https://files.pythonhosted.org/packages/7e/a2/9c9ea25d1d1bcf5e229cd8ac78d2fe1a433dd3045bb30f50c7b863aba18c/odoo_addon_l10n_ro_stock_account-16.0.1.3.0-py3-none-any.whl
+[2023-07-29 11:10:03] INFO root fetch - processPackages [nonebot-plugin-aujob]: Downloading https://files.pythonhosted.org/packages/6c/f4/60a9e05fab99ebb2854bddedcd8aec67100db3ab0baa8a884b4caa874a53/nonebot_plugin_aujob-0.1.1.tar.gz
+[2023-07-29 11:10:03] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: executing diffoscope
+[2023-07-29 11:10:03] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_stock_account-16.0.1.2.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_stock_account-16.0.1.3.0-py3-none-any.whl.zip --markdown 20230729/o/odoo-addon-l10n-ro-stock-account/16.0.1.2.0-16.0.1.3.0/diff.md --exclude *.pyd
+[2023-07-29 11:10:03] INFO root fetch - processPackages [djangoldp-babelfish]: Downloading https://files.pythonhosted.org/packages/50/42/002488c73290a228a8d942bce2e1124c5edcab4ea351171bd50258b0a41c/djangoldp_babelfish-1.0.1.tar.gz
+[2023-07-29 11:10:03] INFO root fetch - processPackages [nonebot-plugin-aujob]: executing diffoscope
+[2023-07-29 11:10:03] INFO root fetch - processPackages [nonebot-plugin-aujob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_aujob-0.1.0.tar.gz tmp/nonebot_plugin_aujob-0.1.1.tar.gz --markdown 20230729/n/nonebot-plugin-aujob/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-29 11:10:03] INFO root fetch - processPackages [djangoldp-babelfish]: executing diffoscope
+[2023-07-29 11:10:03] INFO root fetch - processPackages [djangoldp-babelfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_babelfish-1.0.0.tar.gz tmp/djangoldp_babelfish-1.0.1.tar.gz --markdown 20230729/d/djangoldp-babelfish/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-29 11:10:03] INFO root fetch - processPackages [django-classy-tags]: Downloading https://files.pythonhosted.org/packages/91/7f/18da9d8fcc469fc7aa74abc526aacaa3cc7180ad2208f80d43e8b670aed6/django-classy-tags-4.1.0.tar.gz
+[2023-07-29 11:10:04] INFO root fetch - processPackages [django-classy-tags]: executing diffoscope
+[2023-07-29 11:10:04] INFO root fetch - processPackages [django-classy-tags]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-classy-tags-4.0.0.tar.gz tmp/django-classy-tags-4.1.0.tar.gz --markdown 20230729/d/django-classy-tags/4.0.0-4.1.0/diff.md --exclude *.pyd
+[2023-07-29 11:10:04] INFO root fetch - processPackages [nonebot-plugin-aujob]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_aujob-0.1.0.tar.gz]
+[2023-07-29 11:10:04] INFO root fetch - processPackages [nonebot-plugin-aujob]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_aujob-0.1.1.tar.gz]
+[2023-07-29 11:10:04] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-aujob]: success
+[2023-07-29 11:10:04] INFO root fetch - processPackages [djangoldp-babelfish]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_babelfish-1.0.0.tar.gz]
+[2023-07-29 11:10:04] INFO root fetch - processPackages [djangoldp-babelfish]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_babelfish-1.0.1.tar.gz]
+[2023-07-29 11:10:04] INFO root fetch - main [MainThread]: End processing [djangoldp-babelfish]: success
+[2023-07-29 11:10:04] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock_account-16.0.1.2.0-py3-none-any.whl.zip]
+[2023-07-29 11:10:04] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock_account-16.0.1.3.0-py3-none-any.whl.zip]
+[2023-07-29 11:10:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-stock-account]: success
+[2023-07-29 11:10:04] INFO root fetch - processPackages [django-classy-tags]: Remove: archive file [/home/abi/fetcher/tmp/django-classy-tags-4.0.0.tar.gz]
+[2023-07-29 11:10:04] INFO root fetch - processPackages [django-classy-tags]: Remove: archive file [/home/abi/fetcher/tmp/django-classy-tags-4.1.0.tar.gz]
+[2023-07-29 11:10:04] INFO root fetch - main [MainThread]: End processing [django-classy-tags]: success
+[2023-07-29 11:10:04] INFO root fetch - main [MainThread]: Store serial: [19086560]
