@@ -7048,3 +7048,27 @@
 [2023-07-29 04:14:12] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
 [2023-07-29 04:14:12] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
 [2023-07-29 04:14:12] INFO root fetch - main [MainThread]: Store serial: [19084691]
+[2023-07-29 04:19:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19084691]
+[2023-07-29 04:19:21] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-29 04:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pistar-echo-agent
+[2023-07-29 04:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-rds-dump
+[2023-07-29 04:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: robotchain-sdk
+[2023-07-29 04:19:21] INFO root fetch - processPackages [pistar-echo-agent]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-29 04:19:21] INFO root fetch - processPackages [cdk-rds-dump]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-29 04:19:21] WARNING root fetch - processPackages [robotchain-sdk]: Skipping, unable to determine old version
+[2023-07-29 04:19:21] INFO root fetch - main [MainThread]: End processing [robotchain-sdk] error
+[2023-07-29 04:19:21] INFO root fetch - processPackages [cdk-rds-dump]: Downloading https://files.pythonhosted.org/packages/da/04/7987c6cf55388d28f10ecb571fc3b4bd16ffa3b6958e1ea0fef09eac7076/cdk-rds-dump-1.2.8.tar.gz
+[2023-07-29 04:19:21] INFO root fetch - processPackages [pistar-echo-agent]: Downloading https://files.pythonhosted.org/packages/b8/a9/78179f5ea0c7606f4c1ba6dbf44fe1c83d9814ecec1dbac5f84f3a730b38/pistar_echo_agent-1.0.7-py3-none-any.whl
+[2023-07-29 04:19:21] INFO root fetch - processPackages [pistar-echo-agent]: Downloading https://files.pythonhosted.org/packages/a4/bc/a03b79c2c9b274ed421affa34b498b8aba3bfc89eb494aa42a7e3565b809/pistar_echo_agent-1.0.8-py3-none-any.whl
+[2023-07-29 04:19:22] INFO root fetch - processPackages [pistar-echo-agent]: executing diffoscope
+[2023-07-29 04:19:22] INFO root fetch - processPackages [pistar-echo-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pistar_echo_agent-1.0.7-py3-none-any.whl.zip tmp/pistar_echo_agent-1.0.8-py3-none-any.whl.zip --markdown 20230729/p/pistar-echo-agent/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-29 04:19:22] INFO root fetch - processPackages [cdk-rds-dump]: Downloading https://files.pythonhosted.org/packages/f4/0b/9ab10174144eed83c415831738537c9f62b5e67cd207b5f85aae8c3bb5a8/cdk-rds-dump-1.2.9.tar.gz
+[2023-07-29 04:19:22] INFO root fetch - processPackages [cdk-rds-dump]: executing diffoscope
+[2023-07-29 04:19:22] INFO root fetch - processPackages [cdk-rds-dump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-rds-dump-1.2.8.tar.gz tmp/cdk-rds-dump-1.2.9.tar.gz --markdown 20230729/c/cdk-rds-dump/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-29 04:19:22] INFO root fetch - processPackages [pistar-echo-agent]: Remove: archive file [/home/abi/fetcher/tmp/pistar_echo_agent-1.0.7-py3-none-any.whl.zip]
+[2023-07-29 04:19:22] INFO root fetch - processPackages [pistar-echo-agent]: Remove: archive file [/home/abi/fetcher/tmp/pistar_echo_agent-1.0.8-py3-none-any.whl.zip]
+[2023-07-29 04:19:22] INFO root fetch - main [MainThread]: End processing [pistar-echo-agent]: success
+[2023-07-29 04:19:23] INFO root fetch - processPackages [cdk-rds-dump]: Remove: archive file [/home/abi/fetcher/tmp/cdk-rds-dump-1.2.8.tar.gz]
+[2023-07-29 04:19:23] INFO root fetch - processPackages [cdk-rds-dump]: Remove: archive file [/home/abi/fetcher/tmp/cdk-rds-dump-1.2.9.tar.gz]
+[2023-07-29 04:19:23] INFO root fetch - main [MainThread]: End processing [cdk-rds-dump]: success
+[2023-07-29 04:19:23] INFO root fetch - main [MainThread]: Store serial: [19084696]
