@@ -6596,3 +6596,126 @@
 [2023-07-29 03:32:34] INFO root fetch - processPackages [jarvis-ironman]: Remove: archive file [/home/abi/fetcher/tmp/jarvis_ironman-3.3-py3-none-any.whl.zip]
 [2023-07-29 03:32:34] INFO root fetch - main [MainThread]: End processing [jarvis-ironman]: success
 [2023-07-29 03:32:34] INFO root fetch - main [MainThread]: Store serial: [19084438]
+[2023-07-29 03:37:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19084438]
+[2023-07-29 03:37:43] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-29 03:37:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-numpy
+[2023-07-29 03:37:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: invest-life
+[2023-07-29 03:37:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: localstack-extension-diagnosis-viewer
+[2023-07-29 03:37:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: recursive-validator
+[2023-07-29 03:37:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tfads-o-builder
+[2023-07-29 03:37:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fsai-grpc-api
+[2023-07-29 03:37:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: geopix
+[2023-07-29 03:37:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-pandas
+[2023-07-29 03:37:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: json-file-split
+[2023-07-29 03:37:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: iwx-manifest-builder
+[2023-07-29 03:37:43] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-29 03:37:43] INFO root fetch - processPackages [tfads-o-builder]: New version: [0.0.174] Old Version: [0.0.173]
+[2023-07-29 03:37:43] INFO root fetch - processPackages [invest-life]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-29 03:37:43] WARNING root fetch - processPackages [localstack-extension-diagnosis-viewer]: Skipping, unable to determine old version
+[2023-07-29 03:37:43] INFO root fetch - processPackages [localstack-extension-diagnosis-viewer]: Start processing: awpr
+[2023-07-29 03:37:43] INFO root fetch - main [MainThread]: End processing [localstack-extension-diagnosis-viewer] error
+[2023-07-29 03:37:43] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-29 03:37:43] INFO root fetch - processPackages [geopix]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-29 03:37:43] INFO root fetch - processPackages [json-file-split]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-29 03:37:43] INFO root fetch - processPackages [fsai-grpc-api]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-29 03:37:43] INFO root fetch - processPackages [iwx-manifest-builder]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-29 03:37:43] INFO root fetch - processPackages [recursive-validator]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-29 03:37:43] INFO root fetch - processPackages [awpr]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-29 03:37:43] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-07-29 03:37:43] INFO root fetch - processPackages [tfads-o-builder]: Downloading https://files.pythonhosted.org/packages/cc/54/360b7b1a1b94c81cb2b5c2ee54ef483f7329166853d570abe9faaf61bb5e/tfads_o_builder-0.0.173.tar.gz
+[2023-07-29 03:37:43] INFO root fetch - processPackages [iwx-manifest-builder]: Downloading https://files.pythonhosted.org/packages/33/bf/02ba356059e9069f6db9f027bf1bd97a4c1de39fe82e72814ed2f73f3c39/iwx_manifest_builder-0.0.98.tar.gz
+[2023-07-29 03:37:43] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-07-29 03:37:44] INFO root fetch - processPackages [geopix]: Downloading https://files.pythonhosted.org/packages/b6/a3/41b4f581e7463e3bce55e79579de9bf1f2c828011573c06bf7ab33a974bd/geopix-0.0.98.tar.gz
+[2023-07-29 03:37:44] INFO root fetch - processPackages [json-file-split]: Downloading https://files.pythonhosted.org/packages/99/d8/622632db80b721cb33feb5bafb9759e9b295589e09234724044a35a985ba/json_file_split-0.0.98.tar.gz
+[2023-07-29 03:37:44] INFO root fetch - processPackages [invest-life]: Downloading https://files.pythonhosted.org/packages/52/9d/15f7ff74a44cf6379b9f1ec50ed95c71d6f7aa3a0d737ee851dc5e77a884/invest_life-0.0.5.tar.gz
+[2023-07-29 03:37:44] INFO root fetch - processPackages [fsai-grpc-api]: Downloading https://files.pythonhosted.org/packages/08/a7/9a7ebe38ab432231655f1bfd81e702be8be178baa4b6a212002bdcf3cd96/fsai_grpc_api-0.0.98.tar.gz
+[2023-07-29 03:37:44] INFO root fetch - processPackages [awpr]: Downloading https://files.pythonhosted.org/packages/20/69/15c65a62a3a988a3178f156c6296d17502891a9da8e386979e511c8bd639/awpr-0.0.98.tar.gz
+[2023-07-29 03:37:44] INFO root fetch - processPackages [recursive-validator]: Downloading https://files.pythonhosted.org/packages/44/24/6e3f27033069680d4ad07aee3e1d535e1b3444f1ce72e8df548e8a16dc8e/recursive_validator-0.0.98.tar.gz
+[2023-07-29 03:37:44] INFO root fetch - processPackages [json-file-split]: Downloading https://files.pythonhosted.org/packages/a0/bb/0991effbd14e0114fac9146f11da815fc866dc9e12a179cdfc204af7bd99/json_file_split-0.0.99.tar.gz
+[2023-07-29 03:37:44] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-07-29 03:37:44] INFO root fetch - processPackages [geopix]: Downloading https://files.pythonhosted.org/packages/6a/35/1c90409a83c347836b8e4e5b2ad3d6ad6534718a8977dd9b3a646edd5e26/geopix-0.0.99.tar.gz
+[2023-07-29 03:37:44] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-07-29 03:37:44] INFO root fetch - processPackages [iwx-manifest-builder]: Downloading https://files.pythonhosted.org/packages/d7/d6/4db840a6915c649204176fabdc1a7d70a4fdf7a1d3bd33ddd8cd11c02111/iwx_manifest_builder-0.0.99.tar.gz
+[2023-07-29 03:37:44] INFO root fetch - processPackages [recursive-validator]: Downloading https://files.pythonhosted.org/packages/3a/cc/f8feacbe20ac476d11c94a3c866b32fb9b4dde5694a5194843b6b0dde0eb/recursive_validator-0.0.99.tar.gz
+[2023-07-29 03:37:44] INFO root fetch - processPackages [invest-life]: Downloading https://files.pythonhosted.org/packages/b1/0b/c59e8fb9310fd5c1cb157fad948058941ecada069dd4029b71610c88c544/invest_life-0.0.6.tar.gz
+[2023-07-29 03:37:44] INFO root fetch - processPackages [tfads-o-builder]: Downloading https://files.pythonhosted.org/packages/22/7a/2a4f3a9f5b9097e5a8be85f8b353775fc6ad0ecd92cffc1698708c966e70/tfads_o_builder-0.0.174.tar.gz
+[2023-07-29 03:37:44] INFO root fetch - processPackages [fsai-grpc-api]: Downloading https://files.pythonhosted.org/packages/9b/76/8a69144e2e7db3d7b70f7a9a6458e71d63b921d67ca39c9f646ee438e103/fsai_grpc_api-0.0.99.tar.gz
+[2023-07-29 03:37:44] INFO root fetch - processPackages [awpr]: Downloading https://files.pythonhosted.org/packages/43/6a/a5e099ae1a88431e28ea793094495025f2a78ac4d52ea49d8aad0e55cf8c/awpr-0.0.99.tar.gz
+[2023-07-29 03:37:44] INFO root fetch - processPackages [geopix]: executing diffoscope
+[2023-07-29 03:37:44] INFO root fetch - processPackages [geopix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geopix-0.0.98.tar.gz tmp/geopix-0.0.99.tar.gz --markdown 20230729/g/geopix/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-29 03:37:44] INFO root fetch - processPackages [json-file-split]: executing diffoscope
+[2023-07-29 03:37:44] INFO root fetch - processPackages [json-file-split]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_file_split-0.0.98.tar.gz tmp/json_file_split-0.0.99.tar.gz --markdown 20230729/j/json-file-split/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-29 03:37:44] INFO root fetch - processPackages [iwx-manifest-builder]: executing diffoscope
+[2023-07-29 03:37:44] INFO root fetch - processPackages [iwx-manifest-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iwx_manifest_builder-0.0.98.tar.gz tmp/iwx_manifest_builder-0.0.99.tar.gz --markdown 20230729/i/iwx-manifest-builder/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-29 03:37:44] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-07-29 03:37:44] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230729/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-29 03:37:44] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-07-29 03:37:44] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230729/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-29 03:37:44] INFO root fetch - processPackages [tfads-o-builder]: executing diffoscope
+[2023-07-29 03:37:44] INFO root fetch - processPackages [tfads-o-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfads_o_builder-0.0.173.tar.gz tmp/tfads_o_builder-0.0.174.tar.gz --markdown 20230729/t/tfads-o-builder/0.0.173-0.0.174/diff.md --exclude *.pyd
+[2023-07-29 03:37:44] INFO root fetch - processPackages [invest-life]: executing diffoscope
+[2023-07-29 03:37:44] INFO root fetch - processPackages [invest-life]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invest_life-0.0.5.tar.gz tmp/invest_life-0.0.6.tar.gz --markdown 20230729/i/invest-life/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-29 03:37:44] INFO root fetch - processPackages [fsai-grpc-api]: executing diffoscope
+[2023-07-29 03:37:44] INFO root fetch - processPackages [fsai-grpc-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsai_grpc_api-0.0.98.tar.gz tmp/fsai_grpc_api-0.0.99.tar.gz --markdown 20230729/f/fsai-grpc-api/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-29 03:37:44] INFO root fetch - processPackages [recursive-validator]: executing diffoscope
+[2023-07-29 03:37:44] INFO root fetch - processPackages [recursive-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recursive_validator-0.0.98.tar.gz tmp/recursive_validator-0.0.99.tar.gz --markdown 20230729/r/recursive-validator/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-29 03:37:45] INFO root fetch - processPackages [awpr]: executing diffoscope
+[2023-07-29 03:37:45] INFO root fetch - processPackages [awpr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awpr-0.0.98.tar.gz tmp/awpr-0.0.99.tar.gz --markdown 20230729/a/awpr/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-29 03:37:46] INFO root fetch - processPackages [geopix]: Remove: archive file [/home/abi/fetcher/tmp/geopix-0.0.98.tar.gz]
+[2023-07-29 03:37:46] INFO root fetch - processPackages [geopix]: Remove: archive file [/home/abi/fetcher/tmp/geopix-0.0.99.tar.gz]
+[2023-07-29 03:37:46] INFO root fetch - processPackages [geopix]: Start processing: fsai-shared-funcs
+[2023-07-29 03:37:46] INFO root fetch - main [MainThread]: End processing [geopix]: success
+[2023-07-29 03:37:46] INFO root fetch - processPackages [fsai-shared-funcs]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-29 03:37:46] INFO root fetch - processPackages [fsai-shared-funcs]: Downloading https://files.pythonhosted.org/packages/61/bc/39412ebc8deaeb66f457caebc15c02bc1fe07bc33108672e4bf143d64e3b/fsai_shared_funcs-0.0.98.tar.gz
+[2023-07-29 03:37:46] INFO root fetch - processPackages [iwx-manifest-builder]: Remove: archive file [/home/abi/fetcher/tmp/iwx_manifest_builder-0.0.98.tar.gz]
+[2023-07-29 03:37:46] INFO root fetch - processPackages [iwx-manifest-builder]: Remove: archive file [/home/abi/fetcher/tmp/iwx_manifest_builder-0.0.99.tar.gz]
+[2023-07-29 03:37:46] INFO root fetch - processPackages [iwx-manifest-builder]: Start processing: cvat-manifest-builder
+[2023-07-29 03:37:46] INFO root fetch - main [MainThread]: End processing [iwx-manifest-builder]: success
+[2023-07-29 03:37:46] INFO root fetch - processPackages [cvat-manifest-builder]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-29 03:37:46] INFO root fetch - processPackages [cvat-manifest-builder]: Downloading https://files.pythonhosted.org/packages/4d/53/ceeb4be50300cbb9ab2e0de8699ddef9fb20be70ac60f72cac3097f0efc9/cvat_manifest_builder-0.0.98.tar.gz
+[2023-07-29 03:37:46] INFO root fetch - processPackages [json-file-split]: Remove: archive file [/home/abi/fetcher/tmp/json_file_split-0.0.98.tar.gz]
+[2023-07-29 03:37:46] INFO root fetch - processPackages [json-file-split]: Remove: archive file [/home/abi/fetcher/tmp/json_file_split-0.0.99.tar.gz]
+[2023-07-29 03:37:46] INFO root fetch - processPackages [json-file-split]: Start processing: nbdev-pytorch
+[2023-07-29 03:37:46] INFO root fetch - main [MainThread]: End processing [json-file-split]: success
+[2023-07-29 03:37:46] INFO root fetch - processPackages [invest-life]: Remove: archive file [/home/abi/fetcher/tmp/invest_life-0.0.5.tar.gz]
+[2023-07-29 03:37:46] INFO root fetch - processPackages [invest-life]: Remove: archive file [/home/abi/fetcher/tmp/invest_life-0.0.6.tar.gz]
+[2023-07-29 03:37:46] INFO root fetch - main [MainThread]: End processing [invest-life]: success
+[2023-07-29 03:37:46] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-07-29 03:37:46] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-07-29 03:37:46] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-07-29 03:37:46] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-07-29 03:37:46] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-07-29 03:37:46] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-07-29 03:37:46] INFO root fetch - processPackages [fsai-shared-funcs]: Downloading https://files.pythonhosted.org/packages/3d/ad/0128c444d5b95fa3b9882d63404069f05fbee06ab63f54a541348c51a445/fsai_shared_funcs-0.0.99.tar.gz
+[2023-07-29 03:37:46] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-29 03:37:46] INFO root fetch - processPackages [awpr]: Remove: archive file [/home/abi/fetcher/tmp/awpr-0.0.98.tar.gz]
+[2023-07-29 03:37:46] INFO root fetch - processPackages [awpr]: Remove: archive file [/home/abi/fetcher/tmp/awpr-0.0.99.tar.gz]
+[2023-07-29 03:37:46] INFO root fetch - main [MainThread]: End processing [awpr]: success
+[2023-07-29 03:37:46] INFO root fetch - processPackages [recursive-validator]: Remove: archive file [/home/abi/fetcher/tmp/recursive_validator-0.0.98.tar.gz]
+[2023-07-29 03:37:46] INFO root fetch - processPackages [recursive-validator]: Remove: archive file [/home/abi/fetcher/tmp/recursive_validator-0.0.99.tar.gz]
+[2023-07-29 03:37:46] INFO root fetch - main [MainThread]: End processing [recursive-validator]: success
+[2023-07-29 03:37:46] INFO root fetch - processPackages [cvat-manifest-builder]: Downloading https://files.pythonhosted.org/packages/2d/fd/8ffcf4ea6e13da75ab842cd4fdacad9222d483a9b210dbc27e9c251f6a20/cvat_manifest_builder-0.0.99.tar.gz
+[2023-07-29 03:37:46] INFO root fetch - processPackages [fsai-shared-funcs]: executing diffoscope
+[2023-07-29 03:37:46] INFO root fetch - processPackages [fsai-shared-funcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsai_shared_funcs-0.0.98.tar.gz tmp/fsai_shared_funcs-0.0.99.tar.gz --markdown 20230729/f/fsai-shared-funcs/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-29 03:37:46] INFO root fetch - processPackages [fsai-grpc-api]: Remove: archive file [/home/abi/fetcher/tmp/fsai_grpc_api-0.0.98.tar.gz]
+[2023-07-29 03:37:46] INFO root fetch - processPackages [fsai-grpc-api]: Remove: archive file [/home/abi/fetcher/tmp/fsai_grpc_api-0.0.99.tar.gz]
+[2023-07-29 03:37:46] INFO root fetch - main [MainThread]: End processing [fsai-grpc-api]: success
+[2023-07-29 03:37:46] INFO root fetch - processPackages [tfads-o-builder]: Remove: archive file [/home/abi/fetcher/tmp/tfads_o_builder-0.0.173.tar.gz]
+[2023-07-29 03:37:46] INFO root fetch - processPackages [tfads-o-builder]: Remove: archive file [/home/abi/fetcher/tmp/tfads_o_builder-0.0.174.tar.gz]
+[2023-07-29 03:37:46] INFO root fetch - main [MainThread]: End processing [tfads-o-builder]: success
+[2023-07-29 03:37:46] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-07-29 03:37:46] INFO root fetch - processPackages [cvat-manifest-builder]: executing diffoscope
+[2023-07-29 03:37:46] INFO root fetch - processPackages [cvat-manifest-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvat_manifest_builder-0.0.98.tar.gz tmp/cvat_manifest_builder-0.0.99.tar.gz --markdown 20230729/c/cvat-manifest-builder/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-29 03:37:46] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-07-29 03:37:47] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-07-29 03:37:47] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230729/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-29 03:37:47] INFO root fetch - processPackages [fsai-shared-funcs]: Remove: archive file [/home/abi/fetcher/tmp/fsai_shared_funcs-0.0.98.tar.gz]
+[2023-07-29 03:37:47] INFO root fetch - processPackages [fsai-shared-funcs]: Remove: archive file [/home/abi/fetcher/tmp/fsai_shared_funcs-0.0.99.tar.gz]
+[2023-07-29 03:37:47] INFO root fetch - main [MainThread]: End processing [fsai-shared-funcs]: success
+[2023-07-29 03:37:47] INFO root fetch - processPackages [cvat-manifest-builder]: Remove: archive file [/home/abi/fetcher/tmp/cvat_manifest_builder-0.0.98.tar.gz]
+[2023-07-29 03:37:47] INFO root fetch - processPackages [cvat-manifest-builder]: Remove: archive file [/home/abi/fetcher/tmp/cvat_manifest_builder-0.0.99.tar.gz]
+[2023-07-29 03:37:47] INFO root fetch - main [MainThread]: End processing [cvat-manifest-builder]: success
+[2023-07-29 03:37:47] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-07-29 03:37:47] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-07-29 03:37:47] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-07-29 03:37:47] INFO root fetch - main [MainThread]: Store serial: [19084504]
