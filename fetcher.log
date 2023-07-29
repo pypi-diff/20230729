@@ -19022,3 +19022,23 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 16:51:25] INFO root fetch - processPackages [mostats]: Remove: archive file [/home/abi/fetcher/tmp/mostats-1.0.9-py3-none-any.whl.zip]
 [2023-07-29 16:51:25] INFO root fetch - main [MainThread]: End processing [mostats]: success
 [2023-07-29 16:51:25] INFO root fetch - main [MainThread]: Store serial: [19089504]
+[2023-07-29 16:56:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19089504]
+[2023-07-29 16:56:34] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-29 16:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ytws
+[2023-07-29 16:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lektor-tekir
+[2023-07-29 16:56:34] INFO root fetch - processPackages [ytws]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-29 16:56:34] INFO root fetch - processPackages [lektor-tekir]: New version: [0.5] Old Version: [0.4]
+[2023-07-29 16:56:35] INFO root fetch - processPackages [ytws]: Downloading https://files.pythonhosted.org/packages/8b/1e/240edfb6494981d80ccb6f3c8fc869a05efde842ba36ad4145758f782694/ytws-0.2.0.tar.gz
+[2023-07-29 16:56:35] INFO root fetch - processPackages [ytws]: Downloading https://files.pythonhosted.org/packages/fe/cd/209500f305c143dd85177709a5d134e97d43bb13a2be2c97e03b3cc60df7/ytws-0.2.1.tar.gz
+[2023-07-29 16:56:35] INFO root fetch - processPackages [lektor-tekir]: Downloading https://files.pythonhosted.org/packages/e8/3f/c206bb2b5378687c3ec540eaed6d99c4ef12371367751c385920eb1330ba/lektor-tekir-0.5.tar.gz
+[2023-07-29 16:56:35] INFO root fetch - processPackages [lektor-tekir]: executing diffoscope
+[2023-07-29 16:56:35] INFO root fetch - processPackages [lektor-tekir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lektor-tekir-0.4.tar.gz tmp/lektor-tekir-0.5.tar.gz --markdown 20230729/l/lektor-tekir/0.4-0.5/diff.md --exclude *.pyd
+[2023-07-29 16:56:35] INFO root fetch - processPackages [ytws]: executing diffoscope
+[2023-07-29 16:56:35] INFO root fetch - processPackages [ytws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytws-0.2.0.tar.gz tmp/ytws-0.2.1.tar.gz --markdown 20230729/y/ytws/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-29 16:56:36] INFO root fetch - processPackages [ytws]: Remove: archive file [/home/abi/fetcher/tmp/ytws-0.2.0.tar.gz]
+[2023-07-29 16:56:36] INFO root fetch - processPackages [ytws]: Remove: archive file [/home/abi/fetcher/tmp/ytws-0.2.1.tar.gz]
+[2023-07-29 16:56:36] INFO root fetch - main [MainThread]: End processing [ytws]: success
+[2023-07-29 16:56:36] INFO root fetch - processPackages [lektor-tekir]: Remove: archive file [/home/abi/fetcher/tmp/lektor-tekir-0.4.tar.gz]
+[2023-07-29 16:56:36] INFO root fetch - processPackages [lektor-tekir]: Remove: archive file [/home/abi/fetcher/tmp/lektor-tekir-0.5.tar.gz]
+[2023-07-29 16:56:36] INFO root fetch - main [MainThread]: End processing [lektor-tekir]: success
+[2023-07-29 16:56:36] INFO root fetch - main [MainThread]: Store serial: [19089513]
