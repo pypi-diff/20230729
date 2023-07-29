@@ -21892,3 +21892,66 @@ AssertionError: tmp/pulpcore-3.9.0.tar.gz does not exist
 [2023-07-29 20:09:27] INFO root fetch - processPackages [actions-security-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/actions_security_analyzer-1.2.3.tar.gz]
 [2023-07-29 20:09:27] INFO root fetch - main [MainThread]: End processing [actions-security-analyzer]: success
 [2023-07-29 20:09:27] INFO root fetch - main [MainThread]: Store serial: [19090841]
+[2023-07-29 20:14:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19090841]
+[2023-07-29 20:14:36] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-29 20:14:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyTashriBS
+[2023-07-29 20:14:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: liana-rpc
+[2023-07-29 20:14:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cmd-find
+[2023-07-29 20:14:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smartloop
+[2023-07-29 20:14:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pymkpsxiso
+[2023-07-29 20:14:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jaraco.services
+[2023-07-29 20:14:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: promptengine-catapult
+[2023-07-29 20:14:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gammarer.aws-secure-flow-log-bucket
+[2023-07-29 20:14:36] INFO root fetch - processPackages [promptengine-catapult]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-29 20:14:36] INFO root fetch - processPackages [jaraco.services]: New version: [3.2.0] Old Version: [3.1.0]
+[2023-07-29 20:14:36] WARNING root fetch - processPackages [liana-rpc]: Skipping, unable to determine old version
+[2023-07-29 20:14:36] INFO root fetch - main [MainThread]: End processing [liana-rpc] error
+[2023-07-29 20:14:36] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-29 20:14:36] INFO root fetch - processPackages [pyTashriBS]: New version: [0.2] Old Version: [0.1]
+[2023-07-29 20:14:36] WARNING root fetch - processPackages [cmd-find]: Skipping, unable to determine old version
+[2023-07-29 20:14:36] INFO root fetch - main [MainThread]: End processing [cmd-find] error
+[2023-07-29 20:14:36] INFO root fetch - processPackages [smartloop]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-29 20:14:36] INFO root fetch - processPackages [pymkpsxiso]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-29 20:14:36] INFO root fetch - processPackages [promptengine-catapult]: Downloading https://files.pythonhosted.org/packages/da/cc/bdf8fd738d4f99c2e24aa0975f46e16ae565a8dbb3a87ee6ac6b0de0fab4/promptengine_catapult-0.1.7.tar.gz
+[2023-07-29 20:14:36] INFO root fetch - processPackages [smartloop]: Downloading https://files.pythonhosted.org/packages/87/5b/3b440e995deb1d5319c7959171a797acbf599d4791e059628c258c7c87d1/smartloop-1.0.5.tar.gz
+[2023-07-29 20:14:36] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: Downloading https://files.pythonhosted.org/packages/41/d1/1609d9136e2768b4a42f2595a3278ac4d8b74caf161d765430c143a23f9e/gammarer.aws-secure-flow-log-bucket-0.3.8.tar.gz
+[2023-07-29 20:14:36] INFO root fetch - processPackages [pyTashriBS]: Downloading https://files.pythonhosted.org/packages/f2/6c/8468d362db8e2decd93a949e73e439c0d9b705e4d65c2c480915ede86444/pyTashriBS-0.1.tar.gz
+[2023-07-29 20:14:36] INFO root fetch - processPackages [jaraco.services]: Downloading https://files.pythonhosted.org/packages/71/0b/4beb980d49c3bb3eeaf88f42cf70ebe446c602da8debe0c3bc052da30c53/jaraco.services-3.1.0.tar.gz
+[2023-07-29 20:14:36] INFO root fetch - processPackages [pymkpsxiso]: Downloading https://files.pythonhosted.org/packages/f6/71/5c9e59279fb8ba9e2e3d8cb2e82387ddb4adf8e31e020edf55bb1ca31b95/pymkpsxiso-0.1.3.tar.gz
+[2023-07-29 20:14:36] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: Downloading https://files.pythonhosted.org/packages/8b/9e/1444bb150a643d143d15a3e71f4ec01b157852a6248fcde9039057364f2a/gammarer.aws-secure-flow-log-bucket-0.3.9.tar.gz
+[2023-07-29 20:14:36] INFO root fetch - processPackages [smartloop]: Downloading https://files.pythonhosted.org/packages/f4/bf/6750a8f26958fa23b5eef9793d27812248f2a282ae381078a1072a1bdc2f/smartloop-1.0.6.tar.gz
+[2023-07-29 20:14:36] INFO root fetch - processPackages [promptengine-catapult]: Downloading https://files.pythonhosted.org/packages/12/f5/2a4b3f21a76dad21d8067fa2a37931b99e45f37d523ca2456a663d4c49c5/promptengine_catapult-0.1.8.tar.gz
+[2023-07-29 20:14:37] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: executing diffoscope
+[2023-07-29 20:14:37] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-secure-flow-log-bucket-0.3.8.tar.gz tmp/gammarer.aws-secure-flow-log-bucket-0.3.9.tar.gz --markdown 20230729/g/gammarer.aws-secure-flow-log-bucket/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-29 20:14:37] INFO root fetch - processPackages [promptengine-catapult]: executing diffoscope
+[2023-07-29 20:14:37] INFO root fetch - processPackages [promptengine-catapult]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptengine_catapult-0.1.7.tar.gz tmp/promptengine_catapult-0.1.8.tar.gz --markdown 20230729/p/promptengine-catapult/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-29 20:14:37] INFO root fetch - processPackages [pyTashriBS]: Downloading https://files.pythonhosted.org/packages/fb/f7/376c831ebf4749fdd5b8211bf3cdb7595f9e9e9165e793eaf3da34a2d9b1/pyTashriBS-0.2.tar.gz
+[2023-07-29 20:14:37] INFO root fetch - processPackages [jaraco.services]: Downloading https://files.pythonhosted.org/packages/39/2b/acede99cdb412807a9a706c116848787ad3bf81c50bd1dba9bd509d6fa30/jaraco.services-3.2.0.tar.gz
+[2023-07-29 20:14:37] INFO root fetch - processPackages [smartloop]: executing diffoscope
+[2023-07-29 20:14:37] INFO root fetch - processPackages [smartloop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartloop-1.0.5.tar.gz tmp/smartloop-1.0.6.tar.gz --markdown 20230729/s/smartloop/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-29 20:14:37] INFO root fetch - processPackages [pymkpsxiso]: Downloading https://files.pythonhosted.org/packages/d3/d2/acd4df9d4b2f0b32d676d32505899d5b8fce029e302fbba3b6eaf6f956d0/pymkpsxiso-0.1.4.tar.gz
+[2023-07-29 20:14:37] INFO root fetch - processPackages [pyTashriBS]: executing diffoscope
+[2023-07-29 20:14:37] INFO root fetch - processPackages [pyTashriBS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyTashriBS-0.1.tar.gz tmp/pyTashriBS-0.2.tar.gz --markdown 20230729/p/pyTashriBS/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-29 20:14:37] INFO root fetch - processPackages [jaraco.services]: executing diffoscope
+[2023-07-29 20:14:37] INFO root fetch - processPackages [jaraco.services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaraco.services-3.1.0.tar.gz tmp/jaraco.services-3.2.0.tar.gz --markdown 20230729/j/jaraco.services/3.1.0-3.2.0/diff.md --exclude *.pyd
+[2023-07-29 20:14:37] INFO root fetch - processPackages [pymkpsxiso]: executing diffoscope
+[2023-07-29 20:14:37] INFO root fetch - processPackages [pymkpsxiso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymkpsxiso-0.1.3.tar.gz tmp/pymkpsxiso-0.1.4.tar.gz --markdown 20230729/p/pymkpsxiso/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-29 20:14:38] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-flow-log-bucket-0.3.8.tar.gz]
+[2023-07-29 20:14:38] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-flow-log-bucket-0.3.9.tar.gz]
+[2023-07-29 20:14:38] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-flow-log-bucket]: success
+[2023-07-29 20:14:38] INFO root fetch - processPackages [promptengine-catapult]: Remove: archive file [/home/abi/fetcher/tmp/promptengine_catapult-0.1.7.tar.gz]
+[2023-07-29 20:14:38] INFO root fetch - processPackages [promptengine-catapult]: Remove: archive file [/home/abi/fetcher/tmp/promptengine_catapult-0.1.8.tar.gz]
+[2023-07-29 20:14:38] INFO root fetch - main [MainThread]: End processing [promptengine-catapult]: success
+[2023-07-29 20:14:38] INFO root fetch - processPackages [smartloop]: Remove: archive file [/home/abi/fetcher/tmp/smartloop-1.0.5.tar.gz]
+[2023-07-29 20:14:38] INFO root fetch - processPackages [smartloop]: Remove: archive file [/home/abi/fetcher/tmp/smartloop-1.0.6.tar.gz]
+[2023-07-29 20:14:38] INFO root fetch - main [MainThread]: End processing [smartloop]: success
+[2023-07-29 20:14:38] INFO root fetch - processPackages [pyTashriBS]: Remove: archive file [/home/abi/fetcher/tmp/pyTashriBS-0.1.tar.gz]
+[2023-07-29 20:14:38] INFO root fetch - processPackages [pyTashriBS]: Remove: archive file [/home/abi/fetcher/tmp/pyTashriBS-0.2.tar.gz]
+[2023-07-29 20:14:38] INFO root fetch - main [MainThread]: End processing [pyTashriBS]: success
+[2023-07-29 20:14:38] INFO root fetch - processPackages [jaraco.services]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.services-3.1.0.tar.gz]
+[2023-07-29 20:14:38] INFO root fetch - processPackages [jaraco.services]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.services-3.2.0.tar.gz]
+[2023-07-29 20:14:38] INFO root fetch - main [MainThread]: End processing [jaraco.services]: success
+[2023-07-29 20:14:38] INFO root fetch - processPackages [pymkpsxiso]: Remove: archive file [/home/abi/fetcher/tmp/pymkpsxiso-0.1.3.tar.gz]
+[2023-07-29 20:14:38] INFO root fetch - processPackages [pymkpsxiso]: Remove: archive file [/home/abi/fetcher/tmp/pymkpsxiso-0.1.4.tar.gz]
+[2023-07-29 20:14:38] INFO root fetch - main [MainThread]: End processing [pymkpsxiso]: success
+[2023-07-29 20:14:38] INFO root fetch - main [MainThread]: Store serial: [19090921]
