@@ -8353,3 +8353,33 @@
 [2023-07-29 06:18:00] INFO root fetch - processPackages [aityz]: Remove: archive file [/home/abi/fetcher/tmp/aityz-1.0.3.tar.gz]
 [2023-07-29 06:18:00] INFO root fetch - main [MainThread]: End processing [aityz]: success
 [2023-07-29 06:18:00] INFO root fetch - main [MainThread]: Store serial: [19085278]
+[2023-07-29 06:23:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19085278]
+[2023-07-29 06:23:08] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-29 06:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamlit-bls-connection
+[2023-07-29 06:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: uptrain
+[2023-07-29 06:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyalarmdotcomajax
+[2023-07-29 06:23:08] INFO root fetch - processPackages [streamlit-bls-connection]: New version: [0.4] Old Version: [0.2]
+[2023-07-29 06:23:08] INFO root fetch - processPackages [uptrain]: New version: [0.3.6] Old Version: [0.3.4]
+[2023-07-29 06:23:08] INFO root fetch - processPackages [pyalarmdotcomajax]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-07-29 06:23:09] INFO root fetch - processPackages [streamlit-bls-connection]: Downloading https://files.pythonhosted.org/packages/2f/d5/b7864804c7619ea1d7eebf60a300d0a2c06bbeadd988a05e3078ac0af089/streamlit_bls_connection-0.2.tar.gz
+[2023-07-29 06:23:09] INFO root fetch - processPackages [pyalarmdotcomajax]: Downloading https://files.pythonhosted.org/packages/ed/a5/d8d114c2c0130b2222fc0eb731a879d9c3d69dcb00f6fc3fe495ec1f2545/pyalarmdotcomajax-0.5.3.tar.gz
+[2023-07-29 06:23:09] INFO root fetch - processPackages [uptrain]: Downloading https://files.pythonhosted.org/packages/36/43/88998427ede4278af25024d5a5d12a57dbe612d5dda5f524d5eee3e9ea66/uptrain-0.3.4.tar.gz
+[2023-07-29 06:23:09] INFO root fetch - processPackages [streamlit-bls-connection]: Downloading https://files.pythonhosted.org/packages/95/05/44ed0f6c01e5189675a3b132c1332d31239baa9e1774d5ae1ffdae62c2e1/streamlit_bls_connection-0.4.tar.gz
+[2023-07-29 06:23:09] INFO root fetch - processPackages [pyalarmdotcomajax]: Downloading https://files.pythonhosted.org/packages/16/99/a5b5f525d3798f1321b72e0f04e5ddcfae61e3bbb5b15d84eb3da3b2ac80/pyalarmdotcomajax-0.5.4.tar.gz
+[2023-07-29 06:23:09] INFO root fetch - processPackages [uptrain]: Downloading https://files.pythonhosted.org/packages/e4/82/2f008e5c37abf1b2c1a0d970b5e45d947c96eea2cba1fed0bbf50043e8b9/uptrain-0.3.6.tar.gz
+[2023-07-29 06:23:09] INFO root fetch - processPackages [streamlit-bls-connection]: executing diffoscope
+[2023-07-29 06:23:09] INFO root fetch - processPackages [streamlit-bls-connection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_bls_connection-0.2.tar.gz tmp/streamlit_bls_connection-0.4.tar.gz --markdown 20230729/s/streamlit-bls-connection/0.2-0.4/diff.md --exclude *.pyd
+[2023-07-29 06:23:09] INFO root fetch - processPackages [pyalarmdotcomajax]: executing diffoscope
+[2023-07-29 06:23:09] INFO root fetch - processPackages [pyalarmdotcomajax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyalarmdotcomajax-0.5.3.tar.gz tmp/pyalarmdotcomajax-0.5.4.tar.gz --markdown 20230729/p/pyalarmdotcomajax/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-07-29 06:23:09] INFO root fetch - processPackages [uptrain]: executing diffoscope
+[2023-07-29 06:23:09] INFO root fetch - processPackages [uptrain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uptrain-0.3.4.tar.gz tmp/uptrain-0.3.6.tar.gz --markdown 20230729/u/uptrain/0.3.4-0.3.6/diff.md --exclude *.pyd
+[2023-07-29 06:23:10] INFO root fetch - processPackages [streamlit-bls-connection]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_bls_connection-0.2.tar.gz]
+[2023-07-29 06:23:10] INFO root fetch - processPackages [streamlit-bls-connection]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_bls_connection-0.4.tar.gz]
+[2023-07-29 06:23:10] INFO root fetch - main [MainThread]: End processing [streamlit-bls-connection]: success
+[2023-07-29 06:23:10] INFO root fetch - processPackages [pyalarmdotcomajax]: Remove: archive file [/home/abi/fetcher/tmp/pyalarmdotcomajax-0.5.3.tar.gz]
+[2023-07-29 06:23:10] INFO root fetch - processPackages [pyalarmdotcomajax]: Remove: archive file [/home/abi/fetcher/tmp/pyalarmdotcomajax-0.5.4.tar.gz]
+[2023-07-29 06:23:10] INFO root fetch - main [MainThread]: End processing [pyalarmdotcomajax]: success
+[2023-07-29 06:23:11] INFO root fetch - processPackages [uptrain]: Remove: archive file [/home/abi/fetcher/tmp/uptrain-0.3.4.tar.gz]
+[2023-07-29 06:23:11] INFO root fetch - processPackages [uptrain]: Remove: archive file [/home/abi/fetcher/tmp/uptrain-0.3.6.tar.gz]
+[2023-07-29 06:23:11] INFO root fetch - main [MainThread]: End processing [uptrain]: success
+[2023-07-29 06:23:11] INFO root fetch - main [MainThread]: Store serial: [19085288]
