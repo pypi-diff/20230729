@@ -22042,3 +22042,66 @@ AssertionError: tmp/pulpcore-3.9.0.tar.gz does not exist
 [2023-07-29 20:19:51] INFO root fetch - processPackages [mols2grid]: Remove: archive file [/home/abi/fetcher/tmp/mols2grid-2.0.0rc1.tar.gz]
 [2023-07-29 20:19:51] INFO root fetch - main [MainThread]: End processing [mols2grid]: success
 [2023-07-29 20:19:51] INFO root fetch - main [MainThread]: Store serial: [19090955]
+[2023-07-29 20:24:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19090955]
+[2023-07-29 20:25:00] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-29 20:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gammarer.aws-secure-vpc-bucket
+[2023-07-29 20:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: botwinick-utils
+[2023-07-29 20:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gs-sql
+[2023-07-29 20:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TheSilent
+[2023-07-29 20:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arab-transcription
+[2023-07-29 20:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gammarer.aws-ecs-fargate-task-termination-detection-event-rule
+[2023-07-29 20:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qpandas
+[2023-07-29 20:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytransformers
+[2023-07-29 20:25:00] WARNING root fetch - processPackages [arab-transcription]: Skipping, unable to determine old version
+[2023-07-29 20:25:00] INFO root fetch - main [MainThread]: End processing [arab-transcription] error
+[2023-07-29 20:25:00] INFO root fetch - processPackages [botwinick-utils]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-07-29 20:25:00] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-29 20:25:00] INFO root fetch - processPackages [gs-sql]: New version: [0.0.2] Old Version: [0.0]
+[2023-07-29 20:25:00] INFO root fetch - processPackages [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-29 20:25:00] INFO root fetch - processPackages [qpandas]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-29 20:25:00] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-29 20:25:00] WARNING root fetch - processPackages [pytransformers]: Skipping, unable to determine old version
+[2023-07-29 20:25:00] INFO root fetch - main [MainThread]: End processing [pytransformers] error
+[2023-07-29 20:25:00] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: Downloading https://files.pythonhosted.org/packages/ac/2d/3608b3325d4750a1f330b5a425218960f57e89b27615ffadc1c18a4d3b67/gammarer.aws-secure-vpc-bucket-0.5.8.tar.gz
+[2023-07-29 20:25:00] INFO root fetch - processPackages [qpandas]: Downloading https://files.pythonhosted.org/packages/73/34/7eba28e7d31a0d22fa0386648b187aafbe63f4d6ad2bb68d3d4d7f633da4/qpandas-1.0.1.tar.gz
+[2023-07-29 20:25:00] INFO root fetch - processPackages [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: Downloading https://files.pythonhosted.org/packages/df/79/de75e268ced8265f0236fc0c57a53bb8c2d88d4e90b3c3e0a0b87f048615/gammarer.aws-ecs-fargate-task-termination-detection-event-rule-0.4.8.tar.gz
+[2023-07-29 20:25:00] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-29 20:25:00] INFO root fetch - processPackages [botwinick-utils]: Downloading https://files.pythonhosted.org/packages/e3/b0/fc3b1eb612a77b0ec7b92f20c98c060abd64c6f07d57744d2bf88d8223c1/botwinick_utils-0.0.2.tar.gz
+[2023-07-29 20:25:00] INFO root fetch - processPackages [gs-sql]: Downloading https://files.pythonhosted.org/packages/85/1f/e1c4104138dc67886b9dd34b7dbbc2433bd676dd0610f3c710af8a5bdb03/gs_sql-0.0.tar.gz
+[2023-07-29 20:25:00] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: Downloading https://files.pythonhosted.org/packages/92/06/8554960acd022a029cfa24db543e5c4d268e897550f38a47a8cd20049f11/gammarer.aws-secure-vpc-bucket-0.5.9.tar.gz
+[2023-07-29 20:25:01] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-29 20:25:01] INFO root fetch - processPackages [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: Downloading https://files.pythonhosted.org/packages/c7/e3/724d40f647e0f9c9266676d8e0a5644d591def8f3febf064538d3d138e4e/gammarer.aws-ecs-fargate-task-termination-detection-event-rule-0.4.9.tar.gz
+[2023-07-29 20:25:01] INFO root fetch - processPackages [qpandas]: Downloading https://files.pythonhosted.org/packages/fb/8e/626dd9cb6d0ac2b88a3c08d8dc13e273c496203fdcb84af152856dd4a995/qpandas-1.0.2.tar.gz
+[2023-07-29 20:25:01] INFO root fetch - processPackages [botwinick-utils]: Downloading https://files.pythonhosted.org/packages/b6/4e/fab5025d4376c144f57de62954ea93a784c220f570f6e5bac35774cf4f3f/botwinick_utils-0.0.4.tar.gz
+[2023-07-29 20:25:01] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: executing diffoscope
+[2023-07-29 20:25:01] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-secure-vpc-bucket-0.5.8.tar.gz tmp/gammarer.aws-secure-vpc-bucket-0.5.9.tar.gz --markdown 20230729/g/gammarer.aws-secure-vpc-bucket/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-29 20:25:01] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-29 20:25:01] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230729/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-29 20:25:01] INFO root fetch - processPackages [gs-sql]: Downloading https://files.pythonhosted.org/packages/0f/97/5494d961bdfbf1baaea26c09d475b2e29aa7cb81681ef2a59d04f389f552/gs_sql-0.0.2.tar.gz
+[2023-07-29 20:25:01] INFO root fetch - processPackages [botwinick-utils]: executing diffoscope
+[2023-07-29 20:25:01] INFO root fetch - processPackages [botwinick-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botwinick_utils-0.0.2.tar.gz tmp/botwinick_utils-0.0.4.tar.gz --markdown 20230729/b/botwinick-utils/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-07-29 20:25:01] INFO root fetch - processPackages [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: executing diffoscope
+[2023-07-29 20:25:01] INFO root fetch - processPackages [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-ecs-fargate-task-termination-detection-event-rule-0.4.8.tar.gz tmp/gammarer.aws-ecs-fargate-task-termination-detection-event-rule-0.4.9.tar.gz --markdown 20230729/g/gammarer.aws-ecs-fargate-task-termination-detection-event-rule/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-29 20:25:01] INFO root fetch - processPackages [gs-sql]: executing diffoscope
+[2023-07-29 20:25:01] INFO root fetch - processPackages [gs-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_sql-0.0.tar.gz tmp/gs_sql-0.0.2.tar.gz --markdown 20230729/g/gs-sql/0.0-0.0.2/diff.md --exclude *.pyd
+[2023-07-29 20:25:01] INFO root fetch - processPackages [qpandas]: executing diffoscope
+[2023-07-29 20:25:01] INFO root fetch - processPackages [qpandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qpandas-1.0.1.tar.gz tmp/qpandas-1.0.2.tar.gz --markdown 20230729/q/qpandas/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-29 20:25:02] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-vpc-bucket-0.5.8.tar.gz]
+[2023-07-29 20:25:02] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-vpc-bucket-0.5.9.tar.gz]
+[2023-07-29 20:25:02] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-vpc-bucket]: success
+[2023-07-29 20:25:02] INFO root fetch - processPackages [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-ecs-fargate-task-termination-detection-event-rule-0.4.8.tar.gz]
+[2023-07-29 20:25:02] INFO root fetch - processPackages [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-ecs-fargate-task-termination-detection-event-rule-0.4.9.tar.gz]
+[2023-07-29 20:25:02] INFO root fetch - main [MainThread]: End processing [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: success
+[2023-07-29 20:25:02] INFO root fetch - processPackages [botwinick-utils]: Remove: archive file [/home/abi/fetcher/tmp/botwinick_utils-0.0.2.tar.gz]
+[2023-07-29 20:25:02] INFO root fetch - processPackages [botwinick-utils]: Remove: archive file [/home/abi/fetcher/tmp/botwinick_utils-0.0.4.tar.gz]
+[2023-07-29 20:25:02] INFO root fetch - main [MainThread]: End processing [botwinick-utils]: success
+[2023-07-29 20:25:02] INFO root fetch - processPackages [gs-sql]: Remove: archive file [/home/abi/fetcher/tmp/gs_sql-0.0.tar.gz]
+[2023-07-29 20:25:02] INFO root fetch - processPackages [gs-sql]: Remove: archive file [/home/abi/fetcher/tmp/gs_sql-0.0.2.tar.gz]
+[2023-07-29 20:25:02] INFO root fetch - main [MainThread]: End processing [gs-sql]: success
+[2023-07-29 20:25:02] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-29 20:25:02] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-29 20:25:02] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-29 20:25:02] INFO root fetch - processPackages [qpandas]: Remove: archive file [/home/abi/fetcher/tmp/qpandas-1.0.1.tar.gz]
+[2023-07-29 20:25:02] INFO root fetch - processPackages [qpandas]: Remove: archive file [/home/abi/fetcher/tmp/qpandas-1.0.2.tar.gz]
+[2023-07-29 20:25:02] INFO root fetch - main [MainThread]: End processing [qpandas]: success
+[2023-07-29 20:25:02] INFO root fetch - main [MainThread]: Store serial: [19090981]
