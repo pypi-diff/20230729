@@ -11346,3 +11346,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 10:54:31] INFO root fetch - processPackages [PrEditor]: Remove: archive file [/home/abi/fetcher/tmp/PrEditor-0.1.0rc1-py2.py3-none-any.whl.zip]
 [2023-07-29 10:54:31] INFO root fetch - main [MainThread]: End processing [PrEditor]: success
 [2023-07-29 10:54:31] INFO root fetch - main [MainThread]: Store serial: [19086501]
+[2023-07-29 10:59:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19086501]
+[2023-07-29 10:59:39] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-29 10:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: physicsLab
+[2023-07-29 10:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tidypath
+[2023-07-29 10:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyphe
+[2023-07-29 10:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hezar
+[2023-07-29 10:59:39] INFO root fetch - processPackages [tidypath]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-07-29 10:59:39] INFO root fetch - processPackages [hezar]: New version: [0.17.0] Old Version: [0.16.0]
+[2023-07-29 10:59:39] INFO root fetch - processPackages [pyphe]: New version: [0.982] Old Version: [0.981]
+[2023-07-29 10:59:39] INFO root fetch - processPackages [physicsLab]: New version: [1.3.0.1] Old Version: [1.3.0]
+[2023-07-29 10:59:39] INFO root fetch - processPackages [hezar]: Downloading https://files.pythonhosted.org/packages/de/10/f0605c66cf2d4003dbb86800c7af9f96a9b4bfcfe711e7ad67823dacec97/hezar-0.16.0.tar.gz
+[2023-07-29 10:59:39] INFO root fetch - processPackages [tidypath]: Downloading https://files.pythonhosted.org/packages/7d/02/296c62305110edd263e94a9abbff545efd2d37ef6cb02153739345fe630e/tidypath-1.1.7.tar.gz
+[2023-07-29 10:59:39] INFO root fetch - processPackages [pyphe]: Downloading https://files.pythonhosted.org/packages/d8/e0/7ea10434c1358add6896b54bd3e39aba799a68804a11f0473a0ec37f7c33/pyphe-0.981.tar.gz
+[2023-07-29 10:59:40] INFO root fetch - processPackages [physicsLab]: Downloading https://files.pythonhosted.org/packages/46/50/0bf68b851460cd638828da48ea3e17f8cfbb7a2e956104298e53af5b560c/physicsLab-1.3.0.tar.gz
+[2023-07-29 10:59:40] INFO root fetch - processPackages [hezar]: Downloading https://files.pythonhosted.org/packages/44/b8/4adf8abb5e8c89bf61e9244a80d59ab5c86ea7cb9eddfe04297e905615b9/hezar-0.17.0.tar.gz
+[2023-07-29 10:59:40] INFO root fetch - processPackages [hezar]: executing diffoscope
+[2023-07-29 10:59:40] INFO root fetch - processPackages [hezar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hezar-0.16.0.tar.gz tmp/hezar-0.17.0.tar.gz --markdown 20230729/h/hezar/0.16.0-0.17.0/diff.md --exclude *.pyd
+[2023-07-29 10:59:40] INFO root fetch - processPackages [tidypath]: Downloading https://files.pythonhosted.org/packages/6f/db/53432b04c4cf813161f250f8f93d4c521d3d1df6140bf1792d8676bbf8cf/tidypath-1.1.8.tar.gz
+[2023-07-29 10:59:40] INFO root fetch - processPackages [pyphe]: Downloading https://files.pythonhosted.org/packages/7e/ff/02664a9ec055ed7b9bf40ab3945613664c1900e6afe0b01dba51fe32504e/pyphe-0.982.tar.gz
+[2023-07-29 10:59:40] INFO root fetch - processPackages [tidypath]: executing diffoscope
+[2023-07-29 10:59:40] INFO root fetch - processPackages [tidypath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidypath-1.1.7.tar.gz tmp/tidypath-1.1.8.tar.gz --markdown 20230729/t/tidypath/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-07-29 10:59:40] INFO root fetch - processPackages [physicsLab]: Downloading https://files.pythonhosted.org/packages/96/d5/9640ba13d31dc530dcfbdcfa88f4a2ced50698d03918548f6a0d174ba597/physicsLab-1.3.0.1.tar.gz
+[2023-07-29 10:59:40] INFO root fetch - processPackages [pyphe]: executing diffoscope
+[2023-07-29 10:59:40] INFO root fetch - processPackages [pyphe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyphe-0.981.tar.gz tmp/pyphe-0.982.tar.gz --markdown 20230729/p/pyphe/0.981-0.982/diff.md --exclude *.pyd
+[2023-07-29 10:59:40] INFO root fetch - processPackages [physicsLab]: executing diffoscope
+[2023-07-29 10:59:40] INFO root fetch - processPackages [physicsLab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/physicsLab-1.3.0.tar.gz tmp/physicsLab-1.3.0.1.tar.gz --markdown 20230729/p/physicsLab/1.3.0-1.3.0.1/diff.md --exclude *.pyd
+[2023-07-29 10:59:41] INFO root fetch - processPackages [tidypath]: Remove: archive file [/home/abi/fetcher/tmp/tidypath-1.1.7.tar.gz]
+[2023-07-29 10:59:41] INFO root fetch - processPackages [tidypath]: Remove: archive file [/home/abi/fetcher/tmp/tidypath-1.1.8.tar.gz]
+[2023-07-29 10:59:41] INFO root fetch - main [MainThread]: End processing [tidypath]: success
+[2023-07-29 10:59:41] INFO root fetch - processPackages [hezar]: Remove: archive file [/home/abi/fetcher/tmp/hezar-0.16.0.tar.gz]
+[2023-07-29 10:59:41] INFO root fetch - processPackages [hezar]: Remove: archive file [/home/abi/fetcher/tmp/hezar-0.17.0.tar.gz]
+[2023-07-29 10:59:41] INFO root fetch - main [MainThread]: End processing [hezar]: success
+[2023-07-29 10:59:41] INFO root fetch - processPackages [pyphe]: Remove: archive file [/home/abi/fetcher/tmp/pyphe-0.981.tar.gz]
+[2023-07-29 10:59:41] INFO root fetch - processPackages [pyphe]: Remove: archive file [/home/abi/fetcher/tmp/pyphe-0.982.tar.gz]
+[2023-07-29 10:59:41] INFO root fetch - main [MainThread]: End processing [pyphe]: success
+[2023-07-29 10:59:41] INFO root fetch - processPackages [physicsLab]: Remove: archive file [/home/abi/fetcher/tmp/physicsLab-1.3.0.tar.gz]
+[2023-07-29 10:59:41] INFO root fetch - processPackages [physicsLab]: Remove: archive file [/home/abi/fetcher/tmp/physicsLab-1.3.0.1.tar.gz]
+[2023-07-29 10:59:41] INFO root fetch - main [MainThread]: End processing [physicsLab]: success
+[2023-07-29 10:59:41] INFO root fetch - main [MainThread]: Store serial: [19086512]
