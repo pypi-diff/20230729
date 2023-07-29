@@ -19705,3 +19705,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 17:51:35] INFO root fetch - processPackages [UliEngineering]: Remove: archive file [/home/abi/fetcher/tmp/UliEngineering-0.4.4.tar.gz]
 [2023-07-29 17:51:35] INFO root fetch - main [MainThread]: End processing [UliEngineering]: success
 [2023-07-29 17:51:35] INFO root fetch - main [MainThread]: Store serial: [19089955]
+[2023-07-29 17:56:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19089955]
+[2023-07-29 17:56:45] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-29 17:56:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sakura-core
+[2023-07-29 17:56:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swiftly-sys
+[2023-07-29 17:56:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: revmap
+[2023-07-29 17:56:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py3status
+[2023-07-29 17:56:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hyundai-kia-connect-api
+[2023-07-29 17:56:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: async-wrapper
+[2023-07-29 17:56:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hmsysteme
+[2023-07-29 17:56:45] INFO root fetch - processPackages [hmsysteme]: New version: [1.2] Old Version: [1.1]
+[2023-07-29 17:56:45] INFO root fetch - processPackages [swiftly-sys]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-29 17:56:45] INFO root fetch - processPackages [revmap]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-29 17:56:45] WARNING root fetch - processPackages [sakura-core]: Skipping, unable to determine old version
+[2023-07-29 17:56:45] INFO root fetch - main [MainThread]: End processing [sakura-core] error
+[2023-07-29 17:56:45] INFO root fetch - processPackages [async-wrapper]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-29 17:56:45] INFO root fetch - processPackages [py3status]: New version: [3.9] Old Version: [3.8]
+[2023-07-29 17:56:45] INFO root fetch - processPackages [hyundai-kia-connect-api]: New version: [3.4.0] Old Version: [3.3.9]
+[2023-07-29 17:56:45] INFO root fetch - processPackages [hmsysteme]: Downloading https://files.pythonhosted.org/packages/4d/87/8811ebfee5c7a08ec533db38aac71b00115a694fc9c34a8fde6af033c5ba/hmsysteme-1.1.tar.gz
+[2023-07-29 17:56:45] INFO root fetch - processPackages [async-wrapper]: Downloading https://files.pythonhosted.org/packages/57/64/04be8b74c69e15d8d874df2dbfe28fa0ce8a067a7e521df4a79ee1886100/async_wrapper-0.1.5.tar.gz
+[2023-07-29 17:56:45] INFO root fetch - processPackages [revmap]: Downloading https://files.pythonhosted.org/packages/6f/e6/6c6718edf4c8fcf3cb8922463f29d07d3b91fefdd0e990160ec14e787565/revmap-0.0.5.tar.gz
+[2023-07-29 17:56:45] INFO root fetch - processPackages [swiftly-sys]: Downloading https://files.pythonhosted.org/packages/ae/2f/a8dcf0fe4d7312ebc78a916bea73616983d6b22a278f8dc833b4febcb3fb/swiftly-sys-0.0.1.tar.gz
+[2023-07-29 17:56:45] INFO root fetch - processPackages [py3status]: Downloading https://files.pythonhosted.org/packages/19/1b/52fc1b6956db0638a56292ce00537545d19b9a1d30a156a2b416675e4ac3/py3status-3.8.tar.gz
+[2023-07-29 17:56:45] INFO root fetch - processPackages [hyundai-kia-connect-api]: Downloading https://files.pythonhosted.org/packages/e8/ac/9ae5ca1f766df94c7e80c5824a4ad6c188c11f161d9700669afe15dd4728/hyundai_kia_connect_api-3.3.9.tar.gz
+[2023-07-29 17:56:45] INFO root fetch - processPackages [hmsysteme]: Downloading https://files.pythonhosted.org/packages/cd/1c/c793c4afaa8ee455075470b3ea15cbfb2dd9e4e7c069cbdbef3e18a2c341/hmsysteme-1.2.tar.gz
+[2023-07-29 17:56:45] INFO root fetch - processPackages [async-wrapper]: Downloading https://files.pythonhosted.org/packages/07/c3/fe35f7412de7011bfdae7137185de76befb20175f960ca6069f57cc85ac8/async_wrapper-0.1.6.tar.gz
+[2023-07-29 17:56:45] INFO root fetch - processPackages [revmap]: Downloading https://files.pythonhosted.org/packages/9e/6c/31668fe1d45b9a8c4d200e19cdedc1c4d0e69f116addfddff2b51dabcad8/revmap-0.0.6.tar.gz
+[2023-07-29 17:56:45] INFO root fetch - processPackages [swiftly-sys]: Downloading https://files.pythonhosted.org/packages/17/af/19969f1b2cd3da1076c13814b28d2918d2eb4fc6440ee234fffaa55bd4ad/swiftly-sys-0.0.2.tar.gz
+[2023-07-29 17:56:45] INFO root fetch - processPackages [hmsysteme]: executing diffoscope
+[2023-07-29 17:56:45] INFO root fetch - processPackages [hmsysteme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmsysteme-1.1.tar.gz tmp/hmsysteme-1.2.tar.gz --markdown 20230729/h/hmsysteme/1.1-1.2/diff.md --exclude *.pyd
+[2023-07-29 17:56:45] INFO root fetch - processPackages [revmap]: executing diffoscope
+[2023-07-29 17:56:45] INFO root fetch - processPackages [revmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revmap-0.0.5.tar.gz tmp/revmap-0.0.6.tar.gz --markdown 20230729/r/revmap/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-29 17:56:45] INFO root fetch - processPackages [async-wrapper]: executing diffoscope
+[2023-07-29 17:56:45] INFO root fetch - processPackages [async-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_wrapper-0.1.5.tar.gz tmp/async_wrapper-0.1.6.tar.gz --markdown 20230729/a/async-wrapper/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-29 17:56:46] INFO root fetch - processPackages [hyundai-kia-connect-api]: Downloading https://files.pythonhosted.org/packages/25/b1/a1a181d15830313419cdf07f62a7a22fea602ddb85a5a3ea16dd7760fec0/hyundai_kia_connect_api-3.4.0.tar.gz
+[2023-07-29 17:56:46] INFO root fetch - processPackages [swiftly-sys]: executing diffoscope
+[2023-07-29 17:56:46] INFO root fetch - processPackages [swiftly-sys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swiftly-sys-0.0.1.tar.gz tmp/swiftly-sys-0.0.2.tar.gz --markdown 20230729/s/swiftly-sys/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-29 17:56:46] INFO root fetch - processPackages [hyundai-kia-connect-api]: executing diffoscope
+[2023-07-29 17:56:46] INFO root fetch - processPackages [hyundai-kia-connect-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyundai_kia_connect_api-3.3.9.tar.gz tmp/hyundai_kia_connect_api-3.4.0.tar.gz --markdown 20230729/h/hyundai-kia-connect-api/3.3.9-3.4.0/diff.md --exclude *.pyd
+[2023-07-29 17:56:46] INFO root fetch - processPackages [py3status]: Downloading https://files.pythonhosted.org/packages/44/e5/b7a7716840f5b564694737b3d09ed01ccbff46f37c60a2ab6f286709463b/py3status-3.9-py3-none-any.whl
+[2023-07-29 17:56:46] INFO root fetch - processPackages [hmsysteme]: Remove: archive file [/home/abi/fetcher/tmp/hmsysteme-1.1.tar.gz]
+[2023-07-29 17:56:46] INFO root fetch - processPackages [hmsysteme]: Remove: archive file [/home/abi/fetcher/tmp/hmsysteme-1.2.tar.gz]
+[2023-07-29 17:56:46] INFO root fetch - main [MainThread]: End processing [hmsysteme]: success
+[2023-07-29 17:56:47] INFO root fetch - processPackages [swiftly-sys]: Remove: archive file [/home/abi/fetcher/tmp/swiftly-sys-0.0.1.tar.gz]
+[2023-07-29 17:56:47] INFO root fetch - processPackages [swiftly-sys]: Remove: archive file [/home/abi/fetcher/tmp/swiftly-sys-0.0.2.tar.gz]
+[2023-07-29 17:56:47] INFO root fetch - main [MainThread]: End processing [swiftly-sys]: success
+[2023-07-29 17:56:47] INFO root fetch - processPackages [revmap]: Remove: archive file [/home/abi/fetcher/tmp/revmap-0.0.5.tar.gz]
+[2023-07-29 17:56:47] INFO root fetch - processPackages [revmap]: Remove: archive file [/home/abi/fetcher/tmp/revmap-0.0.6.tar.gz]
+[2023-07-29 17:56:47] INFO root fetch - main [MainThread]: End processing [revmap]: success
+[2023-07-29 17:56:47] INFO root fetch - processPackages [async-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/async_wrapper-0.1.5.tar.gz]
+[2023-07-29 17:56:47] INFO root fetch - processPackages [async-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/async_wrapper-0.1.6.tar.gz]
+[2023-07-29 17:56:47] INFO root fetch - main [MainThread]: End processing [async-wrapper]: success
+[2023-07-29 17:56:47] INFO root fetch - processPackages [hyundai-kia-connect-api]: Remove: archive file [/home/abi/fetcher/tmp/hyundai_kia_connect_api-3.3.9.tar.gz]
+[2023-07-29 17:56:47] INFO root fetch - processPackages [hyundai-kia-connect-api]: Remove: archive file [/home/abi/fetcher/tmp/hyundai_kia_connect_api-3.4.0.tar.gz]
+[2023-07-29 17:56:47] INFO root fetch - main [MainThread]: End processing [hyundai-kia-connect-api]: success
+[2023-07-29 17:56:47] INFO root fetch - processPackages [py3status]: executing diffoscope
+[2023-07-29 17:56:47] INFO root fetch - processPackages [py3status]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3status-3.8.tar.gz tmp/py3status-3.9-py3-none-any.whl.zip --markdown 20230729/p/py3status/3.8-3.9/diff.md --exclude *.pyd
+[2023-07-29 17:56:47] INFO root fetch - processPackages [py3status]: Remove: archive file [/home/abi/fetcher/tmp/py3status-3.8.tar.gz]
+[2023-07-29 17:56:47] INFO root fetch - processPackages [py3status]: Remove: archive file [/home/abi/fetcher/tmp/py3status-3.9-py3-none-any.whl.zip]
+[2023-07-29 17:56:47] INFO root fetch - main [MainThread]: End processing [py3status]: success
+[2023-07-29 17:56:47] INFO root fetch - main [MainThread]: Store serial: [19089980]
