@@ -10035,3 +10035,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 08:23:47] INFO root fetch - processPackages [django-webstack]: Remove: archive file [/home/abi/fetcher/tmp/django-webstack-1.4.3.tar.gz]
 [2023-07-29 08:23:47] INFO root fetch - main [MainThread]: End processing [django-webstack]: success
 [2023-07-29 08:23:47] INFO root fetch - main [MainThread]: Store serial: [19085950]
+[2023-07-29 08:28:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19085950]
+[2023-07-29 08:28:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-29 08:28:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-l10n-ro-stock-account
+[2023-07-29 08:28:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fake-bpy-module-latest
+[2023-07-29 08:28:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crip
+[2023-07-29 08:28:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: infrahouse-toolkit
+[2023-07-29 08:28:55] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: New version: [14.0.8.9.0] Old Version: [14.0.8.8.0]
+[2023-07-29 08:28:55] INFO root fetch - processPackages [infrahouse-toolkit]: New version: [2.0.5] Old Version: [2.0.3]
+[2023-07-29 08:28:55] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230729] Old Version: [20230728]
+[2023-07-29 08:28:55] INFO root fetch - processPackages [crip]: New version: [1.7] Old Version: [1.6.3]
+[2023-07-29 08:28:55] INFO root fetch - processPackages [infrahouse-toolkit]: Downloading https://files.pythonhosted.org/packages/eb/d9/51c2c1244ee75e2746f80d61261361339e09c2f9bc9b42ae0d4ba77173c0/infrahouse-toolkit-2.0.3.tar.gz
+[2023-07-29 08:28:55] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: Downloading https://files.pythonhosted.org/packages/0f/5d/d918bf77c81d780e04aaa723a0d6bab36ff9c1a8391c699159e60b57fed7/odoo14_addon_l10n_ro_stock_account-14.0.8.8.0-py3-none-any.whl
+[2023-07-29 08:28:55] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/d1/06/35e8ad4a61d08f5e2f2402367adf44a42e644c04591511059d6e1f4e3b00/fake-bpy-module-latest-20230728.tar.gz
+[2023-07-29 08:28:55] INFO root fetch - processPackages [crip]: Downloading https://files.pythonhosted.org/packages/43/6c/ebca5c935b0a80bbd94e9b25bd7d88341dfabdba90c02c42dabbf10f41a1/crip-1.6.3-py3-none-any.whl
+[2023-07-29 08:28:55] INFO root fetch - processPackages [infrahouse-toolkit]: Downloading https://files.pythonhosted.org/packages/01/dd/2d4c4e5080e206a8f64c2cc933cae034bef0223b0cd1c621f1cfa3750644/infrahouse-toolkit-2.0.5.tar.gz
+[2023-07-29 08:28:56] INFO root fetch - processPackages [infrahouse-toolkit]: executing diffoscope
+[2023-07-29 08:28:56] INFO root fetch - processPackages [infrahouse-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infrahouse-toolkit-2.0.3.tar.gz tmp/infrahouse-toolkit-2.0.5.tar.gz --markdown 20230729/i/infrahouse-toolkit/2.0.3-2.0.5/diff.md --exclude *.pyd
+[2023-07-29 08:28:56] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: Downloading https://files.pythonhosted.org/packages/d9/f6/d390d7dd65ffcd4da3cac5c58908ec5c165437c5ec74857d9717dbb5b740/odoo14_addon_l10n_ro_stock_account-14.0.8.9.0-py3-none-any.whl
+[2023-07-29 08:28:56] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/ec/ba/b0904f11f1e1a2906a9624fb0ab5b6c33a6f79818d50dc19f0094da50cdf/fake-bpy-module-latest-20230729.tar.gz
+[2023-07-29 08:28:56] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: executing diffoscope
+[2023-07-29 08:28:56] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_ro_stock_account-14.0.8.8.0-py3-none-any.whl.zip tmp/odoo14_addon_l10n_ro_stock_account-14.0.8.9.0-py3-none-any.whl.zip --markdown 20230729/o/odoo14-addon-l10n-ro-stock-account/14.0.8.8.0-14.0.8.9.0/diff.md --exclude *.pyd
+[2023-07-29 08:28:56] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-07-29 08:28:56] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230728.tar.gz tmp/fake-bpy-module-latest-20230729.tar.gz --markdown 20230729/f/fake-bpy-module-latest/20230728-20230729/diff.md --exclude *.pyd
+[2023-07-29 08:28:56] INFO root fetch - processPackages [crip]: Downloading https://files.pythonhosted.org/packages/97/e8/cbad03eb87f34df7c11bdc17fdadff99076e73e95e9863df240fd50cd29e/crip-1.7-py3-none-any.whl
+[2023-07-29 08:28:57] INFO root fetch - processPackages [infrahouse-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/infrahouse-toolkit-2.0.3.tar.gz]
+[2023-07-29 08:28:57] INFO root fetch - processPackages [infrahouse-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/infrahouse-toolkit-2.0.5.tar.gz]
+[2023-07-29 08:28:57] INFO root fetch - main [MainThread]: End processing [infrahouse-toolkit]: success
+[2023-07-29 08:28:57] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_ro_stock_account-14.0.8.8.0-py3-none-any.whl.zip]
+[2023-07-29 08:28:57] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_ro_stock_account-14.0.8.9.0-py3-none-any.whl.zip]
+[2023-07-29 08:28:57] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-ro-stock-account]: success
+[2023-07-29 08:28:57] INFO root fetch - processPackages [crip]: executing diffoscope
+[2023-07-29 08:28:57] INFO root fetch - processPackages [crip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crip-1.6.3-py3-none-any.whl.zip tmp/crip-1.7-py3-none-any.whl.zip --markdown 20230729/c/crip/1.6.3-1.7/diff.md --exclude *.pyd
+[2023-07-29 08:28:59] INFO root fetch - processPackages [crip]: Remove: archive file [/home/abi/fetcher/tmp/crip-1.6.3-py3-none-any.whl.zip]
+[2023-07-29 08:28:59] INFO root fetch - processPackages [crip]: Remove: archive file [/home/abi/fetcher/tmp/crip-1.7-py3-none-any.whl.zip]
+[2023-07-29 08:28:59] INFO root fetch - main [MainThread]: End processing [crip]: success
+[2023-07-29 08:29:00] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230728.tar.gz]
+[2023-07-29 08:29:00] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230729.tar.gz]
+[2023-07-29 08:29:00] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-07-29 08:29:00] INFO root fetch - main [MainThread]: Store serial: [19085960]
