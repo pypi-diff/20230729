@@ -11682,3 +11682,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 11:30:54] INFO root fetch - processPackages [ExpoSeq]: Remove: archive file [/home/abi/fetcher/tmp/ExpoSeq-2.0.2.tar.gz]
 [2023-07-29 11:30:54] INFO root fetch - main [MainThread]: End processing [ExpoSeq]: success
 [2023-07-29 11:30:54] INFO root fetch - main [MainThread]: Store serial: [19086634]
+[2023-07-29 11:35:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19086634]
+[2023-07-29 11:36:02] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-29 11:36:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rwkv
+[2023-07-29 11:36:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: djangoldp-event
+[2023-07-29 11:36:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CircuitCalculator
+[2023-07-29 11:36:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ShopifyAPI-Custom-2023-07
+[2023-07-29 11:36:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tagpatch
+[2023-07-29 11:36:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: enocean-ble
+[2023-07-29 11:36:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: numtools
+[2023-07-29 11:36:03] WARNING root fetch - processPackages [ShopifyAPI-Custom-2023-07]: Skipping, unable to determine old version
+[2023-07-29 11:36:03] INFO root fetch - main [MainThread]: End processing [ShopifyAPI-Custom-2023-07] error
+[2023-07-29 11:36:03] INFO root fetch - processPackages [djangoldp-event]: New version: [3.0.0] Old Version: [2.0.5]
+[2023-07-29 11:36:03] INFO root fetch - processPackages [rwkv]: New version: [0.8.7] Old Version: [0.8.6]
+[2023-07-29 11:36:03] INFO root fetch - processPackages [enocean-ble]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-29 11:36:03] INFO root fetch - processPackages [tagpatch]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-29 11:36:03] INFO root fetch - processPackages [CircuitCalculator]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-29 11:36:03] INFO root fetch - processPackages [numtools]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-07-29 11:36:03] INFO root fetch - processPackages [rwkv]: Downloading https://files.pythonhosted.org/packages/d4/14/cdf11ddd9c27f15ce777e4ec597cc86139b0165b2dce27b27483fa6c9132/rwkv-0.8.6.tar.gz
+[2023-07-29 11:36:03] INFO root fetch - processPackages [tagpatch]: Downloading https://files.pythonhosted.org/packages/ed/a0/430c501914811cd3b6cdaf4099b869e478249da0114e555791f056eed116/tagpatch-0.1.0.tar.gz
+[2023-07-29 11:36:03] INFO root fetch - processPackages [djangoldp-event]: Downloading https://files.pythonhosted.org/packages/f5/78/9b581b7686ea794ede667535c49aa960d96c77366d8797f42512950f7f7e/djangoldp_event-2.0.5.tar.gz
+[2023-07-29 11:36:03] INFO root fetch - processPackages [enocean-ble]: Downloading https://files.pythonhosted.org/packages/38/35/4ee76249e5d69c3c72326864e9d2857395b6f122ea703925d992083d9281/enocean_ble-0.1.1.tar.gz
+[2023-07-29 11:36:03] INFO root fetch - processPackages [CircuitCalculator]: Downloading https://files.pythonhosted.org/packages/bf/1f/61591bd6874775c2a603db5f2f5a8b3f266e9003b2a8738b62779b126602/CircuitCalculator-0.0.8.tar.gz
+[2023-07-29 11:36:03] INFO root fetch - processPackages [numtools]: Downloading https://files.pythonhosted.org/packages/51/5b/10a60b685b1779875e05f3905fc6f258ed1d76b62d68ed8457f967dbb41e/numtools-1.5.0.tar.gz
+[2023-07-29 11:36:03] INFO root fetch - processPackages [rwkv]: Downloading https://files.pythonhosted.org/packages/33/5b/67c615375507790cf5ba7d524afc4618eedd88952d082e33856c465bb36e/rwkv-0.8.7.tar.gz
+[2023-07-29 11:36:03] INFO root fetch - processPackages [tagpatch]: Downloading https://files.pythonhosted.org/packages/69/ef/979dfb46609f4d29f052a1fa2813beb3c01163a6d6f0092a3e7889527517/tagpatch-0.1.1.tar.gz
+[2023-07-29 11:36:03] INFO root fetch - processPackages [djangoldp-event]: Downloading https://files.pythonhosted.org/packages/a4/e4/501ff9051a10ce88e4a111f4d644a51f206857f37bea0a5bcaab3a405d0f/djangoldp_event-3.0.0.tar.gz
+[2023-07-29 11:36:04] INFO root fetch - processPackages [rwkv]: executing diffoscope
+[2023-07-29 11:36:04] INFO root fetch - processPackages [rwkv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rwkv-0.8.6.tar.gz tmp/rwkv-0.8.7.tar.gz --markdown 20230729/r/rwkv/0.8.6-0.8.7/diff.md --exclude *.pyd
+[2023-07-29 11:36:04] INFO root fetch - processPackages [enocean-ble]: Downloading https://files.pythonhosted.org/packages/47/6e/1ff7dc8bf59513992ea5826196924982787c77d0bee303a104d924e93192/enocean_ble-0.1.2.tar.gz
+[2023-07-29 11:36:04] INFO root fetch - processPackages [numtools]: Downloading https://files.pythonhosted.org/packages/63/6a/ab35c81d36f43cca94e672ebff8bc457d39e127d4727d2a19afb4148768b/numtools-1.6.0.tar.gz
+[2023-07-29 11:36:04] INFO root fetch - processPackages [CircuitCalculator]: Downloading https://files.pythonhosted.org/packages/e9/6b/012f1855b3854bed914cfc1577b7852d1bbf3b9d8ef65de04bf67ea35775/CircuitCalculator-0.0.9.tar.gz
+[2023-07-29 11:36:04] INFO root fetch - processPackages [djangoldp-event]: executing diffoscope
+[2023-07-29 11:36:04] INFO root fetch - processPackages [djangoldp-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_event-2.0.5.tar.gz tmp/djangoldp_event-3.0.0.tar.gz --markdown 20230729/d/djangoldp-event/2.0.5-3.0.0/diff.md --exclude *.pyd
+[2023-07-29 11:36:04] INFO root fetch - processPackages [enocean-ble]: executing diffoscope
+[2023-07-29 11:36:04] INFO root fetch - processPackages [enocean-ble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enocean_ble-0.1.1.tar.gz tmp/enocean_ble-0.1.2.tar.gz --markdown 20230729/e/enocean-ble/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-29 11:36:04] INFO root fetch - processPackages [CircuitCalculator]: executing diffoscope
+[2023-07-29 11:36:04] INFO root fetch - processPackages [CircuitCalculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CircuitCalculator-0.0.8.tar.gz tmp/CircuitCalculator-0.0.9.tar.gz --markdown 20230729/C/CircuitCalculator/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-29 11:36:04] INFO root fetch - processPackages [numtools]: executing diffoscope
+[2023-07-29 11:36:04] INFO root fetch - processPackages [numtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numtools-1.5.0.tar.gz tmp/numtools-1.6.0.tar.gz --markdown 20230729/n/numtools/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-07-29 11:36:04] INFO root fetch - processPackages [tagpatch]: executing diffoscope
+[2023-07-29 11:36:04] INFO root fetch - processPackages [tagpatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tagpatch-0.1.0.tar.gz tmp/tagpatch-0.1.1.tar.gz --markdown 20230729/t/tagpatch/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-29 11:36:05] INFO root fetch - processPackages [rwkv]: Remove: archive file [/home/abi/fetcher/tmp/rwkv-0.8.6.tar.gz]
+[2023-07-29 11:36:05] INFO root fetch - processPackages [rwkv]: Remove: archive file [/home/abi/fetcher/tmp/rwkv-0.8.7.tar.gz]
+[2023-07-29 11:36:05] INFO root fetch - main [MainThread]: End processing [rwkv]: success
+[2023-07-29 11:36:05] INFO root fetch - processPackages [CircuitCalculator]: Remove: archive file [/home/abi/fetcher/tmp/CircuitCalculator-0.0.8.tar.gz]
+[2023-07-29 11:36:05] INFO root fetch - processPackages [CircuitCalculator]: Remove: archive file [/home/abi/fetcher/tmp/CircuitCalculator-0.0.9.tar.gz]
+[2023-07-29 11:36:05] INFO root fetch - main [MainThread]: End processing [CircuitCalculator]: success
+[2023-07-29 11:36:05] INFO root fetch - processPackages [enocean-ble]: Remove: archive file [/home/abi/fetcher/tmp/enocean_ble-0.1.1.tar.gz]
+[2023-07-29 11:36:05] INFO root fetch - processPackages [enocean-ble]: Remove: archive file [/home/abi/fetcher/tmp/enocean_ble-0.1.2.tar.gz]
+[2023-07-29 11:36:05] INFO root fetch - main [MainThread]: End processing [enocean-ble]: success
+[2023-07-29 11:36:05] INFO root fetch - processPackages [djangoldp-event]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_event-2.0.5.tar.gz]
+[2023-07-29 11:36:05] INFO root fetch - processPackages [djangoldp-event]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_event-3.0.0.tar.gz]
+[2023-07-29 11:36:05] INFO root fetch - main [MainThread]: End processing [djangoldp-event]: success
+[2023-07-29 11:36:05] INFO root fetch - processPackages [numtools]: Remove: archive file [/home/abi/fetcher/tmp/numtools-1.5.0.tar.gz]
+[2023-07-29 11:36:05] INFO root fetch - processPackages [numtools]: Remove: archive file [/home/abi/fetcher/tmp/numtools-1.6.0.tar.gz]
+[2023-07-29 11:36:05] INFO root fetch - main [MainThread]: End processing [numtools]: success
+[2023-07-29 11:36:05] INFO root fetch - processPackages [tagpatch]: Remove: archive file [/home/abi/fetcher/tmp/tagpatch-0.1.0.tar.gz]
+[2023-07-29 11:36:05] INFO root fetch - processPackages [tagpatch]: Remove: archive file [/home/abi/fetcher/tmp/tagpatch-0.1.1.tar.gz]
+[2023-07-29 11:36:05] INFO root fetch - main [MainThread]: End processing [tagpatch]: success
+[2023-07-29 11:36:05] INFO root fetch - main [MainThread]: Store serial: [19086658]
