@@ -10314,3 +10314,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 09:05:28] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
 [2023-07-29 09:05:28] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
 [2023-07-29 09:05:28] INFO root fetch - main [MainThread]: Store serial: [19086038]
+[2023-07-29 09:10:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19086038]
+[2023-07-29 09:10:36] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-29 09:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-hub-nightly
+[2023-07-29 09:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: HandyLLM
+[2023-07-29 09:10:36] INFO root fetch - processPackages [HandyLLM]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-29 09:10:36] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-07-29 09:10:36] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2023-07-29 09:10:36] INFO root fetch - processPackages [HandyLLM]: Downloading https://files.pythonhosted.org/packages/fa/0c/483e9113232342b05cbbf2bdeff92e929365dc681b8ad6266757a65dcdfc/HandyLLM-0.3.0.tar.gz
+[2023-07-29 09:10:36] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2023-07-29 09:10:37] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-07-29 09:10:37] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230729/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-07-29 09:10:37] INFO root fetch - processPackages [HandyLLM]: Downloading https://files.pythonhosted.org/packages/40/81/8adf11bea9a6bbd36c8f4e14b7493455f742140b426158927ab79ebffe68/HandyLLM-0.3.1.tar.gz
+[2023-07-29 09:10:37] INFO root fetch - processPackages [HandyLLM]: executing diffoscope
+[2023-07-29 09:10:37] INFO root fetch - processPackages [HandyLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HandyLLM-0.3.0.tar.gz tmp/HandyLLM-0.3.1.tar.gz --markdown 20230729/H/HandyLLM/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-29 09:10:37] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2023-07-29 09:10:37] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2023-07-29 09:10:37] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-07-29 09:10:38] INFO root fetch - processPackages [HandyLLM]: Remove: archive file [/home/abi/fetcher/tmp/HandyLLM-0.3.0.tar.gz]
+[2023-07-29 09:10:38] INFO root fetch - processPackages [HandyLLM]: Remove: archive file [/home/abi/fetcher/tmp/HandyLLM-0.3.1.tar.gz]
+[2023-07-29 09:10:38] INFO root fetch - main [MainThread]: End processing [HandyLLM]: success
+[2023-07-29 09:10:38] INFO root fetch - main [MainThread]: Store serial: [19086044]
