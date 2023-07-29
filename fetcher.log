@@ -7635,3 +7635,33 @@
 [2023-07-29 05:15:03] INFO root fetch - processPackages [rk-core]: Remove: archive file [/home/abi/fetcher/tmp/rk_core-0.1.8-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-29 05:15:03] INFO root fetch - main [MainThread]: End processing [rk-core]: success
 [2023-07-29 05:15:03] INFO root fetch - main [MainThread]: Store serial: [19085002]
+[2023-07-29 05:20:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19085002]
+[2023-07-29 05:20:24] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-29 05:20:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo8-addon-mass-mailing-partner
+[2023-07-29 05:20:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: threemystic-cloud-data-client
+[2023-07-29 05:20:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-disconnect-notice
+[2023-07-29 05:20:24] INFO root fetch - processPackages [odoo8-addon-mass-mailing-partner]: New version: [8.0.2.1.0.99.dev9] Old Version: [8.0.2.1.0.99.dev8]
+[2023-07-29 05:20:24] INFO root fetch - processPackages [threemystic-cloud-data-client]: New version: [0.1.56] Old Version: [0.1.55]
+[2023-07-29 05:20:24] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/da/1f/747b755f352b1d6fd1b5d80a128fc92002fbb54fa3ef1e362ba272b611af/threemystic_cloud_data_client-0.1.55.tar.gz
+[2023-07-29 05:20:24] INFO root fetch - processPackages [nonebot-plugin-disconnect-notice]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-29 05:20:24] INFO root fetch - processPackages [odoo8-addon-mass-mailing-partner]: Downloading https://files.pythonhosted.org/packages/d8/4e/885e6bcd4140af5788dbd47b1b142bada734035187cdb5324757f21957c4/odoo8_addon_mass_mailing_partner-8.0.2.1.0.99.dev8-py2-none-any.whl
+[2023-07-29 05:20:24] INFO root fetch - processPackages [nonebot-plugin-disconnect-notice]: Downloading https://files.pythonhosted.org/packages/3e/0c/aa08621834b675746a3064529c28d35c18551d931ee6e569e50ae1b21f28/nonebot_plugin_disconnect_notice-0.1.4.tar.gz
+[2023-07-29 05:20:24] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/1e/23/7ec3b818e024360036922d3c27eec370a333674aaf0643d740fbabc9542e/threemystic_cloud_data_client-0.1.56.tar.gz
+[2023-07-29 05:20:25] INFO root fetch - processPackages [threemystic-cloud-data-client]: executing diffoscope
+[2023-07-29 05:20:25] INFO root fetch - processPackages [threemystic-cloud-data-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_data_client-0.1.55.tar.gz tmp/threemystic_cloud_data_client-0.1.56.tar.gz --markdown 20230729/t/threemystic-cloud-data-client/0.1.55-0.1.56/diff.md --exclude *.pyd
+[2023-07-29 05:20:25] INFO root fetch - processPackages [nonebot-plugin-disconnect-notice]: Downloading https://files.pythonhosted.org/packages/ff/9b/3c49211cce75d37857229a90014a6de3d90871f6f653cefd2afaf2313ce9/nonebot_plugin_disconnect_notice-0.1.5.tar.gz
+[2023-07-29 05:20:25] INFO root fetch - processPackages [nonebot-plugin-disconnect-notice]: executing diffoscope
+[2023-07-29 05:20:25] INFO root fetch - processPackages [nonebot-plugin-disconnect-notice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_disconnect_notice-0.1.4.tar.gz tmp/nonebot_plugin_disconnect_notice-0.1.5.tar.gz --markdown 20230729/n/nonebot-plugin-disconnect-notice/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-29 05:20:25] INFO root fetch - processPackages [odoo8-addon-mass-mailing-partner]: Downloading https://files.pythonhosted.org/packages/fa/54/1f251bf755ab73a9bc47cec4d6cd439312d260123db2cddb65ed298cc135/odoo8_addon_mass_mailing_partner-8.0.2.1.0.99.dev9-py2-none-any.whl
+[2023-07-29 05:20:25] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.55.tar.gz]
+[2023-07-29 05:20:25] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.56.tar.gz]
+[2023-07-29 05:20:25] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-data-client]: success
+[2023-07-29 05:20:25] INFO root fetch - processPackages [nonebot-plugin-disconnect-notice]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_disconnect_notice-0.1.4.tar.gz]
+[2023-07-29 05:20:25] INFO root fetch - processPackages [nonebot-plugin-disconnect-notice]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_disconnect_notice-0.1.5.tar.gz]
+[2023-07-29 05:20:25] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-disconnect-notice]: success
+[2023-07-29 05:20:26] INFO root fetch - processPackages [odoo8-addon-mass-mailing-partner]: executing diffoscope
+[2023-07-29 05:20:26] INFO root fetch - processPackages [odoo8-addon-mass-mailing-partner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_mass_mailing_partner-8.0.2.1.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_mass_mailing_partner-8.0.2.1.0.99.dev9-py2-none-any.whl.zip --markdown 20230729/o/odoo8-addon-mass-mailing-partner/8.0.2.1.0.99.dev8-8.0.2.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-07-29 05:20:27] INFO root fetch - processPackages [odoo8-addon-mass-mailing-partner]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_mass_mailing_partner-8.0.2.1.0.99.dev8-py2-none-any.whl.zip]
+[2023-07-29 05:20:27] INFO root fetch - processPackages [odoo8-addon-mass-mailing-partner]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_mass_mailing_partner-8.0.2.1.0.99.dev9-py2-none-any.whl.zip]
+[2023-07-29 05:20:27] INFO root fetch - main [MainThread]: End processing [odoo8-addon-mass-mailing-partner]: success
+[2023-07-29 05:20:27] INFO root fetch - main [MainThread]: Store serial: [19085018]
