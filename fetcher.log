@@ -21811,3 +21811,45 @@ AssertionError: tmp/pulpcore-3.9.0.tar.gz does not exist
 [2023-07-29 19:59:06] INFO root fetch - processPackages [polarismesh-specification]: Remove: archive file [/home/abi/fetcher/tmp/polarismesh_specification-1.4.0a3.tar.gz]
 [2023-07-29 19:59:06] INFO root fetch - main [MainThread]: End processing [polarismesh-specification]: success
 [2023-07-29 19:59:06] INFO root fetch - main [MainThread]: Store serial: [19090811]
+[2023-07-29 20:04:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19090811]
+[2023-07-29 20:04:15] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-29 20:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: parallelism
+[2023-07-29 20:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: polarismesh-specification
+[2023-07-29 20:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: toggl-to-sqlite
+[2023-07-29 20:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rearden
+[2023-07-29 20:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nthp-api
+[2023-07-29 20:04:15] INFO root fetch - processPackages [nthp-api]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-29 20:04:15] INFO root fetch - processPackages [parallelism]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-29 20:04:15] INFO root fetch - processPackages [polarismesh-specification]: New version: [1.4.0a4] Old Version: [1.4.0a3]
+[2023-07-29 20:04:15] WARNING root fetch - processPackages [rearden]: Skipping, unable to determine old version
+[2023-07-29 20:04:15] INFO root fetch - main [MainThread]: End processing [rearden] error
+[2023-07-29 20:04:15] INFO root fetch - processPackages [toggl-to-sqlite]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-07-29 20:04:15] INFO root fetch - processPackages [nthp-api]: Downloading https://files.pythonhosted.org/packages/b3/9f/d0dde7b5bca172379dfb23107ff1fff22d2ebafd1d8d814eb8dbffdee971/nthp_api-0.1.4.tar.gz
+[2023-07-29 20:04:15] INFO root fetch - processPackages [polarismesh-specification]: Downloading https://files.pythonhosted.org/packages/dd/21/98342f86a3a29515fee24db982da2a7a959b877648152bacbec98098323c/polarismesh_specification-1.4.0a3.tar.gz
+[2023-07-29 20:04:15] INFO root fetch - processPackages [parallelism]: Downloading https://files.pythonhosted.org/packages/cd/59/2e0771c7d7a914a5b3fc407a1df7b81f36f05f9d31c744b707c834ac8799/parallelism-0.0.2.tar.gz
+[2023-07-29 20:04:15] INFO root fetch - processPackages [toggl-to-sqlite]: Downloading https://files.pythonhosted.org/packages/22/9c/ded7a460fd36251235799ebaccd705974868f1a619c5f7ac53afbf2eaffd/toggl-to-sqlite-0.6.0.tar.gz
+[2023-07-29 20:04:15] INFO root fetch - processPackages [nthp-api]: Downloading https://files.pythonhosted.org/packages/c8/e2/84dff87e1628431da7969eac941d39aaffe1fd4747a0db549c52fcaf8378/nthp_api-0.1.5.tar.gz
+[2023-07-29 20:04:16] INFO root fetch - processPackages [polarismesh-specification]: Downloading https://files.pythonhosted.org/packages/78/66/1d284e27f48e3b4fbf9111e32d329c65e72cc8e3396a382d7d72362fa43f/polarismesh_specification-1.4.0a4.tar.gz
+[2023-07-29 20:04:16] INFO root fetch - processPackages [nthp-api]: executing diffoscope
+[2023-07-29 20:04:16] INFO root fetch - processPackages [nthp-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nthp_api-0.1.4.tar.gz tmp/nthp_api-0.1.5.tar.gz --markdown 20230729/n/nthp-api/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-29 20:04:16] INFO root fetch - processPackages [parallelism]: Downloading https://files.pythonhosted.org/packages/a6/2f/41d2fd246ca0f973f60a8b1a7b547b0ed11e9d6e8cc488a4a3f1d258b052/parallelism-0.0.3.tar.gz
+[2023-07-29 20:04:16] INFO root fetch - processPackages [toggl-to-sqlite]: Downloading https://files.pythonhosted.org/packages/48/c6/29a6c0a01b15e2e677a8f4f0e05f5498d2e07dc952c515d033ea339ae4a9/toggl-to-sqlite-0.7.0.tar.gz
+[2023-07-29 20:04:16] INFO root fetch - processPackages [polarismesh-specification]: executing diffoscope
+[2023-07-29 20:04:16] INFO root fetch - processPackages [polarismesh-specification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polarismesh_specification-1.4.0a3.tar.gz tmp/polarismesh_specification-1.4.0a4.tar.gz --markdown 20230729/p/polarismesh-specification/1.4.0a3-1.4.0a4/diff.md --exclude *.pyd
+[2023-07-29 20:04:16] INFO root fetch - processPackages [toggl-to-sqlite]: executing diffoscope
+[2023-07-29 20:04:16] INFO root fetch - processPackages [toggl-to-sqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toggl-to-sqlite-0.6.0.tar.gz tmp/toggl-to-sqlite-0.7.0.tar.gz --markdown 20230729/t/toggl-to-sqlite/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-07-29 20:04:16] INFO root fetch - processPackages [parallelism]: executing diffoscope
+[2023-07-29 20:04:16] INFO root fetch - processPackages [parallelism]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parallelism-0.0.2.tar.gz tmp/parallelism-0.0.3.tar.gz --markdown 20230729/p/parallelism/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-29 20:04:17] INFO root fetch - processPackages [parallelism]: Remove: archive file [/home/abi/fetcher/tmp/parallelism-0.0.2.tar.gz]
+[2023-07-29 20:04:17] INFO root fetch - processPackages [parallelism]: Remove: archive file [/home/abi/fetcher/tmp/parallelism-0.0.3.tar.gz]
+[2023-07-29 20:04:17] INFO root fetch - main [MainThread]: End processing [parallelism]: success
+[2023-07-29 20:04:17] INFO root fetch - processPackages [nthp-api]: Remove: archive file [/home/abi/fetcher/tmp/nthp_api-0.1.4.tar.gz]
+[2023-07-29 20:04:17] INFO root fetch - processPackages [nthp-api]: Remove: archive file [/home/abi/fetcher/tmp/nthp_api-0.1.5.tar.gz]
+[2023-07-29 20:04:17] INFO root fetch - main [MainThread]: End processing [nthp-api]: success
+[2023-07-29 20:04:17] INFO root fetch - processPackages [polarismesh-specification]: Remove: archive file [/home/abi/fetcher/tmp/polarismesh_specification-1.4.0a3.tar.gz]
+[2023-07-29 20:04:17] INFO root fetch - processPackages [polarismesh-specification]: Remove: archive file [/home/abi/fetcher/tmp/polarismesh_specification-1.4.0a4.tar.gz]
+[2023-07-29 20:04:17] INFO root fetch - main [MainThread]: End processing [polarismesh-specification]: success
+[2023-07-29 20:04:17] INFO root fetch - processPackages [toggl-to-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/toggl-to-sqlite-0.6.0.tar.gz]
+[2023-07-29 20:04:17] INFO root fetch - processPackages [toggl-to-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/toggl-to-sqlite-0.7.0.tar.gz]
+[2023-07-29 20:04:17] INFO root fetch - main [MainThread]: End processing [toggl-to-sqlite]: success
+[2023-07-29 20:04:17] INFO root fetch - main [MainThread]: Store serial: [19090828]
