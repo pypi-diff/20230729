@@ -22646,3 +22646,108 @@ AssertionError: tmp/pulpcore-3.9.0.tar.gz does not exist
 [2023-07-29 21:15:36] INFO root fetch - processPackages [sd-meh]: Remove: archive file [/home/abi/fetcher/tmp/sd_meh-0.9.4.tar.gz]
 [2023-07-29 21:15:36] INFO root fetch - main [MainThread]: End processing [sd-meh]: success
 [2023-07-29 21:15:36] INFO root fetch - main [MainThread]: Store serial: [19091207]
+[2023-07-29 21:20:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19091207]
+[2023-07-29 21:20:45] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-29 21:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gammarer.aws-ec2-auto-scaling-instance-running-scheduler
+[2023-07-29 21:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gammarer.aws-rds-database-running-scheduler
+[2023-07-29 21:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kfsd
+[2023-07-29 21:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytransformers
+[2023-07-29 21:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seamm-dashboard-client
+[2023-07-29 21:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gammarer.aws-budgets-notification
+[2023-07-29 21:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gammarer.aws-daily-cost-usage-reporter
+[2023-07-29 21:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gammarer.aws-ec2-instance-running-scheduler
+[2023-07-29 21:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bizlogic
+[2023-07-29 21:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: localstack-client
+[2023-07-29 21:20:45] INFO root fetch - processPackages [gammarer.aws-budgets-notification]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-29 21:20:45] WARNING root fetch - processPackages [pytransformers]: Skipping, unable to determine old version
+[2023-07-29 21:20:45] INFO root fetch - processPackages [pytransformers]: Start processing: jaraco.mongodb
+[2023-07-29 21:20:45] INFO root fetch - main [MainThread]: End processing [pytransformers] error
+[2023-07-29 21:20:45] INFO root fetch - processPackages [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-29 21:20:45] INFO root fetch - processPackages [gammarer.aws-daily-cost-usage-reporter]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-29 21:20:45] INFO root fetch - processPackages [seamm-dashboard-client]: New version: [2023.7.29] Old Version: [2023.7.10]
+[2023-07-29 21:20:45] INFO root fetch - processPackages [gammarer.aws-ec2-instance-running-scheduler]: New version: [0.4.9] Old Version: [0.4.7]
+[2023-07-29 21:20:45] INFO root fetch - processPackages [gammarer.aws-rds-database-running-scheduler]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-29 21:20:45] INFO root fetch - processPackages [bizlogic]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-29 21:20:45] INFO root fetch - processPackages [kfsd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-29 21:20:45] INFO root fetch - processPackages [localstack-client]: New version: [2.3] Old Version: [2.2]
+[2023-07-29 21:20:45] INFO root fetch - processPackages [gammarer.aws-budgets-notification]: Downloading https://files.pythonhosted.org/packages/fb/d0/a0e6ce8a97d70809e5aa46b529465cf104065807451ef77031b39bb13b2c/gammarer.aws-budgets-notification-0.2.8.tar.gz
+[2023-07-29 21:20:45] INFO root fetch - processPackages [jaraco.mongodb]: New version: [9.4b5] Old Version: [9.4]
+[2023-07-29 21:20:45] INFO root fetch - processPackages [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: Downloading https://files.pythonhosted.org/packages/93/84/4067ea4481549b7f420d637936e6efb78134391463b766a240838509d391/gammarer.aws-ec2-auto-scaling-instance-running-scheduler-0.3.8.tar.gz
+[2023-07-29 21:20:45] INFO root fetch - processPackages [gammarer.aws-daily-cost-usage-reporter]: Downloading https://files.pythonhosted.org/packages/37/b5/62c54f1538d65889aa0fed6d08914677d986a8fe912f0dc3264793be7072/gammarer.aws-daily-cost-usage-reporter-0.9.8.tar.gz
+[2023-07-29 21:20:45] INFO root fetch - processPackages [gammarer.aws-rds-database-running-scheduler]: Downloading https://files.pythonhosted.org/packages/8c/ab/dc4df425b5751376819ea16a9b0771bcea2d7723bc20264c101b962ae6f1/gammarer.aws-rds-database-running-scheduler-0.3.8.tar.gz
+[2023-07-29 21:20:45] INFO root fetch - processPackages [seamm-dashboard-client]: Downloading https://files.pythonhosted.org/packages/45/69/de47974055e44d348b3a797061ba9e6de3593baff0c689ff313c7ea0826e/seamm_dashboard_client-2023.7.10.tar.gz
+[2023-07-29 21:20:45] INFO root fetch - processPackages [bizlogic]: Downloading https://files.pythonhosted.org/packages/15/a4/7fc14200c0c31e9fd08391e1d8ffd70345d98aba2c1f4a19342fa0b51ed6/bizlogic-0.2.8.tar.gz
+[2023-07-29 21:20:45] INFO root fetch - processPackages [gammarer.aws-ec2-instance-running-scheduler]: Downloading https://files.pythonhosted.org/packages/a8/5f/774709f6379ff3071fbe5c92854f80f84ef8d5948d1774bf6abb940a3698/gammarer.aws-ec2-instance-running-scheduler-0.4.7.tar.gz
+[2023-07-29 21:20:45] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/bc/a3/f3db8d87a39f5eb8a59d2664840211b257e17b2838d141754bf65b5b99d4/kfsd-0.0.8.tar.gz
+[2023-07-29 21:20:46] INFO root fetch - processPackages [localstack-client]: Downloading https://files.pythonhosted.org/packages/9a/80/1e8a3c1de7823deda75d283fd6ab646713f0433993ee62df664229c3513d/localstack-client-2.2.tar.gz
+[2023-07-29 21:20:46] INFO root fetch - processPackages [jaraco.mongodb]: Downloading https://files.pythonhosted.org/packages/c7/d2/ba04fd8a3c469a971372d2687d0598ff30abf88f11f2ed9229b2f81836ad/jaraco.mongodb-9.4.tar.gz
+[2023-07-29 21:20:46] INFO root fetch - processPackages [gammarer.aws-rds-database-running-scheduler]: Downloading https://files.pythonhosted.org/packages/61/fb/1a21bbd4fe2f6693f9d1694588ab1d6a4656ab1fac2a80264522212067e2/gammarer.aws-rds-database-running-scheduler-0.3.9.tar.gz
+[2023-07-29 21:20:46] INFO root fetch - processPackages [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: Downloading https://files.pythonhosted.org/packages/38/d0/1d35005ade384b85a5f579fd776e14751c92bc2807bb079f49b075794485/gammarer.aws-ec2-auto-scaling-instance-running-scheduler-0.3.9.tar.gz
+[2023-07-29 21:20:46] INFO root fetch - processPackages [bizlogic]: Downloading https://files.pythonhosted.org/packages/70/d6/eb4fce7d479b8752585ed0ce78e483587aa78514aa160d2ff745d9c0d42f/bizlogic-0.2.9.tar.gz
+[2023-07-29 21:20:46] INFO root fetch - processPackages [gammarer.aws-ec2-instance-running-scheduler]: Downloading https://files.pythonhosted.org/packages/18/9b/38ff75b49271647698e6064f2a7e0d38196047b6ed186cbdc2df33b62620/gammarer.aws-ec2-instance-running-scheduler-0.4.9.tar.gz
+[2023-07-29 21:20:46] INFO root fetch - processPackages [gammarer.aws-budgets-notification]: Downloading https://files.pythonhosted.org/packages/fb/c5/89a725331f93b09cf937d96c37750a6c3fd3f7b42d542c36ce041e55fb51/gammarer.aws-budgets-notification-0.2.9.tar.gz
+[2023-07-29 21:20:46] INFO root fetch - processPackages [gammarer.aws-rds-database-running-scheduler]: executing diffoscope
+[2023-07-29 21:20:46] INFO root fetch - processPackages [gammarer.aws-rds-database-running-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-rds-database-running-scheduler-0.3.8.tar.gz tmp/gammarer.aws-rds-database-running-scheduler-0.3.9.tar.gz --markdown 20230729/g/gammarer.aws-rds-database-running-scheduler/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-29 21:20:46] INFO root fetch - processPackages [seamm-dashboard-client]: Downloading https://files.pythonhosted.org/packages/01/5c/489512813f154c2ffe40fe4d9b06922ffab9fce55fd7c8b442f352795857/seamm_dashboard_client-2023.7.29.tar.gz
+[2023-07-29 21:20:46] INFO root fetch - processPackages [bizlogic]: executing diffoscope
+[2023-07-29 21:20:46] INFO root fetch - processPackages [bizlogic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bizlogic-0.2.8.tar.gz tmp/bizlogic-0.2.9.tar.gz --markdown 20230729/b/bizlogic/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-29 21:20:46] INFO root fetch - processPackages [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: executing diffoscope
+[2023-07-29 21:20:46] INFO root fetch - processPackages [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-ec2-auto-scaling-instance-running-scheduler-0.3.8.tar.gz tmp/gammarer.aws-ec2-auto-scaling-instance-running-scheduler-0.3.9.tar.gz --markdown 20230729/g/gammarer.aws-ec2-auto-scaling-instance-running-scheduler/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-29 21:20:46] INFO root fetch - processPackages [gammarer.aws-daily-cost-usage-reporter]: Downloading https://files.pythonhosted.org/packages/ae/3e/c20f8d5523075b059d1f4b6a33f437a3952c81c5d1db8ff2b3586ab02628/gammarer.aws-daily-cost-usage-reporter-0.9.9.tar.gz
+[2023-07-29 21:20:46] INFO root fetch - processPackages [gammarer.aws-ec2-instance-running-scheduler]: executing diffoscope
+[2023-07-29 21:20:46] INFO root fetch - processPackages [gammarer.aws-ec2-instance-running-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-ec2-instance-running-scheduler-0.4.7.tar.gz tmp/gammarer.aws-ec2-instance-running-scheduler-0.4.9.tar.gz --markdown 20230729/g/gammarer.aws-ec2-instance-running-scheduler/0.4.7-0.4.9/diff.md --exclude *.pyd
+[2023-07-29 21:20:46] INFO root fetch - processPackages [gammarer.aws-budgets-notification]: executing diffoscope
+[2023-07-29 21:20:46] INFO root fetch - processPackages [gammarer.aws-budgets-notification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-budgets-notification-0.2.8.tar.gz tmp/gammarer.aws-budgets-notification-0.2.9.tar.gz --markdown 20230729/g/gammarer.aws-budgets-notification/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-29 21:20:46] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/cc/18/f96c1914d54bd725df13ee5bf82870ca513b9a3c82d89aa30a7d271fa26a/kfsd-0.0.9.tar.gz
+[2023-07-29 21:20:46] INFO root fetch - processPackages [localstack-client]: Downloading https://files.pythonhosted.org/packages/fc/f5/31d46951c898b1eb68fb1873374e807cc065fc72d4e780bee3c5f842684c/localstack-client-2.3.tar.gz
+[2023-07-29 21:20:46] INFO root fetch - processPackages [seamm-dashboard-client]: executing diffoscope
+[2023-07-29 21:20:46] INFO root fetch - processPackages [seamm-dashboard-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seamm_dashboard_client-2023.7.10.tar.gz tmp/seamm_dashboard_client-2023.7.29.tar.gz --markdown 20230729/s/seamm-dashboard-client/2023.7.10-2023.7.29/diff.md --exclude *.pyd
+[2023-07-29 21:20:46] INFO root fetch - processPackages [jaraco.mongodb]: Downloading https://files.pythonhosted.org/packages/02/7f/ddc4f8272d93ffc6853500bf4fb2c8025d5c913002c2c19224db8037ce57/jaraco.mongodb-9.4b5.tar.gz
+[2023-07-29 21:20:46] INFO root fetch - processPackages [kfsd]: executing diffoscope
+[2023-07-29 21:20:46] INFO root fetch - processPackages [kfsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfsd-0.0.8.tar.gz tmp/kfsd-0.0.9.tar.gz --markdown 20230729/k/kfsd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-29 21:20:46] INFO root fetch - processPackages [localstack-client]: executing diffoscope
+[2023-07-29 21:20:46] INFO root fetch - processPackages [localstack-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-client-2.2.tar.gz tmp/localstack-client-2.3.tar.gz --markdown 20230729/l/localstack-client/2.2-2.3/diff.md --exclude *.pyd
+[2023-07-29 21:20:46] INFO root fetch - processPackages [jaraco.mongodb]: executing diffoscope
+[2023-07-29 21:20:46] INFO root fetch - processPackages [jaraco.mongodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaraco.mongodb-9.4.tar.gz tmp/jaraco.mongodb-9.4b5.tar.gz --markdown 20230729/j/jaraco.mongodb/9.4-9.4b5/diff.md --exclude *.pyd
+[2023-07-29 21:20:46] INFO root fetch - processPackages [gammarer.aws-daily-cost-usage-reporter]: executing diffoscope
+[2023-07-29 21:20:46] INFO root fetch - processPackages [gammarer.aws-daily-cost-usage-reporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-daily-cost-usage-reporter-0.9.8.tar.gz tmp/gammarer.aws-daily-cost-usage-reporter-0.9.9.tar.gz --markdown 20230729/g/gammarer.aws-daily-cost-usage-reporter/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-29 21:20:48] INFO root fetch - processPackages [bizlogic]: Remove: archive file [/home/abi/fetcher/tmp/bizlogic-0.2.8.tar.gz]
+[2023-07-29 21:20:48] INFO root fetch - processPackages [bizlogic]: Remove: archive file [/home/abi/fetcher/tmp/bizlogic-0.2.9.tar.gz]
+[2023-07-29 21:20:48] INFO root fetch - processPackages [bizlogic]: Start processing: reolink-aio
+[2023-07-29 21:20:48] INFO root fetch - main [MainThread]: End processing [bizlogic]: success
+[2023-07-29 21:20:48] INFO root fetch - processPackages [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-ec2-auto-scaling-instance-running-scheduler-0.3.8.tar.gz]
+[2023-07-29 21:20:48] INFO root fetch - processPackages [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-ec2-auto-scaling-instance-running-scheduler-0.3.9.tar.gz]
+[2023-07-29 21:20:48] INFO root fetch - main [MainThread]: End processing [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: success
+[2023-07-29 21:20:48] INFO root fetch - processPackages [gammarer.aws-budgets-notification]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-budgets-notification-0.2.8.tar.gz]
+[2023-07-29 21:20:48] INFO root fetch - processPackages [gammarer.aws-budgets-notification]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-budgets-notification-0.2.9.tar.gz]
+[2023-07-29 21:20:48] INFO root fetch - main [MainThread]: End processing [gammarer.aws-budgets-notification]: success
+[2023-07-29 21:20:48] INFO root fetch - processPackages [gammarer.aws-ec2-instance-running-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-ec2-instance-running-scheduler-0.4.7.tar.gz]
+[2023-07-29 21:20:48] INFO root fetch - processPackages [gammarer.aws-ec2-instance-running-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-ec2-instance-running-scheduler-0.4.9.tar.gz]
+[2023-07-29 21:20:48] INFO root fetch - main [MainThread]: End processing [gammarer.aws-ec2-instance-running-scheduler]: success
+[2023-07-29 21:20:48] INFO root fetch - processPackages [seamm-dashboard-client]: Remove: archive file [/home/abi/fetcher/tmp/seamm_dashboard_client-2023.7.10.tar.gz]
+[2023-07-29 21:20:48] INFO root fetch - processPackages [seamm-dashboard-client]: Remove: archive file [/home/abi/fetcher/tmp/seamm_dashboard_client-2023.7.29.tar.gz]
+[2023-07-29 21:20:48] INFO root fetch - main [MainThread]: End processing [seamm-dashboard-client]: success
+[2023-07-29 21:20:48] INFO root fetch - processPackages [reolink-aio]: New version: [0.7.6] Old Version: [0.7.5]
+[2023-07-29 21:20:48] INFO root fetch - processPackages [gammarer.aws-rds-database-running-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-rds-database-running-scheduler-0.3.8.tar.gz]
+[2023-07-29 21:20:48] INFO root fetch - processPackages [gammarer.aws-rds-database-running-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-rds-database-running-scheduler-0.3.9.tar.gz]
+[2023-07-29 21:20:48] INFO root fetch - main [MainThread]: End processing [gammarer.aws-rds-database-running-scheduler]: success
+[2023-07-29 21:20:48] INFO root fetch - processPackages [gammarer.aws-daily-cost-usage-reporter]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-daily-cost-usage-reporter-0.9.8.tar.gz]
+[2023-07-29 21:20:48] INFO root fetch - processPackages [gammarer.aws-daily-cost-usage-reporter]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-daily-cost-usage-reporter-0.9.9.tar.gz]
+[2023-07-29 21:20:48] INFO root fetch - main [MainThread]: End processing [gammarer.aws-daily-cost-usage-reporter]: success
+[2023-07-29 21:20:48] INFO root fetch - processPackages [localstack-client]: Remove: archive file [/home/abi/fetcher/tmp/localstack-client-2.2.tar.gz]
+[2023-07-29 21:20:48] INFO root fetch - processPackages [localstack-client]: Remove: archive file [/home/abi/fetcher/tmp/localstack-client-2.3.tar.gz]
+[2023-07-29 21:20:48] INFO root fetch - main [MainThread]: End processing [localstack-client]: success
+[2023-07-29 21:20:48] INFO root fetch - processPackages [reolink-aio]: Downloading https://files.pythonhosted.org/packages/34/2d/8bcfcb7f458bdd1f91e4ec055c987706ccaa853de707779d1212139d66bf/reolink_aio-0.7.5.tar.gz
+[2023-07-29 21:20:48] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.8.tar.gz]
+[2023-07-29 21:20:48] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.9.tar.gz]
+[2023-07-29 21:20:48] INFO root fetch - main [MainThread]: End processing [kfsd]: success
+[2023-07-29 21:20:48] INFO root fetch - processPackages [jaraco.mongodb]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.mongodb-9.4.tar.gz]
+[2023-07-29 21:20:48] INFO root fetch - processPackages [jaraco.mongodb]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.mongodb-9.4b5.tar.gz]
+[2023-07-29 21:20:48] INFO root fetch - main [MainThread]: End processing [jaraco.mongodb]: success
+[2023-07-29 21:20:48] INFO root fetch - processPackages [reolink-aio]: Downloading https://files.pythonhosted.org/packages/86/29/18be4e9bf6e25c665b74492c76ce51f50f18d0c9a26bf34afe21c6eee84c/reolink_aio-0.7.6.tar.gz
+[2023-07-29 21:20:49] INFO root fetch - processPackages [reolink-aio]: executing diffoscope
+[2023-07-29 21:20:49] INFO root fetch - processPackages [reolink-aio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reolink_aio-0.7.5.tar.gz tmp/reolink_aio-0.7.6.tar.gz --markdown 20230729/r/reolink-aio/0.7.5-0.7.6/diff.md --exclude *.pyd
+[2023-07-29 21:20:49] INFO root fetch - processPackages [reolink-aio]: Remove: archive file [/home/abi/fetcher/tmp/reolink_aio-0.7.5.tar.gz]
+[2023-07-29 21:20:49] INFO root fetch - processPackages [reolink-aio]: Remove: archive file [/home/abi/fetcher/tmp/reolink_aio-0.7.6.tar.gz]
+[2023-07-29 21:20:49] INFO root fetch - main [MainThread]: End processing [reolink-aio]: success
+[2023-07-29 21:20:49] INFO root fetch - main [MainThread]: Store serial: [19091245]
