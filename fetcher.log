@@ -22326,3 +22326,54 @@ AssertionError: tmp/pulpcore-3.9.0.tar.gz does not exist
 [2023-07-29 20:48:47] ERROR root fetch - processPackages [sphinx-social-cards]: Timeout during execution of pkgdiff
 [2023-07-29 20:48:47] INFO root fetch - main [MainThread]: End processing [sphinx-social-cards] error
 [2023-07-29 20:48:47] INFO root fetch - main [MainThread]: Store serial: [19091070]
+[2023-07-29 20:53:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19091070]
+[2023-07-29 20:53:55] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-29 20:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tracex-parser
+[2023-07-29 20:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: botwinick-utils
+[2023-07-29 20:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: swiftly-sys
+[2023-07-29 20:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tweakers
+[2023-07-29 20:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: litellm
+[2023-07-29 20:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dalinicus.aiolyric
+[2023-07-29 20:53:56] WARNING root fetch - processPackages [dalinicus.aiolyric]: Skipping, unable to determine old version
+[2023-07-29 20:53:56] INFO root fetch - main [MainThread]: End processing [dalinicus.aiolyric] error
+[2023-07-29 20:53:56] INFO root fetch - processPackages [botwinick-utils]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-29 20:53:56] INFO root fetch - processPackages [tracex-parser]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-07-29 20:53:56] INFO root fetch - processPackages [swiftly-sys]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-29 20:53:56] INFO root fetch - processPackages [tweakers]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-07-29 20:53:56] INFO root fetch - processPackages [litellm]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-29 20:53:56] INFO root fetch - processPackages [botwinick-utils]: Downloading https://files.pythonhosted.org/packages/b6/4e/fab5025d4376c144f57de62954ea93a784c220f570f6e5bac35774cf4f3f/botwinick_utils-0.0.4.tar.gz
+[2023-07-29 20:53:56] INFO root fetch - processPackages [swiftly-sys]: Downloading https://files.pythonhosted.org/packages/ba/2c/e47226960826a8c4b444f6da51c35d3bf6d4d7ef6c6459985ed1919cf326/swiftly-sys-0.0.5.tar.gz
+[2023-07-29 20:53:56] INFO root fetch - processPackages [tweakers]: Downloading https://files.pythonhosted.org/packages/90/b0/440b78c0a2bfd61f5be1effa7306adacc6b0712bbb5a6521b64d58ec0112/tweakers-0.3.3.tar.gz
+[2023-07-29 20:53:56] INFO root fetch - processPackages [tracex-parser]: Downloading https://files.pythonhosted.org/packages/c5/89/aec70eff911bfae116075262930b3301274e2fbc668758cc2f969cbe82d1/tracex_parser-2.2.0.tar.gz
+[2023-07-29 20:53:56] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/a5/04/5ea253a0c3caf8f5e42f3aa1d4ae28773f94fb805b6e328e1b91c69644eb/litellm-0.1.1.tar.gz
+[2023-07-29 20:53:56] INFO root fetch - processPackages [botwinick-utils]: Downloading https://files.pythonhosted.org/packages/86/a5/2d914e9f96e11e4dfbe905df70f3738a238cd4796882a4ff497304270ce7/botwinick_utils-0.0.5.tar.gz
+[2023-07-29 20:53:56] INFO root fetch - processPackages [tweakers]: Downloading https://files.pythonhosted.org/packages/c1/25/6f9f2af5e5deb7d3b11c7ec77e9671c39170ffbbea007b93b7d03ed444d6/tweakers-0.4.0.tar.gz
+[2023-07-29 20:53:56] INFO root fetch - processPackages [swiftly-sys]: Downloading https://files.pythonhosted.org/packages/58/c1/1b530db82caf2703ef43157059f9f17064d41c04327df7723f6eedac7ba0/swiftly-sys-0.0.6.tar.gz
+[2023-07-29 20:53:56] INFO root fetch - processPackages [tracex-parser]: Downloading https://files.pythonhosted.org/packages/2a/09/29eee7716efc4ebb1b79b3fbeea926734167c8af5dfbf34598047efd48f9/tracex_parser-2.3.0.tar.gz
+[2023-07-29 20:53:56] INFO root fetch - processPackages [botwinick-utils]: executing diffoscope
+[2023-07-29 20:53:56] INFO root fetch - processPackages [botwinick-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botwinick_utils-0.0.4.tar.gz tmp/botwinick_utils-0.0.5.tar.gz --markdown 20230729/b/botwinick-utils/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-29 20:53:56] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/50/8f/49bf0a3542d44212615b38ce34e47ce5b525789d7c06fade0a46cd4b86ff/litellm-0.1.2.tar.gz
+[2023-07-29 20:53:56] INFO root fetch - processPackages [swiftly-sys]: executing diffoscope
+[2023-07-29 20:53:56] INFO root fetch - processPackages [swiftly-sys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swiftly-sys-0.0.5.tar.gz tmp/swiftly-sys-0.0.6.tar.gz --markdown 20230729/s/swiftly-sys/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-29 20:53:56] INFO root fetch - processPackages [tweakers]: executing diffoscope
+[2023-07-29 20:53:56] INFO root fetch - processPackages [tweakers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tweakers-0.3.3.tar.gz tmp/tweakers-0.4.0.tar.gz --markdown 20230729/t/tweakers/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-07-29 20:53:56] INFO root fetch - processPackages [tracex-parser]: executing diffoscope
+[2023-07-29 20:53:56] INFO root fetch - processPackages [tracex-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tracex_parser-2.2.0.tar.gz tmp/tracex_parser-2.3.0.tar.gz --markdown 20230729/t/tracex-parser/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-07-29 20:53:57] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2023-07-29 20:53:57] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-0.1.1.tar.gz tmp/litellm-0.1.2.tar.gz --markdown 20230729/l/litellm/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-29 20:53:57] INFO root fetch - processPackages [tweakers]: Remove: archive file [/home/abi/fetcher/tmp/tweakers-0.3.3.tar.gz]
+[2023-07-29 20:53:57] INFO root fetch - processPackages [tweakers]: Remove: archive file [/home/abi/fetcher/tmp/tweakers-0.4.0.tar.gz]
+[2023-07-29 20:53:57] INFO root fetch - main [MainThread]: End processing [tweakers]: success
+[2023-07-29 20:53:57] INFO root fetch - processPackages [botwinick-utils]: Remove: archive file [/home/abi/fetcher/tmp/botwinick_utils-0.0.4.tar.gz]
+[2023-07-29 20:53:57] INFO root fetch - processPackages [botwinick-utils]: Remove: archive file [/home/abi/fetcher/tmp/botwinick_utils-0.0.5.tar.gz]
+[2023-07-29 20:53:57] INFO root fetch - main [MainThread]: End processing [botwinick-utils]: success
+[2023-07-29 20:53:57] INFO root fetch - processPackages [tracex-parser]: Remove: archive file [/home/abi/fetcher/tmp/tracex_parser-2.2.0.tar.gz]
+[2023-07-29 20:53:57] INFO root fetch - processPackages [tracex-parser]: Remove: archive file [/home/abi/fetcher/tmp/tracex_parser-2.3.0.tar.gz]
+[2023-07-29 20:53:57] INFO root fetch - main [MainThread]: End processing [tracex-parser]: success
+[2023-07-29 20:53:57] INFO root fetch - processPackages [swiftly-sys]: Remove: archive file [/home/abi/fetcher/tmp/swiftly-sys-0.0.5.tar.gz]
+[2023-07-29 20:53:57] INFO root fetch - processPackages [swiftly-sys]: Remove: archive file [/home/abi/fetcher/tmp/swiftly-sys-0.0.6.tar.gz]
+[2023-07-29 20:53:57] INFO root fetch - main [MainThread]: End processing [swiftly-sys]: success
+[2023-07-29 20:53:58] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.1.tar.gz]
+[2023-07-29 20:53:58] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.2.tar.gz]
+[2023-07-29 20:53:58] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2023-07-29 20:53:58] INFO root fetch - main [MainThread]: Store serial: [19091086]
