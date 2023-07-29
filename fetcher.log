@@ -10368,3 +10368,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 09:15:58] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
 [2023-07-29 09:15:58] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-07-29 09:15:58] INFO root fetch - main [MainThread]: Store serial: [19086058]
+[2023-07-29 09:21:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19086058]
+[2023-07-29 09:21:07] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-29 09:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pystools
+[2023-07-29 09:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: messageflux
+[2023-07-29 09:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gptw
+[2023-07-29 09:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spectrafit
+[2023-07-29 09:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ixBrowser
+[2023-07-29 09:21:07] INFO root fetch - processPackages [ixBrowser]: New version: [1.4.0] Old Version: [1.2.0]
+[2023-07-29 09:21:07] INFO root fetch - processPackages [messageflux]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-29 09:21:07] INFO root fetch - processPackages [pystools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-29 09:21:07] INFO root fetch - processPackages [gptw]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-29 09:21:07] INFO root fetch - processPackages [spectrafit]: New version: [1.0.0b2] Old Version: [1.0.0b1]
+[2023-07-29 09:21:07] INFO root fetch - processPackages [ixBrowser]: Downloading https://files.pythonhosted.org/packages/5c/1d/10d8f45cf5e94e34750c73bb2c3ab6e5999381b4891bca90934aa19d9a83/ixBrowser-1.2.0.tar.gz
+[2023-07-29 09:21:07] INFO root fetch - processPackages [pystools]: Downloading https://files.pythonhosted.org/packages/d3/f1/f6fef6b574bd57970579f257d2f3b2adf9f6b87b20d9dc2c11e18d2a4a47/pystools-0.0.8.tar.gz
+[2023-07-29 09:21:07] INFO root fetch - processPackages [messageflux]: Downloading https://files.pythonhosted.org/packages/ef/52/badd52fddca71d8e7faa5f1b476e072ce4d8d0aaf9aed55b7b07e4d583f4/messageflux-0.3.1.tar.gz
+[2023-07-29 09:21:07] INFO root fetch - processPackages [gptw]: Downloading https://files.pythonhosted.org/packages/bc/3b/55bb8f5429586c93f047bc5f1842dba6d6a9bc7165fbf061fdcf9074b692/gptw-0.4.2.tar.gz
+[2023-07-29 09:21:07] INFO root fetch - processPackages [spectrafit]: Downloading https://files.pythonhosted.org/packages/6b/2a/41e9908ead4ca1e1d9d996de0c892d67d060119e8afe804904347a462817/spectrafit-1.0.0b1.tar.gz
+[2023-07-29 09:21:07] INFO root fetch - processPackages [pystools]: Downloading https://files.pythonhosted.org/packages/9b/5a/9f2cf38e22565c5aa2ecb7be3dbecb7a44f7d23efbd86fd532eacd613f62/pystools-0.0.9.tar.gz
+[2023-07-29 09:21:07] INFO root fetch - processPackages [ixBrowser]: Downloading https://files.pythonhosted.org/packages/80/e3/f6477dfa44659394bc8203aa3eb9af3d94f88517657775f89bdaf9432280/ixBrowser-1.4.0.tar.gz
+[2023-07-29 09:21:07] INFO root fetch - processPackages [pystools]: executing diffoscope
+[2023-07-29 09:21:07] INFO root fetch - processPackages [pystools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystools-0.0.8.tar.gz tmp/pystools-0.0.9.tar.gz --markdown 20230729/p/pystools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-29 09:21:07] INFO root fetch - processPackages [gptw]: Downloading https://files.pythonhosted.org/packages/20/f0/eb40a99ab7a0a809c9296a0f05fd3c4e58549513726c5121409448e2fd74/gptw-0.4.3.tar.gz
+[2023-07-29 09:21:07] INFO root fetch - processPackages [messageflux]: Downloading https://files.pythonhosted.org/packages/a9/34/5aa30b9afc566ce746bb63a2be0c4a533c2579b35144358102145b07b601/messageflux-0.3.2.tar.gz
+[2023-07-29 09:21:07] INFO root fetch - processPackages [ixBrowser]: executing diffoscope
+[2023-07-29 09:21:07] INFO root fetch - processPackages [ixBrowser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ixBrowser-1.2.0.tar.gz tmp/ixBrowser-1.4.0.tar.gz --markdown 20230729/i/ixBrowser/1.2.0-1.4.0/diff.md --exclude *.pyd
+[2023-07-29 09:21:07] INFO root fetch - processPackages [messageflux]: executing diffoscope
+[2023-07-29 09:21:07] INFO root fetch - processPackages [messageflux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/messageflux-0.3.1.tar.gz tmp/messageflux-0.3.2.tar.gz --markdown 20230729/m/messageflux/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-29 09:21:08] INFO root fetch - processPackages [spectrafit]: Downloading https://files.pythonhosted.org/packages/b0/e6/82afb2b07e68fd939709273d2e78209c65e2ecd4f15dfd661bf36a3c9604/spectrafit-1.0.0b2.tar.gz
+[2023-07-29 09:21:08] INFO root fetch - processPackages [gptw]: executing diffoscope
+[2023-07-29 09:21:08] INFO root fetch - processPackages [gptw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptw-0.4.2.tar.gz tmp/gptw-0.4.3.tar.gz --markdown 20230729/g/gptw/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-29 09:21:08] INFO root fetch - processPackages [spectrafit]: executing diffoscope
+[2023-07-29 09:21:08] INFO root fetch - processPackages [spectrafit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectrafit-1.0.0b1.tar.gz tmp/spectrafit-1.0.0b2.tar.gz --markdown 20230729/s/spectrafit/1.0.0b1-1.0.0b2/diff.md --exclude *.pyd
+[2023-07-29 09:21:08] INFO root fetch - processPackages [pystools]: Remove: archive file [/home/abi/fetcher/tmp/pystools-0.0.8.tar.gz]
+[2023-07-29 09:21:08] INFO root fetch - processPackages [pystools]: Remove: archive file [/home/abi/fetcher/tmp/pystools-0.0.9.tar.gz]
+[2023-07-29 09:21:08] INFO root fetch - main [MainThread]: End processing [pystools]: success
+[2023-07-29 09:21:08] INFO root fetch - processPackages [ixBrowser]: Remove: archive file [/home/abi/fetcher/tmp/ixBrowser-1.2.0.tar.gz]
+[2023-07-29 09:21:08] INFO root fetch - processPackages [ixBrowser]: Remove: archive file [/home/abi/fetcher/tmp/ixBrowser-1.4.0.tar.gz]
+[2023-07-29 09:21:08] INFO root fetch - main [MainThread]: End processing [ixBrowser]: success
+[2023-07-29 09:21:08] INFO root fetch - processPackages [gptw]: Remove: archive file [/home/abi/fetcher/tmp/gptw-0.4.2.tar.gz]
+[2023-07-29 09:21:08] INFO root fetch - processPackages [gptw]: Remove: archive file [/home/abi/fetcher/tmp/gptw-0.4.3.tar.gz]
+[2023-07-29 09:21:08] INFO root fetch - main [MainThread]: End processing [gptw]: success
+[2023-07-29 09:21:09] INFO root fetch - processPackages [messageflux]: Remove: archive file [/home/abi/fetcher/tmp/messageflux-0.3.1.tar.gz]
+[2023-07-29 09:21:09] INFO root fetch - processPackages [messageflux]: Remove: archive file [/home/abi/fetcher/tmp/messageflux-0.3.2.tar.gz]
+[2023-07-29 09:21:09] INFO root fetch - main [MainThread]: End processing [messageflux]: success
+[2023-07-29 09:21:09] INFO root fetch - processPackages [spectrafit]: Remove: archive file [/home/abi/fetcher/tmp/spectrafit-1.0.0b1.tar.gz]
+[2023-07-29 09:21:09] INFO root fetch - processPackages [spectrafit]: Remove: archive file [/home/abi/fetcher/tmp/spectrafit-1.0.0b2.tar.gz]
+[2023-07-29 09:21:09] INFO root fetch - main [MainThread]: End processing [spectrafit]: success
+[2023-07-29 09:21:09] INFO root fetch - main [MainThread]: Store serial: [19086073]
