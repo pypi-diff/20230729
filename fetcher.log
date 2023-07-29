@@ -17364,3 +17364,107 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 15:06:41] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.7.29-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-07-29 15:06:41] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
 [2023-07-29 15:06:41] INFO root fetch - main [MainThread]: Store serial: [19088839]
+[2023-07-29 15:11:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19088839]
+[2023-07-29 15:11:50] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-29 15:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: composabl-ray-dev
+[2023-07-29 15:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-numpy
+[2023-07-29 15:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ukmon-meteortools
+[2023-07-29 15:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: event-schema-profcomff
+[2023-07-29 15:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kv-deta
+[2023-07-29 15:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aeon
+[2023-07-29 15:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-pandas
+[2023-07-29 15:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ihatemoney
+[2023-07-29 15:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tendril-iotedge
+[2023-07-29 15:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-statici18n
+[2023-07-29 15:11:50] INFO root fetch - processPackages [kv-deta]: New version: [0.1.8a0] Old Version: [0.1.7a0]
+[2023-07-29 15:11:50] INFO root fetch - processPackages [composabl-ray-dev]: New version: [0.2.4.dev2] Old Version: [0.2.4.dev1]
+[2023-07-29 15:11:50] INFO root fetch - processPackages [aeon]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-29 15:11:50] WARNING root fetch - processPackages [event-schema-profcomff]: Skipping, unable to determine old version
+[2023-07-29 15:11:50] INFO root fetch - processPackages [event-schema-profcomff]: Start processing: nbdev-pytorch
+[2023-07-29 15:11:50] INFO root fetch - main [MainThread]: End processing [event-schema-profcomff] error
+[2023-07-29 15:11:50] INFO root fetch - processPackages [tendril-iotedge]: New version: [0.2.0] Old Version: [0.1.8]
+[2023-07-29 15:11:50] INFO root fetch - processPackages [django-statici18n]: New version: [2.4.0] Old Version: [2.3.1]
+[2023-07-29 15:11:50] INFO root fetch - processPackages [ihatemoney]: New version: [6.1.0] Old Version: [6.0.1]
+[2023-07-29 15:11:50] INFO root fetch - processPackages [ukmon-meteortools]: New version: [2023.7.8] Old Version: [2023.7.7]
+[2023-07-29 15:11:50] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-29 15:11:50] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-29 15:11:50] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-07-29 15:11:50] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-29 15:11:50] INFO root fetch - processPackages [ukmon-meteortools]: Downloading https://files.pythonhosted.org/packages/80/66/a2fc723606319b5662af27cedc335f63b1ce054b4f6ec1b7cdb1db59bc00/ukmon_meteortools-2023.7.7.tar.gz
+[2023-07-29 15:11:50] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-07-29 15:11:50] INFO root fetch - processPackages [tendril-iotedge]: Downloading https://files.pythonhosted.org/packages/04/c8/7dc2fbcc695e0f4ba5cc2caf3e2d61e79fdb823d9f129b2526b272d564e9/tendril-iotedge-0.1.8.tar.gz
+[2023-07-29 15:11:50] INFO root fetch - processPackages [kv-deta]: Downloading https://files.pythonhosted.org/packages/2d/fd/233507a493adc5dd807cc60169638cd2ad402ba366d31fffae2cede455f2/kv_deta-0.1.7a0-py3-none-any.whl
+[2023-07-29 15:11:50] INFO root fetch - processPackages [composabl-ray-dev]: Downloading https://files.pythonhosted.org/packages/d6/06/17b5f389d64a06f360eb001a36942764fa8b4cb038f748f2bcfe35b19d46/composabl_ray_dev-0.2.4.dev1-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-07-29 15:11:51] INFO root fetch - processPackages [django-statici18n]: Downloading https://files.pythonhosted.org/packages/2b/30/7e3ada5858c36822b1032ef24d894066df8c30dbfee016e1e9198d95906e/django-statici18n-2.3.1.tar.gz
+[2023-07-29 15:11:51] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-07-29 15:11:51] INFO root fetch - processPackages [ihatemoney]: Downloading https://files.pythonhosted.org/packages/cd/a2/87aed491407e644921b04d21b3d9c0935395f244402b5b3d62ecf7c46033/ihatemoney-6.0.1.tar.gz
+[2023-07-29 15:11:51] INFO root fetch - processPackages [aeon]: Downloading https://files.pythonhosted.org/packages/35/1e/4ccf56f317a2de7efb56ff0f96674b555a6ab44eb22161210012853ad022/aeon-0.3.0.tar.gz
+[2023-07-29 15:11:51] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-07-29 15:11:51] WARNING root fetch - processPackages [aeon]: Skipping package: exceeds size limit 28298654>=10485760
+[2023-07-29 15:11:51] INFO root fetch - processPackages [aeon]: Start processing: tendril-interests
+[2023-07-29 15:11:51] INFO root fetch - main [MainThread]: End processing [aeon] error
+[2023-07-29 15:11:51] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-07-29 15:11:51] INFO root fetch - processPackages [tendril-interests]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-29 15:11:51] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-07-29 15:11:51] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-07-29 15:11:51] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230729/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-29 15:11:51] INFO root fetch - processPackages [tendril-iotedge]: Downloading https://files.pythonhosted.org/packages/4b/9d/b05c0b505102dff8b6f4dd1acc56967e7a5cd997f56903a3c36ae2c82e27/tendril-iotedge-0.2.0.tar.gz
+[2023-07-29 15:11:51] INFO root fetch - processPackages [django-statici18n]: Downloading https://files.pythonhosted.org/packages/1a/29/266c75b26adebdb1d3d3412c722d164b2a46b376e3a0123707db30621e30/django-statici18n-2.4.0.tar.gz
+[2023-07-29 15:11:51] INFO root fetch - processPackages [kv-deta]: Downloading https://files.pythonhosted.org/packages/75/ab/f67dd146b33a36f05fb81cb3638d1f21d8b234794f37f5e90f3b9b05b1bf/kv_deta-0.1.8a0-py3-none-any.whl
+[2023-07-29 15:11:51] INFO root fetch - processPackages [ukmon-meteortools]: Downloading https://files.pythonhosted.org/packages/80/c1/eec6c875215d0bbe3342c29626ba9b996033fae6587eda63751b822bff56/ukmon_meteortools-2023.7.8.tar.gz
+[2023-07-29 15:11:51] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-07-29 15:11:51] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230729/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-29 15:11:51] INFO root fetch - processPackages [tendril-interests]: Downloading https://files.pythonhosted.org/packages/29/e7/176f46569f0d8289f8669a305d9e9c99efc2f588ec5d1f824b62c15f1e3c/tendril-interests-0.3.1.tar.gz
+[2023-07-29 15:11:51] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-07-29 15:11:51] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230729/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-29 15:11:51] INFO root fetch - processPackages [django-statici18n]: executing diffoscope
+[2023-07-29 15:11:51] INFO root fetch - processPackages [django-statici18n]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-statici18n-2.3.1.tar.gz tmp/django-statici18n-2.4.0.tar.gz --markdown 20230729/d/django-statici18n/2.3.1-2.4.0/diff.md --exclude *.pyd
+[2023-07-29 15:11:51] INFO root fetch - processPackages [tendril-iotedge]: executing diffoscope
+[2023-07-29 15:11:51] INFO root fetch - processPackages [tendril-iotedge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-iotedge-0.1.8.tar.gz tmp/tendril-iotedge-0.2.0.tar.gz --markdown 20230729/t/tendril-iotedge/0.1.8-0.2.0/diff.md --exclude *.pyd
+[2023-07-29 15:11:51] INFO root fetch - processPackages [composabl-ray-dev]: Downloading https://files.pythonhosted.org/packages/21/2d/16fc6bf8b7db10f256a2d07ca935705d1ed4dfd5f777a3e6ee03d702ed5a/composabl_ray_dev-0.2.4.dev2-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-07-29 15:11:51] INFO root fetch - processPackages [ihatemoney]: Downloading https://files.pythonhosted.org/packages/92/92/6f822013301e9213fd9623846c0346e391838b962836312481fe674867f4/ihatemoney-6.1.0.tar.gz
+[2023-07-29 15:11:51] INFO root fetch - processPackages [kv-deta]: executing diffoscope
+[2023-07-29 15:11:51] INFO root fetch - processPackages [kv-deta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kv_deta-0.1.7a0-py3-none-any.whl.zip tmp/kv_deta-0.1.8a0-py3-none-any.whl.zip --markdown 20230729/k/kv-deta/0.1.7a0-0.1.8a0/diff.md --exclude *.pyd
+[2023-07-29 15:11:51] INFO root fetch - processPackages [ukmon-meteortools]: executing diffoscope
+[2023-07-29 15:11:51] INFO root fetch - processPackages [ukmon-meteortools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ukmon_meteortools-2023.7.7.tar.gz tmp/ukmon_meteortools-2023.7.8.tar.gz --markdown 20230729/u/ukmon-meteortools/2023.7.7-2023.7.8/diff.md --exclude *.pyd
+[2023-07-29 15:11:52] INFO root fetch - processPackages [tendril-interests]: Downloading https://files.pythonhosted.org/packages/11/24/4eb68b585eb68f66062df8cbd7547dd98b9c8a5ff5cc6b6c438efd20cd59/tendril-interests-0.3.2.tar.gz
+[2023-07-29 15:11:52] INFO root fetch - processPackages [ihatemoney]: executing diffoscope
+[2023-07-29 15:11:52] INFO root fetch - processPackages [ihatemoney]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ihatemoney-6.0.1.tar.gz tmp/ihatemoney-6.1.0.tar.gz --markdown 20230729/i/ihatemoney/6.0.1-6.1.0/diff.md --exclude *.pyd
+[2023-07-29 15:11:52] INFO root fetch - processPackages [composabl-ray-dev]: executing diffoscope
+[2023-07-29 15:11:52] INFO root fetch - processPackages [composabl-ray-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_ray_dev-0.2.4.dev1-cp38-cp38-musllinux_1_1_x86_64.whl.zip tmp/composabl_ray_dev-0.2.4.dev2-cp38-cp38-musllinux_1_1_x86_64.whl.zip --markdown 20230729/c/composabl-ray-dev/0.2.4.dev1-0.2.4.dev2/diff.md --exclude *.pyd
+[2023-07-29 15:11:52] INFO root fetch - processPackages [tendril-interests]: executing diffoscope
+[2023-07-29 15:11:52] INFO root fetch - processPackages [tendril-interests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-interests-0.3.1.tar.gz tmp/tendril-interests-0.3.2.tar.gz --markdown 20230729/t/tendril-interests/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-29 15:11:52] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-07-29 15:11:52] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-07-29 15:11:52] INFO root fetch - processPackages [nbdev-pandas]: Start processing: rwkv-beta
+[2023-07-29 15:11:52] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-07-29 15:11:52] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-07-29 15:11:52] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-07-29 15:11:52] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-07-29 15:11:52] WARNING root fetch - processPackages [rwkv-beta]: Skipping, unable to determine old version
+[2023-07-29 15:11:52] INFO root fetch - main [MainThread]: End processing [rwkv-beta] error
+[2023-07-29 15:11:53] INFO root fetch - processPackages [django-statici18n]: Remove: archive file [/home/abi/fetcher/tmp/django-statici18n-2.3.1.tar.gz]
+[2023-07-29 15:11:53] INFO root fetch - processPackages [django-statici18n]: Remove: archive file [/home/abi/fetcher/tmp/django-statici18n-2.4.0.tar.gz]
+[2023-07-29 15:11:53] INFO root fetch - main [MainThread]: End processing [django-statici18n]: success
+[2023-07-29 15:11:53] INFO root fetch - processPackages [kv-deta]: Remove: archive file [/home/abi/fetcher/tmp/kv_deta-0.1.7a0-py3-none-any.whl.zip]
+[2023-07-29 15:11:53] INFO root fetch - processPackages [kv-deta]: Remove: archive file [/home/abi/fetcher/tmp/kv_deta-0.1.8a0-py3-none-any.whl.zip]
+[2023-07-29 15:11:53] INFO root fetch - main [MainThread]: End processing [kv-deta]: success
+[2023-07-29 15:11:53] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-07-29 15:11:53] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-07-29 15:11:53] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-07-29 15:11:53] INFO root fetch - processPackages [tendril-iotedge]: Remove: archive file [/home/abi/fetcher/tmp/tendril-iotedge-0.1.8.tar.gz]
+[2023-07-29 15:11:53] INFO root fetch - processPackages [tendril-iotedge]: Remove: archive file [/home/abi/fetcher/tmp/tendril-iotedge-0.2.0.tar.gz]
+[2023-07-29 15:11:53] INFO root fetch - main [MainThread]: End processing [tendril-iotedge]: success
+[2023-07-29 15:11:53] INFO root fetch - processPackages [composabl-ray-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray_dev-0.2.4.dev1-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-07-29 15:11:53] INFO root fetch - processPackages [composabl-ray-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray_dev-0.2.4.dev2-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-07-29 15:11:53] INFO root fetch - main [MainThread]: End processing [composabl-ray-dev]: success
+[2023-07-29 15:11:53] INFO root fetch - processPackages [ukmon-meteortools]: Remove: archive file [/home/abi/fetcher/tmp/ukmon_meteortools-2023.7.7.tar.gz]
+[2023-07-29 15:11:53] INFO root fetch - processPackages [ukmon-meteortools]: Remove: archive file [/home/abi/fetcher/tmp/ukmon_meteortools-2023.7.8.tar.gz]
+[2023-07-29 15:11:53] INFO root fetch - main [MainThread]: End processing [ukmon-meteortools]: success
+[2023-07-29 15:11:53] INFO root fetch - processPackages [tendril-interests]: Remove: archive file [/home/abi/fetcher/tmp/tendril-interests-0.3.1.tar.gz]
+[2023-07-29 15:11:53] INFO root fetch - processPackages [tendril-interests]: Remove: archive file [/home/abi/fetcher/tmp/tendril-interests-0.3.2.tar.gz]
+[2023-07-29 15:11:53] INFO root fetch - main [MainThread]: End processing [tendril-interests]: success
+[2023-07-29 15:11:54] INFO root fetch - processPackages [ihatemoney]: Remove: archive file [/home/abi/fetcher/tmp/ihatemoney-6.0.1.tar.gz]
+[2023-07-29 15:11:54] INFO root fetch - processPackages [ihatemoney]: Remove: archive file [/home/abi/fetcher/tmp/ihatemoney-6.1.0.tar.gz]
+[2023-07-29 15:11:54] INFO root fetch - main [MainThread]: End processing [ihatemoney]: success
+[2023-07-29 15:11:54] INFO root fetch - main [MainThread]: Store serial: [19088886]
