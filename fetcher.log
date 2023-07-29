@@ -17265,3 +17265,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 14:55:50] INFO root fetch - processPackages [pyapriltags]: Remove: archive file [/home/abi/fetcher/tmp/pyapriltags-3.3.0.post2-py3-none-win_amd64.whl.zip]
 [2023-07-29 14:55:50] INFO root fetch - main [MainThread]: End processing [pyapriltags]: success
 [2023-07-29 14:55:50] INFO root fetch - main [MainThread]: Store serial: [19088794]
+[2023-07-29 15:00:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19088794]
+[2023-07-29 15:00:59] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-29 15:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: localstack-core
+[2023-07-29 15:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: composabl-ray-dev
+[2023-07-29 15:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deskaone-sdk-api
+[2023-07-29 15:00:59] INFO root fetch - processPackages [deskaone-sdk-api]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-29 15:00:59] INFO root fetch - processPackages [composabl-ray-dev]: New version: [0.2.4.dev1] Old Version: [0.2.3.dev30]
+[2023-07-29 15:00:59] INFO root fetch - processPackages [localstack-core]: New version: [2.2.1.dev20230729125541] Old Version: [2.2.1.dev20230728215407]
+[2023-07-29 15:00:59] INFO root fetch - processPackages [composabl-ray-dev]: Downloading https://files.pythonhosted.org/packages/d3/12/c47764b1f930e14439718938353328fb012ecda154b1bc63d9d248cb492f/composabl_ray_dev-0.2.3.dev30-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-07-29 15:00:59] INFO root fetch - processPackages [deskaone-sdk-api]: Downloading https://files.pythonhosted.org/packages/ab/e3/5357bee242fe75de1f43d61c1acd8fd4b2084f25b851319bfb056fca0ec4/deskaone_sdk_api-0.0.2.tar.gz
+[2023-07-29 15:00:59] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/2b/0d/c29af0725434d16900345402c2c0a186dc87ba2b2c4c23117d145d3b0521/localstack-core-2.2.1.dev20230728215407.tar.gz
+[2023-07-29 15:00:59] INFO root fetch - processPackages [deskaone-sdk-api]: Downloading https://files.pythonhosted.org/packages/ff/d4/585de845b35bdcbfbdec200850f023a92fce3622d096dcc27408a03d1e4f/deskaone_sdk_api-0.0.3.tar.gz
+[2023-07-29 15:00:59] INFO root fetch - processPackages [deskaone-sdk-api]: executing diffoscope
+[2023-07-29 15:00:59] INFO root fetch - processPackages [deskaone-sdk-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deskaone_sdk_api-0.0.2.tar.gz tmp/deskaone_sdk_api-0.0.3.tar.gz --markdown 20230729/d/deskaone-sdk-api/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-29 15:00:59] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/13/32/a0fe1f9546d64b93d5fe93da450a3d351b54cd4c2b40b10dcd4a33c1a544/localstack-core-2.2.1.dev20230729125541.tar.gz
+[2023-07-29 15:01:00] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-07-29 15:01:00] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.2.1.dev20230728215407.tar.gz tmp/localstack-core-2.2.1.dev20230729125541.tar.gz --markdown 20230729/l/localstack-core/2.2.1.dev20230728215407-2.2.1.dev20230729125541/diff.md --exclude *.pyd
+[2023-07-29 15:01:00] INFO root fetch - processPackages [composabl-ray-dev]: Downloading https://files.pythonhosted.org/packages/d6/06/17b5f389d64a06f360eb001a36942764fa8b4cb038f748f2bcfe35b19d46/composabl_ray_dev-0.2.4.dev1-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-07-29 15:01:00] INFO root fetch - processPackages [deskaone-sdk-api]: Remove: archive file [/home/abi/fetcher/tmp/deskaone_sdk_api-0.0.2.tar.gz]
+[2023-07-29 15:01:00] INFO root fetch - processPackages [deskaone-sdk-api]: Remove: archive file [/home/abi/fetcher/tmp/deskaone_sdk_api-0.0.3.tar.gz]
+[2023-07-29 15:01:00] INFO root fetch - main [MainThread]: End processing [deskaone-sdk-api]: success
+[2023-07-29 15:01:00] INFO root fetch - processPackages [composabl-ray-dev]: executing diffoscope
+[2023-07-29 15:01:00] INFO root fetch - processPackages [composabl-ray-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_ray_dev-0.2.3.dev30-cp38-cp38-musllinux_1_1_x86_64.whl.zip tmp/composabl_ray_dev-0.2.4.dev1-cp38-cp38-musllinux_1_1_x86_64.whl.zip --markdown 20230729/c/composabl-ray-dev/0.2.3.dev30-0.2.4.dev1/diff.md --exclude *.pyd
+[2023-07-29 15:01:03] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230728215407.tar.gz]
+[2023-07-29 15:01:03] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230729125541.tar.gz]
+[2023-07-29 15:01:03] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-07-29 15:01:04] INFO root fetch - processPackages [composabl-ray-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray_dev-0.2.3.dev30-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-07-29 15:01:04] INFO root fetch - processPackages [composabl-ray-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray_dev-0.2.4.dev1-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-07-29 15:01:04] INFO root fetch - main [MainThread]: End processing [composabl-ray-dev]: success
+[2023-07-29 15:01:04] INFO root fetch - main [MainThread]: Store serial: [19088811]
