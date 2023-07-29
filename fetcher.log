@@ -15465,3 +15465,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 12:34:55] INFO root fetch - processPackages [knifes]: Remove: archive file [/home/abi/fetcher/tmp/knifes-0.8.9.tar.gz]
 [2023-07-29 12:34:55] INFO root fetch - main [MainThread]: End processing [knifes]: success
 [2023-07-29 12:34:55] INFO root fetch - main [MainThread]: Store serial: [19087931]
+[2023-07-29 12:39:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19087931]
+[2023-07-29 12:40:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-29 12:40:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crypto-screening
+[2023-07-29 12:40:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MetAromatic
+[2023-07-29 12:40:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyais
+[2023-07-29 12:40:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ukmon-meteortools
+[2023-07-29 12:40:03] INFO root fetch - processPackages [ukmon-meteortools]: New version: [2023.7.5] Old Version: [2023.7.4]
+[2023-07-29 12:40:03] INFO root fetch - processPackages [crypto-screening]: New version: [8.2.6] Old Version: [8.2.5]
+[2023-07-29 12:40:03] WARNING root fetch - processPackages [MetAromatic]: Skipping, unable to determine old version
+[2023-07-29 12:40:03] INFO root fetch - processPackages [pyais]: New version: [2.5.6] Old Version: [2.5.5]
+[2023-07-29 12:40:03] INFO root fetch - main [MainThread]: End processing [MetAromatic] error
+[2023-07-29 12:40:03] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/37/fc/806158906b5e572a39983cb3fd506efcc65e49ea6ff2cf8277ba9c7bff89/crypto-screening-8.2.5.tar.gz
+[2023-07-29 12:40:03] INFO root fetch - processPackages [pyais]: Downloading https://files.pythonhosted.org/packages/91/f2/1b4529893ed4df42487de3c35c710acb2b8d6fbf65a30943e8a35ae834fd/pyais-2.5.5.tar.gz
+[2023-07-29 12:40:03] INFO root fetch - processPackages [ukmon-meteortools]: Downloading https://files.pythonhosted.org/packages/be/24/692ef3cd9d1a1bbf06a80028b695c82485ee66cadcd10e38eba0a4b58d95/ukmon_meteortools-2023.7.4.tar.gz
+[2023-07-29 12:40:03] INFO root fetch - processPackages [pyais]: Downloading https://files.pythonhosted.org/packages/ea/17/4ae265a7cadda35b7feb581439e75e2d8bf650a77fd4a385725698e49646/pyais-2.5.6.tar.gz
+[2023-07-29 12:40:03] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/36/05/bf84a811f6dcf476c4471f37639de506286a9f91aac0ff7bee22cd8e5519/crypto-screening-8.2.6.tar.gz
+[2023-07-29 12:40:04] INFO root fetch - processPackages [ukmon-meteortools]: Downloading https://files.pythonhosted.org/packages/9e/22/250898cbbba7fd3d1734d25ec39ae512e5d8b5b8f2a9bb3946d1db3c2f5b/ukmon_meteortools-2023.7.5.tar.gz
+[2023-07-29 12:40:04] INFO root fetch - processPackages [pyais]: executing diffoscope
+[2023-07-29 12:40:04] INFO root fetch - processPackages [pyais]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyais-2.5.5.tar.gz tmp/pyais-2.5.6.tar.gz --markdown 20230729/p/pyais/2.5.5-2.5.6/diff.md --exclude *.pyd
+[2023-07-29 12:40:04] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-29 12:40:04] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-8.2.5.tar.gz tmp/crypto-screening-8.2.6.tar.gz --markdown 20230729/c/crypto-screening/8.2.5-8.2.6/diff.md --exclude *.pyd
+[2023-07-29 12:40:04] INFO root fetch - processPackages [ukmon-meteortools]: executing diffoscope
+[2023-07-29 12:40:04] INFO root fetch - processPackages [ukmon-meteortools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ukmon_meteortools-2023.7.4.tar.gz tmp/ukmon_meteortools-2023.7.5.tar.gz --markdown 20230729/u/ukmon-meteortools/2023.7.4-2023.7.5/diff.md --exclude *.pyd
+[2023-07-29 12:40:05] INFO root fetch - processPackages [pyais]: Remove: archive file [/home/abi/fetcher/tmp/pyais-2.5.5.tar.gz]
+[2023-07-29 12:40:05] INFO root fetch - processPackages [pyais]: Remove: archive file [/home/abi/fetcher/tmp/pyais-2.5.6.tar.gz]
+[2023-07-29 12:40:05] INFO root fetch - main [MainThread]: End processing [pyais]: success
+[2023-07-29 12:40:05] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-8.2.5.tar.gz]
+[2023-07-29 12:40:05] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-8.2.6.tar.gz]
+[2023-07-29 12:40:05] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-29 12:40:05] INFO root fetch - processPackages [ukmon-meteortools]: Remove: archive file [/home/abi/fetcher/tmp/ukmon_meteortools-2023.7.4.tar.gz]
+[2023-07-29 12:40:05] INFO root fetch - processPackages [ukmon-meteortools]: Remove: archive file [/home/abi/fetcher/tmp/ukmon_meteortools-2023.7.5.tar.gz]
+[2023-07-29 12:40:05] INFO root fetch - main [MainThread]: End processing [ukmon-meteortools]: success
+[2023-07-29 12:40:05] INFO root fetch - main [MainThread]: Store serial: [19087947]
