@@ -10095,3 +10095,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 08:34:11] INFO root fetch - processPackages [idkwhttph]: Remove: archive file [/home/abi/fetcher/tmp/idkwhttph-0.3.5.tar.gz]
 [2023-07-29 08:34:11] INFO root fetch - main [MainThread]: End processing [idkwhttph]: success
 [2023-07-29 08:34:11] INFO root fetch - main [MainThread]: Store serial: [19085966]
+[2023-07-29 08:39:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19085966]
+[2023-07-29 08:39:20] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-29 08:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mkdocs-mermaid2-plugin
+[2023-07-29 08:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MoreApi
+[2023-07-29 08:39:20] INFO root fetch - processPackages [mkdocs-mermaid2-plugin]: New version: [1.0.5] Old Version: [1.0.1]
+[2023-07-29 08:39:20] INFO root fetch - processPackages [MoreApi]: New version: [0.2] Old Version: [0.1]
+[2023-07-29 08:39:20] INFO root fetch - processPackages [mkdocs-mermaid2-plugin]: Downloading https://files.pythonhosted.org/packages/75/9d/318777c2df2e48c43efef8700c7b29b3b79620593ba5b1e2f834184c65c4/mkdocs-mermaid2-plugin-1.0.1.tar.gz
+[2023-07-29 08:39:20] INFO root fetch - processPackages [MoreApi]: Downloading https://files.pythonhosted.org/packages/e5/c0/63c26de53e42942ca2465fe164ea7e3676a8f8ff85d390cb81cc7a8a8350/MoreApi-0.1.tar.gz
+[2023-07-29 08:39:20] INFO root fetch - processPackages [MoreApi]: Downloading https://files.pythonhosted.org/packages/49/b0/39721da2c55057d4b12adbb2728ab9f64d4e224f1bf33a05a1f41eeecad9/MoreApi-0.2.tar.gz
+[2023-07-29 08:39:20] INFO root fetch - processPackages [mkdocs-mermaid2-plugin]: Downloading https://files.pythonhosted.org/packages/ce/44/5be55b6d3f65075452473848d489e243ac8c3eecf4290e60d695c51fca1c/mkdocs-mermaid2-plugin-1.0.5.tar.gz
+[2023-07-29 08:39:21] INFO root fetch - processPackages [mkdocs-mermaid2-plugin]: executing diffoscope
+[2023-07-29 08:39:21] INFO root fetch - processPackages [mkdocs-mermaid2-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-mermaid2-plugin-1.0.1.tar.gz tmp/mkdocs-mermaid2-plugin-1.0.5.tar.gz --markdown 20230729/m/mkdocs-mermaid2-plugin/1.0.1-1.0.5/diff.md --exclude *.pyd
+[2023-07-29 08:39:21] INFO root fetch - processPackages [MoreApi]: executing diffoscope
+[2023-07-29 08:39:21] INFO root fetch - processPackages [MoreApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MoreApi-0.1.tar.gz tmp/MoreApi-0.2.tar.gz --markdown 20230729/M/MoreApi/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-29 08:39:21] INFO root fetch - processPackages [MoreApi]: Remove: archive file [/home/abi/fetcher/tmp/MoreApi-0.1.tar.gz]
+[2023-07-29 08:39:21] INFO root fetch - processPackages [MoreApi]: Remove: archive file [/home/abi/fetcher/tmp/MoreApi-0.2.tar.gz]
+[2023-07-29 08:39:21] INFO root fetch - main [MainThread]: End processing [MoreApi]: success
+[2023-07-29 08:39:21] INFO root fetch - processPackages [mkdocs-mermaid2-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-mermaid2-plugin-1.0.1.tar.gz]
+[2023-07-29 08:39:21] INFO root fetch - processPackages [mkdocs-mermaid2-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-mermaid2-plugin-1.0.5.tar.gz]
+[2023-07-29 08:39:21] INFO root fetch - main [MainThread]: End processing [mkdocs-mermaid2-plugin]: success
+[2023-07-29 08:39:21] INFO root fetch - main [MainThread]: Store serial: [19085973]
