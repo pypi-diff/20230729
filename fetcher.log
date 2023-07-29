@@ -11868,3 +11868,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 11:51:36] INFO root fetch - processPackages [pbix-chinese]: Remove: archive file [/home/abi/fetcher/tmp/pbix_chinese-23.7.7.tar.gz]
 [2023-07-29 11:51:36] INFO root fetch - main [MainThread]: End processing [pbix-chinese]: success
 [2023-07-29 11:51:36] INFO root fetch - main [MainThread]: Store serial: [19086697]
+[2023-07-29 11:56:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19086697]
+[2023-07-29 11:56:44] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-29 11:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyqtclass
+[2023-07-29 11:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ixBrowser
+[2023-07-29 11:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stdflow
+[2023-07-29 11:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dtproject
+[2023-07-29 11:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deebot-client
+[2023-07-29 11:56:45] INFO root fetch - processPackages [deebot-client]: New version: [3.0.0b0] Old Version: [2.1.0]
+[2023-07-29 11:56:45] INFO root fetch - processPackages [stdflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-29 11:56:45] INFO root fetch - processPackages [dtproject]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-29 11:56:45] WARNING root fetch - processPackages [ixBrowser]: Skipping, unable to determine old version
+[2023-07-29 11:56:45] INFO root fetch - processPackages [pyqtclass]: New version: [0.3.0] Old Version: [0.2.7]
+[2023-07-29 11:56:45] INFO root fetch - main [MainThread]: End processing [ixBrowser] error
+[2023-07-29 11:56:45] INFO root fetch - processPackages [stdflow]: Downloading https://files.pythonhosted.org/packages/37/2b/dc718c9a789aae941c5744468c42fa99c1ca83c6fc824add3debc6df543d/stdflow-0.0.8.tar.gz
+[2023-07-29 11:56:45] INFO root fetch - processPackages [pyqtclass]: Downloading https://files.pythonhosted.org/packages/f5/d3/e88272c945778f2e0f5c78d586ac422c0cfca0d7344ef35d954ff1a14548/pyqtclass-0.2.7.tar.gz
+[2023-07-29 11:56:45] INFO root fetch - processPackages [dtproject]: Downloading https://files.pythonhosted.org/packages/b5/67/671410b6ed7753998e846c10987112a1a4ac3c9ed6fc214f80fc314eef4c/dtproject-0.0.5.tar.gz
+[2023-07-29 11:56:45] INFO root fetch - processPackages [deebot-client]: Downloading https://files.pythonhosted.org/packages/59/27/e532d12efb1012f6182e59a635f1e3d8db788e06232fad118808d3b4d45b/deebot-client-2.1.0.tar.gz
+[2023-07-29 11:56:45] INFO root fetch - processPackages [stdflow]: Downloading https://files.pythonhosted.org/packages/93/a7/7a92845fb1a7092159c2fbc2b23c0b733e7c93e5cd012f6538ca900ea3b6/stdflow-0.0.9-py3-none-any.whl
+[2023-07-29 11:56:45] INFO root fetch - processPackages [stdflow]: executing diffoscope
+[2023-07-29 11:56:45] INFO root fetch - processPackages [stdflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stdflow-0.0.8.tar.gz tmp/stdflow-0.0.9-py3-none-any.whl.zip --markdown 20230729/s/stdflow/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-29 11:56:45] INFO root fetch - processPackages [pyqtclass]: Downloading https://files.pythonhosted.org/packages/71/6e/c6b16da05940b8144732778573855434ad31f22858afb45854a579eb4243/pyqtclass-0.3.0.tar.gz
+[2023-07-29 11:56:45] INFO root fetch - processPackages [deebot-client]: Downloading https://files.pythonhosted.org/packages/2d/21/1ce9784db9c9e8d4659ab59ec2b7f4f61ab30fd7febe1c04b5243509f18c/deebot-client-3.0.0b0.tar.gz
+[2023-07-29 11:56:45] INFO root fetch - processPackages [dtproject]: Downloading https://files.pythonhosted.org/packages/63/11/f5d3c691d68c8a7cd21da64bd26b7bf424c50c3dadcac57a4a7f36953acf/dtproject-0.0.6.tar.gz
+[2023-07-29 11:56:45] INFO root fetch - processPackages [pyqtclass]: executing diffoscope
+[2023-07-29 11:56:45] INFO root fetch - processPackages [pyqtclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqtclass-0.2.7.tar.gz tmp/pyqtclass-0.3.0.tar.gz --markdown 20230729/p/pyqtclass/0.2.7-0.3.0/diff.md --exclude *.pyd
+[2023-07-29 11:56:45] INFO root fetch - processPackages [deebot-client]: executing diffoscope
+[2023-07-29 11:56:45] INFO root fetch - processPackages [deebot-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deebot-client-2.1.0.tar.gz tmp/deebot-client-3.0.0b0.tar.gz --markdown 20230729/d/deebot-client/2.1.0-3.0.0b0/diff.md --exclude *.pyd
+[2023-07-29 11:56:45] INFO root fetch - processPackages [dtproject]: executing diffoscope
+[2023-07-29 11:56:45] INFO root fetch - processPackages [dtproject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtproject-0.0.5.tar.gz tmp/dtproject-0.0.6.tar.gz --markdown 20230729/d/dtproject/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-29 11:56:46] INFO root fetch - processPackages [stdflow]: Remove: archive file [/home/abi/fetcher/tmp/stdflow-0.0.8.tar.gz]
+[2023-07-29 11:56:46] INFO root fetch - processPackages [stdflow]: Remove: archive file [/home/abi/fetcher/tmp/stdflow-0.0.9-py3-none-any.whl.zip]
+[2023-07-29 11:56:46] INFO root fetch - main [MainThread]: End processing [stdflow]: success
+[2023-07-29 11:56:46] INFO root fetch - processPackages [pyqtclass]: Remove: archive file [/home/abi/fetcher/tmp/pyqtclass-0.2.7.tar.gz]
+[2023-07-29 11:56:46] INFO root fetch - processPackages [pyqtclass]: Remove: archive file [/home/abi/fetcher/tmp/pyqtclass-0.3.0.tar.gz]
+[2023-07-29 11:56:46] INFO root fetch - main [MainThread]: End processing [pyqtclass]: success
+[2023-07-29 11:56:46] INFO root fetch - processPackages [dtproject]: Remove: archive file [/home/abi/fetcher/tmp/dtproject-0.0.5.tar.gz]
+[2023-07-29 11:56:46] INFO root fetch - processPackages [dtproject]: Remove: archive file [/home/abi/fetcher/tmp/dtproject-0.0.6.tar.gz]
+[2023-07-29 11:56:46] INFO root fetch - main [MainThread]: End processing [dtproject]: success
+[2023-07-29 11:56:46] INFO root fetch - processPackages [deebot-client]: Remove: archive file [/home/abi/fetcher/tmp/deebot-client-2.1.0.tar.gz]
+[2023-07-29 11:56:46] INFO root fetch - processPackages [deebot-client]: Remove: archive file [/home/abi/fetcher/tmp/deebot-client-3.0.0b0.tar.gz]
+[2023-07-29 11:56:46] INFO root fetch - main [MainThread]: End processing [deebot-client]: success
+[2023-07-29 11:56:46] INFO root fetch - main [MainThread]: Store serial: [19086724]
