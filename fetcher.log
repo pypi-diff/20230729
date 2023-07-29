@@ -8383,3 +8383,24 @@
 [2023-07-29 06:23:11] INFO root fetch - processPackages [uptrain]: Remove: archive file [/home/abi/fetcher/tmp/uptrain-0.3.6.tar.gz]
 [2023-07-29 06:23:11] INFO root fetch - main [MainThread]: End processing [uptrain]: success
 [2023-07-29 06:23:11] INFO root fetch - main [MainThread]: Store serial: [19085288]
+[2023-07-29 06:28:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19085288]
+[2023-07-29 06:28:19] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-29 06:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abstract-gui
+[2023-07-29 06:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quickstart-vdk
+[2023-07-29 06:28:19] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.50.6] Old Version: [0.0.50.5]
+[2023-07-29 06:28:19] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.949261637.dev12538] Old Version: [0.2.948436673.dev12518]
+[2023-07-29 06:28:19] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/07/d5/f4fe17f639523f350aec9b984a29ae4cf972c48a86a47a54dd1d441d2397/quickstart-vdk-0.2.948436673.dev12518.tar.gz
+[2023-07-29 06:28:19] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/e5/f8/297501b591af9437175e799928daf6e474bc65fa45b57e1bb3e27ae84a07/abstract_gui-0.0.50.5.tar.gz
+[2023-07-29 06:28:20] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/c8/8a/dd4c70b0061c7717d06df9e8b2268dc08a216a7933c48e3e610505e0b892/abstract_gui-0.0.50.6.tar.gz
+[2023-07-29 06:28:20] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/75/21/2f4a3e36266e621253ace03e055701a548505f961a647741dfaea1cf0322/quickstart-vdk-0.2.949261637.dev12538.tar.gz
+[2023-07-29 06:28:20] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-07-29 06:28:20] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.50.5.tar.gz tmp/abstract_gui-0.0.50.6.tar.gz --markdown 20230729/a/abstract-gui/0.0.50.5-0.0.50.6/diff.md --exclude *.pyd
+[2023-07-29 06:28:20] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-07-29 06:28:20] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.948436673.dev12518.tar.gz tmp/quickstart-vdk-0.2.949261637.dev12538.tar.gz --markdown 20230729/q/quickstart-vdk/0.2.948436673.dev12518-0.2.949261637.dev12538/diff.md --exclude *.pyd
+[2023-07-29 06:28:20] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.50.5.tar.gz]
+[2023-07-29 06:28:20] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.50.6.tar.gz]
+[2023-07-29 06:28:20] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-07-29 06:28:21] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.948436673.dev12518.tar.gz]
+[2023-07-29 06:28:21] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.949261637.dev12538.tar.gz]
+[2023-07-29 06:28:21] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-07-29 06:28:21] INFO root fetch - main [MainThread]: Store serial: [19085294]
