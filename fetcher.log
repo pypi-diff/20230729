@@ -8003,3 +8003,76 @@
 [2023-07-29 05:51:47] INFO root fetch - processPackages [cognite-pygen]: Remove: archive file [/home/abi/fetcher/tmp/cognite_pygen-0.9.1.tar.gz]
 [2023-07-29 05:51:47] INFO root fetch - main [MainThread]: End processing [cognite-pygen]: success
 [2023-07-29 05:51:47] INFO root fetch - main [MainThread]: Store serial: [19085126]
+[2023-07-29 05:56:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19085126]
+[2023-07-29 05:56:55] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-29 05:56:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamlit-bls-connection
+[2023-07-29 05:56:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hypy-utils
+[2023-07-29 05:56:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ixBrowser
+[2023-07-29 05:56:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ixBrowser
+[2023-07-29 05:56:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-l10n-br-product-contract
+[2023-07-29 05:56:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-l10n-br-nfse-paulistana
+[2023-07-29 05:56:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-l10n-br-ie-search
+[2023-07-29 05:56:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-l10n-br-cnpj-search
+[2023-07-29 05:56:55] INFO root fetch - processPackages [ixBrowser]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-29 05:56:55] INFO root fetch - processPackages [ixBrowser]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-29 05:56:55] INFO root fetch - processPackages [odoo14-addon-l10n-br-product-contract]: New version: [14.0.1.1.1.dev1] Old Version: [14.0.1.1.0]
+[2023-07-29 05:56:55] INFO root fetch - processPackages [hypy-utils]: New version: [1.0.9] Old Version: [1.0.7]
+[2023-07-29 05:56:55] INFO root fetch - processPackages [streamlit-bls-connection]: New version: [0.2] Old Version: [0.1]
+[2023-07-29 05:56:55] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfse-paulistana]: New version: [14.0.1.0.6.dev2] Old Version: [14.0.1.0.5]
+[2023-07-29 05:56:55] INFO root fetch - processPackages [odoo14-addon-l10n-br-ie-search]: New version: [14.0.1.0.1.dev6] Old Version: [14.0.1.0.1.dev5]
+[2023-07-29 05:56:55] INFO root fetch - processPackages [odoo14-addon-l10n-br-cnpj-search]: New version: [14.0.1.2.1.dev2] Old Version: [14.0.1.2.0]
+[2023-07-29 05:56:56] INFO root fetch - processPackages [ixBrowser]: Downloading https://files.pythonhosted.org/packages/4a/cc/b15e22e4def48225efa7e0b926c32ab3645a9727e514cd1b91304683d493/ixBrowser-1.0.0.tar.gz
+[2023-07-29 05:56:56] INFO root fetch - processPackages [ixBrowser]: Downloading https://files.pythonhosted.org/packages/4a/cc/b15e22e4def48225efa7e0b926c32ab3645a9727e514cd1b91304683d493/ixBrowser-1.0.0.tar.gz
+[2023-07-29 05:56:56] INFO root fetch - processPackages [streamlit-bls-connection]: Downloading https://files.pythonhosted.org/packages/88/58/6c6ab16afba6a865beff0651dceed6261b3c5878dc25ae837b27359634aa/streamlit_bls_connection-0.1.tar.gz
+[2023-07-29 05:56:56] INFO root fetch - processPackages [hypy-utils]: Downloading https://files.pythonhosted.org/packages/52/c6/dfd1f8c4cb37e3279557401ccd974d8ba2f8d71e233c1e49a5fa474d86fa/hypy_utils-1.0.7.tar.gz
+[2023-07-29 05:56:56] INFO root fetch - processPackages [odoo14-addon-l10n-br-product-contract]: Downloading https://files.pythonhosted.org/packages/67/4b/59e55edbda03fe639ddf0635f94fcbf06f4a0348b6e2b0ec313fd677844b/odoo14_addon_l10n_br_product_contract-14.0.1.1.0-py3-none-any.whl
+[2023-07-29 05:56:56] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfse-paulistana]: Downloading https://files.pythonhosted.org/packages/4b/11/48da1881257ea63723fedaf0feafe20cc161826e639df4de32477eace845/odoo14_addon_l10n_br_nfse_paulistana-14.0.1.0.5-py3-none-any.whl
+[2023-07-29 05:56:56] INFO root fetch - processPackages [odoo14-addon-l10n-br-ie-search]: Downloading https://files.pythonhosted.org/packages/ce/dd/125e266cf6001b1ccdb680d3ad82f6f191246876fa885d4ae9334b92a1b1/odoo14_addon_l10n_br_ie_search-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-07-29 05:56:56] INFO root fetch - processPackages [odoo14-addon-l10n-br-cnpj-search]: Downloading https://files.pythonhosted.org/packages/c4/53/2a71182cd5c15ff2267a328cabedcdf899ae91203c11efd49e71a6100895/odoo14_addon_l10n_br_cnpj_search-14.0.1.2.0-py3-none-any.whl
+[2023-07-29 05:56:56] INFO root fetch - processPackages [ixBrowser]: Downloading https://files.pythonhosted.org/packages/d1/3b/4cb9a28d91cce55a785b5d98b26508dcb24b5c430c4ab54623e4c8048f38/ixBrowser-1.0.1.tar.gz
+[2023-07-29 05:56:56] INFO root fetch - processPackages [ixBrowser]: Downloading https://files.pythonhosted.org/packages/d1/3b/4cb9a28d91cce55a785b5d98b26508dcb24b5c430c4ab54623e4c8048f38/ixBrowser-1.0.1.tar.gz
+[2023-07-29 05:56:56] INFO root fetch - processPackages [streamlit-bls-connection]: Downloading https://files.pythonhosted.org/packages/2f/d5/b7864804c7619ea1d7eebf60a300d0a2c06bbeadd988a05e3078ac0af089/streamlit_bls_connection-0.2.tar.gz
+[2023-07-29 05:56:56] INFO root fetch - processPackages [hypy-utils]: Downloading https://files.pythonhosted.org/packages/fb/54/e540e66bb977d112369139b80da2843532b773e7ded078580e742809b645/hypy_utils-1.0.9.tar.gz
+[2023-07-29 05:56:56] INFO root fetch - processPackages [odoo14-addon-l10n-br-product-contract]: Downloading https://files.pythonhosted.org/packages/ba/22/b3dd8632bbc4823061507cb1d205b94cf6a439744f2e3bd792ccd6ad898b/odoo14_addon_l10n_br_product_contract-14.0.1.1.1.dev1-py3-none-any.whl
+[2023-07-29 05:56:56] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfse-paulistana]: Downloading https://files.pythonhosted.org/packages/c6/27/e4906985fd8f0db3b43af3b692eb5fbf88729d0a65d14f5aba132610d4d3/odoo14_addon_l10n_br_nfse_paulistana-14.0.1.0.6.dev2-py3-none-any.whl
+[2023-07-29 05:56:56] INFO root fetch - processPackages [odoo14-addon-l10n-br-ie-search]: Downloading https://files.pythonhosted.org/packages/32/b3/f857acb16a9b5319910bdca67b3cccb8c4b6e389f9a771c9509270df80df/odoo14_addon_l10n_br_ie_search-14.0.1.0.1.dev6-py3-none-any.whl
+[2023-07-29 05:56:56] INFO root fetch - processPackages [odoo14-addon-l10n-br-cnpj-search]: Downloading https://files.pythonhosted.org/packages/00/0b/2e57874a57836a5a1929acb2f96e7c72ec5ac988610bff8e145475f3da0b/odoo14_addon_l10n_br_cnpj_search-14.0.1.2.1.dev2-py3-none-any.whl
+[2023-07-29 05:56:56] INFO root fetch - processPackages [ixBrowser]: executing diffoscope
+[2023-07-29 05:56:56] INFO root fetch - processPackages [ixBrowser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ixBrowser-1.0.0.tar.gz tmp/ixBrowser-1.0.1.tar.gz --markdown 20230729/i/ixBrowser/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-29 05:56:56] INFO root fetch - processPackages [ixBrowser]: executing diffoscope
+[2023-07-29 05:56:56] INFO root fetch - processPackages [ixBrowser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ixBrowser-1.0.0.tar.gz tmp/ixBrowser-1.0.1.tar.gz --markdown 20230729/i/ixBrowser/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-29 05:56:56] INFO root fetch - processPackages [streamlit-bls-connection]: executing diffoscope
+[2023-07-29 05:56:56] INFO root fetch - processPackages [streamlit-bls-connection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_bls_connection-0.1.tar.gz tmp/streamlit_bls_connection-0.2.tar.gz --markdown 20230729/s/streamlit-bls-connection/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-29 05:56:56] INFO root fetch - processPackages [odoo14-addon-l10n-br-product-contract]: executing diffoscope
+[2023-07-29 05:56:56] INFO root fetch - processPackages [odoo14-addon-l10n-br-product-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_product_contract-14.0.1.1.0-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_product_contract-14.0.1.1.1.dev1-py3-none-any.whl.zip --markdown 20230729/o/odoo14-addon-l10n-br-product-contract/14.0.1.1.0-14.0.1.1.1.dev1/diff.md --exclude *.pyd
+[2023-07-29 05:56:56] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfse-paulistana]: executing diffoscope
+[2023-07-29 05:56:56] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfse-paulistana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_nfse_paulistana-14.0.1.0.5-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_nfse_paulistana-14.0.1.0.6.dev2-py3-none-any.whl.zip --markdown 20230729/o/odoo14-addon-l10n-br-nfse-paulistana/14.0.1.0.5-14.0.1.0.6.dev2/diff.md --exclude *.pyd
+[2023-07-29 05:56:56] INFO root fetch - processPackages [hypy-utils]: executing diffoscope
+[2023-07-29 05:56:56] INFO root fetch - processPackages [hypy-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypy_utils-1.0.7.tar.gz tmp/hypy_utils-1.0.9.tar.gz --markdown 20230729/h/hypy-utils/1.0.7-1.0.9/diff.md --exclude *.pyd
+[2023-07-29 05:56:56] INFO root fetch - processPackages [odoo14-addon-l10n-br-ie-search]: executing diffoscope
+[2023-07-29 05:56:56] INFO root fetch - processPackages [odoo14-addon-l10n-br-ie-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_ie_search-14.0.1.0.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_ie_search-14.0.1.0.1.dev6-py3-none-any.whl.zip --markdown 20230729/o/odoo14-addon-l10n-br-ie-search/14.0.1.0.1.dev5-14.0.1.0.1.dev6/diff.md --exclude *.pyd
+[2023-07-29 05:56:57] INFO root fetch - processPackages [odoo14-addon-l10n-br-cnpj-search]: executing diffoscope
+[2023-07-29 05:56:57] INFO root fetch - processPackages [odoo14-addon-l10n-br-cnpj-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_cnpj_search-14.0.1.2.0-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_cnpj_search-14.0.1.2.1.dev2-py3-none-any.whl.zip --markdown 20230729/o/odoo14-addon-l10n-br-cnpj-search/14.0.1.2.0-14.0.1.2.1.dev2/diff.md --exclude *.pyd
+[2023-07-29 05:56:58] INFO root fetch - processPackages [streamlit-bls-connection]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_bls_connection-0.1.tar.gz]
+[2023-07-29 05:56:58] INFO root fetch - processPackages [streamlit-bls-connection]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_bls_connection-0.2.tar.gz]
+[2023-07-29 05:56:58] INFO root fetch - main [MainThread]: End processing [streamlit-bls-connection]: success
+[2023-07-29 05:56:58] INFO root fetch - processPackages [ixBrowser]: Remove: archive file [/home/abi/fetcher/tmp/ixBrowser-1.0.0.tar.gz]
+[2023-07-29 05:56:58] INFO root fetch - processPackages [ixBrowser]: Remove: archive file [/home/abi/fetcher/tmp/ixBrowser-1.0.1.tar.gz]
+[2023-07-29 05:56:58] INFO root fetch - main [MainThread]: End processing [ixBrowser]: success
+[2023-07-29 05:56:58] INFO root fetch - main [MainThread]: End processing [ixBrowser]: success
+[2023-07-29 05:56:58] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfse-paulistana]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_nfse_paulistana-14.0.1.0.5-py3-none-any.whl.zip]
+[2023-07-29 05:56:58] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfse-paulistana]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_nfse_paulistana-14.0.1.0.6.dev2-py3-none-any.whl.zip]
+[2023-07-29 05:56:58] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-nfse-paulistana]: success
+[2023-07-29 05:56:58] INFO root fetch - processPackages [hypy-utils]: Remove: archive file [/home/abi/fetcher/tmp/hypy_utils-1.0.7.tar.gz]
+[2023-07-29 05:56:58] INFO root fetch - processPackages [hypy-utils]: Remove: archive file [/home/abi/fetcher/tmp/hypy_utils-1.0.9.tar.gz]
+[2023-07-29 05:56:58] INFO root fetch - main [MainThread]: End processing [hypy-utils]: success
+[2023-07-29 05:56:58] INFO root fetch - processPackages [odoo14-addon-l10n-br-product-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_product_contract-14.0.1.1.0-py3-none-any.whl.zip]
+[2023-07-29 05:56:58] INFO root fetch - processPackages [odoo14-addon-l10n-br-product-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_product_contract-14.0.1.1.1.dev1-py3-none-any.whl.zip]
+[2023-07-29 05:56:58] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-product-contract]: success
+[2023-07-29 05:56:58] INFO root fetch - processPackages [odoo14-addon-l10n-br-cnpj-search]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_cnpj_search-14.0.1.2.0-py3-none-any.whl.zip]
+[2023-07-29 05:56:58] INFO root fetch - processPackages [odoo14-addon-l10n-br-cnpj-search]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_cnpj_search-14.0.1.2.1.dev2-py3-none-any.whl.zip]
+[2023-07-29 05:56:58] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-cnpj-search]: success
+[2023-07-29 05:56:58] INFO root fetch - processPackages [odoo14-addon-l10n-br-ie-search]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_ie_search-14.0.1.0.1.dev5-py3-none-any.whl.zip]
+[2023-07-29 05:56:58] INFO root fetch - processPackages [odoo14-addon-l10n-br-ie-search]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_ie_search-14.0.1.0.1.dev6-py3-none-any.whl.zip]
+[2023-07-29 05:56:58] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-ie-search]: success
+[2023-07-29 05:56:58] INFO root fetch - main [MainThread]: Store serial: [19085148]
