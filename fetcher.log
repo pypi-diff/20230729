@@ -21474,3 +21474,69 @@ AssertionError: tmp/pulpcore-3.9.0.tar.gz does not exist
 [2023-07-29 19:32:52] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs_etcd_dynamic_state-0.1.38-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-29 19:32:52] INFO root fetch - main [MainThread]: End processing [savant-rs-etcd-dynamic-state]: success
 [2023-07-29 19:32:52] INFO root fetch - main [MainThread]: Store serial: [19090672]
+[2023-07-29 19:38:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19090672]
+[2023-07-29 19:38:14] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-29 19:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: VN-transformer
+[2023-07-29 19:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vna
+[2023-07-29 19:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gymnasium-connect-four
+[2023-07-29 19:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: msumastro
+[2023-07-29 19:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bt-data
+[2023-07-29 19:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dimits
+[2023-07-29 19:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: napatrackmater
+[2023-07-29 19:38:14] INFO root fetch - processPackages [dimits]: New version: [0.0.2a0] Old Version: [0.0.1a0]
+[2023-07-29 19:38:14] INFO root fetch - processPackages [gymnasium-connect-four]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-29 19:38:14] INFO root fetch - processPackages [bt-data]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-29 19:38:14] INFO root fetch - processPackages [msumastro]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-07-29 19:38:14] INFO root fetch - processPackages [VN-transformer]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-29 19:38:14] INFO root fetch - processPackages [vna]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-29 19:38:14] INFO root fetch - processPackages [napatrackmater]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-07-29 19:38:14] INFO root fetch - processPackages [msumastro]: Downloading https://files.pythonhosted.org/packages/b7/c0/ffda614d2db6f947c4667d5c0ed78aa3ee81e154a183c32e1fe2c3f128e0/msumastro-1.2.4.tar.gz
+[2023-07-29 19:38:14] INFO root fetch - processPackages [bt-data]: Downloading https://files.pythonhosted.org/packages/1d/9b/97f3d862d87b2c2a4ba0d2c7f33c7aaef5a670a4ddff664f511a1d6ff01f/bt_data-0.0.6-py3-none-any.whl
+[2023-07-29 19:38:14] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/1b/87/82809085a1eec1276e1ee604b8792037e152f2577292a785e62d50e1b922/napatrackmater-4.0.0.tar.gz
+[2023-07-29 19:38:14] INFO root fetch - processPackages [gymnasium-connect-four]: Downloading https://files.pythonhosted.org/packages/9d/2f/8a956ae2c7a219b70245a283339e88a6559d3ee2116caa67f02482902f3a/gymnasium_connect_four-1.2.1.tar.gz
+[2023-07-29 19:38:14] INFO root fetch - processPackages [dimits]: Downloading https://files.pythonhosted.org/packages/80/26/d6d17f1a90cd5e825b0c5ada84797a0e635a90b284286b93e8842de67b20/dimits-0.0.1a0.tar.gz
+[2023-07-29 19:38:14] INFO root fetch - processPackages [vna]: Downloading https://files.pythonhosted.org/packages/da/9a/92cef16590c89ec7aa5652cf84ed945835e2cb6f23400f8e42b5d916f7b2/vna-0.0.4.tar.gz
+[2023-07-29 19:38:14] INFO root fetch - processPackages [VN-transformer]: Downloading https://files.pythonhosted.org/packages/70/a5/73fb06ba9b9a25bdf65ffea0e7962853cebce5dae2221f5a24bcfab7eeb9/VN-transformer-0.0.7.tar.gz
+[2023-07-29 19:38:14] INFO root fetch - processPackages [bt-data]: Downloading https://files.pythonhosted.org/packages/92/70/cffee6b219f1f3352de689b7434e143b33bea7c98577fd1e8c58a4d7b3f2/bt_data-0.0.7-py3-none-any.whl
+[2023-07-29 19:38:15] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/41/42/53659d2fb47c1739512589c3809406db653c68083db410b2a717592925c8/napatrackmater-4.0.1.tar.gz
+[2023-07-29 19:38:15] INFO root fetch - processPackages [msumastro]: Downloading https://files.pythonhosted.org/packages/a8/31/96a5317cd18ab1461e107f4df2f811e510c2b7f781aac01061baf111f60a/msumastro-1.2.5.tar.gz
+[2023-07-29 19:38:15] INFO root fetch - processPackages [gymnasium-connect-four]: Downloading https://files.pythonhosted.org/packages/ea/a0/df9feed672e54c77c30f26b45f1a44880277d7b952730c4c44ab1e4464c0/gymnasium_connect_four-1.2.2.tar.gz
+[2023-07-29 19:38:15] INFO root fetch - processPackages [vna]: Downloading https://files.pythonhosted.org/packages/b0/b2/8c99401f50593cd87dac1279695f6f37754550a72b20a0674c9358a475c9/vna-0.0.5.tar.gz
+[2023-07-29 19:38:15] INFO root fetch - processPackages [VN-transformer]: Downloading https://files.pythonhosted.org/packages/00/28/3d59b7c69662e6f3a34a002639d969f42a9ecf213af532781310ecf5415f/VN-transformer-0.0.8.tar.gz
+[2023-07-29 19:38:15] INFO root fetch - processPackages [dimits]: Downloading https://files.pythonhosted.org/packages/0a/c2/9ccefd73cca82e9dab2c1a945ccaf8df2532f8b90b2e7130100723f33854/dimits-0.0.2a0.tar.gz
+[2023-07-29 19:38:15] INFO root fetch - processPackages [napatrackmater]: executing diffoscope
+[2023-07-29 19:38:15] INFO root fetch - processPackages [napatrackmater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napatrackmater-4.0.0.tar.gz tmp/napatrackmater-4.0.1.tar.gz --markdown 20230729/n/napatrackmater/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-07-29 19:38:15] INFO root fetch - processPackages [bt-data]: executing diffoscope
+[2023-07-29 19:38:15] INFO root fetch - processPackages [bt-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bt_data-0.0.6-py3-none-any.whl.zip tmp/bt_data-0.0.7-py3-none-any.whl.zip --markdown 20230729/b/bt-data/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-29 19:38:15] INFO root fetch - processPackages [vna]: executing diffoscope
+[2023-07-29 19:38:15] INFO root fetch - processPackages [vna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vna-0.0.4.tar.gz tmp/vna-0.0.5.tar.gz --markdown 20230729/v/vna/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-29 19:38:15] INFO root fetch - processPackages [msumastro]: executing diffoscope
+[2023-07-29 19:38:15] INFO root fetch - processPackages [msumastro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msumastro-1.2.4.tar.gz tmp/msumastro-1.2.5.tar.gz --markdown 20230729/m/msumastro/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-07-29 19:38:15] INFO root fetch - processPackages [gymnasium-connect-four]: executing diffoscope
+[2023-07-29 19:38:15] INFO root fetch - processPackages [gymnasium-connect-four]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gymnasium_connect_four-1.2.1.tar.gz tmp/gymnasium_connect_four-1.2.2.tar.gz --markdown 20230729/g/gymnasium-connect-four/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-29 19:38:15] INFO root fetch - processPackages [VN-transformer]: executing diffoscope
+[2023-07-29 19:38:15] INFO root fetch - processPackages [VN-transformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VN-transformer-0.0.7.tar.gz tmp/VN-transformer-0.0.8.tar.gz --markdown 20230729/V/VN-transformer/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-29 19:38:15] INFO root fetch - processPackages [dimits]: executing diffoscope
+[2023-07-29 19:38:15] INFO root fetch - processPackages [dimits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dimits-0.0.1a0.tar.gz tmp/dimits-0.0.2a0.tar.gz --markdown 20230729/d/dimits/0.0.1a0-0.0.2a0/diff.md --exclude *.pyd
+[2023-07-29 19:38:16] INFO root fetch - processPackages [bt-data]: Remove: archive file [/home/abi/fetcher/tmp/bt_data-0.0.6-py3-none-any.whl.zip]
+[2023-07-29 19:38:16] INFO root fetch - processPackages [bt-data]: Remove: archive file [/home/abi/fetcher/tmp/bt_data-0.0.7-py3-none-any.whl.zip]
+[2023-07-29 19:38:16] INFO root fetch - main [MainThread]: End processing [bt-data]: success
+[2023-07-29 19:38:16] INFO root fetch - processPackages [vna]: Remove: archive file [/home/abi/fetcher/tmp/vna-0.0.4.tar.gz]
+[2023-07-29 19:38:16] INFO root fetch - processPackages [vna]: Remove: archive file [/home/abi/fetcher/tmp/vna-0.0.5.tar.gz]
+[2023-07-29 19:38:16] INFO root fetch - main [MainThread]: End processing [vna]: success
+[2023-07-29 19:38:16] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-4.0.0.tar.gz]
+[2023-07-29 19:38:16] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-4.0.1.tar.gz]
+[2023-07-29 19:38:16] INFO root fetch - main [MainThread]: End processing [napatrackmater]: success
+[2023-07-29 19:38:16] INFO root fetch - processPackages [dimits]: Remove: archive file [/home/abi/fetcher/tmp/dimits-0.0.1a0.tar.gz]
+[2023-07-29 19:38:16] INFO root fetch - processPackages [dimits]: Remove: archive file [/home/abi/fetcher/tmp/dimits-0.0.2a0.tar.gz]
+[2023-07-29 19:38:16] INFO root fetch - main [MainThread]: End processing [dimits]: success
+[2023-07-29 19:38:16] INFO root fetch - processPackages [gymnasium-connect-four]: Remove: archive file [/home/abi/fetcher/tmp/gymnasium_connect_four-1.2.1.tar.gz]
+[2023-07-29 19:38:16] INFO root fetch - processPackages [gymnasium-connect-four]: Remove: archive file [/home/abi/fetcher/tmp/gymnasium_connect_four-1.2.2.tar.gz]
+[2023-07-29 19:38:16] INFO root fetch - main [MainThread]: End processing [gymnasium-connect-four]: success
+[2023-07-29 19:38:16] INFO root fetch - processPackages [VN-transformer]: Remove: archive file [/home/abi/fetcher/tmp/VN-transformer-0.0.7.tar.gz]
+[2023-07-29 19:38:16] INFO root fetch - processPackages [VN-transformer]: Remove: archive file [/home/abi/fetcher/tmp/VN-transformer-0.0.8.tar.gz]
+[2023-07-29 19:38:16] INFO root fetch - main [MainThread]: End processing [VN-transformer]: success
+[2023-07-29 19:38:16] INFO root fetch - processPackages [msumastro]: Remove: archive file [/home/abi/fetcher/tmp/msumastro-1.2.4.tar.gz]
+[2023-07-29 19:38:16] INFO root fetch - processPackages [msumastro]: Remove: archive file [/home/abi/fetcher/tmp/msumastro-1.2.5.tar.gz]
+[2023-07-29 19:38:16] INFO root fetch - main [MainThread]: End processing [msumastro]: success
+[2023-07-29 19:38:16] INFO root fetch - main [MainThread]: Store serial: [19090692]
