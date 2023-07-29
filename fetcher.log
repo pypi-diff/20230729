@@ -20330,3 +20330,62 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 18:33:31] INFO root fetch - processPackages [pykka]: Remove: archive file [/home/abi/fetcher/tmp/pykka-4.0.0rc1.tar.gz]
 [2023-07-29 18:33:31] INFO root fetch - main [MainThread]: End processing [pykka]: success
 [2023-07-29 18:33:31] INFO root fetch - main [MainThread]: Store serial: [19090198]
+[2023-07-29 18:38:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19090198]
+[2023-07-29 18:38:40] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-29 18:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: feathub-nightly
+[2023-07-29 18:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swiftly-sys
+[2023-07-29 18:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: p2p-payme
+[2023-07-29 18:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sgd-rest
+[2023-07-29 18:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: csidimageprocessing
+[2023-07-29 18:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: napatrackmater
+[2023-07-29 18:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: composabl
+[2023-07-29 18:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyImageJGui
+[2023-07-29 18:38:40] WARNING root fetch - processPackages [sgd-rest]: Skipping, unable to determine old version
+[2023-07-29 18:38:40] INFO root fetch - main [MainThread]: End processing [sgd-rest] error
+[2023-07-29 18:38:40] INFO root fetch - processPackages [swiftly-sys]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-29 18:38:40] INFO root fetch - processPackages [csidimageprocessing]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-29 18:38:40] INFO root fetch - processPackages [pyImageJGui]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-29 18:38:40] INFO root fetch - processPackages [composabl]: New version: [0.2.7] Old Version: [0.2.4]
+[2023-07-29 18:38:40] INFO root fetch - processPackages [napatrackmater]: New version: [3.9.6] Old Version: [3.9.5]
+[2023-07-29 18:38:41] WARNING root fetch - processPackages [p2p-payme]: Skipping, unable to determine old version
+[2023-07-29 18:38:41] INFO root fetch - main [MainThread]: End processing [p2p-payme] error
+[2023-07-29 18:38:41] INFO root fetch - processPackages [feathub-nightly]: New version: [0.1.dev20230729] Old Version: [0.1.dev20230728]
+[2023-07-29 18:38:41] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/d0/b6/8008bbb82c84fcf3411344e8b78a0601e6c5bac99a1306fcf139587729e3/napatrackmater-3.9.5.tar.gz
+[2023-07-29 18:38:41] INFO root fetch - processPackages [csidimageprocessing]: Downloading https://files.pythonhosted.org/packages/03/b4/38105b4880f77725f3a987bdc2a6406da12aaa69e4f774ecbd52e35dc1e1/csidimageprocessing-0.0.1.tar.gz
+[2023-07-29 18:38:41] INFO root fetch - processPackages [swiftly-sys]: Downloading https://files.pythonhosted.org/packages/c5/a3/f5ad18d75f609ae014916661fd1001727fa27688b3304cf68242fd520d4f/swiftly-sys-0.0.3.tar.gz
+[2023-07-29 18:38:41] INFO root fetch - processPackages [pyImageJGui]: Downloading https://files.pythonhosted.org/packages/f5/98/4165588dd66de078b336168f539b8e9749f46559012d9e768ee4ebe7d694/pyimagejgui-0.0.5.tar.gz
+[2023-07-29 18:38:41] INFO root fetch - processPackages [composabl]: Downloading https://files.pythonhosted.org/packages/86/ef/1e25d48ad801f16bd54ff2f3e6aa6f9658e6d8bf78dedcd8f350d4ddf6ed/composabl-0.2.4-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-07-29 18:38:41] INFO root fetch - processPackages [feathub-nightly]: Downloading https://files.pythonhosted.org/packages/df/7f/472c3e6b735c3718d23b0f8804f93820eaefd9d4e8e9343320d9f73dbf62/feathub_nightly-0.1.dev20230728-py3-none-any.whl
+[2023-07-29 18:38:41] WARNING root fetch - processPackages [feathub-nightly]: Skipping package: exceeds size limit 12599826>=10485760
+[2023-07-29 18:38:41] INFO root fetch - main [MainThread]: End processing [feathub-nightly] error
+[2023-07-29 18:38:41] INFO root fetch - processPackages [csidimageprocessing]: Downloading https://files.pythonhosted.org/packages/78/de/ac40337f72cdcfc00e85d94cba48a2db84f5b534577a13e5f2275160eddd/csidimageprocessing-0.0.2.tar.gz
+[2023-07-29 18:38:41] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/1c/b0/12f3f8ec8ef70110ac0578b08867c5ecb0f9f90bd8dc9e75ddc01f974b79/napatrackmater-3.9.6.tar.gz
+[2023-07-29 18:38:41] INFO root fetch - processPackages [swiftly-sys]: Downloading https://files.pythonhosted.org/packages/d5/4d/db792be803a5df7839dac2654dbf95dfc97c14c43828af4459a055ce3932/swiftly-sys-0.0.4.tar.gz
+[2023-07-29 18:38:41] INFO root fetch - processPackages [pyImageJGui]: Downloading https://files.pythonhosted.org/packages/bf/81/0423a031017fa68d8ccb70508bfc8fcee4bf9268ba2c8e6cfd6f283e8cec/pyimagejgui-0.0.6.tar.gz
+[2023-07-29 18:38:41] INFO root fetch - processPackages [csidimageprocessing]: executing diffoscope
+[2023-07-29 18:38:41] INFO root fetch - processPackages [csidimageprocessing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csidimageprocessing-0.0.1.tar.gz tmp/csidimageprocessing-0.0.2.tar.gz --markdown 20230729/c/csidimageprocessing/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-29 18:38:41] INFO root fetch - processPackages [swiftly-sys]: executing diffoscope
+[2023-07-29 18:38:41] INFO root fetch - processPackages [swiftly-sys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swiftly-sys-0.0.3.tar.gz tmp/swiftly-sys-0.0.4.tar.gz --markdown 20230729/s/swiftly-sys/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-29 18:38:41] INFO root fetch - processPackages [composabl]: Downloading https://files.pythonhosted.org/packages/45/1f/5b5f926248d12368ec4f23546db589337dfa69a3b75162aa9c6f0de1d632/composabl-0.2.7-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-07-29 18:38:41] INFO root fetch - processPackages [pyImageJGui]: executing diffoscope
+[2023-07-29 18:38:41] INFO root fetch - processPackages [pyImageJGui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimagejgui-0.0.5.tar.gz tmp/pyimagejgui-0.0.6.tar.gz --markdown 20230729/p/pyImageJGui/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-29 18:38:41] INFO root fetch - processPackages [napatrackmater]: executing diffoscope
+[2023-07-29 18:38:41] INFO root fetch - processPackages [napatrackmater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napatrackmater-3.9.5.tar.gz tmp/napatrackmater-3.9.6.tar.gz --markdown 20230729/n/napatrackmater/3.9.5-3.9.6/diff.md --exclude *.pyd
+[2023-07-29 18:38:42] INFO root fetch - processPackages [swiftly-sys]: Remove: archive file [/home/abi/fetcher/tmp/swiftly-sys-0.0.3.tar.gz]
+[2023-07-29 18:38:42] INFO root fetch - processPackages [swiftly-sys]: Remove: archive file [/home/abi/fetcher/tmp/swiftly-sys-0.0.4.tar.gz]
+[2023-07-29 18:38:42] INFO root fetch - main [MainThread]: End processing [swiftly-sys]: success
+[2023-07-29 18:38:42] INFO root fetch - processPackages [pyImageJGui]: Remove: archive file [/home/abi/fetcher/tmp/pyimagejgui-0.0.5.tar.gz]
+[2023-07-29 18:38:42] INFO root fetch - processPackages [pyImageJGui]: Remove: archive file [/home/abi/fetcher/tmp/pyimagejgui-0.0.6.tar.gz]
+[2023-07-29 18:38:42] INFO root fetch - main [MainThread]: End processing [pyImageJGui]: success
+[2023-07-29 18:38:42] INFO root fetch - processPackages [csidimageprocessing]: Remove: archive file [/home/abi/fetcher/tmp/csidimageprocessing-0.0.1.tar.gz]
+[2023-07-29 18:38:42] INFO root fetch - processPackages [csidimageprocessing]: Remove: archive file [/home/abi/fetcher/tmp/csidimageprocessing-0.0.2.tar.gz]
+[2023-07-29 18:38:42] INFO root fetch - main [MainThread]: End processing [csidimageprocessing]: success
+[2023-07-29 18:38:42] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-3.9.5.tar.gz]
+[2023-07-29 18:38:42] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-3.9.6.tar.gz]
+[2023-07-29 18:38:42] INFO root fetch - main [MainThread]: End processing [napatrackmater]: success
+[2023-07-29 18:38:43] INFO root fetch - processPackages [composabl]: executing diffoscope
+[2023-07-29 18:38:43] INFO root fetch - processPackages [composabl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl-0.2.4-cp38-cp38-musllinux_1_1_x86_64.whl.zip tmp/composabl-0.2.7-cp38-cp38-musllinux_1_1_x86_64.whl.zip --markdown 20230729/c/composabl/0.2.4-0.2.7/diff.md --exclude *.pyd
+[2023-07-29 18:38:44] INFO root fetch - processPackages [composabl]: Remove: archive file [/home/abi/fetcher/tmp/composabl-0.2.4-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-07-29 18:38:44] INFO root fetch - processPackages [composabl]: Remove: archive file [/home/abi/fetcher/tmp/composabl-0.2.7-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-07-29 18:38:44] INFO root fetch - main [MainThread]: End processing [composabl]: success
+[2023-07-29 18:38:44] INFO root fetch - main [MainThread]: Store serial: [19090232]
