@@ -20216,3 +20216,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 18:23:07] INFO root fetch - processPackages [rich]: Remove: archive file [/home/abi/fetcher/tmp/rich-9.9.0.tar.gz]
 [2023-07-29 18:23:07] INFO root fetch - main [MainThread]: End processing [rich]: success
 [2023-07-29 18:23:07] INFO root fetch - main [MainThread]: Store serial: [19090156]
+[2023-07-29 18:28:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19090156]
+[2023-07-29 18:28:17] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-29 18:28:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xiaobaisaf
+[2023-07-29 18:28:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MAZAlib
+[2023-07-29 18:28:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydeserialize
+[2023-07-29 18:28:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: novelai-api
+[2023-07-29 18:28:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: swiftly-sys
+[2023-07-29 18:28:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: polyconf
+[2023-07-29 18:28:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: infrahouse-toolkit
+[2023-07-29 18:28:17] INFO root fetch - processPackages [polyconf]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-29 18:28:17] INFO root fetch - processPackages [swiftly-sys]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-29 18:28:17] INFO root fetch - processPackages [infrahouse-toolkit]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-07-29 18:28:17] INFO root fetch - processPackages [xiaobaisaf]: New version: [2.3.8] Old Version: [2.3.7]
+[2023-07-29 18:28:17] INFO root fetch - processPackages [MAZAlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-29 18:28:17] INFO root fetch - processPackages [pydeserialize]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-29 18:28:17] INFO root fetch - processPackages [novelai-api]: New version: [0.9] Old Version: [0.8]
+[2023-07-29 18:28:17] INFO root fetch - processPackages [swiftly-sys]: Downloading https://files.pythonhosted.org/packages/17/af/19969f1b2cd3da1076c13814b28d2918d2eb4fc6440ee234fffaa55bd4ad/swiftly-sys-0.0.2.tar.gz
+[2023-07-29 18:28:17] INFO root fetch - processPackages [infrahouse-toolkit]: Downloading https://files.pythonhosted.org/packages/01/dd/2d4c4e5080e206a8f64c2cc933cae034bef0223b0cd1c621f1cfa3750644/infrahouse-toolkit-2.0.5.tar.gz
+[2023-07-29 18:28:17] INFO root fetch - processPackages [MAZAlib]: Downloading https://files.pythonhosted.org/packages/50/f4/08487d2e9ffaf4c2459a82bdb215d7a1e77e96862254778678316ddb1a94/MAZAlib-0.0.8.tar.gz
+[2023-07-29 18:28:17] INFO root fetch - processPackages [xiaobaisaf]: Downloading https://files.pythonhosted.org/packages/4c/73/902837b07956851a92ffb91342be39203395043f8fe5279a921a497e556f/xiaobaisaf-2.3.7.tar.gz
+[2023-07-29 18:28:17] INFO root fetch - processPackages [polyconf]: Downloading https://files.pythonhosted.org/packages/64/27/873e5a2090f0ed6710568360eb16abf70466420c7e040b249f86d4eebaca/polyconf-0.1.0.tar.gz
+[2023-07-29 18:28:17] INFO root fetch - processPackages [novelai-api]: Downloading https://files.pythonhosted.org/packages/fc/5f/4521adcc080f088c499ad70d5ea4d991b23f72661d4aa68a9112d0b3283e/novelai-api-0.8.tar.gz
+[2023-07-29 18:28:17] INFO root fetch - processPackages [pydeserialize]: Downloading https://files.pythonhosted.org/packages/aa/af/3dc3703722a556718ccd94b20f8b9500f91aba630005a449b6c869b29247/pydeserialize-0.0.8.tar.gz
+[2023-07-29 18:28:17] INFO root fetch - processPackages [MAZAlib]: Downloading https://files.pythonhosted.org/packages/ee/bf/644071a273d92a917989a5acc834c89301fde3a6a32435ce6290de2d5504/MAZAlib-0.0.9.tar.gz
+[2023-07-29 18:28:17] INFO root fetch - processPackages [swiftly-sys]: Downloading https://files.pythonhosted.org/packages/c5/a3/f5ad18d75f609ae014916661fd1001727fa27688b3304cf68242fd520d4f/swiftly-sys-0.0.3.tar.gz
+[2023-07-29 18:28:17] INFO root fetch - processPackages [xiaobaisaf]: Downloading https://files.pythonhosted.org/packages/0d/ea/663af7fb032b4b83a7379e3cfb5a540b0c33719a38be531f63dd95dd6f8e/xiaobaisaf-2.3.8.tar.gz
+[2023-07-29 18:28:17] INFO root fetch - processPackages [infrahouse-toolkit]: Downloading https://files.pythonhosted.org/packages/a0/3e/51322c72c42f15f5959bb0c15ac1df59b46e87ed3c0c39e05cfa12bd2075/infrahouse-toolkit-2.0.6.tar.gz
+[2023-07-29 18:28:17] INFO root fetch - processPackages [polyconf]: Downloading https://files.pythonhosted.org/packages/dc/54/4debc403da0579ca600f6466a2a4bd21dd919d669591589c40e7d9b9cb19/polyconf-0.2.0.tar.gz
+[2023-07-29 18:28:17] INFO root fetch - processPackages [MAZAlib]: executing diffoscope
+[2023-07-29 18:28:17] INFO root fetch - processPackages [MAZAlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MAZAlib-0.0.8.tar.gz tmp/MAZAlib-0.0.9.tar.gz --markdown 20230729/M/MAZAlib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-29 18:28:17] INFO root fetch - processPackages [xiaobaisaf]: executing diffoscope
+[2023-07-29 18:28:17] INFO root fetch - processPackages [xiaobaisaf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaobaisaf-2.3.7.tar.gz tmp/xiaobaisaf-2.3.8.tar.gz --markdown 20230729/x/xiaobaisaf/2.3.7-2.3.8/diff.md --exclude *.pyd
+[2023-07-29 18:28:18] INFO root fetch - processPackages [pydeserialize]: Downloading https://files.pythonhosted.org/packages/ec/be/2391eab740b935443334ac3cb17fd4f88d7d04df996508d487de1b4f1f3e/pydeserialize-0.0.9.tar.gz
+[2023-07-29 18:28:18] INFO root fetch - processPackages [swiftly-sys]: executing diffoscope
+[2023-07-29 18:28:18] INFO root fetch - processPackages [swiftly-sys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swiftly-sys-0.0.2.tar.gz tmp/swiftly-sys-0.0.3.tar.gz --markdown 20230729/s/swiftly-sys/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-29 18:28:18] INFO root fetch - processPackages [infrahouse-toolkit]: executing diffoscope
+[2023-07-29 18:28:18] INFO root fetch - processPackages [infrahouse-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infrahouse-toolkit-2.0.5.tar.gz tmp/infrahouse-toolkit-2.0.6.tar.gz --markdown 20230729/i/infrahouse-toolkit/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-07-29 18:28:18] INFO root fetch - processPackages [polyconf]: executing diffoscope
+[2023-07-29 18:28:18] INFO root fetch - processPackages [polyconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polyconf-0.1.0.tar.gz tmp/polyconf-0.2.0.tar.gz --markdown 20230729/p/polyconf/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-29 18:28:18] INFO root fetch - processPackages [pydeserialize]: executing diffoscope
+[2023-07-29 18:28:18] INFO root fetch - processPackages [pydeserialize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydeserialize-0.0.8.tar.gz tmp/pydeserialize-0.0.9.tar.gz --markdown 20230729/p/pydeserialize/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-29 18:28:18] INFO root fetch - processPackages [novelai-api]: Downloading https://files.pythonhosted.org/packages/69/ed/74960ad9154e8dc49c4d6c47cbc174dc97461bb9e5e113a548c167b72455/novelai-api-0.9.tar.gz
+[2023-07-29 18:28:18] INFO root fetch - processPackages [MAZAlib]: Remove: archive file [/home/abi/fetcher/tmp/MAZAlib-0.0.8.tar.gz]
+[2023-07-29 18:28:18] INFO root fetch - processPackages [MAZAlib]: Remove: archive file [/home/abi/fetcher/tmp/MAZAlib-0.0.9.tar.gz]
+[2023-07-29 18:28:18] INFO root fetch - main [MainThread]: End processing [MAZAlib]: success
+[2023-07-29 18:28:19] INFO root fetch - processPackages [swiftly-sys]: Remove: archive file [/home/abi/fetcher/tmp/swiftly-sys-0.0.2.tar.gz]
+[2023-07-29 18:28:19] INFO root fetch - processPackages [swiftly-sys]: Remove: archive file [/home/abi/fetcher/tmp/swiftly-sys-0.0.3.tar.gz]
+[2023-07-29 18:28:19] INFO root fetch - main [MainThread]: End processing [swiftly-sys]: success
+[2023-07-29 18:28:19] INFO root fetch - processPackages [polyconf]: Remove: archive file [/home/abi/fetcher/tmp/polyconf-0.1.0.tar.gz]
+[2023-07-29 18:28:19] INFO root fetch - processPackages [polyconf]: Remove: archive file [/home/abi/fetcher/tmp/polyconf-0.2.0.tar.gz]
+[2023-07-29 18:28:19] INFO root fetch - main [MainThread]: End processing [polyconf]: success
+[2023-07-29 18:28:19] INFO root fetch - processPackages [xiaobaisaf]: Remove: archive file [/home/abi/fetcher/tmp/xiaobaisaf-2.3.7.tar.gz]
+[2023-07-29 18:28:19] INFO root fetch - processPackages [xiaobaisaf]: Remove: archive file [/home/abi/fetcher/tmp/xiaobaisaf-2.3.8.tar.gz]
+[2023-07-29 18:28:19] INFO root fetch - main [MainThread]: End processing [xiaobaisaf]: success
+[2023-07-29 18:28:19] INFO root fetch - processPackages [pydeserialize]: Remove: archive file [/home/abi/fetcher/tmp/pydeserialize-0.0.8.tar.gz]
+[2023-07-29 18:28:19] INFO root fetch - processPackages [pydeserialize]: Remove: archive file [/home/abi/fetcher/tmp/pydeserialize-0.0.9.tar.gz]
+[2023-07-29 18:28:19] INFO root fetch - main [MainThread]: End processing [pydeserialize]: success
+[2023-07-29 18:28:19] INFO root fetch - processPackages [infrahouse-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/infrahouse-toolkit-2.0.5.tar.gz]
+[2023-07-29 18:28:19] INFO root fetch - processPackages [infrahouse-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/infrahouse-toolkit-2.0.6.tar.gz]
+[2023-07-29 18:28:19] INFO root fetch - main [MainThread]: End processing [infrahouse-toolkit]: success
+[2023-07-29 18:28:19] INFO root fetch - processPackages [novelai-api]: executing diffoscope
+[2023-07-29 18:28:19] INFO root fetch - processPackages [novelai-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/novelai-api-0.8.tar.gz tmp/novelai-api-0.9.tar.gz --markdown 20230729/n/novelai-api/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-29 18:28:20] INFO root fetch - processPackages [novelai-api]: Remove: archive file [/home/abi/fetcher/tmp/novelai-api-0.8.tar.gz]
+[2023-07-29 18:28:20] INFO root fetch - processPackages [novelai-api]: Remove: archive file [/home/abi/fetcher/tmp/novelai-api-0.9.tar.gz]
+[2023-07-29 18:28:20] INFO root fetch - main [MainThread]: End processing [novelai-api]: success
+[2023-07-29 18:28:20] INFO root fetch - main [MainThread]: Store serial: [19090176]
