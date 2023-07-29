@@ -19831,3 +19831,100 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 18:01:59] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev5.tar.gz]
 [2023-07-29 18:01:59] INFO root fetch - main [MainThread]: End processing [docarray]: success
 [2023-07-29 18:01:59] INFO root fetch - main [MainThread]: Store serial: [19090000]
+[2023-07-29 18:07:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19090000]
+[2023-07-29 18:07:09] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-29 18:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: medit
+[2023-07-29 18:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CFXplorer
+[2023-07-29 18:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aioclaude-api
+[2023-07-29 18:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: napatrackmater
+[2023-07-29 18:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: terrainman
+[2023-07-29 18:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: notification-service-nightly
+[2023-07-29 18:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ai-flow-nightly
+[2023-07-29 18:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: biogeme-optimization
+[2023-07-29 18:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: terrainman
+[2023-07-29 18:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aiscraper
+[2023-07-29 18:07:09] INFO root fetch - processPackages [biogeme-optimization]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-29 18:07:09] INFO root fetch - processPackages [medit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-29 18:07:09] INFO root fetch - processPackages [terrainman]: New version: [0.0.9] Old Version: [0.0.28]
+[2023-07-29 18:07:09] INFO root fetch - processPackages [aiscraper]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-29 18:07:09] INFO root fetch - processPackages [terrainman]: New version: [0.0.9] Old Version: [0.0.28]
+[2023-07-29 18:07:09] INFO root fetch - processPackages [CFXplorer]: New version: [0.0b2] Old Version: [0.0b1]
+[2023-07-29 18:07:09] WARNING root fetch - processPackages [aioclaude-api]: Skipping, unable to determine old version
+[2023-07-29 18:07:09] INFO root fetch - processPackages [napatrackmater]: New version: [3.9.3] Old Version: [3.9.2]
+[2023-07-29 18:07:09] INFO root fetch - processPackages [aioclaude-api]: Start processing: hezar
+[2023-07-29 18:07:09] INFO root fetch - main [MainThread]: End processing [aioclaude-api] error
+[2023-07-29 18:07:09] INFO root fetch - processPackages [notification-service-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-29 18:07:09] INFO root fetch - processPackages [ai-flow-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-29 18:07:09] INFO root fetch - processPackages [hezar]: New version: [0.17.4] Old Version: [0.17.3]
+[2023-07-29 18:07:09] INFO root fetch - processPackages [biogeme-optimization]: Downloading https://files.pythonhosted.org/packages/8d/8d/9e47420bbff07819bff956b190da2654e9f57e4c752396bbb31ca50070d7/biogeme_optimization-0.0.3.tar.gz
+[2023-07-29 18:07:09] INFO root fetch - processPackages [terrainman]: Downloading https://files.pythonhosted.org/packages/78/6f/6f2242485f79c3689df4102ebe98a8beac3adc708e12daccc87085a7a15b/terrainman-0.0.28.tar.gz
+[2023-07-29 18:07:09] INFO root fetch - processPackages [CFXplorer]: Downloading https://files.pythonhosted.org/packages/38/7c/1a8ba7bd819c5ca2ae0dc556d17f56f61e3e2d94b48d8771d961f9c7e518/CFXplorer-0.0b1.tar.gz
+[2023-07-29 18:07:09] INFO root fetch - processPackages [aiscraper]: Downloading https://files.pythonhosted.org/packages/b5/6c/18af3a245742b39029e46a851452d4bad8a4eaed3f8c0f4969aedae3cbb2/aiscraper-0.0.5.tar.gz
+[2023-07-29 18:07:09] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/fb/75/2092f69011f109ce683a7c35202b4787827c20bc50ecd14d6afbfd4926b2/napatrackmater-3.9.2.tar.gz
+[2023-07-29 18:07:09] INFO root fetch - processPackages [notification-service-nightly]: Downloading https://files.pythonhosted.org/packages/65/1e/184f8ca7fea0333def3590be1e6ae93ecab708b7db224f287099c81829a3/notification_service_nightly-2023.7.8.tar.gz
+[2023-07-29 18:07:09] INFO root fetch - processPackages [ai-flow-nightly]: Downloading https://files.pythonhosted.org/packages/a1/d9/ddd063ea869d5052ce371cc02a1b34d4989fa5c798eb88f04b3631d5ac24/ai_flow_nightly-2023.7.8.tar.gz
+[2023-07-29 18:07:09] INFO root fetch - processPackages [medit]: Downloading https://files.pythonhosted.org/packages/23/ca/7d828a463469375022cf42e25a31c2bef2d66db397bb5eec8b0ef9451d8f/medit-0.0.8.tar.gz
+[2023-07-29 18:07:09] INFO root fetch - processPackages [terrainman]: Downloading https://files.pythonhosted.org/packages/78/6f/6f2242485f79c3689df4102ebe98a8beac3adc708e12daccc87085a7a15b/terrainman-0.0.28.tar.gz
+[2023-07-29 18:07:09] INFO root fetch - processPackages [hezar]: Downloading https://files.pythonhosted.org/packages/8f/70/5c7a158a5e3b26f3fcb301fd27c0416001079e2d82ce6127de19e44ee8e1/hezar-0.17.3.tar.gz
+[2023-07-29 18:07:10] INFO root fetch - processPackages [notification-service-nightly]: Downloading https://files.pythonhosted.org/packages/c7/4b/124fc5261f6060915e47111ca32199af3db938323021c15e986ffd6c0801/notification_service_nightly-2023.7.9.tar.gz
+[2023-07-29 18:07:10] INFO root fetch - processPackages [biogeme-optimization]: Downloading https://files.pythonhosted.org/packages/b9/af/d69761af7bbc69f8b3f03fb195d636da4611ea4995519c604fa8d8311e65/biogeme_optimization-0.0.4.tar.gz
+[2023-07-29 18:07:10] INFO root fetch - processPackages [CFXplorer]: Downloading https://files.pythonhosted.org/packages/f4/d4/e79290724992006fd0ccb597a708a3f408a710a0f8c09926369183177316/CFXplorer-0.0b2.tar.gz
+[2023-07-29 18:07:10] INFO root fetch - processPackages [ai-flow-nightly]: Downloading https://files.pythonhosted.org/packages/99/90/4b39e8ebed6b96e9b48be05151c4f1796979ff1689ad51452e0257bd3913/ai_flow_nightly-2023.7.9.tar.gz
+[2023-07-29 18:07:10] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/27/6e/b5390c6cafdd7f40dfd6d82b5a14a89e318b45508885b7d698c9494789dd/napatrackmater-3.9.3.tar.gz
+[2023-07-29 18:07:10] INFO root fetch - processPackages [aiscraper]: Downloading https://files.pythonhosted.org/packages/c6/13/e3c852e4e832a10aee564b88cd66dcfc9200f0c191e30accaa486801ac72/aiscraper-0.0.6.tar.gz
+[2023-07-29 18:07:10] INFO root fetch - processPackages [terrainman]: Downloading https://files.pythonhosted.org/packages/fe/43/bf0422921a1004e9cf40162886da12e56abfd85b14bee14d0c0302891b73/terrainman-0.0.9.tar.gz
+[2023-07-29 18:07:10] INFO root fetch - processPackages [terrainman]: Downloading https://files.pythonhosted.org/packages/fe/43/bf0422921a1004e9cf40162886da12e56abfd85b14bee14d0c0302891b73/terrainman-0.0.9.tar.gz
+[2023-07-29 18:07:10] INFO root fetch - processPackages [medit]: Downloading https://files.pythonhosted.org/packages/c3/b2/55b74887cc86a0830695cf399dcd545635de9b6d1f82f6e29ececf9f565d/medit-0.0.9.tar.gz
+[2023-07-29 18:07:10] INFO root fetch - processPackages [hezar]: Downloading https://files.pythonhosted.org/packages/8a/8a/49092ac4b5a9d36995dee28029b5e7187163b47827066d28c794fca566a6/hezar-0.17.4.tar.gz
+[2023-07-29 18:07:10] INFO root fetch - processPackages [notification-service-nightly]: executing diffoscope
+[2023-07-29 18:07:10] INFO root fetch - processPackages [notification-service-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notification_service_nightly-2023.7.8.tar.gz tmp/notification_service_nightly-2023.7.9.tar.gz --markdown 20230729/n/notification-service-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-29 18:07:10] INFO root fetch - processPackages [biogeme-optimization]: executing diffoscope
+[2023-07-29 18:07:10] INFO root fetch - processPackages [biogeme-optimization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biogeme_optimization-0.0.3.tar.gz tmp/biogeme_optimization-0.0.4.tar.gz --markdown 20230729/b/biogeme-optimization/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-29 18:07:10] INFO root fetch - processPackages [ai-flow-nightly]: executing diffoscope
+[2023-07-29 18:07:10] INFO root fetch - processPackages [ai-flow-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_flow_nightly-2023.7.8.tar.gz tmp/ai_flow_nightly-2023.7.9.tar.gz --markdown 20230729/a/ai-flow-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-29 18:07:10] INFO root fetch - processPackages [aiscraper]: executing diffoscope
+[2023-07-29 18:07:10] INFO root fetch - processPackages [aiscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiscraper-0.0.5.tar.gz tmp/aiscraper-0.0.6.tar.gz --markdown 20230729/a/aiscraper/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-29 18:07:10] INFO root fetch - processPackages [medit]: executing diffoscope
+[2023-07-29 18:07:10] INFO root fetch - processPackages [medit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medit-0.0.8.tar.gz tmp/medit-0.0.9.tar.gz --markdown 20230729/m/medit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-29 18:07:10] INFO root fetch - processPackages [CFXplorer]: executing diffoscope
+[2023-07-29 18:07:10] INFO root fetch - processPackages [CFXplorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CFXplorer-0.0b1.tar.gz tmp/CFXplorer-0.0b2.tar.gz --markdown 20230729/C/CFXplorer/0.0b1-0.0b2/diff.md --exclude *.pyd
+[2023-07-29 18:07:10] INFO root fetch - processPackages [hezar]: executing diffoscope
+[2023-07-29 18:07:10] INFO root fetch - processPackages [hezar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hezar-0.17.3.tar.gz tmp/hezar-0.17.4.tar.gz --markdown 20230729/h/hezar/0.17.3-0.17.4/diff.md --exclude *.pyd
+[2023-07-29 18:07:10] INFO root fetch - processPackages [napatrackmater]: executing diffoscope
+[2023-07-29 18:07:10] INFO root fetch - processPackages [napatrackmater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napatrackmater-3.9.2.tar.gz tmp/napatrackmater-3.9.3.tar.gz --markdown 20230729/n/napatrackmater/3.9.2-3.9.3/diff.md --exclude *.pyd
+[2023-07-29 18:07:10] INFO root fetch - processPackages [terrainman]: executing diffoscope
+[2023-07-29 18:07:10] INFO root fetch - processPackages [terrainman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terrainman-0.0.28.tar.gz tmp/terrainman-0.0.9.tar.gz --markdown 20230729/t/terrainman/0.0.28-0.0.9/diff.md --exclude *.pyd
+[2023-07-29 18:07:10] INFO root fetch - processPackages [terrainman]: executing diffoscope
+[2023-07-29 18:07:10] INFO root fetch - processPackages [terrainman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terrainman-0.0.28.tar.gz tmp/terrainman-0.0.9.tar.gz --markdown 20230729/t/terrainman/0.0.28-0.0.9/diff.md --exclude *.pyd
+[2023-07-29 18:07:11] INFO root fetch - processPackages [aiscraper]: Remove: archive file [/home/abi/fetcher/tmp/aiscraper-0.0.5.tar.gz]
+[2023-07-29 18:07:11] INFO root fetch - processPackages [aiscraper]: Remove: archive file [/home/abi/fetcher/tmp/aiscraper-0.0.6.tar.gz]
+[2023-07-29 18:07:11] INFO root fetch - processPackages [aiscraper]: Start processing: myinvoicing-pdf
+[2023-07-29 18:07:11] INFO root fetch - main [MainThread]: End processing [aiscraper]: success
+[2023-07-29 18:07:12] INFO root fetch - processPackages [terrainman]: Remove: archive file [/home/abi/fetcher/tmp/terrainman-0.0.28.tar.gz]
+[2023-07-29 18:07:12] INFO root fetch - processPackages [terrainman]: Remove: archive file [/home/abi/fetcher/tmp/terrainman-0.0.9.tar.gz]
+[2023-07-29 18:07:12] INFO root fetch - main [MainThread]: End processing [terrainman]: success
+[2023-07-29 18:07:12] ERROR root fetch - processPackages [myinvoicing-pdf]: Unable to get metadata: No such project 'myinvoicing-pdf'
+[2023-07-29 18:07:12] INFO root fetch - main [MainThread]: End processing [myinvoicing-pdf] error
+[2023-07-29 18:07:12] INFO root fetch - processPackages [hezar]: Remove: archive file [/home/abi/fetcher/tmp/hezar-0.17.3.tar.gz]
+[2023-07-29 18:07:12] INFO root fetch - processPackages [hezar]: Remove: archive file [/home/abi/fetcher/tmp/hezar-0.17.4.tar.gz]
+[2023-07-29 18:07:12] INFO root fetch - main [MainThread]: End processing [hezar]: success
+[2023-07-29 18:07:12] INFO root fetch - processPackages [biogeme-optimization]: Remove: archive file [/home/abi/fetcher/tmp/biogeme_optimization-0.0.3.tar.gz]
+[2023-07-29 18:07:12] INFO root fetch - processPackages [biogeme-optimization]: Remove: archive file [/home/abi/fetcher/tmp/biogeme_optimization-0.0.4.tar.gz]
+[2023-07-29 18:07:12] INFO root fetch - main [MainThread]: End processing [biogeme-optimization]: success
+[2023-07-29 18:07:12] INFO root fetch - processPackages [medit]: Remove: archive file [/home/abi/fetcher/tmp/medit-0.0.8.tar.gz]
+[2023-07-29 18:07:12] INFO root fetch - processPackages [medit]: Remove: archive file [/home/abi/fetcher/tmp/medit-0.0.9.tar.gz]
+[2023-07-29 18:07:12] INFO root fetch - main [MainThread]: End processing [medit]: success
+[2023-07-29 18:07:12] INFO root fetch - processPackages [notification-service-nightly]: Remove: archive file [/home/abi/fetcher/tmp/notification_service_nightly-2023.7.8.tar.gz]
+[2023-07-29 18:07:12] INFO root fetch - processPackages [CFXplorer]: Remove: archive file [/home/abi/fetcher/tmp/CFXplorer-0.0b1.tar.gz]
+[2023-07-29 18:07:12] INFO root fetch - processPackages [notification-service-nightly]: Remove: archive file [/home/abi/fetcher/tmp/notification_service_nightly-2023.7.9.tar.gz]
+[2023-07-29 18:07:12] INFO root fetch - processPackages [CFXplorer]: Remove: archive file [/home/abi/fetcher/tmp/CFXplorer-0.0b2.tar.gz]
+[2023-07-29 18:07:12] INFO root fetch - main [MainThread]: End processing [notification-service-nightly]: success
+[2023-07-29 18:07:12] INFO root fetch - main [MainThread]: End processing [CFXplorer]: success
+[2023-07-29 18:07:12] INFO root fetch - main [MainThread]: End processing [terrainman]: success
+[2023-07-29 18:07:12] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-3.9.2.tar.gz]
+[2023-07-29 18:07:12] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-3.9.3.tar.gz]
+[2023-07-29 18:07:12] INFO root fetch - main [MainThread]: End processing [napatrackmater]: success
+[2023-07-29 18:07:13] INFO root fetch - processPackages [ai-flow-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_flow_nightly-2023.7.8.tar.gz]
+[2023-07-29 18:07:13] INFO root fetch - processPackages [ai-flow-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_flow_nightly-2023.7.9.tar.gz]
+[2023-07-29 18:07:13] INFO root fetch - main [MainThread]: End processing [ai-flow-nightly]: success
+[2023-07-29 18:07:13] INFO root fetch - main [MainThread]: Store serial: [19090039]
