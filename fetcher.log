@@ -8191,3 +8191,76 @@
 [2023-07-29 06:02:24] INFO root fetch - processPackages [proxy-cheap]: Remove: archive file [/home/abi/fetcher/tmp/proxy_cheap-0.0.7.tar.gz]
 [2023-07-29 06:02:24] INFO root fetch - main [MainThread]: End processing [proxy-cheap]: success
 [2023-07-29 06:02:24] INFO root fetch - main [MainThread]: Store serial: [19085200]
+[2023-07-29 06:07:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19085200]
+[2023-07-29 06:07:32] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-29 06:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pmdb
+[2023-07-29 06:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: infrahouse-toolkit
+[2023-07-29 06:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kkpyutil
+[2023-07-29 06:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: UIron
+[2023-07-29 06:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chromedriver-binary
+[2023-07-29 06:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pmdb
+[2023-07-29 06:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: red_utils
+[2023-07-29 06:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addons-oca-l10n-italy
+[2023-07-29 06:07:33] INFO root fetch - processPackages [UIron]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-29 06:07:33] INFO root fetch - processPackages [infrahouse-toolkit]: New version: [2.0.3] Old Version: [2.0.1]
+[2023-07-29 06:07:33] INFO root fetch - processPackages [pmdb]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-07-29 06:07:33] INFO root fetch - processPackages [kkpyutil]: New version: [0.99.1] Old Version: [0.99.0]
+[2023-07-29 06:07:33] INFO root fetch - processPackages [red_utils]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-29 06:07:33] INFO root fetch - processPackages [pmdb]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-07-29 06:07:33] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2023-07-29 06:07:33] INFO root fetch - processPackages [odoo14-addons-oca-l10n-italy]: New version: [14.0.20230728.0] Old Version: [14.0.20230719.0]
+[2023-07-29 06:07:33] INFO root fetch - processPackages [infrahouse-toolkit]: Downloading https://files.pythonhosted.org/packages/00/a8/85ba459913d6f8fe48e21e941e49e89b55facbdb02cf38d8167f2281b95f/infrahouse-toolkit-2.0.1.tar.gz
+[2023-07-29 06:07:33] INFO root fetch - processPackages [red_utils]: Downloading https://files.pythonhosted.org/packages/71/23/454d0daefbdeab3489a68945eda764f0ee0c03988f63a5578ecf6a6be9f7/red_utils-0.1.7.tar.gz
+[2023-07-29 06:07:33] INFO root fetch - processPackages [kkpyutil]: Downloading https://files.pythonhosted.org/packages/fd/24/affb7fe4496d087c3b175a07aae0ea898dcf008ef4be91f51a39e9000c24/kkpyutil-0.99.0.tar.gz
+[2023-07-29 06:07:33] INFO root fetch - processPackages [pmdb]: Downloading https://files.pythonhosted.org/packages/ce/e9/72dda8efb362e3145f8c73b1a0def95e655ef658c455d3a6c0f8fc7366e6/pmdb-0.0.0.tar.gz
+[2023-07-29 06:07:33] INFO root fetch - processPackages [pmdb]: Downloading https://files.pythonhosted.org/packages/ce/e9/72dda8efb362e3145f8c73b1a0def95e655ef658c455d3a6c0f8fc7366e6/pmdb-0.0.0.tar.gz
+[2023-07-29 06:07:33] INFO root fetch - processPackages [UIron]: Downloading https://files.pythonhosted.org/packages/45/21/29e7af757f25ce76fd9158c8afb442317ea3233be58a1634108176b0c100/UIron-0.0.3.tar.gz
+[2023-07-29 06:07:33] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2023-07-29 06:07:33] INFO root fetch - processPackages [odoo14-addons-oca-l10n-italy]: Downloading https://files.pythonhosted.org/packages/86/80/c3f4142d42be557d9d5c4e4c3cd392afdbe6322a6b9e0a2cfaa7f0dffdde/odoo14_addons_oca_l10n_italy-14.0.20230719.0-py3-none-any.whl
+[2023-07-29 06:07:33] INFO root fetch - processPackages [kkpyutil]: Downloading https://files.pythonhosted.org/packages/55/42/485d53cc78b791f1dd32900d05d05c1a2070176870f678253c86b332956b/kkpyutil-0.99.1.tar.gz
+[2023-07-29 06:07:33] INFO root fetch - processPackages [infrahouse-toolkit]: Downloading https://files.pythonhosted.org/packages/eb/d9/51c2c1244ee75e2746f80d61261361339e09c2f9bc9b42ae0d4ba77173c0/infrahouse-toolkit-2.0.3.tar.gz
+[2023-07-29 06:07:33] INFO root fetch - processPackages [pmdb]: Downloading https://files.pythonhosted.org/packages/85/3b/10e39055dd391777b4a60a0ba6f78ce19a3e9fe932754b0eb893de2d2e06/pmdb-0.0.1.tar.gz
+[2023-07-29 06:07:33] INFO root fetch - processPackages [pmdb]: Downloading https://files.pythonhosted.org/packages/85/3b/10e39055dd391777b4a60a0ba6f78ce19a3e9fe932754b0eb893de2d2e06/pmdb-0.0.1.tar.gz
+[2023-07-29 06:07:33] INFO root fetch - processPackages [UIron]: Downloading https://files.pythonhosted.org/packages/e4/f4/c0d81234d13edd1059d49449539dbc6542bd5dd388c58a60281b17fe58a0/UIron-0.0.4.tar.gz
+[2023-07-29 06:07:33] INFO root fetch - processPackages [kkpyutil]: executing diffoscope
+[2023-07-29 06:07:33] INFO root fetch - processPackages [kkpyutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kkpyutil-0.99.0.tar.gz tmp/kkpyutil-0.99.1.tar.gz --markdown 20230729/k/kkpyutil/0.99.0-0.99.1/diff.md --exclude *.pyd
+[2023-07-29 06:07:33] INFO root fetch - processPackages [infrahouse-toolkit]: executing diffoscope
+[2023-07-29 06:07:33] INFO root fetch - processPackages [infrahouse-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infrahouse-toolkit-2.0.1.tar.gz tmp/infrahouse-toolkit-2.0.3.tar.gz --markdown 20230729/i/infrahouse-toolkit/2.0.1-2.0.3/diff.md --exclude *.pyd
+[2023-07-29 06:07:34] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2023-07-29 06:07:34] INFO root fetch - processPackages [pmdb]: executing diffoscope
+[2023-07-29 06:07:34] INFO root fetch - processPackages [pmdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmdb-0.0.0.tar.gz tmp/pmdb-0.0.1.tar.gz --markdown 20230729/p/pmdb/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-07-29 06:07:34] INFO root fetch - processPackages [pmdb]: executing diffoscope
+[2023-07-29 06:07:34] INFO root fetch - processPackages [pmdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmdb-0.0.0.tar.gz tmp/pmdb-0.0.1.tar.gz --markdown 20230729/p/pmdb/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-07-29 06:07:34] INFO root fetch - processPackages [UIron]: executing diffoscope
+[2023-07-29 06:07:34] INFO root fetch - processPackages [UIron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UIron-0.0.3.tar.gz tmp/UIron-0.0.4.tar.gz --markdown 20230729/U/UIron/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-29 06:07:34] INFO root fetch - processPackages [odoo14-addons-oca-l10n-italy]: Downloading https://files.pythonhosted.org/packages/0f/50/b3fe1097c9f10365d4debe87c687a9b15635ac4d28c069180f431f76f07b/odoo14_addons_oca_l10n_italy-14.0.20230728.0-py3-none-any.whl
+[2023-07-29 06:07:34] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2023-07-29 06:07:34] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20230729/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/diff.md --exclude *.pyd
+[2023-07-29 06:07:34] INFO root fetch - processPackages [odoo14-addons-oca-l10n-italy]: executing diffoscope
+[2023-07-29 06:07:34] INFO root fetch - processPackages [odoo14-addons-oca-l10n-italy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_l10n_italy-14.0.20230719.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_l10n_italy-14.0.20230728.0-py3-none-any.whl.zip --markdown 20230729/o/odoo14-addons-oca-l10n-italy/14.0.20230719.0-14.0.20230728.0/diff.md --exclude *.pyd
+[2023-07-29 06:07:34] INFO root fetch - processPackages [red_utils]: Downloading https://files.pythonhosted.org/packages/db/50/0f8365e42c9e379605196075f02241e65e4f5e0d80a46726a47ac5393d09/red_utils-0.1.8.tar.gz
+[2023-07-29 06:07:34] INFO root fetch - processPackages [red_utils]: executing diffoscope
+[2023-07-29 06:07:34] INFO root fetch - processPackages [red_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/red_utils-0.1.7.tar.gz tmp/red_utils-0.1.8.tar.gz --markdown 20230729/r/red_utils/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-29 06:07:35] INFO root fetch - processPackages [pmdb]: Remove: archive file [/home/abi/fetcher/tmp/pmdb-0.0.0.tar.gz]
+[2023-07-29 06:07:35] INFO root fetch - processPackages [pmdb]: Remove: archive file [/home/abi/fetcher/tmp/pmdb-0.0.1.tar.gz]
+[2023-07-29 06:07:35] INFO root fetch - main [MainThread]: End processing [pmdb]: success
+[2023-07-29 06:07:35] INFO root fetch - main [MainThread]: End processing [pmdb]: success
+[2023-07-29 06:07:35] INFO root fetch - processPackages [odoo14-addons-oca-l10n-italy]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_l10n_italy-14.0.20230719.0-py3-none-any.whl.zip]
+[2023-07-29 06:07:35] INFO root fetch - processPackages [odoo14-addons-oca-l10n-italy]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_l10n_italy-14.0.20230728.0-py3-none-any.whl.zip]
+[2023-07-29 06:07:35] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-l10n-italy]: success
+[2023-07-29 06:07:35] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.35.0.tar.gz]
+[2023-07-29 06:07:35] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.51.0.tar.gz]
+[2023-07-29 06:07:35] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2023-07-29 06:07:35] INFO root fetch - processPackages [kkpyutil]: Remove: archive file [/home/abi/fetcher/tmp/kkpyutil-0.99.0.tar.gz]
+[2023-07-29 06:07:35] INFO root fetch - processPackages [kkpyutil]: Remove: archive file [/home/abi/fetcher/tmp/kkpyutil-0.99.1.tar.gz]
+[2023-07-29 06:07:35] INFO root fetch - main [MainThread]: End processing [kkpyutil]: success
+[2023-07-29 06:07:35] INFO root fetch - processPackages [UIron]: Remove: archive file [/home/abi/fetcher/tmp/UIron-0.0.3.tar.gz]
+[2023-07-29 06:07:35] INFO root fetch - processPackages [UIron]: Remove: archive file [/home/abi/fetcher/tmp/UIron-0.0.4.tar.gz]
+[2023-07-29 06:07:35] INFO root fetch - main [MainThread]: End processing [UIron]: success
+[2023-07-29 06:07:35] INFO root fetch - processPackages [infrahouse-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/infrahouse-toolkit-2.0.1.tar.gz]
+[2023-07-29 06:07:35] INFO root fetch - processPackages [infrahouse-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/infrahouse-toolkit-2.0.3.tar.gz]
+[2023-07-29 06:07:35] INFO root fetch - main [MainThread]: End processing [infrahouse-toolkit]: success
+[2023-07-29 06:07:37] INFO root fetch - processPackages [red_utils]: Remove: archive file [/home/abi/fetcher/tmp/red_utils-0.1.7.tar.gz]
+[2023-07-29 06:07:37] INFO root fetch - processPackages [red_utils]: Remove: archive file [/home/abi/fetcher/tmp/red_utils-0.1.8.tar.gz]
+[2023-07-29 06:07:37] INFO root fetch - main [MainThread]: End processing [red_utils]: success
+[2023-07-29 06:07:37] INFO root fetch - main [MainThread]: Store serial: [19085224]
