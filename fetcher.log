@@ -22171,3 +22171,42 @@ AssertionError: tmp/pulpcore-3.9.0.tar.gz does not exist
 [2023-07-29 20:30:13] INFO root fetch - processPackages [pretix-sumup]: Remove: archive file [/home/abi/fetcher/tmp/pretix-sumup-1.0.3.tar.gz]
 [2023-07-29 20:30:13] INFO root fetch - main [MainThread]: End processing [pretix-sumup]: success
 [2023-07-29 20:30:13] INFO root fetch - main [MainThread]: Store serial: [19091002]
+[2023-07-29 20:35:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19091002]
+[2023-07-29 20:35:22] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-29 20:35:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: decorlib
+[2023-07-29 20:35:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytransformers
+[2023-07-29 20:35:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: statute-utils
+[2023-07-29 20:35:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datarails
+[2023-07-29 20:35:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: VN-transformer
+[2023-07-29 20:35:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytransformers
+[2023-07-29 20:35:22] INFO root fetch - processPackages [VN-transformer]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-29 20:35:22] WARNING root fetch - processPackages [decorlib]: Skipping, unable to determine old version
+[2023-07-29 20:35:22] INFO root fetch - main [MainThread]: End processing [decorlib] error
+[2023-07-29 20:35:22] WARNING root fetch - processPackages [pytransformers]: Skipping, unable to determine old version
+[2023-07-29 20:35:22] INFO root fetch - main [MainThread]: End processing [pytransformers] error
+[2023-07-29 20:35:22] WARNING root fetch - processPackages [pytransformers]: Skipping, unable to determine old version
+[2023-07-29 20:35:22] INFO root fetch - main [MainThread]: End processing [pytransformers] error
+[2023-07-29 20:35:22] INFO root fetch - processPackages [datarails]: New version: [0.2.7] Old Version: [0.2.5]
+[2023-07-29 20:35:22] INFO root fetch - processPackages [statute-utils]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-29 20:35:22] INFO root fetch - processPackages [statute-utils]: Downloading https://files.pythonhosted.org/packages/19/db/674dc41e75ea08d189c42a468d888c57d52dd8cac3d1dddba26b25362abb/statute_utils-0.6.1.tar.gz
+[2023-07-29 20:35:22] INFO root fetch - processPackages [datarails]: Downloading https://files.pythonhosted.org/packages/3e/e1/ecfd2dac82012584b3bc59693ca11f9296da4ecb4cefe914f7660be507c0/datarails-0.2.5.tar.gz
+[2023-07-29 20:35:22] INFO root fetch - processPackages [VN-transformer]: Downloading https://files.pythonhosted.org/packages/70/a5/73fb06ba9b9a25bdf65ffea0e7962853cebce5dae2221f5a24bcfab7eeb9/VN-transformer-0.0.7.tar.gz
+[2023-07-29 20:35:22] INFO root fetch - processPackages [VN-transformer]: Downloading https://files.pythonhosted.org/packages/00/28/3d59b7c69662e6f3a34a002639d969f42a9ecf213af532781310ecf5415f/VN-transformer-0.0.8.tar.gz
+[2023-07-29 20:35:22] INFO root fetch - processPackages [statute-utils]: Downloading https://files.pythonhosted.org/packages/c4/5e/17a406eaa2461abc886fbe6f53a80333a49638797077deb6b37dcef7c0dd/statute_utils-0.6.2.tar.gz
+[2023-07-29 20:35:22] INFO root fetch - processPackages [datarails]: Downloading https://files.pythonhosted.org/packages/11/bd/e04606948eb3f3a5e94ed3cfe07e841967c1090b09247f70f56719985478/datarails-0.2.7.tar.gz
+[2023-07-29 20:35:22] INFO root fetch - processPackages [VN-transformer]: executing diffoscope
+[2023-07-29 20:35:22] INFO root fetch - processPackages [VN-transformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VN-transformer-0.0.7.tar.gz tmp/VN-transformer-0.0.8.tar.gz --markdown 20230729/V/VN-transformer/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-29 20:35:23] INFO root fetch - processPackages [statute-utils]: executing diffoscope
+[2023-07-29 20:35:23] INFO root fetch - processPackages [statute-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statute_utils-0.6.1.tar.gz tmp/statute_utils-0.6.2.tar.gz --markdown 20230729/s/statute-utils/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-29 20:35:23] INFO root fetch - processPackages [datarails]: executing diffoscope
+[2023-07-29 20:35:23] INFO root fetch - processPackages [datarails]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datarails-0.2.5.tar.gz tmp/datarails-0.2.7.tar.gz --markdown 20230729/d/datarails/0.2.5-0.2.7/diff.md --exclude *.pyd
+[2023-07-29 20:35:23] INFO root fetch - processPackages [VN-transformer]: Remove: archive file [/home/abi/fetcher/tmp/VN-transformer-0.0.7.tar.gz]
+[2023-07-29 20:35:23] INFO root fetch - processPackages [VN-transformer]: Remove: archive file [/home/abi/fetcher/tmp/VN-transformer-0.0.8.tar.gz]
+[2023-07-29 20:35:23] INFO root fetch - main [MainThread]: End processing [VN-transformer]: success
+[2023-07-29 20:35:23] INFO root fetch - processPackages [statute-utils]: Remove: archive file [/home/abi/fetcher/tmp/statute_utils-0.6.1.tar.gz]
+[2023-07-29 20:35:23] INFO root fetch - processPackages [statute-utils]: Remove: archive file [/home/abi/fetcher/tmp/statute_utils-0.6.2.tar.gz]
+[2023-07-29 20:35:23] INFO root fetch - main [MainThread]: End processing [statute-utils]: success
+[2023-07-29 20:35:23] INFO root fetch - processPackages [datarails]: Remove: archive file [/home/abi/fetcher/tmp/datarails-0.2.5.tar.gz]
+[2023-07-29 20:35:23] INFO root fetch - processPackages [datarails]: Remove: archive file [/home/abi/fetcher/tmp/datarails-0.2.7.tar.gz]
+[2023-07-29 20:35:23] INFO root fetch - main [MainThread]: End processing [datarails]: success
+[2023-07-29 20:35:23] INFO root fetch - main [MainThread]: Store serial: [19091024]
