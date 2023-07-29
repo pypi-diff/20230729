@@ -6785,3 +6785,83 @@
 [2023-07-29 03:42:58] INFO root fetch - processPackages [tcod-ecs]: Remove: archive file [/home/abi/fetcher/tmp/tcod_ecs-4.2.1.tar.gz]
 [2023-07-29 03:42:58] INFO root fetch - main [MainThread]: End processing [tcod-ecs]: success
 [2023-07-29 03:42:58] INFO root fetch - main [MainThread]: Store serial: [19084571]
+[2023-07-29 03:48:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19084571]
+[2023-07-29 03:48:06] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-29 03:48:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easywrite
+[2023-07-29 03:48:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: heaserver-folders-aws-s3
+[2023-07-29 03:48:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: proactive
+[2023-07-29 03:48:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-apl
+[2023-07-29 03:48:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: threemystic-cloud-data-client
+[2023-07-29 03:48:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: popcorn-api
+[2023-07-29 03:48:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: proactive-jupyter-kernel
+[2023-07-29 03:48:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-prodvana
+[2023-07-29 03:48:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: foxes-cool
+[2023-07-29 03:48:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: captcha
+[2023-07-29 03:48:07] INFO root fetch - processPackages [heaserver-folders-aws-s3]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-07-29 03:48:07] INFO root fetch - processPackages [easywrite]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-07-29 03:48:07] INFO root fetch - processPackages [captcha]: New version: [0.5.0] Old Version: [0.4]
+[2023-07-29 03:48:07] WARNING root fetch - processPackages [popcorn-api]: Skipping, unable to determine old version
+[2023-07-29 03:48:07] INFO root fetch - processPackages [popcorn-api]: Start processing: tja2fumen
+[2023-07-29 03:48:07] INFO root fetch - main [MainThread]: End processing [popcorn-api] error
+[2023-07-29 03:48:07] WARNING root fetch - processPackages [foxes-cool]: Skipping, unable to determine old version
+[2023-07-29 03:48:07] INFO root fetch - main [MainThread]: End processing [foxes-cool] error
+[2023-07-29 03:48:07] INFO root fetch - processPackages [pulumi-prodvana]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-29 03:48:07] WARNING root fetch - processPackages [threemystic-cloud-data-client]: Skipping, unable to determine old version
+[2023-07-29 03:48:07] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-data-client] error
+[2023-07-29 03:48:07] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-07-29 03:48:07] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.923] Old Version: [0.0.922]
+[2023-07-29 03:48:07] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-07-29 03:48:07] INFO root fetch - processPackages [easywrite]: Downloading https://files.pythonhosted.org/packages/a2/dd/6c706ef843bd79bdc828a24b50485785193139c8952c5da16c1413775f48/easywrite-1.2.0.tar.gz
+[2023-07-29 03:48:07] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/bb/08/7d5ac7cbac45d2331daf51239b2e02c7ae60fea7a64997dc965755901085/nbdev-apl-0.0.922.tar.gz
+[2023-07-29 03:48:07] INFO root fetch - processPackages [pulumi-prodvana]: Downloading https://files.pythonhosted.org/packages/12/31/32c1b41c6b5b52849e24af028f4b83558bb2ec8f681ebd8dc55d69b628ae/pulumi_prodvana-0.1.8.tar.gz
+[2023-07-29 03:48:07] INFO root fetch - processPackages [tja2fumen]: New version: [0.6.0] Old Version: [0.5.4]
+[2023-07-29 03:48:07] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-07-29 03:48:07] INFO root fetch - processPackages [captcha]: Downloading https://files.pythonhosted.org/packages/3d/98/b2d411b48c8ddab380bb529895e4c6f451206ea47bef2c43324d6422dd06/captcha-0.4.tar.gz
+[2023-07-29 03:48:07] INFO root fetch - processPackages [heaserver-folders-aws-s3]: Downloading https://files.pythonhosted.org/packages/f8/10/3a86463ed5a3cada680e1678f42cfdf2a07f27f8cdb90c8d0c3f57f9ab82/heaserver-folders-aws-s3-1.0.0a8.tar.gz
+[2023-07-29 03:48:07] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/2f/bc/886004d2f6edca874f61f16aaba9985e6b38f5c62e3a9638165dad1ae89e/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip
+[2023-07-29 03:48:07] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-07-29 03:48:07] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-07-29 03:48:07] INFO root fetch - processPackages [tja2fumen]: Downloading https://files.pythonhosted.org/packages/ab/b9/b47eaf1953300fbe2f1004639e30b38eecb37bf379db23dda0225f3fdee9/tja2fumen-0.5.4.tar.gz
+[2023-07-29 03:48:07] INFO root fetch - processPackages [easywrite]: Downloading https://files.pythonhosted.org/packages/49/da/b1448a166120c3f613696d56e2200514b942afadc5fbad0686e6a95ba404/easywrite-1.3.0.tar.gz
+[2023-07-29 03:48:07] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/ae/9d/7d1d6f550149295602d746c38dfe034bf6ad5c85291eaaf706d74ca3fda6/nbdev-apl-0.0.923.tar.gz
+[2023-07-29 03:48:07] INFO root fetch - processPackages [pulumi-prodvana]: Downloading https://files.pythonhosted.org/packages/bd/16/5aeb60ac74444eecc071a4f207276013611c19e04d420ff0bf08f1b5fa29/pulumi_prodvana-0.1.9.tar.gz
+[2023-07-29 03:48:07] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/b1/93/020f781eacfc72831423f0159f4e4e5afdb02a21db391853b68ce7631de6/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip
+[2023-07-29 03:48:07] INFO root fetch - processPackages [captcha]: Downloading https://files.pythonhosted.org/packages/9d/e8/f41cd8879c3368fbc7297b463674d5d6439a80c61e089dbcee195c143fb7/captcha-0.5.0.tar.gz
+[2023-07-29 03:48:07] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-07-29 03:48:07] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.922.tar.gz tmp/nbdev-apl-0.0.923.tar.gz --markdown 20230729/n/nbdev-apl/0.0.922-0.0.923/diff.md --exclude *.pyd
+[2023-07-29 03:48:08] INFO root fetch - processPackages [easywrite]: executing diffoscope
+[2023-07-29 03:48:08] INFO root fetch - processPackages [easywrite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easywrite-1.2.0.tar.gz tmp/easywrite-1.3.0.tar.gz --markdown 20230729/e/easywrite/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-07-29 03:48:08] INFO root fetch - processPackages [heaserver-folders-aws-s3]: Downloading https://files.pythonhosted.org/packages/f0/b0/dda81eace819afe1df5d783a040e576f769b7f6834886d20e39ca1737454/heaserver-folders-aws-s3-1.0.0a9.tar.gz
+[2023-07-29 03:48:08] INFO root fetch - processPackages [pulumi-prodvana]: executing diffoscope
+[2023-07-29 03:48:08] INFO root fetch - processPackages [pulumi-prodvana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_prodvana-0.1.8.tar.gz tmp/pulumi_prodvana-0.1.9.tar.gz --markdown 20230729/p/pulumi-prodvana/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-29 03:48:08] INFO root fetch - processPackages [captcha]: executing diffoscope
+[2023-07-29 03:48:08] INFO root fetch - processPackages [captcha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/captcha-0.4.tar.gz tmp/captcha-0.5.0.tar.gz --markdown 20230729/c/captcha/0.4-0.5.0/diff.md --exclude *.pyd
+[2023-07-29 03:48:08] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-07-29 03:48:08] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230729/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-07-29 03:48:08] INFO root fetch - processPackages [tja2fumen]: Downloading https://files.pythonhosted.org/packages/2a/a0/8e780a8389284977560795d334b5c8867f6224d87fb8f616c130e6b8a897/tja2fumen-0.6.0.tar.gz
+[2023-07-29 03:48:08] INFO root fetch - processPackages [heaserver-folders-aws-s3]: executing diffoscope
+[2023-07-29 03:48:08] INFO root fetch - processPackages [heaserver-folders-aws-s3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-folders-aws-s3-1.0.0a8.tar.gz tmp/heaserver-folders-aws-s3-1.0.0a9.tar.gz --markdown 20230729/h/heaserver-folders-aws-s3/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-07-29 03:48:08] INFO root fetch - processPackages [tja2fumen]: executing diffoscope
+[2023-07-29 03:48:08] INFO root fetch - processPackages [tja2fumen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tja2fumen-0.5.4.tar.gz tmp/tja2fumen-0.6.0.tar.gz --markdown 20230729/t/tja2fumen/0.5.4-0.6.0/diff.md --exclude *.pyd
+[2023-07-29 03:48:09] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.922.tar.gz]
+[2023-07-29 03:48:09] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.923.tar.gz]
+[2023-07-29 03:48:09] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-07-29 03:48:09] INFO root fetch - processPackages [easywrite]: Remove: archive file [/home/abi/fetcher/tmp/easywrite-1.2.0.tar.gz]
+[2023-07-29 03:48:09] INFO root fetch - processPackages [easywrite]: Remove: archive file [/home/abi/fetcher/tmp/easywrite-1.3.0.tar.gz]
+[2023-07-29 03:48:09] INFO root fetch - main [MainThread]: End processing [easywrite]: success
+[2023-07-29 03:48:09] INFO root fetch - processPackages [captcha]: Remove: archive file [/home/abi/fetcher/tmp/captcha-0.4.tar.gz]
+[2023-07-29 03:48:09] INFO root fetch - processPackages [captcha]: Remove: archive file [/home/abi/fetcher/tmp/captcha-0.5.0.tar.gz]
+[2023-07-29 03:48:09] INFO root fetch - main [MainThread]: End processing [captcha]: success
+[2023-07-29 03:48:09] INFO root fetch - processPackages [pulumi-prodvana]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_prodvana-0.1.8.tar.gz]
+[2023-07-29 03:48:09] INFO root fetch - processPackages [pulumi-prodvana]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_prodvana-0.1.9.tar.gz]
+[2023-07-29 03:48:09] INFO root fetch - main [MainThread]: End processing [pulumi-prodvana]: success
+[2023-07-29 03:48:09] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip]
+[2023-07-29 03:48:09] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip]
+[2023-07-29 03:48:09] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-07-29 03:48:09] INFO root fetch - processPackages [heaserver-folders-aws-s3]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-folders-aws-s3-1.0.0a8.tar.gz]
+[2023-07-29 03:48:09] INFO root fetch - processPackages [heaserver-folders-aws-s3]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-folders-aws-s3-1.0.0a9.tar.gz]
+[2023-07-29 03:48:09] INFO root fetch - main [MainThread]: End processing [heaserver-folders-aws-s3]: success
+[2023-07-29 03:48:09] INFO root fetch - processPackages [tja2fumen]: Remove: archive file [/home/abi/fetcher/tmp/tja2fumen-0.5.4.tar.gz]
+[2023-07-29 03:48:09] INFO root fetch - processPackages [tja2fumen]: Remove: archive file [/home/abi/fetcher/tmp/tja2fumen-0.6.0.tar.gz]
+[2023-07-29 03:48:09] INFO root fetch - main [MainThread]: End processing [tja2fumen]: success
+[2023-07-29 03:48:09] INFO root fetch - main [MainThread]: Store serial: [19084615]
