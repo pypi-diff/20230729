@@ -11742,3 +11742,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 11:36:05] INFO root fetch - processPackages [tagpatch]: Remove: archive file [/home/abi/fetcher/tmp/tagpatch-0.1.1.tar.gz]
 [2023-07-29 11:36:05] INFO root fetch - main [MainThread]: End processing [tagpatch]: success
 [2023-07-29 11:36:05] INFO root fetch - main [MainThread]: Store serial: [19086658]
+[2023-07-29 11:41:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19086658]
+[2023-07-29 11:41:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-29 11:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spatk
+[2023-07-29 11:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Cemotion
+[2023-07-29 11:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: djangoldp-resource
+[2023-07-29 11:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-l10n-ro-stock-account
+[2023-07-29 11:41:14] INFO root fetch - processPackages [djangoldp-resource]: New version: [3.0.0] Old Version: [2.0.6]
+[2023-07-29 11:41:14] INFO root fetch - processPackages [spatk]: New version: [1.2.1] Old Version: [1.1.1]
+[2023-07-29 11:41:14] INFO root fetch - processPackages [Cemotion]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-07-29 11:41:14] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: New version: [14.0.8.9.0] Old Version: [14.0.8.8.0]
+[2023-07-29 11:41:14] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: Downloading https://files.pythonhosted.org/packages/0f/5d/d918bf77c81d780e04aaa723a0d6bab36ff9c1a8391c699159e60b57fed7/odoo14_addon_l10n_ro_stock_account-14.0.8.8.0-py3-none-any.whl
+[2023-07-29 11:41:14] INFO root fetch - processPackages [Cemotion]: Downloading https://files.pythonhosted.org/packages/d5/36/62e266b05cb8f2a2f4a20786f413b06b3ef93e37607288acc98f7d4e4fac/Cemotion-2.0.3.tar.gz
+[2023-07-29 11:41:14] INFO root fetch - processPackages [djangoldp-resource]: Downloading https://files.pythonhosted.org/packages/d3/14/51f12625ce63981e15e4ca0411b7699972d6c4d12048a3d7e2928983a74a/djangoldp_resource-2.0.6.tar.gz
+[2023-07-29 11:41:14] INFO root fetch - processPackages [spatk]: Downloading https://files.pythonhosted.org/packages/be/fb/2c0fb4071f04a828dd60836d235325afbd01b36e6d7159c8f78b2b9abe65/spatk-1.1.1.tar.gz
+[2023-07-29 11:41:14] INFO root fetch - processPackages [djangoldp-resource]: Downloading https://files.pythonhosted.org/packages/0c/bc/1feca8cab602bdb41260d566b459a8c1f4bb3da3a2ea25c8d2877cf433d7/djangoldp_resource-3.0.0.tar.gz
+[2023-07-29 11:41:14] INFO root fetch - processPackages [Cemotion]: Downloading https://files.pythonhosted.org/packages/d5/d6/ffbab9ab18ac25ef785d37b5e38b4b000442e436ed7a4bf638a8b3694d85/Cemotion-2.0.4.tar.gz
+[2023-07-29 11:41:14] INFO root fetch - processPackages [djangoldp-resource]: executing diffoscope
+[2023-07-29 11:41:14] INFO root fetch - processPackages [djangoldp-resource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_resource-2.0.6.tar.gz tmp/djangoldp_resource-3.0.0.tar.gz --markdown 20230729/d/djangoldp-resource/2.0.6-3.0.0/diff.md --exclude *.pyd
+[2023-07-29 11:41:14] INFO root fetch - processPackages [Cemotion]: executing diffoscope
+[2023-07-29 11:41:14] INFO root fetch - processPackages [Cemotion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Cemotion-2.0.3.tar.gz tmp/Cemotion-2.0.4.tar.gz --markdown 20230729/C/Cemotion/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-07-29 11:41:14] INFO root fetch - processPackages [spatk]: Downloading https://files.pythonhosted.org/packages/57/a7/219319d96ea4ef74852876f86c0610cf2c0f0a6dcbba748a31a4de22de74/spatk-1.2.1.tar.gz
+[2023-07-29 11:41:15] INFO root fetch - processPackages [spatk]: executing diffoscope
+[2023-07-29 11:41:15] INFO root fetch - processPackages [spatk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spatk-1.1.1.tar.gz tmp/spatk-1.2.1.tar.gz --markdown 20230729/s/spatk/1.1.1-1.2.1/diff.md --exclude *.pyd
+[2023-07-29 11:41:15] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: Downloading https://files.pythonhosted.org/packages/d9/f6/d390d7dd65ffcd4da3cac5c58908ec5c165437c5ec74857d9717dbb5b740/odoo14_addon_l10n_ro_stock_account-14.0.8.9.0-py3-none-any.whl
+[2023-07-29 11:41:15] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: executing diffoscope
+[2023-07-29 11:41:15] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_ro_stock_account-14.0.8.8.0-py3-none-any.whl.zip tmp/odoo14_addon_l10n_ro_stock_account-14.0.8.9.0-py3-none-any.whl.zip --markdown 20230729/o/odoo14-addon-l10n-ro-stock-account/14.0.8.8.0-14.0.8.9.0/diff.md --exclude *.pyd
+[2023-07-29 11:41:15] INFO root fetch - processPackages [djangoldp-resource]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_resource-2.0.6.tar.gz]
+[2023-07-29 11:41:15] INFO root fetch - processPackages [djangoldp-resource]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_resource-3.0.0.tar.gz]
+[2023-07-29 11:41:15] INFO root fetch - main [MainThread]: End processing [djangoldp-resource]: success
+[2023-07-29 11:41:15] INFO root fetch - processPackages [Cemotion]: Remove: archive file [/home/abi/fetcher/tmp/Cemotion-2.0.3.tar.gz]
+[2023-07-29 11:41:15] INFO root fetch - processPackages [Cemotion]: Remove: archive file [/home/abi/fetcher/tmp/Cemotion-2.0.4.tar.gz]
+[2023-07-29 11:41:15] INFO root fetch - main [MainThread]: End processing [Cemotion]: success
+[2023-07-29 11:41:15] INFO root fetch - processPackages [spatk]: Remove: archive file [/home/abi/fetcher/tmp/spatk-1.1.1.tar.gz]
+[2023-07-29 11:41:15] INFO root fetch - processPackages [spatk]: Remove: archive file [/home/abi/fetcher/tmp/spatk-1.2.1.tar.gz]
+[2023-07-29 11:41:15] INFO root fetch - main [MainThread]: End processing [spatk]: success
+[2023-07-29 11:41:16] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_ro_stock_account-14.0.8.8.0-py3-none-any.whl.zip]
+[2023-07-29 11:41:16] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_ro_stock_account-14.0.8.9.0-py3-none-any.whl.zip]
+[2023-07-29 11:41:16] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-ro-stock-account]: success
+[2023-07-29 11:41:16] INFO root fetch - main [MainThread]: Store serial: [19086669]
