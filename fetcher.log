@@ -18368,3 +18368,66 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 16:04:31] INFO root fetch - processPackages [crypto-info]: Remove: archive file [/home/abi/fetcher/tmp/crypto-info-1.2.1.tar.gz]
 [2023-07-29 16:04:31] INFO root fetch - main [MainThread]: End processing [crypto-info]: success
 [2023-07-29 16:04:31] INFO root fetch - main [MainThread]: Store serial: [19089225]
+[2023-07-29 16:09:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19089225]
+[2023-07-29 16:09:40] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-29 16:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coconut-develop
+[2023-07-29 16:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MCS030897
+[2023-07-29 16:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openttd-protocol
+[2023-07-29 16:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fern-sentra
+[2023-07-29 16:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mgzip2
+[2023-07-29 16:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: htagweb
+[2023-07-29 16:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: runusb
+[2023-07-29 16:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aprilgrid
+[2023-07-29 16:09:40] INFO root fetch - processPackages [mgzip2]: New version: [0.2.6] Old Version: [0.2.4]
+[2023-07-29 16:09:40] INFO root fetch - processPackages [fern-sentra]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-29 16:09:40] WARNING root fetch - processPackages [MCS030897]: Skipping, unable to determine old version
+[2023-07-29 16:09:40] INFO root fetch - main [MainThread]: End processing [MCS030897] error
+[2023-07-29 16:09:40] INFO root fetch - processPackages [htagweb]: New version: [0.5.0] Old Version: [0.4.3]
+[2023-07-29 16:09:40] INFO root fetch - processPackages [aprilgrid]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-07-29 16:09:40] INFO root fetch - processPackages [openttd-protocol]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-07-29 16:09:40] WARNING root fetch - processPackages [runusb]: Skipping, unable to determine old version
+[2023-07-29 16:09:40] INFO root fetch - main [MainThread]: End processing [runusb] error
+[2023-07-29 16:09:41] INFO root fetch - processPackages [coconut-develop]: New version: [3.0.3.post0.dev2] Old Version: [3.0.3.post0.dev1]
+[2023-07-29 16:09:41] INFO root fetch - processPackages [fern-sentra]: Downloading https://files.pythonhosted.org/packages/a7/9b/da8b689bef9be9ac5fd43d84e1ff4ac754e69a5ea66fd60516ae67f0e3ca/fern_sentra-0.0.6.tar.gz
+[2023-07-29 16:09:41] INFO root fetch - processPackages [htagweb]: Downloading https://files.pythonhosted.org/packages/25/4c/94a9e655267288d251bdc22d1492f1a8766ae5cd028fb9d61b0e500c9f26/htagweb-0.4.3.tar.gz
+[2023-07-29 16:09:41] INFO root fetch - processPackages [mgzip2]: Downloading https://files.pythonhosted.org/packages/23/68/1f11c74bc574bc9b6c06671286d66da151e14b9bddfc08853ed33e643046/mgzip2-0.2.4.tar.gz
+[2023-07-29 16:09:41] INFO root fetch - processPackages [aprilgrid]: Downloading https://files.pythonhosted.org/packages/9e/b2/cc116b496548db7076aa0d53bd63431391bf7b8c79d3e85b7332318b43cc/aprilgrid-0.2.3.tar.gz
+[2023-07-29 16:09:41] INFO root fetch - processPackages [openttd-protocol]: Downloading https://files.pythonhosted.org/packages/82/ef/251e43db4477d5e257826287cf725611eb37093b65fc4d6b8ecde8eb7040/openttd-protocol-1.5.0.tar.gz
+[2023-07-29 16:09:41] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/52/3d/8ddbd217a5b6d23735f5463a789ec9572beb8da908207c252b14f0f8e84e/coconut-develop-3.0.3.post0.dev1.tar.gz
+[2023-07-29 16:09:41] INFO root fetch - processPackages [fern-sentra]: Downloading https://files.pythonhosted.org/packages/23/0f/b4e0104692ca1baf730521751b2d7a8eb1345ec98723e57e208a6a1f6df7/fern_sentra-0.0.7.tar.gz
+[2023-07-29 16:09:41] INFO root fetch - processPackages [htagweb]: Downloading https://files.pythonhosted.org/packages/69/1c/97b5b166d2b224d6c0cca4e3945a7e64ee0547a9fe7d672656f11a4400ea/htagweb-0.5.0.tar.gz
+[2023-07-29 16:09:41] INFO root fetch - processPackages [fern-sentra]: executing diffoscope
+[2023-07-29 16:09:41] INFO root fetch - processPackages [fern-sentra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fern_sentra-0.0.6.tar.gz tmp/fern_sentra-0.0.7.tar.gz --markdown 20230729/f/fern-sentra/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-29 16:09:41] INFO root fetch - processPackages [aprilgrid]: Downloading https://files.pythonhosted.org/packages/e3/55/d051d3d8114fc1924783c5f3f7668213274e90beea240361954deaefee7c/aprilgrid-0.3.0.tar.gz
+[2023-07-29 16:09:41] INFO root fetch - processPackages [htagweb]: executing diffoscope
+[2023-07-29 16:09:41] INFO root fetch - processPackages [htagweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htagweb-0.4.3.tar.gz tmp/htagweb-0.5.0.tar.gz --markdown 20230729/h/htagweb/0.4.3-0.5.0/diff.md --exclude *.pyd
+[2023-07-29 16:09:41] INFO root fetch - processPackages [mgzip2]: Downloading https://files.pythonhosted.org/packages/80/30/eb6acee248e471a31ab8bc288e81d6bbca938c400ef18161688c2efd3449/mgzip2-0.2.6.tar.gz
+[2023-07-29 16:09:41] INFO root fetch - processPackages [aprilgrid]: executing diffoscope
+[2023-07-29 16:09:41] INFO root fetch - processPackages [aprilgrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aprilgrid-0.2.3.tar.gz tmp/aprilgrid-0.3.0.tar.gz --markdown 20230729/a/aprilgrid/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-07-29 16:09:41] INFO root fetch - processPackages [openttd-protocol]: Downloading https://files.pythonhosted.org/packages/46/3e/cf4ac37187ade141eb00984c7d1fb29ad1662086c322ade5caebc0022838/openttd-protocol-1.6.0.tar.gz
+[2023-07-29 16:09:41] INFO root fetch - processPackages [mgzip2]: executing diffoscope
+[2023-07-29 16:09:41] INFO root fetch - processPackages [mgzip2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mgzip2-0.2.4.tar.gz tmp/mgzip2-0.2.6.tar.gz --markdown 20230729/m/mgzip2/0.2.4-0.2.6/diff.md --exclude *.pyd
+[2023-07-29 16:09:41] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/86/89/7f725da51436cf8f8400e34d1ff238b3c15608bacfdebac3093b3908a4b3/coconut-develop-3.0.3.post0.dev2.tar.gz
+[2023-07-29 16:09:41] INFO root fetch - processPackages [openttd-protocol]: executing diffoscope
+[2023-07-29 16:09:41] INFO root fetch - processPackages [openttd-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openttd-protocol-1.5.0.tar.gz tmp/openttd-protocol-1.6.0.tar.gz --markdown 20230729/o/openttd-protocol/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-07-29 16:09:41] INFO root fetch - processPackages [coconut-develop]: executing diffoscope
+[2023-07-29 16:09:41] INFO root fetch - processPackages [coconut-develop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coconut-develop-3.0.3.post0.dev1.tar.gz tmp/coconut-develop-3.0.3.post0.dev2.tar.gz --markdown 20230729/c/coconut-develop/3.0.3.post0.dev1-3.0.3.post0.dev2/diff.md --exclude *.pyd
+[2023-07-29 16:09:42] INFO root fetch - processPackages [htagweb]: Remove: archive file [/home/abi/fetcher/tmp/htagweb-0.4.3.tar.gz]
+[2023-07-29 16:09:42] INFO root fetch - processPackages [htagweb]: Remove: archive file [/home/abi/fetcher/tmp/htagweb-0.5.0.tar.gz]
+[2023-07-29 16:09:42] INFO root fetch - main [MainThread]: End processing [htagweb]: success
+[2023-07-29 16:09:42] INFO root fetch - processPackages [aprilgrid]: Remove: archive file [/home/abi/fetcher/tmp/aprilgrid-0.2.3.tar.gz]
+[2023-07-29 16:09:42] INFO root fetch - processPackages [aprilgrid]: Remove: archive file [/home/abi/fetcher/tmp/aprilgrid-0.3.0.tar.gz]
+[2023-07-29 16:09:42] INFO root fetch - main [MainThread]: End processing [aprilgrid]: success
+[2023-07-29 16:09:42] INFO root fetch - processPackages [mgzip2]: Remove: archive file [/home/abi/fetcher/tmp/mgzip2-0.2.4.tar.gz]
+[2023-07-29 16:09:42] INFO root fetch - processPackages [mgzip2]: Remove: archive file [/home/abi/fetcher/tmp/mgzip2-0.2.6.tar.gz]
+[2023-07-29 16:09:42] INFO root fetch - main [MainThread]: End processing [mgzip2]: success
+[2023-07-29 16:09:42] INFO root fetch - processPackages [openttd-protocol]: Remove: archive file [/home/abi/fetcher/tmp/openttd-protocol-1.5.0.tar.gz]
+[2023-07-29 16:09:42] INFO root fetch - processPackages [openttd-protocol]: Remove: archive file [/home/abi/fetcher/tmp/openttd-protocol-1.6.0.tar.gz]
+[2023-07-29 16:09:42] INFO root fetch - main [MainThread]: End processing [openttd-protocol]: success
+[2023-07-29 16:09:43] INFO root fetch - processPackages [fern-sentra]: Remove: archive file [/home/abi/fetcher/tmp/fern_sentra-0.0.6.tar.gz]
+[2023-07-29 16:09:43] INFO root fetch - processPackages [fern-sentra]: Remove: archive file [/home/abi/fetcher/tmp/fern_sentra-0.0.7.tar.gz]
+[2023-07-29 16:09:43] INFO root fetch - main [MainThread]: End processing [fern-sentra]: success
+[2023-07-29 16:09:43] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.3.post0.dev1.tar.gz]
+[2023-07-29 16:09:43] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.3.post0.dev2.tar.gz]
+[2023-07-29 16:09:43] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
+[2023-07-29 16:09:43] INFO root fetch - main [MainThread]: Store serial: [19089254]
