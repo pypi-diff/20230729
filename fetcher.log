@@ -11910,3 +11910,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 11:56:46] INFO root fetch - processPackages [deebot-client]: Remove: archive file [/home/abi/fetcher/tmp/deebot-client-3.0.0b0.tar.gz]
 [2023-07-29 11:56:46] INFO root fetch - main [MainThread]: End processing [deebot-client]: success
 [2023-07-29 11:56:46] INFO root fetch - main [MainThread]: Store serial: [19086724]
+[2023-07-29 12:01:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19086724]
+[2023-07-29 12:01:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-29 12:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stdflow
+[2023-07-29 12:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: djangoldp-event
+[2023-07-29 12:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: taxoniumtools
+[2023-07-29 12:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bgstools
+[2023-07-29 12:01:55] INFO root fetch - processPackages [djangoldp-event]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-07-29 12:01:55] INFO root fetch - processPackages [stdflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-29 12:01:55] INFO root fetch - processPackages [bgstools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-29 12:01:55] INFO root fetch - processPackages [taxoniumtools]: New version: [2.0.91] Old Version: [2.0.90]
+[2023-07-29 12:01:55] INFO root fetch - processPackages [djangoldp-event]: Downloading https://files.pythonhosted.org/packages/a4/e4/501ff9051a10ce88e4a111f4d644a51f206857f37bea0a5bcaab3a405d0f/djangoldp_event-3.0.0.tar.gz
+[2023-07-29 12:01:55] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/a3/d9/0f2b579fbbb29225abec7da824c3d2177fa751c84913339da89e8d0b4f89/bgstools-0.1.8.tar.gz
+[2023-07-29 12:01:55] INFO root fetch - processPackages [stdflow]: Downloading https://files.pythonhosted.org/packages/37/2b/dc718c9a789aae941c5744468c42fa99c1ca83c6fc824add3debc6df543d/stdflow-0.0.8.tar.gz
+[2023-07-29 12:01:55] INFO root fetch - processPackages [taxoniumtools]: Downloading https://files.pythonhosted.org/packages/a6/fb/f176ebc61ca187ea7fc446368c62ce5e9863c233473f2eb2c5d40794fd63/taxoniumtools-2.0.90.tar.gz
+[2023-07-29 12:01:55] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/0a/3c/638191cc7a3a6135dbf58e2857b29d83bacba72ac3e579510aae9606e202/bgstools-0.1.9.tar.gz
+[2023-07-29 12:01:55] INFO root fetch - processPackages [stdflow]: Downloading https://files.pythonhosted.org/packages/93/a7/7a92845fb1a7092159c2fbc2b23c0b733e7c93e5cd012f6538ca900ea3b6/stdflow-0.0.9-py3-none-any.whl
+[2023-07-29 12:01:55] INFO root fetch - processPackages [djangoldp-event]: Downloading https://files.pythonhosted.org/packages/c4/72/4bec9d97c8e0454926b40bd588cc37688296ee891f3e9fc0ad88b54b3a8b/djangoldp_event-3.0.1.tar.gz
+[2023-07-29 12:01:55] INFO root fetch - processPackages [bgstools]: executing diffoscope
+[2023-07-29 12:01:55] INFO root fetch - processPackages [bgstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgstools-0.1.8.tar.gz tmp/bgstools-0.1.9.tar.gz --markdown 20230729/b/bgstools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-29 12:01:55] INFO root fetch - processPackages [stdflow]: executing diffoscope
+[2023-07-29 12:01:55] INFO root fetch - processPackages [stdflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stdflow-0.0.8.tar.gz tmp/stdflow-0.0.9-py3-none-any.whl.zip --markdown 20230729/s/stdflow/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-29 12:01:55] INFO root fetch - processPackages [djangoldp-event]: executing diffoscope
+[2023-07-29 12:01:55] INFO root fetch - processPackages [djangoldp-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_event-3.0.0.tar.gz tmp/djangoldp_event-3.0.1.tar.gz --markdown 20230729/d/djangoldp-event/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-07-29 12:01:55] INFO root fetch - processPackages [taxoniumtools]: Downloading https://files.pythonhosted.org/packages/31/c1/937969429e3f0e64650088958cff4f9f8436974a1490f7c3ffa9e1962711/taxoniumtools-2.0.91.tar.gz
+[2023-07-29 12:01:55] INFO root fetch - processPackages [taxoniumtools]: executing diffoscope
+[2023-07-29 12:01:55] INFO root fetch - processPackages [taxoniumtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taxoniumtools-2.0.90.tar.gz tmp/taxoniumtools-2.0.91.tar.gz --markdown 20230729/t/taxoniumtools/2.0.90-2.0.91/diff.md --exclude *.pyd
+[2023-07-29 12:01:56] INFO root fetch - processPackages [bgstools]: Remove: archive file [/home/abi/fetcher/tmp/bgstools-0.1.8.tar.gz]
+[2023-07-29 12:01:56] INFO root fetch - processPackages [bgstools]: Remove: archive file [/home/abi/fetcher/tmp/bgstools-0.1.9.tar.gz]
+[2023-07-29 12:01:56] INFO root fetch - main [MainThread]: End processing [bgstools]: success
+[2023-07-29 12:01:56] INFO root fetch - processPackages [stdflow]: Remove: archive file [/home/abi/fetcher/tmp/stdflow-0.0.8.tar.gz]
+[2023-07-29 12:01:56] INFO root fetch - processPackages [stdflow]: Remove: archive file [/home/abi/fetcher/tmp/stdflow-0.0.9-py3-none-any.whl.zip]
+[2023-07-29 12:01:56] INFO root fetch - main [MainThread]: End processing [stdflow]: success
+[2023-07-29 12:01:56] INFO root fetch - processPackages [djangoldp-event]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_event-3.0.0.tar.gz]
+[2023-07-29 12:01:56] INFO root fetch - processPackages [djangoldp-event]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_event-3.0.1.tar.gz]
+[2023-07-29 12:01:56] INFO root fetch - main [MainThread]: End processing [djangoldp-event]: success
+[2023-07-29 12:01:56] INFO root fetch - processPackages [taxoniumtools]: Remove: archive file [/home/abi/fetcher/tmp/taxoniumtools-2.0.90.tar.gz]
+[2023-07-29 12:01:56] INFO root fetch - processPackages [taxoniumtools]: Remove: archive file [/home/abi/fetcher/tmp/taxoniumtools-2.0.91.tar.gz]
+[2023-07-29 12:01:56] INFO root fetch - main [MainThread]: End processing [taxoniumtools]: success
+[2023-07-29 12:01:56] INFO root fetch - main [MainThread]: Store serial: [19086740]
