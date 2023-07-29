@@ -10478,3 +10478,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 09:26:20] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.9.tar.gz]
 [2023-07-29 09:26:20] INFO root fetch - main [MainThread]: End processing [pydflow]: success
 [2023-07-29 09:26:20] INFO root fetch - main [MainThread]: Store serial: [19086093]
+[2023-07-29 09:31:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19086093]
+[2023-07-29 09:31:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-29 09:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cougar
+[2023-07-29 09:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-webstack
+[2023-07-29 09:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: amatak-shop
+[2023-07-29 09:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyVLC
+[2023-07-29 09:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pymetard
+[2023-07-29 09:31:28] WARNING root fetch - processPackages [amatak-shop]: Skipping, unable to determine old version
+[2023-07-29 09:31:28] INFO root fetch - main [MainThread]: End processing [amatak-shop] error
+[2023-07-29 09:31:28] INFO root fetch - processPackages [django-webstack]: New version: [1.5.0] Old Version: [1.4.3]
+[2023-07-29 09:31:28] WARNING root fetch - processPackages [PyVLC]: Skipping, unable to determine old version
+[2023-07-29 09:31:28] INFO root fetch - main [MainThread]: End processing [PyVLC] error
+[2023-07-29 09:31:28] INFO root fetch - processPackages [pymetard]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-29 09:31:28] WARNING root fetch - processPackages [cougar]: Skipping, unable to determine old version
+[2023-07-29 09:31:28] INFO root fetch - main [MainThread]: End processing [cougar] error
+[2023-07-29 09:31:28] INFO root fetch - processPackages [django-webstack]: Downloading https://files.pythonhosted.org/packages/dc/cf/c864314e23ecd295d89ef83804c546f49499631fdc46417bb0a883a2313a/django-webstack-1.4.3.tar.gz
+[2023-07-29 09:31:28] INFO root fetch - processPackages [pymetard]: Downloading https://files.pythonhosted.org/packages/f6/e0/aa94a8237d85a482f28a377125e21149a70778dcd3a6dbf6ca0e309623f4/pymetard-0.0.3.tar.gz
+[2023-07-29 09:31:29] INFO root fetch - processPackages [django-webstack]: Downloading https://files.pythonhosted.org/packages/a0/96/fbd1a4c631d3b1476dc33ab3913929ed80e4eda1498912887d3b6d636255/django-webstack-1.5.0.tar.gz
+[2023-07-29 09:31:29] INFO root fetch - processPackages [pymetard]: Downloading https://files.pythonhosted.org/packages/cc/dd/2394453c95c7cf46d669ede96b2b13150b5ce6590d2bf30d664f7d203abb/pymetard-0.0.4.tar.gz
+[2023-07-29 09:31:29] INFO root fetch - processPackages [pymetard]: executing diffoscope
+[2023-07-29 09:31:29] INFO root fetch - processPackages [pymetard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymetard-0.0.3.tar.gz tmp/pymetard-0.0.4.tar.gz --markdown 20230729/p/pymetard/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-29 09:31:29] INFO root fetch - processPackages [django-webstack]: executing diffoscope
+[2023-07-29 09:31:29] INFO root fetch - processPackages [django-webstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-webstack-1.4.3.tar.gz tmp/django-webstack-1.5.0.tar.gz --markdown 20230729/d/django-webstack/1.4.3-1.5.0/diff.md --exclude *.pyd
+[2023-07-29 09:31:30] INFO root fetch - processPackages [pymetard]: Remove: archive file [/home/abi/fetcher/tmp/pymetard-0.0.3.tar.gz]
+[2023-07-29 09:31:30] INFO root fetch - processPackages [pymetard]: Remove: archive file [/home/abi/fetcher/tmp/pymetard-0.0.4.tar.gz]
+[2023-07-29 09:31:30] INFO root fetch - main [MainThread]: End processing [pymetard]: success
+[2023-07-29 09:31:30] INFO root fetch - processPackages [django-webstack]: Remove: archive file [/home/abi/fetcher/tmp/django-webstack-1.4.3.tar.gz]
+[2023-07-29 09:31:30] INFO root fetch - processPackages [django-webstack]: Remove: archive file [/home/abi/fetcher/tmp/django-webstack-1.5.0.tar.gz]
+[2023-07-29 09:31:30] INFO root fetch - main [MainThread]: End processing [django-webstack]: success
+[2023-07-29 09:31:30] INFO root fetch - main [MainThread]: Store serial: [19086115]
