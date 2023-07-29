@@ -7180,3 +7180,123 @@
 [2023-07-29 04:29:55] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.9.tar.gz]
 [2023-07-29 04:29:55] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
 [2023-07-29 04:29:55] INFO root fetch - main [MainThread]: Store serial: [19084744]
+[2023-07-29 04:35:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19084744]
+[2023-07-29 04:35:10] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-29 04:35:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mov-cli
+[2023-07-29 04:35:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiofauna
+[2023-07-29 04:35:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-mrp-analytic
+[2023-07-29 04:35:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-pos-analytic-by-config
+[2023-07-29 04:35:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-analytic-tag-dimension
+[2023-07-29 04:35:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-account-analytic-tag-default
+[2023-07-29 04:35:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: khoj-assistant
+[2023-07-29 04:35:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-account-move-update-analytic
+[2023-07-29 04:35:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: angreal
+[2023-07-29 04:35:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-purchase-stock-analytic
+[2023-07-29 04:35:10] INFO root fetch - processPackages [odoo-addon-account-move-update-analytic]: New version: [15.0.1.1.0.4] Old Version: [15.0.1.1.0.2]
+[2023-07-29 04:35:10] INFO root fetch - processPackages [odoo-addon-analytic-tag-dimension]: New version: [15.0.1.0.0.3] Old Version: [15.0.1.0.0.2]
+[2023-07-29 04:35:10] INFO root fetch - processPackages [odoo-addon-mrp-analytic]: New version: [15.0.1.0.0.4] Old Version: [15.0.1.0.0.3]
+[2023-07-29 04:35:10] INFO root fetch - processPackages [odoo-addon-pos-analytic-by-config]: New version: [15.0.1.0.0.3] Old Version: [15.0.1.0.0.2]
+[2023-07-29 04:35:10] INFO root fetch - processPackages [odoo-addon-account-analytic-tag-default]: New version: [15.0.1.0.0.6] Old Version: [15.0.1.0.0.4]
+[2023-07-29 04:35:10] INFO root fetch - processPackages [aiofauna]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-29 04:35:10] INFO root fetch - processPackages [odoo-addon-purchase-stock-analytic]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-07-29 04:35:10] INFO root fetch - processPackages [mov-cli]: New version: [1.4.8] Old Version: [1.4.7]
+[2023-07-29 04:35:10] INFO root fetch - processPackages [angreal]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-29 04:35:10] INFO root fetch - processPackages [khoj-assistant]: New version: [0.9.1.dev8] Old Version: [0.9.1.dev7]
+[2023-07-29 04:35:11] INFO root fetch - processPackages [aiofauna]: Downloading https://files.pythonhosted.org/packages/3e/34/45e4d8e4dc572a71d3667cb471907d117cbe30ff4ab274142fdfc9aff5bb/aiofauna-0.1.8.tar.gz
+[2023-07-29 04:35:11] INFO root fetch - processPackages [odoo-addon-account-move-update-analytic]: Downloading https://files.pythonhosted.org/packages/96/3b/6c18f621e6c2213ef01bde60739223399d7e7efc1a61f3fda64cf935d238/odoo_addon_account_move_update_analytic-15.0.1.1.0.2-py3-none-any.whl
+[2023-07-29 04:35:11] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/80/c2/afc116f8f70318334052f67223fb93a5ce1d898f2d901991e87dad33b030/khoj_assistant-0.9.1.dev7.tar.gz
+[2023-07-29 04:35:11] INFO root fetch - processPackages [odoo-addon-mrp-analytic]: Downloading https://files.pythonhosted.org/packages/87/90/5b7e7e7d48862ccc4a3ed12d6ebeb3b9a08512acb09187c513acaf651c78/odoo_addon_mrp_analytic-15.0.1.0.0.3-py3-none-any.whl
+[2023-07-29 04:35:11] INFO root fetch - processPackages [angreal]: Downloading https://files.pythonhosted.org/packages/ba/39/80b410de6edbd350c666d4d57c9749a1051fec71222683ccdd706286451b/angreal-2.0.8.tar.gz
+[2023-07-29 04:35:11] INFO root fetch - processPackages [odoo-addon-analytic-tag-dimension]: Downloading https://files.pythonhosted.org/packages/ac/3d/8498278c8d64e53013d792e3aa064b0a180cf0d36b106bca406bf5e12aeb/odoo_addon_analytic_tag_dimension-15.0.1.0.0.2-py3-none-any.whl
+[2023-07-29 04:35:11] INFO root fetch - processPackages [odoo-addon-purchase-stock-analytic]: Downloading https://files.pythonhosted.org/packages/c6/8c/6aaef0f918a19a81e8778ef6c757a2da5e8ff36ec81209c3026a5189936e/odoo_addon_purchase_stock_analytic-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-29 04:35:11] INFO root fetch - processPackages [odoo-addon-pos-analytic-by-config]: Downloading https://files.pythonhosted.org/packages/7b/f6/07bc139d9b37a0ed17bb9e73a5cc93ee2a393706b82248d67d871dd2b82a/odoo_addon_pos_analytic_by_config-15.0.1.0.0.2-py3-none-any.whl
+[2023-07-29 04:35:11] INFO root fetch - processPackages [mov-cli]: Downloading https://files.pythonhosted.org/packages/37/51/b6f4f2105348ba4f58f478f33ec136b8378ce116c672f4eada950fb4b3c0/mov_cli-1.4.7.tar.gz
+[2023-07-29 04:35:11] INFO root fetch - processPackages [odoo-addon-account-analytic-tag-default]: Downloading https://files.pythonhosted.org/packages/f4/fe/978c403b41e058bab65d05b7813b95b1c0a3fba2ed7275153cf605935fc0/odoo_addon_account_analytic_tag_default-15.0.1.0.0.4-py3-none-any.whl
+[2023-07-29 04:35:11] INFO root fetch - processPackages [aiofauna]: Downloading https://files.pythonhosted.org/packages/d7/d5/ea2895300374337f982c6e19ce7049fb1c99fa3489038d2ff524d477a522/aiofauna-0.1.9.tar.gz
+[2023-07-29 04:35:11] INFO root fetch - processPackages [aiofauna]: executing diffoscope
+[2023-07-29 04:35:11] INFO root fetch - processPackages [aiofauna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiofauna-0.1.8.tar.gz tmp/aiofauna-0.1.9.tar.gz --markdown 20230729/a/aiofauna/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-29 04:35:11] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/87/c3/a6da041c3dee772521fabc9586096b6809ee0e9289735b249898c5a282a2/khoj_assistant-0.9.1.dev8.tar.gz
+[2023-07-29 04:35:11] INFO root fetch - processPackages [odoo-addon-mrp-analytic]: Downloading https://files.pythonhosted.org/packages/d7/3f/59424ae4c32769e969c4d70034f844fdc51de739834b37153764b8c6fad4/odoo_addon_mrp_analytic-15.0.1.0.0.4-py3-none-any.whl
+[2023-07-29 04:35:11] INFO root fetch - processPackages [odoo-addon-analytic-tag-dimension]: Downloading https://files.pythonhosted.org/packages/e1/2c/388e773c3744c61a650b963250b73fa621282a0fe1a373ef95e46bff5df2/odoo_addon_analytic_tag_dimension-15.0.1.0.0.3-py3-none-any.whl
+[2023-07-29 04:35:11] INFO root fetch - processPackages [odoo-addon-account-analytic-tag-default]: Downloading https://files.pythonhosted.org/packages/ab/75/b3e19a4f63e594d47458a719e66471a83473fa74da357b4d8146efe27dc9/odoo_addon_account_analytic_tag_default-15.0.1.0.0.6-py3-none-any.whl
+[2023-07-29 04:35:11] INFO root fetch - processPackages [mov-cli]: Downloading https://files.pythonhosted.org/packages/bd/08/35f545dc0e731212d00213d5fbeeef9a94ee2ed7ee18ce44afab24a5fb0b/mov_cli-1.4.8.tar.gz
+[2023-07-29 04:35:11] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-07-29 04:35:11] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.9.1.dev7.tar.gz tmp/khoj_assistant-0.9.1.dev8.tar.gz --markdown 20230729/k/khoj-assistant/0.9.1.dev7-0.9.1.dev8/diff.md --exclude *.pyd
+[2023-07-29 04:35:11] INFO root fetch - processPackages [odoo-addon-purchase-stock-analytic]: Downloading https://files.pythonhosted.org/packages/84/32/40d18a153b8920cb73a8c1f59c2c7521a0cfa89b33fdb018e55eb776ff56/odoo_addon_purchase_stock_analytic-16.0.1.0.0.4-py3-none-any.whl
+[2023-07-29 04:35:11] INFO root fetch - processPackages [odoo-addon-account-move-update-analytic]: Downloading https://files.pythonhosted.org/packages/26/28/622d5c20ccdc6d5de9242f49a8b2313220c37880bbf23f300f703a626556/odoo_addon_account_move_update_analytic-15.0.1.1.0.4-py3-none-any.whl
+[2023-07-29 04:35:11] INFO root fetch - processPackages [odoo-addon-pos-analytic-by-config]: Downloading https://files.pythonhosted.org/packages/d0/6a/efae0d36e2a34a44ebca83456c4c01a9a41f96bbd9ee871ca960131cd41d/odoo_addon_pos_analytic_by_config-15.0.1.0.0.3-py3-none-any.whl
+[2023-07-29 04:35:11] INFO root fetch - processPackages [odoo-addon-mrp-analytic]: executing diffoscope
+[2023-07-29 04:35:11] INFO root fetch - processPackages [odoo-addon-mrp-analytic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mrp_analytic-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_mrp_analytic-15.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230729/o/odoo-addon-mrp-analytic/15.0.1.0.0.3-15.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-07-29 04:35:11] INFO root fetch - processPackages [odoo-addon-account-analytic-tag-default]: executing diffoscope
+[2023-07-29 04:35:11] INFO root fetch - processPackages [odoo-addon-account-analytic-tag-default]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_analytic_tag_default-15.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_account_analytic_tag_default-15.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230729/o/odoo-addon-account-analytic-tag-default/15.0.1.0.0.4-15.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-07-29 04:35:11] INFO root fetch - processPackages [odoo-addon-analytic-tag-dimension]: executing diffoscope
+[2023-07-29 04:35:11] INFO root fetch - processPackages [odoo-addon-analytic-tag-dimension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_analytic_tag_dimension-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_analytic_tag_dimension-15.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230729/o/odoo-addon-analytic-tag-dimension/15.0.1.0.0.2-15.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-07-29 04:35:11] INFO root fetch - processPackages [mov-cli]: executing diffoscope
+[2023-07-29 04:35:11] INFO root fetch - processPackages [mov-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mov_cli-1.4.7.tar.gz tmp/mov_cli-1.4.8.tar.gz --markdown 20230729/m/mov-cli/1.4.7-1.4.8/diff.md --exclude *.pyd
+[2023-07-29 04:35:11] INFO root fetch - processPackages [odoo-addon-purchase-stock-analytic]: executing diffoscope
+[2023-07-29 04:35:11] INFO root fetch - processPackages [odoo-addon-purchase-stock-analytic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_stock_analytic-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_purchase_stock_analytic-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230729/o/odoo-addon-purchase-stock-analytic/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-07-29 04:35:12] INFO root fetch - processPackages [odoo-addon-pos-analytic-by-config]: executing diffoscope
+[2023-07-29 04:35:12] INFO root fetch - processPackages [odoo-addon-pos-analytic-by-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_pos_analytic_by_config-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_pos_analytic_by_config-15.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230729/o/odoo-addon-pos-analytic-by-config/15.0.1.0.0.2-15.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-07-29 04:35:12] INFO root fetch - processPackages [odoo-addon-account-move-update-analytic]: executing diffoscope
+[2023-07-29 04:35:12] INFO root fetch - processPackages [odoo-addon-account-move-update-analytic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_move_update_analytic-15.0.1.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_move_update_analytic-15.0.1.1.0.4-py3-none-any.whl.zip --markdown 20230729/o/odoo-addon-account-move-update-analytic/15.0.1.1.0.2-15.0.1.1.0.4/diff.md --exclude *.pyd
+[2023-07-29 04:35:12] INFO root fetch - processPackages [angreal]: Downloading https://files.pythonhosted.org/packages/58/91/d298d3ebede5efbe2f1618b75c54e615602a227ac016af66d1f5591c64e8/angreal-2.0.9.tar.gz
+[2023-07-29 04:35:12] INFO root fetch - processPackages [aiofauna]: Remove: archive file [/home/abi/fetcher/tmp/aiofauna-0.1.8.tar.gz]
+[2023-07-29 04:35:12] INFO root fetch - processPackages [aiofauna]: Remove: archive file [/home/abi/fetcher/tmp/aiofauna-0.1.9.tar.gz]
+[2023-07-29 04:35:12] INFO root fetch - processPackages [aiofauna]: Start processing: odoo-addon-stock-analytic
+[2023-07-29 04:35:12] INFO root fetch - main [MainThread]: End processing [aiofauna]: success
+[2023-07-29 04:35:13] INFO root fetch - processPackages [odoo-addon-stock-analytic]: New version: [16.0.1.1.0.3] Old Version: [16.0.1.1.0.1]
+[2023-07-29 04:35:13] INFO root fetch - processPackages [angreal]: executing diffoscope
+[2023-07-29 04:35:13] INFO root fetch - processPackages [angreal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/angreal-2.0.8.tar.gz tmp/angreal-2.0.9.tar.gz --markdown 20230729/a/angreal/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-29 04:35:13] INFO root fetch - processPackages [odoo-addon-stock-analytic]: Downloading https://files.pythonhosted.org/packages/71/32/363b6734c09f93a1fc9af8d41acf2e417445972555fef5b32170aae20157/odoo_addon_stock_analytic-16.0.1.1.0.1-py3-none-any.whl
+[2023-07-29 04:35:13] INFO root fetch - processPackages [odoo-addon-account-analytic-tag-default]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_analytic_tag_default-15.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-29 04:35:13] INFO root fetch - processPackages [odoo-addon-account-analytic-tag-default]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_analytic_tag_default-15.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-07-29 04:35:13] INFO root fetch - processPackages [odoo-addon-account-analytic-tag-default]: Start processing: fukkatsu
+[2023-07-29 04:35:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-analytic-tag-default]: success
+[2023-07-29 04:35:13] INFO root fetch - processPackages [fukkatsu]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-29 04:35:13] INFO root fetch - processPackages [odoo-addon-account-move-update-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_update_analytic-15.0.1.1.0.2-py3-none-any.whl.zip]
+[2023-07-29 04:35:13] INFO root fetch - processPackages [odoo-addon-account-move-update-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_update_analytic-15.0.1.1.0.4-py3-none-any.whl.zip]
+[2023-07-29 04:35:13] INFO root fetch - processPackages [odoo-addon-account-move-update-analytic]: Start processing: threemystic-cloud-data-client
+[2023-07-29 04:35:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-move-update-analytic]: success
+[2023-07-29 04:35:13] INFO root fetch - processPackages [odoo-addon-stock-analytic]: Downloading https://files.pythonhosted.org/packages/49/73/fea2c257bb6257c1ec17d5799e310632555694c61812b3efe7672dbbfce0/odoo_addon_stock_analytic-16.0.1.1.0.3-py3-none-any.whl
+[2023-07-29 04:35:13] INFO root fetch - processPackages [odoo-addon-mrp-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_analytic-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-29 04:35:13] INFO root fetch - processPackages [odoo-addon-mrp-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_analytic-15.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-29 04:35:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-analytic]: success
+[2023-07-29 04:35:13] INFO root fetch - processPackages [odoo-addon-purchase-stock-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_stock_analytic-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-29 04:35:13] INFO root fetch - processPackages [odoo-addon-purchase-stock-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_stock_analytic-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-29 04:35:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-stock-analytic]: success
+[2023-07-29 04:35:13] INFO root fetch - processPackages [threemystic-cloud-data-client]: New version: [0.1.54] Old Version: [0.1.53]
+[2023-07-29 04:35:13] INFO root fetch - processPackages [fukkatsu]: Downloading https://files.pythonhosted.org/packages/3d/10/8a0c9a105755d4eaad08d501511baf86222513bcd5f450ce540507baad87/fukkatsu-0.0.8.tar.gz
+[2023-07-29 04:35:13] INFO root fetch - processPackages [odoo-addon-pos-analytic-by-config]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_pos_analytic_by_config-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-29 04:35:13] INFO root fetch - processPackages [odoo-addon-pos-analytic-by-config]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_pos_analytic_by_config-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-29 04:35:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-pos-analytic-by-config]: success
+[2023-07-29 04:35:13] INFO root fetch - processPackages [odoo-addon-analytic-tag-dimension]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_analytic_tag_dimension-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-29 04:35:13] INFO root fetch - processPackages [odoo-addon-analytic-tag-dimension]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_analytic_tag_dimension-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-29 04:35:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-analytic-tag-dimension]: success
+[2023-07-29 04:35:13] INFO root fetch - processPackages [odoo-addon-stock-analytic]: executing diffoscope
+[2023-07-29 04:35:13] INFO root fetch - processPackages [odoo-addon-stock-analytic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_analytic-16.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_stock_analytic-16.0.1.1.0.3-py3-none-any.whl.zip --markdown 20230729/o/odoo-addon-stock-analytic/16.0.1.1.0.1-16.0.1.1.0.3/diff.md --exclude *.pyd
+[2023-07-29 04:35:13] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/3a/67/8d62db44e059b0e1b1825521d1c38db06d4d8d7fd859a621eea00ea81d4c/threemystic_cloud_data_client-0.1.53.tar.gz
+[2023-07-29 04:35:13] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.9.1.dev7.tar.gz]
+[2023-07-29 04:35:13] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.9.1.dev8.tar.gz]
+[2023-07-29 04:35:13] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-07-29 04:35:13] INFO root fetch - processPackages [mov-cli]: Remove: archive file [/home/abi/fetcher/tmp/mov_cli-1.4.7.tar.gz]
+[2023-07-29 04:35:13] INFO root fetch - processPackages [mov-cli]: Remove: archive file [/home/abi/fetcher/tmp/mov_cli-1.4.8.tar.gz]
+[2023-07-29 04:35:13] INFO root fetch - main [MainThread]: End processing [mov-cli]: success
+[2023-07-29 04:35:13] INFO root fetch - processPackages [fukkatsu]: Downloading https://files.pythonhosted.org/packages/98/93/08e92fa5406cb91397eebde97b8018713ded05438af7c88d938392b94788/fukkatsu-0.0.9.tar.gz
+[2023-07-29 04:35:14] INFO root fetch - processPackages [fukkatsu]: executing diffoscope
+[2023-07-29 04:35:14] INFO root fetch - processPackages [fukkatsu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fukkatsu-0.0.8.tar.gz tmp/fukkatsu-0.0.9.tar.gz --markdown 20230729/f/fukkatsu/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-29 04:35:14] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/50/20/ba7bb96f9fbf90e5b3a99a181d9b5aad56df53d624f68cb00489f19007cc/threemystic_cloud_data_client-0.1.54.tar.gz
+[2023-07-29 04:35:14] INFO root fetch - processPackages [threemystic-cloud-data-client]: executing diffoscope
+[2023-07-29 04:35:14] INFO root fetch - processPackages [threemystic-cloud-data-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_data_client-0.1.53.tar.gz tmp/threemystic_cloud_data_client-0.1.54.tar.gz --markdown 20230729/t/threemystic-cloud-data-client/0.1.53-0.1.54/diff.md --exclude *.pyd
+[2023-07-29 04:35:14] INFO root fetch - processPackages [odoo-addon-stock-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_analytic-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2023-07-29 04:35:14] INFO root fetch - processPackages [odoo-addon-stock-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_analytic-16.0.1.1.0.3-py3-none-any.whl.zip]
+[2023-07-29 04:35:14] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-analytic]: success
+[2023-07-29 04:35:15] INFO root fetch - processPackages [fukkatsu]: Remove: archive file [/home/abi/fetcher/tmp/fukkatsu-0.0.8.tar.gz]
+[2023-07-29 04:35:15] INFO root fetch - processPackages [fukkatsu]: Remove: archive file [/home/abi/fetcher/tmp/fukkatsu-0.0.9.tar.gz]
+[2023-07-29 04:35:15] INFO root fetch - main [MainThread]: End processing [fukkatsu]: success
+[2023-07-29 04:35:15] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.53.tar.gz]
+[2023-07-29 04:35:15] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.54.tar.gz]
+[2023-07-29 04:35:15] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-data-client]: success
+[2023-07-29 04:35:15] INFO root fetch - processPackages [angreal]: Remove: archive file [/home/abi/fetcher/tmp/angreal-2.0.8.tar.gz]
+[2023-07-29 04:35:15] INFO root fetch - processPackages [angreal]: Remove: archive file [/home/abi/fetcher/tmp/angreal-2.0.9.tar.gz]
+[2023-07-29 04:35:15] INFO root fetch - main [MainThread]: End processing [angreal]: success
+[2023-07-29 04:35:15] INFO root fetch - main [MainThread]: Store serial: [19084815]
