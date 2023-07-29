@@ -6865,3 +6865,24 @@
 [2023-07-29 03:48:09] INFO root fetch - processPackages [tja2fumen]: Remove: archive file [/home/abi/fetcher/tmp/tja2fumen-0.6.0.tar.gz]
 [2023-07-29 03:48:09] INFO root fetch - main [MainThread]: End processing [tja2fumen]: success
 [2023-07-29 03:48:09] INFO root fetch - main [MainThread]: Store serial: [19084615]
+[2023-07-29 03:53:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19084615]
+[2023-07-29 03:53:18] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-29 03:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easywrite
+[2023-07-29 03:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: khoj-assistant
+[2023-07-29 03:53:18] INFO root fetch - processPackages [easywrite]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-07-29 03:53:18] INFO root fetch - processPackages [khoj-assistant]: New version: [0.9.1.dev8] Old Version: [0.9.1.dev7]
+[2023-07-29 03:53:18] INFO root fetch - processPackages [easywrite]: Downloading https://files.pythonhosted.org/packages/49/da/b1448a166120c3f613696d56e2200514b942afadc5fbad0686e6a95ba404/easywrite-1.3.0.tar.gz
+[2023-07-29 03:53:18] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/80/c2/afc116f8f70318334052f67223fb93a5ce1d898f2d901991e87dad33b030/khoj_assistant-0.9.1.dev7.tar.gz
+[2023-07-29 03:53:18] INFO root fetch - processPackages [easywrite]: Downloading https://files.pythonhosted.org/packages/8e/ff/f547da1ae3a8b218eb33dc5f06947dfbe1987aef531b7267233f85cd90f9/easywrite-1.4.0.tar.gz
+[2023-07-29 03:53:18] INFO root fetch - processPackages [easywrite]: executing diffoscope
+[2023-07-29 03:53:18] INFO root fetch - processPackages [easywrite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easywrite-1.3.0.tar.gz tmp/easywrite-1.4.0.tar.gz --markdown 20230729/e/easywrite/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-07-29 03:53:18] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/87/c3/a6da041c3dee772521fabc9586096b6809ee0e9289735b249898c5a282a2/khoj_assistant-0.9.1.dev8.tar.gz
+[2023-07-29 03:53:19] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-07-29 03:53:19] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.9.1.dev7.tar.gz tmp/khoj_assistant-0.9.1.dev8.tar.gz --markdown 20230729/k/khoj-assistant/0.9.1.dev7-0.9.1.dev8/diff.md --exclude *.pyd
+[2023-07-29 03:53:19] INFO root fetch - processPackages [easywrite]: Remove: archive file [/home/abi/fetcher/tmp/easywrite-1.3.0.tar.gz]
+[2023-07-29 03:53:19] INFO root fetch - processPackages [easywrite]: Remove: archive file [/home/abi/fetcher/tmp/easywrite-1.4.0.tar.gz]
+[2023-07-29 03:53:19] INFO root fetch - main [MainThread]: End processing [easywrite]: success
+[2023-07-29 03:53:20] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.9.1.dev7.tar.gz]
+[2023-07-29 03:53:20] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.9.1.dev8.tar.gz]
+[2023-07-29 03:53:20] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-07-29 03:53:20] INFO root fetch - main [MainThread]: Store serial: [19084623]
