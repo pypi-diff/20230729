@@ -17046,3 +17046,32 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 14:34:44] INFO root fetch - processPackages [airflow-code-editor]: Remove: archive file [/home/abi/fetcher/tmp/airflow_code_editor-7.4.0.tar.gz]
 [2023-07-29 14:34:44] INFO root fetch - main [MainThread]: End processing [airflow-code-editor]: success
 [2023-07-29 14:34:44] INFO root fetch - main [MainThread]: Store serial: [19088661]
+[2023-07-29 14:39:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19088661]
+[2023-07-29 14:39:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-29 14:39:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: slim-compose
+[2023-07-29 14:39:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: projen
+[2023-07-29 14:39:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: st-supabase-connection
+[2023-07-29 14:39:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scoda-tk
+[2023-07-29 14:39:54] INFO root fetch - processPackages [slim-compose]: New version: [2.0.0] Old Version: [1.0.4]
+[2023-07-29 14:39:54] WARNING root fetch - processPackages [st-supabase-connection]: Skipping, unable to determine old version
+[2023-07-29 14:39:54] INFO root fetch - main [MainThread]: End processing [st-supabase-connection] error
+[2023-07-29 14:39:54] INFO root fetch - processPackages [scoda-tk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-29 14:39:54] INFO root fetch - processPackages [projen]: New version: [0.71.99] Old Version: [0.71.98]
+[2023-07-29 14:39:54] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/e6/32/7b9177419a0f336c70af7f165826714344a50cfd40e5990d888982c6ac99/projen-0.71.98.tar.gz
+[2023-07-29 14:39:54] INFO root fetch - processPackages [slim-compose]: Downloading https://files.pythonhosted.org/packages/ec/79/9326197960f5fb799c5672cc13c9090a115dc48c7311d844eb5ea8385b37/slim-compose-1.0.4.tar.gz
+[2023-07-29 14:39:54] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/8a/cf/12d6b31363b4621f807a4af46c3803bd629ec13bc424aa8959d1ef7afd57/scoda-tk-0.0.8.tar.gz
+[2023-07-29 14:39:54] WARNING root fetch - processPackages [scoda-tk]: Skipping package: exceeds size limit 11118332>=10485760
+[2023-07-29 14:39:54] INFO root fetch - main [MainThread]: End processing [scoda-tk] error
+[2023-07-29 14:39:54] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/21/a6/caf5451fda5ceed9de3dfadecf33e65b6279d0a5dfa4350206da3da20fac/projen-0.71.99.tar.gz
+[2023-07-29 14:39:54] INFO root fetch - processPackages [slim-compose]: Downloading https://files.pythonhosted.org/packages/36/a8/72f801b8cfaf18113efb0c81915904a722bb7588243148cb8c650dc91c52/slim_compose-2.0.0.tar.gz
+[2023-07-29 14:39:55] INFO root fetch - processPackages [slim-compose]: executing diffoscope
+[2023-07-29 14:39:55] INFO root fetch - processPackages [slim-compose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slim-compose-1.0.4.tar.gz tmp/slim_compose-2.0.0.tar.gz --markdown 20230729/s/slim-compose/1.0.4-2.0.0/diff.md --exclude *.pyd
+[2023-07-29 14:39:55] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-07-29 14:39:55] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.98.tar.gz tmp/projen-0.71.99.tar.gz --markdown 20230729/p/projen/0.71.98-0.71.99/diff.md --exclude *.pyd
+[2023-07-29 14:39:55] INFO root fetch - processPackages [slim-compose]: Remove: archive file [/home/abi/fetcher/tmp/slim-compose-1.0.4.tar.gz]
+[2023-07-29 14:39:55] INFO root fetch - processPackages [slim-compose]: Remove: archive file [/home/abi/fetcher/tmp/slim_compose-2.0.0.tar.gz]
+[2023-07-29 14:39:55] INFO root fetch - main [MainThread]: End processing [slim-compose]: success
+[2023-07-29 14:39:56] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.98.tar.gz]
+[2023-07-29 14:39:56] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.99.tar.gz]
+[2023-07-29 14:39:56] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-07-29 14:39:56] INFO root fetch - main [MainThread]: Store serial: [19088685]
