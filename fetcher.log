@@ -17295,3 +17295,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 15:01:04] INFO root fetch - processPackages [composabl-ray-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray_dev-0.2.4.dev1-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
 [2023-07-29 15:01:04] INFO root fetch - main [MainThread]: End processing [composabl-ray-dev]: success
 [2023-07-29 15:01:04] INFO root fetch - main [MainThread]: Store serial: [19088811]
+[2023-07-29 15:06:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19088811]
+[2023-07-29 15:06:14] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-29 15:06:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Boco
+[2023-07-29 15:06:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: budgeteer
+[2023-07-29 15:06:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-07-29 15:06:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fontRepertoire
+[2023-07-29 15:06:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: axabc
+[2023-07-29 15:06:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: purgatory
+[2023-07-29 15:06:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tendril-interests
+[2023-07-29 15:06:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-stdlib
+[2023-07-29 15:06:14] INFO root fetch - processPackages [axabc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-29 15:06:14] INFO root fetch - processPackages [Boco]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-29 15:06:14] INFO root fetch - processPackages [purgatory]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-29 15:06:14] INFO root fetch - processPackages [budgeteer]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-29 15:06:14] INFO root fetch - processPackages [tendril-interests]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-29 15:06:14] WARNING root fetch - processPackages [fontRepertoire]: Skipping, unable to determine old version
+[2023-07-29 15:06:14] INFO root fetch - main [MainThread]: End processing [fontRepertoire] error
+[2023-07-29 15:06:14] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-29 15:06:14] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.7.29] Old Version: [2023.7.28]
+[2023-07-29 15:06:14] INFO root fetch - processPackages [Boco]: Downloading https://files.pythonhosted.org/packages/7b/0d/a48720236b1a4241a4e9666e1293d545a3cd8a607a48294f275fae694b24/Boco-0.3.1.tar.gz
+[2023-07-29 15:06:14] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-07-29 15:06:15] INFO root fetch - processPackages [axabc]: Downloading https://files.pythonhosted.org/packages/41/c5/b797e58b17775ec27f68316c932448dfa73c089804cd7a559dea828dcd85/axabc-0.0.8.tar.gz
+[2023-07-29 15:06:15] INFO root fetch - processPackages [budgeteer]: Downloading https://files.pythonhosted.org/packages/ce/9c/aac9d04a7f3dfd229609e883280dd74c3b108576806e675982547f3d917d/budgeteer-0.0.1.tar.gz
+[2023-07-29 15:06:15] INFO root fetch - processPackages [tendril-interests]: Downloading https://files.pythonhosted.org/packages/8c/64/45f7706515f9a787f3b678214a7c61cf45765d5f854acff37f2c0dbf317b/tendril-interests-0.3.0.tar.gz
+[2023-07-29 15:06:15] INFO root fetch - processPackages [purgatory]: Downloading https://files.pythonhosted.org/packages/e7/16/6bdd690c8bd9d3b5ec90a24772bd35652c3678c7f3b436cac02c4f280553/purgatory-1.0.2.tar.gz
+[2023-07-29 15:06:15] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/63/74/16bffd747855a1be7b40b08ff6ef5fcc8f462af252a1390fb4ab4f53909d/fbgemm_gpu_nightly_cpu-2023.7.28-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-29 15:06:15] INFO root fetch - processPackages [Boco]: Downloading https://files.pythonhosted.org/packages/2a/48/a6b8044e7918a6c1798f51ab2210cbe80637aca3ede6c4f9357ed17835a3/Boco-0.3.2.tar.gz
+[2023-07-29 15:06:15] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-07-29 15:06:15] INFO root fetch - processPackages [Boco]: executing diffoscope
+[2023-07-29 15:06:15] INFO root fetch - processPackages [Boco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Boco-0.3.1.tar.gz tmp/Boco-0.3.2.tar.gz --markdown 20230729/B/Boco/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-29 15:06:15] INFO root fetch - processPackages [budgeteer]: Downloading https://files.pythonhosted.org/packages/e6/26/63f859b6843a65a61b4a7720c3213b1e3eb0cd53c1a4c06fcbf1e75167f9/budgeteer-0.0.2.tar.gz
+[2023-07-29 15:06:15] INFO root fetch - processPackages [axabc]: Downloading https://files.pythonhosted.org/packages/60/61/87ebd4434765200cd248acf948bf78aef84ae73165a7cb8854e4f5a4f66d/axabc-0.0.9.tar.gz
+[2023-07-29 15:06:15] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-07-29 15:06:15] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230729/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-29 15:06:15] INFO root fetch - processPackages [purgatory]: Downloading https://files.pythonhosted.org/packages/89/be/f6e45ec38a85eb5b9b30e483d7258964978ed317ce092b113b9820ec6b83/purgatory-1.0.3.tar.gz
+[2023-07-29 15:06:15] INFO root fetch - processPackages [tendril-interests]: Downloading https://files.pythonhosted.org/packages/29/e7/176f46569f0d8289f8669a305d9e9c99efc2f588ec5d1f824b62c15f1e3c/tendril-interests-0.3.1.tar.gz
+[2023-07-29 15:06:15] INFO root fetch - processPackages [axabc]: executing diffoscope
+[2023-07-29 15:06:15] INFO root fetch - processPackages [axabc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axabc-0.0.8.tar.gz tmp/axabc-0.0.9.tar.gz --markdown 20230729/a/axabc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-29 15:06:15] INFO root fetch - processPackages [budgeteer]: executing diffoscope
+[2023-07-29 15:06:15] INFO root fetch - processPackages [budgeteer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/budgeteer-0.0.1.tar.gz tmp/budgeteer-0.0.2.tar.gz --markdown 20230729/b/budgeteer/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-29 15:06:15] INFO root fetch - processPackages [purgatory]: executing diffoscope
+[2023-07-29 15:06:15] INFO root fetch - processPackages [purgatory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/purgatory-1.0.2.tar.gz tmp/purgatory-1.0.3.tar.gz --markdown 20230729/p/purgatory/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-29 15:06:15] INFO root fetch - processPackages [tendril-interests]: executing diffoscope
+[2023-07-29 15:06:15] INFO root fetch - processPackages [tendril-interests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-interests-0.3.0.tar.gz tmp/tendril-interests-0.3.1.tar.gz --markdown 20230729/t/tendril-interests/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-29 15:06:16] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/bf/fb/b99d8780ff8ea3b71ba280c3a6a1be9d12dadc35cf8cb057d3d59e86710f/fbgemm_gpu_nightly_cpu-2023.7.29-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-29 15:06:16] INFO root fetch - processPackages [Boco]: Remove: archive file [/home/abi/fetcher/tmp/Boco-0.3.1.tar.gz]
+[2023-07-29 15:06:16] INFO root fetch - processPackages [Boco]: Remove: archive file [/home/abi/fetcher/tmp/Boco-0.3.2.tar.gz]
+[2023-07-29 15:06:16] INFO root fetch - main [MainThread]: End processing [Boco]: success
+[2023-07-29 15:06:16] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-07-29 15:06:16] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.7.28-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.7.29-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230729/f/fbgemm-gpu-nightly-cpu/2023.7.28-2023.7.29/diff.md --exclude *.pyd
+[2023-07-29 15:06:16] INFO root fetch - processPackages [axabc]: Remove: archive file [/home/abi/fetcher/tmp/axabc-0.0.8.tar.gz]
+[2023-07-29 15:06:16] INFO root fetch - processPackages [axabc]: Remove: archive file [/home/abi/fetcher/tmp/axabc-0.0.9.tar.gz]
+[2023-07-29 15:06:16] INFO root fetch - main [MainThread]: End processing [axabc]: success
+[2023-07-29 15:06:16] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-07-29 15:06:16] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-07-29 15:06:16] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-07-29 15:06:16] INFO root fetch - processPackages [purgatory]: Remove: archive file [/home/abi/fetcher/tmp/purgatory-1.0.2.tar.gz]
+[2023-07-29 15:06:16] INFO root fetch - processPackages [purgatory]: Remove: archive file [/home/abi/fetcher/tmp/purgatory-1.0.3.tar.gz]
+[2023-07-29 15:06:16] INFO root fetch - main [MainThread]: End processing [purgatory]: success
+[2023-07-29 15:06:17] INFO root fetch - processPackages [tendril-interests]: Remove: archive file [/home/abi/fetcher/tmp/tendril-interests-0.3.0.tar.gz]
+[2023-07-29 15:06:17] INFO root fetch - processPackages [tendril-interests]: Remove: archive file [/home/abi/fetcher/tmp/tendril-interests-0.3.1.tar.gz]
+[2023-07-29 15:06:17] INFO root fetch - main [MainThread]: End processing [tendril-interests]: success
+[2023-07-29 15:06:17] INFO root fetch - processPackages [budgeteer]: Remove: archive file [/home/abi/fetcher/tmp/budgeteer-0.0.1.tar.gz]
+[2023-07-29 15:06:17] INFO root fetch - processPackages [budgeteer]: Remove: archive file [/home/abi/fetcher/tmp/budgeteer-0.0.2.tar.gz]
+[2023-07-29 15:06:17] INFO root fetch - main [MainThread]: End processing [budgeteer]: success
+[2023-07-29 15:06:41] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.7.28-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-29 15:06:41] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.7.29-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-29 15:06:41] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-07-29 15:06:41] INFO root fetch - main [MainThread]: Store serial: [19088839]
