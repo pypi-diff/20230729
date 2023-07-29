@@ -11658,3 +11658,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 11:25:43] INFO root fetch - processPackages [amazon-scrape]: Remove: archive file [/home/abi/fetcher/tmp/amazon_scrape-1.0.6.tar.gz]
 [2023-07-29 11:25:43] INFO root fetch - main [MainThread]: End processing [amazon-scrape]: success
 [2023-07-29 11:25:43] INFO root fetch - main [MainThread]: Store serial: [19086623]
+[2023-07-29 11:30:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19086623]
+[2023-07-29 11:30:51] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-29 11:30:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: febraban-barcode
+[2023-07-29 11:30:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ldimbenchmark
+[2023-07-29 11:30:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ExpoSeq
+[2023-07-29 11:30:51] WARNING root fetch - processPackages [febraban-barcode]: Skipping, unable to determine old version
+[2023-07-29 11:30:51] INFO root fetch - main [MainThread]: End processing [febraban-barcode] error
+[2023-07-29 11:30:51] INFO root fetch - processPackages [ExpoSeq]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-07-29 11:30:51] INFO root fetch - processPackages [ldimbenchmark]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-29 11:30:51] INFO root fetch - processPackages [ExpoSeq]: Downloading https://files.pythonhosted.org/packages/ca/01/4dc5169aee77e5fed65c08ab3adae4d687a8428ca70078a433b75481dfcd/ExpoSeq-2.0.1.tar.gz
+[2023-07-29 11:30:51] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/40/ad/2f487f62a551984a54e0a4dc768ff692f22874530d9695d257d30b206c65/ldimbenchmark-0.2.8.tar.gz
+[2023-07-29 11:30:52] INFO root fetch - processPackages [ExpoSeq]: Downloading https://files.pythonhosted.org/packages/4c/6f/01f5d7977f02f924b1686d68e973a39237cf5468203c5717a34852ebada5/ExpoSeq-2.0.2.tar.gz
+[2023-07-29 11:30:52] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/1c/0e/d7ff04c87c7e7e468653d7cd9cbde0ab35f48885a880c1e2229267475009/ldimbenchmark-0.2.9.tar.gz
+[2023-07-29 11:30:52] INFO root fetch - processPackages [ExpoSeq]: executing diffoscope
+[2023-07-29 11:30:52] INFO root fetch - processPackages [ExpoSeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ExpoSeq-2.0.1.tar.gz tmp/ExpoSeq-2.0.2.tar.gz --markdown 20230729/E/ExpoSeq/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-07-29 11:30:52] INFO root fetch - processPackages [ldimbenchmark]: executing diffoscope
+[2023-07-29 11:30:52] INFO root fetch - processPackages [ldimbenchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldimbenchmark-0.2.8.tar.gz tmp/ldimbenchmark-0.2.9.tar.gz --markdown 20230729/l/ldimbenchmark/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-29 11:30:53] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.8.tar.gz]
+[2023-07-29 11:30:53] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.9.tar.gz]
+[2023-07-29 11:30:53] INFO root fetch - main [MainThread]: End processing [ldimbenchmark]: success
+[2023-07-29 11:30:54] INFO root fetch - processPackages [ExpoSeq]: Remove: archive file [/home/abi/fetcher/tmp/ExpoSeq-2.0.1.tar.gz]
+[2023-07-29 11:30:54] INFO root fetch - processPackages [ExpoSeq]: Remove: archive file [/home/abi/fetcher/tmp/ExpoSeq-2.0.2.tar.gz]
+[2023-07-29 11:30:54] INFO root fetch - main [MainThread]: End processing [ExpoSeq]: success
+[2023-07-29 11:30:54] INFO root fetch - main [MainThread]: Store serial: [19086634]
