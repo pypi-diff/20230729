@@ -11781,3 +11781,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 11:41:16] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_ro_stock_account-14.0.8.9.0-py3-none-any.whl.zip]
 [2023-07-29 11:41:16] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-ro-stock-account]: success
 [2023-07-29 11:41:16] INFO root fetch - main [MainThread]: Store serial: [19086669]
+[2023-07-29 11:46:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19086669]
+[2023-07-29 11:46:24] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-29 11:46:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: voltcraft
+[2023-07-29 11:46:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tendril-utils-types
+[2023-07-29 11:46:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ipylib
+[2023-07-29 11:46:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: metabase-api-python
+[2023-07-29 11:46:24] INFO root fetch - processPackages [voltcraft]: New version: [1.4.0] Old Version: [1.3.2]
+[2023-07-29 11:46:24] INFO root fetch - processPackages [metabase-api-python]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-29 11:46:24] INFO root fetch - processPackages [tendril-utils-types]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-29 11:46:24] INFO root fetch - processPackages [ipylib]: New version: [0.2.8] Old Version: [0.2.5]
+[2023-07-29 11:46:24] INFO root fetch - processPackages [metabase-api-python]: Downloading https://files.pythonhosted.org/packages/81/ca/4cb2629bab64119f2791e1a60aeb7bb3666c910edc84b94396bcf955c049/metabase-api-python-0.0.1.tar.gz
+[2023-07-29 11:46:24] INFO root fetch - processPackages [voltcraft]: Downloading https://files.pythonhosted.org/packages/82/e4/2f706cf290521f1144f09852a855feab9a0de22f7926dce00d65185554c1/voltcraft-1.3.2.tar.gz
+[2023-07-29 11:46:24] INFO root fetch - processPackages [tendril-utils-types]: Downloading https://files.pythonhosted.org/packages/45/33/988038559bc1e1aa054358293355211b2688b46d22c2b5eb86c3eacaede0/tendril-utils-types-0.2.1.tar.gz
+[2023-07-29 11:46:24] INFO root fetch - processPackages [ipylib]: Downloading https://files.pythonhosted.org/packages/da/a0/94692164c05c9b0091166590d1400fec5681194a5ca7890e3585313f97ae/ipylib-0.2.5.tar.gz
+[2023-07-29 11:46:24] INFO root fetch - processPackages [metabase-api-python]: Downloading https://files.pythonhosted.org/packages/66/3a/7168f6d7491a9edde2e3705aae0f54c391cb28ae34655b1cc48b7ce0d23e/metabase-api-python-0.0.2.tar.gz
+[2023-07-29 11:46:25] INFO root fetch - processPackages [voltcraft]: Downloading https://files.pythonhosted.org/packages/00/36/bfb76149ac4018918d31d9ea9ecfb788fb2242e46d3c95b296a7fd6acb81/voltcraft-1.4.0.tar.gz
+[2023-07-29 11:46:25] INFO root fetch - processPackages [tendril-utils-types]: Downloading https://files.pythonhosted.org/packages/ee/00/5caeb9ed49d310676865d815184ec2557fd15d3e91e6e651957e4f626805/tendril-utils-types-0.2.2.tar.gz
+[2023-07-29 11:46:25] INFO root fetch - processPackages [ipylib]: Downloading https://files.pythonhosted.org/packages/f7/c6/416c5cd17f90aa5deebafa7e8b3772e14dea8fe8e38a0d100c9ca9309dc4/ipylib-0.2.8.tar.gz
+[2023-07-29 11:46:25] INFO root fetch - processPackages [voltcraft]: executing diffoscope
+[2023-07-29 11:46:25] INFO root fetch - processPackages [voltcraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voltcraft-1.3.2.tar.gz tmp/voltcraft-1.4.0.tar.gz --markdown 20230729/v/voltcraft/1.3.2-1.4.0/diff.md --exclude *.pyd
+[2023-07-29 11:46:25] INFO root fetch - processPackages [metabase-api-python]: executing diffoscope
+[2023-07-29 11:46:25] INFO root fetch - processPackages [metabase-api-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metabase-api-python-0.0.1.tar.gz tmp/metabase-api-python-0.0.2.tar.gz --markdown 20230729/m/metabase-api-python/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-29 11:46:25] INFO root fetch - processPackages [tendril-utils-types]: executing diffoscope
+[2023-07-29 11:46:25] INFO root fetch - processPackages [tendril-utils-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-utils-types-0.2.1.tar.gz tmp/tendril-utils-types-0.2.2.tar.gz --markdown 20230729/t/tendril-utils-types/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-29 11:46:25] INFO root fetch - processPackages [ipylib]: executing diffoscope
+[2023-07-29 11:46:25] INFO root fetch - processPackages [ipylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipylib-0.2.5.tar.gz tmp/ipylib-0.2.8.tar.gz --markdown 20230729/i/ipylib/0.2.5-0.2.8/diff.md --exclude *.pyd
+[2023-07-29 11:46:25] INFO root fetch - processPackages [voltcraft]: Remove: archive file [/home/abi/fetcher/tmp/voltcraft-1.3.2.tar.gz]
+[2023-07-29 11:46:25] INFO root fetch - processPackages [voltcraft]: Remove: archive file [/home/abi/fetcher/tmp/voltcraft-1.4.0.tar.gz]
+[2023-07-29 11:46:26] INFO root fetch - main [MainThread]: End processing [voltcraft]: success
+[2023-07-29 11:46:26] INFO root fetch - processPackages [metabase-api-python]: Remove: archive file [/home/abi/fetcher/tmp/metabase-api-python-0.0.1.tar.gz]
+[2023-07-29 11:46:26] INFO root fetch - processPackages [metabase-api-python]: Remove: archive file [/home/abi/fetcher/tmp/metabase-api-python-0.0.2.tar.gz]
+[2023-07-29 11:46:26] INFO root fetch - main [MainThread]: End processing [metabase-api-python]: success
+[2023-07-29 11:46:26] INFO root fetch - processPackages [ipylib]: Remove: archive file [/home/abi/fetcher/tmp/ipylib-0.2.5.tar.gz]
+[2023-07-29 11:46:26] INFO root fetch - processPackages [ipylib]: Remove: archive file [/home/abi/fetcher/tmp/ipylib-0.2.8.tar.gz]
+[2023-07-29 11:46:26] INFO root fetch - main [MainThread]: End processing [ipylib]: success
+[2023-07-29 11:46:26] INFO root fetch - processPackages [tendril-utils-types]: Remove: archive file [/home/abi/fetcher/tmp/tendril-utils-types-0.2.1.tar.gz]
+[2023-07-29 11:46:26] INFO root fetch - processPackages [tendril-utils-types]: Remove: archive file [/home/abi/fetcher/tmp/tendril-utils-types-0.2.2.tar.gz]
+[2023-07-29 11:46:26] INFO root fetch - main [MainThread]: End processing [tendril-utils-types]: success
+[2023-07-29 11:46:26] INFO root fetch - main [MainThread]: Store serial: [19086682]
