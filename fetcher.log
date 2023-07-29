@@ -2852,3 +2852,47 @@
 [2023-07-29 02:40:32] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds_nightly-4.9.2.dev202307280044-py3-none-any.whl.zip]
 [2023-07-29 02:40:32] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2023-07-29 02:40:32] INFO root fetch - main [MainThread]: Store serial: [19083082]
+[2023-07-29 02:45:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19083082]
+[2023-07-29 02:45:41] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-29 02:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mcptbr
+[2023-07-29 02:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mentat-ai
+[2023-07-29 02:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: foundationdb
+[2023-07-29 02:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RUTTS
+[2023-07-29 02:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-comprehend-s3olap
+[2023-07-29 02:45:41] INFO root fetch - processPackages [RUTTS]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-07-29 02:45:41] INFO root fetch - processPackages [mcptbr]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-29 02:45:41] INFO root fetch - processPackages [foundationdb]: New version: [7.3.9] Old Version: [7.3.8]
+[2023-07-29 02:45:41] INFO root fetch - processPackages [mentat-ai]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-29 02:45:41] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-29 02:45:41] INFO root fetch - processPackages [RUTTS]: Downloading https://files.pythonhosted.org/packages/67/0c/376752d9d164dd8c0bdaadc775ba7bf723c852141a0929c706065b7a7f59/RUTTS-0.0.1.tar.gz
+[2023-07-29 02:45:41] INFO root fetch - processPackages [mentat-ai]: Downloading https://files.pythonhosted.org/packages/0a/9b/3dd4ad04b635d8c8e401217482571fee4c55aae6e45bf188fef6e862f92f/mentat-ai-0.1.5.tar.gz
+[2023-07-29 02:45:41] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-07-29 02:45:41] INFO root fetch - processPackages [mcptbr]: Downloading https://files.pythonhosted.org/packages/c7/73/c62efad469b172452c186ea2a9810c9fed3137aa22e18e44604a64f5496e/mcptbr-0.2.4.tar.gz
+[2023-07-29 02:45:41] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-07-29 02:45:41] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-07-29 02:45:41] INFO root fetch - processPackages [foundationdb]: Downloading https://files.pythonhosted.org/packages/36/96/36db8b7aba7d9fb4662c1a3a88b362801e73bb1c0d469e8c291a11b74c97/foundationdb-7.3.8.tar.gz
+[2023-07-29 02:45:41] INFO root fetch - processPackages [RUTTS]: Downloading https://files.pythonhosted.org/packages/97/b5/262ebc20f7d241f34a5b8ac0abd4676cb0b4b263bd82a798795ce5f38a40/RUTTS-0.0.3.tar.gz
+[2023-07-29 02:45:41] INFO root fetch - processPackages [mcptbr]: Downloading https://files.pythonhosted.org/packages/fe/0a/c1cb80fa74a21b6f5daa12afb7f7cfda1b6548a48aa3645aa4253ffb0ea4/mcptbr-0.2.5.tar.gz
+[2023-07-29 02:45:41] INFO root fetch - processPackages [mentat-ai]: Downloading https://files.pythonhosted.org/packages/4b/98/dca6e52ddde5abe422dd0bb54d5d6043512e4b5fd9a472a147ef3ea647c5/mentat-ai-0.1.6.tar.gz
+[2023-07-29 02:45:41] INFO root fetch - processPackages [foundationdb]: Downloading https://files.pythonhosted.org/packages/5b/02/44abfcfdcc2abd0e108e45890ed5a02185aceeb90e378a8531fc45597dd9/foundationdb-7.3.9.tar.gz
+[2023-07-29 02:45:42] INFO root fetch - processPackages [foundationdb]: executing diffoscope
+[2023-07-29 02:45:42] INFO root fetch - processPackages [foundationdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foundationdb-7.3.8.tar.gz tmp/foundationdb-7.3.9.tar.gz --markdown 20230729/f/foundationdb/7.3.8-7.3.9/diff.md --exclude *.pyd
+[2023-07-29 02:45:42] INFO root fetch - processPackages [RUTTS]: executing diffoscope
+[2023-07-29 02:45:42] INFO root fetch - processPackages [RUTTS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RUTTS-0.0.1.tar.gz tmp/RUTTS-0.0.3.tar.gz --markdown 20230729/R/RUTTS/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-07-29 02:45:42] INFO root fetch - processPackages [mcptbr]: executing diffoscope
+[2023-07-29 02:45:42] INFO root fetch - processPackages [mcptbr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcptbr-0.2.4.tar.gz tmp/mcptbr-0.2.5.tar.gz --markdown 20230729/m/mcptbr/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-29 02:45:42] INFO root fetch - processPackages [mentat-ai]: executing diffoscope
+[2023-07-29 02:45:42] INFO root fetch - processPackages [mentat-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mentat-ai-0.1.5.tar.gz tmp/mentat-ai-0.1.6.tar.gz --markdown 20230729/m/mentat-ai/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-29 02:45:42] INFO root fetch - processPackages [mcptbr]: Remove: archive file [/home/abi/fetcher/tmp/mcptbr-0.2.4.tar.gz]
+[2023-07-29 02:45:42] INFO root fetch - processPackages [mcptbr]: Remove: archive file [/home/abi/fetcher/tmp/mcptbr-0.2.5.tar.gz]
+[2023-07-29 02:45:42] INFO root fetch - main [MainThread]: End processing [mcptbr]: success
+[2023-07-29 02:45:43] INFO root fetch - processPackages [RUTTS]: Remove: archive file [/home/abi/fetcher/tmp/RUTTS-0.0.1.tar.gz]
+[2023-07-29 02:45:43] INFO root fetch - processPackages [RUTTS]: Remove: archive file [/home/abi/fetcher/tmp/RUTTS-0.0.3.tar.gz]
+[2023-07-29 02:45:43] INFO root fetch - main [MainThread]: End processing [RUTTS]: success
+[2023-07-29 02:45:43] INFO root fetch - processPackages [foundationdb]: Remove: archive file [/home/abi/fetcher/tmp/foundationdb-7.3.8.tar.gz]
+[2023-07-29 02:45:43] INFO root fetch - processPackages [foundationdb]: Remove: archive file [/home/abi/fetcher/tmp/foundationdb-7.3.9.tar.gz]
+[2023-07-29 02:45:43] INFO root fetch - main [MainThread]: End processing [foundationdb]: success
+[2023-07-29 02:45:43] INFO root fetch - processPackages [mentat-ai]: Remove: archive file [/home/abi/fetcher/tmp/mentat-ai-0.1.5.tar.gz]
+[2023-07-29 02:45:43] INFO root fetch - processPackages [mentat-ai]: Remove: archive file [/home/abi/fetcher/tmp/mentat-ai-0.1.6.tar.gz]
+[2023-07-29 02:45:43] INFO root fetch - main [MainThread]: End processing [mentat-ai]: success
+[2023-07-29 02:45:43] INFO root fetch - main [MainThread]: Store serial: [19083100]
