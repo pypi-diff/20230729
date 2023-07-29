@@ -22823,3 +22823,63 @@ AssertionError: tmp/pulpcore-3.9.0.tar.gz does not exist
 [2023-07-29 21:31:11] INFO root fetch - processPackages [z4d-certified-devices]: Remove: archive file [/home/abi/fetcher/tmp/z4d-certified-devices-2.79.tar.gz]
 [2023-07-29 21:31:11] INFO root fetch - main [MainThread]: End processing [z4d-certified-devices]: success
 [2023-07-29 21:31:11] INFO root fetch - main [MainThread]: Store serial: [19091268]
+[2023-07-29 21:36:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19091268]
+[2023-07-29 21:36:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-29 21:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytransformers
+[2023-07-29 21:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quickconf
+[2023-07-29 21:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bioinfokit
+[2023-07-29 21:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lightning-rod
+[2023-07-29 21:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pdf-watermark
+[2023-07-29 21:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kcli
+[2023-07-29 21:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jaraco.mongodb
+[2023-07-29 21:36:21] WARNING root fetch - processPackages [quickconf]: Skipping, unable to determine old version
+[2023-07-29 21:36:21] INFO root fetch - main [MainThread]: End processing [quickconf] error
+[2023-07-29 21:36:21] INFO root fetch - processPackages [lightning-rod]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-29 21:36:21] INFO root fetch - processPackages [pdf-watermark]: New version: [2.0.0] Old Version: [1.0.1]
+[2023-07-29 21:36:21] INFO root fetch - processPackages [pytransformers]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-07-29 21:36:21] INFO root fetch - processPackages [bioinfokit]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-07-29 21:36:21] INFO root fetch - processPackages [jaraco.mongodb]: New version: [9.4b5] Old Version: [9.4]
+[2023-07-29 21:36:21] INFO root fetch - processPackages [kcli]: New version: [99.0.202307291835] Old Version: [99.0.202307282018]
+[2023-07-29 21:36:21] INFO root fetch - processPackages [jaraco.mongodb]: Downloading https://files.pythonhosted.org/packages/c7/d2/ba04fd8a3c469a971372d2687d0598ff30abf88f11f2ed9229b2f81836ad/jaraco.mongodb-9.4.tar.gz
+[2023-07-29 21:36:21] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/18/44/c97038f96a8efc3249f2259ba8029b43e784f50018321f3f77ce177c0b8d/kcli-99.0.202307282018-py3-none-any.whl
+[2023-07-29 21:36:21] INFO root fetch - processPackages [lightning-rod]: Downloading https://files.pythonhosted.org/packages/4f/0d/3ea25769043c44e5f45e7d8daefe36a739eaaa8ee324b78d42b48f76658d/lightning_rod-0.3.0.tar.gz
+[2023-07-29 21:36:21] INFO root fetch - processPackages [pytransformers]: Downloading https://files.pythonhosted.org/packages/72/ca/f4f9fd00afc1bafdf704c46f72372f5a7b05512eb8491951c7abb3a1bb38/pytransformers-0.0.7.tar.gz
+[2023-07-29 21:36:21] INFO root fetch - processPackages [bioinfokit]: Downloading https://files.pythonhosted.org/packages/19/2d/4fb9189fcd7d3018aeec6b1940485e90d4c69a30e95b2bdf0405c565cecb/bioinfokit-2.1.0.tar.gz
+[2023-07-29 21:36:21] INFO root fetch - processPackages [pdf-watermark]: Downloading https://files.pythonhosted.org/packages/f3/16/39a048f65ab7eaa29af1d50870c2e8ac2f222da19e2e785899446f035121/pdf-watermark-1.0.1.tar.gz
+[2023-07-29 21:36:21] INFO root fetch - processPackages [jaraco.mongodb]: Downloading https://files.pythonhosted.org/packages/02/7f/ddc4f8272d93ffc6853500bf4fb2c8025d5c913002c2c19224db8037ce57/jaraco.mongodb-9.4b5.tar.gz
+[2023-07-29 21:36:21] INFO root fetch - processPackages [lightning-rod]: Downloading https://files.pythonhosted.org/packages/f6/7d/2acc9fa984640c9e53f334596d441f1f46009e63b54baba4a606510db865/lightning_rod-0.4.0.tar.gz
+[2023-07-29 21:36:21] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/74/f6/a53ab903430e5250b8f0c95c916fade50cfd64ecc6b547db5894d2e5b809/kcli-99.0.202307291835-py3-none-any.whl
+[2023-07-29 21:36:21] INFO root fetch - processPackages [pytransformers]: Downloading https://files.pythonhosted.org/packages/e1/77/c4852fa1d2d48fed3816ff9a91703512171f2295137b31194bd0776960c6/pytransformers-0.0.9.tar.gz
+[2023-07-29 21:36:21] INFO root fetch - processPackages [bioinfokit]: Downloading https://files.pythonhosted.org/packages/ff/2c/5e0ad297ddf22b161fc60e6f5569f9765a7d9c5c68ae4cf14af2c763d991/bioinfokit-2.1.1.tar.gz
+[2023-07-29 21:36:21] INFO root fetch - processPackages [lightning-rod]: executing diffoscope
+[2023-07-29 21:36:21] INFO root fetch - processPackages [lightning-rod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning_rod-0.3.0.tar.gz tmp/lightning_rod-0.4.0.tar.gz --markdown 20230729/l/lightning-rod/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-29 21:36:21] INFO root fetch - processPackages [pdf-watermark]: Downloading https://files.pythonhosted.org/packages/c8/75/da48abb2a57ed6d65988321219082215fd5197f87767951b4e3ca8e31ba1/pdf-watermark-2.0.0.tar.gz
+[2023-07-29 21:36:21] INFO root fetch - processPackages [pytransformers]: executing diffoscope
+[2023-07-29 21:36:21] INFO root fetch - processPackages [pytransformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytransformers-0.0.7.tar.gz tmp/pytransformers-0.0.9.tar.gz --markdown 20230729/p/pytransformers/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-07-29 21:36:21] INFO root fetch - processPackages [jaraco.mongodb]: executing diffoscope
+[2023-07-29 21:36:21] INFO root fetch - processPackages [jaraco.mongodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaraco.mongodb-9.4.tar.gz tmp/jaraco.mongodb-9.4b5.tar.gz --markdown 20230729/j/jaraco.mongodb/9.4-9.4b5/diff.md --exclude *.pyd
+[2023-07-29 21:36:22] INFO root fetch - processPackages [pdf-watermark]: executing diffoscope
+[2023-07-29 21:36:22] INFO root fetch - processPackages [pdf-watermark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdf-watermark-1.0.1.tar.gz tmp/pdf-watermark-2.0.0.tar.gz --markdown 20230729/p/pdf-watermark/1.0.1-2.0.0/diff.md --exclude *.pyd
+[2023-07-29 21:36:22] INFO root fetch - processPackages [bioinfokit]: executing diffoscope
+[2023-07-29 21:36:22] INFO root fetch - processPackages [bioinfokit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioinfokit-2.1.0.tar.gz tmp/bioinfokit-2.1.1.tar.gz --markdown 20230729/b/bioinfokit/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-07-29 21:36:22] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-29 21:36:22] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307282018-py3-none-any.whl.zip tmp/kcli-99.0.202307291835-py3-none-any.whl.zip --markdown 20230729/k/kcli/99.0.202307282018-99.0.202307291835/diff.md --exclude *.pyd
+[2023-07-29 21:36:23] INFO root fetch - processPackages [pytransformers]: Remove: archive file [/home/abi/fetcher/tmp/pytransformers-0.0.7.tar.gz]
+[2023-07-29 21:36:23] INFO root fetch - processPackages [pytransformers]: Remove: archive file [/home/abi/fetcher/tmp/pytransformers-0.0.9.tar.gz]
+[2023-07-29 21:36:23] INFO root fetch - main [MainThread]: End processing [pytransformers]: success
+[2023-07-29 21:36:23] INFO root fetch - processPackages [pdf-watermark]: Remove: archive file [/home/abi/fetcher/tmp/pdf-watermark-1.0.1.tar.gz]
+[2023-07-29 21:36:23] INFO root fetch - processPackages [pdf-watermark]: Remove: archive file [/home/abi/fetcher/tmp/pdf-watermark-2.0.0.tar.gz]
+[2023-07-29 21:36:23] INFO root fetch - main [MainThread]: End processing [pdf-watermark]: success
+[2023-07-29 21:36:23] INFO root fetch - processPackages [lightning-rod]: Remove: archive file [/home/abi/fetcher/tmp/lightning_rod-0.3.0.tar.gz]
+[2023-07-29 21:36:23] INFO root fetch - processPackages [lightning-rod]: Remove: archive file [/home/abi/fetcher/tmp/lightning_rod-0.4.0.tar.gz]
+[2023-07-29 21:36:23] INFO root fetch - main [MainThread]: End processing [lightning-rod]: success
+[2023-07-29 21:36:23] INFO root fetch - processPackages [jaraco.mongodb]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.mongodb-9.4.tar.gz]
+[2023-07-29 21:36:23] INFO root fetch - processPackages [jaraco.mongodb]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.mongodb-9.4b5.tar.gz]
+[2023-07-29 21:36:23] INFO root fetch - main [MainThread]: End processing [jaraco.mongodb]: success
+[2023-07-29 21:36:23] INFO root fetch - processPackages [bioinfokit]: Remove: archive file [/home/abi/fetcher/tmp/bioinfokit-2.1.0.tar.gz]
+[2023-07-29 21:36:23] INFO root fetch - processPackages [bioinfokit]: Remove: archive file [/home/abi/fetcher/tmp/bioinfokit-2.1.1.tar.gz]
+[2023-07-29 21:36:23] INFO root fetch - main [MainThread]: End processing [bioinfokit]: success
+[2023-07-29 21:36:25] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307282018-py3-none-any.whl.zip]
+[2023-07-29 21:36:25] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307291835-py3-none-any.whl.zip]
+[2023-07-29 21:36:25] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-29 21:36:25] INFO root fetch - main [MainThread]: Store serial: [19091293]
