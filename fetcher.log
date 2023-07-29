@@ -11037,3 +11037,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 10:28:29] INFO root fetch - processPackages [rateslib]: Remove: archive file [/home/abi/fetcher/tmp/rateslib-0.3.1.tar.gz]
 [2023-07-29 10:28:29] INFO root fetch - main [MainThread]: End processing [rateslib]: success
 [2023-07-29 10:28:29] INFO root fetch - main [MainThread]: Store serial: [19086397]
+[2023-07-29 10:33:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19086397]
+[2023-07-29 10:33:37] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-29 10:33:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mypy-boto3-builder
+[2023-07-29 10:33:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hishel
+[2023-07-29 10:33:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sparkleweb
+[2023-07-29 10:33:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pmap3.0.3
+[2023-07-29 10:33:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-game-collection
+[2023-07-29 10:33:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tesh
+[2023-07-29 10:33:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: photobooth-app
+[2023-07-29 10:33:38] INFO root fetch - processPackages [hishel]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-29 10:33:38] INFO root fetch - processPackages [sparkleweb]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-29 10:33:38] INFO root fetch - processPackages [mypy-boto3-builder]: New version: [7.9.2] Old Version: [7.9.1]
+[2023-07-29 10:33:38] INFO root fetch - processPackages [photobooth-app]: New version: [0.1.0rc9] Old Version: [0.1.0rc8]
+[2023-07-29 10:33:38] INFO root fetch - processPackages [tesh]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-29 10:33:38] WARNING root fetch - processPackages [pmap3.0.3]: Skipping, unable to determine old version
+[2023-07-29 10:33:38] INFO root fetch - main [MainThread]: End processing [pmap3.0.3] error
+[2023-07-29 10:33:38] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-07-29 10:33:38] INFO root fetch - processPackages [sparkleweb]: Downloading https://files.pythonhosted.org/packages/16/34/b7d3918a2d8c47e726845f384a7d648681b3f5fd42f5f3fbf99acd2d62dd/SparkleWeb-1.0.2.tar.gz
+[2023-07-29 10:33:38] INFO root fetch - processPackages [hishel]: Downloading https://files.pythonhosted.org/packages/13/04/47e477e82e2a4fe4edd0c76862f60bf14dc6eb8592018d99ebcf0aae51ab/hishel-0.0.4.tar.gz
+[2023-07-29 10:33:38] INFO root fetch - processPackages [mypy-boto3-builder]: Downloading https://files.pythonhosted.org/packages/ee/11/341b105bf6345e78400793dd64c53ee46392936cabff33772d368be4ab89/mypy-boto3-builder-7.9.1.tar.gz
+[2023-07-29 10:33:38] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/51/fb/d907f05bab271d6408024397bb87d8e7e069ff91fa3152a09c37d0191aec/nonebot_plugin_game_collection-2.3.8.tar.gz
+[2023-07-29 10:33:38] INFO root fetch - processPackages [photobooth-app]: Downloading https://files.pythonhosted.org/packages/b6/cf/01c6805f915e5ebd857b538f236246fa581f0665eb693cf97ca1fec3cb8b/photobooth_app-0.1.0rc8.tar.gz
+[2023-07-29 10:33:38] INFO root fetch - processPackages [tesh]: Downloading https://files.pythonhosted.org/packages/6e/15/c1f2beb32e897e534d0b83dfa2ab652f112e53e175c93771732f59926b9f/tesh-0.2.0.tar.gz
+[2023-07-29 10:33:38] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/e4/94/777d03c2f9fbba4c5835c0178b82dffa9d6007ab381b752f81e9af32ff1e/nonebot_plugin_game_collection-2.3.9.tar.gz
+[2023-07-29 10:33:38] INFO root fetch - processPackages [sparkleweb]: Downloading https://files.pythonhosted.org/packages/09/99/9d69d7e506da23ea5ab190de36122a775808fbc2953365201c07c959c5a6/sparkleweb-1.0.3.tar.gz
+[2023-07-29 10:33:38] INFO root fetch - processPackages [hishel]: Downloading https://files.pythonhosted.org/packages/9e/aa/444eaad9ac79e926d628257ee445a0f053f1cfdf0fdbcc83ac13f8e95537/hishel-0.0.5.tar.gz
+[2023-07-29 10:33:38] INFO root fetch - processPackages [mypy-boto3-builder]: Downloading https://files.pythonhosted.org/packages/fe/ae/2a0da74f6827713d434b6fdb09c80ff83f450cffa43c5b8811492236e7ac/mypy-boto3-builder-7.9.2.tar.gz
+[2023-07-29 10:33:38] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2023-07-29 10:33:38] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.3.8.tar.gz tmp/nonebot_plugin_game_collection-2.3.9.tar.gz --markdown 20230729/n/nonebot-plugin-game-collection/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-07-29 10:33:38] INFO root fetch - processPackages [sparkleweb]: executing diffoscope
+[2023-07-29 10:33:38] INFO root fetch - processPackages [sparkleweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SparkleWeb-1.0.2.tar.gz tmp/sparkleweb-1.0.3.tar.gz --markdown 20230729/s/sparkleweb/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-29 10:33:38] INFO root fetch - processPackages [hishel]: executing diffoscope
+[2023-07-29 10:33:38] INFO root fetch - processPackages [hishel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hishel-0.0.4.tar.gz tmp/hishel-0.0.5.tar.gz --markdown 20230729/h/hishel/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-29 10:33:38] INFO root fetch - processPackages [tesh]: Downloading https://files.pythonhosted.org/packages/d1/56/fc1d195d768da92ab3badc4dee3a77029735e03fda8ed693f643e12463c1/tesh-0.3.0.tar.gz
+[2023-07-29 10:33:38] INFO root fetch - processPackages [tesh]: executing diffoscope
+[2023-07-29 10:33:38] INFO root fetch - processPackages [tesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tesh-0.2.0.tar.gz tmp/tesh-0.3.0.tar.gz --markdown 20230729/t/tesh/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-29 10:33:38] INFO root fetch - processPackages [mypy-boto3-builder]: executing diffoscope
+[2023-07-29 10:33:38] INFO root fetch - processPackages [mypy-boto3-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-builder-7.9.1.tar.gz tmp/mypy-boto3-builder-7.9.2.tar.gz --markdown 20230729/m/mypy-boto3-builder/7.9.1-7.9.2/diff.md --exclude *.pyd
+[2023-07-29 10:33:39] INFO root fetch - processPackages [sparkleweb]: Remove: archive file [/home/abi/fetcher/tmp/SparkleWeb-1.0.2.tar.gz]
+[2023-07-29 10:33:39] INFO root fetch - processPackages [sparkleweb]: Remove: archive file [/home/abi/fetcher/tmp/sparkleweb-1.0.3.tar.gz]
+[2023-07-29 10:33:39] INFO root fetch - main [MainThread]: End processing [sparkleweb]: success
+[2023-07-29 10:33:39] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.3.8.tar.gz]
+[2023-07-29 10:33:39] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.3.9.tar.gz]
+[2023-07-29 10:33:39] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2023-07-29 10:33:39] INFO root fetch - processPackages [hishel]: Remove: archive file [/home/abi/fetcher/tmp/hishel-0.0.4.tar.gz]
+[2023-07-29 10:33:39] INFO root fetch - processPackages [hishel]: Remove: archive file [/home/abi/fetcher/tmp/hishel-0.0.5.tar.gz]
+[2023-07-29 10:33:39] INFO root fetch - main [MainThread]: End processing [hishel]: success
+[2023-07-29 10:33:39] INFO root fetch - processPackages [tesh]: Remove: archive file [/home/abi/fetcher/tmp/tesh-0.2.0.tar.gz]
+[2023-07-29 10:33:39] INFO root fetch - processPackages [tesh]: Remove: archive file [/home/abi/fetcher/tmp/tesh-0.3.0.tar.gz]
+[2023-07-29 10:33:39] INFO root fetch - main [MainThread]: End processing [tesh]: success
+[2023-07-29 10:33:40] INFO root fetch - processPackages [photobooth-app]: Downloading https://files.pythonhosted.org/packages/54/c6/226dc2413a4605c0cd37bca64ed2972d77cee1fb24afcb3812a0189e1243/photobooth_app-0.1.0rc9.tar.gz
+[2023-07-29 10:33:40] INFO root fetch - processPackages [mypy-boto3-builder]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-builder-7.9.1.tar.gz]
+[2023-07-29 10:33:40] INFO root fetch - processPackages [mypy-boto3-builder]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-builder-7.9.2.tar.gz]
+[2023-07-29 10:33:40] INFO root fetch - main [MainThread]: End processing [mypy-boto3-builder]: success
+[2023-07-29 10:33:41] INFO root fetch - processPackages [photobooth-app]: executing diffoscope
+[2023-07-29 10:33:41] INFO root fetch - processPackages [photobooth-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/photobooth_app-0.1.0rc8.tar.gz tmp/photobooth_app-0.1.0rc9.tar.gz --markdown 20230729/p/photobooth-app/0.1.0rc8-0.1.0rc9/diff.md --exclude *.pyd
+[2023-07-29 10:33:42] INFO root fetch - processPackages [photobooth-app]: Remove: archive file [/home/abi/fetcher/tmp/photobooth_app-0.1.0rc8.tar.gz]
+[2023-07-29 10:33:42] INFO root fetch - processPackages [photobooth-app]: Remove: archive file [/home/abi/fetcher/tmp/photobooth_app-0.1.0rc9.tar.gz]
+[2023-07-29 10:33:42] INFO root fetch - main [MainThread]: End processing [photobooth-app]: success
+[2023-07-29 10:33:42] INFO root fetch - main [MainThread]: Store serial: [19086423]
