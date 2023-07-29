@@ -17075,3 +17075,47 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 14:39:56] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.99.tar.gz]
 [2023-07-29 14:39:56] INFO root fetch - main [MainThread]: End processing [projen]: success
 [2023-07-29 14:39:56] INFO root fetch - main [MainThread]: Store serial: [19088685]
+[2023-07-29 14:45:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19088685]
+[2023-07-29 14:45:04] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-29 14:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ansi-terminal
+[2023-07-29 14:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jina
+[2023-07-29 14:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: terminal-ansi
+[2023-07-29 14:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: htagweb
+[2023-07-29 14:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pastis-framework
+[2023-07-29 14:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-shelf
+[2023-07-29 14:45:05] WARNING root fetch - processPackages [terminal-ansi]: Skipping, unable to determine old version
+[2023-07-29 14:45:05] INFO root fetch - main [MainThread]: End processing [terminal-ansi] error
+[2023-07-29 14:45:05] INFO root fetch - processPackages [py-shelf]: New version: [3.0.4] Old Version: [3.0.3]
+[2023-07-29 14:45:05] INFO root fetch - processPackages [pastis-framework]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-29 14:45:05] INFO root fetch - processPackages [htagweb]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-29 14:45:05] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-07-29 14:45:05] WARNING root fetch - processPackages [ansi-terminal]: Skipping, unable to determine old version
+[2023-07-29 14:45:05] INFO root fetch - main [MainThread]: End processing [ansi-terminal] error
+[2023-07-29 14:45:05] INFO root fetch - processPackages [jina]: Downloading https://files.pythonhosted.org/packages/f0/3b/7e6b8b6de74c936b09ce9a4d7440511734efe64633b3418e61b667257994/jina-3.9.3.dev8.tar.gz
+[2023-07-29 14:45:05] INFO root fetch - processPackages [pastis-framework]: Downloading https://files.pythonhosted.org/packages/62/1e/065131e9ae957eaa0c8816659a3bb85285006f851acf12cc4a0914337085/pastis-framework-1.0.4.tar.gz
+[2023-07-29 14:45:05] INFO root fetch - processPackages [htagweb]: Downloading https://files.pythonhosted.org/packages/88/7f/8ea7e951cb8838d9f76b6006ef5ca19fd22435a3b16706cb06c90bb5df22/htagweb-0.4.2.tar.gz
+[2023-07-29 14:45:05] INFO root fetch - processPackages [py-shelf]: Downloading https://files.pythonhosted.org/packages/2f/02/24c3ebbc343661f5c742f97728dea962c173c6ea2dccf4bb0f248b2c48bd/py_shelf-3.0.4.tar.gz
+[2023-07-29 14:45:05] INFO root fetch - processPackages [jina]: Downloading https://files.pythonhosted.org/packages/89/60/0658aa50da9055ade2f42bd6cecdfa0abdf69ce7f7bd063c628105106538/jina-3.9.3.dev9.tar.gz
+[2023-07-29 14:45:05] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-07-29 14:45:05] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230729/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-07-29 14:45:05] INFO root fetch - processPackages [pastis-framework]: Downloading https://files.pythonhosted.org/packages/83/de/85c8a07ea46ef93e1fc4912385ae9afd500703c16be2615b4cd9fcef0bbc/pastis-framework-1.0.5.tar.gz
+[2023-07-29 14:45:05] INFO root fetch - processPackages [htagweb]: Downloading https://files.pythonhosted.org/packages/25/4c/94a9e655267288d251bdc22d1492f1a8766ae5cd028fb9d61b0e500c9f26/htagweb-0.4.3.tar.gz
+[2023-07-29 14:45:05] INFO root fetch - processPackages [htagweb]: executing diffoscope
+[2023-07-29 14:45:05] INFO root fetch - processPackages [htagweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htagweb-0.4.2.tar.gz tmp/htagweb-0.4.3.tar.gz --markdown 20230729/h/htagweb/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-29 14:45:05] INFO root fetch - processPackages [pastis-framework]: executing diffoscope
+[2023-07-29 14:45:05] INFO root fetch - processPackages [pastis-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pastis-framework-1.0.4.tar.gz tmp/pastis-framework-1.0.5.tar.gz --markdown 20230729/p/pastis-framework/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-29 14:45:06] INFO root fetch - processPackages [py-shelf]: executing diffoscope
+[2023-07-29 14:45:06] INFO root fetch - processPackages [py-shelf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_shelf-3.0.3.tar.gz tmp/py_shelf-3.0.4.tar.gz --markdown 20230729/p/py-shelf/3.0.3-3.0.4/diff.md --exclude *.pyd
+[2023-07-29 14:45:06] INFO root fetch - processPackages [htagweb]: Remove: archive file [/home/abi/fetcher/tmp/htagweb-0.4.2.tar.gz]
+[2023-07-29 14:45:06] INFO root fetch - processPackages [htagweb]: Remove: archive file [/home/abi/fetcher/tmp/htagweb-0.4.3.tar.gz]
+[2023-07-29 14:45:06] INFO root fetch - main [MainThread]: End processing [htagweb]: success
+[2023-07-29 14:45:06] INFO root fetch - processPackages [pastis-framework]: Remove: archive file [/home/abi/fetcher/tmp/pastis-framework-1.0.4.tar.gz]
+[2023-07-29 14:45:06] INFO root fetch - processPackages [pastis-framework]: Remove: archive file [/home/abi/fetcher/tmp/pastis-framework-1.0.5.tar.gz]
+[2023-07-29 14:45:06] INFO root fetch - main [MainThread]: End processing [pastis-framework]: success
+[2023-07-29 14:45:07] INFO root fetch - processPackages [jina]: Remove: archive file [/home/abi/fetcher/tmp/jina-3.9.3.dev8.tar.gz]
+[2023-07-29 14:45:07] INFO root fetch - processPackages [jina]: Remove: archive file [/home/abi/fetcher/tmp/jina-3.9.3.dev9.tar.gz]
+[2023-07-29 14:45:07] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-07-29 14:45:08] INFO root fetch - processPackages [py-shelf]: Remove: archive file [/home/abi/fetcher/tmp/py_shelf-3.0.3.tar.gz]
+[2023-07-29 14:45:08] INFO root fetch - processPackages [py-shelf]: Remove: archive file [/home/abi/fetcher/tmp/py_shelf-3.0.4.tar.gz]
+[2023-07-29 14:45:08] INFO root fetch - main [MainThread]: End processing [py-shelf]: success
+[2023-07-29 14:45:08] INFO root fetch - main [MainThread]: Store serial: [19088720]
