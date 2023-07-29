@@ -15963,3 +15963,123 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 13:21:39] INFO root fetch - processPackages [ukmon-meteortools]: Remove: archive file [/home/abi/fetcher/tmp/ukmon_meteortools-2023.7.6.tar.gz]
 [2023-07-29 13:21:39] INFO root fetch - main [MainThread]: End processing [ukmon-meteortools]: success
 [2023-07-29 13:21:39] INFO root fetch - main [MainThread]: Store serial: [19088147]
+[2023-07-29 13:26:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19088147]
+[2023-07-29 13:26:48] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-29 13:26:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sedi
+[2023-07-29 13:26:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crypto-screening
+[2023-07-29 13:26:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CipherProgram
+[2023-07-29 13:26:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quantplay
+[2023-07-29 13:26:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SPCEj9bbotw
+[2023-07-29 13:26:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tb-nightly
+[2023-07-29 13:26:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torchtnt-nightly
+[2023-07-29 13:26:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Bokit
+[2023-07-29 13:26:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ptrack
+[2023-07-29 13:26:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: torchx-nightly
+[2023-07-29 13:26:48] INFO root fetch - processPackages [CipherProgram]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-29 13:26:48] INFO root fetch - processPackages [ptrack]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-29 13:26:48] INFO root fetch - processPackages [sedi]: New version: [0.2] Old Version: [0.1]
+[2023-07-29 13:26:48] INFO root fetch - processPackages [Bokit]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-29 13:26:48] INFO root fetch - processPackages [SPCEj9bbotw]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-29 13:26:48] INFO root fetch - processPackages [crypto-screening]: New version: [8.2.9] Old Version: [8.2.8]
+[2023-07-29 13:26:48] INFO root fetch - processPackages [torchx-nightly]: New version: [2023.7.28] Old Version: [2023.7.27]
+[2023-07-29 13:26:48] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-07-29 13:26:48] INFO root fetch - processPackages [quantplay]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-29 13:26:48] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-29 13:26:48] INFO root fetch - processPackages [CipherProgram]: Downloading https://files.pythonhosted.org/packages/a6/88/42c4a551e1f8ccd859135c6cfa2e083a2a032a12344f49662a6242dca55e/CipherProgram-0.0.3.tar.gz
+[2023-07-29 13:26:48] INFO root fetch - processPackages [ptrack]: Downloading https://files.pythonhosted.org/packages/82/f7/b6e69e85d5ac5559016e561a14c453fa19bc3bee70c7ced9f4b395b2e395/ptrack-0.1.1.tar.gz
+[2023-07-29 13:26:48] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/bf/16/3a9166c0db516bf7ba84c1795a26385efd55890a6cf7c91d004267bd6417/crypto-screening-8.2.8.tar.gz
+[2023-07-29 13:26:48] INFO root fetch - processPackages [sedi]: Downloading https://files.pythonhosted.org/packages/1b/41/34edf4a248a94aaba6aa7d28c68e48d1de7647d55f2c11dd4a5ffc04432f/sedi-0.1.tar.gz
+[2023-07-29 13:26:48] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/b8/32/b0e41996fe8f4e539e36a73ed709018f90e408a7536cd5aa49ae9b23bc28/torchx_nightly-2023.7.27-py3-none-any.whl
+[2023-07-29 13:26:48] INFO root fetch - processPackages [Bokit]: Downloading https://files.pythonhosted.org/packages/c8/85/3b5e137ba9a831b45d686ba9c122227526e3a51c581db4d4cb7e4347f5c3/Bokit-0.2.1.tar.gz
+[2023-07-29 13:26:48] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/47/a5/6e0ce29c38b55188a4ab6ec32c5f4908ef7a19908d233cb0c077fcc21462/torchtnt-nightly-2023.7.8.tar.gz
+[2023-07-29 13:26:48] INFO root fetch - processPackages [SPCEj9bbotw]: Downloading https://files.pythonhosted.org/packages/f4/df/9bec64df9733488b61600ddf4d878cc1561b8f058471b27e289799c588bc/SPCEj9bbotw-0.0.3.tar.gz
+[2023-07-29 13:26:48] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/45/df/9dafdbe1d951b59dcb7dc8f02188b232f56f79298a06892f0e603becc389/quantplay-1.3.8.tar.gz
+[2023-07-29 13:26:48] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2023-07-29 13:26:49] INFO root fetch - processPackages [ptrack]: Downloading https://files.pythonhosted.org/packages/2f/c7/935b50be1bc1b0c853b3aea2ead46f44a72b89e9ac9f229bb7219b49006d/ptrack-0.1.2.tar.gz
+[2023-07-29 13:26:49] INFO root fetch - processPackages [CipherProgram]: Downloading https://files.pythonhosted.org/packages/cc/68/77c411e2d4c854656b1da58070d153cde822f915c3d933bebcd654103cc0/CipherProgram-0.0.4.tar.gz
+[2023-07-29 13:26:49] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/ee/a5/18caaa36bc077cbd964b78406eed5d1840456172da7cdd1b6c18be824d06/quantplay-1.3.9.tar.gz
+[2023-07-29 13:26:49] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/ae/7f/589eb3c0712725a4a9594bdbc4229b9087a94038117bda63c54ef6d2e7e5/torchtnt-nightly-2023.7.9.tar.gz
+[2023-07-29 13:26:49] INFO root fetch - processPackages [sedi]: Downloading https://files.pythonhosted.org/packages/90/ab/5072b5995ea3dc7f71b227ce8c07a49de8942b12fe1c79b125fb82bc63c0/sedi-0.2.tar.gz
+[2023-07-29 13:26:49] INFO root fetch - processPackages [Bokit]: Downloading https://files.pythonhosted.org/packages/e4/5f/dbaf59f245d68bb436f488598e6a87b7b739163ce15e6f24fd15926fed88/Bokit-0.2.2.tar.gz
+[2023-07-29 13:26:49] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/b9/e0/4176d6da942f6a80c64e87d56ba3ff7ca7601ff579ff549d97873c0d17f3/crypto-screening-8.2.9.tar.gz
+[2023-07-29 13:26:49] INFO root fetch - processPackages [CipherProgram]: executing diffoscope
+[2023-07-29 13:26:49] INFO root fetch - processPackages [CipherProgram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CipherProgram-0.0.3.tar.gz tmp/CipherProgram-0.0.4.tar.gz --markdown 20230729/C/CipherProgram/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-29 13:26:49] INFO root fetch - processPackages [SPCEj9bbotw]: Downloading https://files.pythonhosted.org/packages/42/80/f59b52ed056aaa1080de3e760d3dbcb4166292b3fd98631349393187ac76/SPCEj9bbotw-0.0.4.tar.gz
+[2023-07-29 13:26:49] INFO root fetch - processPackages [ptrack]: executing diffoscope
+[2023-07-29 13:26:49] INFO root fetch - processPackages [ptrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptrack-0.1.1.tar.gz tmp/ptrack-0.1.2.tar.gz --markdown 20230729/p/ptrack/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-29 13:26:49] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/c3/76/27fe57e62a5e5fe22bc497d6dbd0050d320fcad28e7c7d8d6cb7205efe2d/torchx_nightly-2023.7.28-py3-none-any.whl
+[2023-07-29 13:26:49] INFO root fetch - processPackages [sedi]: executing diffoscope
+[2023-07-29 13:26:49] INFO root fetch - processPackages [sedi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sedi-0.1.tar.gz tmp/sedi-0.2.tar.gz --markdown 20230729/s/sedi/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-29 13:26:49] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-07-29 13:26:49] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.3.8.tar.gz tmp/quantplay-1.3.9.tar.gz --markdown 20230729/q/quantplay/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-29 13:26:49] INFO root fetch - processPackages [Bokit]: executing diffoscope
+[2023-07-29 13:26:49] INFO root fetch - processPackages [Bokit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bokit-0.2.1.tar.gz tmp/Bokit-0.2.2.tar.gz --markdown 20230729/B/Bokit/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-29 13:26:49] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-07-29 13:26:49] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.7.8.tar.gz tmp/torchtnt-nightly-2023.7.9.tar.gz --markdown 20230729/t/torchtnt-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-29 13:26:49] INFO root fetch - processPackages [SPCEj9bbotw]: executing diffoscope
+[2023-07-29 13:26:49] INFO root fetch - processPackages [SPCEj9bbotw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SPCEj9bbotw-0.0.3.tar.gz tmp/SPCEj9bbotw-0.0.4.tar.gz --markdown 20230729/S/SPCEj9bbotw/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-29 13:26:49] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-29 13:26:49] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-8.2.8.tar.gz tmp/crypto-screening-8.2.9.tar.gz --markdown 20230729/c/crypto-screening/8.2.8-8.2.9/diff.md --exclude *.pyd
+[2023-07-29 13:26:49] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2023-07-29 13:26:49] INFO root fetch - processPackages [torchx-nightly]: executing diffoscope
+[2023-07-29 13:26:49] INFO root fetch - processPackages [torchx-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchx_nightly-2023.7.27-py3-none-any.whl.zip tmp/torchx_nightly-2023.7.28-py3-none-any.whl.zip --markdown 20230729/t/torchx-nightly/2023.7.27-2023.7.28/diff.md --exclude *.pyd
+[2023-07-29 13:26:50] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-07-29 13:26:50] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230729/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-07-29 13:26:50] INFO root fetch - processPackages [ptrack]: Remove: archive file [/home/abi/fetcher/tmp/ptrack-0.1.1.tar.gz]
+[2023-07-29 13:26:50] INFO root fetch - processPackages [ptrack]: Remove: archive file [/home/abi/fetcher/tmp/ptrack-0.1.2.tar.gz]
+[2023-07-29 13:26:50] INFO root fetch - processPackages [ptrack]: Start processing: torchrl-nightly
+[2023-07-29 13:26:50] INFO root fetch - main [MainThread]: End processing [ptrack]: success
+[2023-07-29 13:26:50] INFO root fetch - processPackages [CipherProgram]: Remove: archive file [/home/abi/fetcher/tmp/CipherProgram-0.0.3.tar.gz]
+[2023-07-29 13:26:50] INFO root fetch - processPackages [CipherProgram]: Remove: archive file [/home/abi/fetcher/tmp/CipherProgram-0.0.4.tar.gz]
+[2023-07-29 13:26:50] INFO root fetch - processPackages [CipherProgram]: Start processing: apixdev
+[2023-07-29 13:26:50] INFO root fetch - main [MainThread]: End processing [CipherProgram]: success
+[2023-07-29 13:26:51] INFO root fetch - processPackages [torchrl-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-29 13:26:51] INFO root fetch - processPackages [apixdev]: New version: [0.3.4] Old Version: [0.3.2]
+[2023-07-29 13:26:51] INFO root fetch - processPackages [Bokit]: Remove: archive file [/home/abi/fetcher/tmp/Bokit-0.2.1.tar.gz]
+[2023-07-29 13:26:51] INFO root fetch - processPackages [Bokit]: Remove: archive file [/home/abi/fetcher/tmp/Bokit-0.2.2.tar.gz]
+[2023-07-29 13:26:51] INFO root fetch - processPackages [Bokit]: Start processing: commitizen
+[2023-07-29 13:26:51] INFO root fetch - main [MainThread]: End processing [Bokit]: success
+[2023-07-29 13:26:51] INFO root fetch - processPackages [sedi]: Remove: archive file [/home/abi/fetcher/tmp/sedi-0.1.tar.gz]
+[2023-07-29 13:26:51] INFO root fetch - processPackages [sedi]: Remove: archive file [/home/abi/fetcher/tmp/sedi-0.2.tar.gz]
+[2023-07-29 13:26:51] INFO root fetch - main [MainThread]: End processing [sedi]: success
+[2023-07-29 13:26:51] INFO root fetch - processPackages [SPCEj9bbotw]: Remove: archive file [/home/abi/fetcher/tmp/SPCEj9bbotw-0.0.3.tar.gz]
+[2023-07-29 13:26:51] INFO root fetch - processPackages [SPCEj9bbotw]: Remove: archive file [/home/abi/fetcher/tmp/SPCEj9bbotw-0.0.4.tar.gz]
+[2023-07-29 13:26:51] INFO root fetch - main [MainThread]: End processing [SPCEj9bbotw]: success
+[2023-07-29 13:26:51] INFO root fetch - processPackages [commitizen]: New version: [3.5.4] Old Version: [3.5.3]
+[2023-07-29 13:26:51] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/38/33/59a88ceafbd8e349b7f261de4859c91912b883bd14249422d344f09ba9ed/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl
+[2023-07-29 13:26:51] INFO root fetch - processPackages [apixdev]: Downloading https://files.pythonhosted.org/packages/82/3c/fd12b977f239837494a079b1f42cb422deeec2f99ee169e59724d225fb93/apixdev-0.3.2.tar.gz
+[2023-07-29 13:26:51] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.7.8.tar.gz]
+[2023-07-29 13:26:51] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.7.9.tar.gz]
+[2023-07-29 13:26:51] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-07-29 13:26:51] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.3.8.tar.gz]
+[2023-07-29 13:26:51] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.3.9.tar.gz]
+[2023-07-29 13:26:51] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-07-29 13:26:51] INFO root fetch - processPackages [commitizen]: Downloading https://files.pythonhosted.org/packages/06/c9/2a3450eb2b1611da766fe8a5209eaa873ac6e0de1f23c615dc461364cc3b/commitizen-3.5.3.tar.gz
+[2023-07-29 13:26:51] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-8.2.8.tar.gz]
+[2023-07-29 13:26:51] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-8.2.9.tar.gz]
+[2023-07-29 13:26:51] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-29 13:26:51] INFO root fetch - processPackages [apixdev]: Downloading https://files.pythonhosted.org/packages/fe/78/0361f6363c8078e9f6c4cd9a5d00c055e2507d8039a322b599a33dbfde40/apixdev-0.3.4.tar.gz
+[2023-07-29 13:26:51] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2023.7.27-py3-none-any.whl.zip]
+[2023-07-29 13:26:51] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2023.7.28-py3-none-any.whl.zip]
+[2023-07-29 13:26:51] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
+[2023-07-29 13:26:51] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/22/59/298ac6427c9497e554f2b3ba5d253603250fe69672e94a74affda6a5613c/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl
+[2023-07-29 13:26:51] INFO root fetch - processPackages [apixdev]: executing diffoscope
+[2023-07-29 13:26:51] INFO root fetch - processPackages [apixdev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apixdev-0.3.2.tar.gz tmp/apixdev-0.3.4.tar.gz --markdown 20230729/a/apixdev/0.3.2-0.3.4/diff.md --exclude *.pyd
+[2023-07-29 13:26:51] INFO root fetch - processPackages [commitizen]: Downloading https://files.pythonhosted.org/packages/20/ec/ccd893a4f2eea1c144f2fea08d97feaa084bb1fee41c7726b4ef86341234/commitizen-3.5.4.tar.gz
+[2023-07-29 13:26:51] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2023-07-29 13:26:51] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip --markdown 20230729/t/torchrl-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-29 13:26:52] INFO root fetch - processPackages [commitizen]: executing diffoscope
+[2023-07-29 13:26:52] INFO root fetch - processPackages [commitizen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commitizen-3.5.3.tar.gz tmp/commitizen-3.5.4.tar.gz --markdown 20230729/c/commitizen/3.5.3-3.5.4/diff.md --exclude *.pyd
+[2023-07-29 13:26:52] INFO root fetch - processPackages [apixdev]: Remove: archive file [/home/abi/fetcher/tmp/apixdev-0.3.2.tar.gz]
+[2023-07-29 13:26:52] INFO root fetch - processPackages [apixdev]: Remove: archive file [/home/abi/fetcher/tmp/apixdev-0.3.4.tar.gz]
+[2023-07-29 13:26:52] INFO root fetch - main [MainThread]: End processing [apixdev]: success
+[2023-07-29 13:26:52] INFO root fetch - processPackages [commitizen]: Remove: archive file [/home/abi/fetcher/tmp/commitizen-3.5.3.tar.gz]
+[2023-07-29 13:26:52] INFO root fetch - processPackages [commitizen]: Remove: archive file [/home/abi/fetcher/tmp/commitizen-3.5.4.tar.gz]
+[2023-07-29 13:26:52] INFO root fetch - main [MainThread]: End processing [commitizen]: success
+[2023-07-29 13:26:52] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2023-07-29 13:26:52] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2023-07-29 13:26:52] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-07-29 13:26:53] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip]
+[2023-07-29 13:26:53] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-29 13:26:53] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2023-07-29 13:26:53] INFO root fetch - main [MainThread]: Store serial: [19088185]
