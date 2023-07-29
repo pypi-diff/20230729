@@ -6719,3 +6719,69 @@
 [2023-07-29 03:37:47] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
 [2023-07-29 03:37:47] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
 [2023-07-29 03:37:47] INFO root fetch - main [MainThread]: Store serial: [19084504]
+[2023-07-29 03:42:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19084504]
+[2023-07-29 03:42:56] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-29 03:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ifctester
+[2023-07-29 03:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: garrett-streamlit-auth0
+[2023-07-29 03:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gammarer.aws-secure-flow-log-bucket
+[2023-07-29 03:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-scipy
+[2023-07-29 03:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tcod-ecs
+[2023-07-29 03:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-sphinx
+[2023-07-29 03:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-django
+[2023-07-29 03:42:56] INFO root fetch - processPackages [ifctester]: New version: [0.0.230729] Old Version: [0.0.230718]
+[2023-07-29 03:42:56] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-29 03:42:56] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-29 03:42:56] INFO root fetch - processPackages [garrett-streamlit-auth0]: New version: [0.6] Old Version: [0.5]
+[2023-07-29 03:42:56] INFO root fetch - processPackages [tcod-ecs]: New version: [4.2.1] Old Version: [4.2.0]
+[2023-07-29 03:42:56] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-29 03:42:56] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-29 03:42:56] INFO root fetch - processPackages [garrett-streamlit-auth0]: Downloading https://files.pythonhosted.org/packages/4f/1b/f671d01cc117809524a6ad26ba652318bee62a3ea988fcf649193fceee14/garrett-streamlit-auth0-0.5.tar.gz
+[2023-07-29 03:42:56] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-07-29 03:42:56] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-07-29 03:42:56] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-07-29 03:42:56] INFO root fetch - processPackages [ifctester]: Downloading https://files.pythonhosted.org/packages/e3/3a/535af41877579c1fe3060d91d871add0ba27de55e0ef12b45989490eb68e/ifctester-0.0.230718.tar.gz
+[2023-07-29 03:42:56] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: Downloading https://files.pythonhosted.org/packages/41/d1/1609d9136e2768b4a42f2595a3278ac4d8b74caf161d765430c143a23f9e/gammarer.aws-secure-flow-log-bucket-0.3.8.tar.gz
+[2023-07-29 03:42:56] INFO root fetch - processPackages [tcod-ecs]: Downloading https://files.pythonhosted.org/packages/bb/df/4508d43c888a3e17a7d877899655e976cc372d6786b2edaeaa1eea82d453/tcod_ecs-4.2.0.tar.gz
+[2023-07-29 03:42:56] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-07-29 03:42:56] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-07-29 03:42:56] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-07-29 03:42:57] INFO root fetch - processPackages [garrett-streamlit-auth0]: Downloading https://files.pythonhosted.org/packages/66/18/14336d195528bbc71fb93e23df81303f23bda789506973a53f7fd90dd12e/garrett-streamlit-auth0-0.6.tar.gz
+[2023-07-29 03:42:57] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-07-29 03:42:57] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230729/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-29 03:42:57] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-07-29 03:42:57] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230729/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-29 03:42:57] INFO root fetch - processPackages [ifctester]: Downloading https://files.pythonhosted.org/packages/f0/b7/5152ce7b729862b50f87df2440a70141a1539a6dd8208d3076f7a5b18211/ifctester-0.0.230729.tar.gz
+[2023-07-29 03:42:57] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-07-29 03:42:57] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230729/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-29 03:42:57] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: Downloading https://files.pythonhosted.org/packages/8b/9e/1444bb150a643d143d15a3e71f4ec01b157852a6248fcde9039057364f2a/gammarer.aws-secure-flow-log-bucket-0.3.9.tar.gz
+[2023-07-29 03:42:57] INFO root fetch - processPackages [garrett-streamlit-auth0]: executing diffoscope
+[2023-07-29 03:42:57] INFO root fetch - processPackages [garrett-streamlit-auth0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garrett-streamlit-auth0-0.5.tar.gz tmp/garrett-streamlit-auth0-0.6.tar.gz --markdown 20230729/g/garrett-streamlit-auth0/0.5-0.6/diff.md --exclude *.pyd
+[2023-07-29 03:42:57] INFO root fetch - processPackages [tcod-ecs]: Downloading https://files.pythonhosted.org/packages/4d/e9/05025d702ef9e8f137ace265a00b448b19b788a6f55df96b6b6114f2e4c9/tcod_ecs-4.2.1.tar.gz
+[2023-07-29 03:42:57] INFO root fetch - processPackages [ifctester]: executing diffoscope
+[2023-07-29 03:42:57] INFO root fetch - processPackages [ifctester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ifctester-0.0.230718.tar.gz tmp/ifctester-0.0.230729.tar.gz --markdown 20230729/i/ifctester/0.0.230718-0.0.230729/diff.md --exclude *.pyd
+[2023-07-29 03:42:57] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: executing diffoscope
+[2023-07-29 03:42:57] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-secure-flow-log-bucket-0.3.8.tar.gz tmp/gammarer.aws-secure-flow-log-bucket-0.3.9.tar.gz --markdown 20230729/g/gammarer.aws-secure-flow-log-bucket/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-29 03:42:57] INFO root fetch - processPackages [tcod-ecs]: executing diffoscope
+[2023-07-29 03:42:57] INFO root fetch - processPackages [tcod-ecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcod_ecs-4.2.0.tar.gz tmp/tcod_ecs-4.2.1.tar.gz --markdown 20230729/t/tcod-ecs/4.2.0-4.2.1/diff.md --exclude *.pyd
+[2023-07-29 03:42:58] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-07-29 03:42:58] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-07-29 03:42:58] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-07-29 03:42:58] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-07-29 03:42:58] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-07-29 03:42:58] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-07-29 03:42:58] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.98.tar.gz]
+[2023-07-29 03:42:58] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
+[2023-07-29 03:42:58] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-07-29 03:42:58] INFO root fetch - processPackages [garrett-streamlit-auth0]: Remove: archive file [/home/abi/fetcher/tmp/garrett-streamlit-auth0-0.5.tar.gz]
+[2023-07-29 03:42:58] INFO root fetch - processPackages [garrett-streamlit-auth0]: Remove: archive file [/home/abi/fetcher/tmp/garrett-streamlit-auth0-0.6.tar.gz]
+[2023-07-29 03:42:58] INFO root fetch - main [MainThread]: End processing [garrett-streamlit-auth0]: success
+[2023-07-29 03:42:58] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-flow-log-bucket-0.3.8.tar.gz]
+[2023-07-29 03:42:58] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-flow-log-bucket-0.3.9.tar.gz]
+[2023-07-29 03:42:58] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-flow-log-bucket]: success
+[2023-07-29 03:42:58] INFO root fetch - processPackages [ifctester]: Remove: archive file [/home/abi/fetcher/tmp/ifctester-0.0.230718.tar.gz]
+[2023-07-29 03:42:58] INFO root fetch - processPackages [ifctester]: Remove: archive file [/home/abi/fetcher/tmp/ifctester-0.0.230729.tar.gz]
+[2023-07-29 03:42:58] INFO root fetch - main [MainThread]: End processing [ifctester]: success
+[2023-07-29 03:42:58] INFO root fetch - processPackages [tcod-ecs]: Remove: archive file [/home/abi/fetcher/tmp/tcod_ecs-4.2.0.tar.gz]
+[2023-07-29 03:42:58] INFO root fetch - processPackages [tcod-ecs]: Remove: archive file [/home/abi/fetcher/tmp/tcod_ecs-4.2.1.tar.gz]
+[2023-07-29 03:42:58] INFO root fetch - main [MainThread]: End processing [tcod-ecs]: success
+[2023-07-29 03:42:58] INFO root fetch - main [MainThread]: Store serial: [19084571]
