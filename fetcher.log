@@ -22422,3 +22422,113 @@ AssertionError: tmp/pulpcore-3.9.0.tar.gz does not exist
 [2023-07-29 20:59:10] INFO root fetch - processPackages [SuperPang]: Remove: archive file [/home/abi/fetcher/tmp/SuperPang-1.1.0.post1.tar.gz]
 [2023-07-29 20:59:10] INFO root fetch - main [MainThread]: End processing [SuperPang]: success
 [2023-07-29 20:59:10] INFO root fetch - main [MainThread]: Store serial: [19091106]
+[2023-07-29 21:04:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19091106]
+[2023-07-29 21:04:19] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-29 21:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-helper-mod
+[2023-07-29 21:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytransformers
+[2023-07-29 21:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scrunch
+[2023-07-29 21:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DjTbot
+[2023-07-29 21:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: swiftly-sys
+[2023-07-29 21:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pfse_starterkit
+[2023-07-29 21:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: collatz
+[2023-07-29 21:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yxr-oi-cli
+[2023-07-29 21:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: swiftly-sys
+[2023-07-29 21:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: curvit
+[2023-07-29 21:04:19] INFO root fetch - processPackages [collatz]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-29 21:04:19] INFO root fetch - processPackages [curvit]: New version: [1.7.0] Old Version: [1.6.8]
+[2023-07-29 21:04:19] INFO root fetch - processPackages [yxr-oi-cli]: New version: [0.2.2.4] Old Version: [0.2.2.3]
+[2023-07-29 21:04:19] INFO root fetch - processPackages [swiftly-sys]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-29 21:04:19] INFO root fetch - processPackages [scrunch]: New version: [6.5.2019.post1690570998] Old Version: [6.5.2018.post1690565515]
+[2023-07-29 21:04:19] INFO root fetch - processPackages [py-helper-mod]: New version: [0.0.50] Old Version: [0.0.49]
+[2023-07-29 21:04:19] WARNING root fetch - processPackages [pytransformers]: Skipping, unable to determine old version
+[2023-07-29 21:04:19] INFO root fetch - processPackages [DjTbot]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-29 21:04:19] INFO root fetch - processPackages [pytransformers]: Start processing: circuitpython-uplot
+[2023-07-29 21:04:19] INFO root fetch - main [MainThread]: End processing [pytransformers] error
+[2023-07-29 21:04:19] INFO root fetch - processPackages [swiftly-sys]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-29 21:04:19] INFO root fetch - processPackages [pfse_starterkit]: New version: [0.3.0] Old Version: [0.2.8]
+[2023-07-29 21:04:19] INFO root fetch - processPackages [circuitpython-uplot]: New version: [1.0.0] Old Version: [0.9.4]
+[2023-07-29 21:04:19] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/34/4d/11c6b2e751d34ef098112527ff5c37e3bf3e3c79357f81c5017e5d15f91d/scrunch-6.5.2018.post1690565515.tar.gz
+[2023-07-29 21:04:19] INFO root fetch - processPackages [collatz]: Downloading https://files.pythonhosted.org/packages/7e/e1/a702f6078396a2dcd1f46ce3502b84b3d190949d75620693e3709bddcb9b/collatz-1.0.0.tar.gz
+[2023-07-29 21:04:19] INFO root fetch - processPackages [circuitpython-uplot]: Downloading https://files.pythonhosted.org/packages/d9/0f/137307a70ee54fe6b12bf2685f8d7c1a95d4488a5bed4c0ae82f1c3bda38/circuitpython-uplot-0.9.4.tar.gz
+[2023-07-29 21:04:19] INFO root fetch - processPackages [py-helper-mod]: Downloading https://files.pythonhosted.org/packages/fb/65/71ded350c118b2a7297f50fa58633cb95052ecbe346225f2850619d792a1/py-helper-mod-0.0.49.tar.gz
+[2023-07-29 21:04:20] INFO root fetch - processPackages [swiftly-sys]: Downloading https://files.pythonhosted.org/packages/05/e3/c073a48cca6f1dafdb7e59d230e0f26bd77f6bb9b5b2806e5a03e3963562/swiftly-sys-0.0.7.tar.gz
+[2023-07-29 21:04:20] INFO root fetch - processPackages [pfse_starterkit]: Downloading https://files.pythonhosted.org/packages/00/d6/58a35e4d655e5870e7f0ebfef804c7385ad29e8df106bffcd9d38c5d9c0f/pfse_starterkit-0.2.8.tar.gz
+[2023-07-29 21:04:20] INFO root fetch - processPackages [swiftly-sys]: Downloading https://files.pythonhosted.org/packages/05/e3/c073a48cca6f1dafdb7e59d230e0f26bd77f6bb9b5b2806e5a03e3963562/swiftly-sys-0.0.7.tar.gz
+[2023-07-29 21:04:20] INFO root fetch - processPackages [curvit]: Downloading https://files.pythonhosted.org/packages/d5/37/46d7858df40b48925ed8abb3f457ab3ef08a677a10166f583db8a039027e/curvit-1.6.8.tar.gz
+[2023-07-29 21:04:20] INFO root fetch - processPackages [yxr-oi-cli]: Downloading https://files.pythonhosted.org/packages/f2/a8/3aadcd9a2d1240993628256df674fb0f1a1d6102aec67ce60acf39a8121c/yxr_oi_cli-0.2.2.3.tar.gz
+[2023-07-29 21:04:20] INFO root fetch - processPackages [DjTbot]: Downloading https://files.pythonhosted.org/packages/ef/2c/da5d0e9eb986dacf605cfb63b31c3b84bf99ec5abd6bdbbace14766fc7fd/DjTbot-0.0.1-py3-none-any.whl
+[2023-07-29 21:04:20] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/db/5c/3b49249954066d98fcb3619ff2ec05dfc6031a235801bb7624b55586f9a4/scrunch-6.5.2019.post1690570998.tar.gz
+[2023-07-29 21:04:20] INFO root fetch - processPackages [collatz]: Downloading https://files.pythonhosted.org/packages/e8/5e/aef18d071fd2b1bc49550ef16c95a657ae8415c5a9f984c683ea11063ada/collatz-1.0.1.tar.gz
+[2023-07-29 21:04:20] INFO root fetch - processPackages [circuitpython-uplot]: Downloading https://files.pythonhosted.org/packages/64/ff/2d0593b2736cd0d5e395a495b612abb5ab776c09276825952b0b1fac55e7/circuitpython-uplot-1.0.0.tar.gz
+[2023-07-29 21:04:20] INFO root fetch - processPackages [py-helper-mod]: Downloading https://files.pythonhosted.org/packages/43/1b/628338209c18e0e448ae5bfe94752bf1d0192d7e85623dca7bb0838faf72/py-helper-mod-0.0.50.tar.gz
+[2023-07-29 21:04:20] INFO root fetch - processPackages [swiftly-sys]: Downloading https://files.pythonhosted.org/packages/98/41/66cf96b60c8bfb0059a68c2ed877fa8f671a1c0bf2c9791685c6058ad9ac/swiftly-sys-0.0.8.tar.gz
+[2023-07-29 21:04:20] INFO root fetch - processPackages [swiftly-sys]: Downloading https://files.pythonhosted.org/packages/98/41/66cf96b60c8bfb0059a68c2ed877fa8f671a1c0bf2c9791685c6058ad9ac/swiftly-sys-0.0.8.tar.gz
+[2023-07-29 21:04:20] INFO root fetch - processPackages [scrunch]: executing diffoscope
+[2023-07-29 21:04:20] INFO root fetch - processPackages [scrunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrunch-6.5.2018.post1690565515.tar.gz tmp/scrunch-6.5.2019.post1690570998.tar.gz --markdown 20230729/s/scrunch/6.5.2018.post1690565515-6.5.2019.post1690570998/diff.md --exclude *.pyd
+[2023-07-29 21:04:20] INFO root fetch - processPackages [curvit]: Downloading https://files.pythonhosted.org/packages/bd/c9/24de5bd8350e789d4e49a6216029a2538e2bd75e836d7d1a18d6344552c7/curvit-1.7.0.tar.gz
+[2023-07-29 21:04:20] INFO root fetch - processPackages [pfse_starterkit]: Downloading https://files.pythonhosted.org/packages/89/90/d88ef07828334d274ae1a258faabfed7734e6e7ee2ce8b8f2b3310e3807f/pfse_starterkit-0.3.0.tar.gz
+[2023-07-29 21:04:20] INFO root fetch - processPackages [yxr-oi-cli]: Downloading https://files.pythonhosted.org/packages/a5/bb/2da9a240e0816cce2c0bee4077b9c873ad28aee8c829620b241d80d99d0a/yxr_oi_cli-0.2.2.4.tar.gz
+[2023-07-29 21:04:20] INFO root fetch - processPackages [collatz]: executing diffoscope
+[2023-07-29 21:04:20] INFO root fetch - processPackages [collatz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collatz-1.0.0.tar.gz tmp/collatz-1.0.1.tar.gz --markdown 20230729/c/collatz/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-29 21:04:20] INFO root fetch - processPackages [DjTbot]: Downloading https://files.pythonhosted.org/packages/a1/df/0440790368c8f69ce588a7c2fffadc942c29452eb8ea59eb7e6102dbf91b/DjTbot-0.0.2-py3-none-any.whl
+[2023-07-29 21:04:20] INFO root fetch - processPackages [py-helper-mod]: executing diffoscope
+[2023-07-29 21:04:20] INFO root fetch - processPackages [py-helper-mod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-helper-mod-0.0.49.tar.gz tmp/py-helper-mod-0.0.50.tar.gz --markdown 20230729/p/py-helper-mod/0.0.49-0.0.50/diff.md --exclude *.pyd
+[2023-07-29 21:04:20] INFO root fetch - processPackages [yxr-oi-cli]: executing diffoscope
+[2023-07-29 21:04:20] INFO root fetch - processPackages [yxr-oi-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yxr_oi_cli-0.2.2.3.tar.gz tmp/yxr_oi_cli-0.2.2.4.tar.gz --markdown 20230729/y/yxr-oi-cli/0.2.2.3-0.2.2.4/diff.md --exclude *.pyd
+[2023-07-29 21:04:20] INFO root fetch - processPackages [pfse_starterkit]: executing diffoscope
+[2023-07-29 21:04:20] INFO root fetch - processPackages [pfse_starterkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pfse_starterkit-0.2.8.tar.gz tmp/pfse_starterkit-0.3.0.tar.gz --markdown 20230729/p/pfse_starterkit/0.2.8-0.3.0/diff.md --exclude *.pyd
+[2023-07-29 21:04:20] INFO root fetch - processPackages [curvit]: executing diffoscope
+[2023-07-29 21:04:20] INFO root fetch - processPackages [curvit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curvit-1.6.8.tar.gz tmp/curvit-1.7.0.tar.gz --markdown 20230729/c/curvit/1.6.8-1.7.0/diff.md --exclude *.pyd
+[2023-07-29 21:04:20] INFO root fetch - processPackages [DjTbot]: executing diffoscope
+[2023-07-29 21:04:20] INFO root fetch - processPackages [DjTbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DjTbot-0.0.1-py3-none-any.whl.zip tmp/DjTbot-0.0.2-py3-none-any.whl.zip --markdown 20230729/D/DjTbot/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-29 21:04:20] INFO root fetch - processPackages [swiftly-sys]: executing diffoscope
+[2023-07-29 21:04:20] INFO root fetch - processPackages [swiftly-sys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swiftly-sys-0.0.7.tar.gz tmp/swiftly-sys-0.0.8.tar.gz --markdown 20230729/s/swiftly-sys/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-29 21:04:21] INFO root fetch - processPackages [swiftly-sys]: executing diffoscope
+[2023-07-29 21:04:21] INFO root fetch - processPackages [swiftly-sys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swiftly-sys-0.0.7.tar.gz tmp/swiftly-sys-0.0.8.tar.gz --markdown 20230729/s/swiftly-sys/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-29 21:04:21] INFO root fetch - processPackages [circuitpython-uplot]: executing diffoscope
+[2023-07-29 21:04:21] INFO root fetch - processPackages [circuitpython-uplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circuitpython-uplot-0.9.4.tar.gz tmp/circuitpython-uplot-1.0.0.tar.gz --markdown 20230729/c/circuitpython-uplot/0.9.4-1.0.0/diff.md --exclude *.pyd
+[2023-07-29 21:04:22] INFO root fetch - processPackages [collatz]: Remove: archive file [/home/abi/fetcher/tmp/collatz-1.0.0.tar.gz]
+[2023-07-29 21:04:22] INFO root fetch - processPackages [collatz]: Remove: archive file [/home/abi/fetcher/tmp/collatz-1.0.1.tar.gz]
+[2023-07-29 21:04:22] INFO root fetch - processPackages [collatz]: Start processing: pdfplumber
+[2023-07-29 21:04:22] INFO root fetch - main [MainThread]: End processing [collatz]: success
+[2023-07-29 21:04:22] INFO root fetch - processPackages [pdfplumber]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-29 21:04:22] INFO root fetch - processPackages [pfse_starterkit]: Remove: archive file [/home/abi/fetcher/tmp/pfse_starterkit-0.2.8.tar.gz]
+[2023-07-29 21:04:22] INFO root fetch - processPackages [pfse_starterkit]: Remove: archive file [/home/abi/fetcher/tmp/pfse_starterkit-0.3.0.tar.gz]
+[2023-07-29 21:04:22] INFO root fetch - processPackages [pfse_starterkit]: Start processing: tree-of-thoughts
+[2023-07-29 21:04:22] INFO root fetch - main [MainThread]: End processing [pfse_starterkit]: success
+[2023-07-29 21:04:22] INFO root fetch - processPackages [tree-of-thoughts]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-07-29 21:04:22] INFO root fetch - processPackages [py-helper-mod]: Remove: archive file [/home/abi/fetcher/tmp/py-helper-mod-0.0.49.tar.gz]
+[2023-07-29 21:04:22] INFO root fetch - processPackages [py-helper-mod]: Remove: archive file [/home/abi/fetcher/tmp/py-helper-mod-0.0.50.tar.gz]
+[2023-07-29 21:04:22] INFO root fetch - main [MainThread]: End processing [py-helper-mod]: success
+[2023-07-29 21:04:22] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2018.post1690565515.tar.gz]
+[2023-07-29 21:04:22] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2019.post1690570998.tar.gz]
+[2023-07-29 21:04:22] INFO root fetch - main [MainThread]: End processing [scrunch]: success
+[2023-07-29 21:04:22] INFO root fetch - processPackages [swiftly-sys]: Remove: archive file [/home/abi/fetcher/tmp/swiftly-sys-0.0.7.tar.gz]
+[2023-07-29 21:04:22] INFO root fetch - processPackages [swiftly-sys]: Remove: archive file [/home/abi/fetcher/tmp/swiftly-sys-0.0.8.tar.gz]
+[2023-07-29 21:04:22] INFO root fetch - main [MainThread]: End processing [swiftly-sys]: success
+[2023-07-29 21:04:22] INFO root fetch - main [MainThread]: End processing [swiftly-sys]: success
+[2023-07-29 21:04:22] INFO root fetch - processPackages [curvit]: Remove: archive file [/home/abi/fetcher/tmp/curvit-1.6.8.tar.gz]
+[2023-07-29 21:04:22] INFO root fetch - processPackages [curvit]: Remove: archive file [/home/abi/fetcher/tmp/curvit-1.7.0.tar.gz]
+[2023-07-29 21:04:22] INFO root fetch - main [MainThread]: End processing [curvit]: success
+[2023-07-29 21:04:22] INFO root fetch - processPackages [tree-of-thoughts]: Downloading https://files.pythonhosted.org/packages/1a/4a/be7c22d9bdef6ff341b7b59be6c95d9c692be52911a22055b2cd7cced144/tree-of-thoughts-0.3.4.tar.gz
+[2023-07-29 21:04:22] INFO root fetch - processPackages [yxr-oi-cli]: Remove: archive file [/home/abi/fetcher/tmp/yxr_oi_cli-0.2.2.3.tar.gz]
+[2023-07-29 21:04:22] INFO root fetch - processPackages [yxr-oi-cli]: Remove: archive file [/home/abi/fetcher/tmp/yxr_oi_cli-0.2.2.4.tar.gz]
+[2023-07-29 21:04:22] INFO root fetch - main [MainThread]: End processing [yxr-oi-cli]: success
+[2023-07-29 21:04:22] INFO root fetch - processPackages [DjTbot]: Remove: archive file [/home/abi/fetcher/tmp/DjTbot-0.0.1-py3-none-any.whl.zip]
+[2023-07-29 21:04:22] INFO root fetch - processPackages [DjTbot]: Remove: archive file [/home/abi/fetcher/tmp/DjTbot-0.0.2-py3-none-any.whl.zip]
+[2023-07-29 21:04:22] INFO root fetch - main [MainThread]: End processing [DjTbot]: success
+[2023-07-29 21:04:22] INFO root fetch - processPackages [pdfplumber]: executing diffoscope
+[2023-07-29 21:04:22] INFO root fetch - processPackages [pdfplumber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdfplumber-0.8.1.tar.gz tmp/pdfplumber-0.9.0.tar.gz --markdown 20230729/p/pdfplumber/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-29 21:04:23] INFO root fetch - processPackages [tree-of-thoughts]: Downloading https://files.pythonhosted.org/packages/58/c9/86d112aad631184a2e4b9b75d142d2e26076df305c09649f0326d0fbb580/tree-of-thoughts-0.3.5.tar.gz
+[2023-07-29 21:04:23] INFO root fetch - processPackages [circuitpython-uplot]: Remove: archive file [/home/abi/fetcher/tmp/circuitpython-uplot-0.9.4.tar.gz]
+[2023-07-29 21:04:23] INFO root fetch - processPackages [circuitpython-uplot]: Remove: archive file [/home/abi/fetcher/tmp/circuitpython-uplot-1.0.0.tar.gz]
+[2023-07-29 21:04:23] INFO root fetch - main [MainThread]: End processing [circuitpython-uplot]: success
+[2023-07-29 21:04:23] INFO root fetch - processPackages [tree-of-thoughts]: executing diffoscope
+[2023-07-29 21:04:23] INFO root fetch - processPackages [tree-of-thoughts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tree-of-thoughts-0.3.4.tar.gz tmp/tree-of-thoughts-0.3.5.tar.gz --markdown 20230729/t/tree-of-thoughts/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-29 21:04:23] INFO root fetch - processPackages [pdfplumber]: Remove: archive file [/home/abi/fetcher/tmp/pdfplumber-0.8.1.tar.gz]
+[2023-07-29 21:04:23] INFO root fetch - processPackages [pdfplumber]: Remove: archive file [/home/abi/fetcher/tmp/pdfplumber-0.9.0.tar.gz]
+[2023-07-29 21:04:23] INFO root fetch - main [MainThread]: End processing [pdfplumber]: success
+[2023-07-29 21:04:23] INFO root fetch - processPackages [tree-of-thoughts]: Remove: archive file [/home/abi/fetcher/tmp/tree-of-thoughts-0.3.4.tar.gz]
+[2023-07-29 21:04:23] INFO root fetch - processPackages [tree-of-thoughts]: Remove: archive file [/home/abi/fetcher/tmp/tree-of-thoughts-0.3.5.tar.gz]
+[2023-07-29 21:04:23] INFO root fetch - main [MainThread]: End processing [tree-of-thoughts]: success
+[2023-07-29 21:04:23] INFO root fetch - main [MainThread]: Store serial: [19091151]
