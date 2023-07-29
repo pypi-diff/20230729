@@ -20123,3 +20123,96 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 18:17:55] INFO root fetch - processPackages [promptify]: Remove: archive file [/home/abi/fetcher/tmp/promptify-2.0.0.tar.gz]
 [2023-07-29 18:17:55] INFO root fetch - main [MainThread]: End processing [promptify]: success
 [2023-07-29 18:17:55] INFO root fetch - main [MainThread]: Store serial: [19090126]
+[2023-07-29 18:22:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19090126]
+[2023-07-29 18:23:04] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-29 18:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-errors
+[2023-07-29 18:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sphinx-readme
+[2023-07-29 18:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nanohelp
+[2023-07-29 18:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rich
+[2023-07-29 18:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: napatrackmater
+[2023-07-29 18:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: syntaxlight
+[2023-07-29 18:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Subsearch
+[2023-07-29 18:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: basicnanoclient
+[2023-07-29 18:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: MAZAlib
+[2023-07-29 18:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: langful
+[2023-07-29 18:23:04] INFO root fetch - processPackages [sphinx-readme]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-29 18:23:04] INFO root fetch - processPackages [Subsearch]: New version: [2.38.0rc1] Old Version: [2.37.1]
+[2023-07-29 18:23:04] INFO root fetch - processPackages [nanohelp]: New version: [0.1.0] Old Version: [0.0.8]
+[2023-07-29 18:23:04] INFO root fetch - processPackages [django-errors]: New version: [2.3.2] Old Version: [2.3.0]
+[2023-07-29 18:23:04] INFO root fetch - processPackages [syntaxlight]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-29 18:23:04] INFO root fetch - processPackages [basicnanoclient]: New version: [0.1.0] Old Version: [0.0.7]
+[2023-07-29 18:23:04] INFO root fetch - processPackages [MAZAlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-29 18:23:04] INFO root fetch - processPackages [rich]: New version: [9.9.0] Old Version: [9.8.2]
+[2023-07-29 18:23:04] INFO root fetch - processPackages [napatrackmater]: New version: [3.9.4] Old Version: [3.9.3]
+[2023-07-29 18:23:04] INFO root fetch - processPackages [langful]: New version: [0.40] Old Version: [0.39]
+[2023-07-29 18:23:05] INFO root fetch - processPackages [django-errors]: Downloading https://files.pythonhosted.org/packages/1f/fb/f151f48f2af250e5c259652f6d5a32ce9d444e87df107fa07dcc2b82953d/django-errors-2.3.0.tar.gz
+[2023-07-29 18:23:05] INFO root fetch - processPackages [nanohelp]: Downloading https://files.pythonhosted.org/packages/c4/fe/3f9347f4c1453c2667d71e9739d02ffac1f6bd0d7c5940a01369d9c9278c/nanohelp-0.0.8.tar.gz
+[2023-07-29 18:23:05] INFO root fetch - processPackages [MAZAlib]: Downloading https://files.pythonhosted.org/packages/50/f4/08487d2e9ffaf4c2459a82bdb215d7a1e77e96862254778678316ddb1a94/MAZAlib-0.0.8.tar.gz
+[2023-07-29 18:23:05] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/27/6e/b5390c6cafdd7f40dfd6d82b5a14a89e318b45508885b7d698c9494789dd/napatrackmater-3.9.3.tar.gz
+[2023-07-29 18:23:05] INFO root fetch - processPackages [Subsearch]: Downloading https://files.pythonhosted.org/packages/1a/1e/8890b1a97d912b5167faee290e5984457c6082421813dd8b3887f6d00775/Subsearch-2.37.1.tar.gz
+[2023-07-29 18:23:05] INFO root fetch - processPackages [sphinx-readme]: Downloading https://files.pythonhosted.org/packages/f5/91/052ded97dc284700adeaf962a5321c6e8c3c23d9ce55d06af875dbbdea37/sphinx-readme-0.2.1.tar.gz
+[2023-07-29 18:23:05] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/9c/e7/388b586d2c4a9e07285a125e941be8a4a35248f78d3978b1fc6fb3131f7a/syntaxlight-0.0.8.tar.gz
+[2023-07-29 18:23:05] INFO root fetch - processPackages [basicnanoclient]: Downloading https://files.pythonhosted.org/packages/a3/ae/454341d4b1ac16a8efbefe3343caf8624b395ec6c26af7880431e94de62d/basicnanoclient-0.0.7.tar.gz
+[2023-07-29 18:23:05] INFO root fetch - processPackages [rich]: Downloading https://files.pythonhosted.org/packages/fb/96/b268c7ac622597f8660e14e01d8b66b84a34fbbaed3b920bfca440f742fe/rich-9.8.2.tar.gz
+[2023-07-29 18:23:05] INFO root fetch - processPackages [langful]: Downloading https://files.pythonhosted.org/packages/99/16/9e3b3a101ebe9e192eb86b0c0ab0340c67e950e544905181eb560c37fe64/langful-0.39-py3-none-any.whl
+[2023-07-29 18:23:05] INFO root fetch - processPackages [MAZAlib]: Downloading https://files.pythonhosted.org/packages/ee/bf/644071a273d92a917989a5acc834c89301fde3a6a32435ce6290de2d5504/MAZAlib-0.0.9.tar.gz
+[2023-07-29 18:23:05] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/c9/91/13558ab5b93b1a78bf9a8107609b86f60a4f327572b56938b00d7aea5b31/syntaxlight-0.0.9.tar.gz
+[2023-07-29 18:23:05] INFO root fetch - processPackages [django-errors]: Downloading https://files.pythonhosted.org/packages/22/b2/5ca013e4ad7c2c643596c7454f43c565b9cb4fa1f653c10f1cfe8fd06619/django-errors-2.3.2.tar.gz
+[2023-07-29 18:23:05] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/52/f6/61b2130571039a23f261cdff7b93f473891abc2000453b059c108bc40d38/napatrackmater-3.9.4.tar.gz
+[2023-07-29 18:23:05] INFO root fetch - processPackages [nanohelp]: Downloading https://files.pythonhosted.org/packages/a6/65/66b23eb76a588d0992ce90616bb4517a23a80f904664ff2f45f3b1567143/nanohelp-0.1.0.tar.gz
+[2023-07-29 18:23:05] INFO root fetch - processPackages [sphinx-readme]: Downloading https://files.pythonhosted.org/packages/fe/3e/771ccab273fae95180dc4ad1f853261036a75343f16c3d6ff2df7073becc/sphinx-readme-0.2.2.tar.gz
+[2023-07-29 18:23:05] INFO root fetch - processPackages [basicnanoclient]: Downloading https://files.pythonhosted.org/packages/80/d2/0adab7e4498a40149178d06a904919ac6a0551dc953eecb0fd2730a12621/basicnanoclient-0.1.0.tar.gz
+[2023-07-29 18:23:05] INFO root fetch - processPackages [MAZAlib]: executing diffoscope
+[2023-07-29 18:23:05] INFO root fetch - processPackages [MAZAlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MAZAlib-0.0.8.tar.gz tmp/MAZAlib-0.0.9.tar.gz --markdown 20230729/M/MAZAlib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-29 18:23:05] INFO root fetch - processPackages [Subsearch]: Downloading https://files.pythonhosted.org/packages/4e/63/409fead37c95226dfbb1fd34213bdf5e5ff23a5e263d388f1b0cbba68a13/Subsearch-2.38.0rc1.tar.gz
+[2023-07-29 18:23:05] INFO root fetch - processPackages [langful]: Downloading https://files.pythonhosted.org/packages/98/b8/725d9de7a742b69cfa63a2bbecb0392e41f2ba61caef1694700b7c357426/langful-0.40-py3-none-any.whl
+[2023-07-29 18:23:05] INFO root fetch - processPackages [syntaxlight]: executing diffoscope
+[2023-07-29 18:23:05] INFO root fetch - processPackages [syntaxlight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntaxlight-0.0.8.tar.gz tmp/syntaxlight-0.0.9.tar.gz --markdown 20230729/s/syntaxlight/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-29 18:23:05] INFO root fetch - processPackages [rich]: Downloading https://files.pythonhosted.org/packages/5a/2d/5e92c69f971cb2a373a5203fe2ff0a06751b3eea918c709318e19f7caf62/rich-9.9.0.tar.gz
+[2023-07-29 18:23:05] INFO root fetch - processPackages [nanohelp]: executing diffoscope
+[2023-07-29 18:23:05] INFO root fetch - processPackages [nanohelp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanohelp-0.0.8.tar.gz tmp/nanohelp-0.1.0.tar.gz --markdown 20230729/n/nanohelp/0.0.8-0.1.0/diff.md --exclude *.pyd
+[2023-07-29 18:23:05] INFO root fetch - processPackages [basicnanoclient]: executing diffoscope
+[2023-07-29 18:23:05] INFO root fetch - processPackages [basicnanoclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basicnanoclient-0.0.7.tar.gz tmp/basicnanoclient-0.1.0.tar.gz --markdown 20230729/b/basicnanoclient/0.0.7-0.1.0/diff.md --exclude *.pyd
+[2023-07-29 18:23:05] INFO root fetch - processPackages [sphinx-readme]: executing diffoscope
+[2023-07-29 18:23:05] INFO root fetch - processPackages [sphinx-readme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx-readme-0.2.1.tar.gz tmp/sphinx-readme-0.2.2.tar.gz --markdown 20230729/s/sphinx-readme/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-29 18:23:05] INFO root fetch - processPackages [django-errors]: executing diffoscope
+[2023-07-29 18:23:05] INFO root fetch - processPackages [django-errors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-errors-2.3.0.tar.gz tmp/django-errors-2.3.2.tar.gz --markdown 20230729/d/django-errors/2.3.0-2.3.2/diff.md --exclude *.pyd
+[2023-07-29 18:23:05] INFO root fetch - processPackages [langful]: executing diffoscope
+[2023-07-29 18:23:05] INFO root fetch - processPackages [langful]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langful-0.39-py3-none-any.whl.zip tmp/langful-0.40-py3-none-any.whl.zip --markdown 20230729/l/langful/0.39-0.40/diff.md --exclude *.pyd
+[2023-07-29 18:23:05] INFO root fetch - processPackages [napatrackmater]: executing diffoscope
+[2023-07-29 18:23:05] INFO root fetch - processPackages [napatrackmater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napatrackmater-3.9.3.tar.gz tmp/napatrackmater-3.9.4.tar.gz --markdown 20230729/n/napatrackmater/3.9.3-3.9.4/diff.md --exclude *.pyd
+[2023-07-29 18:23:06] INFO root fetch - processPackages [Subsearch]: executing diffoscope
+[2023-07-29 18:23:06] INFO root fetch - processPackages [Subsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Subsearch-2.37.1.tar.gz tmp/Subsearch-2.38.0rc1.tar.gz --markdown 20230729/S/Subsearch/2.37.1-2.38.0rc1/diff.md --exclude *.pyd
+[2023-07-29 18:23:06] INFO root fetch - processPackages [rich]: executing diffoscope
+[2023-07-29 18:23:06] INFO root fetch - processPackages [rich]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rich-9.8.2.tar.gz tmp/rich-9.9.0.tar.gz --markdown 20230729/r/rich/9.8.2-9.9.0/diff.md --exclude *.pyd
+[2023-07-29 18:23:07] INFO root fetch - processPackages [MAZAlib]: Remove: archive file [/home/abi/fetcher/tmp/MAZAlib-0.0.8.tar.gz]
+[2023-07-29 18:23:07] INFO root fetch - processPackages [MAZAlib]: Remove: archive file [/home/abi/fetcher/tmp/MAZAlib-0.0.9.tar.gz]
+[2023-07-29 18:23:07] INFO root fetch - main [MainThread]: End processing [MAZAlib]: success
+[2023-07-29 18:23:07] INFO root fetch - processPackages [nanohelp]: Remove: archive file [/home/abi/fetcher/tmp/nanohelp-0.0.8.tar.gz]
+[2023-07-29 18:23:07] INFO root fetch - processPackages [nanohelp]: Remove: archive file [/home/abi/fetcher/tmp/nanohelp-0.1.0.tar.gz]
+[2023-07-29 18:23:07] INFO root fetch - main [MainThread]: End processing [nanohelp]: success
+[2023-07-29 18:23:07] INFO root fetch - processPackages [basicnanoclient]: Remove: archive file [/home/abi/fetcher/tmp/basicnanoclient-0.0.7.tar.gz]
+[2023-07-29 18:23:07] INFO root fetch - processPackages [basicnanoclient]: Remove: archive file [/home/abi/fetcher/tmp/basicnanoclient-0.1.0.tar.gz]
+[2023-07-29 18:23:07] INFO root fetch - main [MainThread]: End processing [basicnanoclient]: success
+[2023-07-29 18:23:07] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.0.8.tar.gz]
+[2023-07-29 18:23:07] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.0.9.tar.gz]
+[2023-07-29 18:23:07] INFO root fetch - main [MainThread]: End processing [syntaxlight]: success
+[2023-07-29 18:23:07] INFO root fetch - processPackages [langful]: Remove: archive file [/home/abi/fetcher/tmp/langful-0.39-py3-none-any.whl.zip]
+[2023-07-29 18:23:07] INFO root fetch - processPackages [langful]: Remove: archive file [/home/abi/fetcher/tmp/langful-0.40-py3-none-any.whl.zip]
+[2023-07-29 18:23:07] INFO root fetch - main [MainThread]: End processing [langful]: success
+[2023-07-29 18:23:07] INFO root fetch - processPackages [sphinx-readme]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-readme-0.2.1.tar.gz]
+[2023-07-29 18:23:07] INFO root fetch - processPackages [sphinx-readme]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-readme-0.2.2.tar.gz]
+[2023-07-29 18:23:07] INFO root fetch - main [MainThread]: End processing [sphinx-readme]: success
+[2023-07-29 18:23:07] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-3.9.3.tar.gz]
+[2023-07-29 18:23:07] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-3.9.4.tar.gz]
+[2023-07-29 18:23:07] INFO root fetch - main [MainThread]: End processing [napatrackmater]: success
+[2023-07-29 18:23:07] INFO root fetch - processPackages [django-errors]: Remove: archive file [/home/abi/fetcher/tmp/django-errors-2.3.0.tar.gz]
+[2023-07-29 18:23:07] INFO root fetch - processPackages [django-errors]: Remove: archive file [/home/abi/fetcher/tmp/django-errors-2.3.2.tar.gz]
+[2023-07-29 18:23:07] INFO root fetch - main [MainThread]: End processing [django-errors]: success
+[2023-07-29 18:23:07] INFO root fetch - processPackages [Subsearch]: Remove: archive file [/home/abi/fetcher/tmp/Subsearch-2.37.1.tar.gz]
+[2023-07-29 18:23:07] INFO root fetch - processPackages [Subsearch]: Remove: archive file [/home/abi/fetcher/tmp/Subsearch-2.38.0rc1.tar.gz]
+[2023-07-29 18:23:07] INFO root fetch - main [MainThread]: End processing [Subsearch]: success
+[2023-07-29 18:23:07] INFO root fetch - processPackages [rich]: Remove: archive file [/home/abi/fetcher/tmp/rich-9.8.2.tar.gz]
+[2023-07-29 18:23:07] INFO root fetch - processPackages [rich]: Remove: archive file [/home/abi/fetcher/tmp/rich-9.9.0.tar.gz]
+[2023-07-29 18:23:07] INFO root fetch - main [MainThread]: End processing [rich]: success
+[2023-07-29 18:23:07] INFO root fetch - main [MainThread]: Store serial: [19090156]
