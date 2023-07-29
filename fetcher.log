@@ -9786,3 +9786,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 07:52:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-timesheet-sheet]: success
 [2023-07-29 07:52:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-timesheet-sheet]: success
 [2023-07-29 07:52:39] INFO root fetch - main [MainThread]: Store serial: [19085846]
+[2023-07-29 07:57:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19085846]
+[2023-07-29 07:57:48] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-29 07:57:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: markdownparser
+[2023-07-29 07:57:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ixBrowser
+[2023-07-29 07:57:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: close-numerical-matches
+[2023-07-29 07:57:48] INFO root fetch - processPackages [markdownparser]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-07-29 07:57:48] INFO root fetch - processPackages [ixBrowser]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-29 07:57:48] INFO root fetch - processPackages [close-numerical-matches]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-07-29 07:57:48] INFO root fetch - processPackages [ixBrowser]: Downloading https://files.pythonhosted.org/packages/c8/7f/9ef22eacd48d6fece62b91e104efaddb86d4584d17101b9c090b8522c585/ixBrowser-1.1.0.tar.gz
+[2023-07-29 07:57:48] INFO root fetch - processPackages [markdownparser]: Downloading https://files.pythonhosted.org/packages/eb/dd/9d2adaed22cf59150894117752de214a5882d95185c7dc298b8fcf97c6ce/markdownparser-0.5.4.tar.gz
+[2023-07-29 07:57:48] INFO root fetch - processPackages [close-numerical-matches]: Downloading https://files.pythonhosted.org/packages/e8/44/48837e6645fc8d90c3a5477708932b26d0568a1e728bcd813b8a6a42fe83/close_numerical_matches-0.1.4-py3-none-any.whl
+[2023-07-29 07:57:48] INFO root fetch - processPackages [ixBrowser]: Downloading https://files.pythonhosted.org/packages/5c/1d/10d8f45cf5e94e34750c73bb2c3ab6e5999381b4891bca90934aa19d9a83/ixBrowser-1.2.0.tar.gz
+[2023-07-29 07:57:48] INFO root fetch - processPackages [close-numerical-matches]: Downloading https://files.pythonhosted.org/packages/4d/b9/890c0ae4fb28ee25d50b3f172839056d6e1920e728e0ef26460543675065/close_numerical_matches-0.2.0-py3-none-any.whl
+[2023-07-29 07:57:48] INFO root fetch - processPackages [markdownparser]: Downloading https://files.pythonhosted.org/packages/ec/9a/1a329d170c05a9ebf3acfed1ed54910fd1a008464bfc7289a220e647ceed/markdownparser-0.5.5.tar.gz
+[2023-07-29 07:57:48] INFO root fetch - processPackages [ixBrowser]: executing diffoscope
+[2023-07-29 07:57:48] INFO root fetch - processPackages [ixBrowser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ixBrowser-1.1.0.tar.gz tmp/ixBrowser-1.2.0.tar.gz --markdown 20230729/i/ixBrowser/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-29 07:57:48] INFO root fetch - processPackages [close-numerical-matches]: executing diffoscope
+[2023-07-29 07:57:48] INFO root fetch - processPackages [close-numerical-matches]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/close_numerical_matches-0.1.4-py3-none-any.whl.zip tmp/close_numerical_matches-0.2.0-py3-none-any.whl.zip --markdown 20230729/c/close-numerical-matches/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-07-29 07:57:48] INFO root fetch - processPackages [markdownparser]: executing diffoscope
+[2023-07-29 07:57:48] INFO root fetch - processPackages [markdownparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdownparser-0.5.4.tar.gz tmp/markdownparser-0.5.5.tar.gz --markdown 20230729/m/markdownparser/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-07-29 07:57:49] INFO root fetch - processPackages [close-numerical-matches]: Remove: archive file [/home/abi/fetcher/tmp/close_numerical_matches-0.1.4-py3-none-any.whl.zip]
+[2023-07-29 07:57:49] INFO root fetch - processPackages [close-numerical-matches]: Remove: archive file [/home/abi/fetcher/tmp/close_numerical_matches-0.2.0-py3-none-any.whl.zip]
+[2023-07-29 07:57:49] INFO root fetch - main [MainThread]: End processing [close-numerical-matches]: success
+[2023-07-29 07:57:49] INFO root fetch - processPackages [ixBrowser]: Remove: archive file [/home/abi/fetcher/tmp/ixBrowser-1.1.0.tar.gz]
+[2023-07-29 07:57:49] INFO root fetch - processPackages [ixBrowser]: Remove: archive file [/home/abi/fetcher/tmp/ixBrowser-1.2.0.tar.gz]
+[2023-07-29 07:57:49] INFO root fetch - main [MainThread]: End processing [ixBrowser]: success
+[2023-07-29 07:57:49] INFO root fetch - processPackages [markdownparser]: Remove: archive file [/home/abi/fetcher/tmp/markdownparser-0.5.4.tar.gz]
+[2023-07-29 07:57:49] INFO root fetch - processPackages [markdownparser]: Remove: archive file [/home/abi/fetcher/tmp/markdownparser-0.5.5.tar.gz]
+[2023-07-29 07:57:49] INFO root fetch - main [MainThread]: End processing [markdownparser]: success
+[2023-07-29 07:57:49] INFO root fetch - main [MainThread]: Store serial: [19085855]
