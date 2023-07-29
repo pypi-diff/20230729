@@ -10657,3 +10657,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 09:47:02] INFO root fetch - processPackages [coconut]: Remove: archive file [/home/abi/fetcher/tmp/coconut-3.0.3.tar.gz]
 [2023-07-29 09:47:02] INFO root fetch - main [MainThread]: End processing [coconut]: success
 [2023-07-29 09:47:02] INFO root fetch - main [MainThread]: Store serial: [19086215]
+[2023-07-29 09:52:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19086215]
+[2023-07-29 09:52:11] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-29 09:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modelx
+[2023-07-29 09:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zerocap-api-test
+[2023-07-29 09:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: textarium
+[2023-07-29 09:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tgbox
+[2023-07-29 09:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: keras-nightly
+[2023-07-29 09:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqlx-exec
+[2023-07-29 09:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tf-nightly-cpu
+[2023-07-29 09:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ai-scraper-toolkit
+[2023-07-29 09:52:11] INFO root fetch - processPackages [sqlx-exec]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-29 09:52:11] INFO root fetch - processPackages [modelx]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-29 09:52:11] INFO root fetch - processPackages [textarium]: New version: [0.1.5] Old Version: [0.1.3]
+[2023-07-29 09:52:11] ERROR root fetch - processPackages [ai-scraper-toolkit]: Unable to get metadata: No such project 'ai-scraper-toolkit'
+[2023-07-29 09:52:11] INFO root fetch - main [MainThread]: End processing [ai-scraper-toolkit] error
+[2023-07-29 09:52:11] INFO root fetch - processPackages [zerocap-api-test]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-29 09:52:11] INFO root fetch - processPackages [tgbox]: New version: [1.2.1] Old Version: [1.2]
+[2023-07-29 09:52:11] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-07-29 09:52:11] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/36/c1/a2eea857f618d988989b02f0df18438babde2ade34352b7530ffa61a8942/sqlx-exec-1.2.8.tar.gz
+[2023-07-29 09:52:11] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230729] Old Version: [2.14.0.dev20230728]
+[2023-07-29 09:52:11] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9c/ac/df626672be5af4204ef9c477f1110050afecb7a0f086fef8a6a2e3469a56/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl
+[2023-07-29 09:52:11] INFO root fetch - processPackages [zerocap-api-test]: Downloading https://files.pythonhosted.org/packages/1c/45/e1a1b622876aaae865ef42ab600cda085efb0e9350195c70b24b99575b93/zerocap_api_test-0.1.5.tar.gz
+[2023-07-29 09:52:11] INFO root fetch - processPackages [modelx]: Downloading https://files.pythonhosted.org/packages/0e/a5/097ec3a62d89402f4dd68daa1f3a83dfc4ed429b7c10a91270316665de81/modelx-0.8.0.tar.gz
+[2023-07-29 09:52:11] INFO root fetch - processPackages [textarium]: Downloading https://files.pythonhosted.org/packages/32/57/57a8fbb7f7f781fb9e340fdccce588a6155665228eb776bcff2a01aba3e6/textarium-0.1.3.tar.gz
+[2023-07-29 09:52:11] INFO root fetch - processPackages [tgbox]: Downloading https://files.pythonhosted.org/packages/ad/95/26f957c728e2c9fc875ac9a18381deebca91fc2c40db3943e9d462c857a7/tgbox-1.2.tar.gz
+[2023-07-29 09:52:11] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/f3/77/95e098b61c0d5c7218d47660e54884684055ee98edeee1d0d69a29251e7c/tf_nightly_cpu-2.14.0.dev20230728-cp39-cp39-win_amd64.whl
+[2023-07-29 09:52:11] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/6d/99/43bc614e3171fa21cbe56fb73875ba56c7b824ce882b307c37fa2396bbf9/sqlx-exec-1.2.9.tar.gz
+[2023-07-29 09:52:11] INFO root fetch - processPackages [sqlx-exec]: executing diffoscope
+[2023-07-29 09:52:11] INFO root fetch - processPackages [sqlx-exec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlx-exec-1.2.8.tar.gz tmp/sqlx-exec-1.2.9.tar.gz --markdown 20230729/s/sqlx-exec/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-29 09:52:11] INFO root fetch - processPackages [zerocap-api-test]: Downloading https://files.pythonhosted.org/packages/da/59/4a6a84d2901ec976fb365bbda95c21bf5bafdf9afb646aa186bbd66714a5/zerocap_api_test-0.1.6.tar.gz
+[2023-07-29 09:52:11] INFO root fetch - processPackages [textarium]: Downloading https://files.pythonhosted.org/packages/d4/f4/1dab5761ce4aca9ba825c7b95328b8660dcadb199d0b2e09690c93a39ab5/textarium-0.1.5.tar.gz
+[2023-07-29 09:52:11] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/64/5c/effcf86e94e42de7429f684d499233617aaa054e929986d65d4d72fb5c19/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl
+[2023-07-29 09:52:12] INFO root fetch - processPackages [tgbox]: Downloading https://files.pythonhosted.org/packages/36/e8/9264000bc0fbc08970a3ef86349165e5f0a38e1ae12f611ddb11863de1e7/tgbox-1.2.1.tar.gz
+[2023-07-29 09:52:12] INFO root fetch - processPackages [zerocap-api-test]: executing diffoscope
+[2023-07-29 09:52:12] INFO root fetch - processPackages [zerocap-api-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zerocap_api_test-0.1.5.tar.gz tmp/zerocap_api_test-0.1.6.tar.gz --markdown 20230729/z/zerocap-api-test/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-29 09:52:12] INFO root fetch - processPackages [textarium]: executing diffoscope
+[2023-07-29 09:52:12] INFO root fetch - processPackages [textarium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textarium-0.1.3.tar.gz tmp/textarium-0.1.5.tar.gz --markdown 20230729/t/textarium/0.1.3-0.1.5/diff.md --exclude *.pyd
+[2023-07-29 09:52:12] INFO root fetch - processPackages [modelx]: Downloading https://files.pythonhosted.org/packages/55/bd/42ef942b08ee8b158ebbaf3969f87207e7f78743684df72c2119e22c72c1/modelx-0.9.0.tar.gz
+[2023-07-29 09:52:12] INFO root fetch - processPackages [tgbox]: executing diffoscope
+[2023-07-29 09:52:12] INFO root fetch - processPackages [tgbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tgbox-1.2.tar.gz tmp/tgbox-1.2.1.tar.gz --markdown 20230729/t/tgbox/1.2-1.2.1/diff.md --exclude *.pyd
+[2023-07-29 09:52:12] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/b4/83/0b2c8f3099b8ee128e1b546a926bc15a824d79891e6a232a1cdaddba13de/tf_nightly_cpu-2.14.0.dev20230729-cp39-cp39-win_amd64.whl
+[2023-07-29 09:52:12] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-07-29 09:52:12] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230729/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-07-29 09:52:12] INFO root fetch - processPackages [modelx]: executing diffoscope
+[2023-07-29 09:52:12] INFO root fetch - processPackages [modelx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelx-0.8.0.tar.gz tmp/modelx-0.9.0.tar.gz --markdown 20230729/m/modelx/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-29 09:52:12] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-07-29 09:52:12] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230728-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230729-cp39-cp39-win_amd64.whl.zip --markdown 20230729/t/tf-nightly-cpu/2.14.0.dev20230728-2.14.0.dev20230729/diff.md --exclude *.pyd
+[2023-07-29 09:52:13] INFO root fetch - processPackages [zerocap-api-test]: Remove: archive file [/home/abi/fetcher/tmp/zerocap_api_test-0.1.5.tar.gz]
+[2023-07-29 09:52:13] INFO root fetch - processPackages [zerocap-api-test]: Remove: archive file [/home/abi/fetcher/tmp/zerocap_api_test-0.1.6.tar.gz]
+[2023-07-29 09:52:13] INFO root fetch - main [MainThread]: End processing [zerocap-api-test]: success
+[2023-07-29 09:52:13] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-1.2.8.tar.gz]
+[2023-07-29 09:52:13] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-1.2.9.tar.gz]
+[2023-07-29 09:52:13] INFO root fetch - main [MainThread]: End processing [sqlx-exec]: success
+[2023-07-29 09:52:13] INFO root fetch - processPackages [textarium]: Remove: archive file [/home/abi/fetcher/tmp/textarium-0.1.3.tar.gz]
+[2023-07-29 09:52:13] INFO root fetch - processPackages [textarium]: Remove: archive file [/home/abi/fetcher/tmp/textarium-0.1.5.tar.gz]
+[2023-07-29 09:52:13] INFO root fetch - main [MainThread]: End processing [textarium]: success
+[2023-07-29 09:52:13] INFO root fetch - processPackages [tgbox]: Remove: archive file [/home/abi/fetcher/tmp/tgbox-1.2.tar.gz]
+[2023-07-29 09:52:13] INFO root fetch - processPackages [tgbox]: Remove: archive file [/home/abi/fetcher/tmp/tgbox-1.2.1.tar.gz]
+[2023-07-29 09:52:13] INFO root fetch - main [MainThread]: End processing [tgbox]: success
+[2023-07-29 09:52:13] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230728-cp39-cp39-win_amd64.whl.zip]
+[2023-07-29 09:52:13] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230729-cp39-cp39-win_amd64.whl.zip]
+[2023-07-29 09:52:13] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-07-29 09:52:14] INFO root fetch - processPackages [modelx]: Remove: archive file [/home/abi/fetcher/tmp/modelx-0.8.0.tar.gz]
+[2023-07-29 09:52:14] INFO root fetch - processPackages [modelx]: Remove: archive file [/home/abi/fetcher/tmp/modelx-0.9.0.tar.gz]
+[2023-07-29 09:52:14] INFO root fetch - main [MainThread]: End processing [modelx]: success
+[2023-07-29 09:52:15] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip]
+[2023-07-29 09:52:15] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
+[2023-07-29 09:52:15] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-07-29 09:52:15] INFO root fetch - main [MainThread]: Store serial: [19086241]
