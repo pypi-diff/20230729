@@ -19042,3 +19042,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 16:56:36] INFO root fetch - processPackages [lektor-tekir]: Remove: archive file [/home/abi/fetcher/tmp/lektor-tekir-0.5.tar.gz]
 [2023-07-29 16:56:36] INFO root fetch - main [MainThread]: End processing [lektor-tekir]: success
 [2023-07-29 16:56:36] INFO root fetch - main [MainThread]: Store serial: [19089513]
+[2023-07-29 17:01:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19089513]
+[2023-07-29 17:01:45] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-29 17:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swarms
+[2023-07-29 17:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: circt
+[2023-07-29 17:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: barely-json
+[2023-07-29 17:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: serverless-builder
+[2023-07-29 17:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xpag
+[2023-07-29 17:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DdlGeneric
+[2023-07-29 17:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: CaptchaGenerator
+[2023-07-29 17:01:45] INFO root fetch - processPackages [circt]: New version: [1.48.1.dev91] Old Version: [1.48.1.dev80]
+[2023-07-29 17:01:45] INFO root fetch - processPackages [barely-json]: New version: [1.0.0] Old Version: [0.1.1]
+[2023-07-29 17:01:45] INFO root fetch - processPackages [serverless-builder]: New version: [2.9.5] Old Version: [2.9.4]
+[2023-07-29 17:01:45] INFO root fetch - processPackages [xpag]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-29 17:01:45] INFO root fetch - processPackages [swarms]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-29 17:01:45] WARNING root fetch - processPackages [DdlGeneric]: Skipping, unable to determine old version
+[2023-07-29 17:01:45] INFO root fetch - main [MainThread]: End processing [DdlGeneric] error
+[2023-07-29 17:01:45] WARNING root fetch - processPackages [CaptchaGenerator]: Skipping, unable to determine old version
+[2023-07-29 17:01:45] INFO root fetch - main [MainThread]: End processing [CaptchaGenerator] error
+[2023-07-29 17:01:45] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/e5/50/6a177c3f1bd0950c82d8dc6cf36ff6211634d77059eac100ba9046bb0a87/swarms-1.1.2.tar.gz
+[2023-07-29 17:01:45] INFO root fetch - processPackages [xpag]: Downloading https://files.pythonhosted.org/packages/d2/99/f72d1b37922846b11edeac73fa16872cd9922408a246c6778e7bc6bd2847/xpag-0.2.0-py3-none-any.whl
+[2023-07-29 17:01:45] INFO root fetch - processPackages [serverless-builder]: Downloading https://files.pythonhosted.org/packages/ad/95/8e975af4549fef7b41fa7bd39c55c2f6cc6319b0990406f0a3350eae1202/serverless-builder-2.9.4.tar.gz
+[2023-07-29 17:01:45] INFO root fetch - processPackages [barely-json]: Downloading https://files.pythonhosted.org/packages/28/ca/af00ffb749a0de8fe0d3b9d3b5c6de6c1a7fccacf4f8404ccdd0dda33f54/barely_json-0.1.1.tar.gz
+[2023-07-29 17:01:45] INFO root fetch - processPackages [circt]: executing diffoscope
+[2023-07-29 17:01:45] INFO root fetch - processPackages [circt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circt-1.48.1.dev80-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/circt-1.48.1.dev91-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230729/c/circt/1.48.1.dev80-1.48.1.dev91/diff.md --exclude *.pyd
+[2023-07-29 17:01:45] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/d9/81/91b380076823aa3f26e74c9f2d5749c7cd8b70bb76633305aaaa99753e5e/swarms-1.1.3.tar.gz
+[2023-07-29 17:01:45] INFO root fetch - processPackages [barely-json]: Downloading https://files.pythonhosted.org/packages/03/bb/f7c274654c8b23cd8e8d107779515b670d44244b6b983b5dff32070b6af7/barely_json-1.0.0.tar.gz
+[2023-07-29 17:01:45] INFO root fetch - processPackages [xpag]: Downloading https://files.pythonhosted.org/packages/fe/8b/4db11d109548fe80ab9673f2a96bbda4c40d64fe6a36373e3856df837897/xpag-0.2.1-py3-none-any.whl
+[2023-07-29 17:01:46] INFO root fetch - processPackages [barely-json]: executing diffoscope
+[2023-07-29 17:01:46] INFO root fetch - processPackages [barely-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/barely_json-0.1.1.tar.gz tmp/barely_json-1.0.0.tar.gz --markdown 20230729/b/barely-json/0.1.1-1.0.0/diff.md --exclude *.pyd
+[2023-07-29 17:01:46] INFO root fetch - processPackages [serverless-builder]: Downloading https://files.pythonhosted.org/packages/80/e1/4304996d18ef92922b6f7094c94e11d95eca60a5e0ccdf7fd61fb2944ca3/serverless-builder-2.9.5.tar.gz
+[2023-07-29 17:01:46] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2023-07-29 17:01:46] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-1.1.2.tar.gz tmp/swarms-1.1.3.tar.gz --markdown 20230729/s/swarms/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-29 17:01:46] INFO root fetch - processPackages [xpag]: executing diffoscope
+[2023-07-29 17:01:46] INFO root fetch - processPackages [xpag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xpag-0.2.0-py3-none-any.whl.zip tmp/xpag-0.2.1-py3-none-any.whl.zip --markdown 20230729/x/xpag/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-29 17:01:46] INFO root fetch - processPackages [serverless-builder]: executing diffoscope
+[2023-07-29 17:01:46] INFO root fetch - processPackages [serverless-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serverless-builder-2.9.4.tar.gz tmp/serverless-builder-2.9.5.tar.gz --markdown 20230729/s/serverless-builder/2.9.4-2.9.5/diff.md --exclude *.pyd
+[2023-07-29 17:01:47] INFO root fetch - processPackages [barely-json]: Remove: archive file [/home/abi/fetcher/tmp/barely_json-0.1.1.tar.gz]
+[2023-07-29 17:01:47] INFO root fetch - processPackages [barely-json]: Remove: archive file [/home/abi/fetcher/tmp/barely_json-1.0.0.tar.gz]
+[2023-07-29 17:01:47] INFO root fetch - main [MainThread]: End processing [barely-json]: success
+[2023-07-29 17:01:47] INFO root fetch - processPackages [xpag]: Remove: archive file [/home/abi/fetcher/tmp/xpag-0.2.0-py3-none-any.whl.zip]
+[2023-07-29 17:01:47] INFO root fetch - processPackages [xpag]: Remove: archive file [/home/abi/fetcher/tmp/xpag-0.2.1-py3-none-any.whl.zip]
+[2023-07-29 17:01:47] INFO root fetch - main [MainThread]: End processing [xpag]: success
+[2023-07-29 17:01:47] INFO root fetch - processPackages [serverless-builder]: Remove: archive file [/home/abi/fetcher/tmp/serverless-builder-2.9.4.tar.gz]
+[2023-07-29 17:01:47] INFO root fetch - processPackages [serverless-builder]: Remove: archive file [/home/abi/fetcher/tmp/serverless-builder-2.9.5.tar.gz]
+[2023-07-29 17:01:47] INFO root fetch - main [MainThread]: End processing [serverless-builder]: success
+[2023-07-29 17:01:47] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-1.1.2.tar.gz]
+[2023-07-29 17:01:47] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-1.1.3.tar.gz]
+[2023-07-29 17:01:47] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2023-07-29 17:04:45] ERROR root fetch - processPackages [circt]: Timeout during execution of pkgdiff
+[2023-07-29 17:04:45] INFO root fetch - main [MainThread]: End processing [circt] error
+[2023-07-29 17:04:45] INFO root fetch - main [MainThread]: Store serial: [19089552]
