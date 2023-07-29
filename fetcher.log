@@ -21760,3 +21760,54 @@ AssertionError: tmp/pulpcore-3.9.0.tar.gz does not exist
 [2023-07-29 19:53:54] INFO root fetch - processPackages [pypmc]: Remove: archive file [/home/abi/fetcher/tmp/pypmc-1.2.2.tar.gz]
 [2023-07-29 19:53:54] INFO root fetch - main [MainThread]: End processing [pypmc]: success
 [2023-07-29 19:53:54] INFO root fetch - main [MainThread]: Store serial: [19090792]
+[2023-07-29 19:58:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19090792]
+[2023-07-29 19:59:03] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-29 19:59:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: polarismesh-specification
+[2023-07-29 19:59:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nthp-api
+[2023-07-29 19:59:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyanthem
+[2023-07-29 19:59:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nanohelp
+[2023-07-29 19:59:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytransformers
+[2023-07-29 19:59:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: parallelism
+[2023-07-29 19:59:04] INFO root fetch - processPackages [pyanthem]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-29 19:59:04] INFO root fetch - processPackages [nthp-api]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-29 19:59:04] INFO root fetch - processPackages [polarismesh-specification]: New version: [1.4.0a3] Old Version: [1.4.0a2]
+[2023-07-29 19:59:04] INFO root fetch - processPackages [nanohelp]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-29 19:59:04] WARNING root fetch - processPackages [pytransformers]: Skipping, unable to determine old version
+[2023-07-29 19:59:04] INFO root fetch - main [MainThread]: End processing [pytransformers] error
+[2023-07-29 19:59:04] INFO root fetch - processPackages [parallelism]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-29 19:59:04] INFO root fetch - processPackages [pyanthem]: Downloading https://files.pythonhosted.org/packages/4d/73/26cb804f0e07bfdee941892062bf0bba1a610f886276bf29031014368b4f/pyanthem-1.1.8.tar.gz
+[2023-07-29 19:59:04] INFO root fetch - processPackages [parallelism]: Downloading https://files.pythonhosted.org/packages/91/b0/a63b8d2b4cb33e3de90c85d1acc2c4e3b1a5fc25dc83249d36dea7db088c/parallelism-0.0.1.tar.gz
+[2023-07-29 19:59:04] INFO root fetch - processPackages [nanohelp]: Downloading https://files.pythonhosted.org/packages/6e/98/465521cefec6fefb64266834c0bcb95fea4c254410c589d55e7226404ca1/nanohelp-0.1.1.tar.gz
+[2023-07-29 19:59:04] INFO root fetch - processPackages [nthp-api]: Downloading https://files.pythonhosted.org/packages/b3/9f/d0dde7b5bca172379dfb23107ff1fff22d2ebafd1d8d814eb8dbffdee971/nthp_api-0.1.4.tar.gz
+[2023-07-29 19:59:04] INFO root fetch - processPackages [polarismesh-specification]: Downloading https://files.pythonhosted.org/packages/01/97/52e18563ebf95186b727e496eec77d19d3c90f360c466aadc21bd7284503/polarismesh_specification-1.4.0a2.tar.gz
+[2023-07-29 19:59:04] INFO root fetch - processPackages [pyanthem]: Downloading https://files.pythonhosted.org/packages/f4/33/329fed4c219479eb0e7fe70e15739d900ea508a89352b0f8d68ea0576237/pyanthem-1.1.9.tar.gz
+[2023-07-29 19:59:04] INFO root fetch - processPackages [parallelism]: Downloading https://files.pythonhosted.org/packages/cd/59/2e0771c7d7a914a5b3fc407a1df7b81f36f05f9d31c744b707c834ac8799/parallelism-0.0.2.tar.gz
+[2023-07-29 19:59:04] INFO root fetch - processPackages [nanohelp]: Downloading https://files.pythonhosted.org/packages/93/f6/f0a92d82cc6d105696d00b1fc9301d5e54c0a41268009dda96da2aacfd73/nanohelp-0.1.2.tar.gz
+[2023-07-29 19:59:04] INFO root fetch - processPackages [pyanthem]: executing diffoscope
+[2023-07-29 19:59:04] INFO root fetch - processPackages [pyanthem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyanthem-1.1.8.tar.gz tmp/pyanthem-1.1.9.tar.gz --markdown 20230729/p/pyanthem/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-29 19:59:04] INFO root fetch - processPackages [parallelism]: executing diffoscope
+[2023-07-29 19:59:04] INFO root fetch - processPackages [parallelism]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parallelism-0.0.1.tar.gz tmp/parallelism-0.0.2.tar.gz --markdown 20230729/p/parallelism/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-29 19:59:04] INFO root fetch - processPackages [nthp-api]: Downloading https://files.pythonhosted.org/packages/c8/e2/84dff87e1628431da7969eac941d39aaffe1fd4747a0db549c52fcaf8378/nthp_api-0.1.5.tar.gz
+[2023-07-29 19:59:04] INFO root fetch - processPackages [polarismesh-specification]: Downloading https://files.pythonhosted.org/packages/dd/21/98342f86a3a29515fee24db982da2a7a959b877648152bacbec98098323c/polarismesh_specification-1.4.0a3.tar.gz
+[2023-07-29 19:59:04] INFO root fetch - processPackages [nanohelp]: executing diffoscope
+[2023-07-29 19:59:04] INFO root fetch - processPackages [nanohelp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanohelp-0.1.1.tar.gz tmp/nanohelp-0.1.2.tar.gz --markdown 20230729/n/nanohelp/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-29 19:59:04] INFO root fetch - processPackages [nthp-api]: executing diffoscope
+[2023-07-29 19:59:04] INFO root fetch - processPackages [nthp-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nthp_api-0.1.4.tar.gz tmp/nthp_api-0.1.5.tar.gz --markdown 20230729/n/nthp-api/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-29 19:59:05] INFO root fetch - processPackages [polarismesh-specification]: executing diffoscope
+[2023-07-29 19:59:05] INFO root fetch - processPackages [polarismesh-specification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polarismesh_specification-1.4.0a2.tar.gz tmp/polarismesh_specification-1.4.0a3.tar.gz --markdown 20230729/p/polarismesh-specification/1.4.0a2-1.4.0a3/diff.md --exclude *.pyd
+[2023-07-29 19:59:05] INFO root fetch - processPackages [parallelism]: Remove: archive file [/home/abi/fetcher/tmp/parallelism-0.0.1.tar.gz]
+[2023-07-29 19:59:05] INFO root fetch - processPackages [parallelism]: Remove: archive file [/home/abi/fetcher/tmp/parallelism-0.0.2.tar.gz]
+[2023-07-29 19:59:05] INFO root fetch - main [MainThread]: End processing [parallelism]: success
+[2023-07-29 19:59:05] INFO root fetch - processPackages [pyanthem]: Remove: archive file [/home/abi/fetcher/tmp/pyanthem-1.1.8.tar.gz]
+[2023-07-29 19:59:05] INFO root fetch - processPackages [pyanthem]: Remove: archive file [/home/abi/fetcher/tmp/pyanthem-1.1.9.tar.gz]
+[2023-07-29 19:59:05] INFO root fetch - main [MainThread]: End processing [pyanthem]: success
+[2023-07-29 19:59:05] INFO root fetch - processPackages [nanohelp]: Remove: archive file [/home/abi/fetcher/tmp/nanohelp-0.1.1.tar.gz]
+[2023-07-29 19:59:05] INFO root fetch - processPackages [nanohelp]: Remove: archive file [/home/abi/fetcher/tmp/nanohelp-0.1.2.tar.gz]
+[2023-07-29 19:59:05] INFO root fetch - main [MainThread]: End processing [nanohelp]: success
+[2023-07-29 19:59:05] INFO root fetch - processPackages [nthp-api]: Remove: archive file [/home/abi/fetcher/tmp/nthp_api-0.1.4.tar.gz]
+[2023-07-29 19:59:05] INFO root fetch - processPackages [nthp-api]: Remove: archive file [/home/abi/fetcher/tmp/nthp_api-0.1.5.tar.gz]
+[2023-07-29 19:59:05] INFO root fetch - main [MainThread]: End processing [nthp-api]: success
+[2023-07-29 19:59:06] INFO root fetch - processPackages [polarismesh-specification]: Remove: archive file [/home/abi/fetcher/tmp/polarismesh_specification-1.4.0a2.tar.gz]
+[2023-07-29 19:59:06] INFO root fetch - processPackages [polarismesh-specification]: Remove: archive file [/home/abi/fetcher/tmp/polarismesh_specification-1.4.0a3.tar.gz]
+[2023-07-29 19:59:06] INFO root fetch - main [MainThread]: End processing [polarismesh-specification]: success
+[2023-07-29 19:59:06] INFO root fetch - main [MainThread]: Store serial: [19090811]
