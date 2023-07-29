@@ -16083,3 +16083,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 13:26:53] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip]
 [2023-07-29 13:26:53] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
 [2023-07-29 13:26:53] INFO root fetch - main [MainThread]: Store serial: [19088185]
+[2023-07-29 13:31:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19088185]
+[2023-07-29 13:32:02] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-29 13:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sparqldataframe
+[2023-07-29 13:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: allianceauth-oidc-provider
+[2023-07-29 13:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchrec-nightly
+[2023-07-29 13:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ptrack
+[2023-07-29 13:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bgstools
+[2023-07-29 13:32:02] INFO root fetch - processPackages [ptrack]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-29 13:32:02] INFO root fetch - processPackages [sparqldataframe]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-29 13:32:02] INFO root fetch - processPackages [allianceauth-oidc-provider]: New version: [0.0.1b2] Old Version: [0.0.1b1]
+[2023-07-29 13:32:02] INFO root fetch - processPackages [bgstools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-29 13:32:02] INFO root fetch - processPackages [torchrec-nightly]: New version: [2023.7.29] Old Version: [2023.7.26]
+[2023-07-29 13:32:02] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/a3/d9/0f2b579fbbb29225abec7da824c3d2177fa751c84913339da89e8d0b4f89/bgstools-0.1.8.tar.gz
+[2023-07-29 13:32:02] INFO root fetch - processPackages [ptrack]: Downloading https://files.pythonhosted.org/packages/82/f7/b6e69e85d5ac5559016e561a14c453fa19bc3bee70c7ced9f4b395b2e395/ptrack-0.1.1.tar.gz
+[2023-07-29 13:32:02] INFO root fetch - processPackages [sparqldataframe]: Downloading https://files.pythonhosted.org/packages/b0/73/0dc2cd3fb5e7eed54e38caa82d5a5600c1dba63a93d121e61840818287fd/sparqldataframe-0.1.0.tar.gz
+[2023-07-29 13:32:02] INFO root fetch - processPackages [allianceauth-oidc-provider]: Downloading https://files.pythonhosted.org/packages/9c/67/3e166543cac29dded975e432514ced0495d74b000fc96f556eb8a30feaf7/allianceauth_oidc_provider-0.0.1b1.tar.gz
+[2023-07-29 13:32:02] INFO root fetch - processPackages [torchrec-nightly]: Downloading https://files.pythonhosted.org/packages/c7/25/26fe7c9bef1f4bb75f37666b7facd743c4f5fad2aedd556c5b035878d454/torchrec_nightly-2023.7.26-py38-none-any.whl
+[2023-07-29 13:32:02] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/0a/3c/638191cc7a3a6135dbf58e2857b29d83bacba72ac3e579510aae9606e202/bgstools-0.1.9.tar.gz
+[2023-07-29 13:32:02] INFO root fetch - processPackages [bgstools]: executing diffoscope
+[2023-07-29 13:32:02] INFO root fetch - processPackages [bgstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgstools-0.1.8.tar.gz tmp/bgstools-0.1.9.tar.gz --markdown 20230729/b/bgstools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-29 13:32:02] INFO root fetch - processPackages [ptrack]: Downloading https://files.pythonhosted.org/packages/8d/ec/ba9d5c39353f5c39ee7d21290f7070d6b0fda95f5ec80aa3f05adebfb9c1/ptrack-0.1.2-1-py3-none-any.whl
+[2023-07-29 13:32:02] INFO root fetch - processPackages [sparqldataframe]: Downloading https://files.pythonhosted.org/packages/c0/7a/3b921364ae4d0b48881d1e55bac200915afe8eda54ad5b8b3e643fa6a49b/sparqldataframe-0.1.1.tar.gz
+[2023-07-29 13:32:02] INFO root fetch - processPackages [allianceauth-oidc-provider]: Downloading https://files.pythonhosted.org/packages/26/8b/631ac499801ccedb8b6d18fccc8912a1201f76e4ea0221e2b9cb11bb52e4/allianceauth_oidc_provider-0.0.1b2.tar.gz
+[2023-07-29 13:32:03] INFO root fetch - processPackages [ptrack]: executing diffoscope
+[2023-07-29 13:32:03] INFO root fetch - processPackages [ptrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptrack-0.1.1.tar.gz tmp/ptrack-0.1.2-1-py3-none-any.whl.zip --markdown 20230729/p/ptrack/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-29 13:32:03] INFO root fetch - processPackages [sparqldataframe]: executing diffoscope
+[2023-07-29 13:32:03] INFO root fetch - processPackages [sparqldataframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparqldataframe-0.1.0.tar.gz tmp/sparqldataframe-0.1.1.tar.gz --markdown 20230729/s/sparqldataframe/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-29 13:32:03] INFO root fetch - processPackages [allianceauth-oidc-provider]: executing diffoscope
+[2023-07-29 13:32:03] INFO root fetch - processPackages [allianceauth-oidc-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allianceauth_oidc_provider-0.0.1b1.tar.gz tmp/allianceauth_oidc_provider-0.0.1b2.tar.gz --markdown 20230729/a/allianceauth-oidc-provider/0.0.1b1-0.0.1b2/diff.md --exclude *.pyd
+[2023-07-29 13:32:03] INFO root fetch - processPackages [torchrec-nightly]: Downloading https://files.pythonhosted.org/packages/20/55/39b67efac658c00560183ffd349e831e384a5af1477f63c094802ad184aa/torchrec_nightly-2023.7.29-py39-none-any.whl
+[2023-07-29 13:32:03] INFO root fetch - processPackages [torchrec-nightly]: executing diffoscope
+[2023-07-29 13:32:03] INFO root fetch - processPackages [torchrec-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrec_nightly-2023.7.26-py38-none-any.whl.zip tmp/torchrec_nightly-2023.7.29-py39-none-any.whl.zip --markdown 20230729/t/torchrec-nightly/2023.7.26-2023.7.29/diff.md --exclude *.pyd
+[2023-07-29 13:32:03] INFO root fetch - processPackages [bgstools]: Remove: archive file [/home/abi/fetcher/tmp/bgstools-0.1.8.tar.gz]
+[2023-07-29 13:32:03] INFO root fetch - processPackages [bgstools]: Remove: archive file [/home/abi/fetcher/tmp/bgstools-0.1.9.tar.gz]
+[2023-07-29 13:32:03] INFO root fetch - main [MainThread]: End processing [bgstools]: success
+[2023-07-29 13:32:03] INFO root fetch - processPackages [ptrack]: Remove: archive file [/home/abi/fetcher/tmp/ptrack-0.1.1.tar.gz]
+[2023-07-29 13:32:03] INFO root fetch - processPackages [ptrack]: Remove: archive file [/home/abi/fetcher/tmp/ptrack-0.1.2-1-py3-none-any.whl.zip]
+[2023-07-29 13:32:03] INFO root fetch - main [MainThread]: End processing [ptrack]: success
+[2023-07-29 13:32:03] INFO root fetch - processPackages [sparqldataframe]: Remove: archive file [/home/abi/fetcher/tmp/sparqldataframe-0.1.0.tar.gz]
+[2023-07-29 13:32:03] INFO root fetch - processPackages [sparqldataframe]: Remove: archive file [/home/abi/fetcher/tmp/sparqldataframe-0.1.1.tar.gz]
+[2023-07-29 13:32:03] INFO root fetch - main [MainThread]: End processing [sparqldataframe]: success
+[2023-07-29 13:32:04] INFO root fetch - processPackages [allianceauth-oidc-provider]: Remove: archive file [/home/abi/fetcher/tmp/allianceauth_oidc_provider-0.0.1b1.tar.gz]
+[2023-07-29 13:32:04] INFO root fetch - processPackages [allianceauth-oidc-provider]: Remove: archive file [/home/abi/fetcher/tmp/allianceauth_oidc_provider-0.0.1b2.tar.gz]
+[2023-07-29 13:32:04] INFO root fetch - main [MainThread]: End processing [allianceauth-oidc-provider]: success
+[2023-07-29 13:32:04] INFO root fetch - processPackages [torchrec-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrec_nightly-2023.7.26-py38-none-any.whl.zip]
+[2023-07-29 13:32:04] INFO root fetch - processPackages [torchrec-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrec_nightly-2023.7.29-py39-none-any.whl.zip]
+[2023-07-29 13:32:04] INFO root fetch - main [MainThread]: End processing [torchrec-nightly]: success
+[2023-07-29 13:32:04] INFO root fetch - main [MainThread]: Store serial: [19088211]
