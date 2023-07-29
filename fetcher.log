@@ -21315,3 +21315,60 @@ AssertionError: tmp/pulpcore-3.9.0.tar.gz does not exist
 [2023-07-29 19:21:19] INFO root fetch - processPackages [deepdoctection]: Remove: archive file [/home/abi/fetcher/tmp/deepdoctection-0.26.tar.gz]
 [2023-07-29 19:21:19] INFO root fetch - main [MainThread]: End processing [deepdoctection]: success
 [2023-07-29 19:21:19] INFO root fetch - main [MainThread]: Store serial: [19090551]
+[2023-07-29 19:26:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19090551]
+[2023-07-29 19:26:28] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-29 19:26:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: napatrackmater
+[2023-07-29 19:26:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gammarer.aws-secure-bucket
+[2023-07-29 19:26:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: totolo
+[2023-07-29 19:26:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: easyencryption
+[2023-07-29 19:26:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spark-quality-rules-tools
+[2023-07-29 19:26:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: easy-deployer
+[2023-07-29 19:26:29] INFO root fetch - processPackages [easy-deployer]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-29 19:26:29] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-29 19:26:29] INFO root fetch - processPackages [easyencryption]: New version: [0.1.8.3] Old Version: [0.1.8.2]
+[2023-07-29 19:26:29] INFO root fetch - processPackages [totolo]: New version: [0.3] Old Version: [0.1]
+[2023-07-29 19:26:29] INFO root fetch - processPackages [spark-quality-rules-tools]: New version: [0.9.5] Old Version: [0.9.0]
+[2023-07-29 19:26:29] INFO root fetch - processPackages [napatrackmater]: New version: [4.0.0] Old Version: [3.9.9]
+[2023-07-29 19:26:29] INFO root fetch - processPackages [easy-deployer]: Downloading https://files.pythonhosted.org/packages/a9/35/297fdccc9e27313ff10c31bbce54a45fc6a3f7ecd6edbe721068e546a72b/easy_deployer-0.1.8.tar.gz
+[2023-07-29 19:26:29] INFO root fetch - processPackages [easyencryption]: Downloading https://files.pythonhosted.org/packages/93/36/1a58bb6a3e213fc62c0a1b520c1f79f1f13ff750a9d653dab877940bbfc0/easyencryption-0.1.8.2.tar.gz
+[2023-07-29 19:26:29] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: Downloading https://files.pythonhosted.org/packages/e5/38/5b420860f93794e18802eacf479e833a4db9e09459fe2a4186487210f680/gammarer.aws-secure-bucket-0.9.8.tar.gz
+[2023-07-29 19:26:29] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/3a/9d/2da3a1c1116f58d779da5a9d47d586f27ecb130d6ddd0c63e39feebd03d2/napatrackmater-3.9.9.tar.gz
+[2023-07-29 19:26:29] INFO root fetch - processPackages [totolo]: Downloading https://files.pythonhosted.org/packages/22/ab/ea48e6a58ed2e8bf89cfeecb25a3f77b555b6d4ea09ab63925ace09ac1eb/totolo-0.1.tar.gz
+[2023-07-29 19:26:29] INFO root fetch - processPackages [spark-quality-rules-tools]: Downloading https://files.pythonhosted.org/packages/2a/ef/4cd37ee13c59de0b0b985b10f7d817bfeedf70d30e465e5c856064cf1f95/spark_quality_rules_tools-0.9.0.tar.gz
+[2023-07-29 19:26:29] INFO root fetch - processPackages [easy-deployer]: Downloading https://files.pythonhosted.org/packages/8c/6a/d217eb2e1b597398470ee5603240d37a40d5c9577f6d2da77bbbb655f3cd/easy_deployer-0.1.9.tar.gz
+[2023-07-29 19:26:29] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: Downloading https://files.pythonhosted.org/packages/36/90/e611ddc1c76866489b8236c7bc76c65f47dd2d74abf84c84dc89478cee6c/gammarer.aws-secure-bucket-0.9.9.tar.gz
+[2023-07-29 19:26:29] INFO root fetch - processPackages [easy-deployer]: executing diffoscope
+[2023-07-29 19:26:29] INFO root fetch - processPackages [easy-deployer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_deployer-0.1.8.tar.gz tmp/easy_deployer-0.1.9.tar.gz --markdown 20230729/e/easy-deployer/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-29 19:26:29] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: executing diffoscope
+[2023-07-29 19:26:29] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-secure-bucket-0.9.8.tar.gz tmp/gammarer.aws-secure-bucket-0.9.9.tar.gz --markdown 20230729/g/gammarer.aws-secure-bucket/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-29 19:26:29] INFO root fetch - processPackages [easyencryption]: Downloading https://files.pythonhosted.org/packages/69/3f/7254b8dcfb9272a59cfc7e41366f0994cd380fbd3604e5c1b5e53ecfe726/easyencryption-0.1.8.3.tar.gz
+[2023-07-29 19:26:29] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/1b/87/82809085a1eec1276e1ee604b8792037e152f2577292a785e62d50e1b922/napatrackmater-4.0.0.tar.gz
+[2023-07-29 19:26:29] INFO root fetch - processPackages [spark-quality-rules-tools]: Downloading https://files.pythonhosted.org/packages/04/14/7a5645b5884b0ad32e9c84c9cefc104ad07c41a3e6807260b48f872e57bb/spark_quality_rules_tools-0.9.5.tar.gz
+[2023-07-29 19:26:29] INFO root fetch - processPackages [totolo]: Downloading https://files.pythonhosted.org/packages/32/55/1053868179fbb902b432d73cd2fccc7b97c04197091345899686ed5dbccf/totolo-0.3.tar.gz
+[2023-07-29 19:26:29] INFO root fetch - processPackages [easyencryption]: executing diffoscope
+[2023-07-29 19:26:29] INFO root fetch - processPackages [easyencryption]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyencryption-0.1.8.2.tar.gz tmp/easyencryption-0.1.8.3.tar.gz --markdown 20230729/e/easyencryption/0.1.8.2-0.1.8.3/diff.md --exclude *.pyd
+[2023-07-29 19:26:29] INFO root fetch - processPackages [spark-quality-rules-tools]: executing diffoscope
+[2023-07-29 19:26:29] INFO root fetch - processPackages [spark-quality-rules-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_quality_rules_tools-0.9.0.tar.gz tmp/spark_quality_rules_tools-0.9.5.tar.gz --markdown 20230729/s/spark-quality-rules-tools/0.9.0-0.9.5/diff.md --exclude *.pyd
+[2023-07-29 19:26:29] INFO root fetch - processPackages [napatrackmater]: executing diffoscope
+[2023-07-29 19:26:29] INFO root fetch - processPackages [napatrackmater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napatrackmater-3.9.9.tar.gz tmp/napatrackmater-4.0.0.tar.gz --markdown 20230729/n/napatrackmater/3.9.9-4.0.0/diff.md --exclude *.pyd
+[2023-07-29 19:26:30] INFO root fetch - processPackages [totolo]: executing diffoscope
+[2023-07-29 19:26:30] INFO root fetch - processPackages [totolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/totolo-0.1.tar.gz tmp/totolo-0.3.tar.gz --markdown 20230729/t/totolo/0.1-0.3/diff.md --exclude *.pyd
+[2023-07-29 19:26:30] INFO root fetch - processPackages [easy-deployer]: Remove: archive file [/home/abi/fetcher/tmp/easy_deployer-0.1.8.tar.gz]
+[2023-07-29 19:26:30] INFO root fetch - processPackages [easy-deployer]: Remove: archive file [/home/abi/fetcher/tmp/easy_deployer-0.1.9.tar.gz]
+[2023-07-29 19:26:30] INFO root fetch - main [MainThread]: End processing [easy-deployer]: success
+[2023-07-29 19:26:30] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-bucket-0.9.8.tar.gz]
+[2023-07-29 19:26:30] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-bucket-0.9.9.tar.gz]
+[2023-07-29 19:26:30] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-bucket]: success
+[2023-07-29 19:26:30] INFO root fetch - processPackages [easyencryption]: Remove: archive file [/home/abi/fetcher/tmp/easyencryption-0.1.8.2.tar.gz]
+[2023-07-29 19:26:30] INFO root fetch - processPackages [easyencryption]: Remove: archive file [/home/abi/fetcher/tmp/easyencryption-0.1.8.3.tar.gz]
+[2023-07-29 19:26:30] INFO root fetch - main [MainThread]: End processing [easyencryption]: success
+[2023-07-29 19:26:30] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-3.9.9.tar.gz]
+[2023-07-29 19:26:30] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-4.0.0.tar.gz]
+[2023-07-29 19:26:30] INFO root fetch - main [MainThread]: End processing [napatrackmater]: success
+[2023-07-29 19:26:31] INFO root fetch - processPackages [spark-quality-rules-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_quality_rules_tools-0.9.0.tar.gz]
+[2023-07-29 19:26:31] INFO root fetch - processPackages [spark-quality-rules-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_quality_rules_tools-0.9.5.tar.gz]
+[2023-07-29 19:26:31] INFO root fetch - main [MainThread]: End processing [spark-quality-rules-tools]: success
+[2023-07-29 19:26:31] INFO root fetch - processPackages [totolo]: Remove: archive file [/home/abi/fetcher/tmp/totolo-0.1.tar.gz]
+[2023-07-29 19:26:31] INFO root fetch - processPackages [totolo]: Remove: archive file [/home/abi/fetcher/tmp/totolo-0.3.tar.gz]
+[2023-07-29 19:26:31] INFO root fetch - main [MainThread]: End processing [totolo]: success
+[2023-07-29 19:26:31] INFO root fetch - main [MainThread]: Store serial: [19090580]
