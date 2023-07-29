@@ -10416,3 +10416,65 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 09:21:09] INFO root fetch - processPackages [spectrafit]: Remove: archive file [/home/abi/fetcher/tmp/spectrafit-1.0.0b2.tar.gz]
 [2023-07-29 09:21:09] INFO root fetch - main [MainThread]: End processing [spectrafit]: success
 [2023-07-29 09:21:09] INFO root fetch - main [MainThread]: Store serial: [19086073]
+[2023-07-29 09:26:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19086073]
+[2023-07-29 09:26:17] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-29 09:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: promptengine-catapult
+[2023-07-29 09:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydflow
+[2023-07-29 09:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tfq-nightly
+[2023-07-29 09:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hishel
+[2023-07-29 09:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mongo-queue-service
+[2023-07-29 09:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gymnasium-connect-four
+[2023-07-29 09:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tera-utils
+[2023-07-29 09:26:18] INFO root fetch - processPackages [mongo-queue-service]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-29 09:26:18] INFO root fetch - processPackages [gymnasium-connect-four]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-29 09:26:18] INFO root fetch - processPackages [hishel]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-29 09:26:18] INFO root fetch - processPackages [promptengine-catapult]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-29 09:26:18] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230728] Old Version: [0.7.3.dev20230727]
+[2023-07-29 09:26:18] INFO root fetch - processPackages [pydflow]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-07-29 09:26:18] INFO root fetch - processPackages [tera-utils]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-29 09:26:18] INFO root fetch - processPackages [hishel]: Downloading https://files.pythonhosted.org/packages/bc/8a/f4dbee412973627ba9549eb077d4142b2696294b4f2388724378d12ce7ef/hishel-0.0.3.tar.gz
+[2023-07-29 09:26:18] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/33/96/a989d9cfcdb5dcb43d60a72640c59e2efb7fd053182742205b332006f813/pydflow-1.7.8.tar.gz
+[2023-07-29 09:26:18] INFO root fetch - processPackages [promptengine-catapult]: Downloading https://files.pythonhosted.org/packages/c3/80/fb3b49f67e2aa587ebaec90adb0d9f4462cca2f1c115adc650c629d78e88/promptengine_catapult-0.1.1.tar.gz
+[2023-07-29 09:26:18] INFO root fetch - processPackages [gymnasium-connect-four]: Downloading https://files.pythonhosted.org/packages/75/6f/56cf116c7afba1b1403a9eacfc8685db0d776636a5281348864840a153a7/gymnasium_connect_four-1.1.2.tar.gz
+[2023-07-29 09:26:18] INFO root fetch - processPackages [mongo-queue-service]: Downloading https://files.pythonhosted.org/packages/5e/ab/c3d2862e7134038f1f4e3518e953285afb18d95cfc8355b134af9440efc5/mongo_queue_service-0.1.8.tar.gz
+[2023-07-29 09:26:18] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/47/33/361e60645183c7dbe80cbe94a1b93f1a715f6e4228c77c9c44b9d7269cf6/tfq_nightly-0.7.3.dev20230727-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-29 09:26:18] INFO root fetch - processPackages [tera-utils]: Downloading https://files.pythonhosted.org/packages/35/fc/ce6a76411c553ee2ff19f0cfe5802f1925c1e7eada8a5923584d0424840d/tera_utils-0.0.2.tar.gz
+[2023-07-29 09:26:18] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10807264>=10485760
+[2023-07-29 09:26:18] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-07-29 09:26:18] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/9c/41/6c9bc72fde943869899725f55fade9f850f62ecbc6fa31e53b8fa79ae5a3/pydflow-1.7.9.tar.gz
+[2023-07-29 09:26:18] INFO root fetch - processPackages [hishel]: Downloading https://files.pythonhosted.org/packages/13/04/47e477e82e2a4fe4edd0c76862f60bf14dc6eb8592018d99ebcf0aae51ab/hishel-0.0.4.tar.gz
+[2023-07-29 09:26:18] INFO root fetch - processPackages [promptengine-catapult]: Downloading https://files.pythonhosted.org/packages/5d/d6/88671ffea5723b92bdab485ab9266603badfa1f9e126d47f291696b83936/promptengine_catapult-0.1.2.tar.gz
+[2023-07-29 09:26:18] INFO root fetch - processPackages [mongo-queue-service]: Downloading https://files.pythonhosted.org/packages/cc/99/efafd3cb4fa6e49073ff5bd97f95bcac88ee5833978f62da1c604eae73c4/mongo_queue_service-0.1.9.tar.gz
+[2023-07-29 09:26:18] INFO root fetch - processPackages [gymnasium-connect-four]: Downloading https://files.pythonhosted.org/packages/43/b2/f1c5eb8f13ffec1ee7d8988fa4914f2009f0764dec6c3bd2195ed350b41e/gymnasium_connect_four-1.1.3.tar.gz
+[2023-07-29 09:26:18] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-07-29 09:26:18] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.7.8.tar.gz tmp/pydflow-1.7.9.tar.gz --markdown 20230729/p/pydflow/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-07-29 09:26:18] INFO root fetch - processPackages [tera-utils]: Downloading https://files.pythonhosted.org/packages/e4/72/bd80fc2534ef8ac808a82fedfc51c3a42c9aae6810458c3b047baab372f9/tera_utils-0.0.3.tar.gz
+[2023-07-29 09:26:18] INFO root fetch - processPackages [promptengine-catapult]: executing diffoscope
+[2023-07-29 09:26:18] INFO root fetch - processPackages [promptengine-catapult]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptengine_catapult-0.1.1.tar.gz tmp/promptengine_catapult-0.1.2.tar.gz --markdown 20230729/p/promptengine-catapult/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-29 09:26:18] INFO root fetch - processPackages [hishel]: executing diffoscope
+[2023-07-29 09:26:18] INFO root fetch - processPackages [hishel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hishel-0.0.3.tar.gz tmp/hishel-0.0.4.tar.gz --markdown 20230729/h/hishel/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-29 09:26:18] INFO root fetch - processPackages [mongo-queue-service]: executing diffoscope
+[2023-07-29 09:26:18] INFO root fetch - processPackages [mongo-queue-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongo_queue_service-0.1.8.tar.gz tmp/mongo_queue_service-0.1.9.tar.gz --markdown 20230729/m/mongo-queue-service/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-29 09:26:19] INFO root fetch - processPackages [tera-utils]: executing diffoscope
+[2023-07-29 09:26:19] INFO root fetch - processPackages [tera-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tera_utils-0.0.2.tar.gz tmp/tera_utils-0.0.3.tar.gz --markdown 20230729/t/tera-utils/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-29 09:26:19] INFO root fetch - processPackages [gymnasium-connect-four]: executing diffoscope
+[2023-07-29 09:26:19] INFO root fetch - processPackages [gymnasium-connect-four]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gymnasium_connect_four-1.1.2.tar.gz tmp/gymnasium_connect_four-1.1.3.tar.gz --markdown 20230729/g/gymnasium-connect-four/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-29 09:26:19] INFO root fetch - processPackages [promptengine-catapult]: Remove: archive file [/home/abi/fetcher/tmp/promptengine_catapult-0.1.1.tar.gz]
+[2023-07-29 09:26:19] INFO root fetch - processPackages [promptengine-catapult]: Remove: archive file [/home/abi/fetcher/tmp/promptengine_catapult-0.1.2.tar.gz]
+[2023-07-29 09:26:19] INFO root fetch - main [MainThread]: End processing [promptengine-catapult]: success
+[2023-07-29 09:26:20] INFO root fetch - processPackages [hishel]: Remove: archive file [/home/abi/fetcher/tmp/hishel-0.0.3.tar.gz]
+[2023-07-29 09:26:20] INFO root fetch - processPackages [hishel]: Remove: archive file [/home/abi/fetcher/tmp/hishel-0.0.4.tar.gz]
+[2023-07-29 09:26:20] INFO root fetch - main [MainThread]: End processing [hishel]: success
+[2023-07-29 09:26:20] INFO root fetch - processPackages [mongo-queue-service]: Remove: archive file [/home/abi/fetcher/tmp/mongo_queue_service-0.1.8.tar.gz]
+[2023-07-29 09:26:20] INFO root fetch - processPackages [mongo-queue-service]: Remove: archive file [/home/abi/fetcher/tmp/mongo_queue_service-0.1.9.tar.gz]
+[2023-07-29 09:26:20] INFO root fetch - main [MainThread]: End processing [mongo-queue-service]: success
+[2023-07-29 09:26:20] INFO root fetch - processPackages [gymnasium-connect-four]: Remove: archive file [/home/abi/fetcher/tmp/gymnasium_connect_four-1.1.2.tar.gz]
+[2023-07-29 09:26:20] INFO root fetch - processPackages [gymnasium-connect-four]: Remove: archive file [/home/abi/fetcher/tmp/gymnasium_connect_four-1.1.3.tar.gz]
+[2023-07-29 09:26:20] INFO root fetch - main [MainThread]: End processing [gymnasium-connect-four]: success
+[2023-07-29 09:26:20] INFO root fetch - processPackages [tera-utils]: Remove: archive file [/home/abi/fetcher/tmp/tera_utils-0.0.2.tar.gz]
+[2023-07-29 09:26:20] INFO root fetch - processPackages [tera-utils]: Remove: archive file [/home/abi/fetcher/tmp/tera_utils-0.0.3.tar.gz]
+[2023-07-29 09:26:20] INFO root fetch - main [MainThread]: End processing [tera-utils]: success
+[2023-07-29 09:26:20] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.8.tar.gz]
+[2023-07-29 09:26:20] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.9.tar.gz]
+[2023-07-29 09:26:20] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-07-29 09:26:20] INFO root fetch - main [MainThread]: Store serial: [19086093]
