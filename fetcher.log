@@ -18832,3 +18832,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 16:35:49] INFO root fetch - processPackages [composabl]: Remove: archive file [/home/abi/fetcher/tmp/composabl-0.3.5-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
 [2023-07-29 16:35:49] INFO root fetch - main [MainThread]: End processing [composabl]: success
 [2023-07-29 16:35:49] INFO root fetch - main [MainThread]: Store serial: [19089419]
+[2023-07-29 16:40:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19089419]
+[2023-07-29 16:40:57] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-29 16:40:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpt-fn
+[2023-07-29 16:40:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: evque
+[2023-07-29 16:40:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MAZAlib
+[2023-07-29 16:40:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vna
+[2023-07-29 16:40:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MAZAlib
+[2023-07-29 16:40:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ultralytics
+[2023-07-29 16:40:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: syntaxlight
+[2023-07-29 16:40:58] INFO root fetch - processPackages [evque]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-07-29 16:40:58] INFO root fetch - processPackages [MAZAlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-29 16:40:58] INFO root fetch - processPackages [gpt-fn]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-29 16:40:58] INFO root fetch - processPackages [MAZAlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-29 16:40:58] INFO root fetch - processPackages [vna]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-29 16:40:58] INFO root fetch - processPackages [syntaxlight]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-29 16:40:58] INFO root fetch - processPackages [ultralytics]: New version: [8.0.99] Old Version: [8.0.98]
+[2023-07-29 16:40:58] INFO root fetch - processPackages [MAZAlib]: Downloading https://files.pythonhosted.org/packages/50/f4/08487d2e9ffaf4c2459a82bdb215d7a1e77e96862254778678316ddb1a94/MAZAlib-0.0.8.tar.gz
+[2023-07-29 16:40:58] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/96/10/190fba157581ab024b003f4bc99efbff11a5e464839a7e209bd6ef95bcce/syntaxlight-0.0.7.tar.gz
+[2023-07-29 16:40:58] INFO root fetch - processPackages [MAZAlib]: Downloading https://files.pythonhosted.org/packages/50/f4/08487d2e9ffaf4c2459a82bdb215d7a1e77e96862254778678316ddb1a94/MAZAlib-0.0.8.tar.gz
+[2023-07-29 16:40:58] INFO root fetch - processPackages [evque]: Downloading https://files.pythonhosted.org/packages/2f/81/5c9e8523bef7b3ff8805bb5fa87b0b0328c5d79add9f2da33c10bed36246/evque-1.1.1.tar.gz
+[2023-07-29 16:40:58] INFO root fetch - processPackages [vna]: Downloading https://files.pythonhosted.org/packages/ec/f3/76c266cf75039b906788f622705105ca02d53d4082ad9f43af5f33a4f400/vna-0.0.2.tar.gz
+[2023-07-29 16:40:58] INFO root fetch - processPackages [gpt-fn]: Downloading https://files.pythonhosted.org/packages/48/f6/f7f2aa2988867e0579f4739d27cbee4197a8ba1bbed04d51028be93c6876/gpt_fn-0.0.8.tar.gz
+[2023-07-29 16:40:58] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/b6/de/f3172b8f928ec31c47cbc2e23d6a875eea575cba8e11ad4548900923efa1/ultralytics-8.0.98.tar.gz
+[2023-07-29 16:40:58] WARNING root fetch - processPackages [vna]: Skipping package: exceeds size limit 18561564>=10485760
+[2023-07-29 16:40:58] INFO root fetch - main [MainThread]: End processing [vna] error
+[2023-07-29 16:40:58] INFO root fetch - processPackages [MAZAlib]: Downloading https://files.pythonhosted.org/packages/ee/bf/644071a273d92a917989a5acc834c89301fde3a6a32435ce6290de2d5504/MAZAlib-0.0.9.tar.gz
+[2023-07-29 16:40:58] INFO root fetch - processPackages [MAZAlib]: Downloading https://files.pythonhosted.org/packages/ee/bf/644071a273d92a917989a5acc834c89301fde3a6a32435ce6290de2d5504/MAZAlib-0.0.9.tar.gz
+[2023-07-29 16:40:58] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/9c/e7/388b586d2c4a9e07285a125e941be8a4a35248f78d3978b1fc6fb3131f7a/syntaxlight-0.0.8.tar.gz
+[2023-07-29 16:40:58] INFO root fetch - processPackages [evque]: Downloading https://files.pythonhosted.org/packages/f8/08/1c7fdb3329f23ab60d83a09092f824a4e61e3d6a0b982d639b965b0e0ec7/evque-1.2.0.tar.gz
+[2023-07-29 16:40:58] INFO root fetch - processPackages [MAZAlib]: executing diffoscope
+[2023-07-29 16:40:58] INFO root fetch - processPackages [MAZAlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MAZAlib-0.0.8.tar.gz tmp/MAZAlib-0.0.9.tar.gz --markdown 20230729/M/MAZAlib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-29 16:40:58] INFO root fetch - processPackages [MAZAlib]: executing diffoscope
+[2023-07-29 16:40:58] INFO root fetch - processPackages [MAZAlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MAZAlib-0.0.8.tar.gz tmp/MAZAlib-0.0.9.tar.gz --markdown 20230729/M/MAZAlib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-29 16:40:58] INFO root fetch - processPackages [gpt-fn]: Downloading https://files.pythonhosted.org/packages/74/b5/f715746762ff234b25f769893c791ea0292979bcd6af05d22d664b281c5b/gpt_fn-0.0.9.tar.gz
+[2023-07-29 16:40:58] INFO root fetch - processPackages [syntaxlight]: executing diffoscope
+[2023-07-29 16:40:58] INFO root fetch - processPackages [syntaxlight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntaxlight-0.0.7.tar.gz tmp/syntaxlight-0.0.8.tar.gz --markdown 20230729/s/syntaxlight/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-29 16:40:58] INFO root fetch - processPackages [gpt-fn]: executing diffoscope
+[2023-07-29 16:40:58] INFO root fetch - processPackages [gpt-fn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_fn-0.0.8.tar.gz tmp/gpt_fn-0.0.9.tar.gz --markdown 20230729/g/gpt-fn/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-29 16:40:58] INFO root fetch - processPackages [evque]: executing diffoscope
+[2023-07-29 16:40:58] INFO root fetch - processPackages [evque]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evque-1.1.1.tar.gz tmp/evque-1.2.0.tar.gz --markdown 20230729/e/evque/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-07-29 16:40:58] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/b3/b0/87b289ca8a910cd1421d5a217c06fb642b51546dd96bd6b923c67be00415/ultralytics-8.0.99.tar.gz
+[2023-07-29 16:40:59] INFO root fetch - processPackages [ultralytics]: executing diffoscope
+[2023-07-29 16:40:59] INFO root fetch - processPackages [ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics-8.0.98.tar.gz tmp/ultralytics-8.0.99.tar.gz --markdown 20230729/u/ultralytics/8.0.98-8.0.99/diff.md --exclude *.pyd
+[2023-07-29 16:40:59] INFO root fetch - processPackages [MAZAlib]: Remove: archive file [/home/abi/fetcher/tmp/MAZAlib-0.0.8.tar.gz]
+[2023-07-29 16:40:59] INFO root fetch - processPackages [MAZAlib]: Remove: archive file [/home/abi/fetcher/tmp/MAZAlib-0.0.9.tar.gz]
+[2023-07-29 16:40:59] INFO root fetch - main [MainThread]: End processing [MAZAlib]: success
+[2023-07-29 16:40:59] INFO root fetch - main [MainThread]: End processing [MAZAlib]: success
+[2023-07-29 16:40:59] INFO root fetch - processPackages [evque]: Remove: archive file [/home/abi/fetcher/tmp/evque-1.1.1.tar.gz]
+[2023-07-29 16:40:59] INFO root fetch - processPackages [evque]: Remove: archive file [/home/abi/fetcher/tmp/evque-1.2.0.tar.gz]
+[2023-07-29 16:40:59] INFO root fetch - main [MainThread]: End processing [evque]: success
+[2023-07-29 16:41:00] INFO root fetch - processPackages [gpt-fn]: Remove: archive file [/home/abi/fetcher/tmp/gpt_fn-0.0.8.tar.gz]
+[2023-07-29 16:41:00] INFO root fetch - processPackages [gpt-fn]: Remove: archive file [/home/abi/fetcher/tmp/gpt_fn-0.0.9.tar.gz]
+[2023-07-29 16:41:00] INFO root fetch - main [MainThread]: End processing [gpt-fn]: success
+[2023-07-29 16:41:00] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.0.7.tar.gz]
+[2023-07-29 16:41:00] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.0.8.tar.gz]
+[2023-07-29 16:41:00] INFO root fetch - main [MainThread]: End processing [syntaxlight]: success
+[2023-07-29 16:41:00] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.0.98.tar.gz]
+[2023-07-29 16:41:00] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.0.99.tar.gz]
+[2023-07-29 16:41:00] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
+[2023-07-29 16:41:00] INFO root fetch - main [MainThread]: Store serial: [19089445]
