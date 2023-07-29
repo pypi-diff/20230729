@@ -7973,3 +7973,33 @@
 [2023-07-29 05:46:37] INFO root fetch - main [MainThread]: End processing [htscf]: success
 [2023-07-29 05:46:37] INFO root fetch - main [MainThread]: End processing [logg3r]: success
 [2023-07-29 05:46:37] INFO root fetch - main [MainThread]: Store serial: [19085116]
+[2023-07-29 05:51:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19085116]
+[2023-07-29 05:51:45] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-29 05:51:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stdflow
+[2023-07-29 05:51:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: syntaxlight
+[2023-07-29 05:51:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cognite-pygen
+[2023-07-29 05:51:45] INFO root fetch - processPackages [syntaxlight]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-29 05:51:45] INFO root fetch - processPackages [stdflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-29 05:51:45] INFO root fetch - processPackages [cognite-pygen]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-29 05:51:45] INFO root fetch - processPackages [stdflow]: Downloading https://files.pythonhosted.org/packages/37/2b/dc718c9a789aae941c5744468c42fa99c1ca83c6fc824add3debc6df543d/stdflow-0.0.8.tar.gz
+[2023-07-29 05:51:46] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/91/3e/18df7d15296d14bb6f6b9b270de34d07ae8afd73c9d6fb03df521f58ce11/syntaxlight-0.0.6.tar.gz
+[2023-07-29 05:51:46] INFO root fetch - processPackages [stdflow]: Downloading https://files.pythonhosted.org/packages/93/a7/7a92845fb1a7092159c2fbc2b23c0b733e7c93e5cd012f6538ca900ea3b6/stdflow-0.0.9-py3-none-any.whl
+[2023-07-29 05:51:46] INFO root fetch - processPackages [cognite-pygen]: Downloading https://files.pythonhosted.org/packages/00/1d/45e130588e398bb316a98f0e6793ef0d61220b74c7d14db5213e3f9f977e/cognite_pygen-0.9.0.tar.gz
+[2023-07-29 05:51:46] INFO root fetch - processPackages [stdflow]: executing diffoscope
+[2023-07-29 05:51:46] INFO root fetch - processPackages [stdflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stdflow-0.0.8.tar.gz tmp/stdflow-0.0.9-py3-none-any.whl.zip --markdown 20230729/s/stdflow/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-29 05:51:46] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/96/10/190fba157581ab024b003f4bc99efbff11a5e464839a7e209bd6ef95bcce/syntaxlight-0.0.7.tar.gz
+[2023-07-29 05:51:46] INFO root fetch - processPackages [syntaxlight]: executing diffoscope
+[2023-07-29 05:51:46] INFO root fetch - processPackages [syntaxlight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntaxlight-0.0.6.tar.gz tmp/syntaxlight-0.0.7.tar.gz --markdown 20230729/s/syntaxlight/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-29 05:51:46] INFO root fetch - processPackages [cognite-pygen]: Downloading https://files.pythonhosted.org/packages/ce/02/7ecd0882d447246a79ac11eff331b1c4e7890eb9fd3e85568a959aef9aa9/cognite_pygen-0.9.1.tar.gz
+[2023-07-29 05:51:46] INFO root fetch - processPackages [cognite-pygen]: executing diffoscope
+[2023-07-29 05:51:46] INFO root fetch - processPackages [cognite-pygen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_pygen-0.9.0.tar.gz tmp/cognite_pygen-0.9.1.tar.gz --markdown 20230729/c/cognite-pygen/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-29 05:51:47] INFO root fetch - processPackages [stdflow]: Remove: archive file [/home/abi/fetcher/tmp/stdflow-0.0.8.tar.gz]
+[2023-07-29 05:51:47] INFO root fetch - processPackages [stdflow]: Remove: archive file [/home/abi/fetcher/tmp/stdflow-0.0.9-py3-none-any.whl.zip]
+[2023-07-29 05:51:47] INFO root fetch - main [MainThread]: End processing [stdflow]: success
+[2023-07-29 05:51:47] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.0.6.tar.gz]
+[2023-07-29 05:51:47] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.0.7.tar.gz]
+[2023-07-29 05:51:47] INFO root fetch - main [MainThread]: End processing [syntaxlight]: success
+[2023-07-29 05:51:47] INFO root fetch - processPackages [cognite-pygen]: Remove: archive file [/home/abi/fetcher/tmp/cognite_pygen-0.9.0.tar.gz]
+[2023-07-29 05:51:47] INFO root fetch - processPackages [cognite-pygen]: Remove: archive file [/home/abi/fetcher/tmp/cognite_pygen-0.9.1.tar.gz]
+[2023-07-29 05:51:47] INFO root fetch - main [MainThread]: End processing [cognite-pygen]: success
+[2023-07-29 05:51:47] INFO root fetch - main [MainThread]: Store serial: [19085126]
