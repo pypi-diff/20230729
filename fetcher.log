@@ -9081,3 +9081,40 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 07:20:40] INFO root fetch - processPackages [cobaya]: Remove: archive file [/home/abi/fetcher/tmp/cobaya-3.3.2.tar.gz]
 [2023-07-29 07:20:40] INFO root fetch - main [MainThread]: End processing [cobaya]: success
 [2023-07-29 07:20:40] INFO root fetch - main [MainThread]: Store serial: [19085580]
+[2023-07-29 07:25:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19085580]
+[2023-07-29 07:25:49] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-29 07:25:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: newline
+[2023-07-29 07:25:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-aws
+[2023-07-29 07:25:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: newline
+[2023-07-29 07:25:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mwbot
+[2023-07-29 07:25:49] INFO root fetch - processPackages [mwbot]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-29 07:25:49] INFO root fetch - processPackages [newline]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-29 07:25:49] INFO root fetch - processPackages [newline]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-29 07:25:49] INFO root fetch - processPackages [pulumi-aws]: New version: [6.0.0a5] Old Version: [6.0.0a4]
+[2023-07-29 07:25:49] INFO root fetch - processPackages [newline]: Downloading https://files.pythonhosted.org/packages/1f/f9/d5c200962e728bc5e5c4c65581a179a677e34ad47c431f4bf7e7576e1d74/newline-0.0.6.tar.gz
+[2023-07-29 07:25:49] INFO root fetch - processPackages [newline]: Downloading https://files.pythonhosted.org/packages/1f/f9/d5c200962e728bc5e5c4c65581a179a677e34ad47c431f4bf7e7576e1d74/newline-0.0.6.tar.gz
+[2023-07-29 07:25:49] INFO root fetch - processPackages [mwbot]: Downloading https://files.pythonhosted.org/packages/04/2a/83c3c929ffa136caf04fe2e04e9996f788f3d902fda90f4b4a657879163b/mwbot-1.0.8.tar.gz
+[2023-07-29 07:25:49] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/99/1c/5b86cb53f01282a3d56eef3ed401837d2731404001a648a6d6efbeae2c87/pulumi_aws-6.0.0a4.tar.gz
+[2023-07-29 07:25:49] INFO root fetch - processPackages [mwbot]: Downloading https://files.pythonhosted.org/packages/13/d9/ccd8a39a431409e07bc8745f8cdfd517a823b4bbc6124285146a65795a24/mwbot-1.0.9.tar.gz
+[2023-07-29 07:25:49] INFO root fetch - processPackages [newline]: Downloading https://files.pythonhosted.org/packages/e2/b4/46aebcfbf2224f1860946573b094b786d5d33df8f507076535c702d51d62/newline-0.0.7.tar.gz
+[2023-07-29 07:25:49] INFO root fetch - processPackages [newline]: Downloading https://files.pythonhosted.org/packages/e2/b4/46aebcfbf2224f1860946573b094b786d5d33df8f507076535c702d51d62/newline-0.0.7.tar.gz
+[2023-07-29 07:25:50] INFO root fetch - processPackages [mwbot]: executing diffoscope
+[2023-07-29 07:25:50] INFO root fetch - processPackages [mwbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwbot-1.0.8.tar.gz tmp/mwbot-1.0.9.tar.gz --markdown 20230729/m/mwbot/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-29 07:25:50] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/78/16/cbcfe00953e87338e58e1993a629d68edb5fc1bdffbeb486b1b55095c6ca/pulumi_aws-6.0.0a5.tar.gz
+[2023-07-29 07:25:50] INFO root fetch - processPackages [newline]: executing diffoscope
+[2023-07-29 07:25:50] INFO root fetch - processPackages [newline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newline-0.0.6.tar.gz tmp/newline-0.0.7.tar.gz --markdown 20230729/n/newline/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-29 07:25:50] INFO root fetch - processPackages [newline]: executing diffoscope
+[2023-07-29 07:25:50] INFO root fetch - processPackages [newline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newline-0.0.6.tar.gz tmp/newline-0.0.7.tar.gz --markdown 20230729/n/newline/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-29 07:25:50] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2023-07-29 07:25:50] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-6.0.0a4.tar.gz tmp/pulumi_aws-6.0.0a5.tar.gz --markdown 20230729/p/pulumi-aws/6.0.0a4-6.0.0a5/diff.md --exclude *.pyd
+[2023-07-29 07:25:50] INFO root fetch - processPackages [newline]: Remove: archive file [/home/abi/fetcher/tmp/newline-0.0.6.tar.gz]
+[2023-07-29 07:25:50] INFO root fetch - processPackages [newline]: Remove: archive file [/home/abi/fetcher/tmp/newline-0.0.7.tar.gz]
+[2023-07-29 07:25:50] INFO root fetch - main [MainThread]: End processing [newline]: success
+[2023-07-29 07:25:50] INFO root fetch - processPackages [mwbot]: Remove: archive file [/home/abi/fetcher/tmp/mwbot-1.0.8.tar.gz]
+[2023-07-29 07:25:50] INFO root fetch - processPackages [mwbot]: Remove: archive file [/home/abi/fetcher/tmp/mwbot-1.0.9.tar.gz]
+[2023-07-29 07:25:50] INFO root fetch - main [MainThread]: End processing [mwbot]: success
+[2023-07-29 07:25:50] INFO root fetch - main [MainThread]: End processing [newline]: success
+[2023-07-29 07:26:25] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.0.0a4.tar.gz]
+[2023-07-29 07:26:25] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.0.0a5.tar.gz]
+[2023-07-29 07:26:25] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2023-07-29 07:26:25] INFO root fetch - main [MainThread]: Store serial: [19085591]
