@@ -10969,3 +10969,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 10:18:09] INFO root fetch - processPackages [datarails]: Remove: archive file [/home/abi/fetcher/tmp/datarails-0.2.5.tar.gz]
 [2023-07-29 10:18:09] INFO root fetch - main [MainThread]: End processing [datarails]: success
 [2023-07-29 10:18:09] INFO root fetch - main [MainThread]: Store serial: [19086350]
+[2023-07-29 10:23:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19086350]
+[2023-07-29 10:23:17] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-29 10:23:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vcc-lib
+[2023-07-29 10:23:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-game-collection
+[2023-07-29 10:23:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zerocap-api-test1
+[2023-07-29 10:23:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-model-optimization-nightly
+[2023-07-29 10:23:17] WARNING root fetch - processPackages [zerocap-api-test1]: Skipping, unable to determine old version
+[2023-07-29 10:23:17] INFO root fetch - main [MainThread]: End processing [zerocap-api-test1] error
+[2023-07-29 10:23:17] INFO root fetch - processPackages [vcc-lib]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-29 10:23:17] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-07-29 10:23:17] INFO root fetch - processPackages [tf-model-optimization-nightly]: New version: [0.7.5.dev20230728] Old Version: [0.7.5.dev20230725]
+[2023-07-29 10:23:17] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/4a/e1/03e5bdf9d580ec202151d7d7e928afe290a4db00422c7bf2e8c64dac64be/tf_model_optimization_nightly-0.7.5.dev20230725-py2.py3-none-any.whl
+[2023-07-29 10:23:17] INFO root fetch - processPackages [vcc-lib]: Downloading https://files.pythonhosted.org/packages/9e/af/cac069988e4aeb1623b834cc46462f10d1be9d57cddbf9b33231aa8499c0/vcc_lib-0.3.2.tar.gz
+[2023-07-29 10:23:17] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/51/fb/d907f05bab271d6408024397bb87d8e7e069ff91fa3152a09c37d0191aec/nonebot_plugin_game_collection-2.3.8.tar.gz
+[2023-07-29 10:23:18] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/53/ac/830236a4c1a3214602d5c1953845cf63a428c6ad959aa067b35379d3ad17/tf_model_optimization_nightly-0.7.5.dev20230728-py2.py3-none-any.whl
+[2023-07-29 10:23:18] INFO root fetch - processPackages [vcc-lib]: Downloading https://files.pythonhosted.org/packages/b6/99/6c70c8986f5dca37a3ce83c0cf1b23b83f41e3caee39a89c146b6e3b0784/vcc_lib-0.3.3.tar.gz
+[2023-07-29 10:23:18] INFO root fetch - processPackages [tf-model-optimization-nightly]: executing diffoscope
+[2023-07-29 10:23:18] INFO root fetch - processPackages [tf-model-optimization-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_model_optimization_nightly-0.7.5.dev20230725-py2.py3-none-any.whl.zip tmp/tf_model_optimization_nightly-0.7.5.dev20230728-py2.py3-none-any.whl.zip --markdown 20230729/t/tf-model-optimization-nightly/0.7.5.dev20230725-0.7.5.dev20230728/diff.md --exclude *.pyd
+[2023-07-29 10:23:18] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/e4/94/777d03c2f9fbba4c5835c0178b82dffa9d6007ab381b752f81e9af32ff1e/nonebot_plugin_game_collection-2.3.9.tar.gz
+[2023-07-29 10:23:18] INFO root fetch - processPackages [vcc-lib]: executing diffoscope
+[2023-07-29 10:23:18] INFO root fetch - processPackages [vcc-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcc_lib-0.3.2.tar.gz tmp/vcc_lib-0.3.3.tar.gz --markdown 20230729/v/vcc-lib/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-29 10:23:18] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2023-07-29 10:23:18] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.3.8.tar.gz tmp/nonebot_plugin_game_collection-2.3.9.tar.gz --markdown 20230729/n/nonebot-plugin-game-collection/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-07-29 10:23:19] INFO root fetch - processPackages [vcc-lib]: Remove: archive file [/home/abi/fetcher/tmp/vcc_lib-0.3.2.tar.gz]
+[2023-07-29 10:23:19] INFO root fetch - processPackages [vcc-lib]: Remove: archive file [/home/abi/fetcher/tmp/vcc_lib-0.3.3.tar.gz]
+[2023-07-29 10:23:19] INFO root fetch - main [MainThread]: End processing [vcc-lib]: success
+[2023-07-29 10:23:19] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.3.8.tar.gz]
+[2023-07-29 10:23:19] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.3.9.tar.gz]
+[2023-07-29 10:23:19] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2023-07-29 10:23:19] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230725-py2.py3-none-any.whl.zip]
+[2023-07-29 10:23:19] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230728-py2.py3-none-any.whl.zip]
+[2023-07-29 10:23:19] INFO root fetch - main [MainThread]: End processing [tf-model-optimization-nightly]: success
+[2023-07-29 10:23:19] INFO root fetch - main [MainThread]: Store serial: [19086371]
