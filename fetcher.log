@@ -19928,3 +19928,126 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 18:07:13] INFO root fetch - processPackages [ai-flow-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_flow_nightly-2023.7.9.tar.gz]
 [2023-07-29 18:07:13] INFO root fetch - main [MainThread]: End processing [ai-flow-nightly]: success
 [2023-07-29 18:07:13] INFO root fetch - main [MainThread]: Store serial: [19090039]
+[2023-07-29 18:12:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19090039]
+[2023-07-29 18:12:22] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-29 18:12:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: playwright-recaptcha
+[2023-07-29 18:12:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aioclaude-api
+[2023-07-29 18:12:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-sas20181203-py2
+[2023-07-29 18:12:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: revmap
+[2023-07-29 18:12:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyorbit-package
+[2023-07-29 18:12:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sakura-core
+[2023-07-29 18:12:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: csidimageprocessing
+[2023-07-29 18:12:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alibabacloud-sas20181203
+[2023-07-29 18:12:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: poxy
+[2023-07-29 18:12:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tweety-ns
+[2023-07-29 18:12:22] INFO root fetch - processPackages [playwright-recaptcha]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-29 18:12:22] WARNING root fetch - processPackages [csidimageprocessing]: Skipping, unable to determine old version
+[2023-07-29 18:12:22] INFO root fetch - processPackages [csidimageprocessing]: Start processing: nonebot-plugin-alconna
+[2023-07-29 18:12:22] INFO root fetch - main [MainThread]: End processing [csidimageprocessing] error
+[2023-07-29 18:12:22] INFO root fetch - processPackages [aioclaude-api]: New version: [1.0.13] Old Version: [1.0.12]
+[2023-07-29 18:12:22] INFO root fetch - processPackages [alibabacloud-sas20181203-py2]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-07-29 18:12:22] INFO root fetch - processPackages [tweety-ns]: New version: [0.9.5] Old Version: [0.9]
+[2023-07-29 18:12:22] INFO root fetch - processPackages [nonebot-plugin-alconna]: New version: [0.9.3] Old Version: [0.9.0]
+[2023-07-29 18:12:22] INFO root fetch - processPackages [alibabacloud-sas20181203]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-07-29 18:12:22] WARNING root fetch - processPackages [sakura-core]: Skipping, unable to determine old version
+[2023-07-29 18:12:22] INFO root fetch - processPackages [sakura-core]: Start processing: codedog
+[2023-07-29 18:12:22] INFO root fetch - main [MainThread]: End processing [sakura-core] error
+[2023-07-29 18:12:22] INFO root fetch - processPackages [pyorbit-package]: New version: [9.1.9] Old Version: [9.1.8]
+[2023-07-29 18:12:22] INFO root fetch - processPackages [revmap]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-29 18:12:22] INFO root fetch - processPackages [poxy]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-29 18:12:22] WARNING root fetch - processPackages [codedog]: Skipping, unable to determine old version
+[2023-07-29 18:12:22] INFO root fetch - processPackages [codedog]: Start processing: pydatawork
+[2023-07-29 18:12:22] INFO root fetch - main [MainThread]: End processing [codedog] error
+[2023-07-29 18:12:22] INFO root fetch - processPackages [alibabacloud-sas20181203-py2]: Downloading https://files.pythonhosted.org/packages/8a/b4/3573b943f30e75d88a4378847e050017c8310a4a14f3ca8821da239d841c/alibabacloud_sas20181203_py2-2.2.0.tar.gz
+[2023-07-29 18:12:22] INFO root fetch - processPackages [revmap]: Downloading https://files.pythonhosted.org/packages/04/ec/e9969c87352589bc311ff7f4f258efbc0eaa7efd0b95db95abdb041c6202/revmap-0.0.7.tar.gz
+[2023-07-29 18:12:22] INFO root fetch - processPackages [pydatawork]: New version: [0.17.5.8] Old Version: [0.17.5.7]
+[2023-07-29 18:12:22] INFO root fetch - processPackages [aioclaude-api]: Downloading https://files.pythonhosted.org/packages/d6/fb/6b7bbffbf0159edaa78417d2754dda9706bb4f55dcc00d35dc090127ac92/aioclaude-api-1.0.12.tar.gz
+[2023-07-29 18:12:22] INFO root fetch - processPackages [playwright-recaptcha]: Downloading https://files.pythonhosted.org/packages/bc/7e/d2c812a669e491278e77ef77192b370a1f32fef7c216020935e7603eb8ab/playwright-recaptcha-0.3.0.tar.gz
+[2023-07-29 18:12:22] INFO root fetch - processPackages [tweety-ns]: Downloading https://files.pythonhosted.org/packages/4b/94/655c0cd39c7a51efecbeb60a3b2f63d6a438c21e9dba23309b22d37e44e3/tweety-ns-0.9.tar.gz
+[2023-07-29 18:12:22] INFO root fetch - processPackages [pyorbit-package]: Downloading https://files.pythonhosted.org/packages/51/4d/f9b01f3ef884f30afd4af88289ecbde044aecd47f1f4544d2ce38cab815c/pyorbit-package-9.1.8.tar.gz
+[2023-07-29 18:12:22] INFO root fetch - processPackages [poxy]: Downloading https://files.pythonhosted.org/packages/dc/29/90051aacc14dfbeceb287b763143ffd65599d8f148340799c3e6453e40d5/poxy-0.9.0.tar.gz
+[2023-07-29 18:12:22] INFO root fetch - processPackages [nonebot-plugin-alconna]: Downloading https://files.pythonhosted.org/packages/c8/67/1065373af14f845f6112a3d2cb8d6187d838b4c0d90d89282ccef9f5133d/nonebot-plugin-alconna-0.9.0.tar.gz
+[2023-07-29 18:12:22] INFO root fetch - processPackages [alibabacloud-sas20181203]: Downloading https://files.pythonhosted.org/packages/6f/c4/d6ead641dd20d29054ee9de14e99ebf77a0f1b061caee679dc992dd43cea/alibabacloud_sas20181203-2.2.0.tar.gz
+[2023-07-29 18:12:22] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/29/2d/e954f8f18a975c3c1f115c46a8fa8b09a0cf12395366b0cb2c745152efd7/pydatawork-0.17.5.7.tar.gz
+[2023-07-29 18:12:23] INFO root fetch - processPackages [revmap]: Downloading https://files.pythonhosted.org/packages/4e/1e/c1fc0466fa97d23575649601206c671e4518b0180bef1644711dd65c87eb/revmap-0.0.8.tar.gz
+[2023-07-29 18:12:23] INFO root fetch - processPackages [aioclaude-api]: Downloading https://files.pythonhosted.org/packages/f9/af/cf59b0ea9dabb895ffabf953dd092134223239356c45fa2b32e9eb06e9ea/aioclaude-api-1.0.13.tar.gz
+[2023-07-29 18:12:23] INFO root fetch - processPackages [alibabacloud-sas20181203-py2]: Downloading https://files.pythonhosted.org/packages/8b/1f/811c605a992a7ebc696db3fe2c67493ffe0a726dc1c83463b80d902803d9/alibabacloud_sas20181203_py2-2.2.1.tar.gz
+[2023-07-29 18:12:23] INFO root fetch - processPackages [playwright-recaptcha]: Downloading https://files.pythonhosted.org/packages/9a/d2/727a280e0cc3f8992feccbac6a588a143586f763093a70e79be63bf7f1ea/playwright-recaptcha-0.3.1.tar.gz
+[2023-07-29 18:12:23] INFO root fetch - processPackages [tweety-ns]: Downloading https://files.pythonhosted.org/packages/00/72/2d10840c10b2084953d92d692fa115383089437f09c754d3a703c4bdd86e/tweety-ns-0.9.5.tar.gz
+[2023-07-29 18:12:23] INFO root fetch - processPackages [revmap]: executing diffoscope
+[2023-07-29 18:12:23] INFO root fetch - processPackages [nonebot-plugin-alconna]: Downloading https://files.pythonhosted.org/packages/f4/fd/830dd6604cd5dc44a467d959ff595e8da0a087d9b75368acaecfc83c3417/nonebot_plugin_alconna-0.9.3.tar.gz
+[2023-07-29 18:12:23] INFO root fetch - processPackages [revmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revmap-0.0.7.tar.gz tmp/revmap-0.0.8.tar.gz --markdown 20230729/r/revmap/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-29 18:12:23] INFO root fetch - processPackages [poxy]: Downloading https://files.pythonhosted.org/packages/2a/cd/8efe8291d94f43149c6217dff50dbe93a987fd984d03c903f46a7d47f7e4/poxy-0.9.1.tar.gz
+[2023-07-29 18:12:23] INFO root fetch - processPackages [playwright-recaptcha]: executing diffoscope
+[2023-07-29 18:12:23] INFO root fetch - processPackages [playwright-recaptcha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playwright-recaptcha-0.3.0.tar.gz tmp/playwright-recaptcha-0.3.1.tar.gz --markdown 20230729/p/playwright-recaptcha/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-29 18:12:23] INFO root fetch - processPackages [alibabacloud-sas20181203-py2]: executing diffoscope
+[2023-07-29 18:12:23] INFO root fetch - processPackages [alibabacloud-sas20181203-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_sas20181203_py2-2.2.0.tar.gz tmp/alibabacloud_sas20181203_py2-2.2.1.tar.gz --markdown 20230729/a/alibabacloud-sas20181203-py2/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-07-29 18:12:23] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/1a/c0/6d888fe7bc34aa9b5b3a46dc95a6b43fa768df6a5f91426957303564fac0/pydatawork-0.17.5.8.tar.gz
+[2023-07-29 18:12:23] INFO root fetch - processPackages [alibabacloud-sas20181203]: Downloading https://files.pythonhosted.org/packages/b3/cb/955c819044094ed28041fac9dfc236719d4ea008156a8679c36b1576f9c5/alibabacloud_sas20181203-2.2.1.tar.gz
+[2023-07-29 18:12:23] INFO root fetch - processPackages [tweety-ns]: executing diffoscope
+[2023-07-29 18:12:23] INFO root fetch - processPackages [tweety-ns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tweety-ns-0.9.tar.gz tmp/tweety-ns-0.9.5.tar.gz --markdown 20230729/t/tweety-ns/0.9-0.9.5/diff.md --exclude *.pyd
+[2023-07-29 18:12:23] INFO root fetch - processPackages [pyorbit-package]: Downloading https://files.pythonhosted.org/packages/2f/34/aed20c44ef64b52985421c610600bab8b122fccc2fdba3aceeb2676ece78/pyorbit-package-9.1.9.tar.gz
+[2023-07-29 18:12:23] INFO root fetch - processPackages [aioclaude-api]: executing diffoscope
+[2023-07-29 18:12:23] INFO root fetch - processPackages [aioclaude-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioclaude-api-1.0.12.tar.gz tmp/aioclaude-api-1.0.13.tar.gz --markdown 20230729/a/aioclaude-api/1.0.12-1.0.13/diff.md --exclude *.pyd
+[2023-07-29 18:12:23] INFO root fetch - processPackages [nonebot-plugin-alconna]: executing diffoscope
+[2023-07-29 18:12:23] INFO root fetch - processPackages [nonebot-plugin-alconna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-alconna-0.9.0.tar.gz tmp/nonebot_plugin_alconna-0.9.3.tar.gz --markdown 20230729/n/nonebot-plugin-alconna/0.9.0-0.9.3/diff.md --exclude *.pyd
+[2023-07-29 18:12:23] INFO root fetch - processPackages [pydatawork]: executing diffoscope
+[2023-07-29 18:12:23] INFO root fetch - processPackages [pydatawork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatawork-0.17.5.7.tar.gz tmp/pydatawork-0.17.5.8.tar.gz --markdown 20230729/p/pydatawork/0.17.5.7-0.17.5.8/diff.md --exclude *.pyd
+[2023-07-29 18:12:23] INFO root fetch - processPackages [poxy]: executing diffoscope
+[2023-07-29 18:12:23] INFO root fetch - processPackages [poxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poxy-0.9.0.tar.gz tmp/poxy-0.9.1.tar.gz --markdown 20230729/p/poxy/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-29 18:12:23] INFO root fetch - processPackages [pyorbit-package]: executing diffoscope
+[2023-07-29 18:12:23] INFO root fetch - processPackages [pyorbit-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyorbit-package-9.1.8.tar.gz tmp/pyorbit-package-9.1.9.tar.gz --markdown 20230729/p/pyorbit-package/9.1.8-9.1.9/diff.md --exclude *.pyd
+[2023-07-29 18:12:23] INFO root fetch - processPackages [alibabacloud-sas20181203]: executing diffoscope
+[2023-07-29 18:12:23] INFO root fetch - processPackages [alibabacloud-sas20181203]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_sas20181203-2.2.0.tar.gz tmp/alibabacloud_sas20181203-2.2.1.tar.gz --markdown 20230729/a/alibabacloud-sas20181203/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-07-29 18:12:24] INFO root fetch - processPackages [revmap]: Remove: archive file [/home/abi/fetcher/tmp/revmap-0.0.7.tar.gz]
+[2023-07-29 18:12:24] INFO root fetch - processPackages [revmap]: Remove: archive file [/home/abi/fetcher/tmp/revmap-0.0.8.tar.gz]
+[2023-07-29 18:12:24] INFO root fetch - processPackages [revmap]: Start processing: ciphertrust-sdk
+[2023-07-29 18:12:24] INFO root fetch - main [MainThread]: End processing [revmap]: success
+[2023-07-29 18:12:24] INFO root fetch - processPackages [ciphertrust-sdk]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-29 18:12:24] INFO root fetch - processPackages [playwright-recaptcha]: Remove: archive file [/home/abi/fetcher/tmp/playwright-recaptcha-0.3.0.tar.gz]
+[2023-07-29 18:12:24] INFO root fetch - processPackages [playwright-recaptcha]: Remove: archive file [/home/abi/fetcher/tmp/playwright-recaptcha-0.3.1.tar.gz]
+[2023-07-29 18:12:24] INFO root fetch - processPackages [playwright-recaptcha]: Start processing: composabl-ray
+[2023-07-29 18:12:24] INFO root fetch - main [MainThread]: End processing [playwright-recaptcha]: success
+[2023-07-29 18:12:25] INFO root fetch - processPackages [composabl-ray]: New version: [0.3.5] Old Version: [0.2.7]
+[2023-07-29 18:12:25] INFO root fetch - processPackages [ciphertrust-sdk]: Downloading https://files.pythonhosted.org/packages/35/d5/34406768df0e4f3cc8f14fb6fa627c2a69b48f84e52b6d1474ceab92bac8/ciphertrust-sdk-1.0.8.tar.gz
+[2023-07-29 18:12:25] INFO root fetch - processPackages [aioclaude-api]: Remove: archive file [/home/abi/fetcher/tmp/aioclaude-api-1.0.12.tar.gz]
+[2023-07-29 18:12:25] INFO root fetch - processPackages [aioclaude-api]: Remove: archive file [/home/abi/fetcher/tmp/aioclaude-api-1.0.13.tar.gz]
+[2023-07-29 18:12:25] INFO root fetch - processPackages [aioclaude-api]: Start processing: tabb
+[2023-07-29 18:12:25] INFO root fetch - main [MainThread]: End processing [aioclaude-api]: success
+[2023-07-29 18:12:25] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.17.5.7.tar.gz]
+[2023-07-29 18:12:25] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.17.5.8.tar.gz]
+[2023-07-29 18:12:25] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
+[2023-07-29 18:12:25] WARNING root fetch - processPackages [tabb]: Skipping, unable to determine old version
+[2023-07-29 18:12:25] INFO root fetch - main [MainThread]: End processing [tabb] error
+[2023-07-29 18:12:25] INFO root fetch - processPackages [composabl-ray]: Downloading https://files.pythonhosted.org/packages/f3/db/934ad48edfdd6f9cce3e48e0a9feda07472e14c7e39e976c8de7ac15680a/composabl_ray-0.2.7-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-07-29 18:12:25] INFO root fetch - processPackages [nonebot-plugin-alconna]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-alconna-0.9.0.tar.gz]
+[2023-07-29 18:12:25] INFO root fetch - processPackages [nonebot-plugin-alconna]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_alconna-0.9.3.tar.gz]
+[2023-07-29 18:12:25] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-alconna]: success
+[2023-07-29 18:12:25] INFO root fetch - processPackages [tweety-ns]: Remove: archive file [/home/abi/fetcher/tmp/tweety-ns-0.9.tar.gz]
+[2023-07-29 18:12:25] INFO root fetch - processPackages [tweety-ns]: Remove: archive file [/home/abi/fetcher/tmp/tweety-ns-0.9.5.tar.gz]
+[2023-07-29 18:12:25] INFO root fetch - main [MainThread]: End processing [tweety-ns]: success
+[2023-07-29 18:12:25] INFO root fetch - processPackages [ciphertrust-sdk]: Downloading https://files.pythonhosted.org/packages/e7/28/dc2e782ff4280375ab3eb5f4e387a289be5d329d75f84209c36813864af7/ciphertrust-sdk-1.0.9.tar.gz
+[2023-07-29 18:12:25] INFO root fetch - processPackages [ciphertrust-sdk]: executing diffoscope
+[2023-07-29 18:12:25] INFO root fetch - processPackages [ciphertrust-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ciphertrust-sdk-1.0.8.tar.gz tmp/ciphertrust-sdk-1.0.9.tar.gz --markdown 20230729/c/ciphertrust-sdk/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-29 18:12:25] INFO root fetch - processPackages [pyorbit-package]: Remove: archive file [/home/abi/fetcher/tmp/pyorbit-package-9.1.8.tar.gz]
+[2023-07-29 18:12:25] INFO root fetch - processPackages [pyorbit-package]: Remove: archive file [/home/abi/fetcher/tmp/pyorbit-package-9.1.9.tar.gz]
+[2023-07-29 18:12:25] INFO root fetch - main [MainThread]: End processing [pyorbit-package]: success
+[2023-07-29 18:12:25] INFO root fetch - processPackages [composabl-ray]: Downloading https://files.pythonhosted.org/packages/e1/1b/1a0e6e0c5528acf219a4d1c376c51cc8abd64347d86b1deb4f7d0d985764/composabl_ray-0.3.5-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-07-29 18:12:26] INFO root fetch - processPackages [composabl-ray]: executing diffoscope
+[2023-07-29 18:12:26] INFO root fetch - processPackages [composabl-ray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_ray-0.2.7-cp38-cp38-musllinux_1_1_x86_64.whl.zip tmp/composabl_ray-0.3.5-cp38-cp38-musllinux_1_1_x86_64.whl.zip --markdown 20230729/c/composabl-ray/0.2.7-0.3.5/diff.md --exclude *.pyd
+[2023-07-29 18:12:26] INFO root fetch - processPackages [ciphertrust-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ciphertrust-sdk-1.0.8.tar.gz]
+[2023-07-29 18:12:26] INFO root fetch - processPackages [ciphertrust-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ciphertrust-sdk-1.0.9.tar.gz]
+[2023-07-29 18:12:26] INFO root fetch - main [MainThread]: End processing [ciphertrust-sdk]: success
+[2023-07-29 18:12:26] INFO root fetch - processPackages [alibabacloud-sas20181203-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_sas20181203_py2-2.2.0.tar.gz]
+[2023-07-29 18:12:26] INFO root fetch - processPackages [alibabacloud-sas20181203-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_sas20181203_py2-2.2.1.tar.gz]
+[2023-07-29 18:12:26] INFO root fetch - main [MainThread]: End processing [alibabacloud-sas20181203-py2]: success
+[2023-07-29 18:12:27] INFO root fetch - processPackages [alibabacloud-sas20181203]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_sas20181203-2.2.0.tar.gz]
+[2023-07-29 18:12:27] INFO root fetch - processPackages [alibabacloud-sas20181203]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_sas20181203-2.2.1.tar.gz]
+[2023-07-29 18:12:27] INFO root fetch - main [MainThread]: End processing [alibabacloud-sas20181203]: success
+[2023-07-29 18:12:27] INFO root fetch - processPackages [poxy]: Remove: archive file [/home/abi/fetcher/tmp/poxy-0.9.0.tar.gz]
+[2023-07-29 18:12:27] INFO root fetch - processPackages [poxy]: Remove: archive file [/home/abi/fetcher/tmp/poxy-0.9.1.tar.gz]
+[2023-07-29 18:12:27] INFO root fetch - main [MainThread]: End processing [poxy]: success
+[2023-07-29 18:12:30] INFO root fetch - processPackages [composabl-ray]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray-0.2.7-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-07-29 18:12:30] INFO root fetch - processPackages [composabl-ray]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray-0.3.5-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-07-29 18:12:30] INFO root fetch - main [MainThread]: End processing [composabl-ray]: success
+[2023-07-29 18:12:30] INFO root fetch - main [MainThread]: Store serial: [19090100]
