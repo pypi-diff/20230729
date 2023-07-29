@@ -19093,3 +19093,117 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 17:04:45] ERROR root fetch - processPackages [circt]: Timeout during execution of pkgdiff
 [2023-07-29 17:04:45] INFO root fetch - main [MainThread]: End processing [circt] error
 [2023-07-29 17:04:45] INFO root fetch - main [MainThread]: Store serial: [19089552]
+[2023-07-29 17:09:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19089552]
+[2023-07-29 17:09:54] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-29 17:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: soco-cli
+[2023-07-29 17:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tendril-interests
+[2023-07-29 17:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vna
+[2023-07-29 17:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MAZAlib
+[2023-07-29 17:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: napatrackmater
+[2023-07-29 17:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: platformdirs
+[2023-07-29 17:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: not1mm
+[2023-07-29 17:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aliyun-python-sdk-rds
+[2023-07-29 17:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tendril-iotedge
+[2023-07-29 17:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ldimbenchmark
+[2023-07-29 17:09:54] INFO root fetch - processPackages [napatrackmater]: New version: [3.9.0] Old Version: [3.8.9]
+[2023-07-29 17:09:54] INFO root fetch - processPackages [vna]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-29 17:09:54] INFO root fetch - processPackages [MAZAlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-29 17:09:54] INFO root fetch - processPackages [tendril-iotedge]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-29 17:09:54] INFO root fetch - processPackages [tendril-interests]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-29 17:09:54] INFO root fetch - processPackages [platformdirs]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-07-29 17:09:54] INFO root fetch - processPackages [aliyun-python-sdk-rds]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-07-29 17:09:54] INFO root fetch - processPackages [not1mm]: New version: [23.7.5] Old Version: [23.7.29]
+[2023-07-29 17:09:54] INFO root fetch - processPackages [soco-cli]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-29 17:09:54] INFO root fetch - processPackages [ldimbenchmark]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-29 17:09:54] INFO root fetch - processPackages [tendril-iotedge]: Downloading https://files.pythonhosted.org/packages/4b/9d/b05c0b505102dff8b6f4dd1acc56967e7a5cd997f56903a3c36ae2c82e27/tendril-iotedge-0.2.0.tar.gz
+[2023-07-29 17:09:54] INFO root fetch - processPackages [vna]: Downloading https://files.pythonhosted.org/packages/a3/82/cc32533808b87495b3bcf8a13da000f3df2db99dc8d188f466692ff9f141/vna-0.0.3.tar.gz
+[2023-07-29 17:09:54] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/d0/fd/d39004b2cdbaa87fb714f8c0cee840c0b1c80e02995aa67bdf589b012bbb/napatrackmater-3.8.9.tar.gz
+[2023-07-29 17:09:54] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Downloading https://files.pythonhosted.org/packages/86/16/e429481b48c8e39fd99916cf0d5537d596ff8a08c15cde79f3fa9f8b822b/aliyun-python-sdk-rds-2.7.8.tar.gz
+[2023-07-29 17:09:54] INFO root fetch - processPackages [MAZAlib]: Downloading https://files.pythonhosted.org/packages/50/f4/08487d2e9ffaf4c2459a82bdb215d7a1e77e96862254778678316ddb1a94/MAZAlib-0.0.8.tar.gz
+[2023-07-29 17:09:54] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/40/ad/2f487f62a551984a54e0a4dc768ff692f22874530d9695d257d30b206c65/ldimbenchmark-0.2.8.tar.gz
+[2023-07-29 17:09:55] INFO root fetch - processPackages [tendril-interests]: Downloading https://files.pythonhosted.org/packages/de/1a/2ffe4a6a975fdeb0606d87ffca0115f36acb0a3b55fb9ca05018bb2ee5e4/tendril-interests-0.3.3.tar.gz
+[2023-07-29 17:09:55] INFO root fetch - processPackages [not1mm]: Downloading https://files.pythonhosted.org/packages/0e/15/2df9e1c149bd042b60302c633d09d792dae8d69f0c493bfc193b961b4975/not1mm-23.7.29.tar.gz
+[2023-07-29 17:09:55] INFO root fetch - processPackages [platformdirs]: Downloading https://files.pythonhosted.org/packages/34/c6/aeb8c618719d8bcbf83a7d3f0409b1c33113655e5e1887ca541fde7b1a59/platformdirs-3.9.0.tar.gz
+[2023-07-29 17:09:55] INFO root fetch - processPackages [soco-cli]: Downloading https://files.pythonhosted.org/packages/08/77/18dc625b150748a1c5cd44aaf95740bd0a39b53399acd07bf3c461e2b10d/soco-cli-0.4.8.tar.gz
+[2023-07-29 17:09:55] INFO root fetch - processPackages [vna]: Downloading https://files.pythonhosted.org/packages/da/9a/92cef16590c89ec7aa5652cf84ed945835e2cb6f23400f8e42b5d916f7b2/vna-0.0.4.tar.gz
+[2023-07-29 17:09:55] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/1c/0e/d7ff04c87c7e7e468653d7cd9cbde0ab35f48885a880c1e2229267475009/ldimbenchmark-0.2.9.tar.gz
+[2023-07-29 17:09:55] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/f1/d3/1a2d68ac3ea9f820877d5d6dce7a90ccc1eddb7beacca95de504d578e3f2/napatrackmater-3.9.0.tar.gz
+[2023-07-29 17:09:55] INFO root fetch - processPackages [tendril-iotedge]: Downloading https://files.pythonhosted.org/packages/df/d8/3353a95aacf0feb8e17062e6f9c0d16e0abb8ceffd8a26fe245e6fec7d51/tendril-iotedge-0.2.1.tar.gz
+[2023-07-29 17:09:55] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Downloading https://files.pythonhosted.org/packages/49/c8/97bd9925e2aab8e2fb90f2bd5952e96c8793dbb73634161c2b81b93690bb/aliyun-python-sdk-rds-2.7.9.tar.gz
+[2023-07-29 17:09:55] INFO root fetch - processPackages [platformdirs]: Downloading https://files.pythonhosted.org/packages/a1/70/c1d14c0c58d975f06a449a403fac69d3c9c6e8ae2a529f387d77c29c2e56/platformdirs-3.9.1.tar.gz
+[2023-07-29 17:09:55] INFO root fetch - processPackages [tendril-interests]: Downloading https://files.pythonhosted.org/packages/3f/53/928f47b000c15837cbf576b6436245da342199a12aa382ec4232e07655f5/tendril-interests-0.3.4.tar.gz
+[2023-07-29 17:09:55] INFO root fetch - processPackages [ldimbenchmark]: executing diffoscope
+[2023-07-29 17:09:55] INFO root fetch - processPackages [ldimbenchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldimbenchmark-0.2.8.tar.gz tmp/ldimbenchmark-0.2.9.tar.gz --markdown 20230729/l/ldimbenchmark/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-29 17:09:55] INFO root fetch - processPackages [napatrackmater]: executing diffoscope
+[2023-07-29 17:09:55] INFO root fetch - processPackages [napatrackmater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napatrackmater-3.8.9.tar.gz tmp/napatrackmater-3.9.0.tar.gz --markdown 20230729/n/napatrackmater/3.8.9-3.9.0/diff.md --exclude *.pyd
+[2023-07-29 17:09:55] INFO root fetch - processPackages [tendril-iotedge]: executing diffoscope
+[2023-07-29 17:09:55] INFO root fetch - processPackages [tendril-iotedge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-iotedge-0.2.0.tar.gz tmp/tendril-iotedge-0.2.1.tar.gz --markdown 20230729/t/tendril-iotedge/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-29 17:09:55] INFO root fetch - processPackages [MAZAlib]: Downloading https://files.pythonhosted.org/packages/ee/bf/644071a273d92a917989a5acc834c89301fde3a6a32435ce6290de2d5504/MAZAlib-0.0.9.tar.gz
+[2023-07-29 17:09:55] INFO root fetch - processPackages [soco-cli]: Downloading https://files.pythonhosted.org/packages/9c/20/022b3752b29a24cf2ab7a66eff45702404292a0de61533d8eeea70de84d0/soco-cli-0.4.9.tar.gz
+[2023-07-29 17:09:55] INFO root fetch - processPackages [aliyun-python-sdk-rds]: executing diffoscope
+[2023-07-29 17:09:55] INFO root fetch - processPackages [aliyun-python-sdk-rds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-rds-2.7.8.tar.gz tmp/aliyun-python-sdk-rds-2.7.9.tar.gz --markdown 20230729/a/aliyun-python-sdk-rds/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-07-29 17:09:55] INFO root fetch - processPackages [platformdirs]: executing diffoscope
+[2023-07-29 17:09:55] INFO root fetch - processPackages [platformdirs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/platformdirs-3.9.0.tar.gz tmp/platformdirs-3.9.1.tar.gz --markdown 20230729/p/platformdirs/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-07-29 17:09:55] INFO root fetch - processPackages [vna]: executing diffoscope
+[2023-07-29 17:09:55] INFO root fetch - processPackages [vna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vna-0.0.3.tar.gz tmp/vna-0.0.4.tar.gz --markdown 20230729/v/vna/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-29 17:09:55] INFO root fetch - processPackages [tendril-interests]: executing diffoscope
+[2023-07-29 17:09:55] INFO root fetch - processPackages [tendril-interests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-interests-0.3.3.tar.gz tmp/tendril-interests-0.3.4.tar.gz --markdown 20230729/t/tendril-interests/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-29 17:09:55] INFO root fetch - processPackages [MAZAlib]: executing diffoscope
+[2023-07-29 17:09:55] INFO root fetch - processPackages [MAZAlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MAZAlib-0.0.8.tar.gz tmp/MAZAlib-0.0.9.tar.gz --markdown 20230729/M/MAZAlib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-29 17:09:55] INFO root fetch - processPackages [soco-cli]: executing diffoscope
+[2023-07-29 17:09:55] INFO root fetch - processPackages [soco-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soco-cli-0.4.8.tar.gz tmp/soco-cli-0.4.9.tar.gz --markdown 20230729/s/soco-cli/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-29 17:09:56] INFO root fetch - processPackages [not1mm]: Downloading https://files.pythonhosted.org/packages/0f/74/bcd01321629495c1cb7e8955b07622e3b31ffe00e23020de1b8e98cea136/not1mm-23.7.5.tar.gz
+[2023-07-29 17:09:56] INFO root fetch - processPackages [not1mm]: executing diffoscope
+[2023-07-29 17:09:56] INFO root fetch - processPackages [not1mm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/not1mm-23.7.29.tar.gz tmp/not1mm-23.7.5.tar.gz --markdown 20230729/n/not1mm/23.7.29-23.7.5/diff.md --exclude *.pyd
+[2023-07-29 17:09:57] INFO root fetch - processPackages [vna]: Remove: archive file [/home/abi/fetcher/tmp/vna-0.0.3.tar.gz]
+[2023-07-29 17:09:57] INFO root fetch - processPackages [vna]: Remove: archive file [/home/abi/fetcher/tmp/vna-0.0.4.tar.gz]
+[2023-07-29 17:09:57] INFO root fetch - processPackages [vna]: Start processing: imseqvis
+[2023-07-29 17:09:57] INFO root fetch - main [MainThread]: End processing [vna]: success
+[2023-07-29 17:09:57] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.8.tar.gz]
+[2023-07-29 17:09:57] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.9.tar.gz]
+[2023-07-29 17:09:57] INFO root fetch - processPackages [ldimbenchmark]: Start processing: async-wrapper
+[2023-07-29 17:09:57] INFO root fetch - main [MainThread]: End processing [ldimbenchmark]: success
+[2023-07-29 17:09:57] WARNING root fetch - processPackages [imseqvis]: Skipping, unable to determine old version
+[2023-07-29 17:09:57] INFO root fetch - processPackages [imseqvis]: Start processing: pyd4
+[2023-07-29 17:09:57] INFO root fetch - main [MainThread]: End processing [imseqvis] error
+[2023-07-29 17:09:57] INFO root fetch - processPackages [async-wrapper]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-29 17:09:57] INFO root fetch - processPackages [platformdirs]: Remove: archive file [/home/abi/fetcher/tmp/platformdirs-3.9.0.tar.gz]
+[2023-07-29 17:09:57] INFO root fetch - processPackages [platformdirs]: Remove: archive file [/home/abi/fetcher/tmp/platformdirs-3.9.1.tar.gz]
+[2023-07-29 17:09:57] INFO root fetch - processPackages [pyd4]: New version: [0.3.9] Old Version: [0.3.6.2]
+[2023-07-29 17:09:57] INFO root fetch - main [MainThread]: End processing [platformdirs]: success
+[2023-07-29 17:09:57] INFO root fetch - processPackages [async-wrapper]: Downloading https://files.pythonhosted.org/packages/3d/0c/86b691fdce503508d4b739c9d33bc4838ba2ad05be45e87a8a432546eb3e/async_wrapper-0.1.4.tar.gz
+[2023-07-29 17:09:57] INFO root fetch - processPackages [MAZAlib]: Remove: archive file [/home/abi/fetcher/tmp/MAZAlib-0.0.8.tar.gz]
+[2023-07-29 17:09:57] INFO root fetch - processPackages [MAZAlib]: Remove: archive file [/home/abi/fetcher/tmp/MAZAlib-0.0.9.tar.gz]
+[2023-07-29 17:09:57] INFO root fetch - main [MainThread]: End processing [MAZAlib]: success
+[2023-07-29 17:09:57] INFO root fetch - processPackages [tendril-iotedge]: Remove: archive file [/home/abi/fetcher/tmp/tendril-iotedge-0.2.0.tar.gz]
+[2023-07-29 17:09:57] INFO root fetch - processPackages [tendril-iotedge]: Remove: archive file [/home/abi/fetcher/tmp/tendril-iotedge-0.2.1.tar.gz]
+[2023-07-29 17:09:57] INFO root fetch - main [MainThread]: End processing [tendril-iotedge]: success
+[2023-07-29 17:09:57] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-3.8.9.tar.gz]
+[2023-07-29 17:09:57] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-3.9.0.tar.gz]
+[2023-07-29 17:09:57] INFO root fetch - main [MainThread]: End processing [napatrackmater]: success
+[2023-07-29 17:09:57] INFO root fetch - processPackages [pyd4]: Downloading https://files.pythonhosted.org/packages/a2/92/fa49124a65905ec9abbf48e472f6f7987c289f5675bf717760676f60f46d/pyd4-0.3.6.2.tar.gz
+[2023-07-29 17:09:57] INFO root fetch - processPackages [soco-cli]: Remove: archive file [/home/abi/fetcher/tmp/soco-cli-0.4.8.tar.gz]
+[2023-07-29 17:09:57] INFO root fetch - processPackages [soco-cli]: Remove: archive file [/home/abi/fetcher/tmp/soco-cli-0.4.9.tar.gz]
+[2023-07-29 17:09:57] INFO root fetch - main [MainThread]: End processing [soco-cli]: success
+[2023-07-29 17:09:57] INFO root fetch - processPackages [tendril-interests]: Remove: archive file [/home/abi/fetcher/tmp/tendril-interests-0.3.3.tar.gz]
+[2023-07-29 17:09:57] INFO root fetch - processPackages [tendril-interests]: Remove: archive file [/home/abi/fetcher/tmp/tendril-interests-0.3.4.tar.gz]
+[2023-07-29 17:09:57] INFO root fetch - main [MainThread]: End processing [tendril-interests]: success
+[2023-07-29 17:09:57] INFO root fetch - processPackages [async-wrapper]: Downloading https://files.pythonhosted.org/packages/57/64/04be8b74c69e15d8d874df2dbfe28fa0ce8a067a7e521df4a79ee1886100/async_wrapper-0.1.5.tar.gz
+[2023-07-29 17:09:58] INFO root fetch - processPackages [pyd4]: Downloading https://files.pythonhosted.org/packages/55/08/d8848894ab55a0e541f556324fd84fa33641ecda8708d07f747fb62d258b/pyd4-0.3.9.tar.gz
+[2023-07-29 17:09:58] INFO root fetch - processPackages [async-wrapper]: executing diffoscope
+[2023-07-29 17:09:58] INFO root fetch - processPackages [async-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_wrapper-0.1.4.tar.gz tmp/async_wrapper-0.1.5.tar.gz --markdown 20230729/a/async-wrapper/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-29 17:09:58] INFO root fetch - processPackages [pyd4]: executing diffoscope
+[2023-07-29 17:09:58] INFO root fetch - processPackages [pyd4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyd4-0.3.6.2.tar.gz tmp/pyd4-0.3.9.tar.gz --markdown 20230729/p/pyd4/0.3.6.2-0.3.9/diff.md --exclude *.pyd
+[2023-07-29 17:09:58] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-rds-2.7.8.tar.gz]
+[2023-07-29 17:09:58] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-rds-2.7.9.tar.gz]
+[2023-07-29 17:09:58] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-rds]: success
+[2023-07-29 17:09:58] INFO root fetch - processPackages [pyd4]: Remove: archive file [/home/abi/fetcher/tmp/pyd4-0.3.6.2.tar.gz]
+[2023-07-29 17:09:58] INFO root fetch - processPackages [pyd4]: Remove: archive file [/home/abi/fetcher/tmp/pyd4-0.3.9.tar.gz]
+[2023-07-29 17:09:58] INFO root fetch - main [MainThread]: End processing [pyd4]: success
+[2023-07-29 17:09:58] INFO root fetch - processPackages [async-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/async_wrapper-0.1.4.tar.gz]
+[2023-07-29 17:09:58] INFO root fetch - processPackages [async-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/async_wrapper-0.1.5.tar.gz]
+[2023-07-29 17:09:58] INFO root fetch - main [MainThread]: End processing [async-wrapper]: success
+[2023-07-29 17:09:59] INFO root fetch - processPackages [not1mm]: Remove: archive file [/home/abi/fetcher/tmp/not1mm-23.7.29.tar.gz]
+[2023-07-29 17:09:59] INFO root fetch - processPackages [not1mm]: Remove: archive file [/home/abi/fetcher/tmp/not1mm-23.7.5.tar.gz]
+[2023-07-29 17:09:59] INFO root fetch - main [MainThread]: End processing [not1mm]: success
+[2023-07-29 17:09:59] INFO root fetch - main [MainThread]: Store serial: [19089589]
