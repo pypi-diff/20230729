@@ -3103,3 +3103,36 @@
 [2023-07-29 03:02:02] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
 [2023-07-29 03:02:02] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
 [2023-07-29 03:02:02] INFO root fetch - main [MainThread]: Store serial: [19083244]
+[2023-07-29 03:07:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19083244]
+[2023-07-29 03:07:10] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-29 03:07:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pathspec
+[2023-07-29 03:07:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: buildverse
+[2023-07-29 03:07:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prefect-lakefs
+[2023-07-29 03:07:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: threemystic-cloud-data-client
+[2023-07-29 03:07:11] INFO root fetch - processPackages [prefect-lakefs]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-29 03:07:11] INFO root fetch - processPackages [threemystic-cloud-data-client]: New version: [0.1.51] Old Version: [0.1.50]
+[2023-07-29 03:07:11] WARNING root fetch - processPackages [buildverse]: Skipping, unable to determine old version
+[2023-07-29 03:07:11] INFO root fetch - main [MainThread]: End processing [buildverse] error
+[2023-07-29 03:07:11] INFO root fetch - processPackages [pathspec]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-29 03:07:11] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/ea/6a/9a90095b5faf698419236febac6f0c4063c22669a0c470e7975fea8de531/threemystic_cloud_data_client-0.1.50.tar.gz
+[2023-07-29 03:07:11] INFO root fetch - processPackages [prefect-lakefs]: Downloading https://files.pythonhosted.org/packages/d5/6c/bc1c4c11d6bf641cac8788a8c30b0722ae0d33ddf993d1089277ece2bb2d/prefect-lakefs-0.2.0.tar.gz
+[2023-07-29 03:07:11] INFO root fetch - processPackages [pathspec]: Downloading https://files.pythonhosted.org/packages/b7/64/e097eea8dcd2b2f7df6e4425fc98e7494e37b1a6e149603c31d327080a05/pathspec-0.8.1.tar.gz
+[2023-07-29 03:07:11] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/8c/6d/d1b64a4ea149492d6d3cd9325bdf5a94c9531d4a6ddee8c6dbd09a81b6f3/threemystic_cloud_data_client-0.1.51.tar.gz
+[2023-07-29 03:07:11] INFO root fetch - processPackages [threemystic-cloud-data-client]: executing diffoscope
+[2023-07-29 03:07:11] INFO root fetch - processPackages [threemystic-cloud-data-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_data_client-0.1.50.tar.gz tmp/threemystic_cloud_data_client-0.1.51.tar.gz --markdown 20230729/t/threemystic-cloud-data-client/0.1.50-0.1.51/diff.md --exclude *.pyd
+[2023-07-29 03:07:11] INFO root fetch - processPackages [prefect-lakefs]: Downloading https://files.pythonhosted.org/packages/a9/d4/a5cd2908da47b167f2fda8fb89ebf78ce7a6ef95a1e2e82e725d9924bd14/prefect-lakefs-0.3.0.tar.gz
+[2023-07-29 03:07:11] INFO root fetch - processPackages [prefect-lakefs]: executing diffoscope
+[2023-07-29 03:07:11] INFO root fetch - processPackages [prefect-lakefs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prefect-lakefs-0.2.0.tar.gz tmp/prefect-lakefs-0.3.0.tar.gz --markdown 20230729/p/prefect-lakefs/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-29 03:07:11] INFO root fetch - processPackages [pathspec]: Downloading https://files.pythonhosted.org/packages/f6/33/436c5cb94e9f8902e59d1d544eb298b83c84b9ec37b5b769c5a0ad6edb19/pathspec-0.9.0.tar.gz
+[2023-07-29 03:07:11] INFO root fetch - processPackages [pathspec]: executing diffoscope
+[2023-07-29 03:07:11] INFO root fetch - processPackages [pathspec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathspec-0.8.1.tar.gz tmp/pathspec-0.9.0.tar.gz --markdown 20230729/p/pathspec/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-29 03:07:12] INFO root fetch - processPackages [prefect-lakefs]: Remove: archive file [/home/abi/fetcher/tmp/prefect-lakefs-0.2.0.tar.gz]
+[2023-07-29 03:07:12] INFO root fetch - processPackages [prefect-lakefs]: Remove: archive file [/home/abi/fetcher/tmp/prefect-lakefs-0.3.0.tar.gz]
+[2023-07-29 03:07:12] INFO root fetch - main [MainThread]: End processing [prefect-lakefs]: success
+[2023-07-29 03:07:12] INFO root fetch - processPackages [pathspec]: Remove: archive file [/home/abi/fetcher/tmp/pathspec-0.8.1.tar.gz]
+[2023-07-29 03:07:12] INFO root fetch - processPackages [pathspec]: Remove: archive file [/home/abi/fetcher/tmp/pathspec-0.9.0.tar.gz]
+[2023-07-29 03:07:12] INFO root fetch - main [MainThread]: End processing [pathspec]: success
+[2023-07-29 03:07:12] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.50.tar.gz]
+[2023-07-29 03:07:12] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.51.tar.gz]
+[2023-07-29 03:07:12] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-data-client]: success
+[2023-07-29 03:07:12] INFO root fetch - main [MainThread]: Store serial: [19083259]
