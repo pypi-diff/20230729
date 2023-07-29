@@ -22377,3 +22377,48 @@ AssertionError: tmp/pulpcore-3.9.0.tar.gz does not exist
 [2023-07-29 20:53:58] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.2.tar.gz]
 [2023-07-29 20:53:58] INFO root fetch - main [MainThread]: End processing [litellm]: success
 [2023-07-29 20:53:58] INFO root fetch - main [MainThread]: Store serial: [19091086]
+[2023-07-29 20:59:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19091086]
+[2023-07-29 20:59:06] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-29 20:59:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: litellm
+[2023-07-29 20:59:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dalinicus.aiolyric
+[2023-07-29 20:59:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DjTbot
+[2023-07-29 20:59:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SuperPang
+[2023-07-29 20:59:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: magql-sqlalchemy
+[2023-07-29 20:59:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-helper-mod
+[2023-07-29 20:59:07] INFO root fetch - processPackages [dalinicus.aiolyric]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-29 20:59:07] INFO root fetch - processPackages [litellm]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-29 20:59:07] WARNING root fetch - processPackages [DjTbot]: Skipping, unable to determine old version
+[2023-07-29 20:59:07] INFO root fetch - main [MainThread]: End processing [DjTbot] error
+[2023-07-29 20:59:07] INFO root fetch - processPackages [SuperPang]: New version: [1.1.0.post1] Old Version: [1.1.0]
+[2023-07-29 20:59:07] ERROR root fetch - processPackages [magql-sqlalchemy]: Unable to get metadata: No such project 'magql-sqlalchemy'
+[2023-07-29 20:59:07] INFO root fetch - main [MainThread]: End processing [magql-sqlalchemy] error
+[2023-07-29 20:59:07] INFO root fetch - processPackages [py-helper-mod]: New version: [0.0.50] Old Version: [0.0.49]
+[2023-07-29 20:59:07] INFO root fetch - processPackages [dalinicus.aiolyric]: Downloading https://files.pythonhosted.org/packages/16/cd/da18a2d884298897fe2ea25624a82b72c54defd224b64f2934fe02aee578/dalinicus.aiolyric-1.1.0.tar.gz
+[2023-07-29 20:59:07] INFO root fetch - processPackages [SuperPang]: Downloading https://files.pythonhosted.org/packages/d9/37/086028f99bbf4c6bb484cf19d8afc1c1dcc994838051a2735535007edd7d/SuperPang-1.1.0.tar.gz
+[2023-07-29 20:59:07] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/a5/04/5ea253a0c3caf8f5e42f3aa1d4ae28773f94fb805b6e328e1b91c69644eb/litellm-0.1.1.tar.gz
+[2023-07-29 20:59:07] INFO root fetch - processPackages [py-helper-mod]: Downloading https://files.pythonhosted.org/packages/fb/65/71ded350c118b2a7297f50fa58633cb95052ecbe346225f2850619d792a1/py-helper-mod-0.0.49.tar.gz
+[2023-07-29 20:59:07] INFO root fetch - processPackages [dalinicus.aiolyric]: Downloading https://files.pythonhosted.org/packages/26/32/a7938689566934779371a536e0875293fe2d4812c675f418891e912c821a/dalinicus.aiolyric-1.1.1.tar.gz
+[2023-07-29 20:59:07] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/50/8f/49bf0a3542d44212615b38ce34e47ce5b525789d7c06fade0a46cd4b86ff/litellm-0.1.2.tar.gz
+[2023-07-29 20:59:07] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2023-07-29 20:59:07] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-0.1.1.tar.gz tmp/litellm-0.1.2.tar.gz --markdown 20230729/l/litellm/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-29 20:59:07] INFO root fetch - processPackages [dalinicus.aiolyric]: executing diffoscope
+[2023-07-29 20:59:07] INFO root fetch - processPackages [dalinicus.aiolyric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dalinicus.aiolyric-1.1.0.tar.gz tmp/dalinicus.aiolyric-1.1.1.tar.gz --markdown 20230729/d/dalinicus.aiolyric/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-29 20:59:08] INFO root fetch - processPackages [SuperPang]: Downloading https://files.pythonhosted.org/packages/76/72/0f49b3c52d5c0b65291481efc7dad0d0de90ce91d6ef311dae6c697731bf/SuperPang-1.1.0.post1.tar.gz
+[2023-07-29 20:59:08] INFO root fetch - processPackages [py-helper-mod]: Downloading https://files.pythonhosted.org/packages/43/1b/628338209c18e0e448ae5bfe94752bf1d0192d7e85623dca7bb0838faf72/py-helper-mod-0.0.50.tar.gz
+[2023-07-29 20:59:08] INFO root fetch - processPackages [SuperPang]: executing diffoscope
+[2023-07-29 20:59:08] INFO root fetch - processPackages [SuperPang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SuperPang-1.1.0.tar.gz tmp/SuperPang-1.1.0.post1.tar.gz --markdown 20230729/S/SuperPang/1.1.0-1.1.0.post1/diff.md --exclude *.pyd
+[2023-07-29 20:59:08] INFO root fetch - processPackages [dalinicus.aiolyric]: Remove: archive file [/home/abi/fetcher/tmp/dalinicus.aiolyric-1.1.0.tar.gz]
+[2023-07-29 20:59:08] INFO root fetch - processPackages [dalinicus.aiolyric]: Remove: archive file [/home/abi/fetcher/tmp/dalinicus.aiolyric-1.1.1.tar.gz]
+[2023-07-29 20:59:08] INFO root fetch - main [MainThread]: End processing [dalinicus.aiolyric]: success
+[2023-07-29 20:59:08] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.1.tar.gz]
+[2023-07-29 20:59:08] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.2.tar.gz]
+[2023-07-29 20:59:08] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2023-07-29 20:59:08] INFO root fetch - processPackages [py-helper-mod]: executing diffoscope
+[2023-07-29 20:59:08] INFO root fetch - processPackages [py-helper-mod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-helper-mod-0.0.49.tar.gz tmp/py-helper-mod-0.0.50.tar.gz --markdown 20230729/p/py-helper-mod/0.0.49-0.0.50/diff.md --exclude *.pyd
+[2023-07-29 20:59:09] INFO root fetch - processPackages [py-helper-mod]: Remove: archive file [/home/abi/fetcher/tmp/py-helper-mod-0.0.49.tar.gz]
+[2023-07-29 20:59:09] INFO root fetch - processPackages [py-helper-mod]: Remove: archive file [/home/abi/fetcher/tmp/py-helper-mod-0.0.50.tar.gz]
+[2023-07-29 20:59:09] INFO root fetch - main [MainThread]: End processing [py-helper-mod]: success
+[2023-07-29 20:59:10] INFO root fetch - processPackages [SuperPang]: Remove: archive file [/home/abi/fetcher/tmp/SuperPang-1.1.0.tar.gz]
+[2023-07-29 20:59:10] INFO root fetch - processPackages [SuperPang]: Remove: archive file [/home/abi/fetcher/tmp/SuperPang-1.1.0.post1.tar.gz]
+[2023-07-29 20:59:10] INFO root fetch - main [MainThread]: End processing [SuperPang]: success
+[2023-07-29 20:59:10] INFO root fetch - main [MainThread]: Store serial: [19091106]
