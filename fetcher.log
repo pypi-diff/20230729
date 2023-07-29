@@ -10074,3 +10074,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 08:29:00] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230729.tar.gz]
 [2023-07-29 08:29:00] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2023-07-29 08:29:00] INFO root fetch - main [MainThread]: Store serial: [19085960]
+[2023-07-29 08:34:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19085960]
+[2023-07-29 08:34:10] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-29 08:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: idkwhttph
+[2023-07-29 08:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nlproc-tools
+[2023-07-29 08:34:10] INFO root fetch - processPackages [idkwhttph]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-07-29 08:34:10] INFO root fetch - processPackages [nlproc-tools]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-07-29 08:34:10] INFO root fetch - processPackages [nlproc-tools]: Downloading https://files.pythonhosted.org/packages/63/0b/3ffc47779cc96f4a298263ac328422702ab024599feffe736d57ecc49429/nlproc_tools-0.0.2.tar.gz
+[2023-07-29 08:34:10] INFO root fetch - processPackages [idkwhttph]: Downloading https://files.pythonhosted.org/packages/4f/43/d54d158e57545ee1a1988fc53aa8b39b9bf2fad86b40d401cd8bba4376fd/idkwhttph-0.3.4.tar.gz
+[2023-07-29 08:34:10] INFO root fetch - processPackages [idkwhttph]: Downloading https://files.pythonhosted.org/packages/53/c0/41c523a4b14357ad16875d7762004f899318492b8ab5f735f3576e652659/idkwhttph-0.3.5.tar.gz
+[2023-07-29 08:34:10] INFO root fetch - processPackages [nlproc-tools]: Downloading https://files.pythonhosted.org/packages/4e/a2/597573ca6d780dc55441260da5dea33443b18198a469072eaeb8d942b7f4/nlproc_tools-0.1.0.tar.gz
+[2023-07-29 08:34:10] INFO root fetch - processPackages [nlproc-tools]: executing diffoscope
+[2023-07-29 08:34:10] INFO root fetch - processPackages [nlproc-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlproc_tools-0.0.2.tar.gz tmp/nlproc_tools-0.1.0.tar.gz --markdown 20230729/n/nlproc-tools/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-07-29 08:34:10] INFO root fetch - processPackages [idkwhttph]: executing diffoscope
+[2023-07-29 08:34:10] INFO root fetch - processPackages [idkwhttph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idkwhttph-0.3.4.tar.gz tmp/idkwhttph-0.3.5.tar.gz --markdown 20230729/i/idkwhttph/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-29 08:34:11] INFO root fetch - processPackages [nlproc-tools]: Remove: archive file [/home/abi/fetcher/tmp/nlproc_tools-0.0.2.tar.gz]
+[2023-07-29 08:34:11] INFO root fetch - processPackages [nlproc-tools]: Remove: archive file [/home/abi/fetcher/tmp/nlproc_tools-0.1.0.tar.gz]
+[2023-07-29 08:34:11] INFO root fetch - main [MainThread]: End processing [nlproc-tools]: success
+[2023-07-29 08:34:11] INFO root fetch - processPackages [idkwhttph]: Remove: archive file [/home/abi/fetcher/tmp/idkwhttph-0.3.4.tar.gz]
+[2023-07-29 08:34:11] INFO root fetch - processPackages [idkwhttph]: Remove: archive file [/home/abi/fetcher/tmp/idkwhttph-0.3.5.tar.gz]
+[2023-07-29 08:34:11] INFO root fetch - main [MainThread]: End processing [idkwhttph]: success
+[2023-07-29 08:34:11] INFO root fetch - main [MainThread]: Store serial: [19085966]
