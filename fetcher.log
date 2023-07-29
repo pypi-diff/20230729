@@ -7346,3 +7346,75 @@
 [2023-07-29 04:40:26] INFO root fetch - processPackages [odoo-addon-partner-statement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_statement-15.0.1.0.1.6-py3-none-any.whl.zip]
 [2023-07-29 04:40:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-partner-statement]: success
 [2023-07-29 04:40:26] INFO root fetch - main [MainThread]: Store serial: [19084863]
+[2023-07-29 04:45:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19084863]
+[2023-07-29 04:45:35] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-29 04:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: progfiguration
+[2023-07-29 04:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lasfile
+[2023-07-29 04:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mov-cli
+[2023-07-29 04:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rwkv
+[2023-07-29 04:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mgzip2
+[2023-07-29 04:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-account-journal-general-sequence
+[2023-07-29 04:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-account-invoice-constraint-chronology
+[2023-07-29 04:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-plugin-aujob
+[2023-07-29 04:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: httpcats-and-httpdog
+[2023-07-29 04:45:35] WARNING root fetch - processPackages [mgzip2]: Skipping, unable to determine old version
+[2023-07-29 04:45:35] INFO root fetch - main [MainThread]: End processing [mgzip2] error
+[2023-07-29 04:45:35] INFO root fetch - processPackages [progfiguration]: New version: [0.0.2a4] Old Version: [0.0.2a3]
+[2023-07-29 04:45:35] INFO root fetch - processPackages [odoo-addon-account-invoice-constraint-chronology]: New version: [16.0.1.1.0.2] Old Version: [16.0.1.1.0.1]
+[2023-07-29 04:45:35] INFO root fetch - processPackages [lasfile]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-29 04:45:35] INFO root fetch - processPackages [rwkv]: New version: [0.8.6] Old Version: [0.8.5]
+[2023-07-29 04:45:35] INFO root fetch - processPackages [nonebot-plugin-aujob]: New version: [0.1.0] Old Version: [0.0.6]
+[2023-07-29 04:45:35] WARNING root fetch - processPackages [httpcats-and-httpdog]: Skipping, unable to determine old version
+[2023-07-29 04:45:35] INFO root fetch - main [MainThread]: End processing [httpcats-and-httpdog] error
+[2023-07-29 04:45:35] INFO root fetch - processPackages [odoo-addon-account-journal-general-sequence]: New version: [16.0.2.0.1.2] Old Version: [16.0.2.0.1.1]
+[2023-07-29 04:45:35] INFO root fetch - processPackages [mov-cli]: New version: [1.5.0] Old Version: [1.4.9]
+[2023-07-29 04:45:35] INFO root fetch - processPackages [nonebot-plugin-aujob]: Downloading https://files.pythonhosted.org/packages/b2/fc/f36f532313441870eece94e566908ec9924b168d8d689d6ead08278444e3/nonebot_plugin_aujob-0.0.6.tar.gz
+[2023-07-29 04:45:35] INFO root fetch - processPackages [lasfile]: Downloading https://files.pythonhosted.org/packages/d5/64/ec9a7cc9d411e7c7da40b3dad36030498cc079c8f4f65beae1c5d32d33fc/lasfile-0.1.8.tar.gz
+[2023-07-29 04:45:35] INFO root fetch - processPackages [rwkv]: Downloading https://files.pythonhosted.org/packages/22/44/5a974381aa57d8fc3553e8b3d4065e5079bec630d95b724d75c3a340054b/rwkv-0.8.5.tar.gz
+[2023-07-29 04:45:35] INFO root fetch - processPackages [mov-cli]: Downloading https://files.pythonhosted.org/packages/f6/4b/251db0763d6df2834238dc370c0fee9177f350e5b986b8b09bbafa4b73db/mov_cli-1.4.9.tar.gz
+[2023-07-29 04:45:35] INFO root fetch - processPackages [progfiguration]: Downloading https://files.pythonhosted.org/packages/ba/ee/0627251ba963dcbeb0ac5f80beb29eda956978f51e2f1bc168782903828e/progfiguration-0.0.2a3.tar.gz
+[2023-07-29 04:45:36] INFO root fetch - processPackages [odoo-addon-account-invoice-constraint-chronology]: Downloading https://files.pythonhosted.org/packages/3f/de/58aba9c83643cf7066780e77e501530bf2cbc37b906c4778a6050f8f7076/odoo_addon_account_invoice_constraint_chronology-16.0.1.1.0.1-py3-none-any.whl
+[2023-07-29 04:45:36] INFO root fetch - processPackages [odoo-addon-account-journal-general-sequence]: Downloading https://files.pythonhosted.org/packages/18/d4/d9239f472acbd373c07e9bd8f883b5687c321d433f1a2ec578a501bcbe77/odoo_addon_account_journal_general_sequence-16.0.2.0.1.1-py3-none-any.whl
+[2023-07-29 04:45:36] INFO root fetch - processPackages [lasfile]: Downloading https://files.pythonhosted.org/packages/81/46/99cbc4f9407daa16b3fe90802004647de4ec0eb60dfa6c1a4e06fbe5d312/lasfile-0.1.9.tar.gz
+[2023-07-29 04:45:36] INFO root fetch - processPackages [nonebot-plugin-aujob]: Downloading https://files.pythonhosted.org/packages/1b/7a/5abb8865b3af1fd61b073ce3944fba3e1deca7757e980b52267a63eabd33/nonebot_plugin_aujob-0.1.0.tar.gz
+[2023-07-29 04:45:36] INFO root fetch - processPackages [mov-cli]: Downloading https://files.pythonhosted.org/packages/d4/16/a35b26f5479c29031becbb6288c83052e56675211dd2504a23fcff469074/mov_cli-1.5.0.tar.gz
+[2023-07-29 04:45:36] INFO root fetch - processPackages [lasfile]: executing diffoscope
+[2023-07-29 04:45:36] INFO root fetch - processPackages [lasfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lasfile-0.1.8.tar.gz tmp/lasfile-0.1.9.tar.gz --markdown 20230729/l/lasfile/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-29 04:45:36] INFO root fetch - processPackages [rwkv]: Downloading https://files.pythonhosted.org/packages/d4/14/cdf11ddd9c27f15ce777e4ec597cc86139b0165b2dce27b27483fa6c9132/rwkv-0.8.6.tar.gz
+[2023-07-29 04:45:36] INFO root fetch - processPackages [progfiguration]: Downloading https://files.pythonhosted.org/packages/34/8a/6dc80a295e9197c01e54b4def54fa72bfaa5f90295ee50451851b2a13361/progfiguration-0.0.2a4.tar.gz
+[2023-07-29 04:45:36] INFO root fetch - processPackages [odoo-addon-account-journal-general-sequence]: Downloading https://files.pythonhosted.org/packages/8e/bc/1f173e90f887d89b1ab5e7e29e15b175f08b85dda9b88ede9fc1c08ba944/odoo_addon_account_journal_general_sequence-16.0.2.0.1.2-py3-none-any.whl
+[2023-07-29 04:45:36] INFO root fetch - processPackages [odoo-addon-account-invoice-constraint-chronology]: Downloading https://files.pythonhosted.org/packages/a8/d1/c3fe5bd772d2865177b86210a5956c889cf76448efdcf78d6301984728f0/odoo_addon_account_invoice_constraint_chronology-16.0.1.1.0.2-py3-none-any.whl
+[2023-07-29 04:45:36] INFO root fetch - processPackages [nonebot-plugin-aujob]: executing diffoscope
+[2023-07-29 04:45:36] INFO root fetch - processPackages [nonebot-plugin-aujob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_aujob-0.0.6.tar.gz tmp/nonebot_plugin_aujob-0.1.0.tar.gz --markdown 20230729/n/nonebot-plugin-aujob/0.0.6-0.1.0/diff.md --exclude *.pyd
+[2023-07-29 04:45:36] INFO root fetch - processPackages [progfiguration]: executing diffoscope
+[2023-07-29 04:45:36] INFO root fetch - processPackages [progfiguration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/progfiguration-0.0.2a3.tar.gz tmp/progfiguration-0.0.2a4.tar.gz --markdown 20230729/p/progfiguration/0.0.2a3-0.0.2a4/diff.md --exclude *.pyd
+[2023-07-29 04:45:36] INFO root fetch - processPackages [rwkv]: executing diffoscope
+[2023-07-29 04:45:36] INFO root fetch - processPackages [rwkv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rwkv-0.8.5.tar.gz tmp/rwkv-0.8.6.tar.gz --markdown 20230729/r/rwkv/0.8.5-0.8.6/diff.md --exclude *.pyd
+[2023-07-29 04:45:36] INFO root fetch - processPackages [mov-cli]: executing diffoscope
+[2023-07-29 04:45:36] INFO root fetch - processPackages [mov-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mov_cli-1.4.9.tar.gz tmp/mov_cli-1.5.0.tar.gz --markdown 20230729/m/mov-cli/1.4.9-1.5.0/diff.md --exclude *.pyd
+[2023-07-29 04:45:36] INFO root fetch - processPackages [odoo-addon-account-journal-general-sequence]: executing diffoscope
+[2023-07-29 04:45:36] INFO root fetch - processPackages [odoo-addon-account-journal-general-sequence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_journal_general_sequence-16.0.2.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_account_journal_general_sequence-16.0.2.0.1.2-py3-none-any.whl.zip --markdown 20230729/o/odoo-addon-account-journal-general-sequence/16.0.2.0.1.1-16.0.2.0.1.2/diff.md --exclude *.pyd
+[2023-07-29 04:45:36] INFO root fetch - processPackages [odoo-addon-account-invoice-constraint-chronology]: executing diffoscope
+[2023-07-29 04:45:36] INFO root fetch - processPackages [odoo-addon-account-invoice-constraint-chronology]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_constraint_chronology-16.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_constraint_chronology-16.0.1.1.0.2-py3-none-any.whl.zip --markdown 20230729/o/odoo-addon-account-invoice-constraint-chronology/16.0.1.1.0.1-16.0.1.1.0.2/diff.md --exclude *.pyd
+[2023-07-29 04:45:37] INFO root fetch - processPackages [lasfile]: Remove: archive file [/home/abi/fetcher/tmp/lasfile-0.1.8.tar.gz]
+[2023-07-29 04:45:37] INFO root fetch - processPackages [lasfile]: Remove: archive file [/home/abi/fetcher/tmp/lasfile-0.1.9.tar.gz]
+[2023-07-29 04:45:37] INFO root fetch - main [MainThread]: End processing [lasfile]: success
+[2023-07-29 04:45:37] INFO root fetch - processPackages [nonebot-plugin-aujob]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_aujob-0.0.6.tar.gz]
+[2023-07-29 04:45:37] INFO root fetch - processPackages [nonebot-plugin-aujob]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_aujob-0.1.0.tar.gz]
+[2023-07-29 04:45:37] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-aujob]: success
+[2023-07-29 04:45:37] INFO root fetch - processPackages [progfiguration]: Remove: archive file [/home/abi/fetcher/tmp/progfiguration-0.0.2a3.tar.gz]
+[2023-07-29 04:45:37] INFO root fetch - processPackages [progfiguration]: Remove: archive file [/home/abi/fetcher/tmp/progfiguration-0.0.2a4.tar.gz]
+[2023-07-29 04:45:37] INFO root fetch - main [MainThread]: End processing [progfiguration]: success
+[2023-07-29 04:45:38] INFO root fetch - processPackages [mov-cli]: Remove: archive file [/home/abi/fetcher/tmp/mov_cli-1.4.9.tar.gz]
+[2023-07-29 04:45:38] INFO root fetch - processPackages [mov-cli]: Remove: archive file [/home/abi/fetcher/tmp/mov_cli-1.5.0.tar.gz]
+[2023-07-29 04:45:38] INFO root fetch - main [MainThread]: End processing [mov-cli]: success
+[2023-07-29 04:45:38] INFO root fetch - processPackages [rwkv]: Remove: archive file [/home/abi/fetcher/tmp/rwkv-0.8.5.tar.gz]
+[2023-07-29 04:45:38] INFO root fetch - processPackages [rwkv]: Remove: archive file [/home/abi/fetcher/tmp/rwkv-0.8.6.tar.gz]
+[2023-07-29 04:45:38] INFO root fetch - main [MainThread]: End processing [rwkv]: success
+[2023-07-29 04:45:38] INFO root fetch - processPackages [odoo-addon-account-invoice-constraint-chronology]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_constraint_chronology-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2023-07-29 04:45:38] INFO root fetch - processPackages [odoo-addon-account-invoice-constraint-chronology]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_constraint_chronology-16.0.1.1.0.2-py3-none-any.whl.zip]
+[2023-07-29 04:45:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-constraint-chronology]: success
+[2023-07-29 04:45:38] INFO root fetch - processPackages [odoo-addon-account-journal-general-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_journal_general_sequence-16.0.2.0.1.1-py3-none-any.whl.zip]
+[2023-07-29 04:45:38] INFO root fetch - processPackages [odoo-addon-account-journal-general-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_journal_general_sequence-16.0.2.0.1.2-py3-none-any.whl.zip]
+[2023-07-29 04:45:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-journal-general-sequence]: success
+[2023-07-29 04:45:38] INFO root fetch - main [MainThread]: Store serial: [19084891]
