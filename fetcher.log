@@ -18292,3 +18292,79 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 15:59:08] INFO root fetch - processPackages [mols2grid]: Remove: archive file [/home/abi/fetcher/tmp/mols2grid-2.0.0rc1.tar.gz]
 [2023-07-29 15:59:08] INFO root fetch - main [MainThread]: End processing [mols2grid]: success
 [2023-07-29 15:59:08] INFO root fetch - main [MainThread]: Store serial: [19089187]
+[2023-07-29 16:04:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19089187]
+[2023-07-29 16:04:16] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-29 16:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: casbin-django-orm-adapter
+[2023-07-29 16:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: knnor
+[2023-07-29 16:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyeudiw
+[2023-07-29 16:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sdkit
+[2023-07-29 16:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastestimator-nightly
+[2023-07-29 16:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lassen
+[2023-07-29 16:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: crypto-info
+[2023-07-29 16:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: undervolt
+[2023-07-29 16:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: knnor
+[2023-07-29 16:04:16] INFO root fetch - processPackages [knnor]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-29 16:04:16] INFO root fetch - processPackages [knnor]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-29 16:04:16] INFO root fetch - processPackages [crypto-info]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-29 16:04:16] WARNING root fetch - processPackages [pyeudiw]: Skipping, unable to determine old version
+[2023-07-29 16:04:16] INFO root fetch - main [MainThread]: End processing [pyeudiw] error
+[2023-07-29 16:04:16] INFO root fetch - processPackages [lassen]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-29 16:04:16] INFO root fetch - processPackages [casbin-django-orm-adapter]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-29 16:04:16] INFO root fetch - processPackages [undervolt]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-29 16:04:16] INFO root fetch - processPackages [sdkit]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-29 16:04:17] INFO root fetch - processPackages [fastestimator-nightly]: New version: [1.6.0.dev202307281402] Old Version: [1.6.0.dev202307271359]
+[2023-07-29 16:04:17] INFO root fetch - processPackages [knnor]: Downloading https://files.pythonhosted.org/packages/4b/b0/a73412100e5317b7b660c954e9f6d7a6d25e4eaa6849beed525c98759d23/knnor-0.1.2.tar.gz
+[2023-07-29 16:04:17] INFO root fetch - processPackages [knnor]: Downloading https://files.pythonhosted.org/packages/4b/b0/a73412100e5317b7b660c954e9f6d7a6d25e4eaa6849beed525c98759d23/knnor-0.1.2.tar.gz
+[2023-07-29 16:04:17] INFO root fetch - processPackages [fastestimator-nightly]: Downloading https://files.pythonhosted.org/packages/27/20/ce58530673082d62c0a746cd96e5950493792832d95321cf2fa251161b0e/fastestimator-nightly-1.6.0.dev202307271359.tar.gz
+[2023-07-29 16:04:17] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/d1/c1/f3e251106f7f4c022d55f8fe3a3c0eacdb5bfdf84ce4182f71368c4f3a5f/sdkit-1.0.98.tar.gz
+[2023-07-29 16:04:17] INFO root fetch - processPackages [crypto-info]: Downloading https://files.pythonhosted.org/packages/ea/69/5299e8a0a27ef013f345af2eae7f6741e744489f84440a8cc590f743233b/crypto-info-1.2.0.tar.gz
+[2023-07-29 16:04:17] INFO root fetch - processPackages [casbin-django-orm-adapter]: Downloading https://files.pythonhosted.org/packages/2a/47/6fe2c010da9dd986f55198d0be38fb88c6b0779c2b8a42b77576ab48c072/casbin-django-orm-adapter-1.0.2.tar.gz
+[2023-07-29 16:04:17] INFO root fetch - processPackages [undervolt]: Downloading https://files.pythonhosted.org/packages/7f/f9/43f900dd0a2fa0b17fe7263c9da222e8f5cefd571eab14a7ddcaefda069e/undervolt-0.3.0.tar.gz
+[2023-07-29 16:04:17] INFO root fetch - processPackages [lassen]: Downloading https://files.pythonhosted.org/packages/60/57/ac751607cbefeeccd30262e01bcae1077d20f4c5f4ac6b70224a5988cf69/lassen-0.2.4.tar.gz
+[2023-07-29 16:04:17] INFO root fetch - processPackages [knnor]: Downloading https://files.pythonhosted.org/packages/9b/e1/7c20f6ba31cd3bbb2141730e8fcf89d845802c7fc4ba870da73f74f56d26/knnor-0.1.3.tar.gz
+[2023-07-29 16:04:17] INFO root fetch - processPackages [knnor]: Downloading https://files.pythonhosted.org/packages/9b/e1/7c20f6ba31cd3bbb2141730e8fcf89d845802c7fc4ba870da73f74f56d26/knnor-0.1.3.tar.gz
+[2023-07-29 16:04:17] INFO root fetch - processPackages [undervolt]: Downloading https://files.pythonhosted.org/packages/6a/b2/ebc6417e6467e22d1110fdd50fe0805e65817482092672ffef89748203b7/undervolt-0.4.0.tar.gz
+[2023-07-29 16:04:17] INFO root fetch - processPackages [casbin-django-orm-adapter]: Downloading https://files.pythonhosted.org/packages/d9/d8/11297e005e9b10e9c7772884e764cbfe142af100b90ab503d54e3e2b6c07/casbin-django-orm-adapter-1.0.3.tar.gz
+[2023-07-29 16:04:17] INFO root fetch - processPackages [knnor]: executing diffoscope
+[2023-07-29 16:04:17] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/7e/69/b60dd118fa3c33f9ff305ec5ce9de04303dfdfc9be5d286e20cbc1ee1e7b/sdkit-1.0.99.tar.gz
+[2023-07-29 16:04:17] INFO root fetch - processPackages [knnor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knnor-0.1.2.tar.gz tmp/knnor-0.1.3.tar.gz --markdown 20230729/k/knnor/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-29 16:04:17] INFO root fetch - processPackages [lassen]: Downloading https://files.pythonhosted.org/packages/ba/19/84651f4e9522a57823de311a24f2779d0defad1e71fe563d41f71761cad3/lassen-0.2.5.tar.gz
+[2023-07-29 16:04:17] INFO root fetch - processPackages [fastestimator-nightly]: Downloading https://files.pythonhosted.org/packages/54/60/ea1f5f76f3b542a7d305120f97b8cbbd94656b1d2263f2e944c7e3daece0/fastestimator-nightly-1.6.0.dev202307281402.tar.gz
+[2023-07-29 16:04:17] INFO root fetch - processPackages [knnor]: executing diffoscope
+[2023-07-29 16:04:17] INFO root fetch - processPackages [knnor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knnor-0.1.2.tar.gz tmp/knnor-0.1.3.tar.gz --markdown 20230729/k/knnor/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-29 16:04:17] INFO root fetch - processPackages [casbin-django-orm-adapter]: executing diffoscope
+[2023-07-29 16:04:17] INFO root fetch - processPackages [casbin-django-orm-adapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/casbin-django-orm-adapter-1.0.2.tar.gz tmp/casbin-django-orm-adapter-1.0.3.tar.gz --markdown 20230729/c/casbin-django-orm-adapter/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-29 16:04:17] INFO root fetch - processPackages [lassen]: executing diffoscope
+[2023-07-29 16:04:17] INFO root fetch - processPackages [lassen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lassen-0.2.4.tar.gz tmp/lassen-0.2.5.tar.gz --markdown 20230729/l/lassen/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-29 16:04:17] INFO root fetch - processPackages [undervolt]: executing diffoscope
+[2023-07-29 16:04:17] INFO root fetch - processPackages [undervolt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/undervolt-0.3.0.tar.gz tmp/undervolt-0.4.0.tar.gz --markdown 20230729/u/undervolt/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-29 16:04:17] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-07-29 16:04:17] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.98.tar.gz tmp/sdkit-1.0.99.tar.gz --markdown 20230729/s/sdkit/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-29 16:04:18] INFO root fetch - processPackages [fastestimator-nightly]: executing diffoscope
+[2023-07-29 16:04:18] INFO root fetch - processPackages [fastestimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastestimator-nightly-1.6.0.dev202307271359.tar.gz tmp/fastestimator-nightly-1.6.0.dev202307281402.tar.gz --markdown 20230729/f/fastestimator-nightly/1.6.0.dev202307271359-1.6.0.dev202307281402/diff.md --exclude *.pyd
+[2023-07-29 16:04:18] INFO root fetch - processPackages [crypto-info]: Downloading https://files.pythonhosted.org/packages/9a/ad/18e3c30cbec7a1db86d562a11491e9d581a2026fa3739223b993c21f8381/crypto-info-1.2.1.tar.gz
+[2023-07-29 16:04:18] INFO root fetch - processPackages [crypto-info]: executing diffoscope
+[2023-07-29 16:04:18] INFO root fetch - processPackages [crypto-info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-info-1.2.0.tar.gz tmp/crypto-info-1.2.1.tar.gz --markdown 20230729/c/crypto-info/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-29 16:04:18] INFO root fetch - processPackages [knnor]: Remove: archive file [/home/abi/fetcher/tmp/knnor-0.1.2.tar.gz]
+[2023-07-29 16:04:18] INFO root fetch - processPackages [knnor]: Remove: archive file [/home/abi/fetcher/tmp/knnor-0.1.3.tar.gz]
+[2023-07-29 16:04:18] INFO root fetch - main [MainThread]: End processing [knnor]: success
+[2023-07-29 16:04:18] INFO root fetch - main [MainThread]: End processing [knnor]: success
+[2023-07-29 16:04:19] INFO root fetch - processPackages [casbin-django-orm-adapter]: Remove: archive file [/home/abi/fetcher/tmp/casbin-django-orm-adapter-1.0.2.tar.gz]
+[2023-07-29 16:04:19] INFO root fetch - processPackages [casbin-django-orm-adapter]: Remove: archive file [/home/abi/fetcher/tmp/casbin-django-orm-adapter-1.0.3.tar.gz]
+[2023-07-29 16:04:19] INFO root fetch - main [MainThread]: End processing [casbin-django-orm-adapter]: success
+[2023-07-29 16:04:19] INFO root fetch - processPackages [undervolt]: Remove: archive file [/home/abi/fetcher/tmp/undervolt-0.3.0.tar.gz]
+[2023-07-29 16:04:19] INFO root fetch - processPackages [undervolt]: Remove: archive file [/home/abi/fetcher/tmp/undervolt-0.4.0.tar.gz]
+[2023-07-29 16:04:19] INFO root fetch - main [MainThread]: End processing [undervolt]: success
+[2023-07-29 16:04:19] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.98.tar.gz]
+[2023-07-29 16:04:19] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.99.tar.gz]
+[2023-07-29 16:04:19] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-07-29 16:04:19] INFO root fetch - processPackages [lassen]: Remove: archive file [/home/abi/fetcher/tmp/lassen-0.2.4.tar.gz]
+[2023-07-29 16:04:19] INFO root fetch - processPackages [lassen]: Remove: archive file [/home/abi/fetcher/tmp/lassen-0.2.5.tar.gz]
+[2023-07-29 16:04:19] INFO root fetch - main [MainThread]: End processing [lassen]: success
+[2023-07-29 16:04:22] INFO root fetch - processPackages [fastestimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/fastestimator-nightly-1.6.0.dev202307271359.tar.gz]
+[2023-07-29 16:04:22] INFO root fetch - processPackages [fastestimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/fastestimator-nightly-1.6.0.dev202307281402.tar.gz]
+[2023-07-29 16:04:22] INFO root fetch - main [MainThread]: End processing [fastestimator-nightly]: success
+[2023-07-29 16:04:31] INFO root fetch - processPackages [crypto-info]: Remove: archive file [/home/abi/fetcher/tmp/crypto-info-1.2.0.tar.gz]
+[2023-07-29 16:04:31] INFO root fetch - processPackages [crypto-info]: Remove: archive file [/home/abi/fetcher/tmp/crypto-info-1.2.1.tar.gz]
+[2023-07-29 16:04:31] INFO root fetch - main [MainThread]: End processing [crypto-info]: success
+[2023-07-29 16:04:31] INFO root fetch - main [MainThread]: Store serial: [19089225]
