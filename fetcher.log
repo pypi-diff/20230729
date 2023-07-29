@@ -17719,3 +17719,87 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 15:22:31] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230729-py3-none-win_amd64.whl.zip]
 [2023-07-29 15:22:31] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
 [2023-07-29 15:22:31] INFO root fetch - main [MainThread]: Store serial: [19088977]
+[2023-07-29 15:27:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19088977]
+[2023-07-29 15:27:40] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-29 15:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oneat
+[2023-07-29 15:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyppbox-ultralytics
+[2023-07-29 15:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dimtown-spider
+[2023-07-29 15:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oloren
+[2023-07-29 15:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: blacksmith
+[2023-07-29 15:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: commonroad-scenario-designer
+[2023-07-29 15:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sedi
+[2023-07-29 15:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: composabl-dev
+[2023-07-29 15:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytorch-memlab
+[2023-07-29 15:27:40] INFO root fetch - processPackages [dimtown-spider]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-29 15:27:40] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-29 15:27:40] INFO root fetch - processPackages [sedi]: New version: [0.6] Old Version: [0.5]
+[2023-07-29 15:27:40] INFO root fetch - processPackages [pyppbox-ultralytics]: New version: [8.0.143] Old Version: [8.0.142.post1]
+[2023-07-29 15:27:40] INFO root fetch - processPackages [blacksmith]: New version: [2.3.3] Old Version: [2.3.2]
+[2023-07-29 15:27:40] INFO root fetch - processPackages [commonroad-scenario-designer]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-07-29 15:27:40] INFO root fetch - processPackages [composabl-dev]: New version: [0.2.4.dev1] Old Version: [0.2.3.dev30]
+[2023-07-29 15:27:40] INFO root fetch - processPackages [oneat]: New version: [6.1.7] Old Version: [6.1.6]
+[2023-07-29 15:27:41] INFO root fetch - processPackages [pytorch-memlab]: New version: [0.3.0] Old Version: [0.2.4]
+[2023-07-29 15:27:41] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/a3/76/06db9dcd349a4094baa829da1112066fd4fe60d5748d1b0c8c0833367603/oloren-0.0.8.tar.gz
+[2023-07-29 15:27:41] INFO root fetch - processPackages [sedi]: Downloading https://files.pythonhosted.org/packages/e7/f3/17d25b1577a52e1b6b81120d257a8c2e07046da00adf36d4a76234bf4a23/sedi-0.5.tar.gz
+[2023-07-29 15:27:41] INFO root fetch - processPackages [oneat]: Downloading https://files.pythonhosted.org/packages/61/f7/259c325916494d2664bfd295cd3d27d02fd8655f12cccd13da893e98a2c2/oneat-6.1.6.tar.gz
+[2023-07-29 15:27:41] INFO root fetch - processPackages [dimtown-spider]: Downloading https://files.pythonhosted.org/packages/5f/51/42d4a00d146a97dfeda04fd4d224d9117bcee16c73107680f5a7b8a5a8c9/dimtown_spider-0.0.4.tar.gz
+[2023-07-29 15:27:41] INFO root fetch - processPackages [pyppbox-ultralytics]: Downloading https://files.pythonhosted.org/packages/10/b3/dc7ba510c946bac4e73f2202f3a869525899f6d6a95b8317a48af19a9f14/pyppbox_ultralytics-8.0.142.post1-py3-none-any.whl
+[2023-07-29 15:27:41] INFO root fetch - processPackages [commonroad-scenario-designer]: Downloading https://files.pythonhosted.org/packages/36/64/674f6ea68a773afb5c9dc6325c0d795b898511249560592540c789fd743c/commonroad_scenario_designer-0.7.1.tar.gz
+[2023-07-29 15:27:41] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/fd/70/74383eb8dcb77369fcba20dd69796218c58855f39b014ddd91163287488b/composabl_dev-0.2.3.dev30-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-07-29 15:27:41] INFO root fetch - processPackages [blacksmith]: Downloading https://files.pythonhosted.org/packages/a3/2f/156fc1c3a47cd834023a12548436ad57b48f39949e6a577b5719977f8a3e/blacksmith-2.3.2.tar.gz
+[2023-07-29 15:27:41] INFO root fetch - processPackages [pytorch-memlab]: Downloading https://files.pythonhosted.org/packages/ca/a9/0554fae8883b2a646720e0e1d84d1bdef57e90ee3c244686f589052c3e0a/pytorch_memlab-0.2.4.tar.gz
+[2023-07-29 15:27:41] INFO root fetch - processPackages [dimtown-spider]: Downloading https://files.pythonhosted.org/packages/86/38/c7964fd15664e8930075d3318def95dfe4ae565ced6b49fe279a86612861/dimtown_spider-0.0.5.tar.gz
+[2023-07-29 15:27:41] INFO root fetch - processPackages [sedi]: Downloading https://files.pythonhosted.org/packages/b6/9f/a2f4c8299d7b8269f75348dfb794457cc421b460037ddd679a4fdc6a2a50/sedi-0.6.tar.gz
+[2023-07-29 15:27:41] INFO root fetch - processPackages [pyppbox-ultralytics]: Downloading https://files.pythonhosted.org/packages/e7/0d/9aafdc1084bf9bcb3128940d1ca31848643a6ac94e3a099fe60a90e89afb/pyppbox-ultralytics-8.0.143.tar.gz
+[2023-07-29 15:27:41] INFO root fetch - processPackages [blacksmith]: Downloading https://files.pythonhosted.org/packages/e5/cf/15a275f4dfa5c31cee58e2f9b0be9c8083ec8d63b98122d196bc8d4ccfe2/blacksmith-2.3.3.tar.gz
+[2023-07-29 15:27:41] INFO root fetch - processPackages [dimtown-spider]: executing diffoscope
+[2023-07-29 15:27:41] INFO root fetch - processPackages [dimtown-spider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dimtown_spider-0.0.4.tar.gz tmp/dimtown_spider-0.0.5.tar.gz --markdown 20230729/d/dimtown-spider/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-29 15:27:41] INFO root fetch - processPackages [sedi]: executing diffoscope
+[2023-07-29 15:27:41] INFO root fetch - processPackages [sedi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sedi-0.5.tar.gz tmp/sedi-0.6.tar.gz --markdown 20230729/s/sedi/0.5-0.6/diff.md --exclude *.pyd
+[2023-07-29 15:27:41] INFO root fetch - processPackages [commonroad-scenario-designer]: Downloading https://files.pythonhosted.org/packages/53/48/434fcbbc5eccda787206cad2d05c106894eb86d1ed6395b911c5c90c9ed2/commonroad_scenario_designer-0.7.2.tar.gz
+[2023-07-29 15:27:41] INFO root fetch - processPackages [pytorch-memlab]: Downloading https://files.pythonhosted.org/packages/7f/8e/528f7ebccdd855aa0769c118548f77535fa33286ca6a0a833b92435c74fd/pytorch-memlab-0.3.0.tar.gz
+[2023-07-29 15:27:41] INFO root fetch - processPackages [oneat]: Downloading https://files.pythonhosted.org/packages/b5/fd/bf8af4d0b558712bab3baa532a224cde2c62d3a1a692220c95d8859bde6a/oneat-6.1.7.tar.gz
+[2023-07-29 15:27:41] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/8f/84/66581190d09357a5dd522267963c2d727e20650e6690064dc2efadd1c020/oloren-0.0.9.tar.gz
+[2023-07-29 15:27:41] INFO root fetch - processPackages [blacksmith]: executing diffoscope
+[2023-07-29 15:27:41] INFO root fetch - processPackages [blacksmith]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blacksmith-2.3.2.tar.gz tmp/blacksmith-2.3.3.tar.gz --markdown 20230729/b/blacksmith/2.3.2-2.3.3/diff.md --exclude *.pyd
+[2023-07-29 15:27:41] INFO root fetch - processPackages [pyppbox-ultralytics]: executing diffoscope
+[2023-07-29 15:27:41] INFO root fetch - processPackages [pyppbox-ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyppbox_ultralytics-8.0.142.post1-py3-none-any.whl.zip tmp/pyppbox-ultralytics-8.0.143.tar.gz --markdown 20230729/p/pyppbox-ultralytics/8.0.142.post1-8.0.143/diff.md --exclude *.pyd
+[2023-07-29 15:27:42] INFO root fetch - processPackages [pytorch-memlab]: executing diffoscope
+[2023-07-29 15:27:42] INFO root fetch - processPackages [pytorch-memlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch_memlab-0.2.4.tar.gz tmp/pytorch-memlab-0.3.0.tar.gz --markdown 20230729/p/pytorch-memlab/0.2.4-0.3.0/diff.md --exclude *.pyd
+[2023-07-29 15:27:42] INFO root fetch - processPackages [commonroad-scenario-designer]: executing diffoscope
+[2023-07-29 15:27:42] INFO root fetch - processPackages [commonroad-scenario-designer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commonroad_scenario_designer-0.7.1.tar.gz tmp/commonroad_scenario_designer-0.7.2.tar.gz --markdown 20230729/c/commonroad-scenario-designer/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-07-29 15:27:42] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-07-29 15:27:42] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230729/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-29 15:27:42] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/24/18/ca1eaa07d19fd3266829ee3843a1c4f7c46bf4a56a7e2767162d90a9ef37/composabl_dev-0.2.4.dev1-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-07-29 15:27:42] INFO root fetch - processPackages [sedi]: Remove: archive file [/home/abi/fetcher/tmp/sedi-0.5.tar.gz]
+[2023-07-29 15:27:42] INFO root fetch - processPackages [sedi]: Remove: archive file [/home/abi/fetcher/tmp/sedi-0.6.tar.gz]
+[2023-07-29 15:27:42] INFO root fetch - main [MainThread]: End processing [sedi]: success
+[2023-07-29 15:27:42] INFO root fetch - processPackages [dimtown-spider]: Remove: archive file [/home/abi/fetcher/tmp/dimtown_spider-0.0.4.tar.gz]
+[2023-07-29 15:27:42] INFO root fetch - processPackages [dimtown-spider]: Remove: archive file [/home/abi/fetcher/tmp/dimtown_spider-0.0.5.tar.gz]
+[2023-07-29 15:27:42] INFO root fetch - main [MainThread]: End processing [dimtown-spider]: success
+[2023-07-29 15:27:43] INFO root fetch - processPackages [oneat]: executing diffoscope
+[2023-07-29 15:27:43] INFO root fetch - processPackages [oneat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oneat-6.1.6.tar.gz tmp/oneat-6.1.7.tar.gz --markdown 20230729/o/oneat/6.1.6-6.1.7/diff.md --exclude *.pyd
+[2023-07-29 15:27:43] INFO root fetch - processPackages [blacksmith]: Remove: archive file [/home/abi/fetcher/tmp/blacksmith-2.3.2.tar.gz]
+[2023-07-29 15:27:43] INFO root fetch - processPackages [blacksmith]: Remove: archive file [/home/abi/fetcher/tmp/blacksmith-2.3.3.tar.gz]
+[2023-07-29 15:27:43] INFO root fetch - main [MainThread]: End processing [blacksmith]: success
+[2023-07-29 15:27:43] INFO root fetch - processPackages [pytorch-memlab]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_memlab-0.2.4.tar.gz]
+[2023-07-29 15:27:43] INFO root fetch - processPackages [pytorch-memlab]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-memlab-0.3.0.tar.gz]
+[2023-07-29 15:27:43] INFO root fetch - main [MainThread]: End processing [pytorch-memlab]: success
+[2023-07-29 15:27:43] INFO root fetch - processPackages [pyppbox-ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/pyppbox_ultralytics-8.0.142.post1-py3-none-any.whl.zip]
+[2023-07-29 15:27:43] INFO root fetch - processPackages [pyppbox-ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/pyppbox-ultralytics-8.0.143.tar.gz]
+[2023-07-29 15:27:43] INFO root fetch - main [MainThread]: End processing [pyppbox-ultralytics]: success
+[2023-07-29 15:27:44] INFO root fetch - processPackages [commonroad-scenario-designer]: Remove: archive file [/home/abi/fetcher/tmp/commonroad_scenario_designer-0.7.1.tar.gz]
+[2023-07-29 15:27:44] INFO root fetch - processPackages [commonroad-scenario-designer]: Remove: archive file [/home/abi/fetcher/tmp/commonroad_scenario_designer-0.7.2.tar.gz]
+[2023-07-29 15:27:44] INFO root fetch - main [MainThread]: End processing [commonroad-scenario-designer]: success
+[2023-07-29 15:27:44] INFO root fetch - processPackages [composabl-dev]: executing diffoscope
+[2023-07-29 15:27:44] INFO root fetch - processPackages [composabl-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_dev-0.2.3.dev30-cp38-cp38-musllinux_1_1_x86_64.whl.zip tmp/composabl_dev-0.2.4.dev1-cp38-cp38-musllinux_1_1_x86_64.whl.zip --markdown 20230729/c/composabl-dev/0.2.3.dev30-0.2.4.dev1/diff.md --exclude *.pyd
+[2023-07-29 15:27:44] INFO root fetch - processPackages [oneat]: Remove: archive file [/home/abi/fetcher/tmp/oneat-6.1.6.tar.gz]
+[2023-07-29 15:27:44] INFO root fetch - processPackages [oneat]: Remove: archive file [/home/abi/fetcher/tmp/oneat-6.1.7.tar.gz]
+[2023-07-29 15:27:44] INFO root fetch - main [MainThread]: End processing [oneat]: success
+[2023-07-29 15:27:45] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.2.3.dev30-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-07-29 15:27:45] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.2.4.dev1-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-07-29 15:27:45] INFO root fetch - main [MainThread]: End processing [composabl-dev]: success
+[2023-07-29 15:27:46] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.8.tar.gz]
+[2023-07-29 15:27:46] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
+[2023-07-29 15:27:46] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-07-29 15:27:46] INFO root fetch - main [MainThread]: Store serial: [19089011]
