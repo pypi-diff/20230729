@@ -7300,3 +7300,49 @@
 [2023-07-29 04:35:15] INFO root fetch - processPackages [angreal]: Remove: archive file [/home/abi/fetcher/tmp/angreal-2.0.9.tar.gz]
 [2023-07-29 04:35:15] INFO root fetch - main [MainThread]: End processing [angreal]: success
 [2023-07-29 04:35:15] INFO root fetch - main [MainThread]: Store serial: [19084815]
+[2023-07-29 04:40:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19084815]
+[2023-07-29 04:40:23] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-29 04:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: threemystic-cloud-data-client
+[2023-07-29 04:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mov-cli
+[2023-07-29 04:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TheSilent
+[2023-07-29 04:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-partner-statement
+[2023-07-29 04:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TheSilent
+[2023-07-29 04:40:24] INFO root fetch - processPackages [threemystic-cloud-data-client]: New version: [0.1.55] Old Version: [0.1.53]
+[2023-07-29 04:40:24] INFO root fetch - processPackages [mov-cli]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-29 04:40:24] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-29 04:40:24] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-29 04:40:24] INFO root fetch - processPackages [odoo-addon-partner-statement]: New version: [15.0.1.0.1.6] Old Version: [15.0.1.0.1.5]
+[2023-07-29 04:40:24] INFO root fetch - processPackages [mov-cli]: Downloading https://files.pythonhosted.org/packages/bd/08/35f545dc0e731212d00213d5fbeeef9a94ee2ed7ee18ce44afab24a5fb0b/mov_cli-1.4.8.tar.gz
+[2023-07-29 04:40:24] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/3a/67/8d62db44e059b0e1b1825521d1c38db06d4d8d7fd859a621eea00ea81d4c/threemystic_cloud_data_client-0.1.53.tar.gz
+[2023-07-29 04:40:24] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-29 04:40:24] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-29 04:40:24] INFO root fetch - processPackages [odoo-addon-partner-statement]: Downloading https://files.pythonhosted.org/packages/63/6a/c047707226cd91a043eb40092414eca09276a0458d39ad8e72e5d3372602/odoo_addon_partner_statement-15.0.1.0.1.5-py3-none-any.whl
+[2023-07-29 04:40:24] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-29 04:40:24] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-29 04:40:24] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-29 04:40:24] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230729/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-29 04:40:24] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-29 04:40:24] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230729/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-29 04:40:24] INFO root fetch - processPackages [mov-cli]: Downloading https://files.pythonhosted.org/packages/f6/4b/251db0763d6df2834238dc370c0fee9177f350e5b986b8b09bbafa4b73db/mov_cli-1.4.9.tar.gz
+[2023-07-29 04:40:24] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/da/1f/747b755f352b1d6fd1b5d80a128fc92002fbb54fa3ef1e362ba272b611af/threemystic_cloud_data_client-0.1.55.tar.gz
+[2023-07-29 04:40:24] INFO root fetch - processPackages [mov-cli]: executing diffoscope
+[2023-07-29 04:40:24] INFO root fetch - processPackages [mov-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mov_cli-1.4.8.tar.gz tmp/mov_cli-1.4.9.tar.gz --markdown 20230729/m/mov-cli/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-29 04:40:24] INFO root fetch - processPackages [threemystic-cloud-data-client]: executing diffoscope
+[2023-07-29 04:40:24] INFO root fetch - processPackages [threemystic-cloud-data-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_data_client-0.1.53.tar.gz tmp/threemystic_cloud_data_client-0.1.55.tar.gz --markdown 20230729/t/threemystic-cloud-data-client/0.1.53-0.1.55/diff.md --exclude *.pyd
+[2023-07-29 04:40:24] INFO root fetch - processPackages [odoo-addon-partner-statement]: Downloading https://files.pythonhosted.org/packages/88/a4/b438ebe2b9df2762ff1297affa8de9d8652171f0f5e1bf2e86ea41244637/odoo_addon_partner_statement-15.0.1.0.1.6-py3-none-any.whl
+[2023-07-29 04:40:25] INFO root fetch - processPackages [odoo-addon-partner-statement]: executing diffoscope
+[2023-07-29 04:40:25] INFO root fetch - processPackages [odoo-addon-partner-statement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_partner_statement-15.0.1.0.1.5-py3-none-any.whl.zip tmp/odoo_addon_partner_statement-15.0.1.0.1.6-py3-none-any.whl.zip --markdown 20230729/o/odoo-addon-partner-statement/15.0.1.0.1.5-15.0.1.0.1.6/diff.md --exclude *.pyd
+[2023-07-29 04:40:25] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-29 04:40:25] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-29 04:40:25] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-29 04:40:25] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-29 04:40:25] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.53.tar.gz]
+[2023-07-29 04:40:25] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.55.tar.gz]
+[2023-07-29 04:40:25] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-data-client]: success
+[2023-07-29 04:40:25] INFO root fetch - processPackages [mov-cli]: Remove: archive file [/home/abi/fetcher/tmp/mov_cli-1.4.8.tar.gz]
+[2023-07-29 04:40:25] INFO root fetch - processPackages [mov-cli]: Remove: archive file [/home/abi/fetcher/tmp/mov_cli-1.4.9.tar.gz]
+[2023-07-29 04:40:25] INFO root fetch - main [MainThread]: End processing [mov-cli]: success
+[2023-07-29 04:40:26] INFO root fetch - processPackages [odoo-addon-partner-statement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_statement-15.0.1.0.1.5-py3-none-any.whl.zip]
+[2023-07-29 04:40:26] INFO root fetch - processPackages [odoo-addon-partner-statement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_statement-15.0.1.0.1.6-py3-none-any.whl.zip]
+[2023-07-29 04:40:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-partner-statement]: success
+[2023-07-29 04:40:26] INFO root fetch - main [MainThread]: Store serial: [19084863]
