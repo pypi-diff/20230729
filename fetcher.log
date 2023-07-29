@@ -15768,3 +15768,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 13:06:05] INFO root fetch - processPackages [modnet]: Remove: archive file [/home/abi/fetcher/tmp/modnet-0.4.1.tar.gz]
 [2023-07-29 13:06:05] INFO root fetch - main [MainThread]: End processing [modnet]: success
 [2023-07-29 13:06:05] INFO root fetch - main [MainThread]: Store serial: [19088079]
+[2023-07-29 13:11:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19088079]
+[2023-07-29 13:11:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-29 13:11:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqlite-s3-query
+[2023-07-29 13:11:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ydl-ipc
+[2023-07-29 13:11:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: brewblox-service
+[2023-07-29 13:11:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xctools-kamaalio
+[2023-07-29 13:11:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: allianceauth-corptools-pinger
+[2023-07-29 13:11:14] INFO root fetch - processPackages [xctools-kamaalio]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-29 13:11:14] INFO root fetch - processPackages [ydl-ipc]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-29 13:11:14] INFO root fetch - processPackages [brewblox-service]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-07-29 13:11:14] INFO root fetch - processPackages [xctools-kamaalio]: Downloading https://files.pythonhosted.org/packages/01/3c/956a6f4aaa59d51f9bf93d30f817095297bc839834655c1c51faa59a729d/xctools_kamaalio-0.0.3.tar.gz
+[2023-07-29 13:11:14] INFO root fetch - processPackages [allianceauth-corptools-pinger]: New version: [0.3.3] Old Version: [0.3.1]
+[2023-07-29 13:11:14] INFO root fetch - processPackages [sqlite-s3-query]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-29 13:11:14] INFO root fetch - processPackages [brewblox-service]: Downloading https://files.pythonhosted.org/packages/ea/9c/6e5f3512372761147a3d9907a5969a76b019faac5c2cbc90bdb472455c47/brewblox_service-3.0.1.tar.gz
+[2023-07-29 13:11:14] INFO root fetch - processPackages [ydl-ipc]: Downloading https://files.pythonhosted.org/packages/de/fd/79d016922ea4d5e1745e50677c8b65c2c83ad7e9c6f387989a0dd9f5864d/ydl-ipc-0.1.0.tar.gz
+[2023-07-29 13:11:14] INFO root fetch - processPackages [allianceauth-corptools-pinger]: Downloading https://files.pythonhosted.org/packages/73/a4/89d39ede55312232d896cdfa0f127a0f7c24b71f7ff1c6e8d1c9674b65fd/allianceauth-corptools-pinger-0.3.1.tar.gz
+[2023-07-29 13:11:14] INFO root fetch - processPackages [sqlite-s3-query]: Downloading https://files.pythonhosted.org/packages/aa/14/cad65f475efbb501da73f4a422278f6291e61b2dc4a91b5c0577228a4c5a/sqlite-s3-query-0.0.8.tar.gz
+[2023-07-29 13:11:14] INFO root fetch - processPackages [xctools-kamaalio]: Downloading https://files.pythonhosted.org/packages/1c/63/654a1ed6156ba8fbe87d2bac89c3d7884593f57fb21b4b016be4f73ff4fb/xctools_kamaalio-0.0.4.tar.gz
+[2023-07-29 13:11:14] INFO root fetch - processPackages [brewblox-service]: Downloading https://files.pythonhosted.org/packages/b6/3d/2870f88aa121b2d6e37810a0837e9f21ed1594f77b79a575f20287c5eaa0/brewblox_service-3.0.2.tar.gz
+[2023-07-29 13:11:14] INFO root fetch - processPackages [ydl-ipc]: Downloading https://files.pythonhosted.org/packages/bb/f3/f40088a1136ba58ea6334ecbdff0dd8dfa82e75d19d6503a70794e7105ee/ydl_ipc-0.2.0.tar.gz
+[2023-07-29 13:11:14] INFO root fetch - processPackages [xctools-kamaalio]: executing diffoscope
+[2023-07-29 13:11:14] INFO root fetch - processPackages [xctools-kamaalio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xctools_kamaalio-0.0.3.tar.gz tmp/xctools_kamaalio-0.0.4.tar.gz --markdown 20230729/x/xctools-kamaalio/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-29 13:11:14] INFO root fetch - processPackages [brewblox-service]: executing diffoscope
+[2023-07-29 13:11:14] INFO root fetch - processPackages [brewblox-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brewblox_service-3.0.1.tar.gz tmp/brewblox_service-3.0.2.tar.gz --markdown 20230729/b/brewblox-service/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-07-29 13:11:14] INFO root fetch - processPackages [ydl-ipc]: executing diffoscope
+[2023-07-29 13:11:14] INFO root fetch - processPackages [ydl-ipc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ydl-ipc-0.1.0.tar.gz tmp/ydl_ipc-0.2.0.tar.gz --markdown 20230729/y/ydl-ipc/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-29 13:11:14] INFO root fetch - processPackages [sqlite-s3-query]: Downloading https://files.pythonhosted.org/packages/28/75/45c3be470104aea69f0c07c35cf53defdeef76b225be89725529ef679328/sqlite-s3-query-0.0.9.tar.gz
+[2023-07-29 13:11:15] INFO root fetch - processPackages [allianceauth-corptools-pinger]: Downloading https://files.pythonhosted.org/packages/1f/1f/3c210c43d5aaadeec2ba9192661f34f623a02953e9c5af276cd3b284213a/allianceauth-corptools-pinger-0.3.3.tar.gz
+[2023-07-29 13:11:15] INFO root fetch - processPackages [sqlite-s3-query]: executing diffoscope
+[2023-07-29 13:11:15] INFO root fetch - processPackages [sqlite-s3-query]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite-s3-query-0.0.8.tar.gz tmp/sqlite-s3-query-0.0.9.tar.gz --markdown 20230729/s/sqlite-s3-query/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-29 13:11:15] INFO root fetch - processPackages [allianceauth-corptools-pinger]: executing diffoscope
+[2023-07-29 13:11:15] INFO root fetch - processPackages [allianceauth-corptools-pinger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allianceauth-corptools-pinger-0.3.1.tar.gz tmp/allianceauth-corptools-pinger-0.3.3.tar.gz --markdown 20230729/a/allianceauth-corptools-pinger/0.3.1-0.3.3/diff.md --exclude *.pyd
+[2023-07-29 13:11:15] INFO root fetch - processPackages [xctools-kamaalio]: Remove: archive file [/home/abi/fetcher/tmp/xctools_kamaalio-0.0.3.tar.gz]
+[2023-07-29 13:11:15] INFO root fetch - processPackages [xctools-kamaalio]: Remove: archive file [/home/abi/fetcher/tmp/xctools_kamaalio-0.0.4.tar.gz]
+[2023-07-29 13:11:15] INFO root fetch - main [MainThread]: End processing [xctools-kamaalio]: success
+[2023-07-29 13:11:15] INFO root fetch - processPackages [ydl-ipc]: Remove: archive file [/home/abi/fetcher/tmp/ydl-ipc-0.1.0.tar.gz]
+[2023-07-29 13:11:15] INFO root fetch - processPackages [ydl-ipc]: Remove: archive file [/home/abi/fetcher/tmp/ydl_ipc-0.2.0.tar.gz]
+[2023-07-29 13:11:15] INFO root fetch - main [MainThread]: End processing [ydl-ipc]: success
+[2023-07-29 13:11:15] INFO root fetch - processPackages [brewblox-service]: Remove: archive file [/home/abi/fetcher/tmp/brewblox_service-3.0.1.tar.gz]
+[2023-07-29 13:11:15] INFO root fetch - processPackages [brewblox-service]: Remove: archive file [/home/abi/fetcher/tmp/brewblox_service-3.0.2.tar.gz]
+[2023-07-29 13:11:15] INFO root fetch - main [MainThread]: End processing [brewblox-service]: success
+[2023-07-29 13:11:16] INFO root fetch - processPackages [sqlite-s3-query]: Remove: archive file [/home/abi/fetcher/tmp/sqlite-s3-query-0.0.8.tar.gz]
+[2023-07-29 13:11:16] INFO root fetch - processPackages [sqlite-s3-query]: Remove: archive file [/home/abi/fetcher/tmp/sqlite-s3-query-0.0.9.tar.gz]
+[2023-07-29 13:11:16] INFO root fetch - main [MainThread]: End processing [sqlite-s3-query]: success
+[2023-07-29 13:11:16] INFO root fetch - processPackages [allianceauth-corptools-pinger]: Remove: archive file [/home/abi/fetcher/tmp/allianceauth-corptools-pinger-0.3.1.tar.gz]
+[2023-07-29 13:11:16] INFO root fetch - processPackages [allianceauth-corptools-pinger]: Remove: archive file [/home/abi/fetcher/tmp/allianceauth-corptools-pinger-0.3.3.tar.gz]
+[2023-07-29 13:11:16] INFO root fetch - main [MainThread]: End processing [allianceauth-corptools-pinger]: success
+[2023-07-29 13:11:16] INFO root fetch - main [MainThread]: Store serial: [19088093]
