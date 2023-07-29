@@ -19564,3 +19564,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 17:41:14] INFO root fetch - processPackages [adafruit-circuitpython-turtle]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-turtle-2.2.9.tar.gz]
 [2023-07-29 17:41:14] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-turtle]: success
 [2023-07-29 17:41:14] INFO root fetch - main [MainThread]: Store serial: [19089840]
+[2023-07-29 17:46:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19089840]
+[2023-07-29 17:46:22] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-29 17:46:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CaptchaGenerator
+[2023-07-29 17:46:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: urlfetch
+[2023-07-29 17:46:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: raspberry-pi-monitor
+[2023-07-29 17:46:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ingestor-by-ckl
+[2023-07-29 17:46:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sidimgsegment
+[2023-07-29 17:46:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aiscraper
+[2023-07-29 17:46:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: TheSilent
+[2023-07-29 17:46:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: markdownparser
+[2023-07-29 17:46:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mkdocs-ultralytics-plugin
+[2023-07-29 17:46:23] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-29 17:46:23] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-29 17:46:23] WARNING root fetch - processPackages [CaptchaGenerator]: Skipping, unable to determine old version
+[2023-07-29 17:46:23] INFO root fetch - main [MainThread]: End processing [CaptchaGenerator] error
+[2023-07-29 17:46:23] INFO root fetch - processPackages [markdownparser]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-07-29 17:46:23] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: Downloading https://files.pythonhosted.org/packages/29/d0/fa2f02750b3f36ef2ce674e8fb933b5074a4dbdeaf6dee8572d14e60c689/mkdocs-ultralytics-plugin-0.0.8.tar.gz
+[2023-07-29 17:46:23] WARNING root fetch - processPackages [raspberry-pi-monitor]: Skipping, unable to determine old version
+[2023-07-29 17:46:23] INFO root fetch - main [MainThread]: End processing [raspberry-pi-monitor] error
+[2023-07-29 17:46:23] INFO root fetch - processPackages [aiscraper]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-29 17:46:23] WARNING root fetch - processPackages [sidimgsegment]: Skipping, unable to determine old version
+[2023-07-29 17:46:23] INFO root fetch - main [MainThread]: End processing [sidimgsegment] error
+[2023-07-29 17:46:23] INFO root fetch - processPackages [ingestor-by-ckl]: New version: [2] Old Version: [1]
+[2023-07-29 17:46:23] INFO root fetch - processPackages [urlfetch]: New version: [2.0.0] Old Version: [1.2.2]
+[2023-07-29 17:46:23] INFO root fetch - processPackages [markdownparser]: Downloading https://files.pythonhosted.org/packages/ec/9a/1a329d170c05a9ebf3acfed1ed54910fd1a008464bfc7289a220e647ceed/markdownparser-0.5.5.tar.gz
+[2023-07-29 17:46:23] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-29 17:46:23] INFO root fetch - processPackages [aiscraper]: Downloading https://files.pythonhosted.org/packages/61/c4/8ae5b5629ed3c735d529e58c165372a7dd563acf9da9fa801f35af4ca260/aiscraper-0.0.4.tar.gz
+[2023-07-29 17:46:23] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: Downloading https://files.pythonhosted.org/packages/3f/59/0ab7cebaf152c6d2c1d19e6257ebf0306ed93310ec2d2ad715df2d1ec855/mkdocs-ultralytics-plugin-0.0.9.tar.gz
+[2023-07-29 17:46:23] INFO root fetch - processPackages [urlfetch]: Downloading https://files.pythonhosted.org/packages/63/57/cd1c1a231923c020ab88f8f2c9481a4a38d00a4ade833476c4ac85b7231f/urlfetch-1.2.2.tar.gz
+[2023-07-29 17:46:23] INFO root fetch - processPackages [ingestor-by-ckl]: Downloading https://files.pythonhosted.org/packages/61/9b/92339af3d131426c5cfcdabc1c5086c949c85ada5fc18386c781b9514be9/ingestor_by_ckl-1.tar.gz
+[2023-07-29 17:46:23] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: executing diffoscope
+[2023-07-29 17:46:23] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-ultralytics-plugin-0.0.8.tar.gz tmp/mkdocs-ultralytics-plugin-0.0.9.tar.gz --markdown 20230729/m/mkdocs-ultralytics-plugin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-29 17:46:23] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-29 17:46:23] INFO root fetch - processPackages [markdownparser]: Downloading https://files.pythonhosted.org/packages/3a/2d/be08fd189e043628ea4854bd5b35c78694e8b7d708920968373710bc0b77/markdownparser-0.5.6.tar.gz
+[2023-07-29 17:46:23] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-29 17:46:23] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230729/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-29 17:46:23] INFO root fetch - processPackages [aiscraper]: Downloading https://files.pythonhosted.org/packages/b5/6c/18af3a245742b39029e46a851452d4bad8a4eaed3f8c0f4969aedae3cbb2/aiscraper-0.0.5.tar.gz
+[2023-07-29 17:46:23] INFO root fetch - processPackages [markdownparser]: executing diffoscope
+[2023-07-29 17:46:23] INFO root fetch - processPackages [markdownparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdownparser-0.5.5.tar.gz tmp/markdownparser-0.5.6.tar.gz --markdown 20230729/m/markdownparser/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-07-29 17:46:23] INFO root fetch - processPackages [ingestor-by-ckl]: Downloading https://files.pythonhosted.org/packages/9f/f9/409a0d7d4e63279e65b620cea7856daab87ba6b5d71912b5429d331ac7c2/ingestor_by_ckl-2.tar.gz
+[2023-07-29 17:46:23] INFO root fetch - processPackages [aiscraper]: executing diffoscope
+[2023-07-29 17:46:23] INFO root fetch - processPackages [aiscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiscraper-0.0.4.tar.gz tmp/aiscraper-0.0.5.tar.gz --markdown 20230729/a/aiscraper/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-29 17:46:23] INFO root fetch - processPackages [urlfetch]: Downloading https://files.pythonhosted.org/packages/67/a5/1acf942086ac03ea335dee71956234034d85e49d38c0e50ae87eb708036b/urlfetch-2.0.0.tar.gz
+[2023-07-29 17:46:23] INFO root fetch - processPackages [ingestor-by-ckl]: executing diffoscope
+[2023-07-29 17:46:23] INFO root fetch - processPackages [ingestor-by-ckl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ingestor_by_ckl-1.tar.gz tmp/ingestor_by_ckl-2.tar.gz --markdown 20230729/i/ingestor-by-ckl/1-2/diff.md --exclude *.pyd
+[2023-07-29 17:46:24] INFO root fetch - processPackages [urlfetch]: executing diffoscope
+[2023-07-29 17:46:24] INFO root fetch - processPackages [urlfetch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/urlfetch-1.2.2.tar.gz tmp/urlfetch-2.0.0.tar.gz --markdown 20230729/u/urlfetch/1.2.2-2.0.0/diff.md --exclude *.pyd
+[2023-07-29 17:46:24] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-ultralytics-plugin-0.0.8.tar.gz]
+[2023-07-29 17:46:24] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-ultralytics-plugin-0.0.9.tar.gz]
+[2023-07-29 17:46:24] INFO root fetch - main [MainThread]: End processing [mkdocs-ultralytics-plugin]: success
+[2023-07-29 17:46:24] INFO root fetch - processPackages [markdownparser]: Remove: archive file [/home/abi/fetcher/tmp/markdownparser-0.5.5.tar.gz]
+[2023-07-29 17:46:24] INFO root fetch - processPackages [markdownparser]: Remove: archive file [/home/abi/fetcher/tmp/markdownparser-0.5.6.tar.gz]
+[2023-07-29 17:46:24] INFO root fetch - main [MainThread]: End processing [markdownparser]: success
+[2023-07-29 17:46:24] INFO root fetch - processPackages [aiscraper]: Remove: archive file [/home/abi/fetcher/tmp/aiscraper-0.0.4.tar.gz]
+[2023-07-29 17:46:24] INFO root fetch - processPackages [aiscraper]: Remove: archive file [/home/abi/fetcher/tmp/aiscraper-0.0.5.tar.gz]
+[2023-07-29 17:46:24] INFO root fetch - main [MainThread]: End processing [aiscraper]: success
+[2023-07-29 17:46:24] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-29 17:46:24] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-29 17:46:24] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-29 17:46:24] INFO root fetch - processPackages [ingestor-by-ckl]: Remove: archive file [/home/abi/fetcher/tmp/ingestor_by_ckl-1.tar.gz]
+[2023-07-29 17:46:24] INFO root fetch - processPackages [ingestor-by-ckl]: Remove: archive file [/home/abi/fetcher/tmp/ingestor_by_ckl-2.tar.gz]
+[2023-07-29 17:46:24] INFO root fetch - main [MainThread]: End processing [ingestor-by-ckl]: success
+[2023-07-29 17:46:24] INFO root fetch - processPackages [urlfetch]: Remove: archive file [/home/abi/fetcher/tmp/urlfetch-1.2.2.tar.gz]
+[2023-07-29 17:46:24] INFO root fetch - processPackages [urlfetch]: Remove: archive file [/home/abi/fetcher/tmp/urlfetch-2.0.0.tar.gz]
+[2023-07-29 17:46:24] INFO root fetch - main [MainThread]: End processing [urlfetch]: success
+[2023-07-29 17:46:24] INFO root fetch - main [MainThread]: Store serial: [19089873]
