@@ -15498,3 +15498,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 12:40:05] INFO root fetch - processPackages [ukmon-meteortools]: Remove: archive file [/home/abi/fetcher/tmp/ukmon_meteortools-2023.7.5.tar.gz]
 [2023-07-29 12:40:05] INFO root fetch - main [MainThread]: End processing [ukmon-meteortools]: success
 [2023-07-29 12:40:05] INFO root fetch - main [MainThread]: Store serial: [19087947]
+[2023-07-29 12:45:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19087947]
+[2023-07-29 12:45:14] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-29 12:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spyx
+[2023-07-29 12:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: avsub
+[2023-07-29 12:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastapi-create
+[2023-07-29 12:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skypilot-nightly
+[2023-07-29 12:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: unifi-protect-backup
+[2023-07-29 12:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: brewblox-service
+[2023-07-29 12:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: MetAromatic
+[2023-07-29 12:45:14] WARNING root fetch - processPackages [fastapi-create]: Skipping, unable to determine old version
+[2023-07-29 12:45:14] INFO root fetch - main [MainThread]: End processing [fastapi-create] error
+[2023-07-29 12:45:14] INFO root fetch - processPackages [spyx]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-29 12:45:14] INFO root fetch - processPackages [unifi-protect-backup]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-29 12:45:14] INFO root fetch - processPackages [avsub]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-29 12:45:14] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20230728] Old Version: [1.0.0.dev20230727]
+[2023-07-29 12:45:14] INFO root fetch - processPackages [MetAromatic]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-29 12:45:14] INFO root fetch - processPackages [brewblox-service]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-07-29 12:45:14] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/8a/7c/a0e50b81e2e98e567bf862e2c52c12868b40e068d87664f256db4d953d0c/skypilot-nightly-1.0.0.dev20230727.tar.gz
+[2023-07-29 12:45:14] INFO root fetch - processPackages [brewblox-service]: Downloading https://files.pythonhosted.org/packages/1b/a8/c5df9c4506f0e0c18d82d2a710a816b7d1ed1f2a72f19f697ae3c7478f70/brewblox_service-3.0.0.tar.gz
+[2023-07-29 12:45:14] INFO root fetch - processPackages [spyx]: Downloading https://files.pythonhosted.org/packages/ad/3c/0923fad22a4814ff108e27da31aad55c408b1e2127c55c0e0beb6ccc3d40/spyx-0.0.8.tar.gz
+[2023-07-29 12:45:14] INFO root fetch - processPackages [unifi-protect-backup]: Downloading https://files.pythonhosted.org/packages/53/71/754837cb000c80efedcb48e4f2a2ce4e965ec57f73e0fdcc59518ee654ad/unifi_protect_backup-0.9.3.tar.gz
+[2023-07-29 12:45:14] INFO root fetch - processPackages [avsub]: Downloading https://files.pythonhosted.org/packages/f0/86/3ec73458a8fc1806a74b46b1ca40fed4a72b57394364954010f287131604/avsub-0.0.4.tar.gz
+[2023-07-29 12:45:14] INFO root fetch - processPackages [MetAromatic]: Downloading https://files.pythonhosted.org/packages/e6/00/97b8f092f20499b7ff41e3578b69530f152dd6baca6b890ebcb5db9c9717/MetAromatic-1.1.0.tar.gz
+[2023-07-29 12:45:15] INFO root fetch - processPackages [brewblox-service]: Downloading https://files.pythonhosted.org/packages/ea/9c/6e5f3512372761147a3d9907a5969a76b019faac5c2cbc90bdb472455c47/brewblox_service-3.0.1.tar.gz
+[2023-07-29 12:45:15] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/53/5a/188ad332b3ebeb64404612fca9fd83cde681c19a6355cd1da2dc86899878/skypilot-nightly-1.0.0.dev20230728.tar.gz
+[2023-07-29 12:45:15] INFO root fetch - processPackages [avsub]: Downloading https://files.pythonhosted.org/packages/09/2b/42b03091d4cdccc8bea74b311e7293f038dae7971ca9294ec0cf7cd422bb/avsub-0.0.5.tar.gz
+[2023-07-29 12:45:15] INFO root fetch - processPackages [unifi-protect-backup]: Downloading https://files.pythonhosted.org/packages/95/29/5614f0efbf6f26bc12e1ec8f6895f3d5801538f59baefe8ebc1fba936649/unifi_protect_backup-0.9.4.tar.gz
+[2023-07-29 12:45:15] INFO root fetch - processPackages [spyx]: Downloading https://files.pythonhosted.org/packages/03/d3/7fb8e0ae16918d31936abec49e12b457a905c8e39fb1405a1236b7e03d85/spyx-0.0.9.tar.gz
+[2023-07-29 12:45:15] INFO root fetch - processPackages [MetAromatic]: Downloading https://files.pythonhosted.org/packages/6b/19/bfe5eca0868d113e6ef13b223f248fcac6b847fa4aa48799572091fd79f5/MetAromatic-1.2.0.tar.gz
+[2023-07-29 12:45:15] INFO root fetch - processPackages [brewblox-service]: executing diffoscope
+[2023-07-29 12:45:15] INFO root fetch - processPackages [brewblox-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brewblox_service-3.0.0.tar.gz tmp/brewblox_service-3.0.1.tar.gz --markdown 20230729/b/brewblox-service/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-07-29 12:45:15] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2023-07-29 12:45:15] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot-nightly-1.0.0.dev20230727.tar.gz tmp/skypilot-nightly-1.0.0.dev20230728.tar.gz --markdown 20230729/s/skypilot-nightly/1.0.0.dev20230727-1.0.0.dev20230728/diff.md --exclude *.pyd
+[2023-07-29 12:45:15] INFO root fetch - processPackages [avsub]: executing diffoscope
+[2023-07-29 12:45:15] INFO root fetch - processPackages [avsub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avsub-0.0.4.tar.gz tmp/avsub-0.0.5.tar.gz --markdown 20230729/a/avsub/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-29 12:45:15] INFO root fetch - processPackages [unifi-protect-backup]: executing diffoscope
+[2023-07-29 12:45:15] INFO root fetch - processPackages [spyx]: executing diffoscope
+[2023-07-29 12:45:15] INFO root fetch - processPackages [spyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spyx-0.0.8.tar.gz tmp/spyx-0.0.9.tar.gz --markdown 20230729/s/spyx/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-29 12:45:15] INFO root fetch - processPackages [unifi-protect-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unifi_protect_backup-0.9.3.tar.gz tmp/unifi_protect_backup-0.9.4.tar.gz --markdown 20230729/u/unifi-protect-backup/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-29 12:45:15] INFO root fetch - processPackages [MetAromatic]: executing diffoscope
+[2023-07-29 12:45:15] INFO root fetch - processPackages [MetAromatic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MetAromatic-1.1.0.tar.gz tmp/MetAromatic-1.2.0.tar.gz --markdown 20230729/M/MetAromatic/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-29 12:45:16] INFO root fetch - processPackages [avsub]: Remove: archive file [/home/abi/fetcher/tmp/avsub-0.0.4.tar.gz]
+[2023-07-29 12:45:16] INFO root fetch - processPackages [avsub]: Remove: archive file [/home/abi/fetcher/tmp/avsub-0.0.5.tar.gz]
+[2023-07-29 12:45:16] INFO root fetch - main [MainThread]: End processing [avsub]: success
+[2023-07-29 12:45:16] INFO root fetch - processPackages [brewblox-service]: Remove: archive file [/home/abi/fetcher/tmp/brewblox_service-3.0.0.tar.gz]
+[2023-07-29 12:45:16] INFO root fetch - processPackages [brewblox-service]: Remove: archive file [/home/abi/fetcher/tmp/brewblox_service-3.0.1.tar.gz]
+[2023-07-29 12:45:16] INFO root fetch - main [MainThread]: End processing [brewblox-service]: success
+[2023-07-29 12:45:16] INFO root fetch - processPackages [spyx]: Remove: archive file [/home/abi/fetcher/tmp/spyx-0.0.8.tar.gz]
+[2023-07-29 12:45:16] INFO root fetch - processPackages [spyx]: Remove: archive file [/home/abi/fetcher/tmp/spyx-0.0.9.tar.gz]
+[2023-07-29 12:45:16] INFO root fetch - main [MainThread]: End processing [spyx]: success
+[2023-07-29 12:45:16] INFO root fetch - processPackages [unifi-protect-backup]: Remove: archive file [/home/abi/fetcher/tmp/unifi_protect_backup-0.9.3.tar.gz]
+[2023-07-29 12:45:16] INFO root fetch - processPackages [unifi-protect-backup]: Remove: archive file [/home/abi/fetcher/tmp/unifi_protect_backup-0.9.4.tar.gz]
+[2023-07-29 12:45:16] INFO root fetch - main [MainThread]: End processing [unifi-protect-backup]: success
+[2023-07-29 12:45:16] INFO root fetch - processPackages [MetAromatic]: Remove: archive file [/home/abi/fetcher/tmp/MetAromatic-1.1.0.tar.gz]
+[2023-07-29 12:45:16] INFO root fetch - processPackages [MetAromatic]: Remove: archive file [/home/abi/fetcher/tmp/MetAromatic-1.2.0.tar.gz]
+[2023-07-29 12:45:16] INFO root fetch - main [MainThread]: End processing [MetAromatic]: success
+[2023-07-29 12:45:17] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20230727.tar.gz]
+[2023-07-29 12:45:17] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20230728.tar.gz]
+[2023-07-29 12:45:17] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2023-07-29 12:45:17] INFO root fetch - main [MainThread]: Store serial: [19087969]
