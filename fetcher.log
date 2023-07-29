@@ -10146,3 +10146,58 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 08:44:31] INFO root fetch - processPackages [hahomematic]: Remove: archive file [/home/abi/fetcher/tmp/hahomematic-2023.7.6.tar.gz]
 [2023-07-29 08:44:31] INFO root fetch - main [MainThread]: End processing [hahomematic]: success
 [2023-07-29 08:44:31] INFO root fetch - main [MainThread]: Store serial: [19085982]
+[2023-07-29 08:49:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19085982]
+[2023-07-29 08:49:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-29 08:49:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: valipy
+[2023-07-29 08:49:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-ro-stock-account
+[2023-07-29 08:49:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: valipy
+[2023-07-29 08:49:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pystools
+[2023-07-29 08:49:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MoreApi
+[2023-07-29 08:49:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: networklab
+[2023-07-29 08:49:40] INFO root fetch - processPackages [MoreApi]: New version: [0.3] Old Version: [0.2]
+[2023-07-29 08:49:40] INFO root fetch - processPackages [valipy]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-29 08:49:40] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: New version: [16.0.1.3.0] Old Version: [16.0.1.2.0]
+[2023-07-29 08:49:40] INFO root fetch - processPackages [pystools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-29 08:49:40] INFO root fetch - processPackages [valipy]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-29 08:49:40] INFO root fetch - processPackages [networklab]: New version: [1.5.5.dev3] Old Version: [1.5.5.dev2]
+[2023-07-29 08:49:40] INFO root fetch - processPackages [MoreApi]: Downloading https://files.pythonhosted.org/packages/49/b0/39721da2c55057d4b12adbb2728ab9f64d4e224f1bf33a05a1f41eeecad9/MoreApi-0.2.tar.gz
+[2023-07-29 08:49:40] INFO root fetch - processPackages [valipy]: Downloading https://files.pythonhosted.org/packages/51/6b/557971f6dd5a773577566297782e2ac2b0a08a77021716795e841eb8c89e/valipy-0.1.5.tar.gz
+[2023-07-29 08:49:40] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Downloading https://files.pythonhosted.org/packages/61/6b/f4e32bdd4f4fb3607fdb26d32bf8b73c6e67d09a29dba77e5eb4ebf07909/odoo_addon_l10n_ro_stock_account-16.0.1.2.0-py3-none-any.whl
+[2023-07-29 08:49:40] INFO root fetch - processPackages [valipy]: Downloading https://files.pythonhosted.org/packages/51/6b/557971f6dd5a773577566297782e2ac2b0a08a77021716795e841eb8c89e/valipy-0.1.5.tar.gz
+[2023-07-29 08:49:40] INFO root fetch - processPackages [networklab]: Downloading https://files.pythonhosted.org/packages/76/e3/4a79b31b407c3ae74d685db942d7cd49821cf776672115d73988e153f257/networklab-1.5.5.dev2.tar.gz
+[2023-07-29 08:49:41] INFO root fetch - processPackages [MoreApi]: Downloading https://files.pythonhosted.org/packages/7f/a6/4b4874c2bf1a72f65a587fcda9dc4f2e15b9afe39f6addf29954de7534db/MoreApi-0.3.tar.gz
+[2023-07-29 08:49:41] INFO root fetch - processPackages [pystools]: Downloading https://files.pythonhosted.org/packages/d3/f1/f6fef6b574bd57970579f257d2f3b2adf9f6b87b20d9dc2c11e18d2a4a47/pystools-0.0.8.tar.gz
+[2023-07-29 08:49:41] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Downloading https://files.pythonhosted.org/packages/7e/a2/9c9ea25d1d1bcf5e229cd8ac78d2fe1a433dd3045bb30f50c7b863aba18c/odoo_addon_l10n_ro_stock_account-16.0.1.3.0-py3-none-any.whl
+[2023-07-29 08:49:41] INFO root fetch - processPackages [valipy]: Downloading https://files.pythonhosted.org/packages/9e/d3/9403d72788b6de22e7fdc41f0f85cb1aefac25b9c04a64fc0d9b932287ba/valipy-0.1.6.tar.gz
+[2023-07-29 08:49:41] INFO root fetch - processPackages [valipy]: Downloading https://files.pythonhosted.org/packages/9e/d3/9403d72788b6de22e7fdc41f0f85cb1aefac25b9c04a64fc0d9b932287ba/valipy-0.1.6.tar.gz
+[2023-07-29 08:49:41] INFO root fetch - processPackages [networklab]: Downloading https://files.pythonhosted.org/packages/6e/0f/66e89e3c5ea7df6005e0d18d10a1f9cb2a862d389d78fe80ec69e2113519/networklab-1.5.5.dev3.tar.gz
+[2023-07-29 08:49:41] INFO root fetch - processPackages [MoreApi]: executing diffoscope
+[2023-07-29 08:49:41] INFO root fetch - processPackages [MoreApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MoreApi-0.2.tar.gz tmp/MoreApi-0.3.tar.gz --markdown 20230729/M/MoreApi/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-29 08:49:41] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: executing diffoscope
+[2023-07-29 08:49:41] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_stock_account-16.0.1.2.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_stock_account-16.0.1.3.0-py3-none-any.whl.zip --markdown 20230729/o/odoo-addon-l10n-ro-stock-account/16.0.1.2.0-16.0.1.3.0/diff.md --exclude *.pyd
+[2023-07-29 08:49:41] INFO root fetch - processPackages [pystools]: Downloading https://files.pythonhosted.org/packages/9b/5a/9f2cf38e22565c5aa2ecb7be3dbecb7a44f7d23efbd86fd532eacd613f62/pystools-0.0.9.tar.gz
+[2023-07-29 08:49:41] INFO root fetch - processPackages [networklab]: executing diffoscope
+[2023-07-29 08:49:41] INFO root fetch - processPackages [networklab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/networklab-1.5.5.dev2.tar.gz tmp/networklab-1.5.5.dev3.tar.gz --markdown 20230729/n/networklab/1.5.5.dev2-1.5.5.dev3/diff.md --exclude *.pyd
+[2023-07-29 08:49:41] INFO root fetch - processPackages [valipy]: executing diffoscope
+[2023-07-29 08:49:41] INFO root fetch - processPackages [valipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valipy-0.1.5.tar.gz tmp/valipy-0.1.6.tar.gz --markdown 20230729/v/valipy/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-29 08:49:41] INFO root fetch - processPackages [valipy]: executing diffoscope
+[2023-07-29 08:49:41] INFO root fetch - processPackages [valipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valipy-0.1.5.tar.gz tmp/valipy-0.1.6.tar.gz --markdown 20230729/v/valipy/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-29 08:49:41] INFO root fetch - processPackages [pystools]: executing diffoscope
+[2023-07-29 08:49:41] INFO root fetch - processPackages [pystools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystools-0.0.8.tar.gz tmp/pystools-0.0.9.tar.gz --markdown 20230729/p/pystools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-29 08:49:42] INFO root fetch - processPackages [MoreApi]: Remove: archive file [/home/abi/fetcher/tmp/MoreApi-0.2.tar.gz]
+[2023-07-29 08:49:42] INFO root fetch - processPackages [MoreApi]: Remove: archive file [/home/abi/fetcher/tmp/MoreApi-0.3.tar.gz]
+[2023-07-29 08:49:42] INFO root fetch - main [MainThread]: End processing [MoreApi]: success
+[2023-07-29 08:49:42] INFO root fetch - processPackages [valipy]: Remove: archive file [/home/abi/fetcher/tmp/valipy-0.1.5.tar.gz]
+[2023-07-29 08:49:42] INFO root fetch - processPackages [valipy]: Remove: archive file [/home/abi/fetcher/tmp/valipy-0.1.6.tar.gz]
+[2023-07-29 08:49:42] INFO root fetch - main [MainThread]: End processing [valipy]: success
+[2023-07-29 08:49:42] INFO root fetch - processPackages [pystools]: Remove: archive file [/home/abi/fetcher/tmp/pystools-0.0.8.tar.gz]
+[2023-07-29 08:49:42] INFO root fetch - processPackages [pystools]: Remove: archive file [/home/abi/fetcher/tmp/pystools-0.0.9.tar.gz]
+[2023-07-29 08:49:42] INFO root fetch - main [MainThread]: End processing [pystools]: success
+[2023-07-29 08:49:42] INFO root fetch - main [MainThread]: End processing [valipy]: success
+[2023-07-29 08:49:42] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock_account-16.0.1.2.0-py3-none-any.whl.zip]
+[2023-07-29 08:49:42] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock_account-16.0.1.3.0-py3-none-any.whl.zip]
+[2023-07-29 08:49:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-stock-account]: success
+[2023-07-29 08:49:44] INFO root fetch - processPackages [networklab]: Remove: archive file [/home/abi/fetcher/tmp/networklab-1.5.5.dev2.tar.gz]
+[2023-07-29 08:49:44] INFO root fetch - processPackages [networklab]: Remove: archive file [/home/abi/fetcher/tmp/networklab-1.5.5.dev3.tar.gz]
+[2023-07-29 08:49:44] INFO root fetch - main [MainThread]: End processing [networklab]: success
+[2023-07-29 08:49:44] INFO root fetch - main [MainThread]: Store serial: [19085998]
