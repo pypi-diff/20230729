@@ -18008,3 +18008,125 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 15:43:27] INFO root fetch - processPackages [oneat]: Remove: archive file [/home/abi/fetcher/tmp/oneat-6.2.0.tar.gz]
 [2023-07-29 15:43:27] INFO root fetch - main [MainThread]: End processing [oneat]: success
 [2023-07-29 15:43:27] INFO root fetch - main [MainThread]: Store serial: [19089095]
+[2023-07-29 15:48:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19089095]
+[2023-07-29 15:48:36] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-29 15:48:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: payload-validator
+[2023-07-29 15:48:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ukmon-meteortools
+[2023-07-29 15:48:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sedi
+[2023-07-29 15:48:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: map-with-stats
+[2023-07-29 15:48:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-dllib
+[2023-07-29 15:48:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-orca
+[2023-07-29 15:48:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-friesian
+[2023-07-29 15:48:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl
+[2023-07-29 15:48:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bigdl-dllib-spark2
+[2023-07-29 15:48:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigdl-orca-spark2
+[2023-07-29 15:48:36] INFO root fetch - processPackages [bigdl-friesian]: New version: [2.4.0b20230729] Old Version: [2.4.0b20230728]
+[2023-07-29 15:48:36] INFO root fetch - processPackages [sedi]: New version: [0.8] Old Version: [0.7]
+[2023-07-29 15:48:36] INFO root fetch - processPackages [map-with-stats]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-29 15:48:36] INFO root fetch - processPackages [payload-validator]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-29 15:48:36] INFO root fetch - processPackages [bigdl-dllib-spark2]: New version: [2.4.0b20230729] Old Version: [2.4.0b20230728]
+[2023-07-29 15:48:36] INFO root fetch - processPackages [bigdl-dllib]: New version: [2.4.0b20230729] Old Version: [2.4.0b20230728]
+[2023-07-29 15:48:36] INFO root fetch - processPackages [ukmon-meteortools]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-29 15:48:36] INFO root fetch - processPackages [bigdl-orca]: New version: [2.4.0b20230729] Old Version: [2.4.0b20230728]
+[2023-07-29 15:48:36] INFO root fetch - processPackages [bigdl]: New version: [2.4.0b20230729] Old Version: [2.4.0b20230728]
+[2023-07-29 15:48:36] INFO root fetch - processPackages [bigdl-orca-spark2]: New version: [2.4.0b20230729] Old Version: [2.4.0b20230728]
+[2023-07-29 15:48:36] INFO root fetch - processPackages [sedi]: Downloading https://files.pythonhosted.org/packages/9a/7a/e50fa738b0cea31b0d57e6cc52f5e0fdd54367607bff8ccd5d8575293da2/sedi-0.7.tar.gz
+[2023-07-29 15:48:36] INFO root fetch - processPackages [ukmon-meteortools]: Downloading https://files.pythonhosted.org/packages/80/c1/eec6c875215d0bbe3342c29626ba9b996033fae6587eda63751b822bff56/ukmon_meteortools-2023.7.8.tar.gz
+[2023-07-29 15:48:36] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/3a/00/c0f8146ea74b2b179ce712062fcbc6455156d54e99c34106a3e9a7c44d0c/bigdl_friesian-2.4.0b20230728-py3-none-manylinux1_x86_64.whl
+[2023-07-29 15:48:36] INFO root fetch - processPackages [map-with-stats]: Downloading https://files.pythonhosted.org/packages/e5/e9/003df478ff1564c7e5eecc0ce8af0ae32adab70f6384ab5989599820c50d/map_with_stats-0.1.0.tar.gz
+[2023-07-29 15:48:36] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/69/40/346f7dd16d6f56ac2a05080b40338ffa504e0171e76fa2c7e6c95ba3377e/bigdl-2.4.0b20230728-py3-none-manylinux1_x86_64.whl
+[2023-07-29 15:48:36] INFO root fetch - processPackages [payload-validator]: Downloading https://files.pythonhosted.org/packages/90/2d/56abdde353e5a57f98c9a702c88bab38029bd341665b665677b5592bdb77/payload-validator-0.1.7.tar.gz
+[2023-07-29 15:48:36] INFO root fetch - processPackages [bigdl-dllib-spark2]: Downloading https://files.pythonhosted.org/packages/3b/2b/da6b7fba90d484e89aba93be4dd7585fa269389c9098861995b89c179bee/bigdl-dllib-spark2-2.4.0b20230728.tar.gz
+[2023-07-29 15:48:36] INFO root fetch - processPackages [bigdl-dllib]: Downloading https://files.pythonhosted.org/packages/0a/66/cd62346b5001dc0c6b12759e7fb9b080d3b4afe8bd70426a6af55ab26b7b/bigdl-dllib-2.4.0b20230728.tar.gz
+[2023-07-29 15:48:36] INFO root fetch - processPackages [bigdl-orca]: Downloading https://files.pythonhosted.org/packages/3b/82/a7b17c0eed46ac3207aeca7afdc350906774e67c295b523dd76f1794acc0/bigdl_orca-2.4.0b20230728-py3-none-manylinux1_x86_64.whl
+[2023-07-29 15:48:37] INFO root fetch - processPackages [bigdl-orca-spark2]: Downloading https://files.pythonhosted.org/packages/e9/0c/83627321dc0fc1be9bfb2132938a38a720ad61024736ef870358c9147138/bigdl_orca_spark2-2.4.0b20230728-py3-none-manylinux1_x86_64.whl
+[2023-07-29 15:48:37] INFO root fetch - processPackages [sedi]: Downloading https://files.pythonhosted.org/packages/71/ce/eb3e9e1a9f53a85744b8d8dfc81bf872b929035770f70dfe77f3a4b2a514/sedi-0.8.tar.gz
+[2023-07-29 15:48:37] WARNING root fetch - processPackages [bigdl-dllib-spark2]: Skipping package: exceeds size limit 53639182>=10485760
+[2023-07-29 15:48:37] INFO root fetch - processPackages [bigdl-dllib-spark2]: Start processing: bigdl-friesian-spark2
+[2023-07-29 15:48:37] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark2] error
+[2023-07-29 15:48:37] WARNING root fetch - processPackages [bigdl-dllib]: Skipping package: exceeds size limit 53639109>=10485760
+[2023-07-29 15:48:37] INFO root fetch - processPackages [bigdl-dllib]: Start processing: bigdl-chronos-spark2
+[2023-07-29 15:48:37] INFO root fetch - main [MainThread]: End processing [bigdl-dllib] error
+[2023-07-29 15:48:37] WARNING root fetch - processPackages [bigdl-orca-spark2]: Skipping package: exceeds size limit 20374413>=10485760
+[2023-07-29 15:48:37] INFO root fetch - processPackages [bigdl-orca-spark2]: Start processing: bigdl-spark2
+[2023-07-29 15:48:37] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark2] error
+[2023-07-29 15:48:37] INFO root fetch - processPackages [bigdl-friesian-spark2]: New version: [2.4.0b20230729] Old Version: [2.4.0b20230728]
+[2023-07-29 15:48:37] INFO root fetch - processPackages [sedi]: executing diffoscope
+[2023-07-29 15:48:37] INFO root fetch - processPackages [sedi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sedi-0.7.tar.gz tmp/sedi-0.8.tar.gz --markdown 20230729/s/sedi/0.7-0.8/diff.md --exclude *.pyd
+[2023-07-29 15:48:37] INFO root fetch - processPackages [ukmon-meteortools]: Downloading https://files.pythonhosted.org/packages/81/d4/a5fdbf3e737c47ca132baeb642fd1a6d4e03106329f241718470301865e4/ukmon_meteortools-2023.7.9.tar.gz
+[2023-07-29 15:48:37] INFO root fetch - processPackages [bigdl-chronos-spark2]: New version: [2.4.0b20230729] Old Version: [2.4.0b20230728]
+[2023-07-29 15:48:37] WARNING root fetch - processPackages [bigdl-orca]: Skipping package: exceeds size limit 20374333>=10485760
+[2023-07-29 15:48:37] INFO root fetch - processPackages [bigdl-orca]: Start processing: nclib
+[2023-07-29 15:48:37] INFO root fetch - main [MainThread]: End processing [bigdl-orca] error
+[2023-07-29 15:48:37] INFO root fetch - processPackages [bigdl-spark2]: New version: [2.4.0b20230729] Old Version: [2.4.0b20230728]
+[2023-07-29 15:48:37] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/36/93/93fdd812afa2eb925bd99cca2e6f7e4bcb4a177ddf80d2adb1bbdb17a533/bigdl_friesian-2.4.0b20230729-py3-none-manylinux1_x86_64.whl
+[2023-07-29 15:48:37] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/9f/f5/f879472aeee0e51bce45c18580c0bc23de1899bc47ab1118f020e3206786/bigdl-2.4.0b20230729-py3-none-manylinux1_x86_64.whl
+[2023-07-29 15:48:37] INFO root fetch - processPackages [nclib]: New version: [1.0.5] Old Version: [1.0.3]
+[2023-07-29 15:48:37] INFO root fetch - processPackages [payload-validator]: Downloading https://files.pythonhosted.org/packages/63/e1/b2449d066630b957dba42089b1e89dc25a5ea34c4d2e8debef4f8b1bd29f/payload-validator-0.1.8.tar.gz
+[2023-07-29 15:48:37] INFO root fetch - processPackages [ukmon-meteortools]: executing diffoscope
+[2023-07-29 15:48:37] INFO root fetch - processPackages [ukmon-meteortools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ukmon_meteortools-2023.7.8.tar.gz tmp/ukmon_meteortools-2023.7.9.tar.gz --markdown 20230729/u/ukmon-meteortools/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-29 15:48:37] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/3c/2d/a13e8c975c8d0508c9f269a66fd0bcd9a3523b88997e0142e5392caae352/bigdl_friesian_spark2-2.4.0b20230728-py3-none-manylinux1_x86_64.whl
+[2023-07-29 15:48:37] INFO root fetch - processPackages [map-with-stats]: Downloading https://files.pythonhosted.org/packages/57/74/0eb5bf9cc41123ef3ca747c13d26b6a81b30279c4790bf939fef4b8866e1/map_with_stats-0.1.1.tar.gz
+[2023-07-29 15:48:37] INFO root fetch - processPackages [payload-validator]: executing diffoscope
+[2023-07-29 15:48:37] INFO root fetch - processPackages [payload-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/payload-validator-0.1.7.tar.gz tmp/payload-validator-0.1.8.tar.gz --markdown 20230729/p/payload-validator/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-29 15:48:37] INFO root fetch - processPackages [bigdl-friesian]: executing diffoscope
+[2023-07-29 15:48:37] INFO root fetch - processPackages [bigdl-friesian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian-2.4.0b20230728-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian-2.4.0b20230729-py3-none-manylinux1_x86_64.whl.zip --markdown 20230729/b/bigdl-friesian/2.4.0b20230728-2.4.0b20230729/diff.md --exclude *.pyd
+[2023-07-29 15:48:37] INFO root fetch - processPackages [bigdl]: executing diffoscope
+[2023-07-29 15:48:37] INFO root fetch - processPackages [bigdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl-2.4.0b20230728-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl-2.4.0b20230729-py3-none-manylinux1_x86_64.whl.zip --markdown 20230729/b/bigdl/2.4.0b20230728-2.4.0b20230729/diff.md --exclude *.pyd
+[2023-07-29 15:48:37] INFO root fetch - processPackages [nclib]: Downloading https://files.pythonhosted.org/packages/00/42/4d5bc2ab082df68b51b04106d7af3d9e25009d784886893b4f6c69bcdca9/nclib-1.0.3.tar.gz
+[2023-07-29 15:48:37] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/df/cc/cd49d713f3a714fb6b3080ec6ae667580832c514c665f22128c353e6a4b9/bigdl_chronos_spark2-2.4.0b20230728-py3-none-manylinux1_x86_64.whl
+[2023-07-29 15:48:37] INFO root fetch - processPackages [map-with-stats]: executing diffoscope
+[2023-07-29 15:48:37] INFO root fetch - processPackages [map-with-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/map_with_stats-0.1.0.tar.gz tmp/map_with_stats-0.1.1.tar.gz --markdown 20230729/m/map-with-stats/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-29 15:48:37] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/9a/a9/22e19b614e033fca063b90d62d4b7c208b382fce1cc6edbd5e135847bbb4/bigdl_spark2-2.4.0b20230728-py3-none-manylinux1_x86_64.whl
+[2023-07-29 15:48:37] INFO root fetch - processPackages [nclib]: Downloading https://files.pythonhosted.org/packages/ab/96/990e45d7160ee6bc510cdf6365001b0e60933f0ffca6765dc2b962e54969/nclib-1.0.5.tar.gz
+[2023-07-29 15:48:37] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/cb/12/388e739bfe103cf64529396c51e503e1c2736349fe99f16677fac05de8ed/bigdl_friesian_spark2-2.4.0b20230729-py3-none-manylinux1_x86_64.whl
+[2023-07-29 15:48:38] INFO root fetch - processPackages [nclib]: executing diffoscope
+[2023-07-29 15:48:38] INFO root fetch - processPackages [nclib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nclib-1.0.3.tar.gz tmp/nclib-1.0.5.tar.gz --markdown 20230729/n/nclib/1.0.3-1.0.5/diff.md --exclude *.pyd
+[2023-07-29 15:48:38] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/f8/b2/6deabc4e95478e214971751e9fe482d600885a64e6a748ea45dc4ac9b2e3/bigdl_chronos_spark2-2.4.0b20230729-py3-none-manylinux1_x86_64.whl
+[2023-07-29 15:48:38] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/c2/68/9ef69dbd20767ccf4454594518e4944450ca15c389acbf258de8c5a6dd6c/bigdl_spark2-2.4.0b20230729-py3-none-manylinux1_x86_64.whl
+[2023-07-29 15:48:38] INFO root fetch - processPackages [bigdl-friesian-spark2]: executing diffoscope
+[2023-07-29 15:48:38] INFO root fetch - processPackages [bigdl-friesian-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark2-2.4.0b20230728-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark2-2.4.0b20230729-py3-none-manylinux1_x86_64.whl.zip --markdown 20230729/b/bigdl-friesian-spark2/2.4.0b20230728-2.4.0b20230729/diff.md --exclude *.pyd
+[2023-07-29 15:48:38] INFO root fetch - processPackages [bigdl-chronos-spark2]: executing diffoscope
+[2023-07-29 15:48:38] INFO root fetch - processPackages [bigdl-chronos-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark2-2.4.0b20230728-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark2-2.4.0b20230729-py3-none-manylinux1_x86_64.whl.zip --markdown 20230729/b/bigdl-chronos-spark2/2.4.0b20230728-2.4.0b20230729/diff.md --exclude *.pyd
+[2023-07-29 15:48:38] INFO root fetch - processPackages [sedi]: Remove: archive file [/home/abi/fetcher/tmp/sedi-0.7.tar.gz]
+[2023-07-29 15:48:38] INFO root fetch - processPackages [sedi]: Remove: archive file [/home/abi/fetcher/tmp/sedi-0.8.tar.gz]
+[2023-07-29 15:48:38] INFO root fetch - processPackages [sedi]: Start processing: MAZAlib
+[2023-07-29 15:48:38] INFO root fetch - main [MainThread]: End processing [sedi]: success
+[2023-07-29 15:48:38] INFO root fetch - processPackages [bigdl-spark2]: executing diffoscope
+[2023-07-29 15:48:38] INFO root fetch - processPackages [bigdl-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark2-2.4.0b20230728-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark2-2.4.0b20230729-py3-none-manylinux1_x86_64.whl.zip --markdown 20230729/b/bigdl-spark2/2.4.0b20230728-2.4.0b20230729/diff.md --exclude *.pyd
+[2023-07-29 15:48:38] INFO root fetch - processPackages [MAZAlib]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-07-29 15:48:38] INFO root fetch - processPackages [MAZAlib]: Downloading https://files.pythonhosted.org/packages/fa/01/cb8e5ce946cf2b7680506961c4a696c2f3750dbbbe768cc4468d2a26b8a2/MAZAlib-0.0.2.tar.gz
+[2023-07-29 15:48:38] INFO root fetch - processPackages [bigdl]: Remove: archive file [/home/abi/fetcher/tmp/bigdl-2.4.0b20230728-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-29 15:48:38] INFO root fetch - processPackages [bigdl]: Remove: archive file [/home/abi/fetcher/tmp/bigdl-2.4.0b20230729-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-29 15:48:38] INFO root fetch - main [MainThread]: End processing [bigdl]: success
+[2023-07-29 15:48:38] INFO root fetch - processPackages [MAZAlib]: Downloading https://files.pythonhosted.org/packages/4c/c6/8d4ae7d3d6b55a45c225c0c209d4387c6163b66aa9d8ac546ef375315548/MAZAlib-0.0.4.tar.gz
+[2023-07-29 15:48:39] INFO root fetch - processPackages [MAZAlib]: executing diffoscope
+[2023-07-29 15:48:39] INFO root fetch - processPackages [MAZAlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MAZAlib-0.0.2.tar.gz tmp/MAZAlib-0.0.4.tar.gz --markdown 20230729/M/MAZAlib/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-07-29 15:48:39] INFO root fetch - processPackages [payload-validator]: Remove: archive file [/home/abi/fetcher/tmp/payload-validator-0.1.7.tar.gz]
+[2023-07-29 15:48:39] INFO root fetch - processPackages [payload-validator]: Remove: archive file [/home/abi/fetcher/tmp/payload-validator-0.1.8.tar.gz]
+[2023-07-29 15:48:39] INFO root fetch - main [MainThread]: End processing [payload-validator]: success
+[2023-07-29 15:48:39] INFO root fetch - processPackages [map-with-stats]: Remove: archive file [/home/abi/fetcher/tmp/map_with_stats-0.1.0.tar.gz]
+[2023-07-29 15:48:39] INFO root fetch - processPackages [map-with-stats]: Remove: archive file [/home/abi/fetcher/tmp/map_with_stats-0.1.1.tar.gz]
+[2023-07-29 15:48:39] INFO root fetch - main [MainThread]: End processing [map-with-stats]: success
+[2023-07-29 15:48:39] INFO root fetch - processPackages [ukmon-meteortools]: Remove: archive file [/home/abi/fetcher/tmp/ukmon_meteortools-2023.7.8.tar.gz]
+[2023-07-29 15:48:39] INFO root fetch - processPackages [ukmon-meteortools]: Remove: archive file [/home/abi/fetcher/tmp/ukmon_meteortools-2023.7.9.tar.gz]
+[2023-07-29 15:48:39] INFO root fetch - main [MainThread]: End processing [ukmon-meteortools]: success
+[2023-07-29 15:48:39] INFO root fetch - processPackages [nclib]: Remove: archive file [/home/abi/fetcher/tmp/nclib-1.0.3.tar.gz]
+[2023-07-29 15:48:39] INFO root fetch - processPackages [nclib]: Remove: archive file [/home/abi/fetcher/tmp/nclib-1.0.5.tar.gz]
+[2023-07-29 15:48:39] INFO root fetch - main [MainThread]: End processing [nclib]: success
+[2023-07-29 15:48:39] INFO root fetch - processPackages [bigdl-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark2-2.4.0b20230728-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-29 15:48:39] INFO root fetch - processPackages [bigdl-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark2-2.4.0b20230729-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-29 15:48:39] INFO root fetch - main [MainThread]: End processing [bigdl-spark2]: success
+[2023-07-29 15:48:39] INFO root fetch - processPackages [bigdl-friesian]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian-2.4.0b20230728-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-29 15:48:39] INFO root fetch - processPackages [bigdl-friesian]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian-2.4.0b20230729-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-29 15:48:39] INFO root fetch - main [MainThread]: End processing [bigdl-friesian]: success
+[2023-07-29 15:48:39] INFO root fetch - processPackages [bigdl-friesian-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark2-2.4.0b20230728-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-29 15:48:39] INFO root fetch - processPackages [bigdl-friesian-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark2-2.4.0b20230729-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-29 15:48:39] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark2]: success
+[2023-07-29 15:48:40] INFO root fetch - processPackages [MAZAlib]: Remove: archive file [/home/abi/fetcher/tmp/MAZAlib-0.0.2.tar.gz]
+[2023-07-29 15:48:40] INFO root fetch - processPackages [MAZAlib]: Remove: archive file [/home/abi/fetcher/tmp/MAZAlib-0.0.4.tar.gz]
+[2023-07-29 15:48:40] INFO root fetch - main [MainThread]: End processing [MAZAlib]: success
+[2023-07-29 15:48:40] INFO root fetch - processPackages [bigdl-chronos-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark2-2.4.0b20230728-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-29 15:48:40] INFO root fetch - processPackages [bigdl-chronos-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark2-2.4.0b20230729-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-29 15:48:40] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark2]: success
+[2023-07-29 15:48:40] INFO root fetch - main [MainThread]: Store serial: [19089135]
