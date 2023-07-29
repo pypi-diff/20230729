@@ -8564,3 +8564,42 @@
 [2023-07-29 06:38:48] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev99-py3-none-any.whl.zip]
 [2023-07-29 06:38:48] INFO root fetch - main [MainThread]: End processing [odoo14-addon-openupgrade-scripts]: success
 [2023-07-29 06:38:48] INFO root fetch - main [MainThread]: Store serial: [19085399]
+[2023-07-29 06:43:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19085399]
+[2023-07-29 06:43:56] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-29 06:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autopack-tools
+[2023-07-29 06:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyvoting
+[2023-07-29 06:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oloren
+[2023-07-29 06:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pbake
+[2023-07-29 06:43:56] INFO root fetch - processPackages [pbake]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-29 06:43:56] INFO root fetch - processPackages [pyvoting]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-29 06:43:56] INFO root fetch - processPackages [autopack-tools]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-07-29 06:43:56] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-29 06:43:56] INFO root fetch - processPackages [pbake]: Downloading https://files.pythonhosted.org/packages/5f/cd/57053256e2fa25c6ef73b1b8667a3c83c5fae5339a7a44c940a19489f840/pbake-0.0.3-py3-none-any.whl
+[2023-07-29 06:43:56] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/a3/76/06db9dcd349a4094baa829da1112066fd4fe60d5748d1b0c8c0833367603/oloren-0.0.8.tar.gz
+[2023-07-29 06:43:56] INFO root fetch - processPackages [autopack-tools]: Downloading https://files.pythonhosted.org/packages/ea/75/2ce8bb31d5f718ceb826527d1fbeb5ed6687611e53c71b81cd5778428cb3/autopack_tools-0.4.4.tar.gz
+[2023-07-29 06:43:56] INFO root fetch - processPackages [pyvoting]: Downloading https://files.pythonhosted.org/packages/08/2d/b090422c8b09fcfaa143e700c30b739c298a4134dd11159a7bae7cff082e/pyvoting-1.0.2.tar.gz
+[2023-07-29 06:43:57] INFO root fetch - processPackages [autopack-tools]: Downloading https://files.pythonhosted.org/packages/21/74/071d999ac7e56f3be5ecf213be828a64033c6574dc3a139c357270ace64b/autopack_tools-0.4.5.tar.gz
+[2023-07-29 06:43:57] INFO root fetch - processPackages [pyvoting]: Downloading https://files.pythonhosted.org/packages/51/25/0d2b617a301bd40d552264bf4323e2c9ac9b9ff0fc905ba93e1c186e843b/pyvoting-1.0.3.tar.gz
+[2023-07-29 06:43:57] INFO root fetch - processPackages [pbake]: Downloading https://files.pythonhosted.org/packages/05/ac/37c0f400227657c20b47d5ad1d2dbd81d0d9f0c3bd162a291a286077962e/pbake-0.0.4.tar.gz
+[2023-07-29 06:43:57] INFO root fetch - processPackages [pbake]: executing diffoscope
+[2023-07-29 06:43:57] INFO root fetch - processPackages [pbake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbake-0.0.3-py3-none-any.whl.zip tmp/pbake-0.0.4.tar.gz --markdown 20230729/p/pbake/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-29 06:43:57] INFO root fetch - processPackages [pyvoting]: executing diffoscope
+[2023-07-29 06:43:57] INFO root fetch - processPackages [pyvoting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvoting-1.0.2.tar.gz tmp/pyvoting-1.0.3.tar.gz --markdown 20230729/p/pyvoting/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-29 06:43:57] INFO root fetch - processPackages [autopack-tools]: executing diffoscope
+[2023-07-29 06:43:57] INFO root fetch - processPackages [autopack-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopack_tools-0.4.4.tar.gz tmp/autopack_tools-0.4.5.tar.gz --markdown 20230729/a/autopack-tools/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-07-29 06:43:57] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/8f/84/66581190d09357a5dd522267963c2d727e20650e6690064dc2efadd1c020/oloren-0.0.9.tar.gz
+[2023-07-29 06:43:57] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-07-29 06:43:57] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230729/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-29 06:43:58] INFO root fetch - processPackages [pbake]: Remove: archive file [/home/abi/fetcher/tmp/pbake-0.0.3-py3-none-any.whl.zip]
+[2023-07-29 06:43:58] INFO root fetch - processPackages [pbake]: Remove: archive file [/home/abi/fetcher/tmp/pbake-0.0.4.tar.gz]
+[2023-07-29 06:43:58] INFO root fetch - main [MainThread]: End processing [pbake]: success
+[2023-07-29 06:43:58] INFO root fetch - processPackages [autopack-tools]: Remove: archive file [/home/abi/fetcher/tmp/autopack_tools-0.4.4.tar.gz]
+[2023-07-29 06:43:58] INFO root fetch - processPackages [autopack-tools]: Remove: archive file [/home/abi/fetcher/tmp/autopack_tools-0.4.5.tar.gz]
+[2023-07-29 06:43:58] INFO root fetch - main [MainThread]: End processing [autopack-tools]: success
+[2023-07-29 06:43:58] INFO root fetch - processPackages [pyvoting]: Remove: archive file [/home/abi/fetcher/tmp/pyvoting-1.0.2.tar.gz]
+[2023-07-29 06:43:58] INFO root fetch - processPackages [pyvoting]: Remove: archive file [/home/abi/fetcher/tmp/pyvoting-1.0.3.tar.gz]
+[2023-07-29 06:43:58] INFO root fetch - main [MainThread]: End processing [pyvoting]: success
+[2023-07-29 06:44:01] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.8.tar.gz]
+[2023-07-29 06:44:01] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
+[2023-07-29 06:44:01] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-07-29 06:44:01] INFO root fetch - main [MainThread]: Store serial: [19085414]
