@@ -17468,3 +17468,90 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 15:11:54] INFO root fetch - processPackages [ihatemoney]: Remove: archive file [/home/abi/fetcher/tmp/ihatemoney-6.1.0.tar.gz]
 [2023-07-29 15:11:54] INFO root fetch - main [MainThread]: End processing [ihatemoney]: success
 [2023-07-29 15:11:54] INFO root fetch - main [MainThread]: Store serial: [19088886]
+[2023-07-29 15:16:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19088886]
+[2023-07-29 15:17:03] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-29 15:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arts
+[2023-07-29 15:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-scipy
+[2023-07-29 15:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kv-deta
+[2023-07-29 15:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: teneva
+[2023-07-29 15:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: baam
+[2023-07-29 15:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-sphinx
+[2023-07-29 15:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: knnor
+[2023-07-29 15:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sedi
+[2023-07-29 15:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbdev-django
+[2023-07-29 15:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyrotash
+[2023-07-29 15:17:03] INFO root fetch - processPackages [knnor]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-07-29 15:17:03] INFO root fetch - processPackages [sedi]: New version: [0.5] Old Version: [0.4]
+[2023-07-29 15:17:03] INFO root fetch - processPackages [kv-deta]: New version: [0.1.8a0] Old Version: [0.1.7a0]
+[2023-07-29 15:17:03] INFO root fetch - processPackages [baam]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-29 15:17:03] INFO root fetch - processPackages [arts]: New version: [2023.7.29] Old Version: [2023.7.10]
+[2023-07-29 15:17:03] INFO root fetch - processPackages [teneva]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-29 15:17:03] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-29 15:17:03] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-29 15:17:03] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-29 15:17:03] WARNING root fetch - processPackages [pyrotash]: Skipping, unable to determine old version
+[2023-07-29 15:17:03] INFO root fetch - main [MainThread]: End processing [pyrotash] error
+[2023-07-29 15:17:03] INFO root fetch - processPackages [kv-deta]: Downloading https://files.pythonhosted.org/packages/2d/fd/233507a493adc5dd807cc60169638cd2ad402ba366d31fffae2cede455f2/kv_deta-0.1.7a0-py3-none-any.whl
+[2023-07-29 15:17:04] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-07-29 15:17:04] INFO root fetch - processPackages [teneva]: Downloading https://files.pythonhosted.org/packages/b1/88/3b000cd4a56c24967885e089759a1ee17eb89e5227fe3308583f4da5821d/teneva-0.9.8.tar.gz
+[2023-07-29 15:17:04] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-07-29 15:17:04] INFO root fetch - processPackages [knnor]: Downloading https://files.pythonhosted.org/packages/51/2f/de55bde12b8c3c7b9851f1faf071c6a8ed0f41504d433efa338d85f6ee46/knnor-0.0.4.tar.gz
+[2023-07-29 15:17:04] INFO root fetch - processPackages [sedi]: Downloading https://files.pythonhosted.org/packages/45/da/923e8d3af64d74d43eb72ecfe1af0d23ca69c39e120a5006ce969b8673fc/sedi-0.4.tar.gz
+[2023-07-29 15:17:04] INFO root fetch - processPackages [arts]: Downloading https://files.pythonhosted.org/packages/52/d1/767757cfa45d0b76adc8797cec72aefc8217e17f08c70a645d7dafd34bd7/arts-2023.7.10.tar.gz
+[2023-07-29 15:17:04] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-07-29 15:17:04] INFO root fetch - processPackages [baam]: Downloading https://files.pythonhosted.org/packages/44/f4/fcf1454f0a2a598f3f0b25e116c3a1e5ac0d9178cbca7926bee4c52108d3/baam-0.0.2.tar.gz
+[2023-07-29 15:17:04] INFO root fetch - processPackages [kv-deta]: Downloading https://files.pythonhosted.org/packages/75/ab/f67dd146b33a36f05fb81cb3638d1f21d8b234794f37f5e90f3b9b05b1bf/kv_deta-0.1.8a0-py3-none-any.whl
+[2023-07-29 15:17:04] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-07-29 15:17:04] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-07-29 15:17:04] INFO root fetch - processPackages [kv-deta]: executing diffoscope
+[2023-07-29 15:17:04] INFO root fetch - processPackages [kv-deta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kv_deta-0.1.7a0-py3-none-any.whl.zip tmp/kv_deta-0.1.8a0-py3-none-any.whl.zip --markdown 20230729/k/kv-deta/0.1.7a0-0.1.8a0/diff.md --exclude *.pyd
+[2023-07-29 15:17:04] INFO root fetch - processPackages [sedi]: Downloading https://files.pythonhosted.org/packages/e7/f3/17d25b1577a52e1b6b81120d257a8c2e07046da00adf36d4a76234bf4a23/sedi-0.5.tar.gz
+[2023-07-29 15:17:04] INFO root fetch - processPackages [knnor]: Downloading https://files.pythonhosted.org/packages/a9/56/ec41ed8f2ee323afce1f4c234febdae31c9cf013c64ba14c827d29492fed/knnor-0.1.0.tar.gz
+[2023-07-29 15:17:04] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-07-29 15:17:04] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230729/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-29 15:17:04] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-07-29 15:17:04] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230729/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-29 15:17:04] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-07-29 15:17:04] INFO root fetch - processPackages [baam]: Downloading https://files.pythonhosted.org/packages/0e/70/f1d10f4ad23d4d6441eed5aca868577348a5360d6da70a6d0737885af7d9/baam-0.0.3.tar.gz
+[2023-07-29 15:17:04] INFO root fetch - processPackages [sedi]: executing diffoscope
+[2023-07-29 15:17:04] INFO root fetch - processPackages [sedi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sedi-0.4.tar.gz tmp/sedi-0.5.tar.gz --markdown 20230729/s/sedi/0.4-0.5/diff.md --exclude *.pyd
+[2023-07-29 15:17:04] INFO root fetch - processPackages [knnor]: executing diffoscope
+[2023-07-29 15:17:04] INFO root fetch - processPackages [knnor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knnor-0.0.4.tar.gz tmp/knnor-0.1.0.tar.gz --markdown 20230729/k/knnor/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-07-29 15:17:04] INFO root fetch - processPackages [teneva]: Downloading https://files.pythonhosted.org/packages/c7/6d/123ed8c74595fe37b18c943aace6fe0d4f69177a8727d0628081538a13e2/teneva-0.9.9.tar.gz
+[2023-07-29 15:17:04] INFO root fetch - processPackages [baam]: executing diffoscope
+[2023-07-29 15:17:04] INFO root fetch - processPackages [baam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baam-0.0.2.tar.gz tmp/baam-0.0.3.tar.gz --markdown 20230729/b/baam/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-29 15:17:04] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-07-29 15:17:04] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230729/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-29 15:17:04] INFO root fetch - processPackages [arts]: Downloading https://files.pythonhosted.org/packages/a5/c8/7e9054f5534aa117ea1b0ec1ca0baf9578cbd5ffd10ec718b0ffe89584b2/arts-2023.7.29.tar.gz
+[2023-07-29 15:17:05] INFO root fetch - processPackages [arts]: executing diffoscope
+[2023-07-29 15:17:05] INFO root fetch - processPackages [arts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arts-2023.7.10.tar.gz tmp/arts-2023.7.29.tar.gz --markdown 20230729/a/arts/2023.7.10-2023.7.29/diff.md --exclude *.pyd
+[2023-07-29 15:17:05] INFO root fetch - processPackages [teneva]: executing diffoscope
+[2023-07-29 15:17:05] INFO root fetch - processPackages [teneva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teneva-0.9.8.tar.gz tmp/teneva-0.9.9.tar.gz --markdown 20230729/t/teneva/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-29 15:17:05] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.98.tar.gz]
+[2023-07-29 15:17:05] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
+[2023-07-29 15:17:05] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-07-29 15:17:05] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-07-29 15:17:05] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-07-29 15:17:05] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-07-29 15:17:05] INFO root fetch - processPackages [sedi]: Remove: archive file [/home/abi/fetcher/tmp/sedi-0.4.tar.gz]
+[2023-07-29 15:17:05] INFO root fetch - processPackages [sedi]: Remove: archive file [/home/abi/fetcher/tmp/sedi-0.5.tar.gz]
+[2023-07-29 15:17:05] INFO root fetch - main [MainThread]: End processing [sedi]: success
+[2023-07-29 15:17:05] INFO root fetch - processPackages [kv-deta]: Remove: archive file [/home/abi/fetcher/tmp/kv_deta-0.1.7a0-py3-none-any.whl.zip]
+[2023-07-29 15:17:05] INFO root fetch - processPackages [kv-deta]: Remove: archive file [/home/abi/fetcher/tmp/kv_deta-0.1.8a0-py3-none-any.whl.zip]
+[2023-07-29 15:17:05] INFO root fetch - main [MainThread]: End processing [kv-deta]: success
+[2023-07-29 15:17:06] INFO root fetch - processPackages [knnor]: Remove: archive file [/home/abi/fetcher/tmp/knnor-0.0.4.tar.gz]
+[2023-07-29 15:17:06] INFO root fetch - processPackages [knnor]: Remove: archive file [/home/abi/fetcher/tmp/knnor-0.1.0.tar.gz]
+[2023-07-29 15:17:06] INFO root fetch - main [MainThread]: End processing [knnor]: success
+[2023-07-29 15:17:06] INFO root fetch - processPackages [baam]: Remove: archive file [/home/abi/fetcher/tmp/baam-0.0.2.tar.gz]
+[2023-07-29 15:17:06] INFO root fetch - processPackages [baam]: Remove: archive file [/home/abi/fetcher/tmp/baam-0.0.3.tar.gz]
+[2023-07-29 15:17:06] INFO root fetch - main [MainThread]: End processing [baam]: success
+[2023-07-29 15:17:06] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-07-29 15:17:06] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-07-29 15:17:06] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-07-29 15:17:06] INFO root fetch - processPackages [arts]: Remove: archive file [/home/abi/fetcher/tmp/arts-2023.7.10.tar.gz]
+[2023-07-29 15:17:06] INFO root fetch - processPackages [arts]: Remove: archive file [/home/abi/fetcher/tmp/arts-2023.7.29.tar.gz]
+[2023-07-29 15:17:06] INFO root fetch - main [MainThread]: End processing [arts]: success
+[2023-07-29 15:17:06] INFO root fetch - processPackages [teneva]: Remove: archive file [/home/abi/fetcher/tmp/teneva-0.9.8.tar.gz]
+[2023-07-29 15:17:06] INFO root fetch - processPackages [teneva]: Remove: archive file [/home/abi/fetcher/tmp/teneva-0.9.9.tar.gz]
+[2023-07-29 15:17:06] INFO root fetch - main [MainThread]: End processing [teneva]: success
+[2023-07-29 15:17:06] INFO root fetch - main [MainThread]: Store serial: [19088917]
