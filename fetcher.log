@@ -19498,3 +19498,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 17:36:02] INFO root fetch - processPackages [prince]: Remove: archive file [/home/abi/fetcher/tmp/prince-0.9.0.tar.gz]
 [2023-07-29 17:36:02] INFO root fetch - main [MainThread]: End processing [prince]: success
 [2023-07-29 17:36:02] INFO root fetch - main [MainThread]: Store serial: [19089817]
+[2023-07-29 17:41:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19089817]
+[2023-07-29 17:41:11] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-29 17:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-tailwind-cli
+[2023-07-29 17:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-errors
+[2023-07-29 17:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cloca
+[2023-07-29 17:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: adafruit-circuitpython-turtle
+[2023-07-29 17:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sphractal
+[2023-07-29 17:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vpd
+[2023-07-29 17:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: djx-account
+[2023-07-29 17:41:11] INFO root fetch - processPackages [django-errors]: New version: [2.3.0] Old Version: [2.1.0]
+[2023-07-29 17:41:11] INFO root fetch - processPackages [django-tailwind-cli]: New version: [2.0.1] Old Version: [1.4.3]
+[2023-07-29 17:41:11] INFO root fetch - processPackages [sphractal]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-29 17:41:11] INFO root fetch - processPackages [cloca]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-29 17:41:11] INFO root fetch - processPackages [djx-account]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-29 17:41:11] INFO root fetch - processPackages [adafruit-circuitpython-turtle]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-29 17:41:11] INFO root fetch - processPackages [vpd]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-29 17:41:11] INFO root fetch - processPackages [django-errors]: Downloading https://files.pythonhosted.org/packages/ae/f0/2fc05d627c6e295c01f9138de2206f66baa4282e21ee1f971e8c1d7887c0/django-errors-2.1.0.tar.gz
+[2023-07-29 17:41:12] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/b1/6d/156256fa9e3fa7de2df2059d47e10f9622e16808846d88bf7a096397ad36/sphractal-0.9.0.tar.gz
+[2023-07-29 17:41:12] INFO root fetch - processPackages [cloca]: Downloading https://files.pythonhosted.org/packages/7e/94/3a89bc75bbf88bb6276d686e6e62b265de7cac615b40ee2c79be509b30dc/cloca-1.1.0.tar.gz
+[2023-07-29 17:41:12] INFO root fetch - processPackages [django-tailwind-cli]: Downloading https://files.pythonhosted.org/packages/83/eb/0ad6b57e120c076436464c2c783b42a494f284d1c06632b5fb4e4daedf1a/django_tailwind_cli-1.4.3.tar.gz
+[2023-07-29 17:41:12] INFO root fetch - processPackages [vpd]: Downloading https://files.pythonhosted.org/packages/8a/61/b80d1b1a3c85a58ed5493dd3f99d1c989375ed2e9a3f8c7d6944179eda30/vpd-0.9.3.tar.gz
+[2023-07-29 17:41:12] INFO root fetch - processPackages [adafruit-circuitpython-turtle]: Downloading https://files.pythonhosted.org/packages/89/eb/a87741ba4a5bbf649eb2a4609d8e13750ea0a91f41d4196b6d263e77253c/adafruit-circuitpython-turtle-2.2.8.tar.gz
+[2023-07-29 17:41:12] INFO root fetch - processPackages [djx-account]: Downloading https://files.pythonhosted.org/packages/2b/27/da72c3b3ad7ade63526c53e94a2dfeafe66ebf7d6435fd23f976a8cc4393/djx_account-0.1.0.tar.gz
+[2023-07-29 17:41:12] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/b7/3c/357fa6f2eda84dc8aff5499145b341ad2d8a7162270a504b401c65b633a3/sphractal-0.9.1.tar.gz
+[2023-07-29 17:41:12] INFO root fetch - processPackages [django-errors]: Downloading https://files.pythonhosted.org/packages/1f/fb/f151f48f2af250e5c259652f6d5a32ce9d444e87df107fa07dcc2b82953d/django-errors-2.3.0.tar.gz
+[2023-07-29 17:41:12] INFO root fetch - processPackages [cloca]: Downloading https://files.pythonhosted.org/packages/90/02/16746723171be6fb6634f1a5a5a4ba25cf79a638bd98faaefad16c0e97a7/cloca-1.1.1.tar.gz
+[2023-07-29 17:41:12] INFO root fetch - processPackages [sphractal]: executing diffoscope
+[2023-07-29 17:41:12] INFO root fetch - processPackages [sphractal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphractal-0.9.0.tar.gz tmp/sphractal-0.9.1.tar.gz --markdown 20230729/s/sphractal/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-29 17:41:12] INFO root fetch - processPackages [django-errors]: executing diffoscope
+[2023-07-29 17:41:12] INFO root fetch - processPackages [django-errors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-errors-2.1.0.tar.gz tmp/django-errors-2.3.0.tar.gz --markdown 20230729/d/django-errors/2.1.0-2.3.0/diff.md --exclude *.pyd
+[2023-07-29 17:41:12] INFO root fetch - processPackages [django-tailwind-cli]: Downloading https://files.pythonhosted.org/packages/db/68/d472f67672d979769d514e452363de2228b21468dfcea4cdf855286fbf76/django_tailwind_cli-2.0.1.tar.gz
+[2023-07-29 17:41:12] INFO root fetch - processPackages [djx-account]: Downloading https://files.pythonhosted.org/packages/a5/2d/b004ff30593a28023cc396d5123a08211b6ffb5f9ce30fb33a67a6c4f771/djx_account-0.1.1.tar.gz
+[2023-07-29 17:41:12] INFO root fetch - processPackages [vpd]: Downloading https://files.pythonhosted.org/packages/7e/84/55c1adafb72a923126e9c99c2541f452f6993e4da6a2af32f8f65d2ab0fe/vpd-0.9.4.tar.gz
+[2023-07-29 17:41:12] INFO root fetch - processPackages [cloca]: executing diffoscope
+[2023-07-29 17:41:12] INFO root fetch - processPackages [cloca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloca-1.1.0.tar.gz tmp/cloca-1.1.1.tar.gz --markdown 20230729/c/cloca/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-29 17:41:12] INFO root fetch - processPackages [adafruit-circuitpython-turtle]: Downloading https://files.pythonhosted.org/packages/82/56/80bd8acf39d16b85234b3652a12e4ccafc0f577b8ee8887410277b9831ea/adafruit-circuitpython-turtle-2.2.9.tar.gz
+[2023-07-29 17:41:12] INFO root fetch - processPackages [django-tailwind-cli]: executing diffoscope
+[2023-07-29 17:41:12] INFO root fetch - processPackages [django-tailwind-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_tailwind_cli-1.4.3.tar.gz tmp/django_tailwind_cli-2.0.1.tar.gz --markdown 20230729/d/django-tailwind-cli/1.4.3-2.0.1/diff.md --exclude *.pyd
+[2023-07-29 17:41:12] INFO root fetch - processPackages [djx-account]: executing diffoscope
+[2023-07-29 17:41:12] INFO root fetch - processPackages [djx-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djx_account-0.1.0.tar.gz tmp/djx_account-0.1.1.tar.gz --markdown 20230729/d/djx-account/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-29 17:41:12] INFO root fetch - processPackages [vpd]: executing diffoscope
+[2023-07-29 17:41:12] INFO root fetch - processPackages [vpd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vpd-0.9.3.tar.gz tmp/vpd-0.9.4.tar.gz --markdown 20230729/v/vpd/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-29 17:41:12] INFO root fetch - processPackages [adafruit-circuitpython-turtle]: executing diffoscope
+[2023-07-29 17:41:12] INFO root fetch - processPackages [adafruit-circuitpython-turtle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-turtle-2.2.8.tar.gz tmp/adafruit-circuitpython-turtle-2.2.9.tar.gz --markdown 20230729/a/adafruit-circuitpython-turtle/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-29 17:41:13] INFO root fetch - processPackages [cloca]: Remove: archive file [/home/abi/fetcher/tmp/cloca-1.1.0.tar.gz]
+[2023-07-29 17:41:13] INFO root fetch - processPackages [cloca]: Remove: archive file [/home/abi/fetcher/tmp/cloca-1.1.1.tar.gz]
+[2023-07-29 17:41:13] INFO root fetch - main [MainThread]: End processing [cloca]: success
+[2023-07-29 17:41:13] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.9.0.tar.gz]
+[2023-07-29 17:41:13] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.9.1.tar.gz]
+[2023-07-29 17:41:13] INFO root fetch - main [MainThread]: End processing [sphractal]: success
+[2023-07-29 17:41:13] INFO root fetch - processPackages [django-tailwind-cli]: Remove: archive file [/home/abi/fetcher/tmp/django_tailwind_cli-1.4.3.tar.gz]
+[2023-07-29 17:41:13] INFO root fetch - processPackages [django-tailwind-cli]: Remove: archive file [/home/abi/fetcher/tmp/django_tailwind_cli-2.0.1.tar.gz]
+[2023-07-29 17:41:13] INFO root fetch - main [MainThread]: End processing [django-tailwind-cli]: success
+[2023-07-29 17:41:13] INFO root fetch - processPackages [django-errors]: Remove: archive file [/home/abi/fetcher/tmp/django-errors-2.1.0.tar.gz]
+[2023-07-29 17:41:13] INFO root fetch - processPackages [django-errors]: Remove: archive file [/home/abi/fetcher/tmp/django-errors-2.3.0.tar.gz]
+[2023-07-29 17:41:13] INFO root fetch - main [MainThread]: End processing [django-errors]: success
+[2023-07-29 17:41:14] INFO root fetch - processPackages [vpd]: Remove: archive file [/home/abi/fetcher/tmp/vpd-0.9.3.tar.gz]
+[2023-07-29 17:41:14] INFO root fetch - processPackages [vpd]: Remove: archive file [/home/abi/fetcher/tmp/vpd-0.9.4.tar.gz]
+[2023-07-29 17:41:14] INFO root fetch - main [MainThread]: End processing [vpd]: success
+[2023-07-29 17:41:14] INFO root fetch - processPackages [djx-account]: Remove: archive file [/home/abi/fetcher/tmp/djx_account-0.1.0.tar.gz]
+[2023-07-29 17:41:14] INFO root fetch - processPackages [djx-account]: Remove: archive file [/home/abi/fetcher/tmp/djx_account-0.1.1.tar.gz]
+[2023-07-29 17:41:14] INFO root fetch - main [MainThread]: End processing [djx-account]: success
+[2023-07-29 17:41:14] INFO root fetch - processPackages [adafruit-circuitpython-turtle]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-turtle-2.2.8.tar.gz]
+[2023-07-29 17:41:14] INFO root fetch - processPackages [adafruit-circuitpython-turtle]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-turtle-2.2.9.tar.gz]
+[2023-07-29 17:41:14] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-turtle]: success
+[2023-07-29 17:41:14] INFO root fetch - main [MainThread]: Store serial: [19089840]
