@@ -17555,3 +17555,167 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 15:17:06] INFO root fetch - processPackages [teneva]: Remove: archive file [/home/abi/fetcher/tmp/teneva-0.9.9.tar.gz]
 [2023-07-29 15:17:06] INFO root fetch - main [MainThread]: End processing [teneva]: success
 [2023-07-29 15:17:06] INFO root fetch - main [MainThread]: Store serial: [19088917]
+[2023-07-29 15:22:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19088917]
+[2023-07-29 15:22:15] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-29 15:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-master
+[2023-07-29 15:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eo-styleguide
+[2023-07-29 15:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-apl
+[2023-07-29 15:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-nano
+[2023-07-29 15:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-llm
+[2023-07-29 15:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-chronos
+[2023-07-29 15:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: FastDub
+[2023-07-29 15:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl-serving
+[2023-07-29 15:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: MAZAlib
+[2023-07-29 15:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cli-command-parser
+[2023-07-29 15:22:15] INFO root fetch - processPackages [MAZAlib]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-29 15:22:15] INFO root fetch - processPackages [eo-styleguide]: New version: [0.0.1a3] Old Version: [0.0.1a2]
+[2023-07-29 15:22:15] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230729] Old Version: [2.4.0b20230728]
+[2023-07-29 15:22:15] INFO root fetch - processPackages [FastDub]: New version: [3.8.0] Old Version: [3.7.0]
+[2023-07-29 15:22:15] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230729.13.16.714874] Old Version: [20230728.20.6.671891]
+[2023-07-29 15:22:15] INFO root fetch - processPackages [bigdl-llm]: New version: [2.4.0b20230729] Old Version: [2.4.0b20230728]
+[2023-07-29 15:22:15] INFO root fetch - processPackages [cli-command-parser]: New version: [2023.7.29] Old Version: [2023.6.14]
+[2023-07-29 15:22:16] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230729] Old Version: [2.4.0b20230728]
+[2023-07-29 15:22:16] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230729] Old Version: [2.4.0b20230728]
+[2023-07-29 15:22:16] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.924] Old Version: [0.0.923]
+[2023-07-29 15:22:16] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/17/0a/dd730bbe5cecbb9f066d54f59e93550f2f4dd1414d830ca3ce7e126f0d91/bigdl_llm-2.4.0b20230728-py3-none-win_amd64.whl
+[2023-07-29 15:22:16] INFO root fetch - processPackages [MAZAlib]: Downloading https://files.pythonhosted.org/packages/84/68/086bda548b2836fe96884972e0687cf1ae904eafbfb08a2f34867472df24/MAZAlib-0.0.1.tar.gz
+[2023-07-29 15:22:16] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/6e/b7/0f826298c1281c142cf72a8f7483e4df402bab31ebb7a793d6aac6ee75d8/bigdl_serving-2.4.0b20230728-py2.py3-none-any.whl
+[2023-07-29 15:22:16] INFO root fetch - processPackages [eo-styleguide]: Downloading https://files.pythonhosted.org/packages/27/b1/69389d87d27ab55b30802c6453cc3fd3ee67a011668cf96d2c1e97e72c6d/eo_styleguide-0.0.1a2.tar.gz
+[2023-07-29 15:22:16] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/ae/9d/7d1d6f550149295602d746c38dfe034bf6ad5c85291eaaf706d74ca3fda6/nbdev-apl-0.0.923.tar.gz
+[2023-07-29 15:22:16] INFO root fetch - processPackages [FastDub]: Downloading https://files.pythonhosted.org/packages/f2/94/58aa5b1007a31a6c063cfd54e6a317e4727235dd881108b3bb6ca998d142/FastDub-3.7.0.tar.gz
+[2023-07-29 15:22:16] INFO root fetch - processPackages [cli-command-parser]: Downloading https://files.pythonhosted.org/packages/2c/79/8a30c7721c9f854db0fd3b6785d9c7497ff838dddcbd0bed42d02233d4b2/cli_command_parser-2023.6.14.tar.gz
+[2023-07-29 15:22:16] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/55/53/3e28d42707b60978415e409c4cbae7e43fdfb45886eb3d2d7edd92799626/bigdl_chronos-2.4.0b20230728-py3-none-win_amd64.whl
+[2023-07-29 15:22:16] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/fa/01/e76576ecba7322d24d80815052d9b5e3840d097f0907106997249174e5c7/certora-cli-alpha-master-20230728.20.6.671891.tar.gz
+[2023-07-29 15:22:16] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/b3/5f/623408dca82974e53df938dcb9c2ff604031592b150600c9204c1e0f3a21/bigdl_nano-2.4.0b20230728-py3-none-win_amd64.whl
+[2023-07-29 15:22:16] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37695658>=10485760
+[2023-07-29 15:22:16] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: bgstools
+[2023-07-29 15:22:16] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-07-29 15:22:16] INFO root fetch - processPackages [bgstools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-29 15:22:16] INFO root fetch - processPackages [MAZAlib]: Downloading https://files.pythonhosted.org/packages/fa/01/cb8e5ce946cf2b7680506961c4a696c2f3750dbbbe768cc4468d2a26b8a2/MAZAlib-0.0.2.tar.gz
+[2023-07-29 15:22:16] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/5d/dc/ef15d88bfe1cc5d95d6c232f1e82b0a48d3da6b5087e2b889e74cdf0de1a/bigdl_serving-2.4.0b20230729-py2.py3-none-any.whl
+[2023-07-29 15:22:16] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/a3/d9/0f2b579fbbb29225abec7da824c3d2177fa751c84913339da89e8d0b4f89/bgstools-0.1.8.tar.gz
+[2023-07-29 15:22:16] INFO root fetch - processPackages [eo-styleguide]: Downloading https://files.pythonhosted.org/packages/40/06/3d979477b3e9077320254ca43112aa0d6979787639fda33233876831624a/eo_styleguide-0.0.1a3.tar.gz
+[2023-07-29 15:22:16] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/99/0e/deaebc907f161639c6d99c600aab2c96ad5cb59fc8c5965ad6ec65c75fea/nbdev-apl-0.0.924.tar.gz
+[2023-07-29 15:22:16] INFO root fetch - processPackages [FastDub]: Downloading https://files.pythonhosted.org/packages/f9/6b/734b8a48e4e4694c65e34c25960d635b436e761c501f81469116b831cc8c/FastDub-3.8.0.tar.gz
+[2023-07-29 15:22:16] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/12/5a/f86b7e1f29fdba4eda22ee9bb61a74a8a34c6b0312e4b1e943698dbdfc0f/bigdl_llm-2.4.0b20230729-py3-none-win_amd64.whl
+[2023-07-29 15:22:16] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/6c/8a/70d3ae06c854b523f0c5bcccc081476f3cf02abf0fe174b87de43313da4b/bigdl_chronos-2.4.0b20230729-py3-none-win_amd64.whl
+[2023-07-29 15:22:16] INFO root fetch - processPackages [cli-command-parser]: Downloading https://files.pythonhosted.org/packages/0e/b3/c1c46fec8301683bc34d09628ec88fd0fbaec68fe2189cf3157c02d56301/cli_command_parser-2023.7.29.tar.gz
+[2023-07-29 15:22:16] INFO root fetch - processPackages [eo-styleguide]: executing diffoscope
+[2023-07-29 15:22:16] INFO root fetch - processPackages [eo-styleguide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eo_styleguide-0.0.1a2.tar.gz tmp/eo_styleguide-0.0.1a3.tar.gz --markdown 20230729/e/eo-styleguide/0.0.1a2-0.0.1a3/diff.md --exclude *.pyd
+[2023-07-29 15:22:16] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-07-29 15:22:16] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.923.tar.gz tmp/nbdev-apl-0.0.924.tar.gz --markdown 20230729/n/nbdev-apl/0.0.923-0.0.924/diff.md --exclude *.pyd
+[2023-07-29 15:22:17] INFO root fetch - processPackages [MAZAlib]: executing diffoscope
+[2023-07-29 15:22:17] INFO root fetch - processPackages [MAZAlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MAZAlib-0.0.1.tar.gz tmp/MAZAlib-0.0.2.tar.gz --markdown 20230729/M/MAZAlib/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-29 15:22:17] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-07-29 15:22:17] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230728-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230729-py2.py3-none-any.whl.zip --markdown 20230729/b/bigdl-serving/2.4.0b20230728-2.4.0b20230729/diff.md --exclude *.pyd
+[2023-07-29 15:22:17] INFO root fetch - processPackages [FastDub]: executing diffoscope
+[2023-07-29 15:22:17] INFO root fetch - processPackages [FastDub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FastDub-3.7.0.tar.gz tmp/FastDub-3.8.0.tar.gz --markdown 20230729/F/FastDub/3.7.0-3.8.0/diff.md --exclude *.pyd
+[2023-07-29 15:22:17] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/0a/3c/638191cc7a3a6135dbf58e2857b29d83bacba72ac3e579510aae9606e202/bgstools-0.1.9.tar.gz
+[2023-07-29 15:22:17] INFO root fetch - processPackages [cli-command-parser]: executing diffoscope
+[2023-07-29 15:22:17] INFO root fetch - processPackages [cli-command-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cli_command_parser-2023.6.14.tar.gz tmp/cli_command_parser-2023.7.29.tar.gz --markdown 20230729/c/cli-command-parser/2023.6.14-2023.7.29/diff.md --exclude *.pyd
+[2023-07-29 15:22:17] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/9c/dd/5121e642b6661b38ee7817f99327bab1c1ba1dbf13ea9bd1375e31c81c7c/bigdl_nano-2.4.0b20230729-py3-none-win_amd64.whl
+[2023-07-29 15:22:17] INFO root fetch - processPackages [bgstools]: executing diffoscope
+[2023-07-29 15:22:17] INFO root fetch - processPackages [bgstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgstools-0.1.8.tar.gz tmp/bgstools-0.1.9.tar.gz --markdown 20230729/b/bgstools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-29 15:22:17] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-07-29 15:22:17] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230728-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230729-py3-none-win_amd64.whl.zip --markdown 20230729/b/bigdl-chronos/2.4.0b20230728-2.4.0b20230729/diff.md --exclude *.pyd
+[2023-07-29 15:22:17] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-07-29 15:22:17] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230728-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230729-py3-none-win_amd64.whl.zip --markdown 20230729/b/bigdl-nano/2.4.0b20230728-2.4.0b20230729/diff.md --exclude *.pyd
+[2023-07-29 15:22:17] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2023-07-29 15:22:17] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.4.0b20230728-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.4.0b20230729-py3-none-win_amd64.whl.zip --markdown 20230729/b/bigdl-llm/2.4.0b20230728-2.4.0b20230729/diff.md --exclude *.pyd
+[2023-07-29 15:22:18] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.923.tar.gz]
+[2023-07-29 15:22:18] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.924.tar.gz]
+[2023-07-29 15:22:18] INFO root fetch - processPackages [nbdev-apl]: Start processing: event-schema-profcomff
+[2023-07-29 15:22:18] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-07-29 15:22:18] INFO root fetch - processPackages [eo-styleguide]: Remove: archive file [/home/abi/fetcher/tmp/eo_styleguide-0.0.1a2.tar.gz]
+[2023-07-29 15:22:18] INFO root fetch - processPackages [eo-styleguide]: Remove: archive file [/home/abi/fetcher/tmp/eo_styleguide-0.0.1a3.tar.gz]
+[2023-07-29 15:22:18] INFO root fetch - processPackages [eo-styleguide]: Start processing: knnor
+[2023-07-29 15:22:18] INFO root fetch - main [MainThread]: End processing [eo-styleguide]: success
+[2023-07-29 15:22:18] INFO root fetch - processPackages [event-schema-profcomff]: New version: [2023.7.29.1] Old Version: [2023.7.29]
+[2023-07-29 15:22:18] INFO root fetch - processPackages [knnor]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-29 15:22:18] INFO root fetch - processPackages [knnor]: Downloading https://files.pythonhosted.org/packages/a9/56/ec41ed8f2ee323afce1f4c234febdae31c9cf013c64ba14c827d29492fed/knnor-0.1.0.tar.gz
+[2023-07-29 15:22:18] INFO root fetch - processPackages [FastDub]: Remove: archive file [/home/abi/fetcher/tmp/FastDub-3.7.0.tar.gz]
+[2023-07-29 15:22:18] INFO root fetch - processPackages [FastDub]: Remove: archive file [/home/abi/fetcher/tmp/FastDub-3.8.0.tar.gz]
+[2023-07-29 15:22:18] INFO root fetch - processPackages [FastDub]: Start processing: april-vision
+[2023-07-29 15:22:18] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230728-py2.py3-none-any.whl.zip]
+[2023-07-29 15:22:18] INFO root fetch - main [MainThread]: End processing [FastDub]: success
+[2023-07-29 15:22:18] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230729-py2.py3-none-any.whl.zip]
+[2023-07-29 15:22:18] INFO root fetch - processPackages [MAZAlib]: Remove: archive file [/home/abi/fetcher/tmp/MAZAlib-0.0.1.tar.gz]
+[2023-07-29 15:22:18] INFO root fetch - processPackages [MAZAlib]: Remove: archive file [/home/abi/fetcher/tmp/MAZAlib-0.0.2.tar.gz]
+[2023-07-29 15:22:18] INFO root fetch - processPackages [bigdl-serving]: Start processing: nc-py-api
+[2023-07-29 15:22:18] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-07-29 15:22:18] INFO root fetch - processPackages [MAZAlib]: Start processing: apixdev
+[2023-07-29 15:22:18] INFO root fetch - main [MainThread]: End processing [MAZAlib]: success
+[2023-07-29 15:22:18] INFO root fetch - processPackages [event-schema-profcomff]: Downloading https://files.pythonhosted.org/packages/c6/60/0680cbed69cd6f6b41487f64f1e5b7f15c9b4eb9c3f8a5904a461961d5d4/event_schema_profcomff-2023.7.29.tar.gz
+[2023-07-29 15:22:18] INFO root fetch - processPackages [april-vision]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-07-29 15:22:18] INFO root fetch - processPackages [apixdev]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-07-29 15:22:18] INFO root fetch - processPackages [nc-py-api]: New version: [0.0.26] Old Version: [0.0.25]
+[2023-07-29 15:22:18] INFO root fetch - processPackages [bgstools]: Remove: archive file [/home/abi/fetcher/tmp/bgstools-0.1.8.tar.gz]
+[2023-07-29 15:22:18] INFO root fetch - processPackages [bgstools]: Remove: archive file [/home/abi/fetcher/tmp/bgstools-0.1.9.tar.gz]
+[2023-07-29 15:22:18] INFO root fetch - processPackages [bgstools]: Start processing: TheSilent
+[2023-07-29 15:22:18] INFO root fetch - main [MainThread]: End processing [bgstools]: success
+[2023-07-29 15:22:18] INFO root fetch - processPackages [cli-command-parser]: Remove: archive file [/home/abi/fetcher/tmp/cli_command_parser-2023.6.14.tar.gz]
+[2023-07-29 15:22:18] INFO root fetch - processPackages [cli-command-parser]: Remove: archive file [/home/abi/fetcher/tmp/cli_command_parser-2023.7.29.tar.gz]
+[2023-07-29 15:22:18] INFO root fetch - processPackages [cli-command-parser]: Start processing: landocore
+[2023-07-29 15:22:18] INFO root fetch - main [MainThread]: End processing [cli-command-parser]: success
+[2023-07-29 15:22:18] WARNING root fetch - processPackages [landocore]: Skipping, unable to determine old version
+[2023-07-29 15:22:18] INFO root fetch - processPackages [landocore]: Start processing: metis-client
+[2023-07-29 15:22:18] INFO root fetch - main [MainThread]: End processing [landocore] error
+[2023-07-29 15:22:18] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-29 15:22:18] INFO root fetch - processPackages [apixdev]: Downloading https://files.pythonhosted.org/packages/fe/78/0361f6363c8078e9f6c4cd9a5d00c055e2507d8039a322b599a33dbfde40/apixdev-0.3.4.tar.gz
+[2023-07-29 15:22:18] INFO root fetch - processPackages [metis-client]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-29 15:22:19] INFO root fetch - processPackages [knnor]: Downloading https://files.pythonhosted.org/packages/ca/37/b9547164ccccd8ca53b642404652ae6c9ce7e27be0544b275a6b8e90ad30/knnor-0.1.1.tar.gz
+[2023-07-29 15:22:19] INFO root fetch - processPackages [april-vision]: Downloading https://files.pythonhosted.org/packages/39/f8/489360e29b4f357d0c8d7d21fa4bc948413861ac027622bc5d0727c2b84d/april_vision-2.0.2.tar.gz
+[2023-07-29 15:22:19] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-29 15:22:19] INFO root fetch - processPackages [nc-py-api]: Downloading https://files.pythonhosted.org/packages/0f/7d/b0fd5b98bde324e77cf72098a107ca3d08b88534a522c826ad358eb89712/nc_py_api-0.0.25.tar.gz
+[2023-07-29 15:22:19] INFO root fetch - processPackages [event-schema-profcomff]: Downloading https://files.pythonhosted.org/packages/98/43/983f2f1c19d06e7006d6713ffac75a1ca28d9d0046dc2ba483e9eb00a57e/event_schema_profcomff-2023.7.29.1.tar.gz
+[2023-07-29 15:22:19] INFO root fetch - processPackages [knnor]: executing diffoscope
+[2023-07-29 15:22:19] INFO root fetch - processPackages [knnor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knnor-0.1.0.tar.gz tmp/knnor-0.1.1.tar.gz --markdown 20230729/k/knnor/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-29 15:22:19] INFO root fetch - processPackages [metis-client]: Downloading https://files.pythonhosted.org/packages/a0/db/bc030b9638cbc68709c826d55bc7f876536f25884ecf125979c5af0596db/metis_client-0.4.0.tar.gz
+[2023-07-29 15:22:19] INFO root fetch - processPackages [apixdev]: Downloading https://files.pythonhosted.org/packages/55/15/d40d38546737b95366ea2cd90868d3563b8140fae61f4ce12e0c6547555c/apixdev-0.3.5.tar.gz
+[2023-07-29 15:22:19] INFO root fetch - processPackages [event-schema-profcomff]: executing diffoscope
+[2023-07-29 15:22:19] INFO root fetch - processPackages [event-schema-profcomff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/event_schema_profcomff-2023.7.29.tar.gz tmp/event_schema_profcomff-2023.7.29.1.tar.gz --markdown 20230729/e/event-schema-profcomff/2023.7.29-2023.7.29.1/diff.md --exclude *.pyd
+[2023-07-29 15:22:19] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-29 15:22:19] INFO root fetch - processPackages [april-vision]: Downloading https://files.pythonhosted.org/packages/bd/8f/a1d0f877225510174bec0c2946a3a7aae5b95a0e12b1333262d8126035af/april_vision-2.0.3.tar.gz
+[2023-07-29 15:22:19] INFO root fetch - processPackages [apixdev]: executing diffoscope
+[2023-07-29 15:22:19] INFO root fetch - processPackages [apixdev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apixdev-0.3.4.tar.gz tmp/apixdev-0.3.5.tar.gz --markdown 20230729/a/apixdev/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-29 15:22:19] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-29 15:22:19] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230729/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-29 15:22:19] INFO root fetch - processPackages [nc-py-api]: Downloading https://files.pythonhosted.org/packages/bc/c7/1b290420673b2d8f62cb1878dbe77a5aa4aa78cfd1280ec5f443c5471b0c/nc_py_api-0.0.26.tar.gz
+[2023-07-29 15:22:19] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230728-py3-none-win_amd64.whl.zip]
+[2023-07-29 15:22:19] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230729-py3-none-win_amd64.whl.zip]
+[2023-07-29 15:22:19] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-07-29 15:22:19] INFO root fetch - processPackages [april-vision]: executing diffoscope
+[2023-07-29 15:22:19] INFO root fetch - processPackages [april-vision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/april_vision-2.0.2.tar.gz tmp/april_vision-2.0.3.tar.gz --markdown 20230729/a/april-vision/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-07-29 15:22:19] INFO root fetch - processPackages [metis-client]: Downloading https://files.pythonhosted.org/packages/da/12/34d06119006bf39e288c6ec6be48f0f860e04891d51a71bb66eb90a00cbe/metis_client-0.5.0.tar.gz
+[2023-07-29 15:22:19] INFO root fetch - processPackages [nc-py-api]: executing diffoscope
+[2023-07-29 15:22:19] INFO root fetch - processPackages [nc-py-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nc_py_api-0.0.25.tar.gz tmp/nc_py_api-0.0.26.tar.gz --markdown 20230729/n/nc-py-api/0.0.25-0.0.26/diff.md --exclude *.pyd
+[2023-07-29 15:22:19] INFO root fetch - processPackages [metis-client]: executing diffoscope
+[2023-07-29 15:22:19] INFO root fetch - processPackages [metis-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metis_client-0.4.0.tar.gz tmp/metis_client-0.5.0.tar.gz --markdown 20230729/m/metis-client/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-29 15:22:20] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230728-py3-none-win_amd64.whl.zip]
+[2023-07-29 15:22:20] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230729-py3-none-win_amd64.whl.zip]
+[2023-07-29 15:22:20] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-07-29 15:22:20] INFO root fetch - processPackages [knnor]: Remove: archive file [/home/abi/fetcher/tmp/knnor-0.1.0.tar.gz]
+[2023-07-29 15:22:20] INFO root fetch - processPackages [knnor]: Remove: archive file [/home/abi/fetcher/tmp/knnor-0.1.1.tar.gz]
+[2023-07-29 15:22:20] INFO root fetch - main [MainThread]: End processing [knnor]: success
+[2023-07-29 15:22:20] INFO root fetch - processPackages [event-schema-profcomff]: Remove: archive file [/home/abi/fetcher/tmp/event_schema_profcomff-2023.7.29.tar.gz]
+[2023-07-29 15:22:20] INFO root fetch - processPackages [event-schema-profcomff]: Remove: archive file [/home/abi/fetcher/tmp/event_schema_profcomff-2023.7.29.1.tar.gz]
+[2023-07-29 15:22:20] INFO root fetch - main [MainThread]: End processing [event-schema-profcomff]: success
+[2023-07-29 15:22:20] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-29 15:22:20] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-29 15:22:20] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-29 15:22:20] INFO root fetch - processPackages [apixdev]: Remove: archive file [/home/abi/fetcher/tmp/apixdev-0.3.4.tar.gz]
+[2023-07-29 15:22:20] INFO root fetch - processPackages [apixdev]: Remove: archive file [/home/abi/fetcher/tmp/apixdev-0.3.5.tar.gz]
+[2023-07-29 15:22:20] INFO root fetch - main [MainThread]: End processing [apixdev]: success
+[2023-07-29 15:22:21] INFO root fetch - processPackages [nc-py-api]: Remove: archive file [/home/abi/fetcher/tmp/nc_py_api-0.0.25.tar.gz]
+[2023-07-29 15:22:21] INFO root fetch - processPackages [nc-py-api]: Remove: archive file [/home/abi/fetcher/tmp/nc_py_api-0.0.26.tar.gz]
+[2023-07-29 15:22:21] INFO root fetch - main [MainThread]: End processing [nc-py-api]: success
+[2023-07-29 15:22:21] INFO root fetch - processPackages [metis-client]: Remove: archive file [/home/abi/fetcher/tmp/metis_client-0.4.0.tar.gz]
+[2023-07-29 15:22:21] INFO root fetch - processPackages [metis-client]: Remove: archive file [/home/abi/fetcher/tmp/metis_client-0.5.0.tar.gz]
+[2023-07-29 15:22:21] INFO root fetch - main [MainThread]: End processing [metis-client]: success
+[2023-07-29 15:22:21] INFO root fetch - processPackages [april-vision]: Remove: archive file [/home/abi/fetcher/tmp/april_vision-2.0.2.tar.gz]
+[2023-07-29 15:22:21] INFO root fetch - processPackages [april-vision]: Remove: archive file [/home/abi/fetcher/tmp/april_vision-2.0.3.tar.gz]
+[2023-07-29 15:22:21] INFO root fetch - main [MainThread]: End processing [april-vision]: success
+[2023-07-29 15:22:31] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230728-py3-none-win_amd64.whl.zip]
+[2023-07-29 15:22:31] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230729-py3-none-win_amd64.whl.zip]
+[2023-07-29 15:22:31] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2023-07-29 15:22:31] INFO root fetch - main [MainThread]: Store serial: [19088977]
