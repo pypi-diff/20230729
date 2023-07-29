@@ -22751,3 +22751,51 @@ AssertionError: tmp/pulpcore-3.9.0.tar.gz does not exist
 [2023-07-29 21:20:49] INFO root fetch - processPackages [reolink-aio]: Remove: archive file [/home/abi/fetcher/tmp/reolink_aio-0.7.6.tar.gz]
 [2023-07-29 21:20:49] INFO root fetch - main [MainThread]: End processing [reolink-aio]: success
 [2023-07-29 21:20:49] INFO root fetch - main [MainThread]: Store serial: [19091245]
+[2023-07-29 21:25:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19091245]
+[2023-07-29 21:25:58] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-29 21:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gammarer.aws-daily-cloud-watch-logs-archiver
+[2023-07-29 21:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dalinicus.aiolyric
+[2023-07-29 21:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: boum
+[2023-07-29 21:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deepchecks-llm-client
+[2023-07-29 21:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cudagrad
+[2023-07-29 21:25:58] INFO root fetch - processPackages [boum]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-29 21:25:58] INFO root fetch - processPackages [dalinicus.aiolyric]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-29 21:25:58] INFO root fetch - processPackages [gammarer.aws-daily-cloud-watch-logs-archiver]: New version: [0.11.9] Old Version: [0.11.8]
+[2023-07-29 21:25:58] INFO root fetch - processPackages [boum]: Downloading https://files.pythonhosted.org/packages/58/d3/101cc5fbcac2d975fdbf9d8b17f3be747f658691ae2ebb7921f06d476ca1/boum-1.2.2.tar.gz
+[2023-07-29 21:25:58] INFO root fetch - processPackages [deepchecks-llm-client]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-07-29 21:25:58] INFO root fetch - processPackages [cudagrad]: New version: [0.0.31] Old Version: [0.0.30]
+[2023-07-29 21:25:58] INFO root fetch - processPackages [gammarer.aws-daily-cloud-watch-logs-archiver]: Downloading https://files.pythonhosted.org/packages/1b/9e/1dba0665ad083bd3e16d821966eb5fe472464d1cf0e869d77bc356dcf442/gammarer.aws-daily-cloud-watch-logs-archiver-0.11.8.tar.gz
+[2023-07-29 21:25:58] INFO root fetch - processPackages [dalinicus.aiolyric]: Downloading https://files.pythonhosted.org/packages/26/32/a7938689566934779371a536e0875293fe2d4812c675f418891e912c821a/dalinicus.aiolyric-1.1.1.tar.gz
+[2023-07-29 21:25:58] INFO root fetch - processPackages [deepchecks-llm-client]: Downloading https://files.pythonhosted.org/packages/41/9b/15617f1a4eca15a76429e127de47302e97f5fa7b006bd76d4a67a4da8ab8/deepchecks-llm-client-0.0.4.tar.gz
+[2023-07-29 21:25:59] INFO root fetch - processPackages [cudagrad]: Downloading https://files.pythonhosted.org/packages/0e/6f/020e6c82a6d2e454abf0d1a1160d3b04a942a452a55787998cc3d9b44a34/cudagrad-0.0.30.tar.gz
+[2023-07-29 21:25:59] INFO root fetch - processPackages [boum]: Downloading https://files.pythonhosted.org/packages/43/76/e1b4d250fd970c144e9803a027216c84ebf33e5e116eb5f96cf4f75fbad7/boum-1.2.3.tar.gz
+[2023-07-29 21:25:59] INFO root fetch - processPackages [dalinicus.aiolyric]: Downloading https://files.pythonhosted.org/packages/63/30/b76a8556d7b61a55b4015e4e3bf8b8a5270f6debb4839d4e49250f9ea947/dalinicus.aiolyric-1.1.2.tar.gz
+[2023-07-29 21:25:59] INFO root fetch - processPackages [boum]: executing diffoscope
+[2023-07-29 21:25:59] INFO root fetch - processPackages [boum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boum-1.2.2.tar.gz tmp/boum-1.2.3.tar.gz --markdown 20230729/b/boum/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-29 21:25:59] INFO root fetch - processPackages [dalinicus.aiolyric]: executing diffoscope
+[2023-07-29 21:25:59] INFO root fetch - processPackages [dalinicus.aiolyric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dalinicus.aiolyric-1.1.1.tar.gz tmp/dalinicus.aiolyric-1.1.2.tar.gz --markdown 20230729/d/dalinicus.aiolyric/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-29 21:25:59] INFO root fetch - processPackages [gammarer.aws-daily-cloud-watch-logs-archiver]: Downloading https://files.pythonhosted.org/packages/3e/86/d1e47db6c155fabe385e351303cb7dd51ec2ea80fa55591718fde5566cae/gammarer.aws-daily-cloud-watch-logs-archiver-0.11.9.tar.gz
+[2023-07-29 21:25:59] INFO root fetch - processPackages [gammarer.aws-daily-cloud-watch-logs-archiver]: executing diffoscope
+[2023-07-29 21:25:59] INFO root fetch - processPackages [gammarer.aws-daily-cloud-watch-logs-archiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-daily-cloud-watch-logs-archiver-0.11.8.tar.gz tmp/gammarer.aws-daily-cloud-watch-logs-archiver-0.11.9.tar.gz --markdown 20230729/g/gammarer.aws-daily-cloud-watch-logs-archiver/0.11.8-0.11.9/diff.md --exclude *.pyd
+[2023-07-29 21:25:59] INFO root fetch - processPackages [deepchecks-llm-client]: Downloading https://files.pythonhosted.org/packages/37/d9/8b3cc564d4c8501d78cb2e9db02f9c002b17370f2ee686f8565875be6f90/deepchecks-llm-client-0.1.0.tar.gz
+[2023-07-29 21:25:59] INFO root fetch - processPackages [cudagrad]: Downloading https://files.pythonhosted.org/packages/b3/ca/ceaec4e25ded50e8ba2088327422d4bafa626c7c3e1be567373672b07de3/cudagrad-0.0.31.tar.gz
+[2023-07-29 21:25:59] INFO root fetch - processPackages [deepchecks-llm-client]: executing diffoscope
+[2023-07-29 21:25:59] INFO root fetch - processPackages [deepchecks-llm-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepchecks-llm-client-0.0.4.tar.gz tmp/deepchecks-llm-client-0.1.0.tar.gz --markdown 20230729/d/deepchecks-llm-client/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-07-29 21:25:59] INFO root fetch - processPackages [cudagrad]: executing diffoscope
+[2023-07-29 21:25:59] INFO root fetch - processPackages [cudagrad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cudagrad-0.0.30.tar.gz tmp/cudagrad-0.0.31.tar.gz --markdown 20230729/c/cudagrad/0.0.30-0.0.31/diff.md --exclude *.pyd
+[2023-07-29 21:26:00] INFO root fetch - processPackages [dalinicus.aiolyric]: Remove: archive file [/home/abi/fetcher/tmp/dalinicus.aiolyric-1.1.1.tar.gz]
+[2023-07-29 21:26:00] INFO root fetch - processPackages [dalinicus.aiolyric]: Remove: archive file [/home/abi/fetcher/tmp/dalinicus.aiolyric-1.1.2.tar.gz]
+[2023-07-29 21:26:00] INFO root fetch - main [MainThread]: End processing [dalinicus.aiolyric]: success
+[2023-07-29 21:26:00] INFO root fetch - processPackages [boum]: Remove: archive file [/home/abi/fetcher/tmp/boum-1.2.2.tar.gz]
+[2023-07-29 21:26:00] INFO root fetch - processPackages [boum]: Remove: archive file [/home/abi/fetcher/tmp/boum-1.2.3.tar.gz]
+[2023-07-29 21:26:00] INFO root fetch - main [MainThread]: End processing [boum]: success
+[2023-07-29 21:26:00] INFO root fetch - processPackages [gammarer.aws-daily-cloud-watch-logs-archiver]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-daily-cloud-watch-logs-archiver-0.11.8.tar.gz]
+[2023-07-29 21:26:00] INFO root fetch - processPackages [gammarer.aws-daily-cloud-watch-logs-archiver]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-daily-cloud-watch-logs-archiver-0.11.9.tar.gz]
+[2023-07-29 21:26:00] INFO root fetch - main [MainThread]: End processing [gammarer.aws-daily-cloud-watch-logs-archiver]: success
+[2023-07-29 21:26:00] INFO root fetch - processPackages [deepchecks-llm-client]: Remove: archive file [/home/abi/fetcher/tmp/deepchecks-llm-client-0.0.4.tar.gz]
+[2023-07-29 21:26:00] INFO root fetch - processPackages [deepchecks-llm-client]: Remove: archive file [/home/abi/fetcher/tmp/deepchecks-llm-client-0.1.0.tar.gz]
+[2023-07-29 21:26:00] INFO root fetch - main [MainThread]: End processing [deepchecks-llm-client]: success
+[2023-07-29 21:26:00] INFO root fetch - processPackages [cudagrad]: Remove: archive file [/home/abi/fetcher/tmp/cudagrad-0.0.30.tar.gz]
+[2023-07-29 21:26:00] INFO root fetch - processPackages [cudagrad]: Remove: archive file [/home/abi/fetcher/tmp/cudagrad-0.0.31.tar.gz]
+[2023-07-29 21:26:00] INFO root fetch - main [MainThread]: End processing [cudagrad]: success
+[2023-07-29 21:26:00] INFO root fetch - main [MainThread]: Store serial: [19091259]
