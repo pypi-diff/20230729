@@ -20389,3 +20389,70 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 18:38:44] INFO root fetch - processPackages [composabl]: Remove: archive file [/home/abi/fetcher/tmp/composabl-0.2.7-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
 [2023-07-29 18:38:44] INFO root fetch - main [MainThread]: End processing [composabl]: success
 [2023-07-29 18:38:44] INFO root fetch - main [MainThread]: Store serial: [19090232]
+[2023-07-29 18:43:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19090232]
+[2023-07-29 18:43:53] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-29 18:43:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swiftly-sys
+[2023-07-29 18:43:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypus
+[2023-07-29 18:43:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: filter-stations
+[2023-07-29 18:43:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: csrfmap
+[2023-07-29 18:43:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yunxiao
+[2023-07-29 18:43:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: soagen
+[2023-07-29 18:43:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sakura-fastapi-provider
+[2023-07-29 18:43:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: csrfmap
+[2023-07-29 18:43:53] INFO root fetch - processPackages [filter-stations]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-29 18:43:53] INFO root fetch - processPackages [csrfmap]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-29 18:43:53] INFO root fetch - processPackages [swiftly-sys]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-29 18:43:53] INFO root fetch - processPackages [csrfmap]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-29 18:43:53] INFO root fetch - processPackages [pypus]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-07-29 18:43:53] INFO root fetch - processPackages [yunxiao]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-07-29 18:43:53] WARNING root fetch - processPackages [sakura-fastapi-provider]: Skipping, unable to determine old version
+[2023-07-29 18:43:53] INFO root fetch - main [MainThread]: End processing [sakura-fastapi-provider] error
+[2023-07-29 18:43:53] INFO root fetch - processPackages [soagen]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-07-29 18:43:53] INFO root fetch - processPackages [swiftly-sys]: Downloading https://files.pythonhosted.org/packages/d5/4d/db792be803a5df7839dac2654dbf95dfc97c14c43828af4459a055ce3932/swiftly-sys-0.0.4.tar.gz
+[2023-07-29 18:43:53] INFO root fetch - processPackages [yunxiao]: Downloading https://files.pythonhosted.org/packages/9b/31/a59d441b06f7ed93eaf36cf3f69bf77a801dfee9c0c16580eb2c2fc6e28b/yunxiao-0.3.5.tar.gz
+[2023-07-29 18:43:53] INFO root fetch - processPackages [pypus]: Downloading https://files.pythonhosted.org/packages/75/a1/d1c22ac637c8db9c735fd17823521784679d1be74a40ef079a58db53f4f9/pypus-1.2.0.tar.gz
+[2023-07-29 18:43:53] INFO root fetch - processPackages [csrfmap]: Downloading https://files.pythonhosted.org/packages/3b/df/59db2058cff4ae01db5f3d4746f4ea1ad56a71aff866c8187d9310e0d83a/csrfmap-0.0.2.tar.gz
+[2023-07-29 18:43:53] INFO root fetch - processPackages [filter-stations]: Downloading https://files.pythonhosted.org/packages/bb/ba/2ddffdca60c08cb627a5fd9b280e6cc83ec0c5a91c0c701cdf66aa67ea18/filter_stations-0.3.8.tar.gz
+[2023-07-29 18:43:53] INFO root fetch - processPackages [csrfmap]: Downloading https://files.pythonhosted.org/packages/3b/df/59db2058cff4ae01db5f3d4746f4ea1ad56a71aff866c8187d9310e0d83a/csrfmap-0.0.2.tar.gz
+[2023-07-29 18:43:53] INFO root fetch - processPackages [soagen]: Downloading https://files.pythonhosted.org/packages/39/df/005a73307e5381195196f8f98d894b39c5b3ff9618af9b2753c29875b4e3/soagen-0.0.1.tar.gz
+[2023-07-29 18:43:54] INFO root fetch - processPackages [swiftly-sys]: Downloading https://files.pythonhosted.org/packages/ba/2c/e47226960826a8c4b444f6da51c35d3bf6d4d7ef6c6459985ed1919cf326/swiftly-sys-0.0.5.tar.gz
+[2023-07-29 18:43:54] INFO root fetch - processPackages [yunxiao]: Downloading https://files.pythonhosted.org/packages/7e/e3/1a782223f6d37bc3620483c1c8b50b29fb937c05175ae18165496a63fc32/yunxiao-0.3.6.tar.gz
+[2023-07-29 18:43:54] INFO root fetch - processPackages [pypus]: Downloading https://files.pythonhosted.org/packages/4d/17/31b8eaca1d74ffc9c12ddc8d915dfd22e168a3ba2c1b94c05f1bdd9ba3df/pypus-1.3.0.tar.gz
+[2023-07-29 18:43:54] INFO root fetch - processPackages [csrfmap]: Downloading https://files.pythonhosted.org/packages/79/f4/f5193c98bf9794c45fec28d097a4635988c2eb6ef486e63b2923bc22220b/csrfmap-0.0.3.tar.gz
+[2023-07-29 18:43:54] INFO root fetch - processPackages [csrfmap]: Downloading https://files.pythonhosted.org/packages/79/f4/f5193c98bf9794c45fec28d097a4635988c2eb6ef486e63b2923bc22220b/csrfmap-0.0.3.tar.gz
+[2023-07-29 18:43:54] INFO root fetch - processPackages [swiftly-sys]: executing diffoscope
+[2023-07-29 18:43:54] INFO root fetch - processPackages [swiftly-sys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swiftly-sys-0.0.4.tar.gz tmp/swiftly-sys-0.0.5.tar.gz --markdown 20230729/s/swiftly-sys/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-29 18:43:54] INFO root fetch - processPackages [filter-stations]: Downloading https://files.pythonhosted.org/packages/77/8e/07218807f1e3a03c9010a4a206798f76a40a680bf82259509f97152eac20/filter_stations-0.3.9.tar.gz
+[2023-07-29 18:43:54] INFO root fetch - processPackages [yunxiao]: executing diffoscope
+[2023-07-29 18:43:54] INFO root fetch - processPackages [yunxiao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yunxiao-0.3.5.tar.gz tmp/yunxiao-0.3.6.tar.gz --markdown 20230729/y/yunxiao/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-07-29 18:43:54] INFO root fetch - processPackages [soagen]: Downloading https://files.pythonhosted.org/packages/b0/0d/9b6a4232e2a4af87c256ba78ba578d527d0cacd502a2630c5ff9a72c4dd4/soagen-0.1.0.tar.gz
+[2023-07-29 18:43:54] INFO root fetch - processPackages [pypus]: executing diffoscope
+[2023-07-29 18:43:54] INFO root fetch - processPackages [pypus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypus-1.2.0.tar.gz tmp/pypus-1.3.0.tar.gz --markdown 20230729/p/pypus/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-07-29 18:43:54] INFO root fetch - processPackages [csrfmap]: executing diffoscope
+[2023-07-29 18:43:54] INFO root fetch - processPackages [csrfmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csrfmap-0.0.2.tar.gz tmp/csrfmap-0.0.3.tar.gz --markdown 20230729/c/csrfmap/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-29 18:43:54] INFO root fetch - processPackages [csrfmap]: executing diffoscope
+[2023-07-29 18:43:54] INFO root fetch - processPackages [csrfmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csrfmap-0.0.2.tar.gz tmp/csrfmap-0.0.3.tar.gz --markdown 20230729/c/csrfmap/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-29 18:43:54] INFO root fetch - processPackages [filter-stations]: executing diffoscope
+[2023-07-29 18:43:54] INFO root fetch - processPackages [filter-stations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filter_stations-0.3.8.tar.gz tmp/filter_stations-0.3.9.tar.gz --markdown 20230729/f/filter-stations/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-29 18:43:54] INFO root fetch - processPackages [soagen]: executing diffoscope
+[2023-07-29 18:43:54] INFO root fetch - processPackages [soagen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soagen-0.0.1.tar.gz tmp/soagen-0.1.0.tar.gz --markdown 20230729/s/soagen/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-07-29 18:43:55] INFO root fetch - processPackages [swiftly-sys]: Remove: archive file [/home/abi/fetcher/tmp/swiftly-sys-0.0.4.tar.gz]
+[2023-07-29 18:43:55] INFO root fetch - processPackages [swiftly-sys]: Remove: archive file [/home/abi/fetcher/tmp/swiftly-sys-0.0.5.tar.gz]
+[2023-07-29 18:43:55] INFO root fetch - main [MainThread]: End processing [swiftly-sys]: success
+[2023-07-29 18:43:55] INFO root fetch - processPackages [pypus]: Remove: archive file [/home/abi/fetcher/tmp/pypus-1.2.0.tar.gz]
+[2023-07-29 18:43:55] INFO root fetch - processPackages [pypus]: Remove: archive file [/home/abi/fetcher/tmp/pypus-1.3.0.tar.gz]
+[2023-07-29 18:43:55] INFO root fetch - main [MainThread]: End processing [pypus]: success
+[2023-07-29 18:43:55] INFO root fetch - processPackages [csrfmap]: Remove: archive file [/home/abi/fetcher/tmp/csrfmap-0.0.2.tar.gz]
+[2023-07-29 18:43:55] INFO root fetch - processPackages [csrfmap]: Remove: archive file [/home/abi/fetcher/tmp/csrfmap-0.0.3.tar.gz]
+[2023-07-29 18:43:55] INFO root fetch - main [MainThread]: End processing [csrfmap]: success
+[2023-07-29 18:43:55] INFO root fetch - processPackages [yunxiao]: Remove: archive file [/home/abi/fetcher/tmp/yunxiao-0.3.5.tar.gz]
+[2023-07-29 18:43:55] INFO root fetch - processPackages [yunxiao]: Remove: archive file [/home/abi/fetcher/tmp/yunxiao-0.3.6.tar.gz]
+[2023-07-29 18:43:55] INFO root fetch - main [MainThread]: End processing [yunxiao]: success
+[2023-07-29 18:43:55] INFO root fetch - main [MainThread]: End processing [csrfmap]: success
+[2023-07-29 18:43:55] INFO root fetch - processPackages [filter-stations]: Remove: archive file [/home/abi/fetcher/tmp/filter_stations-0.3.8.tar.gz]
+[2023-07-29 18:43:55] INFO root fetch - processPackages [filter-stations]: Remove: archive file [/home/abi/fetcher/tmp/filter_stations-0.3.9.tar.gz]
+[2023-07-29 18:43:55] INFO root fetch - main [MainThread]: End processing [filter-stations]: success
+[2023-07-29 18:43:55] INFO root fetch - processPackages [soagen]: Remove: archive file [/home/abi/fetcher/tmp/soagen-0.0.1.tar.gz]
+[2023-07-29 18:43:55] INFO root fetch - processPackages [soagen]: Remove: archive file [/home/abi/fetcher/tmp/soagen-0.1.0.tar.gz]
+[2023-07-29 18:43:55] INFO root fetch - main [MainThread]: End processing [soagen]: success
+[2023-07-29 18:43:55] INFO root fetch - main [MainThread]: Store serial: [19090259]
