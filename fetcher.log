@@ -7007,3 +7007,20 @@
 [2023-07-29 04:03:53] INFO root fetch - processPackages [docassemble.webapp]: Remove: archive file [/home/abi/fetcher/tmp/docassemble.webapp-1.4.9.tar.gz]
 [2023-07-29 04:03:53] INFO root fetch - main [MainThread]: End processing [docassemble.webapp]: success
 [2023-07-29 04:03:53] INFO root fetch - main [MainThread]: Store serial: [19084671]
+[2023-07-29 04:08:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19084671]
+[2023-07-29 04:09:02] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-29 04:09:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xftsim
+[2023-07-29 04:09:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abstract-gui
+[2023-07-29 04:09:02] INFO root fetch - processPackages [xftsim]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-29 04:09:02] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.50.4] Old Version: [0.0.50.3]
+[2023-07-29 04:09:02] INFO root fetch - processPackages [xftsim]: Downloading https://files.pythonhosted.org/packages/27/0f/2e7746a9d9ec7586f866ecf4b24245fc55417b7a4c95bdba45b619497877/xftsim-0.1.4.tar.gz
+[2023-07-29 04:09:02] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/5b/f5/8a7a837bffe467a182dc3aa0e9866483777e6f0f310e5cefdcae79d9aa84/abstract_gui-0.0.50.3.tar.gz
+[2023-07-29 04:09:02] WARNING root fetch - processPackages [xftsim]: Skipping package: exceeds size limit 17629025>=10485760
+[2023-07-29 04:09:02] INFO root fetch - main [MainThread]: End processing [xftsim] error
+[2023-07-29 04:09:02] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/a2/c0/f1d49b859dbb356480c5cb1e44611be62fc94d69d6318f7e5c40d95998c0/abstract_gui-0.0.50.4.tar.gz
+[2023-07-29 04:09:02] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-07-29 04:09:02] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.50.3.tar.gz tmp/abstract_gui-0.0.50.4.tar.gz --markdown 20230729/a/abstract-gui/0.0.50.3-0.0.50.4/diff.md --exclude *.pyd
+[2023-07-29 04:09:03] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.50.3.tar.gz]
+[2023-07-29 04:09:03] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.50.4.tar.gz]
+[2023-07-29 04:09:03] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-07-29 04:09:03] INFO root fetch - main [MainThread]: Store serial: [19084680]
