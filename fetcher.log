@@ -11820,3 +11820,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 11:46:26] INFO root fetch - processPackages [tendril-utils-types]: Remove: archive file [/home/abi/fetcher/tmp/tendril-utils-types-0.2.2.tar.gz]
 [2023-07-29 11:46:26] INFO root fetch - main [MainThread]: End processing [tendril-utils-types]: success
 [2023-07-29 11:46:26] INFO root fetch - main [MainThread]: Store serial: [19086682]
+[2023-07-29 11:51:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19086682]
+[2023-07-29 11:51:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-29 11:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: djangoldp-babelfish
+[2023-07-29 11:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: voltcraft
+[2023-07-29 11:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tondortools
+[2023-07-29 11:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyqtclass
+[2023-07-29 11:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pbix-chinese
+[2023-07-29 11:51:34] INFO root fetch - processPackages [pyqtclass]: New version: [0.2.7] Old Version: [0.2.5]
+[2023-07-29 11:51:34] INFO root fetch - processPackages [voltcraft]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-07-29 11:51:34] INFO root fetch - processPackages [djangoldp-babelfish]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-29 11:51:34] INFO root fetch - processPackages [tondortools]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-29 11:51:35] INFO root fetch - processPackages [pbix-chinese]: New version: [23.7.7] Old Version: [23.7.6]
+[2023-07-29 11:51:35] INFO root fetch - processPackages [voltcraft]: Downloading https://files.pythonhosted.org/packages/00/36/bfb76149ac4018918d31d9ea9ecfb788fb2242e46d3c95b296a7fd6acb81/voltcraft-1.4.0.tar.gz
+[2023-07-29 11:51:35] INFO root fetch - processPackages [djangoldp-babelfish]: Downloading https://files.pythonhosted.org/packages/50/42/002488c73290a228a8d942bce2e1124c5edcab4ea351171bd50258b0a41c/djangoldp_babelfish-1.0.1.tar.gz
+[2023-07-29 11:51:35] INFO root fetch - processPackages [tondortools]: Downloading https://files.pythonhosted.org/packages/82/e1/2aa1fedb662921036c377a44557417b3457324fa888edd02a9f166b12fdd/tondortools-1.0.8.tar.gz
+[2023-07-29 11:51:35] INFO root fetch - processPackages [pyqtclass]: Downloading https://files.pythonhosted.org/packages/0a/72/e27654b6d111248642cb718be80cc99ab1a59190e23d94a5832a37533915/pyqtclass-0.2.5.tar.gz
+[2023-07-29 11:51:35] INFO root fetch - processPackages [pbix-chinese]: Downloading https://files.pythonhosted.org/packages/41/59/778bcf94d13520a7e330d5c5f5e7bea0ee642decf1cfa9684c57d246fb6e/pbix_chinese-23.7.6.tar.gz
+[2023-07-29 11:51:35] INFO root fetch - processPackages [tondortools]: Downloading https://files.pythonhosted.org/packages/7b/e5/c2a6c8cdb037b89a83b125d896c8496a2fb76ce7b44d0aac0f39fd3bf1ac/tondortools-1.0.9.tar.gz
+[2023-07-29 11:51:35] INFO root fetch - processPackages [voltcraft]: Downloading https://files.pythonhosted.org/packages/36/f3/f59f10c3c0c6eb65fb53aace4cd41c85fb093f8fda21b31bd07821095a8d/voltcraft-1.4.1.tar.gz
+[2023-07-29 11:51:35] INFO root fetch - processPackages [djangoldp-babelfish]: Downloading https://files.pythonhosted.org/packages/10/13/1bc66e4f0223f9b39a25318f6fac684087838cd535bebea2c02e1c853bbf/djangoldp_babelfish-1.0.2.tar.gz
+[2023-07-29 11:51:35] INFO root fetch - processPackages [pyqtclass]: Downloading https://files.pythonhosted.org/packages/f5/d3/e88272c945778f2e0f5c78d586ac422c0cfca0d7344ef35d954ff1a14548/pyqtclass-0.2.7.tar.gz
+[2023-07-29 11:51:35] INFO root fetch - processPackages [tondortools]: executing diffoscope
+[2023-07-29 11:51:35] INFO root fetch - processPackages [tondortools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tondortools-1.0.8.tar.gz tmp/tondortools-1.0.9.tar.gz --markdown 20230729/t/tondortools/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-29 11:51:35] INFO root fetch - processPackages [voltcraft]: executing diffoscope
+[2023-07-29 11:51:35] INFO root fetch - processPackages [voltcraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voltcraft-1.4.0.tar.gz tmp/voltcraft-1.4.1.tar.gz --markdown 20230729/v/voltcraft/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-07-29 11:51:35] INFO root fetch - processPackages [djangoldp-babelfish]: executing diffoscope
+[2023-07-29 11:51:35] INFO root fetch - processPackages [djangoldp-babelfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_babelfish-1.0.1.tar.gz tmp/djangoldp_babelfish-1.0.2.tar.gz --markdown 20230729/d/djangoldp-babelfish/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-29 11:51:35] INFO root fetch - processPackages [pyqtclass]: executing diffoscope
+[2023-07-29 11:51:35] INFO root fetch - processPackages [pyqtclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqtclass-0.2.5.tar.gz tmp/pyqtclass-0.2.7.tar.gz --markdown 20230729/p/pyqtclass/0.2.5-0.2.7/diff.md --exclude *.pyd
+[2023-07-29 11:51:35] INFO root fetch - processPackages [pbix-chinese]: Downloading https://files.pythonhosted.org/packages/4e/5d/a502bc7959bea67fc5283583452ea434943685fa3fc8791f391a12db9846/pbix_chinese-23.7.7.tar.gz
+[2023-07-29 11:51:36] INFO root fetch - processPackages [pbix-chinese]: executing diffoscope
+[2023-07-29 11:51:36] INFO root fetch - processPackages [pbix-chinese]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbix_chinese-23.7.6.tar.gz tmp/pbix_chinese-23.7.7.tar.gz --markdown 20230729/p/pbix-chinese/23.7.6-23.7.7/diff.md --exclude *.pyd
+[2023-07-29 11:51:36] INFO root fetch - processPackages [voltcraft]: Remove: archive file [/home/abi/fetcher/tmp/voltcraft-1.4.0.tar.gz]
+[2023-07-29 11:51:36] INFO root fetch - processPackages [voltcraft]: Remove: archive file [/home/abi/fetcher/tmp/voltcraft-1.4.1.tar.gz]
+[2023-07-29 11:51:36] INFO root fetch - main [MainThread]: End processing [voltcraft]: success
+[2023-07-29 11:51:36] INFO root fetch - processPackages [djangoldp-babelfish]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_babelfish-1.0.1.tar.gz]
+[2023-07-29 11:51:36] INFO root fetch - processPackages [djangoldp-babelfish]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_babelfish-1.0.2.tar.gz]
+[2023-07-29 11:51:36] INFO root fetch - main [MainThread]: End processing [djangoldp-babelfish]: success
+[2023-07-29 11:51:36] INFO root fetch - processPackages [tondortools]: Remove: archive file [/home/abi/fetcher/tmp/tondortools-1.0.8.tar.gz]
+[2023-07-29 11:51:36] INFO root fetch - processPackages [tondortools]: Remove: archive file [/home/abi/fetcher/tmp/tondortools-1.0.9.tar.gz]
+[2023-07-29 11:51:36] INFO root fetch - main [MainThread]: End processing [tondortools]: success
+[2023-07-29 11:51:36] INFO root fetch - processPackages [pyqtclass]: Remove: archive file [/home/abi/fetcher/tmp/pyqtclass-0.2.5.tar.gz]
+[2023-07-29 11:51:36] INFO root fetch - processPackages [pyqtclass]: Remove: archive file [/home/abi/fetcher/tmp/pyqtclass-0.2.7.tar.gz]
+[2023-07-29 11:51:36] INFO root fetch - main [MainThread]: End processing [pyqtclass]: success
+[2023-07-29 11:51:36] INFO root fetch - processPackages [pbix-chinese]: Remove: archive file [/home/abi/fetcher/tmp/pbix_chinese-23.7.6.tar.gz]
+[2023-07-29 11:51:36] INFO root fetch - processPackages [pbix-chinese]: Remove: archive file [/home/abi/fetcher/tmp/pbix_chinese-23.7.7.tar.gz]
+[2023-07-29 11:51:36] INFO root fetch - main [MainThread]: End processing [pbix-chinese]: success
+[2023-07-29 11:51:36] INFO root fetch - main [MainThread]: Store serial: [19086697]
