@@ -20603,3 +20603,84 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 18:54:19] INFO root fetch - processPackages [napiod]: Remove: archive file [/home/abi/fetcher/tmp/napiod-0.1.1.tar.gz]
 [2023-07-29 18:54:19] INFO root fetch - main [MainThread]: End processing [napiod]: success
 [2023-07-29 18:54:19] INFO root fetch - main [MainThread]: Store serial: [19090320]
+[2023-07-29 18:59:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19090320]
+[2023-07-29 18:59:29] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-29 18:59:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyPhasesML
+[2023-07-29 18:59:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: black-scholes-pyvollib-gamma
+[2023-07-29 18:59:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easyencryption
+[2023-07-29 18:59:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: idefix-cli
+[2023-07-29 18:59:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: daily-task-manager
+[2023-07-29 18:59:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dbml-to-sqlalchemy
+[2023-07-29 18:59:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fsai-pottery
+[2023-07-29 18:59:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: thingwala-geyserwala
+[2023-07-29 18:59:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: anybomt
+[2023-07-29 18:59:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: p2p-payme
+[2023-07-29 18:59:29] INFO root fetch - processPackages [thingwala-geyserwala]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-29 18:59:29] INFO root fetch - processPackages [dbml-to-sqlalchemy]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-29 18:59:29] WARNING root fetch - processPackages [black-scholes-pyvollib-gamma]: Skipping, unable to determine old version
+[2023-07-29 18:59:29] INFO root fetch - main [MainThread]: End processing [black-scholes-pyvollib-gamma] error
+[2023-07-29 18:59:29] INFO root fetch - processPackages [pyPhasesML]: New version: [0.7.0] Old Version: [0.6.2]
+[2023-07-29 18:59:29] INFO root fetch - processPackages [p2p-payme]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-29 18:59:29] INFO root fetch - processPackages [easyencryption]: New version: [0.1.8.1] Old Version: [0.1.8]
+[2023-07-29 18:59:29] WARNING root fetch - processPackages [fsai-pottery]: Skipping, unable to determine old version
+[2023-07-29 18:59:29] INFO root fetch - main [MainThread]: End processing [fsai-pottery] error
+[2023-07-29 18:59:29] INFO root fetch - processPackages [daily-task-manager]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-29 18:59:29] INFO root fetch - processPackages [anybomt]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-07-29 18:59:29] INFO root fetch - processPackages [idefix-cli]: New version: [2.4.0] Old Version: [2.3.3]
+[2023-07-29 18:59:29] INFO root fetch - processPackages [easyencryption]: Downloading https://files.pythonhosted.org/packages/b1/30/fa14b88cec72aabcca1fe74e7740ff87264e92ec63f1b2e547f97d11d5a0/easyencryption-0.1.8.tar.gz
+[2023-07-29 18:59:29] INFO root fetch - processPackages [dbml-to-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/23/19/ba5bc12dbf8065d0e216bbde8c8c9e8a6d694bab9aacf7870db2ab1412b7/dbml-to-sqlalchemy-0.9.0.tar.gz
+[2023-07-29 18:59:29] INFO root fetch - processPackages [p2p-payme]: Downloading https://files.pythonhosted.org/packages/4a/86/2be61f9099ff31c0c47e5c4adfc1fbcb262ea689ae0cfe7ab8a566ad50d0/p2p-payme-0.1.1.tar.gz
+[2023-07-29 18:59:29] INFO root fetch - processPackages [idefix-cli]: Downloading https://files.pythonhosted.org/packages/4d/0a/5cef8febee086fb4bf26fd32de098e5695a13a70f3c38f11e00e335988cc/idefix_cli-2.3.3.tar.gz
+[2023-07-29 18:59:29] INFO root fetch - processPackages [thingwala-geyserwala]: Downloading https://files.pythonhosted.org/packages/e3/34/a7943374b9a0825124521b55c3b24369b2f4216611ebcd7c22dddf133654/thingwala_geyserwala-0.0.3-py3-none-any.whl
+[2023-07-29 18:59:29] INFO root fetch - processPackages [daily-task-manager]: Downloading https://files.pythonhosted.org/packages/85/ef/fdf48a51a4c5f8ae2f96ba0c2c2dfcf64d2a781882f0620a4455ae3138b6/daily-task-manager-1.0.0.tar.gz
+[2023-07-29 18:59:29] INFO root fetch - processPackages [pyPhasesML]: Downloading https://files.pythonhosted.org/packages/de/80/3c6908ea594c5d1e710d36bff0ed9ed4da8ddecda14978cecb8b48de7cbb/pyPhasesML-0.6.2.tar.gz
+[2023-07-29 18:59:29] INFO root fetch - processPackages [anybomt]: Downloading https://files.pythonhosted.org/packages/ad/9b/58ef53486014f9395bce825a244ff7d7b8888793b14c9a341cfe66c19146/anybomt-0.2.3.tar.gz
+[2023-07-29 18:59:30] INFO root fetch - processPackages [easyencryption]: Downloading https://files.pythonhosted.org/packages/c2/47/fbf82802cbd80b447924f93f4698327f2131c0976ee43475d3390c813f2b/easyencryption-0.1.8.1.tar.gz
+[2023-07-29 18:59:30] INFO root fetch - processPackages [p2p-payme]: Downloading https://files.pythonhosted.org/packages/95/4a/619b3d103f50d8d09313e2eacc14b30a2c51fa212b02d3ecec78dab91639/p2p-payme-0.1.2.tar.gz
+[2023-07-29 18:59:30] INFO root fetch - processPackages [thingwala-geyserwala]: Downloading https://files.pythonhosted.org/packages/95/f2/1bfa59ce8af691205ff500141a44976d0bd372ed7a3630c40942feb86895/thingwala_geyserwala-0.0.4-py3-none-any.whl
+[2023-07-29 18:59:30] INFO root fetch - processPackages [daily-task-manager]: Downloading https://files.pythonhosted.org/packages/63/71/c215c97fac0280aa458d9b25210f27f2779002db6992bf50fa624ac51c5c/daily-task-manager-1.0.1.tar.gz
+[2023-07-29 18:59:30] INFO root fetch - processPackages [idefix-cli]: Downloading https://files.pythonhosted.org/packages/15/7d/bfa98d4cecc06993f87737d02da8fcbc636dd1ccdfd1184e0b76bb063e5d/idefix_cli-2.4.0.tar.gz
+[2023-07-29 18:59:30] INFO root fetch - processPackages [dbml-to-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/58/56/12f23fa6665f84fab01caeeb2ab39a7d4bd1eb08eae87f50157560ae78a6/dbml-to-sqlalchemy-0.9.1.tar.gz
+[2023-07-29 18:59:30] INFO root fetch - processPackages [easyencryption]: executing diffoscope
+[2023-07-29 18:59:30] INFO root fetch - processPackages [easyencryption]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyencryption-0.1.8.tar.gz tmp/easyencryption-0.1.8.1.tar.gz --markdown 20230729/e/easyencryption/0.1.8-0.1.8.1/diff.md --exclude *.pyd
+[2023-07-29 18:59:30] INFO root fetch - processPackages [pyPhasesML]: Downloading https://files.pythonhosted.org/packages/3e/29/aceae8261a36e327128e597c2fd7ed8bdfc56a910714b154cdc7f5121bc3/pyPhasesML-0.7.0.tar.gz
+[2023-07-29 18:59:30] INFO root fetch - processPackages [anybomt]: Downloading https://files.pythonhosted.org/packages/17/7e/d9cec1d69f511391733bcdf3d7e2fa6b9d1e9b1895dd9e907e790ba42748/anybomt-0.3.0.tar.gz
+[2023-07-29 18:59:30] INFO root fetch - processPackages [thingwala-geyserwala]: executing diffoscope
+[2023-07-29 18:59:30] INFO root fetch - processPackages [thingwala-geyserwala]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thingwala_geyserwala-0.0.3-py3-none-any.whl.zip tmp/thingwala_geyserwala-0.0.4-py3-none-any.whl.zip --markdown 20230729/t/thingwala-geyserwala/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-29 18:59:30] INFO root fetch - processPackages [idefix-cli]: executing diffoscope
+[2023-07-29 18:59:30] INFO root fetch - processPackages [idefix-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idefix_cli-2.3.3.tar.gz tmp/idefix_cli-2.4.0.tar.gz --markdown 20230729/i/idefix-cli/2.3.3-2.4.0/diff.md --exclude *.pyd
+[2023-07-29 18:59:30] INFO root fetch - processPackages [p2p-payme]: executing diffoscope
+[2023-07-29 18:59:30] INFO root fetch - processPackages [p2p-payme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p2p-payme-0.1.1.tar.gz tmp/p2p-payme-0.1.2.tar.gz --markdown 20230729/p/p2p-payme/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-29 18:59:30] INFO root fetch - processPackages [anybomt]: executing diffoscope
+[2023-07-29 18:59:30] INFO root fetch - processPackages [anybomt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anybomt-0.2.3.tar.gz tmp/anybomt-0.3.0.tar.gz --markdown 20230729/a/anybomt/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-07-29 18:59:30] INFO root fetch - processPackages [pyPhasesML]: executing diffoscope
+[2023-07-29 18:59:30] INFO root fetch - processPackages [pyPhasesML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyPhasesML-0.6.2.tar.gz tmp/pyPhasesML-0.7.0.tar.gz --markdown 20230729/p/pyPhasesML/0.6.2-0.7.0/diff.md --exclude *.pyd
+[2023-07-29 18:59:30] INFO root fetch - processPackages [daily-task-manager]: executing diffoscope
+[2023-07-29 18:59:30] INFO root fetch - processPackages [daily-task-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daily-task-manager-1.0.0.tar.gz tmp/daily-task-manager-1.0.1.tar.gz --markdown 20230729/d/daily-task-manager/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-29 18:59:30] INFO root fetch - processPackages [dbml-to-sqlalchemy]: executing diffoscope
+[2023-07-29 18:59:30] INFO root fetch - processPackages [dbml-to-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbml-to-sqlalchemy-0.9.0.tar.gz tmp/dbml-to-sqlalchemy-0.9.1.tar.gz --markdown 20230729/d/dbml-to-sqlalchemy/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-29 18:59:31] INFO root fetch - processPackages [easyencryption]: Remove: archive file [/home/abi/fetcher/tmp/easyencryption-0.1.8.tar.gz]
+[2023-07-29 18:59:31] INFO root fetch - processPackages [easyencryption]: Remove: archive file [/home/abi/fetcher/tmp/easyencryption-0.1.8.1.tar.gz]
+[2023-07-29 18:59:31] INFO root fetch - main [MainThread]: End processing [easyencryption]: success
+[2023-07-29 18:59:31] INFO root fetch - processPackages [thingwala-geyserwala]: Remove: archive file [/home/abi/fetcher/tmp/thingwala_geyserwala-0.0.3-py3-none-any.whl.zip]
+[2023-07-29 18:59:31] INFO root fetch - processPackages [thingwala-geyserwala]: Remove: archive file [/home/abi/fetcher/tmp/thingwala_geyserwala-0.0.4-py3-none-any.whl.zip]
+[2023-07-29 18:59:31] INFO root fetch - main [MainThread]: End processing [thingwala-geyserwala]: success
+[2023-07-29 18:59:31] INFO root fetch - processPackages [p2p-payme]: Remove: archive file [/home/abi/fetcher/tmp/p2p-payme-0.1.1.tar.gz]
+[2023-07-29 18:59:31] INFO root fetch - processPackages [p2p-payme]: Remove: archive file [/home/abi/fetcher/tmp/p2p-payme-0.1.2.tar.gz]
+[2023-07-29 18:59:31] INFO root fetch - main [MainThread]: End processing [p2p-payme]: success
+[2023-07-29 18:59:32] INFO root fetch - processPackages [daily-task-manager]: Remove: archive file [/home/abi/fetcher/tmp/daily-task-manager-1.0.0.tar.gz]
+[2023-07-29 18:59:32] INFO root fetch - processPackages [daily-task-manager]: Remove: archive file [/home/abi/fetcher/tmp/daily-task-manager-1.0.1.tar.gz]
+[2023-07-29 18:59:32] INFO root fetch - main [MainThread]: End processing [daily-task-manager]: success
+[2023-07-29 18:59:32] INFO root fetch - processPackages [anybomt]: Remove: archive file [/home/abi/fetcher/tmp/anybomt-0.2.3.tar.gz]
+[2023-07-29 18:59:32] INFO root fetch - processPackages [anybomt]: Remove: archive file [/home/abi/fetcher/tmp/anybomt-0.3.0.tar.gz]
+[2023-07-29 18:59:32] INFO root fetch - main [MainThread]: End processing [anybomt]: success
+[2023-07-29 18:59:32] INFO root fetch - processPackages [dbml-to-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/dbml-to-sqlalchemy-0.9.0.tar.gz]
+[2023-07-29 18:59:32] INFO root fetch - processPackages [dbml-to-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/dbml-to-sqlalchemy-0.9.1.tar.gz]
+[2023-07-29 18:59:32] INFO root fetch - main [MainThread]: End processing [dbml-to-sqlalchemy]: success
+[2023-07-29 18:59:32] INFO root fetch - processPackages [idefix-cli]: Remove: archive file [/home/abi/fetcher/tmp/idefix_cli-2.3.3.tar.gz]
+[2023-07-29 18:59:32] INFO root fetch - processPackages [idefix-cli]: Remove: archive file [/home/abi/fetcher/tmp/idefix_cli-2.4.0.tar.gz]
+[2023-07-29 18:59:32] INFO root fetch - main [MainThread]: End processing [idefix-cli]: success
+[2023-07-29 18:59:32] INFO root fetch - processPackages [pyPhasesML]: Remove: archive file [/home/abi/fetcher/tmp/pyPhasesML-0.6.2.tar.gz]
+[2023-07-29 18:59:32] INFO root fetch - processPackages [pyPhasesML]: Remove: archive file [/home/abi/fetcher/tmp/pyPhasesML-0.7.0.tar.gz]
+[2023-07-29 18:59:32] INFO root fetch - main [MainThread]: End processing [pyPhasesML]: success
+[2023-07-29 18:59:32] INFO root fetch - main [MainThread]: Store serial: [19090349]
