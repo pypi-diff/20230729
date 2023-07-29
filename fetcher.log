@@ -22283,3 +22283,46 @@ AssertionError: tmp/pulpcore-3.9.0.tar.gz does not exist
 [2023-07-29 20:40:37] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307291835-py3-none-any.whl.zip]
 [2023-07-29 20:40:37] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-07-29 20:40:37] INFO root fetch - main [MainThread]: Store serial: [19091050]
+[2023-07-29 20:45:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19091050]
+[2023-07-29 20:45:46] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-29 20:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-minio
+[2023-07-29 20:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clean-print-utils
+[2023-07-29 20:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sphinx-social-cards
+[2023-07-29 20:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mkdocs-git-revision-date-plugin-blame
+[2023-07-29 20:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tidychef
+[2023-07-29 20:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyImageJGui
+[2023-07-29 20:45:46] WARNING root fetch - processPackages [mkdocs-git-revision-date-plugin-blame]: Skipping, unable to determine old version
+[2023-07-29 20:45:46] INFO root fetch - processPackages [tidychef]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-29 20:45:46] INFO root fetch - main [MainThread]: End processing [mkdocs-git-revision-date-plugin-blame] error
+[2023-07-29 20:45:46] WARNING root fetch - processPackages [clean-print-utils]: Skipping, unable to determine old version
+[2023-07-29 20:45:46] INFO root fetch - main [MainThread]: End processing [clean-print-utils] error
+[2023-07-29 20:45:46] INFO root fetch - processPackages [pyImageJGui]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-29 20:45:46] INFO root fetch - processPackages [sphinx-social-cards]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-07-29 20:45:46] INFO root fetch - processPackages [pulumi-minio]: New version: [0.9.1a1682440158] Old Version: [0.9.1a1681933919]
+[2023-07-29 20:45:46] INFO root fetch - processPackages [pyImageJGui]: Downloading https://files.pythonhosted.org/packages/36/1a/ab95397b3f6964ec9e386b688c592360bbcdd8ac00f03f9212cb741ff90d/pyimagejgui-0.0.7.tar.gz
+[2023-07-29 20:45:46] INFO root fetch - processPackages [tidychef]: Downloading https://files.pythonhosted.org/packages/f9/0f/ab6eaccb5ea9d0f30d0c62330c9d3e8d658e6890ea0b851f1b722969d0c5/tidychef-0.1.2.tar.gz
+[2023-07-29 20:45:46] INFO root fetch - processPackages [pulumi-minio]: Downloading https://files.pythonhosted.org/packages/ff/08/d2cadf5bfe93247a9689d335d5a90c90c3437bae7996f31d22e6a1e18bc8/pulumi_minio-0.9.1a1681933919.tar.gz
+[2023-07-29 20:45:46] INFO root fetch - processPackages [sphinx-social-cards]: Downloading https://files.pythonhosted.org/packages/30/36/b77a04fed5d22645ce75e9472308b39bb4818e03a076445b74b7588a7b23/sphinx-social-cards-0.3.0.tar.gz
+[2023-07-29 20:45:46] INFO root fetch - processPackages [tidychef]: Downloading https://files.pythonhosted.org/packages/be/a4/c3d861a91a87efaecee5ca8be4001e4fdaaacea0fe10f3c7c2212e35a766/tidychef-0.1.3.tar.gz
+[2023-07-29 20:45:46] INFO root fetch - processPackages [pulumi-minio]: Downloading https://files.pythonhosted.org/packages/15/55/586e40a427bb324461e4077406c21f75ad5bd1d406ec365a59f65e7790bd/pulumi_minio-0.9.1a1682440158.tar.gz
+[2023-07-29 20:45:47] INFO root fetch - processPackages [pyImageJGui]: Downloading https://files.pythonhosted.org/packages/4d/10/b792b6ea2eaa7f27ba52d26a593b4dedbd76ee48577444448478a766e928/pyimagejgui-0.0.8.tar.gz
+[2023-07-29 20:45:47] INFO root fetch - processPackages [pulumi-minio]: executing diffoscope
+[2023-07-29 20:45:47] INFO root fetch - processPackages [pulumi-minio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_minio-0.9.1a1681933919.tar.gz tmp/pulumi_minio-0.9.1a1682440158.tar.gz --markdown 20230729/p/pulumi-minio/0.9.1a1681933919-0.9.1a1682440158/diff.md --exclude *.pyd
+[2023-07-29 20:45:47] INFO root fetch - processPackages [tidychef]: executing diffoscope
+[2023-07-29 20:45:47] INFO root fetch - processPackages [tidychef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidychef-0.1.2.tar.gz tmp/tidychef-0.1.3.tar.gz --markdown 20230729/t/tidychef/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-29 20:45:47] INFO root fetch - processPackages [pyImageJGui]: executing diffoscope
+[2023-07-29 20:45:47] INFO root fetch - processPackages [pyImageJGui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimagejgui-0.0.7.tar.gz tmp/pyimagejgui-0.0.8.tar.gz --markdown 20230729/p/pyImageJGui/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-29 20:45:47] INFO root fetch - processPackages [sphinx-social-cards]: executing diffoscope
+[2023-07-29 20:45:47] INFO root fetch - processPackages [sphinx-social-cards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx-social-cards-0.2.2.tar.gz tmp/sphinx-social-cards-0.3.0.tar.gz --markdown 20230729/s/sphinx-social-cards/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-07-29 20:45:48] INFO root fetch - processPackages [pyImageJGui]: Remove: archive file [/home/abi/fetcher/tmp/pyimagejgui-0.0.7.tar.gz]
+[2023-07-29 20:45:48] INFO root fetch - processPackages [pyImageJGui]: Remove: archive file [/home/abi/fetcher/tmp/pyimagejgui-0.0.8.tar.gz]
+[2023-07-29 20:45:48] INFO root fetch - main [MainThread]: End processing [pyImageJGui]: success
+[2023-07-29 20:45:48] INFO root fetch - processPackages [tidychef]: Remove: archive file [/home/abi/fetcher/tmp/tidychef-0.1.2.tar.gz]
+[2023-07-29 20:45:48] INFO root fetch - processPackages [tidychef]: Remove: archive file [/home/abi/fetcher/tmp/tidychef-0.1.3.tar.gz]
+[2023-07-29 20:45:48] INFO root fetch - main [MainThread]: End processing [tidychef]: success
+[2023-07-29 20:45:48] INFO root fetch - processPackages [pulumi-minio]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_minio-0.9.1a1681933919.tar.gz]
+[2023-07-29 20:45:48] INFO root fetch - processPackages [pulumi-minio]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_minio-0.9.1a1682440158.tar.gz]
+[2023-07-29 20:45:48] INFO root fetch - main [MainThread]: End processing [pulumi-minio]: success
+[2023-07-29 20:48:47] ERROR root fetch - processPackages [sphinx-social-cards]: Timeout during execution of pkgdiff
+[2023-07-29 20:48:47] INFO root fetch - main [MainThread]: End processing [sphinx-social-cards] error
+[2023-07-29 20:48:47] INFO root fetch - main [MainThread]: Store serial: [19091070]
