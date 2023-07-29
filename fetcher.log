@@ -10201,3 +10201,74 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 08:49:44] INFO root fetch - processPackages [networklab]: Remove: archive file [/home/abi/fetcher/tmp/networklab-1.5.5.dev3.tar.gz]
 [2023-07-29 08:49:44] INFO root fetch - main [MainThread]: End processing [networklab]: success
 [2023-07-29 08:49:44] INFO root fetch - main [MainThread]: Store serial: [19085998]
+[2023-07-29 08:54:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19085998]
+[2023-07-29 08:54:52] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-29 08:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pipen-board
+[2023-07-29 08:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: biogeme-optimization
+[2023-07-29 08:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mcqq-tool
+[2023-07-29 08:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: threemystic-cloud-data-client
+[2023-07-29 08:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yambs
+[2023-07-29 08:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydwf
+[2023-07-29 08:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ovito
+[2023-07-29 08:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py3d
+[2023-07-29 08:54:52] INFO root fetch - processPackages [mcqq-tool]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-07-29 08:54:52] INFO root fetch - processPackages [ovito]: New version: [3.9.0.dev119] Old Version: [3.8.5]
+[2023-07-29 08:54:52] INFO root fetch - processPackages [threemystic-cloud-data-client]: New version: [0.1.57] Old Version: [0.1.56]
+[2023-07-29 08:54:52] INFO root fetch - processPackages [pipen-board]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-07-29 08:54:52] INFO root fetch - processPackages [biogeme-optimization]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-29 08:54:52] INFO root fetch - processPackages [pydwf]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-29 08:54:52] INFO root fetch - processPackages [yambs]: New version: [2.2.0] Old Version: [2.1.1]
+[2023-07-29 08:54:52] INFO root fetch - processPackages [py3d]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-29 08:54:52] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/1e/23/7ec3b818e024360036922d3c27eec370a333674aaf0643d740fbabc9542e/threemystic_cloud_data_client-0.1.56.tar.gz
+[2023-07-29 08:54:52] INFO root fetch - processPackages [pipen-board]: Downloading https://files.pythonhosted.org/packages/39/46/155587d4dc7a49a3e667d67c929574d377514122b3dbde2b0c46798b6495/pipen_board-0.8.2.tar.gz
+[2023-07-29 08:54:53] INFO root fetch - processPackages [mcqq-tool]: Downloading https://files.pythonhosted.org/packages/5e/51/4ffd25d0c9b3a8d370d3d63e1d68b43c2535babd6149afd0fde65ea0c85a/mcqq-tool-0.0.9.tar.gz
+[2023-07-29 08:54:53] INFO root fetch - processPackages [ovito]: Downloading https://files.pythonhosted.org/packages/ac/0a/150454adf4d1b8ae20a2da811a48db6acd87054340943f0db3766c13453e/ovito-3.8.5-cp39-cp39-win_amd64.whl
+[2023-07-29 08:54:53] INFO root fetch - processPackages [yambs]: Downloading https://files.pythonhosted.org/packages/f1/02/13b7252c76099b1c231b2dd9aaff3bafb55894e35d3db202e82c83a46341/yambs-2.1.1.tar.gz
+[2023-07-29 08:54:53] INFO root fetch - processPackages [pydwf]: Downloading https://files.pythonhosted.org/packages/e8/e3/73515590306773b7ff8aa4dd4d91bb1bda59a7baf3a154ee1c08445e7940/pydwf-1.1.8.tar.gz
+[2023-07-29 08:54:53] INFO root fetch - processPackages [biogeme-optimization]: Downloading https://files.pythonhosted.org/packages/19/ed/7b38220241c176d7528a00162a5e9d7088e13e9d6d22a709a328413cc5d4/biogeme_optimization-0.0.2.tar.gz
+[2023-07-29 08:54:53] INFO root fetch - processPackages [py3d]: Downloading https://files.pythonhosted.org/packages/ed/a9/a05c44c1c9aa694e130c9d19cdc9859cfe777d1cd54002e7af34b37a840d/py3d-0.1.8.tar.gz
+[2023-07-29 08:54:53] WARNING root fetch - processPackages [ovito]: Skipping package: exceeds size limit 75825203>=10485760
+[2023-07-29 08:54:53] INFO root fetch - main [MainThread]: End processing [ovito] error
+[2023-07-29 08:54:53] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/37/42/4dda628b2e9b26d025a2ffa35bf7f53b0d65a3387814257ef797bbfab3d5/threemystic_cloud_data_client-0.1.57.tar.gz
+[2023-07-29 08:54:53] INFO root fetch - processPackages [pipen-board]: Downloading https://files.pythonhosted.org/packages/30/b3/0a2fa7c6ea969d4b3d6d69855231167f47e96815bdb0b995b510fb91c113/pipen_board-0.8.3.tar.gz
+[2023-07-29 08:54:53] INFO root fetch - processPackages [mcqq-tool]: Downloading https://files.pythonhosted.org/packages/2f/82/d8f5fc8cc1ea25ff4e87ded22c80f7061891780246bcf8ad01f018bf6735/mcqq-tool-0.1.0.tar.gz
+[2023-07-29 08:54:53] INFO root fetch - processPackages [yambs]: Downloading https://files.pythonhosted.org/packages/2c/1d/a5158cd9fe2a3bfe4a17f2c27095a8ad0388cf742463a9e83b13c2cca5c7/yambs-2.2.0.tar.gz
+[2023-07-29 08:54:53] INFO root fetch - processPackages [biogeme-optimization]: Downloading https://files.pythonhosted.org/packages/8d/8d/9e47420bbff07819bff956b190da2654e9f57e4c752396bbb31ca50070d7/biogeme_optimization-0.0.3.tar.gz
+[2023-07-29 08:54:53] INFO root fetch - processPackages [mcqq-tool]: executing diffoscope
+[2023-07-29 08:54:53] INFO root fetch - processPackages [mcqq-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcqq-tool-0.0.9.tar.gz tmp/mcqq-tool-0.1.0.tar.gz --markdown 20230729/m/mcqq-tool/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-07-29 08:54:53] INFO root fetch - processPackages [threemystic-cloud-data-client]: executing diffoscope
+[2023-07-29 08:54:53] INFO root fetch - processPackages [threemystic-cloud-data-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_data_client-0.1.56.tar.gz tmp/threemystic_cloud_data_client-0.1.57.tar.gz --markdown 20230729/t/threemystic-cloud-data-client/0.1.56-0.1.57/diff.md --exclude *.pyd
+[2023-07-29 08:54:53] INFO root fetch - processPackages [pipen-board]: executing diffoscope
+[2023-07-29 08:54:53] INFO root fetch - processPackages [pipen-board]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_board-0.8.2.tar.gz tmp/pipen_board-0.8.3.tar.gz --markdown 20230729/p/pipen-board/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-07-29 08:54:53] INFO root fetch - processPackages [yambs]: executing diffoscope
+[2023-07-29 08:54:53] INFO root fetch - processPackages [yambs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yambs-2.1.1.tar.gz tmp/yambs-2.2.0.tar.gz --markdown 20230729/y/yambs/2.1.1-2.2.0/diff.md --exclude *.pyd
+[2023-07-29 08:54:53] INFO root fetch - processPackages [biogeme-optimization]: executing diffoscope
+[2023-07-29 08:54:53] INFO root fetch - processPackages [biogeme-optimization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biogeme_optimization-0.0.2.tar.gz tmp/biogeme_optimization-0.0.3.tar.gz --markdown 20230729/b/biogeme-optimization/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-29 08:54:53] INFO root fetch - processPackages [py3d]: Downloading https://files.pythonhosted.org/packages/6f/e8/f37aed7244bfb8dde96399a57b78193b3257dc10559f13dfea723db768d4/py3d-0.1.9.tar.gz
+[2023-07-29 08:54:54] INFO root fetch - processPackages [py3d]: executing diffoscope
+[2023-07-29 08:54:54] INFO root fetch - processPackages [py3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3d-0.1.8.tar.gz tmp/py3d-0.1.9.tar.gz --markdown 20230729/p/py3d/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-29 08:54:54] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.56.tar.gz]
+[2023-07-29 08:54:54] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.57.tar.gz]
+[2023-07-29 08:54:54] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-data-client]: success
+[2023-07-29 08:54:54] INFO root fetch - processPackages [mcqq-tool]: Remove: archive file [/home/abi/fetcher/tmp/mcqq-tool-0.0.9.tar.gz]
+[2023-07-29 08:54:54] INFO root fetch - processPackages [mcqq-tool]: Remove: archive file [/home/abi/fetcher/tmp/mcqq-tool-0.1.0.tar.gz]
+[2023-07-29 08:54:54] INFO root fetch - main [MainThread]: End processing [mcqq-tool]: success
+[2023-07-29 08:54:54] INFO root fetch - processPackages [biogeme-optimization]: Remove: archive file [/home/abi/fetcher/tmp/biogeme_optimization-0.0.2.tar.gz]
+[2023-07-29 08:54:54] INFO root fetch - processPackages [biogeme-optimization]: Remove: archive file [/home/abi/fetcher/tmp/biogeme_optimization-0.0.3.tar.gz]
+[2023-07-29 08:54:54] INFO root fetch - main [MainThread]: End processing [biogeme-optimization]: success
+[2023-07-29 08:54:55] INFO root fetch - processPackages [py3d]: Remove: archive file [/home/abi/fetcher/tmp/py3d-0.1.8.tar.gz]
+[2023-07-29 08:54:55] INFO root fetch - processPackages [py3d]: Remove: archive file [/home/abi/fetcher/tmp/py3d-0.1.9.tar.gz]
+[2023-07-29 08:54:55] INFO root fetch - main [MainThread]: End processing [py3d]: success
+[2023-07-29 08:54:55] INFO root fetch - processPackages [yambs]: Remove: archive file [/home/abi/fetcher/tmp/yambs-2.1.1.tar.gz]
+[2023-07-29 08:54:55] INFO root fetch - processPackages [yambs]: Remove: archive file [/home/abi/fetcher/tmp/yambs-2.2.0.tar.gz]
+[2023-07-29 08:54:55] INFO root fetch - main [MainThread]: End processing [yambs]: success
+[2023-07-29 08:54:55] INFO root fetch - processPackages [pydwf]: Downloading https://files.pythonhosted.org/packages/6a/11/6ca4e12095cf52c2729e4560fcc38174c6f183c36a37af626d803293293f/pydwf-1.1.9.tar.gz
+[2023-07-29 08:54:57] INFO root fetch - processPackages [pydwf]: executing diffoscope
+[2023-07-29 08:54:57] INFO root fetch - processPackages [pydwf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydwf-1.1.8.tar.gz tmp/pydwf-1.1.9.tar.gz --markdown 20230729/p/pydwf/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-29 08:55:00] INFO root fetch - processPackages [pydwf]: Remove: archive file [/home/abi/fetcher/tmp/pydwf-1.1.8.tar.gz]
+[2023-07-29 08:55:00] INFO root fetch - processPackages [pydwf]: Remove: archive file [/home/abi/fetcher/tmp/pydwf-1.1.9.tar.gz]
+[2023-07-29 08:55:00] INFO root fetch - main [MainThread]: End processing [pydwf]: success
+[2023-07-29 08:55:03] INFO root fetch - processPackages [pipen-board]: Remove: archive file [/home/abi/fetcher/tmp/pipen_board-0.8.2.tar.gz]
+[2023-07-29 08:55:03] INFO root fetch - processPackages [pipen-board]: Remove: archive file [/home/abi/fetcher/tmp/pipen_board-0.8.3.tar.gz]
+[2023-07-29 08:55:03] INFO root fetch - main [MainThread]: End processing [pipen-board]: success
+[2023-07-29 08:55:03] INFO root fetch - main [MainThread]: Store serial: [19086021]
