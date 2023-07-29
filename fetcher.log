@@ -6942,3 +6942,68 @@
 [2023-07-29 03:58:36] INFO root fetch - processPackages [docassemble.webapp]: Remove: archive file [/home/abi/fetcher/tmp/docassemble.webapp-1.4.9.tar.gz]
 [2023-07-29 03:58:36] INFO root fetch - main [MainThread]: End processing [docassemble.webapp]: success
 [2023-07-29 03:58:36] INFO root fetch - main [MainThread]: Store serial: [19084640]
+[2023-07-29 04:03:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19084640]
+[2023-07-29 04:03:45] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-29 04:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: docassemble.webapp
+[2023-07-29 04:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: calfcv
+[2023-07-29 04:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: calfcv
+[2023-07-29 04:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: calfcv
+[2023-07-29 04:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: radcompressor
+[2023-07-29 04:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydflow
+[2023-07-29 04:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: plux
+[2023-07-29 04:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tableconv
+[2023-07-29 04:03:45] INFO root fetch - processPackages [calfcv]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-29 04:03:45] INFO root fetch - processPackages [plux]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-07-29 04:03:45] INFO root fetch - processPackages [tableconv]: New version: [1.9943.20230729] Old Version: [1.9924.20230601]
+[2023-07-29 04:03:45] INFO root fetch - processPackages [calfcv]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-29 04:03:45] INFO root fetch - processPackages [calfcv]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-29 04:03:45] WARNING root fetch - processPackages [radcompressor]: Skipping, unable to determine old version
+[2023-07-29 04:03:45] INFO root fetch - processPackages [pydflow]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-07-29 04:03:45] INFO root fetch - main [MainThread]: End processing [radcompressor] error
+[2023-07-29 04:03:45] INFO root fetch - processPackages [docassemble.webapp]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-29 04:03:45] INFO root fetch - processPackages [plux]: Downloading https://files.pythonhosted.org/packages/55/5b/023617fb06aff1fcb3dc0fd073dad80524e70ddcd001fde9d6628d636fd2/plux-1.3.3.tar.gz
+[2023-07-29 04:03:45] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/33/96/a989d9cfcdb5dcb43d60a72640c59e2efb7fd053182742205b332006f813/pydflow-1.7.8.tar.gz
+[2023-07-29 04:03:45] INFO root fetch - processPackages [calfcv]: Downloading https://files.pythonhosted.org/packages/84/c3/4c41cd91b3d374067ab8aabfb66751b1a4e7dbd78d85709f2613190c3b1e/calfcv-0.0.2.tar.gz
+[2023-07-29 04:03:45] INFO root fetch - processPackages [calfcv]: Downloading https://files.pythonhosted.org/packages/84/c3/4c41cd91b3d374067ab8aabfb66751b1a4e7dbd78d85709f2613190c3b1e/calfcv-0.0.2.tar.gz
+[2023-07-29 04:03:45] INFO root fetch - processPackages [calfcv]: Downloading https://files.pythonhosted.org/packages/84/c3/4c41cd91b3d374067ab8aabfb66751b1a4e7dbd78d85709f2613190c3b1e/calfcv-0.0.2.tar.gz
+[2023-07-29 04:03:46] INFO root fetch - processPackages [docassemble.webapp]: Downloading https://files.pythonhosted.org/packages/fe/48/4d304022057f0e254fc8916a718a52b355f0ae2843c22d86139803ae0020/docassemble.webapp-1.4.8.tar.gz
+[2023-07-29 04:03:46] INFO root fetch - processPackages [tableconv]: Downloading https://files.pythonhosted.org/packages/16/e2/67449e1372c480402f0c39e68ffc92af70e29fce998b059de6605b20fb76/tableconv-1.9924.20230601.tar.gz
+[2023-07-29 04:03:46] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/9c/41/6c9bc72fde943869899725f55fade9f850f62ecbc6fa31e53b8fa79ae5a3/pydflow-1.7.9.tar.gz
+[2023-07-29 04:03:46] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-07-29 04:03:46] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.7.8.tar.gz tmp/pydflow-1.7.9.tar.gz --markdown 20230729/p/pydflow/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-07-29 04:03:46] INFO root fetch - processPackages [calfcv]: Downloading https://files.pythonhosted.org/packages/ec/5f/4f860ef0b6ba820a07c7f680f80d59ceea4e3e7cdc9ea065f53344da295c/calfcv-0.0.3.tar.gz
+[2023-07-29 04:03:46] INFO root fetch - processPackages [calfcv]: Downloading https://files.pythonhosted.org/packages/ec/5f/4f860ef0b6ba820a07c7f680f80d59ceea4e3e7cdc9ea065f53344da295c/calfcv-0.0.3.tar.gz
+[2023-07-29 04:03:46] INFO root fetch - processPackages [calfcv]: Downloading https://files.pythonhosted.org/packages/ec/5f/4f860ef0b6ba820a07c7f680f80d59ceea4e3e7cdc9ea065f53344da295c/calfcv-0.0.3.tar.gz
+[2023-07-29 04:03:46] INFO root fetch - processPackages [plux]: Downloading https://files.pythonhosted.org/packages/6e/e7/0158da147a732da14cdd41c7274441746e790d3ec77093211bcc982877a9/plux-1.3.4.tar.gz
+[2023-07-29 04:03:46] INFO root fetch - processPackages [tableconv]: Downloading https://files.pythonhosted.org/packages/d3/37/d3a5ce84755180f6da2a9dc469d0d3c62186b5c87f5b813edcb5f55a4877/tableconv-1.9943.20230729.tar.gz
+[2023-07-29 04:03:46] INFO root fetch - processPackages [calfcv]: executing diffoscope
+[2023-07-29 04:03:46] INFO root fetch - processPackages [calfcv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calfcv-0.0.2.tar.gz tmp/calfcv-0.0.3.tar.gz --markdown 20230729/c/calfcv/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-29 04:03:46] INFO root fetch - processPackages [calfcv]: executing diffoscope
+[2023-07-29 04:03:46] INFO root fetch - processPackages [calfcv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calfcv-0.0.2.tar.gz tmp/calfcv-0.0.3.tar.gz --markdown 20230729/c/calfcv/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-29 04:03:46] INFO root fetch - processPackages [calfcv]: executing diffoscope
+[2023-07-29 04:03:46] INFO root fetch - processPackages [calfcv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calfcv-0.0.2.tar.gz tmp/calfcv-0.0.3.tar.gz --markdown 20230729/c/calfcv/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-29 04:03:46] INFO root fetch - processPackages [plux]: executing diffoscope
+[2023-07-29 04:03:46] INFO root fetch - processPackages [plux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plux-1.3.3.tar.gz tmp/plux-1.3.4.tar.gz --markdown 20230729/p/plux/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-07-29 04:03:46] INFO root fetch - processPackages [tableconv]: executing diffoscope
+[2023-07-29 04:03:46] INFO root fetch - processPackages [tableconv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tableconv-1.9924.20230601.tar.gz tmp/tableconv-1.9943.20230729.tar.gz --markdown 20230729/t/tableconv/1.9924.20230601-1.9943.20230729/diff.md --exclude *.pyd
+[2023-07-29 04:03:47] INFO root fetch - processPackages [calfcv]: Remove: archive file [/home/abi/fetcher/tmp/calfcv-0.0.2.tar.gz]
+[2023-07-29 04:03:47] INFO root fetch - processPackages [calfcv]: Remove: archive file [/home/abi/fetcher/tmp/calfcv-0.0.3.tar.gz]
+[2023-07-29 04:03:47] INFO root fetch - main [MainThread]: End processing [calfcv]: success
+[2023-07-29 04:03:47] INFO root fetch - main [MainThread]: End processing [calfcv]: success
+[2023-07-29 04:03:47] INFO root fetch - main [MainThread]: End processing [calfcv]: success
+[2023-07-29 04:03:47] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.8.tar.gz]
+[2023-07-29 04:03:47] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.9.tar.gz]
+[2023-07-29 04:03:47] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-07-29 04:03:47] INFO root fetch - processPackages [plux]: Remove: archive file [/home/abi/fetcher/tmp/plux-1.3.3.tar.gz]
+[2023-07-29 04:03:47] INFO root fetch - processPackages [plux]: Remove: archive file [/home/abi/fetcher/tmp/plux-1.3.4.tar.gz]
+[2023-07-29 04:03:47] INFO root fetch - main [MainThread]: End processing [plux]: success
+[2023-07-29 04:03:47] INFO root fetch - processPackages [tableconv]: Remove: archive file [/home/abi/fetcher/tmp/tableconv-1.9924.20230601.tar.gz]
+[2023-07-29 04:03:47] INFO root fetch - processPackages [tableconv]: Remove: archive file [/home/abi/fetcher/tmp/tableconv-1.9943.20230729.tar.gz]
+[2023-07-29 04:03:47] INFO root fetch - main [MainThread]: End processing [tableconv]: success
+[2023-07-29 04:03:47] INFO root fetch - processPackages [docassemble.webapp]: Downloading https://files.pythonhosted.org/packages/ee/bd/035c358ae80b3b4826a36a17e6a993251ad2bb4c42b826fd879f02355d0e/docassemble.webapp-1.4.9.tar.gz
+[2023-07-29 04:03:49] INFO root fetch - processPackages [docassemble.webapp]: executing diffoscope
+[2023-07-29 04:03:49] INFO root fetch - processPackages [docassemble.webapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docassemble.webapp-1.4.8.tar.gz tmp/docassemble.webapp-1.4.9.tar.gz --markdown 20230729/d/docassemble.webapp/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-29 04:03:53] INFO root fetch - processPackages [docassemble.webapp]: Remove: archive file [/home/abi/fetcher/tmp/docassemble.webapp-1.4.8.tar.gz]
+[2023-07-29 04:03:53] INFO root fetch - processPackages [docassemble.webapp]: Remove: archive file [/home/abi/fetcher/tmp/docassemble.webapp-1.4.9.tar.gz]
+[2023-07-29 04:03:53] INFO root fetch - main [MainThread]: End processing [docassemble.webapp]: success
+[2023-07-29 04:03:53] INFO root fetch - main [MainThread]: Store serial: [19084671]
