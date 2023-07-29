@@ -18975,3 +18975,50 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 16:46:14] INFO root fetch - processPackages [pydwf]: Remove: archive file [/home/abi/fetcher/tmp/pydwf-1.1.9.tar.gz]
 [2023-07-29 16:46:14] INFO root fetch - main [MainThread]: End processing [pydwf]: success
 [2023-07-29 16:46:14] INFO root fetch - main [MainThread]: Store serial: [19089484]
+[2023-07-29 16:51:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19089484]
+[2023-07-29 16:51:23] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-29 16:51:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: svgdiagram
+[2023-07-29 16:51:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: component-contribution
+[2023-07-29 16:51:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: craterslab
+[2023-07-29 16:51:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ytws
+[2023-07-29 16:51:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydoris
+[2023-07-29 16:51:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mostats
+[2023-07-29 16:51:24] INFO root fetch - processPackages [pydoris]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-29 16:51:24] INFO root fetch - processPackages [component-contribution]: New version: [0.4.6] Old Version: [0.4.5b1]
+[2023-07-29 16:51:24] INFO root fetch - processPackages [svgdiagram]: New version: [1.5.0] Old Version: [1.4.4]
+[2023-07-29 16:51:24] INFO root fetch - processPackages [craterslab]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-29 16:51:24] WARNING root fetch - processPackages [ytws]: Skipping, unable to determine old version
+[2023-07-29 16:51:24] INFO root fetch - main [MainThread]: End processing [ytws] error
+[2023-07-29 16:51:24] INFO root fetch - processPackages [mostats]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-29 16:51:24] INFO root fetch - processPackages [craterslab]: Downloading https://files.pythonhosted.org/packages/5e/53/b7281a69900659a8c41db8258f25813d2f3cff98694c0f2b598a19047b9a/craterslab-0.2.1.tar.gz
+[2023-07-29 16:51:24] INFO root fetch - processPackages [pydoris]: Downloading https://files.pythonhosted.org/packages/a1/b6/4c722a7a741e65d629558827c72baa1401073b7cbfd402c80bc10ecaa83d/pydoris-1.0.0.tar.gz
+[2023-07-29 16:51:24] INFO root fetch - processPackages [svgdiagram]: Downloading https://files.pythonhosted.org/packages/30/a1/6006a8ca9d10fe97ccad365e634182f4009d2295c45423706ce606cd25c8/svgdiagram-1.4.4.tar.gz
+[2023-07-29 16:51:24] INFO root fetch - processPackages [component-contribution]: Downloading https://files.pythonhosted.org/packages/bd/31/78cf64ab3a714a920d5c1e4f5ddd5df0ffff7661c26a97921dd89f0cc840/component-contribution-0.4.5b1.tar.gz
+[2023-07-29 16:51:24] WARNING root fetch - processPackages [craterslab]: Skipping package: exceeds size limit 20697228>=10485760
+[2023-07-29 16:51:24] INFO root fetch - main [MainThread]: End processing [craterslab] error
+[2023-07-29 16:51:24] INFO root fetch - processPackages [mostats]: Downloading https://files.pythonhosted.org/packages/4d/d5/9737916cb01fc3200ddc5da2fd490309beeb71c18c200ecc00df1bd51d39/mostats-1.0.8-py3-none-any.whl
+[2023-07-29 16:51:24] INFO root fetch - processPackages [pydoris]: Downloading https://files.pythonhosted.org/packages/f3/ca/7c5fb683aeab77b72c543af10758c082ccc812393693c7685f205e3ea6d8/pydoris-1.0.1.tar.gz
+[2023-07-29 16:51:24] INFO root fetch - processPackages [component-contribution]: Downloading https://files.pythonhosted.org/packages/96/04/959cbb93177b49f183cdacbe6c8fbb6a71d89bf4b6f81b42807449354756/component-contribution-0.4.6.tar.gz
+[2023-07-29 16:51:24] INFO root fetch - processPackages [svgdiagram]: Downloading https://files.pythonhosted.org/packages/46/ac/bbe7456817c0399b47bd358bf37d3989daa6e3c91aaee4fe21c8b9b29ab7/svgdiagram-1.5.0.tar.gz
+[2023-07-29 16:51:24] INFO root fetch - processPackages [mostats]: Downloading https://files.pythonhosted.org/packages/ad/d5/86e988e653a869f1b971741243da2bb9a870fff3a31eb959d1e84660a167/mostats-1.0.9-py3-none-any.whl
+[2023-07-29 16:51:24] INFO root fetch - processPackages [component-contribution]: executing diffoscope
+[2023-07-29 16:51:24] INFO root fetch - processPackages [component-contribution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/component-contribution-0.4.5b1.tar.gz tmp/component-contribution-0.4.6.tar.gz --markdown 20230729/c/component-contribution/0.4.5b1-0.4.6/diff.md --exclude *.pyd
+[2023-07-29 16:51:24] INFO root fetch - processPackages [mostats]: executing diffoscope
+[2023-07-29 16:51:24] INFO root fetch - processPackages [mostats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mostats-1.0.8-py3-none-any.whl.zip tmp/mostats-1.0.9-py3-none-any.whl.zip --markdown 20230729/m/mostats/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-29 16:51:24] INFO root fetch - processPackages [svgdiagram]: executing diffoscope
+[2023-07-29 16:51:24] INFO root fetch - processPackages [svgdiagram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svgdiagram-1.4.4.tar.gz tmp/svgdiagram-1.5.0.tar.gz --markdown 20230729/s/svgdiagram/1.4.4-1.5.0/diff.md --exclude *.pyd
+[2023-07-29 16:51:24] INFO root fetch - processPackages [pydoris]: executing diffoscope
+[2023-07-29 16:51:24] INFO root fetch - processPackages [pydoris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydoris-1.0.0.tar.gz tmp/pydoris-1.0.1.tar.gz --markdown 20230729/p/pydoris/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-29 16:51:25] INFO root fetch - processPackages [component-contribution]: Remove: archive file [/home/abi/fetcher/tmp/component-contribution-0.4.5b1.tar.gz]
+[2023-07-29 16:51:25] INFO root fetch - processPackages [component-contribution]: Remove: archive file [/home/abi/fetcher/tmp/component-contribution-0.4.6.tar.gz]
+[2023-07-29 16:51:25] INFO root fetch - main [MainThread]: End processing [component-contribution]: success
+[2023-07-29 16:51:25] INFO root fetch - processPackages [svgdiagram]: Remove: archive file [/home/abi/fetcher/tmp/svgdiagram-1.4.4.tar.gz]
+[2023-07-29 16:51:25] INFO root fetch - processPackages [svgdiagram]: Remove: archive file [/home/abi/fetcher/tmp/svgdiagram-1.5.0.tar.gz]
+[2023-07-29 16:51:25] INFO root fetch - main [MainThread]: End processing [svgdiagram]: success
+[2023-07-29 16:51:25] INFO root fetch - processPackages [pydoris]: Remove: archive file [/home/abi/fetcher/tmp/pydoris-1.0.0.tar.gz]
+[2023-07-29 16:51:25] INFO root fetch - processPackages [pydoris]: Remove: archive file [/home/abi/fetcher/tmp/pydoris-1.0.1.tar.gz]
+[2023-07-29 16:51:25] INFO root fetch - main [MainThread]: End processing [pydoris]: success
+[2023-07-29 16:51:25] INFO root fetch - processPackages [mostats]: Remove: archive file [/home/abi/fetcher/tmp/mostats-1.0.8-py3-none-any.whl.zip]
+[2023-07-29 16:51:25] INFO root fetch - processPackages [mostats]: Remove: archive file [/home/abi/fetcher/tmp/mostats-1.0.9-py3-none-any.whl.zip]
+[2023-07-29 16:51:25] INFO root fetch - main [MainThread]: End processing [mostats]: success
+[2023-07-29 16:51:25] INFO root fetch - main [MainThread]: Store serial: [19089504]
