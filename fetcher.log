@@ -21707,3 +21707,56 @@ AssertionError: tmp/pulpcore-3.9.0.tar.gz does not exist
 [2023-07-29 19:48:43] INFO root fetch - processPackages [cmdix]: Remove: archive file [/home/abi/fetcher/tmp/cmdix-3.0.0.tar.gz]
 [2023-07-29 19:48:43] INFO root fetch - main [MainThread]: End processing [cmdix]: success
 [2023-07-29 19:48:43] INFO root fetch - main [MainThread]: Store serial: [19090764]
+[2023-07-29 19:53:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19090764]
+[2023-07-29 19:53:52] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-29 19:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyote
+[2023-07-29 19:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyttpmodule
+[2023-07-29 19:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypmc
+[2023-07-29 19:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: premise
+[2023-07-29 19:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: comandor
+[2023-07-29 19:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: salesgpt
+[2023-07-29 19:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tensorage
+[2023-07-29 19:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fastapi-module-loader
+[2023-07-29 19:53:52] WARNING root fetch - processPackages [pyttpmodule]: Skipping, unable to determine old version
+[2023-07-29 19:53:52] INFO root fetch - main [MainThread]: End processing [pyttpmodule] error
+[2023-07-29 19:53:52] INFO root fetch - processPackages [salesgpt]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-29 19:53:52] INFO root fetch - processPackages [comandor]: New version: [0.4.0] Old Version: [0.2.9]
+[2023-07-29 19:53:52] WARNING root fetch - processPackages [fastapi-module-loader]: Skipping, unable to determine old version
+[2023-07-29 19:53:52] INFO root fetch - main [MainThread]: End processing [fastapi-module-loader] error
+[2023-07-29 19:53:52] INFO root fetch - processPackages [pypmc]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-29 19:53:52] WARNING root fetch - processPackages [tensorage]: Skipping, unable to determine old version
+[2023-07-29 19:53:52] INFO root fetch - main [MainThread]: End processing [tensorage] error
+[2023-07-29 19:53:52] INFO root fetch - processPackages [premise]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-07-29 19:53:52] INFO root fetch - processPackages [pyote]: New version: [5.3.6] Old Version: [5.3.5]
+[2023-07-29 19:53:52] INFO root fetch - processPackages [salesgpt]: Downloading https://files.pythonhosted.org/packages/d4/01/b62464b2ca5fe2e05d4bd2a1587878daf9bae1b9badf71bea238e90b76db/salesgpt-0.0.4.tar.gz
+[2023-07-29 19:53:52] INFO root fetch - processPackages [pypmc]: Downloading https://files.pythonhosted.org/packages/ff/22/7f2ace6dcd90d6ab54f1da63f2feee884fb48a6b0378ce7cbb77e4b7a93c/pypmc-1.2.1.tar.gz
+[2023-07-29 19:53:52] INFO root fetch - processPackages [comandor]: Downloading https://files.pythonhosted.org/packages/33/d1/29fc395e3999ca23c18500bcad09f7e8fafcc90a41e271c7e1c25fafc4a5/comandor-0.2.9.tar.gz
+[2023-07-29 19:53:52] INFO root fetch - processPackages [pyote]: Downloading https://files.pythonhosted.org/packages/60/3d/022c5504494e77b1b4fcabd36bd665d7b037cb31a758a865dfd62fc7f382/pyote-5.3.5.tar.gz
+[2023-07-29 19:53:52] INFO root fetch - processPackages [premise]: Downloading https://files.pythonhosted.org/packages/3c/0d/38b5f862e400c0b31e82bd369d58165c229d19ab5dd46a0cd13ff102a711/premise-1.5.8.tar.gz
+[2023-07-29 19:53:52] WARNING root fetch - processPackages [premise]: Skipping package: exceeds size limit 93455635>=10485760
+[2023-07-29 19:53:52] INFO root fetch - main [MainThread]: End processing [premise] error
+[2023-07-29 19:53:53] INFO root fetch - processPackages [comandor]: Downloading https://files.pythonhosted.org/packages/26/f5/5decbc6310a005ef165ac65a4872815c0b06d5e1f89a21e4efe42f250ded/comandor-0.4.0.tar.gz
+[2023-07-29 19:53:53] INFO root fetch - processPackages [salesgpt]: Downloading https://files.pythonhosted.org/packages/b7/ff/bbc69919e74dfb18d49fdddd0ac0d4dc015e2a609108cb4ed5608f1a5ed0/salesgpt-0.0.5-py3-none-any.whl
+[2023-07-29 19:53:53] INFO root fetch - processPackages [pypmc]: Downloading https://files.pythonhosted.org/packages/4b/66/8f700fa877f07aeca150894be5ca1f2fdfedabe321a9c1246608219c610f/pypmc-1.2.2.tar.gz
+[2023-07-29 19:53:53] INFO root fetch - processPackages [comandor]: executing diffoscope
+[2023-07-29 19:53:53] INFO root fetch - processPackages [comandor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comandor-0.2.9.tar.gz tmp/comandor-0.4.0.tar.gz --markdown 20230729/c/comandor/0.2.9-0.4.0/diff.md --exclude *.pyd
+[2023-07-29 19:53:53] INFO root fetch - processPackages [pyote]: Downloading https://files.pythonhosted.org/packages/86/36/886ba75eeb34e2d3b4e143104c2acd186b77154cf8de606d12d09885774f/pyote-5.3.6.tar.gz
+[2023-07-29 19:53:53] INFO root fetch - processPackages [salesgpt]: executing diffoscope
+[2023-07-29 19:53:53] INFO root fetch - processPackages [salesgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salesgpt-0.0.4.tar.gz tmp/salesgpt-0.0.5-py3-none-any.whl.zip --markdown 20230729/s/salesgpt/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-29 19:53:53] INFO root fetch - processPackages [pyote]: executing diffoscope
+[2023-07-29 19:53:53] INFO root fetch - processPackages [pyote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyote-5.3.5.tar.gz tmp/pyote-5.3.6.tar.gz --markdown 20230729/p/pyote/5.3.5-5.3.6/diff.md --exclude *.pyd
+[2023-07-29 19:53:53] INFO root fetch - processPackages [pypmc]: executing diffoscope
+[2023-07-29 19:53:53] INFO root fetch - processPackages [pypmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypmc-1.2.1.tar.gz tmp/pypmc-1.2.2.tar.gz --markdown 20230729/p/pypmc/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-29 19:53:54] INFO root fetch - processPackages [salesgpt]: Remove: archive file [/home/abi/fetcher/tmp/salesgpt-0.0.4.tar.gz]
+[2023-07-29 19:53:54] INFO root fetch - processPackages [salesgpt]: Remove: archive file [/home/abi/fetcher/tmp/salesgpt-0.0.5-py3-none-any.whl.zip]
+[2023-07-29 19:53:54] INFO root fetch - main [MainThread]: End processing [salesgpt]: success
+[2023-07-29 19:53:54] INFO root fetch - processPackages [comandor]: Remove: archive file [/home/abi/fetcher/tmp/comandor-0.2.9.tar.gz]
+[2023-07-29 19:53:54] INFO root fetch - processPackages [comandor]: Remove: archive file [/home/abi/fetcher/tmp/comandor-0.4.0.tar.gz]
+[2023-07-29 19:53:54] INFO root fetch - main [MainThread]: End processing [comandor]: success
+[2023-07-29 19:53:54] INFO root fetch - processPackages [pyote]: Remove: archive file [/home/abi/fetcher/tmp/pyote-5.3.5.tar.gz]
+[2023-07-29 19:53:54] INFO root fetch - processPackages [pyote]: Remove: archive file [/home/abi/fetcher/tmp/pyote-5.3.6.tar.gz]
+[2023-07-29 19:53:54] INFO root fetch - main [MainThread]: End processing [pyote]: success
+[2023-07-29 19:53:54] INFO root fetch - processPackages [pypmc]: Remove: archive file [/home/abi/fetcher/tmp/pypmc-1.2.1.tar.gz]
+[2023-07-29 19:53:54] INFO root fetch - processPackages [pypmc]: Remove: archive file [/home/abi/fetcher/tmp/pypmc-1.2.2.tar.gz]
+[2023-07-29 19:53:54] INFO root fetch - main [MainThread]: End processing [pypmc]: success
+[2023-07-29 19:53:54] INFO root fetch - main [MainThread]: Store serial: [19090792]
