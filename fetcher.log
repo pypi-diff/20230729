@@ -8324,3 +8324,32 @@
 [2023-07-29 06:12:49] INFO root fetch - processPackages [bezier]: Remove: archive file [/home/abi/fetcher/tmp/bezier-2023.7.28.tar.gz]
 [2023-07-29 06:12:49] INFO root fetch - main [MainThread]: End processing [bezier]: success
 [2023-07-29 06:12:49] INFO root fetch - main [MainThread]: Store serial: [19085265]
+[2023-07-29 06:17:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19085265]
+[2023-07-29 06:17:58] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-29 06:17:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-splatoon3
+[2023-07-29 06:17:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pbake
+[2023-07-29 06:17:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aityz
+[2023-07-29 06:17:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-delivery-gls-asm
+[2023-07-29 06:17:58] WARNING root fetch - processPackages [pbake]: Skipping, unable to determine old version
+[2023-07-29 06:17:58] INFO root fetch - main [MainThread]: End processing [pbake] error
+[2023-07-29 06:17:58] INFO root fetch - processPackages [odoo-addon-delivery-gls-asm]: New version: [15.0.1.0.1] Old Version: [15.0.1.0.0.3]
+[2023-07-29 06:17:58] INFO root fetch - processPackages [nonebot-plugin-splatoon3]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-29 06:17:58] INFO root fetch - processPackages [odoo-addon-delivery-gls-asm]: Downloading https://files.pythonhosted.org/packages/f9/40/5e3ffcabafcebb10142c84b6bc3e7cfe3e91f277e60b586152c7005520e0/odoo_addon_delivery_gls_asm-15.0.1.0.0.3-py3-none-any.whl
+[2023-07-29 06:17:58] INFO root fetch - processPackages [aityz]: New version: [1.0.3] Old Version: [1.0.2.1]
+[2023-07-29 06:17:59] INFO root fetch - processPackages [nonebot-plugin-splatoon3]: Downloading https://files.pythonhosted.org/packages/60/c8/2cc304f68db64c2aeed7118ff528da27aabdef0e9c5b0efad7397c116af6/nonebot_plugin_splatoon3-1.2.2.tar.gz
+[2023-07-29 06:17:59] INFO root fetch - processPackages [odoo-addon-delivery-gls-asm]: Downloading https://files.pythonhosted.org/packages/7b/c9/57680cbd876130ac8aca5d26f5a4fd98c2941fc68f9a7ae8c5d66639fb99/odoo_addon_delivery_gls_asm-15.0.1.0.1-py3-none-any.whl
+[2023-07-29 06:17:59] WARNING root fetch - processPackages [nonebot-plugin-splatoon3]: Skipping package: exceeds size limit 49559152>=10485760
+[2023-07-29 06:17:59] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-splatoon3] error
+[2023-07-29 06:17:59] INFO root fetch - processPackages [odoo-addon-delivery-gls-asm]: executing diffoscope
+[2023-07-29 06:17:59] INFO root fetch - processPackages [odoo-addon-delivery-gls-asm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_delivery_gls_asm-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_delivery_gls_asm-15.0.1.0.1-py3-none-any.whl.zip --markdown 20230729/o/odoo-addon-delivery-gls-asm/15.0.1.0.0.3-15.0.1.0.1/diff.md --exclude *.pyd
+[2023-07-29 06:17:59] INFO root fetch - processPackages [aityz]: Downloading https://files.pythonhosted.org/packages/39/50/79e6a8f89139fb3a0a7a4a09ac337d43f07d72d8c3ec5d7f45e80965339d/aityz-1.0.2.1.tar.gz
+[2023-07-29 06:17:59] INFO root fetch - processPackages [aityz]: Downloading https://files.pythonhosted.org/packages/91/3b/17efc50cbba1aaf1df9e5bc6f9b82a373462849675dbc4903ccd79512e1b/aityz-1.0.3.tar.gz
+[2023-07-29 06:17:59] INFO root fetch - processPackages [aityz]: executing diffoscope
+[2023-07-29 06:17:59] INFO root fetch - processPackages [aityz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aityz-1.0.2.1.tar.gz tmp/aityz-1.0.3.tar.gz --markdown 20230729/a/aityz/1.0.2.1-1.0.3/diff.md --exclude *.pyd
+[2023-07-29 06:18:00] INFO root fetch - processPackages [odoo-addon-delivery-gls-asm]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_gls_asm-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-29 06:18:00] INFO root fetch - processPackages [odoo-addon-delivery-gls-asm]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_gls_asm-15.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-29 06:18:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-delivery-gls-asm]: success
+[2023-07-29 06:18:00] INFO root fetch - processPackages [aityz]: Remove: archive file [/home/abi/fetcher/tmp/aityz-1.0.2.1.tar.gz]
+[2023-07-29 06:18:00] INFO root fetch - processPackages [aityz]: Remove: archive file [/home/abi/fetcher/tmp/aityz-1.0.3.tar.gz]
+[2023-07-29 06:18:00] INFO root fetch - main [MainThread]: End processing [aityz]: success
+[2023-07-29 06:18:00] INFO root fetch - main [MainThread]: Store serial: [19085278]
