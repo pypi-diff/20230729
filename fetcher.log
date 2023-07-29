@@ -21853,3 +21853,42 @@ AssertionError: tmp/pulpcore-3.9.0.tar.gz does not exist
 [2023-07-29 20:04:17] INFO root fetch - processPackages [toggl-to-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/toggl-to-sqlite-0.7.0.tar.gz]
 [2023-07-29 20:04:17] INFO root fetch - main [MainThread]: End processing [toggl-to-sqlite]: success
 [2023-07-29 20:04:17] INFO root fetch - main [MainThread]: Store serial: [19090828]
+[2023-07-29 20:09:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19090828]
+[2023-07-29 20:09:25] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-29 20:09:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nthp-api
+[2023-07-29 20:09:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: actions-security-analyzer
+[2023-07-29 20:09:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ciphertrust-sdk
+[2023-07-29 20:09:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: promptengine-catapult
+[2023-07-29 20:09:25] INFO root fetch - processPackages [nthp-api]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-29 20:09:25] INFO root fetch - processPackages [ciphertrust-sdk]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-29 20:09:25] INFO root fetch - processPackages [actions-security-analyzer]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-29 20:09:25] INFO root fetch - processPackages [promptengine-catapult]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-29 20:09:25] INFO root fetch - processPackages [ciphertrust-sdk]: Downloading https://files.pythonhosted.org/packages/35/d5/34406768df0e4f3cc8f14fb6fa627c2a69b48f84e52b6d1474ceab92bac8/ciphertrust-sdk-1.0.8.tar.gz
+[2023-07-29 20:09:25] INFO root fetch - processPackages [promptengine-catapult]: Downloading https://files.pythonhosted.org/packages/95/cb/51eefeeb4fc9e10898b240598157f03fef73589a66ee51fbd29688d53b82/promptengine_catapult-0.1.6.tar.gz
+[2023-07-29 20:09:25] INFO root fetch - processPackages [actions-security-analyzer]: Downloading https://files.pythonhosted.org/packages/a0/5a/c6abfedb6dd0dc5ecd120d7df54abfbb0c0451ae988cd6225db69ddc87e8/actions_security_analyzer-1.2.2.tar.gz
+[2023-07-29 20:09:25] INFO root fetch - processPackages [nthp-api]: Downloading https://files.pythonhosted.org/packages/d1/5c/49875600a3370445838dbf461c763a4e244acdd3e2d2537bae6d7756eea4/nthp_api-0.1.6.tar.gz
+[2023-07-29 20:09:25] INFO root fetch - processPackages [ciphertrust-sdk]: Downloading https://files.pythonhosted.org/packages/e7/28/dc2e782ff4280375ab3eb5f4e387a289be5d329d75f84209c36813864af7/ciphertrust-sdk-1.0.9.tar.gz
+[2023-07-29 20:09:26] INFO root fetch - processPackages [ciphertrust-sdk]: executing diffoscope
+[2023-07-29 20:09:26] INFO root fetch - processPackages [ciphertrust-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ciphertrust-sdk-1.0.8.tar.gz tmp/ciphertrust-sdk-1.0.9.tar.gz --markdown 20230729/c/ciphertrust-sdk/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-29 20:09:26] INFO root fetch - processPackages [promptengine-catapult]: Downloading https://files.pythonhosted.org/packages/da/cc/bdf8fd738d4f99c2e24aa0975f46e16ae565a8dbb3a87ee6ac6b0de0fab4/promptengine_catapult-0.1.7.tar.gz
+[2023-07-29 20:09:26] INFO root fetch - processPackages [nthp-api]: Downloading https://files.pythonhosted.org/packages/94/38/de23c4310199cb14ae55a35c06e91457b28c59d5ce620cd3569be0a1cd9b/nthp_api-0.1.7.tar.gz
+[2023-07-29 20:09:26] INFO root fetch - processPackages [actions-security-analyzer]: Downloading https://files.pythonhosted.org/packages/3a/58/47be4fb032ae8fbb3a7a7a276c1f6531af594e57b2406e360140ce7274fa/actions_security_analyzer-1.2.3.tar.gz
+[2023-07-29 20:09:26] INFO root fetch - processPackages [promptengine-catapult]: executing diffoscope
+[2023-07-29 20:09:26] INFO root fetch - processPackages [promptengine-catapult]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptengine_catapult-0.1.6.tar.gz tmp/promptengine_catapult-0.1.7.tar.gz --markdown 20230729/p/promptengine-catapult/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-29 20:09:26] INFO root fetch - processPackages [nthp-api]: executing diffoscope
+[2023-07-29 20:09:26] INFO root fetch - processPackages [nthp-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nthp_api-0.1.6.tar.gz tmp/nthp_api-0.1.7.tar.gz --markdown 20230729/n/nthp-api/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-29 20:09:26] INFO root fetch - processPackages [ciphertrust-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ciphertrust-sdk-1.0.8.tar.gz]
+[2023-07-29 20:09:26] INFO root fetch - processPackages [ciphertrust-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ciphertrust-sdk-1.0.9.tar.gz]
+[2023-07-29 20:09:26] INFO root fetch - main [MainThread]: End processing [ciphertrust-sdk]: success
+[2023-07-29 20:09:26] INFO root fetch - processPackages [actions-security-analyzer]: executing diffoscope
+[2023-07-29 20:09:26] INFO root fetch - processPackages [actions-security-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actions_security_analyzer-1.2.2.tar.gz tmp/actions_security_analyzer-1.2.3.tar.gz --markdown 20230729/a/actions-security-analyzer/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-29 20:09:27] INFO root fetch - processPackages [promptengine-catapult]: Remove: archive file [/home/abi/fetcher/tmp/promptengine_catapult-0.1.6.tar.gz]
+[2023-07-29 20:09:27] INFO root fetch - processPackages [promptengine-catapult]: Remove: archive file [/home/abi/fetcher/tmp/promptengine_catapult-0.1.7.tar.gz]
+[2023-07-29 20:09:27] INFO root fetch - main [MainThread]: End processing [promptengine-catapult]: success
+[2023-07-29 20:09:27] INFO root fetch - processPackages [nthp-api]: Remove: archive file [/home/abi/fetcher/tmp/nthp_api-0.1.6.tar.gz]
+[2023-07-29 20:09:27] INFO root fetch - processPackages [nthp-api]: Remove: archive file [/home/abi/fetcher/tmp/nthp_api-0.1.7.tar.gz]
+[2023-07-29 20:09:27] INFO root fetch - main [MainThread]: End processing [nthp-api]: success
+[2023-07-29 20:09:27] INFO root fetch - processPackages [actions-security-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/actions_security_analyzer-1.2.2.tar.gz]
+[2023-07-29 20:09:27] INFO root fetch - processPackages [actions-security-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/actions_security_analyzer-1.2.3.tar.gz]
+[2023-07-29 20:09:27] INFO root fetch - main [MainThread]: End processing [actions-security-analyzer]: success
+[2023-07-29 20:09:27] INFO root fetch - main [MainThread]: Store serial: [19090841]
