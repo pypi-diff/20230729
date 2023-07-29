@@ -18688,3 +18688,93 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 16:25:21] INFO root fetch - processPackages [fern-sentra]: Remove: archive file [/home/abi/fetcher/tmp/fern_sentra-0.0.7.tar.gz]
 [2023-07-29 16:25:21] INFO root fetch - main [MainThread]: End processing [fern-sentra]: success
 [2023-07-29 16:25:21] INFO root fetch - main [MainThread]: Store serial: [19089354]
+[2023-07-29 16:30:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19089354]
+[2023-07-29 16:30:30] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-29 16:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: localstack-core
+[2023-07-29 16:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdxbasics
+[2023-07-29 16:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vigilant-kit
+[2023-07-29 16:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: uszipstats
+[2023-07-29 16:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: feltpy
+[2023-07-29 16:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MAZAlib
+[2023-07-29 16:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: clipped
+[2023-07-29 16:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-clickhouse-backend
+[2023-07-29 16:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zenpycbp
+[2023-07-29 16:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: failprint
+[2023-07-29 16:30:31] INFO root fetch - processPackages [cdxbasics]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-29 16:30:31] INFO root fetch - processPackages [clipped]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-07-29 16:30:31] INFO root fetch - processPackages [django-clickhouse-backend]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-07-29 16:30:31] INFO root fetch - processPackages [feltpy]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-29 16:30:31] INFO root fetch - processPackages [failprint]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-29 16:30:31] WARNING root fetch - processPackages [zenpycbp]: Skipping, unable to determine old version
+[2023-07-29 16:30:31] INFO root fetch - processPackages [zenpycbp]: Start processing: amatak-shop
+[2023-07-29 16:30:31] INFO root fetch - main [MainThread]: End processing [zenpycbp] error
+[2023-07-29 16:30:31] INFO root fetch - processPackages [uszipstats]: New version: [0.3] Old Version: [0.2]
+[2023-07-29 16:30:31] INFO root fetch - processPackages [MAZAlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-29 16:30:31] WARNING root fetch - processPackages [amatak-shop]: Skipping, unable to determine old version
+[2023-07-29 16:30:31] INFO root fetch - main [MainThread]: End processing [amatak-shop] error
+[2023-07-29 16:30:31] INFO root fetch - processPackages [vigilant-kit]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-07-29 16:30:31] INFO root fetch - processPackages [localstack-core]: New version: [2.2.1.dev20230729142548] Old Version: [2.2.1.dev20230729125541]
+[2023-07-29 16:30:31] INFO root fetch - processPackages [cdxbasics]: Downloading https://files.pythonhosted.org/packages/44/bf/adf4351223f4cd638d1bb79229170666b0915f3adf1e0e9189ee6769224f/cdxbasics-0.2.8.tar.gz
+[2023-07-29 16:30:31] INFO root fetch - processPackages [feltpy]: Downloading https://files.pythonhosted.org/packages/bc/0c/b1102a9f91b78f0df9b769109032fed3ca69a7b87561d45d6c36190aced7/feltpy-0.0.2.tar.gz
+[2023-07-29 16:30:31] INFO root fetch - processPackages [failprint]: Downloading https://files.pythonhosted.org/packages/70/56/77aaf9e0f243df0a68acd1d5e1e66d352bbfc57659c7273e6b83745f3b47/failprint-1.0.0.tar.gz
+[2023-07-29 16:30:31] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/13/32/a0fe1f9546d64b93d5fe93da450a3d351b54cd4c2b40b10dcd4a33c1a544/localstack-core-2.2.1.dev20230729125541.tar.gz
+[2023-07-29 16:30:31] INFO root fetch - processPackages [MAZAlib]: Downloading https://files.pythonhosted.org/packages/50/f4/08487d2e9ffaf4c2459a82bdb215d7a1e77e96862254778678316ddb1a94/MAZAlib-0.0.8.tar.gz
+[2023-07-29 16:30:31] INFO root fetch - processPackages [clipped]: Downloading https://files.pythonhosted.org/packages/cb/bb/b7e7f01069561c3c0bacd4c4feecd80268e6877e0447a57df8c19b7a88c9/clipped-0.4.2.tar.gz
+[2023-07-29 16:30:31] INFO root fetch - processPackages [uszipstats]: Downloading https://files.pythonhosted.org/packages/b8/9d/b59ac5236c9abc40d468038cb705c061ad85f1ae7d0a392f20d3c11672b8/uszipstats-0.2.tar.gz
+[2023-07-29 16:30:31] INFO root fetch - processPackages [django-clickhouse-backend]: Downloading https://files.pythonhosted.org/packages/b8/f0/2b01f7be6f4b199e53abfc990e2d08b7b129fb3e22e5b7515868eb2a89c7/django-clickhouse-backend-1.0.3.tar.gz
+[2023-07-29 16:30:31] INFO root fetch - processPackages [vigilant-kit]: Downloading https://files.pythonhosted.org/packages/28/56/c92c35c6e7f34b8cba4ee5bbf95f5985104c359a8ede974ff7ec343448c4/vigilant_kit-1.2.7.tar.gz
+[2023-07-29 16:30:31] INFO root fetch - processPackages [cdxbasics]: Downloading https://files.pythonhosted.org/packages/70/b4/020ddadf0e041dbe964c3ee126f0ced6d699d6a5c6d0e256f1e532782902/cdxbasics-0.2.9.tar.gz
+[2023-07-29 16:30:31] INFO root fetch - processPackages [MAZAlib]: Downloading https://files.pythonhosted.org/packages/ee/bf/644071a273d92a917989a5acc834c89301fde3a6a32435ce6290de2d5504/MAZAlib-0.0.9.tar.gz
+[2023-07-29 16:30:31] INFO root fetch - processPackages [feltpy]: Downloading https://files.pythonhosted.org/packages/72/05/ee282206f48325d45261a016202d94e9e5cf0d3c23301473fd591f88aee9/feltpy-0.0.3.tar.gz
+[2023-07-29 16:30:31] INFO root fetch - processPackages [failprint]: Downloading https://files.pythonhosted.org/packages/2b/f4/b51b8aa9096ffaca509e1b52c5df1ae92077d157a8ecbecba85e8fd826ec/failprint-1.0.1.tar.gz
+[2023-07-29 16:30:31] INFO root fetch - processPackages [MAZAlib]: executing diffoscope
+[2023-07-29 16:30:31] INFO root fetch - processPackages [MAZAlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MAZAlib-0.0.8.tar.gz tmp/MAZAlib-0.0.9.tar.gz --markdown 20230729/M/MAZAlib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-29 16:30:31] INFO root fetch - processPackages [cdxbasics]: executing diffoscope
+[2023-07-29 16:30:31] INFO root fetch - processPackages [cdxbasics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdxbasics-0.2.8.tar.gz tmp/cdxbasics-0.2.9.tar.gz --markdown 20230729/c/cdxbasics/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-29 16:30:31] INFO root fetch - processPackages [clipped]: Downloading https://files.pythonhosted.org/packages/6a/13/36387c6444bc38d6db4bf598a04ef4d7425b04001de15c308adf6e857238/clipped-0.5.0.tar.gz
+[2023-07-29 16:30:32] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/4d/84/23b70f4156f338e4f703750848340d7314d9f46e7f66ff4dd6c896106ebc/localstack-core-2.2.1.dev20230729142548.tar.gz
+[2023-07-29 16:30:32] INFO root fetch - processPackages [django-clickhouse-backend]: Downloading https://files.pythonhosted.org/packages/15/1d/2f52e1b878e77f6f3442bfc3def399de5db9bda2c8a2d32a9f6845033aec/django-clickhouse-backend-1.1.0.tar.gz
+[2023-07-29 16:30:32] INFO root fetch - processPackages [uszipstats]: Downloading https://files.pythonhosted.org/packages/70/d4/d016f757dd423a33a1d9ffae98abc2d87d8a129c2704cf2c42fd8a8a821a/uszipstats-0.3.tar.gz
+[2023-07-29 16:30:32] INFO root fetch - processPackages [vigilant-kit]: Downloading https://files.pythonhosted.org/packages/b7/a2/86e7300e58bd0485d546697c87efe4085f883320117b9ada28ed00c9454e/vigilant_kit-1.2.8.tar.gz
+[2023-07-29 16:30:32] INFO root fetch - processPackages [feltpy]: executing diffoscope
+[2023-07-29 16:30:32] INFO root fetch - processPackages [feltpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feltpy-0.0.2.tar.gz tmp/feltpy-0.0.3.tar.gz --markdown 20230729/f/feltpy/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-29 16:30:32] INFO root fetch - processPackages [failprint]: executing diffoscope
+[2023-07-29 16:30:32] INFO root fetch - processPackages [failprint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/failprint-1.0.0.tar.gz tmp/failprint-1.0.1.tar.gz --markdown 20230729/f/failprint/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-29 16:30:32] INFO root fetch - processPackages [uszipstats]: executing diffoscope
+[2023-07-29 16:30:32] INFO root fetch - processPackages [uszipstats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uszipstats-0.2.tar.gz tmp/uszipstats-0.3.tar.gz --markdown 20230729/u/uszipstats/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-29 16:30:32] INFO root fetch - processPackages [django-clickhouse-backend]: executing diffoscope
+[2023-07-29 16:30:32] INFO root fetch - processPackages [django-clickhouse-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-clickhouse-backend-1.0.3.tar.gz tmp/django-clickhouse-backend-1.1.0.tar.gz --markdown 20230729/d/django-clickhouse-backend/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-07-29 16:30:32] INFO root fetch - processPackages [clipped]: executing diffoscope
+[2023-07-29 16:30:32] INFO root fetch - processPackages [clipped]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clipped-0.4.2.tar.gz tmp/clipped-0.5.0.tar.gz --markdown 20230729/c/clipped/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-07-29 16:30:32] INFO root fetch - processPackages [vigilant-kit]: executing diffoscope
+[2023-07-29 16:30:32] INFO root fetch - processPackages [vigilant-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vigilant_kit-1.2.7.tar.gz tmp/vigilant_kit-1.2.8.tar.gz --markdown 20230729/v/vigilant-kit/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-07-29 16:30:32] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-07-29 16:30:32] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.2.1.dev20230729125541.tar.gz tmp/localstack-core-2.2.1.dev20230729142548.tar.gz --markdown 20230729/l/localstack-core/2.2.1.dev20230729125541-2.2.1.dev20230729142548/diff.md --exclude *.pyd
+[2023-07-29 16:30:33] INFO root fetch - processPackages [MAZAlib]: Remove: archive file [/home/abi/fetcher/tmp/MAZAlib-0.0.8.tar.gz]
+[2023-07-29 16:30:33] INFO root fetch - processPackages [MAZAlib]: Remove: archive file [/home/abi/fetcher/tmp/MAZAlib-0.0.9.tar.gz]
+[2023-07-29 16:30:33] INFO root fetch - main [MainThread]: End processing [MAZAlib]: success
+[2023-07-29 16:30:33] INFO root fetch - processPackages [feltpy]: Remove: archive file [/home/abi/fetcher/tmp/feltpy-0.0.2.tar.gz]
+[2023-07-29 16:30:33] INFO root fetch - processPackages [uszipstats]: Remove: archive file [/home/abi/fetcher/tmp/uszipstats-0.2.tar.gz]
+[2023-07-29 16:30:33] INFO root fetch - processPackages [feltpy]: Remove: archive file [/home/abi/fetcher/tmp/feltpy-0.0.3.tar.gz]
+[2023-07-29 16:30:33] INFO root fetch - processPackages [uszipstats]: Remove: archive file [/home/abi/fetcher/tmp/uszipstats-0.3.tar.gz]
+[2023-07-29 16:30:33] INFO root fetch - main [MainThread]: End processing [feltpy]: success
+[2023-07-29 16:30:33] INFO root fetch - main [MainThread]: End processing [uszipstats]: success
+[2023-07-29 16:30:33] INFO root fetch - processPackages [cdxbasics]: Remove: archive file [/home/abi/fetcher/tmp/cdxbasics-0.2.8.tar.gz]
+[2023-07-29 16:30:33] INFO root fetch - processPackages [cdxbasics]: Remove: archive file [/home/abi/fetcher/tmp/cdxbasics-0.2.9.tar.gz]
+[2023-07-29 16:30:33] INFO root fetch - main [MainThread]: End processing [cdxbasics]: success
+[2023-07-29 16:30:33] INFO root fetch - processPackages [vigilant-kit]: Remove: archive file [/home/abi/fetcher/tmp/vigilant_kit-1.2.7.tar.gz]
+[2023-07-29 16:30:33] INFO root fetch - processPackages [vigilant-kit]: Remove: archive file [/home/abi/fetcher/tmp/vigilant_kit-1.2.8.tar.gz]
+[2023-07-29 16:30:33] INFO root fetch - main [MainThread]: End processing [vigilant-kit]: success
+[2023-07-29 16:30:33] INFO root fetch - processPackages [failprint]: Remove: archive file [/home/abi/fetcher/tmp/failprint-1.0.0.tar.gz]
+[2023-07-29 16:30:33] INFO root fetch - processPackages [failprint]: Remove: archive file [/home/abi/fetcher/tmp/failprint-1.0.1.tar.gz]
+[2023-07-29 16:30:33] INFO root fetch - main [MainThread]: End processing [failprint]: success
+[2023-07-29 16:30:33] INFO root fetch - processPackages [django-clickhouse-backend]: Remove: archive file [/home/abi/fetcher/tmp/django-clickhouse-backend-1.0.3.tar.gz]
+[2023-07-29 16:30:33] INFO root fetch - processPackages [django-clickhouse-backend]: Remove: archive file [/home/abi/fetcher/tmp/django-clickhouse-backend-1.1.0.tar.gz]
+[2023-07-29 16:30:33] INFO root fetch - main [MainThread]: End processing [django-clickhouse-backend]: success
+[2023-07-29 16:30:33] INFO root fetch - processPackages [clipped]: Remove: archive file [/home/abi/fetcher/tmp/clipped-0.4.2.tar.gz]
+[2023-07-29 16:30:33] INFO root fetch - processPackages [clipped]: Remove: archive file [/home/abi/fetcher/tmp/clipped-0.5.0.tar.gz]
+[2023-07-29 16:30:33] INFO root fetch - main [MainThread]: End processing [clipped]: success
+[2023-07-29 16:30:36] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230729125541.tar.gz]
+[2023-07-29 16:30:36] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230729142548.tar.gz]
+[2023-07-29 16:30:36] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-07-29 16:30:36] INFO root fetch - main [MainThread]: Store serial: [19089391]
