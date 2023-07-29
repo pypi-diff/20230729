@@ -22532,3 +22532,54 @@ AssertionError: tmp/pulpcore-3.9.0.tar.gz does not exist
 [2023-07-29 21:04:23] INFO root fetch - processPackages [tree-of-thoughts]: Remove: archive file [/home/abi/fetcher/tmp/tree-of-thoughts-0.3.5.tar.gz]
 [2023-07-29 21:04:23] INFO root fetch - main [MainThread]: End processing [tree-of-thoughts]: success
 [2023-07-29 21:04:23] INFO root fetch - main [MainThread]: Store serial: [19091151]
+[2023-07-29 21:09:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19091151]
+[2023-07-29 21:09:32] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-29 21:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rk-core
+[2023-07-29 21:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flake8
+[2023-07-29 21:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: retnets
+[2023-07-29 21:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: swiftly-sys
+[2023-07-29 21:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytransformers
+[2023-07-29 21:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: foc
+[2023-07-29 21:09:32] INFO root fetch - processPackages [foc]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-29 21:09:32] WARNING root fetch - processPackages [pytransformers]: Skipping, unable to determine old version
+[2023-07-29 21:09:32] INFO root fetch - processPackages [swiftly-sys]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-29 21:09:32] INFO root fetch - main [MainThread]: End processing [pytransformers] error
+[2023-07-29 21:09:32] INFO root fetch - processPackages [retnets]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-29 21:09:32] INFO root fetch - processPackages [rk-core]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-29 21:09:32] INFO root fetch - processPackages [flake8]: New version: [6.1.0] Old Version: [6.0.0]
+[2023-07-29 21:09:32] INFO root fetch - processPackages [swiftly-sys]: Downloading https://files.pythonhosted.org/packages/98/41/66cf96b60c8bfb0059a68c2ed877fa8f671a1c0bf2c9791685c6058ad9ac/swiftly-sys-0.0.8.tar.gz
+[2023-07-29 21:09:32] INFO root fetch - processPackages [rk-core]: Downloading https://files.pythonhosted.org/packages/80/94/9d70dc9aa0d7f9430d6c4322ced0d00faba1ce6d657619f9462d799d119c/rk_core-0.1.8-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-29 21:09:33] INFO root fetch - processPackages [flake8]: Downloading https://files.pythonhosted.org/packages/66/53/3ad4a3b74d609b3b9008a10075c40e7c8909eae60af53623c3888f7a529a/flake8-6.0.0.tar.gz
+[2023-07-29 21:09:33] INFO root fetch - processPackages [retnets]: Downloading https://files.pythonhosted.org/packages/72/04/36ce639148726c37a94c6f10240176bd137c6aa3d036f5bf9f7a45bd399a/retnets-0.0.1.tar.gz
+[2023-07-29 21:09:33] INFO root fetch - processPackages [foc]: Downloading https://files.pythonhosted.org/packages/8d/e9/e4a4fd84ad5dc5107cd2fd9f2e8920fb8c84d5d59db1fbdc1f1da196e771/foc-0.1.8.tar.gz
+[2023-07-29 21:09:33] INFO root fetch - processPackages [swiftly-sys]: Downloading https://files.pythonhosted.org/packages/4c/19/ba52474c05257acfac2b6a3a3319fa8660bba0417fbe58272fa928d0709e/swiftly-sys-0.0.9.tar.gz
+[2023-07-29 21:09:33] INFO root fetch - processPackages [flake8]: Downloading https://files.pythonhosted.org/packages/cf/f8/bbe24f43695c0c480181e39ce910c2650c794831886ec46ddd7c40520e6a/flake8-6.1.0.tar.gz
+[2023-07-29 21:09:33] INFO root fetch - processPackages [retnets]: Downloading https://files.pythonhosted.org/packages/5f/21/f9e5e352c8728c7d2cd6c5ae5aed0e17121f826d852b7c9c170dcacd9f11/retnets-0.0.2.tar.gz
+[2023-07-29 21:09:33] INFO root fetch - processPackages [foc]: Downloading https://files.pythonhosted.org/packages/db/f4/25afa7b10b80df2c11a9dfab8ab256a868f7bfb1d15a3da95d4947e91daf/foc-0.1.9.tar.gz
+[2023-07-29 21:09:33] INFO root fetch - processPackages [swiftly-sys]: executing diffoscope
+[2023-07-29 21:09:33] INFO root fetch - processPackages [swiftly-sys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swiftly-sys-0.0.8.tar.gz tmp/swiftly-sys-0.0.9.tar.gz --markdown 20230729/s/swiftly-sys/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-29 21:09:33] INFO root fetch - processPackages [flake8]: executing diffoscope
+[2023-07-29 21:09:33] INFO root fetch - processPackages [flake8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8-6.0.0.tar.gz tmp/flake8-6.1.0.tar.gz --markdown 20230729/f/flake8/6.0.0-6.1.0/diff.md --exclude *.pyd
+[2023-07-29 21:09:33] INFO root fetch - processPackages [foc]: executing diffoscope
+[2023-07-29 21:09:33] INFO root fetch - processPackages [foc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foc-0.1.8.tar.gz tmp/foc-0.1.9.tar.gz --markdown 20230729/f/foc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-29 21:09:33] INFO root fetch - processPackages [retnets]: executing diffoscope
+[2023-07-29 21:09:33] INFO root fetch - processPackages [retnets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retnets-0.0.1.tar.gz tmp/retnets-0.0.2.tar.gz --markdown 20230729/r/retnets/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-29 21:09:33] INFO root fetch - processPackages [rk-core]: Downloading https://files.pythonhosted.org/packages/90/52/6703b861fcab040bcd5efaa6a825ae7acc584143f42d1366b5d08dbb856f/rk_core-0.1.9-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-29 21:09:34] INFO root fetch - processPackages [swiftly-sys]: Remove: archive file [/home/abi/fetcher/tmp/swiftly-sys-0.0.8.tar.gz]
+[2023-07-29 21:09:34] INFO root fetch - processPackages [swiftly-sys]: Remove: archive file [/home/abi/fetcher/tmp/swiftly-sys-0.0.9.tar.gz]
+[2023-07-29 21:09:34] INFO root fetch - main [MainThread]: End processing [swiftly-sys]: success
+[2023-07-29 21:09:34] INFO root fetch - processPackages [rk-core]: executing diffoscope
+[2023-07-29 21:09:34] INFO root fetch - processPackages [rk-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rk_core-0.1.8-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/rk_core-0.1.9-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230729/r/rk-core/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-29 21:09:34] INFO root fetch - processPackages [retnets]: Remove: archive file [/home/abi/fetcher/tmp/retnets-0.0.1.tar.gz]
+[2023-07-29 21:09:34] INFO root fetch - processPackages [retnets]: Remove: archive file [/home/abi/fetcher/tmp/retnets-0.0.2.tar.gz]
+[2023-07-29 21:09:34] INFO root fetch - main [MainThread]: End processing [retnets]: success
+[2023-07-29 21:09:34] INFO root fetch - processPackages [foc]: Remove: archive file [/home/abi/fetcher/tmp/foc-0.1.8.tar.gz]
+[2023-07-29 21:09:34] INFO root fetch - processPackages [foc]: Remove: archive file [/home/abi/fetcher/tmp/foc-0.1.9.tar.gz]
+[2023-07-29 21:09:34] INFO root fetch - main [MainThread]: End processing [foc]: success
+[2023-07-29 21:09:34] INFO root fetch - processPackages [flake8]: Remove: archive file [/home/abi/fetcher/tmp/flake8-6.0.0.tar.gz]
+[2023-07-29 21:09:34] INFO root fetch - processPackages [flake8]: Remove: archive file [/home/abi/fetcher/tmp/flake8-6.1.0.tar.gz]
+[2023-07-29 21:09:34] INFO root fetch - main [MainThread]: End processing [flake8]: success
+[2023-07-29 21:10:15] INFO root fetch - processPackages [rk-core]: Remove: archive file [/home/abi/fetcher/tmp/rk_core-0.1.8-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-29 21:10:15] INFO root fetch - processPackages [rk-core]: Remove: archive file [/home/abi/fetcher/tmp/rk_core-0.1.9-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-29 21:10:15] INFO root fetch - main [MainThread]: End processing [rk-core]: success
+[2023-07-29 21:10:15] INFO root fetch - main [MainThread]: Store serial: [19091180]
