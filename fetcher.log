@@ -18778,3 +18778,57 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 16:30:36] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230729142548.tar.gz]
 [2023-07-29 16:30:36] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-07-29 16:30:36] INFO root fetch - main [MainThread]: Store serial: [19089391]
+[2023-07-29 16:35:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19089391]
+[2023-07-29 16:35:45] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-29 16:35:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: composabl
+[2023-07-29 16:35:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MAZAlib
+[2023-07-29 16:35:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: millilensing
+[2023-07-29 16:35:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: onnx2tf
+[2023-07-29 16:35:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: craterslab
+[2023-07-29 16:35:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vents
+[2023-07-29 16:35:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: MAZAlib
+[2023-07-29 16:35:45] INFO root fetch - processPackages [MAZAlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-29 16:35:45] WARNING root fetch - processPackages [millilensing]: Skipping, unable to determine old version
+[2023-07-29 16:35:45] INFO root fetch - main [MainThread]: End processing [millilensing] error
+[2023-07-29 16:35:45] INFO root fetch - processPackages [vents]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-07-29 16:35:45] INFO root fetch - processPackages [craterslab]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-29 16:35:45] INFO root fetch - processPackages [composabl]: New version: [0.3.5] Old Version: [0.2.4]
+[2023-07-29 16:35:45] INFO root fetch - processPackages [MAZAlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-29 16:35:45] INFO root fetch - processPackages [onnx2tf]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-29 16:35:45] INFO root fetch - processPackages [MAZAlib]: Downloading https://files.pythonhosted.org/packages/50/f4/08487d2e9ffaf4c2459a82bdb215d7a1e77e96862254778678316ddb1a94/MAZAlib-0.0.8.tar.gz
+[2023-07-29 16:35:46] INFO root fetch - processPackages [MAZAlib]: Downloading https://files.pythonhosted.org/packages/50/f4/08487d2e9ffaf4c2459a82bdb215d7a1e77e96862254778678316ddb1a94/MAZAlib-0.0.8.tar.gz
+[2023-07-29 16:35:46] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/6f/b3/519ee148592d2531639c5f3c1434df000ecf2c24a5b55b61cba8fd4767f9/onnx2tf-1.9.8.tar.gz
+[2023-07-29 16:35:46] INFO root fetch - processPackages [craterslab]: Downloading https://files.pythonhosted.org/packages/d4/12/13bdd0de7bc07e84dcc2a78e4d6b3931fffd78aa28fa58c28effb2356e98/craterslab-0.2.0.tar.gz
+[2023-07-29 16:35:46] WARNING root fetch - processPackages [craterslab]: Skipping package: exceeds size limit 20696616>=10485760
+[2023-07-29 16:35:46] INFO root fetch - main [MainThread]: End processing [craterslab] error
+[2023-07-29 16:35:46] INFO root fetch - processPackages [vents]: Downloading https://files.pythonhosted.org/packages/cb/f0/d2fc10ffa432b06ae9498f11ab79af3b08222ee1d56781e40e7a311e89c5/vents-0.1.5.tar.gz
+[2023-07-29 16:35:46] INFO root fetch - processPackages [composabl]: Downloading https://files.pythonhosted.org/packages/86/ef/1e25d48ad801f16bd54ff2f3e6aa6f9658e6d8bf78dedcd8f350d4ddf6ed/composabl-0.2.4-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-07-29 16:35:46] INFO root fetch - processPackages [MAZAlib]: Downloading https://files.pythonhosted.org/packages/ee/bf/644071a273d92a917989a5acc834c89301fde3a6a32435ce6290de2d5504/MAZAlib-0.0.9.tar.gz
+[2023-07-29 16:35:46] INFO root fetch - processPackages [MAZAlib]: Downloading https://files.pythonhosted.org/packages/ee/bf/644071a273d92a917989a5acc834c89301fde3a6a32435ce6290de2d5504/MAZAlib-0.0.9.tar.gz
+[2023-07-29 16:35:46] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/0e/df/e0c6978b06db6c5c04de100ecbe0bbb281caed31c4dd88663e61e36ca571/onnx2tf-1.9.9.tar.gz
+[2023-07-29 16:35:46] INFO root fetch - processPackages [MAZAlib]: executing diffoscope
+[2023-07-29 16:35:46] INFO root fetch - processPackages [MAZAlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MAZAlib-0.0.8.tar.gz tmp/MAZAlib-0.0.9.tar.gz --markdown 20230729/M/MAZAlib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-29 16:35:46] INFO root fetch - processPackages [MAZAlib]: executing diffoscope
+[2023-07-29 16:35:46] INFO root fetch - processPackages [MAZAlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MAZAlib-0.0.8.tar.gz tmp/MAZAlib-0.0.9.tar.gz --markdown 20230729/M/MAZAlib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-29 16:35:46] INFO root fetch - processPackages [vents]: Downloading https://files.pythonhosted.org/packages/ef/1d/689843cd5e4df6eff5588bf23c2418d70deadc29a44074bc5b5a6fd8feb9/vents-0.2.0.tar.gz
+[2023-07-29 16:35:46] INFO root fetch - processPackages [onnx2tf]: executing diffoscope
+[2023-07-29 16:35:46] INFO root fetch - processPackages [onnx2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2tf-1.9.8.tar.gz tmp/onnx2tf-1.9.9.tar.gz --markdown 20230729/o/onnx2tf/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-29 16:35:46] INFO root fetch - processPackages [vents]: executing diffoscope
+[2023-07-29 16:35:46] INFO root fetch - processPackages [vents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vents-0.1.5.tar.gz tmp/vents-0.2.0.tar.gz --markdown 20230729/v/vents/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-07-29 16:35:47] INFO root fetch - processPackages [composabl]: Downloading https://files.pythonhosted.org/packages/29/c7/30a04df54b340264717be91e4930db81ba7bd8837c666c762d3181d8ca75/composabl-0.3.5-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-07-29 16:35:47] INFO root fetch - processPackages [MAZAlib]: Remove: archive file [/home/abi/fetcher/tmp/MAZAlib-0.0.8.tar.gz]
+[2023-07-29 16:35:47] INFO root fetch - processPackages [MAZAlib]: Remove: archive file [/home/abi/fetcher/tmp/MAZAlib-0.0.9.tar.gz]
+[2023-07-29 16:35:47] INFO root fetch - main [MainThread]: End processing [MAZAlib]: success
+[2023-07-29 16:35:47] INFO root fetch - main [MainThread]: End processing [MAZAlib]: success
+[2023-07-29 16:35:47] INFO root fetch - processPackages [vents]: Remove: archive file [/home/abi/fetcher/tmp/vents-0.1.5.tar.gz]
+[2023-07-29 16:35:47] INFO root fetch - processPackages [vents]: Remove: archive file [/home/abi/fetcher/tmp/vents-0.2.0.tar.gz]
+[2023-07-29 16:35:47] INFO root fetch - main [MainThread]: End processing [vents]: success
+[2023-07-29 16:35:48] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.8.tar.gz]
+[2023-07-29 16:35:48] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.9.tar.gz]
+[2023-07-29 16:35:48] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
+[2023-07-29 16:35:48] INFO root fetch - processPackages [composabl]: executing diffoscope
+[2023-07-29 16:35:48] INFO root fetch - processPackages [composabl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl-0.2.4-cp38-cp38-musllinux_1_1_x86_64.whl.zip tmp/composabl-0.3.5-cp38-cp38-musllinux_1_1_x86_64.whl.zip --markdown 20230729/c/composabl/0.2.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-29 16:35:49] INFO root fetch - processPackages [composabl]: Remove: archive file [/home/abi/fetcher/tmp/composabl-0.2.4-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-07-29 16:35:49] INFO root fetch - processPackages [composabl]: Remove: archive file [/home/abi/fetcher/tmp/composabl-0.3.5-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-07-29 16:35:49] INFO root fetch - main [MainThread]: End processing [composabl]: success
+[2023-07-29 16:35:49] INFO root fetch - main [MainThread]: Store serial: [19089419]
