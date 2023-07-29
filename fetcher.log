@@ -20282,3 +20282,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 18:28:20] INFO root fetch - processPackages [novelai-api]: Remove: archive file [/home/abi/fetcher/tmp/novelai-api-0.9.tar.gz]
 [2023-07-29 18:28:20] INFO root fetch - main [MainThread]: End processing [novelai-api]: success
 [2023-07-29 18:28:20] INFO root fetch - main [MainThread]: Store serial: [19090176]
+[2023-07-29 18:33:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19090176]
+[2023-07-29 18:33:29] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-29 18:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: napatrackmater
+[2023-07-29 18:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pykka
+[2023-07-29 18:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spam-analyzer
+[2023-07-29 18:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: runplify
+[2023-07-29 18:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: djfabric
+[2023-07-29 18:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sdkit
+[2023-07-29 18:33:29] INFO root fetch - processPackages [napatrackmater]: New version: [3.9.5] Old Version: [3.9.4]
+[2023-07-29 18:33:29] INFO root fetch - processPackages [pykka]: New version: [4.0.0rc1] Old Version: [3.1.1]
+[2023-07-29 18:33:29] INFO root fetch - processPackages [sdkit]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-29 18:33:29] INFO root fetch - processPackages [spam-analyzer]: New version: [1.0.0b0] Old Version: [0.2.1b0]
+[2023-07-29 18:33:29] INFO root fetch - processPackages [djfabric]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-29 18:33:29] WARNING root fetch - processPackages [runplify]: Skipping, unable to determine old version
+[2023-07-29 18:33:29] INFO root fetch - main [MainThread]: End processing [runplify] error
+[2023-07-29 18:33:29] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/52/f6/61b2130571039a23f261cdff7b93f473891abc2000453b059c108bc40d38/napatrackmater-3.9.4.tar.gz
+[2023-07-29 18:33:29] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/d1/c1/f3e251106f7f4c022d55f8fe3a3c0eacdb5bfdf84ce4182f71368c4f3a5f/sdkit-1.0.98.tar.gz
+[2023-07-29 18:33:30] INFO root fetch - processPackages [djfabric]: Downloading https://files.pythonhosted.org/packages/cc/0a/741d59069e8574b28b08bcdca3f2e4d5e4cf29ff7c63cc9aee62a5433c47/djfabric-0.0.2.tar.gz
+[2023-07-29 18:33:30] INFO root fetch - processPackages [spam-analyzer]: Downloading https://files.pythonhosted.org/packages/13/1c/e25065f0f226f117b17bc0acbd54931badd503f1e947e5ee71878c0f6888/spam_analyzer-0.2.1b0.tar.gz
+[2023-07-29 18:33:30] INFO root fetch - processPackages [pykka]: Downloading https://files.pythonhosted.org/packages/45/e9/ba139b5becd0e4bdf10a816af3fc17f788ac630159ca959d6da44d91a7be/pykka-3.1.1.tar.gz
+[2023-07-29 18:33:30] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/7e/69/b60dd118fa3c33f9ff305ec5ce9de04303dfdfc9be5d286e20cbc1ee1e7b/sdkit-1.0.99.tar.gz
+[2023-07-29 18:33:30] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/d0/b6/8008bbb82c84fcf3411344e8b78a0601e6c5bac99a1306fcf139587729e3/napatrackmater-3.9.5.tar.gz
+[2023-07-29 18:33:30] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-07-29 18:33:30] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.98.tar.gz tmp/sdkit-1.0.99.tar.gz --markdown 20230729/s/sdkit/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-29 18:33:30] INFO root fetch - processPackages [napatrackmater]: executing diffoscope
+[2023-07-29 18:33:30] INFO root fetch - processPackages [napatrackmater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napatrackmater-3.9.4.tar.gz tmp/napatrackmater-3.9.5.tar.gz --markdown 20230729/n/napatrackmater/3.9.4-3.9.5/diff.md --exclude *.pyd
+[2023-07-29 18:33:30] INFO root fetch - processPackages [djfabric]: Downloading https://files.pythonhosted.org/packages/ae/f4/6559730891c28ecccf643f0314c77d8dc240bcce723b3a3887fb6fd8c510/djfabric-0.0.3.tar.gz
+[2023-07-29 18:33:30] INFO root fetch - processPackages [spam-analyzer]: Downloading https://files.pythonhosted.org/packages/44/e3/eb4a81d789ba8f700951c6e5dac3b9661e64f7d819a4e84c3ec879e98225/spam_analyzer-1.0.0b0.tar.gz
+[2023-07-29 18:33:30] WARNING root fetch - processPackages [spam-analyzer]: Skipping package: exceeds size limit 13011585>=10485760
+[2023-07-29 18:33:30] INFO root fetch - main [MainThread]: End processing [spam-analyzer] error
+[2023-07-29 18:33:30] INFO root fetch - processPackages [pykka]: Downloading https://files.pythonhosted.org/packages/78/2e/969dfd7f578500d534ee9055820e3c446f38269758ee8cd11f7b31df94b3/pykka-4.0.0rc1.tar.gz
+[2023-07-29 18:33:30] INFO root fetch - processPackages [djfabric]: executing diffoscope
+[2023-07-29 18:33:30] INFO root fetch - processPackages [djfabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djfabric-0.0.2.tar.gz tmp/djfabric-0.0.3.tar.gz --markdown 20230729/d/djfabric/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-29 18:33:30] INFO root fetch - processPackages [pykka]: executing diffoscope
+[2023-07-29 18:33:30] INFO root fetch - processPackages [pykka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykka-3.1.1.tar.gz tmp/pykka-4.0.0rc1.tar.gz --markdown 20230729/p/pykka/3.1.1-4.0.0rc1/diff.md --exclude *.pyd
+[2023-07-29 18:33:31] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-3.9.4.tar.gz]
+[2023-07-29 18:33:31] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-3.9.5.tar.gz]
+[2023-07-29 18:33:31] INFO root fetch - main [MainThread]: End processing [napatrackmater]: success
+[2023-07-29 18:33:31] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.98.tar.gz]
+[2023-07-29 18:33:31] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.99.tar.gz]
+[2023-07-29 18:33:31] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-07-29 18:33:31] INFO root fetch - processPackages [djfabric]: Remove: archive file [/home/abi/fetcher/tmp/djfabric-0.0.2.tar.gz]
+[2023-07-29 18:33:31] INFO root fetch - processPackages [djfabric]: Remove: archive file [/home/abi/fetcher/tmp/djfabric-0.0.3.tar.gz]
+[2023-07-29 18:33:31] INFO root fetch - main [MainThread]: End processing [djfabric]: success
+[2023-07-29 18:33:31] INFO root fetch - processPackages [pykka]: Remove: archive file [/home/abi/fetcher/tmp/pykka-3.1.1.tar.gz]
+[2023-07-29 18:33:31] INFO root fetch - processPackages [pykka]: Remove: archive file [/home/abi/fetcher/tmp/pykka-4.0.0rc1.tar.gz]
+[2023-07-29 18:33:31] INFO root fetch - main [MainThread]: End processing [pykka]: success
+[2023-07-29 18:33:31] INFO root fetch - main [MainThread]: Store serial: [19090198]
