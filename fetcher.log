@@ -2723,3 +2723,132 @@
 [2023-07-29 02:35:16] INFO root fetch - processPackages [datarobot-drum]: Remove: archive file [/home/abi/fetcher/tmp/datarobot_drum-1.9.9.dev2-py3-none-any.whl.zip]
 [2023-07-29 02:35:16] INFO root fetch - main [MainThread]: End processing [datarobot-drum]: success
 [2023-07-29 02:35:16] INFO root fetch - main [MainThread]: Store serial: [19083036]
+[2023-07-29 02:40:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19083036]
+[2023-07-29 02:40:25] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-29 02:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mcptbr
+[2023-07-29 02:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sotai
+[2023-07-29 02:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agentshell
+[2023-07-29 02:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: garrett-streamlit-auth0
+[2023-07-29 02:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aorta-sirius
+[2023-07-29 02:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-serverless-clamscan
+[2023-07-29 02:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tfds-nightly
+[2023-07-29 02:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: braintrust
+[2023-07-29 02:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: coiled
+[2023-07-29 02:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: RUTTS
+[2023-07-29 02:40:26] INFO root fetch - processPackages [sotai]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-29 02:40:26] INFO root fetch - processPackages [garrett-streamlit-auth0]: New version: [0.3.dev1690590920] Old Version: [0.3.dev1690590568]
+[2023-07-29 02:40:26] INFO root fetch - processPackages [mcptbr]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-29 02:40:26] INFO root fetch - processPackages [braintrust]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-29 02:40:26] INFO root fetch - processPackages [agentshell]: New version: [0.0.6] Old Version: [0.0.4]
+[2023-07-29 02:40:26] INFO root fetch - processPackages [RUTTS]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-29 02:40:26] INFO root fetch - processPackages [coiled]: New version: [0.9.2.dev2] Old Version: [0.9.1.dev9]
+[2023-07-29 02:40:26] INFO root fetch - processPackages [cdk-serverless-clamscan]: New version: [2.5.9] Old Version: [2.5.8]
+[2023-07-29 02:40:26] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202307280044] Old Version: [4.9.2.dev202307280043]
+[2023-07-29 02:40:26] INFO root fetch - processPackages [aorta-sirius]: New version: [0.9] Old Version: [0.8]
+[2023-07-29 02:40:26] INFO root fetch - processPackages [garrett-streamlit-auth0]: Downloading https://files.pythonhosted.org/packages/3d/23/8c038eb827b8f3adee4ffc3fbdcb40acda068502a7a2ed56b3e4324394ef/garrett-streamlit-auth0-0.3.dev1690590568.tar.gz
+[2023-07-29 02:40:26] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/e5/19/9e1516693b8358f602073aa0363dc7345cdf931e92a34e46bdce3d9e19f6/coiled-0.9.1.dev9.tar.gz
+[2023-07-29 02:40:26] INFO root fetch - processPackages [mcptbr]: Downloading https://files.pythonhosted.org/packages/c4/3b/51390ca29c22d24c3e3845da81c1e9450ee17aa1725aa850debf0d1e4ae9/mcptbr-0.2.3.tar.gz
+[2023-07-29 02:40:26] INFO root fetch - processPackages [sotai]: Downloading https://files.pythonhosted.org/packages/de/c3/3d731b78fe65f5526693b196ef4b97caffc3c012be8421c47943e34390bb/sotai-0.3.0.tar.gz
+[2023-07-29 02:40:26] INFO root fetch - processPackages [agentshell]: Downloading https://files.pythonhosted.org/packages/0f/15/cef55b5bae6bb1049fb4dea12d56152d18ae5d8a202ffce070ed9448a2c6/agentshell-0.0.4.tar.gz
+[2023-07-29 02:40:26] INFO root fetch - processPackages [braintrust]: Downloading https://files.pythonhosted.org/packages/ea/49/6dafb427c97ea65cb6b2e479c00756df3abbea160d67859f033ac7667a61/braintrust-0.0.8.tar.gz
+[2023-07-29 02:40:26] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/f1/94/234c7859ea38bf3bfd719842cb9ba335317746c85e3d6ea2c21db624c3c9/cdk-serverless-clamscan-2.5.8.tar.gz
+[2023-07-29 02:40:26] INFO root fetch - processPackages [aorta-sirius]: Downloading https://files.pythonhosted.org/packages/b6/ee/1c422ddfa238f3fc4430ac709c757c9e907639380c24ad36a0753f153a6f/aorta_sirius-0.8.tar.gz
+[2023-07-29 02:40:26] INFO root fetch - processPackages [RUTTS]: Downloading https://files.pythonhosted.org/packages/67/0c/376752d9d164dd8c0bdaadc775ba7bf723c852141a0929c706065b7a7f59/RUTTS-0.0.1.tar.gz
+[2023-07-29 02:40:26] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/21/fa/c427f42de128da2fc90807385a7b3c29169346a9531ecab3ca5274999f42/tfds-nightly-4.9.2.dev202307280043.tar.gz
+[2023-07-29 02:40:26] INFO root fetch - processPackages [aorta-sirius]: Downloading https://files.pythonhosted.org/packages/f7/a9/1b1baa080588e189aafc95d9d8998b4232984f880217dba83e3f863c1286/aorta_sirius-0.9.tar.gz
+[2023-07-29 02:40:26] INFO root fetch - processPackages [garrett-streamlit-auth0]: Downloading https://files.pythonhosted.org/packages/3b/61/e51ff38fe9843df3e669106bc1516dc114d367586461cc9664ac47851743/garrett-streamlit-auth0-0.3.dev1690590920.tar.gz
+[2023-07-29 02:40:26] INFO root fetch - processPackages [mcptbr]: Downloading https://files.pythonhosted.org/packages/c7/73/c62efad469b172452c186ea2a9810c9fed3137aa22e18e44604a64f5496e/mcptbr-0.2.4.tar.gz
+[2023-07-29 02:40:27] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/df/06/0ba95a043ebd982d267cc9f78646900af0a46feb6b0549fec27acac084ce/coiled-0.9.2.dev2.tar.gz
+[2023-07-29 02:40:27] INFO root fetch - processPackages [agentshell]: Downloading https://files.pythonhosted.org/packages/5c/08/4e44969058593dfceb814e577dfb3073d3bae5f2ce384d555855d0d974af/agentshell-0.0.6.tar.gz
+[2023-07-29 02:40:27] INFO root fetch - processPackages [RUTTS]: Downloading https://files.pythonhosted.org/packages/ec/22/924d8a4b6992b94b800556edf1b9a98b79fa821e8cfff6b3d52fe9c42d41/RUTTS-0.0.2.tar.gz
+[2023-07-29 02:40:27] INFO root fetch - processPackages [aorta-sirius]: executing diffoscope
+[2023-07-29 02:40:27] INFO root fetch - processPackages [aorta-sirius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius-0.8.tar.gz tmp/aorta_sirius-0.9.tar.gz --markdown 20230729/a/aorta-sirius/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-29 02:40:27] INFO root fetch - processPackages [sotai]: Downloading https://files.pythonhosted.org/packages/40/65/5d3d46bbefeb52648d70567dff10ccf870a844ee58a8c24abfc11f540281/sotai-0.3.1.tar.gz
+[2023-07-29 02:40:27] INFO root fetch - processPackages [braintrust]: Downloading https://files.pythonhosted.org/packages/4e/3a/faf597cceac630ee3924d2d8dcf603fc90baec28bb6313aefcb9ee399668/braintrust-0.0.9.tar.gz
+[2023-07-29 02:40:27] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/63/71/3b3a5f142bcfd2c43f4651163808a200fc1714876b0ebb321f5b0b09c0fa/tfds_nightly-4.9.2.dev202307280044-py3-none-any.whl
+[2023-07-29 02:40:27] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/28/a2/7652c50d98b37eb12999dac92423c2e06eb02ce205876482c411d4948af3/cdk-serverless-clamscan-2.5.9.tar.gz
+[2023-07-29 02:40:27] INFO root fetch - processPackages [mcptbr]: executing diffoscope
+[2023-07-29 02:40:27] INFO root fetch - processPackages [mcptbr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcptbr-0.2.3.tar.gz tmp/mcptbr-0.2.4.tar.gz --markdown 20230729/m/mcptbr/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-29 02:40:27] INFO root fetch - processPackages [agentshell]: executing diffoscope
+[2023-07-29 02:40:27] INFO root fetch - processPackages [agentshell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentshell-0.0.4.tar.gz tmp/agentshell-0.0.6.tar.gz --markdown 20230729/a/agentshell/0.0.4-0.0.6/diff.md --exclude *.pyd
+[2023-07-29 02:40:27] INFO root fetch - processPackages [garrett-streamlit-auth0]: executing diffoscope
+[2023-07-29 02:40:27] INFO root fetch - processPackages [garrett-streamlit-auth0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garrett-streamlit-auth0-0.3.dev1690590568.tar.gz tmp/garrett-streamlit-auth0-0.3.dev1690590920.tar.gz --markdown 20230729/g/garrett-streamlit-auth0/0.3.dev1690590568-0.3.dev1690590920/diff.md --exclude *.pyd
+[2023-07-29 02:40:27] INFO root fetch - processPackages [RUTTS]: executing diffoscope
+[2023-07-29 02:40:27] INFO root fetch - processPackages [RUTTS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RUTTS-0.0.1.tar.gz tmp/RUTTS-0.0.2.tar.gz --markdown 20230729/R/RUTTS/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-29 02:40:27] INFO root fetch - processPackages [sotai]: executing diffoscope
+[2023-07-29 02:40:27] INFO root fetch - processPackages [sotai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sotai-0.3.0.tar.gz tmp/sotai-0.3.1.tar.gz --markdown 20230729/s/sotai/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-29 02:40:27] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-29 02:40:27] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.9.1.dev9.tar.gz tmp/coiled-0.9.2.dev2.tar.gz --markdown 20230729/c/coiled/0.9.1.dev9-0.9.2.dev2/diff.md --exclude *.pyd
+[2023-07-29 02:40:27] INFO root fetch - processPackages [braintrust]: executing diffoscope
+[2023-07-29 02:40:27] INFO root fetch - processPackages [braintrust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/braintrust-0.0.8.tar.gz tmp/braintrust-0.0.9.tar.gz --markdown 20230729/b/braintrust/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-29 02:40:27] INFO root fetch - processPackages [cdk-serverless-clamscan]: executing diffoscope
+[2023-07-29 02:40:27] INFO root fetch - processPackages [cdk-serverless-clamscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-serverless-clamscan-2.5.8.tar.gz tmp/cdk-serverless-clamscan-2.5.9.tar.gz --markdown 20230729/c/cdk-serverless-clamscan/2.5.8-2.5.9/diff.md --exclude *.pyd
+[2023-07-29 02:40:28] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-07-29 02:40:28] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202307280043.tar.gz tmp/tfds_nightly-4.9.2.dev202307280044-py3-none-any.whl.zip --markdown 20230729/t/tfds-nightly/4.9.2.dev202307280043-4.9.2.dev202307280044/diff.md --exclude *.pyd
+[2023-07-29 02:40:28] INFO root fetch - processPackages [aorta-sirius]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius-0.8.tar.gz]
+[2023-07-29 02:40:28] INFO root fetch - processPackages [aorta-sirius]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius-0.9.tar.gz]
+[2023-07-29 02:40:28] INFO root fetch - processPackages [aorta-sirius]: Start processing: state-machine-semaphore
+[2023-07-29 02:40:28] INFO root fetch - main [MainThread]: End processing [aorta-sirius]: success
+[2023-07-29 02:40:28] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-29 02:40:28] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2023-07-29 02:40:28] INFO root fetch - processPackages [mcptbr]: Remove: archive file [/home/abi/fetcher/tmp/mcptbr-0.2.3.tar.gz]
+[2023-07-29 02:40:28] INFO root fetch - processPackages [mcptbr]: Remove: archive file [/home/abi/fetcher/tmp/mcptbr-0.2.4.tar.gz]
+[2023-07-29 02:40:28] INFO root fetch - processPackages [mcptbr]: Start processing: tcod-ecs
+[2023-07-29 02:40:28] INFO root fetch - main [MainThread]: End processing [mcptbr]: success
+[2023-07-29 02:40:28] INFO root fetch - processPackages [tcod-ecs]: New version: [4.2.0] Old Version: [4.1.0]
+[2023-07-29 02:40:28] INFO root fetch - processPackages [RUTTS]: Remove: archive file [/home/abi/fetcher/tmp/RUTTS-0.0.1.tar.gz]
+[2023-07-29 02:40:28] INFO root fetch - processPackages [RUTTS]: Remove: archive file [/home/abi/fetcher/tmp/RUTTS-0.0.2.tar.gz]
+[2023-07-29 02:40:28] INFO root fetch - processPackages [RUTTS]: Start processing: kubric-nightly
+[2023-07-29 02:40:28] INFO root fetch - main [MainThread]: End processing [RUTTS]: success
+[2023-07-29 02:40:28] INFO root fetch - processPackages [tcod-ecs]: Downloading https://files.pythonhosted.org/packages/a4/fb/b3bdaff547501df09da8b59cf4a0fa092e4ade09939ea608610e473cf3da/tcod_ecs-4.1.0.tar.gz
+[2023-07-29 02:40:28] INFO root fetch - processPackages [garrett-streamlit-auth0]: Remove: archive file [/home/abi/fetcher/tmp/garrett-streamlit-auth0-0.3.dev1690590568.tar.gz]
+[2023-07-29 02:40:28] INFO root fetch - processPackages [garrett-streamlit-auth0]: Remove: archive file [/home/abi/fetcher/tmp/garrett-streamlit-auth0-0.3.dev1690590920.tar.gz]
+[2023-07-29 02:40:28] INFO root fetch - processPackages [garrett-streamlit-auth0]: Start processing: mknodes
+[2023-07-29 02:40:28] INFO root fetch - main [MainThread]: End processing [garrett-streamlit-auth0]: success
+[2023-07-29 02:40:28] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-29 02:40:28] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2023-07-29 02:40:28] INFO root fetch - processPackages [mknodes]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-07-29 02:40:28] INFO root fetch - processPackages [agentshell]: Remove: archive file [/home/abi/fetcher/tmp/agentshell-0.0.4.tar.gz]
+[2023-07-29 02:40:28] INFO root fetch - processPackages [agentshell]: Remove: archive file [/home/abi/fetcher/tmp/agentshell-0.0.6.tar.gz]
+[2023-07-29 02:40:28] INFO root fetch - main [MainThread]: End processing [agentshell]: success
+[2023-07-29 02:40:28] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/bf/45/efe5ab87889959326f80b81945414a41c438fa00b255ffe28308ecb3b52b/kubric-nightly-2023.7.8.tar.gz
+[2023-07-29 02:40:28] INFO root fetch - processPackages [braintrust]: Remove: archive file [/home/abi/fetcher/tmp/braintrust-0.0.8.tar.gz]
+[2023-07-29 02:40:28] INFO root fetch - processPackages [braintrust]: Remove: archive file [/home/abi/fetcher/tmp/braintrust-0.0.9.tar.gz]
+[2023-07-29 02:40:28] INFO root fetch - main [MainThread]: End processing [braintrust]: success
+[2023-07-29 02:40:28] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2023-07-29 02:40:28] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20230729/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-29 02:40:28] INFO root fetch - processPackages [mknodes]: Downloading https://files.pythonhosted.org/packages/7f/f1/533fbe0917ee95b4471dbbba2b0708b664d9aa3be25f84b08d6ccebde7ab/mknodes-0.8.3.tar.gz
+[2023-07-29 02:40:29] INFO root fetch - processPackages [sotai]: Remove: archive file [/home/abi/fetcher/tmp/sotai-0.3.0.tar.gz]
+[2023-07-29 02:40:29] INFO root fetch - processPackages [sotai]: Remove: archive file [/home/abi/fetcher/tmp/sotai-0.3.1.tar.gz]
+[2023-07-29 02:40:29] INFO root fetch - main [MainThread]: End processing [sotai]: success
+[2023-07-29 02:40:29] INFO root fetch - processPackages [tcod-ecs]: Downloading https://files.pythonhosted.org/packages/bb/df/4508d43c888a3e17a7d877899655e976cc372d6786b2edaeaa1eea82d453/tcod_ecs-4.2.0.tar.gz
+[2023-07-29 02:40:29] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/bb/cd/24a7d0673a40d4a2ccf50e8e9298594da4b918433ca23a33d7273fcb6871/kubric-nightly-2023.7.9.tar.gz
+[2023-07-29 02:40:29] INFO root fetch - processPackages [mknodes]: Downloading https://files.pythonhosted.org/packages/a9/23/d4351caa4d81e1d5dfee2da642c21895fe33271ddb4650d42f56940e3a64/mknodes-0.9.0.tar.gz
+[2023-07-29 02:40:29] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.9.1.dev9.tar.gz]
+[2023-07-29 02:40:29] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.9.2.dev2.tar.gz]
+[2023-07-29 02:40:29] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-29 02:40:29] INFO root fetch - processPackages [tcod-ecs]: executing diffoscope
+[2023-07-29 02:40:29] INFO root fetch - processPackages [tcod-ecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcod_ecs-4.1.0.tar.gz tmp/tcod_ecs-4.2.0.tar.gz --markdown 20230729/t/tcod-ecs/4.1.0-4.2.0/diff.md --exclude *.pyd
+[2023-07-29 02:40:29] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-07-29 02:40:29] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.7.8.tar.gz tmp/kubric-nightly-2023.7.9.tar.gz --markdown 20230729/k/kubric-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-29 02:40:29] INFO root fetch - processPackages [mknodes]: executing diffoscope
+[2023-07-29 02:40:29] INFO root fetch - processPackages [mknodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mknodes-0.8.3.tar.gz tmp/mknodes-0.9.0.tar.gz --markdown 20230729/m/mknodes/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-07-29 02:40:29] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.5.8.tar.gz]
+[2023-07-29 02:40:29] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.5.9.tar.gz]
+[2023-07-29 02:40:29] INFO root fetch - main [MainThread]: End processing [cdk-serverless-clamscan]: success
+[2023-07-29 02:40:29] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2023-07-29 02:40:29] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2023-07-29 02:40:29] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2023-07-29 02:40:30] INFO root fetch - processPackages [tcod-ecs]: Remove: archive file [/home/abi/fetcher/tmp/tcod_ecs-4.1.0.tar.gz]
+[2023-07-29 02:40:30] INFO root fetch - processPackages [tcod-ecs]: Remove: archive file [/home/abi/fetcher/tmp/tcod_ecs-4.2.0.tar.gz]
+[2023-07-29 02:40:30] INFO root fetch - main [MainThread]: End processing [tcod-ecs]: success
+[2023-07-29 02:40:30] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.7.8.tar.gz]
+[2023-07-29 02:40:30] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.7.9.tar.gz]
+[2023-07-29 02:40:30] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-07-29 02:40:30] INFO root fetch - processPackages [mknodes]: Remove: archive file [/home/abi/fetcher/tmp/mknodes-0.8.3.tar.gz]
+[2023-07-29 02:40:30] INFO root fetch - processPackages [mknodes]: Remove: archive file [/home/abi/fetcher/tmp/mknodes-0.9.0.tar.gz]
+[2023-07-29 02:40:30] INFO root fetch - main [MainThread]: End processing [mknodes]: success
+[2023-07-29 02:40:32] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202307280043.tar.gz]
+[2023-07-29 02:40:32] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds_nightly-4.9.2.dev202307280044-py3-none-any.whl.zip]
+[2023-07-29 02:40:32] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-07-29 02:40:32] INFO root fetch - main [MainThread]: Store serial: [19083082]
