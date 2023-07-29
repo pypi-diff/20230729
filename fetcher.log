@@ -9493,3 +9493,59 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 07:37:00] INFO root fetch - processPackages [panda3d-blend2bam]: Remove: archive file [/home/abi/fetcher/tmp/panda3d-blend2bam-0.9.tar.gz]
 [2023-07-29 07:37:00] INFO root fetch - main [MainThread]: End processing [panda3d-blend2bam]: success
 [2023-07-29 07:37:00] INFO root fetch - main [MainThread]: Store serial: [19085690]
+[2023-07-29 07:42:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19085690]
+[2023-07-29 07:42:09] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-29 07:42:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-nightly-macos
+[2023-07-29 07:42:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MoreAPI
+[2023-07-29 07:42:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cramjam
+[2023-07-29 07:42:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cargo-zigbuild
+[2023-07-29 07:42:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: UIron
+[2023-07-29 07:42:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tremolo
+[2023-07-29 07:42:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fdfat
+[2023-07-29 07:42:09] ERROR root fetch - processPackages [MoreAPI]: Unable to get metadata: No such project 'MoreAPI'
+[2023-07-29 07:42:09] INFO root fetch - main [MainThread]: End processing [MoreAPI] error
+[2023-07-29 07:42:09] INFO root fetch - processPackages [cramjam]: New version: [2.7.0rc3] Old Version: [2.7.0rc2]
+[2023-07-29 07:42:09] INFO root fetch - processPackages [UIron]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-29 07:42:09] INFO root fetch - processPackages [tremolo]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-29 07:42:09] INFO root fetch - processPackages [fdfat]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-29 07:42:10] INFO root fetch - processPackages [cargo-zigbuild]: New version: [0.9.0] Old Version: [0.8.8]
+[2023-07-29 07:42:10] INFO root fetch - processPackages [tremolo]: Downloading https://files.pythonhosted.org/packages/17/91/55df15a00968bc570dc929dde0d884467bd21d9f1dc571df2cf31ad3d9c0/tremolo-0.0.98.tar.gz
+[2023-07-29 07:42:10] INFO root fetch - processPackages [tf-nightly-macos]: New version: [2.14.0.dev20230729] Old Version: [2.14.0.dev20230728]
+[2023-07-29 07:42:10] INFO root fetch - processPackages [UIron]: Downloading https://files.pythonhosted.org/packages/2b/e6/90e047b3d759c8034743a573fba2c4825cd863600e194bfef302632ff8f7/UIron-0.0.8.tar.gz
+[2023-07-29 07:42:10] INFO root fetch - processPackages [fdfat]: Downloading https://files.pythonhosted.org/packages/52/42/506d3fba14d58806c280bd41827378afbc8feb465c3c9021fad9db01c7fe/fdfat-0.1.8.tar.gz
+[2023-07-29 07:42:10] INFO root fetch - processPackages [cramjam]: Downloading https://files.pythonhosted.org/packages/14/5a/97fdb9e512ffedd2591eab379cbf8131e75d5d84c6a1b124aef01c830922/cramjam-2.7.0rc2.tar.gz
+[2023-07-29 07:42:10] INFO root fetch - processPackages [cargo-zigbuild]: Downloading https://files.pythonhosted.org/packages/32/ce/65eccbdc2e10dcf359bfee8ccf7e1522568bcb898a0c3306da22188a93e1/cargo_zigbuild-0.8.8-py3-none-win_arm64.whl
+[2023-07-29 07:42:10] INFO root fetch - processPackages [tf-nightly-macos]: Downloading https://files.pythonhosted.org/packages/ff/30/c0a420cf546eb4bcc17c648f69f5e78d575e9de5daa2d94fefa8ac9beb14/tf_nightly_macos-2.14.0.dev20230728-cp39-cp39-macosx_11_0_arm64.whl
+[2023-07-29 07:42:10] INFO root fetch - processPackages [tremolo]: Downloading https://files.pythonhosted.org/packages/9d/1f/2855765591f7f7e3122f1fde84cd87b5ded8131578ba6b246fe07394c77b/tremolo-0.0.99.tar.gz
+[2023-07-29 07:42:10] INFO root fetch - processPackages [UIron]: Downloading https://files.pythonhosted.org/packages/28/86/7ae7451e5a9b2db867b1548033dd1d9f16bf62bbc788f9375aea34116c17/UIron-0.0.9.tar.gz
+[2023-07-29 07:42:10] INFO root fetch - processPackages [tremolo]: executing diffoscope
+[2023-07-29 07:42:10] INFO root fetch - processPackages [tremolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tremolo-0.0.98.tar.gz tmp/tremolo-0.0.99.tar.gz --markdown 20230729/t/tremolo/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-29 07:42:10] INFO root fetch - processPackages [fdfat]: Downloading https://files.pythonhosted.org/packages/33/f3/6899c69370589ad43d818b9e5cdb2d0d01d7ef88af4613948080645b45db/fdfat-0.1.9.tar.gz
+[2023-07-29 07:42:10] WARNING root fetch - processPackages [tf-nightly-macos]: Skipping package: exceeds size limit 199985150>=10485760
+[2023-07-29 07:42:10] INFO root fetch - main [MainThread]: End processing [tf-nightly-macos] error
+[2023-07-29 07:42:10] INFO root fetch - processPackages [fdfat]: executing diffoscope
+[2023-07-29 07:42:10] INFO root fetch - processPackages [fdfat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdfat-0.1.8.tar.gz tmp/fdfat-0.1.9.tar.gz --markdown 20230729/f/fdfat/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-29 07:42:10] INFO root fetch - processPackages [UIron]: executing diffoscope
+[2023-07-29 07:42:10] INFO root fetch - processPackages [UIron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UIron-0.0.8.tar.gz tmp/UIron-0.0.9.tar.gz --markdown 20230729/U/UIron/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-29 07:42:10] INFO root fetch - processPackages [cargo-zigbuild]: Downloading https://files.pythonhosted.org/packages/e0/c4/785516a9ca5e58d15cb5c210a2aaaf1aa39d58ae869c0a6b3181b4e57115/cargo_zigbuild-0.9.0-py3-none-win_arm64.whl
+[2023-07-29 07:42:10] INFO root fetch - processPackages [cargo-zigbuild]: executing diffoscope
+[2023-07-29 07:42:10] INFO root fetch - processPackages [cargo-zigbuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cargo_zigbuild-0.8.8-py3-none-win_arm64.whl.zip tmp/cargo_zigbuild-0.9.0-py3-none-win_arm64.whl.zip --markdown 20230729/c/cargo-zigbuild/0.8.8-0.9.0/diff.md --exclude *.pyd
+[2023-07-29 07:42:11] INFO root fetch - processPackages [cramjam]: Downloading https://files.pythonhosted.org/packages/cc/c9/ed6de7a51f9e73a70955d26d68a5c09e6fd12a35e0958db031bc33b104c2/cramjam-2.7.0rc3.tar.gz
+[2023-07-29 07:42:11] INFO root fetch - processPackages [cramjam]: executing diffoscope
+[2023-07-29 07:42:11] INFO root fetch - processPackages [cramjam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cramjam-2.7.0rc2.tar.gz tmp/cramjam-2.7.0rc3.tar.gz --markdown 20230729/c/cramjam/2.7.0rc2-2.7.0rc3/diff.md --exclude *.pyd
+[2023-07-29 07:42:11] INFO root fetch - processPackages [UIron]: Remove: archive file [/home/abi/fetcher/tmp/UIron-0.0.8.tar.gz]
+[2023-07-29 07:42:11] INFO root fetch - processPackages [UIron]: Remove: archive file [/home/abi/fetcher/tmp/UIron-0.0.9.tar.gz]
+[2023-07-29 07:42:11] INFO root fetch - main [MainThread]: End processing [UIron]: success
+[2023-07-29 07:42:11] INFO root fetch - processPackages [tremolo]: Remove: archive file [/home/abi/fetcher/tmp/tremolo-0.0.98.tar.gz]
+[2023-07-29 07:42:11] INFO root fetch - processPackages [tremolo]: Remove: archive file [/home/abi/fetcher/tmp/tremolo-0.0.99.tar.gz]
+[2023-07-29 07:42:11] INFO root fetch - main [MainThread]: End processing [tremolo]: success
+[2023-07-29 07:42:11] INFO root fetch - processPackages [fdfat]: Remove: archive file [/home/abi/fetcher/tmp/fdfat-0.1.8.tar.gz]
+[2023-07-29 07:42:11] INFO root fetch - processPackages [fdfat]: Remove: archive file [/home/abi/fetcher/tmp/fdfat-0.1.9.tar.gz]
+[2023-07-29 07:42:11] INFO root fetch - main [MainThread]: End processing [fdfat]: success
+[2023-07-29 07:42:12] INFO root fetch - processPackages [cramjam]: Remove: archive file [/home/abi/fetcher/tmp/cramjam-2.7.0rc2.tar.gz]
+[2023-07-29 07:42:12] INFO root fetch - processPackages [cramjam]: Remove: archive file [/home/abi/fetcher/tmp/cramjam-2.7.0rc3.tar.gz]
+[2023-07-29 07:42:12] INFO root fetch - main [MainThread]: End processing [cramjam]: success
+[2023-07-29 07:42:14] INFO root fetch - processPackages [cargo-zigbuild]: Remove: archive file [/home/abi/fetcher/tmp/cargo_zigbuild-0.8.8-py3-none-win_arm64.whl.zip]
+[2023-07-29 07:42:14] INFO root fetch - processPackages [cargo-zigbuild]: Remove: archive file [/home/abi/fetcher/tmp/cargo_zigbuild-0.9.0-py3-none-win_arm64.whl.zip]
+[2023-07-29 07:42:14] INFO root fetch - main [MainThread]: End processing [cargo-zigbuild]: success
+[2023-07-29 07:42:14] INFO root fetch - main [MainThread]: Store serial: [19085780]
