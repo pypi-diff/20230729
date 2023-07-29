@@ -17184,3 +17184,84 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 14:50:26] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.3.post0.dev1.tar.gz]
 [2023-07-29 14:50:26] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
 [2023-07-29 14:50:26] INFO root fetch - main [MainThread]: Store serial: [19088757]
+[2023-07-29 14:55:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19088757]
+[2023-07-29 14:55:36] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-29 14:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MetAromatic
+[2023-07-29 14:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyglet
+[2023-07-29 14:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: manticore
+[2023-07-29 14:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jsno
+[2023-07-29 14:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyapriltags
+[2023-07-29 14:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fast-poibin
+[2023-07-29 14:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oneat
+[2023-07-29 14:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: statscend
+[2023-07-29 14:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tpyconfig
+[2023-07-29 14:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pydantic-numpy
+[2023-07-29 14:55:36] WARNING root fetch - processPackages [jsno]: Skipping, unable to determine old version
+[2023-07-29 14:55:36] INFO root fetch - main [MainThread]: End processing [jsno] error
+[2023-07-29 14:55:36] INFO root fetch - processPackages [fast-poibin]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-29 14:55:36] INFO root fetch - processPackages [pyapriltags]: New version: [3.3.0.post2] Old Version: [3.3.0.post1]
+[2023-07-29 14:55:36] INFO root fetch - processPackages [statscend]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-29 14:55:36] INFO root fetch - processPackages [MetAromatic]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-07-29 14:55:36] WARNING root fetch - processPackages [tpyconfig]: Skipping, unable to determine old version
+[2023-07-29 14:55:36] INFO root fetch - processPackages [pydantic-numpy]: New version: [3.1.4] Old Version: [3.1.3]
+[2023-07-29 14:55:36] INFO root fetch - main [MainThread]: End processing [tpyconfig] error
+[2023-07-29 14:55:36] INFO root fetch - processPackages [pyglet]: New version: [2.0b3] Old Version: [2.0b2]
+[2023-07-29 14:55:36] INFO root fetch - processPackages [oneat]: New version: [6.1.6] Old Version: [6.1.5]
+[2023-07-29 14:55:36] INFO root fetch - processPackages [manticore]: New version: [0.3.8.dev230729] Old Version: [0.3.8.dev230728]
+[2023-07-29 14:55:36] INFO root fetch - processPackages [MetAromatic]: Downloading https://files.pythonhosted.org/packages/44/e2/92d9044468d8259afccb5a33acf4771a729a422799e547c5e76cc22cff77/MetAromatic-1.3.0.tar.gz
+[2023-07-29 14:55:36] INFO root fetch - processPackages [pydantic-numpy]: Downloading https://files.pythonhosted.org/packages/3a/d6/6f1921976aa6fd750efb5e87b30833660722dbb6b48211971cbe0de2eb2a/pydantic_numpy-3.1.3.tar.gz
+[2023-07-29 14:55:36] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/c8/7e/fc8020b68f0f248a87cea8f50edde12ba736c210b26f8fd1595ff1950cf7/manticore-0.3.8.dev230728.tar.gz
+[2023-07-29 14:55:36] INFO root fetch - processPackages [oneat]: Downloading https://files.pythonhosted.org/packages/2c/9c/cd294b5b674dc39b071bf73c7606b2980dd60340b73951292e655c3a2851/oneat-6.1.5.tar.gz
+[2023-07-29 14:55:36] INFO root fetch - processPackages [pyapriltags]: Downloading https://files.pythonhosted.org/packages/f6/83/633e319f9e04c5418a0e2973aaefc6f33980f26d2c869900149fea880ee7/pyapriltags-3.3.0.post1-py3-none-win_amd64.whl
+[2023-07-29 14:55:36] INFO root fetch - processPackages [pyglet]: Downloading https://files.pythonhosted.org/packages/b0/66/c72605c7f840838246e73a415b7327e6296b828ba374f2f6525b58f9c39d/pyglet-2.0b2.zip
+[2023-07-29 14:55:36] INFO root fetch - processPackages [statscend]: Downloading https://files.pythonhosted.org/packages/65/cc/a0a7834121a149b4f1ea84539474325a52f0f4f3da253c9997a06f757d5a/statscend-0.1.8.tar.gz
+[2023-07-29 14:55:36] INFO root fetch - processPackages [fast-poibin]: Downloading https://files.pythonhosted.org/packages/56/e7/95196aa46f3aa9bb546c7978313fed30feb6fdf2f1550d29ed5a42df88a7/fast_poibin-0.3.0.tar.gz
+[2023-07-29 14:55:37] INFO root fetch - processPackages [pydantic-numpy]: Downloading https://files.pythonhosted.org/packages/29/df/a21eea32cfb348636c70d818abcb0c9e3d58cd4490710a9e4992e2ee35b5/pydantic_numpy-3.1.4.tar.gz
+[2023-07-29 14:55:37] INFO root fetch - processPackages [MetAromatic]: Downloading https://files.pythonhosted.org/packages/b6/3a/823828aeed95ad4c9fdcd399cbee88437f2dbb1614bb08665981836de5a1/MetAromatic-1.4.0.tar.gz
+[2023-07-29 14:55:37] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/9f/81/6ab729e14e0a9c82ac4ef18131e205844f18bdc83acdd9824f18093f0d6e/manticore-0.3.8.dev230729.tar.gz
+[2023-07-29 14:55:37] INFO root fetch - processPackages [statscend]: Downloading https://files.pythonhosted.org/packages/24/f9/a289381a7b231bd3eea808145cefa8c084118a35679b72db164de86a6e31/statscend-0.1.9.tar.gz
+[2023-07-29 14:55:37] INFO root fetch - processPackages [fast-poibin]: Downloading https://files.pythonhosted.org/packages/fb/8c/93730cd84e0fd9184fa8ba79facb2e1f09568c316274c689115b925a7440/fast_poibin-0.3.1.tar.gz
+[2023-07-29 14:55:37] INFO root fetch - processPackages [statscend]: executing diffoscope
+[2023-07-29 14:55:37] INFO root fetch - processPackages [statscend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statscend-0.1.8.tar.gz tmp/statscend-0.1.9.tar.gz --markdown 20230729/s/statscend/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-29 14:55:37] INFO root fetch - processPackages [pydantic-numpy]: executing diffoscope
+[2023-07-29 14:55:37] INFO root fetch - processPackages [pydantic-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_numpy-3.1.3.tar.gz tmp/pydantic_numpy-3.1.4.tar.gz --markdown 20230729/p/pydantic-numpy/3.1.3-3.1.4/diff.md --exclude *.pyd
+[2023-07-29 14:55:37] INFO root fetch - processPackages [fast-poibin]: executing diffoscope
+[2023-07-29 14:55:37] INFO root fetch - processPackages [fast-poibin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_poibin-0.3.0.tar.gz tmp/fast_poibin-0.3.1.tar.gz --markdown 20230729/f/fast-poibin/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-29 14:55:37] INFO root fetch - processPackages [MetAromatic]: executing diffoscope
+[2023-07-29 14:55:37] INFO root fetch - processPackages [MetAromatic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MetAromatic-1.3.0.tar.gz tmp/MetAromatic-1.4.0.tar.gz --markdown 20230729/M/MetAromatic/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-07-29 14:55:37] INFO root fetch - processPackages [manticore]: executing diffoscope
+[2023-07-29 14:55:37] INFO root fetch - processPackages [manticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manticore-0.3.8.dev230728.tar.gz tmp/manticore-0.3.8.dev230729.tar.gz --markdown 20230729/m/manticore/0.3.8.dev230728-0.3.8.dev230729/diff.md --exclude *.pyd
+[2023-07-29 14:55:37] INFO root fetch - processPackages [oneat]: Downloading https://files.pythonhosted.org/packages/61/f7/259c325916494d2664bfd295cd3d27d02fd8655f12cccd13da893e98a2c2/oneat-6.1.6.tar.gz
+[2023-07-29 14:55:37] INFO root fetch - processPackages [oneat]: executing diffoscope
+[2023-07-29 14:55:37] INFO root fetch - processPackages [oneat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oneat-6.1.5.tar.gz tmp/oneat-6.1.6.tar.gz --markdown 20230729/o/oneat/6.1.5-6.1.6/diff.md --exclude *.pyd
+[2023-07-29 14:55:38] INFO root fetch - processPackages [pyapriltags]: Downloading https://files.pythonhosted.org/packages/7e/64/ddde55d3c1e981f536db145a2797abf15537bb8e7490ecbfef86dc8fc2ef/pyapriltags-3.3.0.post2-py3-none-win_amd64.whl
+[2023-07-29 14:55:38] INFO root fetch - processPackages [fast-poibin]: Remove: archive file [/home/abi/fetcher/tmp/fast_poibin-0.3.0.tar.gz]
+[2023-07-29 14:55:38] INFO root fetch - processPackages [fast-poibin]: Remove: archive file [/home/abi/fetcher/tmp/fast_poibin-0.3.1.tar.gz]
+[2023-07-29 14:55:38] INFO root fetch - main [MainThread]: End processing [fast-poibin]: success
+[2023-07-29 14:55:38] INFO root fetch - processPackages [statscend]: Remove: archive file [/home/abi/fetcher/tmp/statscend-0.1.8.tar.gz]
+[2023-07-29 14:55:38] INFO root fetch - processPackages [statscend]: Remove: archive file [/home/abi/fetcher/tmp/statscend-0.1.9.tar.gz]
+[2023-07-29 14:55:38] INFO root fetch - main [MainThread]: End processing [statscend]: success
+[2023-07-29 14:55:38] INFO root fetch - processPackages [MetAromatic]: Remove: archive file [/home/abi/fetcher/tmp/MetAromatic-1.3.0.tar.gz]
+[2023-07-29 14:55:38] INFO root fetch - processPackages [MetAromatic]: Remove: archive file [/home/abi/fetcher/tmp/MetAromatic-1.4.0.tar.gz]
+[2023-07-29 14:55:38] INFO root fetch - main [MainThread]: End processing [MetAromatic]: success
+[2023-07-29 14:55:38] INFO root fetch - processPackages [pydantic-numpy]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_numpy-3.1.3.tar.gz]
+[2023-07-29 14:55:38] INFO root fetch - processPackages [pydantic-numpy]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_numpy-3.1.4.tar.gz]
+[2023-07-29 14:55:38] INFO root fetch - main [MainThread]: End processing [pydantic-numpy]: success
+[2023-07-29 14:55:38] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230728.tar.gz]
+[2023-07-29 14:55:38] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230729.tar.gz]
+[2023-07-29 14:55:38] INFO root fetch - main [MainThread]: End processing [manticore]: success
+[2023-07-29 14:55:38] INFO root fetch - processPackages [pyapriltags]: executing diffoscope
+[2023-07-29 14:55:38] INFO root fetch - processPackages [pyapriltags]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyapriltags-3.3.0.post1-py3-none-win_amd64.whl.zip tmp/pyapriltags-3.3.0.post2-py3-none-win_amd64.whl.zip --markdown 20230729/p/pyapriltags/3.3.0.post1-3.3.0.post2/diff.md --exclude *.pyd
+[2023-07-29 14:55:39] INFO root fetch - processPackages [oneat]: Remove: archive file [/home/abi/fetcher/tmp/oneat-6.1.5.tar.gz]
+[2023-07-29 14:55:39] INFO root fetch - processPackages [oneat]: Remove: archive file [/home/abi/fetcher/tmp/oneat-6.1.6.tar.gz]
+[2023-07-29 14:55:39] INFO root fetch - main [MainThread]: End processing [oneat]: success
+[2023-07-29 14:55:40] INFO root fetch - processPackages [pyglet]: Downloading https://files.pythonhosted.org/packages/e5/d7/8898edcdc4dc6df2512d51739c4e6c1e6261d8ebd7e27cb59923c7a2cbb5/pyglet-2.0b3.zip
+[2023-07-29 14:55:42] INFO root fetch - processPackages [pyglet]: executing diffoscope
+[2023-07-29 14:55:42] INFO root fetch - processPackages [pyglet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglet-2.0b2.zip tmp/pyglet-2.0b3.zip --markdown 20230729/p/pyglet/2.0b2-2.0b3/diff.md --exclude *.pyd
+[2023-07-29 14:55:49] INFO root fetch - processPackages [pyglet]: Remove: archive file [/home/abi/fetcher/tmp/pyglet-2.0b2.zip]
+[2023-07-29 14:55:49] INFO root fetch - processPackages [pyglet]: Remove: archive file [/home/abi/fetcher/tmp/pyglet-2.0b3.zip]
+[2023-07-29 14:55:49] INFO root fetch - main [MainThread]: End processing [pyglet]: success
+[2023-07-29 14:55:50] INFO root fetch - processPackages [pyapriltags]: Remove: archive file [/home/abi/fetcher/tmp/pyapriltags-3.3.0.post1-py3-none-win_amd64.whl.zip]
+[2023-07-29 14:55:50] INFO root fetch - processPackages [pyapriltags]: Remove: archive file [/home/abi/fetcher/tmp/pyapriltags-3.3.0.post2-py3-none-win_amd64.whl.zip]
+[2023-07-29 14:55:50] INFO root fetch - main [MainThread]: End processing [pyapriltags]: success
+[2023-07-29 14:55:50] INFO root fetch - main [MainThread]: Store serial: [19088794]
