@@ -19258,3 +19258,81 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 17:15:12] INFO root fetch - processPackages [simple-swag]: Remove: archive file [/home/abi/fetcher/tmp/simple-swag-0.1.4.tar.gz]
 [2023-07-29 17:15:12] INFO root fetch - main [MainThread]: End processing [simple-swag]: success
 [2023-07-29 17:15:12] INFO root fetch - main [MainThread]: Store serial: [19089608]
+[2023-07-29 17:20:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19089608]
+[2023-07-29 17:20:21] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-29 17:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lassen
+[2023-07-29 17:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hmsysteme
+[2023-07-29 17:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-tailwind-cli
+[2023-07-29 17:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: teelebot
+[2023-07-29 17:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xxtea
+[2023-07-29 17:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: syntaxlight
+[2023-07-29 17:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xarray-simpleunits
+[2023-07-29 17:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: netkiller-devops
+[2023-07-29 17:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pypmc
+[2023-07-29 17:20:21] INFO root fetch - processPackages [django-tailwind-cli]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-07-29 17:20:21] INFO root fetch - processPackages [xxtea]: New version: [3.1.0] Old Version: [3.0.0]
+[2023-07-29 17:20:21] INFO root fetch - processPackages [lassen]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-29 17:20:21] INFO root fetch - processPackages [syntaxlight]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-29 17:20:21] WARNING root fetch - processPackages [xarray-simpleunits]: Skipping, unable to determine old version
+[2023-07-29 17:20:21] INFO root fetch - main [MainThread]: End processing [xarray-simpleunits] error
+[2023-07-29 17:20:21] INFO root fetch - processPackages [hmsysteme]: New version: [1.1] Old Version: [1.0]
+[2023-07-29 17:20:21] INFO root fetch - processPackages [netkiller-devops]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-07-29 17:20:21] INFO root fetch - processPackages [teelebot]: New version: [2.3.5] Old Version: [2.3.4]
+[2023-07-29 17:20:21] INFO root fetch - processPackages [pypmc]: New version: [1.2.1] Old Version: [1.2]
+[2023-07-29 17:20:21] INFO root fetch - processPackages [lassen]: Downloading https://files.pythonhosted.org/packages/ba/19/84651f4e9522a57823de311a24f2779d0defad1e71fe563d41f71761cad3/lassen-0.2.5.tar.gz
+[2023-07-29 17:20:21] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/9c/e7/388b586d2c4a9e07285a125e941be8a4a35248f78d3978b1fc6fb3131f7a/syntaxlight-0.0.8.tar.gz
+[2023-07-29 17:20:21] INFO root fetch - processPackages [django-tailwind-cli]: Downloading https://files.pythonhosted.org/packages/a5/36/c3e14dcfbadbfd27794e249479f1bf01f553ff8556f6af0cf58aed352695/django_tailwind_cli-1.4.2.tar.gz
+[2023-07-29 17:20:21] INFO root fetch - processPackages [hmsysteme]: Downloading https://files.pythonhosted.org/packages/75/1d/791068de176aece64c6514e05c6400c9c0406a629f372bf198d5fcfb8f1b/hmsysteme-1.0-py3-none-any.whl
+[2023-07-29 17:20:21] INFO root fetch - processPackages [netkiller-devops]: Downloading https://files.pythonhosted.org/packages/93/d6/ae182fc211ee1bba7cba75521c026d2f21a322be5f67d47cf29cb0de4bd2/netkiller-devops-0.6.8.tar.gz
+[2023-07-29 17:20:21] INFO root fetch - processPackages [xxtea]: Downloading https://files.pythonhosted.org/packages/21/81/52b2959031a37a3242b354d2b195bfe5056ffd5fa071b1408408f221393f/xxtea-3.0.0.tar.gz
+[2023-07-29 17:20:21] INFO root fetch - processPackages [teelebot]: Downloading https://files.pythonhosted.org/packages/cb/fe/be682f2c937ff03de81b478229eee481f76072099ef1464413638fd7588e/teelebot-2.3.4-py3-none-any.whl
+[2023-07-29 17:20:21] INFO root fetch - processPackages [pypmc]: Downloading https://files.pythonhosted.org/packages/9f/5c/79342ebacdf9005a1461c2d023338e9573eeb7f2ec9ea10797d0ca10a192/pypmc-1.2.tar.gz
+[2023-07-29 17:20:21] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/c9/91/13558ab5b93b1a78bf9a8107609b86f60a4f327572b56938b00d7aea5b31/syntaxlight-0.0.9.tar.gz
+[2023-07-29 17:20:21] INFO root fetch - processPackages [lassen]: Downloading https://files.pythonhosted.org/packages/1c/f3/970eeb3e935824fdc4424f0b794735613895270fba1515b9e10b7566fe5b/lassen-0.2.6.tar.gz
+[2023-07-29 17:20:22] INFO root fetch - processPackages [hmsysteme]: Downloading https://files.pythonhosted.org/packages/4d/87/8811ebfee5c7a08ec533db38aac71b00115a694fc9c34a8fde6af033c5ba/hmsysteme-1.1.tar.gz
+[2023-07-29 17:20:22] INFO root fetch - processPackages [django-tailwind-cli]: Downloading https://files.pythonhosted.org/packages/83/eb/0ad6b57e120c076436464c2c783b42a494f284d1c06632b5fb4e4daedf1a/django_tailwind_cli-1.4.3.tar.gz
+[2023-07-29 17:20:22] INFO root fetch - processPackages [teelebot]: Downloading https://files.pythonhosted.org/packages/6d/7d/ee520e1fd9c950a92a09df290b6c4e3e7ef9eeec9d7e81aa4c781b0c2c8a/teelebot-2.3.5-py3-none-any.whl
+[2023-07-29 17:20:22] INFO root fetch - processPackages [syntaxlight]: executing diffoscope
+[2023-07-29 17:20:22] INFO root fetch - processPackages [syntaxlight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntaxlight-0.0.8.tar.gz tmp/syntaxlight-0.0.9.tar.gz --markdown 20230729/s/syntaxlight/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-29 17:20:22] INFO root fetch - processPackages [netkiller-devops]: Downloading https://files.pythonhosted.org/packages/ce/91/1f51d10a8e8f6c7a28e675b4772809fc03f85769b309088029be64b7b960/netkiller-devops-0.6.9.tar.gz
+[2023-07-29 17:20:22] INFO root fetch - processPackages [xxtea]: Downloading https://files.pythonhosted.org/packages/0e/43/821615d88972cb6da887ce0d372157e5079682daa716c451467f3a6d0152/xxtea-3.1.0.tar.gz
+[2023-07-29 17:20:22] INFO root fetch - processPackages [hmsysteme]: executing diffoscope
+[2023-07-29 17:20:22] INFO root fetch - processPackages [hmsysteme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmsysteme-1.0-py3-none-any.whl.zip tmp/hmsysteme-1.1.tar.gz --markdown 20230729/h/hmsysteme/1.0-1.1/diff.md --exclude *.pyd
+[2023-07-29 17:20:22] INFO root fetch - processPackages [django-tailwind-cli]: executing diffoscope
+[2023-07-29 17:20:22] INFO root fetch - processPackages [django-tailwind-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_tailwind_cli-1.4.2.tar.gz tmp/django_tailwind_cli-1.4.3.tar.gz --markdown 20230729/d/django-tailwind-cli/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-07-29 17:20:22] INFO root fetch - processPackages [lassen]: executing diffoscope
+[2023-07-29 17:20:22] INFO root fetch - processPackages [lassen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lassen-0.2.5.tar.gz tmp/lassen-0.2.6.tar.gz --markdown 20230729/l/lassen/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-29 17:20:22] INFO root fetch - processPackages [teelebot]: executing diffoscope
+[2023-07-29 17:20:22] INFO root fetch - processPackages [teelebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teelebot-2.3.4-py3-none-any.whl.zip tmp/teelebot-2.3.5-py3-none-any.whl.zip --markdown 20230729/t/teelebot/2.3.4-2.3.5/diff.md --exclude *.pyd
+[2023-07-29 17:20:22] INFO root fetch - processPackages [netkiller-devops]: executing diffoscope
+[2023-07-29 17:20:22] INFO root fetch - processPackages [netkiller-devops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netkiller-devops-0.6.8.tar.gz tmp/netkiller-devops-0.6.9.tar.gz --markdown 20230729/n/netkiller-devops/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-07-29 17:20:22] INFO root fetch - processPackages [xxtea]: executing diffoscope
+[2023-07-29 17:20:22] INFO root fetch - processPackages [xxtea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xxtea-3.0.0.tar.gz tmp/xxtea-3.1.0.tar.gz --markdown 20230729/x/xxtea/3.0.0-3.1.0/diff.md --exclude *.pyd
+[2023-07-29 17:20:22] INFO root fetch - processPackages [pypmc]: Downloading https://files.pythonhosted.org/packages/ff/22/7f2ace6dcd90d6ab54f1da63f2feee884fb48a6b0378ce7cbb77e4b7a93c/pypmc-1.2.1.tar.gz
+[2023-07-29 17:20:22] INFO root fetch - processPackages [pypmc]: executing diffoscope
+[2023-07-29 17:20:22] INFO root fetch - processPackages [pypmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypmc-1.2.tar.gz tmp/pypmc-1.2.1.tar.gz --markdown 20230729/p/pypmc/1.2-1.2.1/diff.md --exclude *.pyd
+[2023-07-29 17:20:23] INFO root fetch - processPackages [django-tailwind-cli]: Remove: archive file [/home/abi/fetcher/tmp/django_tailwind_cli-1.4.2.tar.gz]
+[2023-07-29 17:20:23] INFO root fetch - processPackages [django-tailwind-cli]: Remove: archive file [/home/abi/fetcher/tmp/django_tailwind_cli-1.4.3.tar.gz]
+[2023-07-29 17:20:23] INFO root fetch - main [MainThread]: End processing [django-tailwind-cli]: success
+[2023-07-29 17:20:23] INFO root fetch - processPackages [hmsysteme]: Remove: archive file [/home/abi/fetcher/tmp/hmsysteme-1.0-py3-none-any.whl.zip]
+[2023-07-29 17:20:23] INFO root fetch - processPackages [hmsysteme]: Remove: archive file [/home/abi/fetcher/tmp/hmsysteme-1.1.tar.gz]
+[2023-07-29 17:20:23] INFO root fetch - main [MainThread]: End processing [hmsysteme]: success
+[2023-07-29 17:20:23] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.0.8.tar.gz]
+[2023-07-29 17:20:23] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.0.9.tar.gz]
+[2023-07-29 17:20:23] INFO root fetch - main [MainThread]: End processing [syntaxlight]: success
+[2023-07-29 17:20:23] INFO root fetch - processPackages [teelebot]: Remove: archive file [/home/abi/fetcher/tmp/teelebot-2.3.4-py3-none-any.whl.zip]
+[2023-07-29 17:20:23] INFO root fetch - processPackages [teelebot]: Remove: archive file [/home/abi/fetcher/tmp/teelebot-2.3.5-py3-none-any.whl.zip]
+[2023-07-29 17:20:23] INFO root fetch - main [MainThread]: End processing [teelebot]: success
+[2023-07-29 17:20:23] INFO root fetch - processPackages [lassen]: Remove: archive file [/home/abi/fetcher/tmp/lassen-0.2.5.tar.gz]
+[2023-07-29 17:20:23] INFO root fetch - processPackages [lassen]: Remove: archive file [/home/abi/fetcher/tmp/lassen-0.2.6.tar.gz]
+[2023-07-29 17:20:23] INFO root fetch - main [MainThread]: End processing [lassen]: success
+[2023-07-29 17:20:23] INFO root fetch - processPackages [netkiller-devops]: Remove: archive file [/home/abi/fetcher/tmp/netkiller-devops-0.6.8.tar.gz]
+[2023-07-29 17:20:23] INFO root fetch - processPackages [netkiller-devops]: Remove: archive file [/home/abi/fetcher/tmp/netkiller-devops-0.6.9.tar.gz]
+[2023-07-29 17:20:23] INFO root fetch - main [MainThread]: End processing [netkiller-devops]: success
+[2023-07-29 17:20:23] INFO root fetch - processPackages [xxtea]: Remove: archive file [/home/abi/fetcher/tmp/xxtea-3.0.0.tar.gz]
+[2023-07-29 17:20:23] INFO root fetch - processPackages [xxtea]: Remove: archive file [/home/abi/fetcher/tmp/xxtea-3.1.0.tar.gz]
+[2023-07-29 17:20:23] INFO root fetch - main [MainThread]: End processing [xxtea]: success
+[2023-07-29 17:20:27] INFO root fetch - processPackages [pypmc]: Remove: archive file [/home/abi/fetcher/tmp/pypmc-1.2.tar.gz]
+[2023-07-29 17:20:27] INFO root fetch - processPackages [pypmc]: Remove: archive file [/home/abi/fetcher/tmp/pypmc-1.2.1.tar.gz]
+[2023-07-29 17:20:27] INFO root fetch - main [MainThread]: End processing [pypmc]: success
+[2023-07-29 17:20:27] INFO root fetch - main [MainThread]: Store serial: [19089745]
