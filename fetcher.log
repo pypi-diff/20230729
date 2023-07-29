@@ -15558,3 +15558,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 12:45:17] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20230728.tar.gz]
 [2023-07-29 12:45:17] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
 [2023-07-29 12:45:17] INFO root fetch - main [MainThread]: Store serial: [19087969]
+[2023-07-29 12:50:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19087969]
+[2023-07-29 12:50:25] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-29 12:50:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ansi-terminal
+[2023-07-29 12:50:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: get-music-lizhanqi
+[2023-07-29 12:50:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xctools-kamaalio
+[2023-07-29 12:50:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: project.harpy
+[2023-07-29 12:50:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: find-dict-path
+[2023-07-29 12:50:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: IMDBTraktSyncer
+[2023-07-29 12:50:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: knifes
+[2023-07-29 12:50:25] INFO root fetch - processPackages [xctools-kamaalio]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-29 12:50:25] INFO root fetch - processPackages [IMDBTraktSyncer]: New version: [1.7.0] Old Version: [1.6.0]
+[2023-07-29 12:50:25] WARNING root fetch - processPackages [ansi-terminal]: Skipping, unable to determine old version
+[2023-07-29 12:50:25] INFO root fetch - main [MainThread]: End processing [ansi-terminal] error
+[2023-07-29 12:50:25] WARNING root fetch - processPackages [project.harpy]: Skipping, unable to determine old version
+[2023-07-29 12:50:25] INFO root fetch - main [MainThread]: End processing [project.harpy] error
+[2023-07-29 12:50:25] WARNING root fetch - processPackages [find-dict-path]: Skipping, unable to determine old version
+[2023-07-29 12:50:25] INFO root fetch - main [MainThread]: End processing [find-dict-path] error
+[2023-07-29 12:50:25] INFO root fetch - processPackages [get-music-lizhanqi]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-07-29 12:50:25] INFO root fetch - processPackages [knifes]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-07-29 12:50:25] INFO root fetch - processPackages [xctools-kamaalio]: Downloading https://files.pythonhosted.org/packages/4e/b5/f77e31fc12179c252ab3e375915571d9466afdee560df4579ba902da3329/xctools_kamaalio-0.0.2.tar.gz
+[2023-07-29 12:50:25] INFO root fetch - processPackages [get-music-lizhanqi]: Downloading https://files.pythonhosted.org/packages/39/bb/e3024fc2fd78cc97e9f29a060b43683a872879c1dde1a2de28ec46dc5b13/get-music-lizhanqi-1.2.7.tar.gz
+[2023-07-29 12:50:25] INFO root fetch - processPackages [knifes]: Downloading https://files.pythonhosted.org/packages/47/dc/9b70eaa9ada5c17c527442c7f6913d9f419b00084ca98bf313a61f6ebb19/knifes-0.8.8.tar.gz
+[2023-07-29 12:50:26] INFO root fetch - processPackages [IMDBTraktSyncer]: Downloading https://files.pythonhosted.org/packages/cf/03/144b67221d330f8c1a57bf0a61c9b7d7a35acd717cdd83d9a09bad5504a4/IMDBTraktSyncer-1.6.0.tar.gz
+[2023-07-29 12:50:26] INFO root fetch - processPackages [knifes]: Downloading https://files.pythonhosted.org/packages/e7/be/f84349fc65ba6f31df45d2dfb2d03897b26e1c0962d5927c173699f6b248/knifes-0.8.9.tar.gz
+[2023-07-29 12:50:26] INFO root fetch - processPackages [get-music-lizhanqi]: Downloading https://files.pythonhosted.org/packages/92/4d/7f584587056b63a4978cab73379409ce3171d9ea08998733ac9f21665571/get-music-lizhanqi-1.2.8.tar.gz
+[2023-07-29 12:50:26] INFO root fetch - processPackages [xctools-kamaalio]: Downloading https://files.pythonhosted.org/packages/01/3c/956a6f4aaa59d51f9bf93d30f817095297bc839834655c1c51faa59a729d/xctools_kamaalio-0.0.3.tar.gz
+[2023-07-29 12:50:26] INFO root fetch - processPackages [knifes]: executing diffoscope
+[2023-07-29 12:50:26] INFO root fetch - processPackages [knifes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knifes-0.8.8.tar.gz tmp/knifes-0.8.9.tar.gz --markdown 20230729/k/knifes/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-07-29 12:50:26] INFO root fetch - processPackages [IMDBTraktSyncer]: Downloading https://files.pythonhosted.org/packages/4b/d6/37a8d7b648d5f67e6da9812480b254e0f6a5ee27ef9e106c8bbc0c05d7de/IMDBTraktSyncer-1.7.0.tar.gz
+[2023-07-29 12:50:26] INFO root fetch - processPackages [get-music-lizhanqi]: executing diffoscope
+[2023-07-29 12:50:26] INFO root fetch - processPackages [get-music-lizhanqi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/get-music-lizhanqi-1.2.7.tar.gz tmp/get-music-lizhanqi-1.2.8.tar.gz --markdown 20230729/g/get-music-lizhanqi/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-07-29 12:50:26] INFO root fetch - processPackages [IMDBTraktSyncer]: executing diffoscope
+[2023-07-29 12:50:26] INFO root fetch - processPackages [IMDBTraktSyncer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IMDBTraktSyncer-1.6.0.tar.gz tmp/IMDBTraktSyncer-1.7.0.tar.gz --markdown 20230729/I/IMDBTraktSyncer/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2023-07-29 12:50:26] INFO root fetch - processPackages [xctools-kamaalio]: executing diffoscope
+[2023-07-29 12:50:26] INFO root fetch - processPackages [xctools-kamaalio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xctools_kamaalio-0.0.2.tar.gz tmp/xctools_kamaalio-0.0.3.tar.gz --markdown 20230729/x/xctools-kamaalio/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-29 12:50:27] INFO root fetch - processPackages [knifes]: Remove: archive file [/home/abi/fetcher/tmp/knifes-0.8.8.tar.gz]
+[2023-07-29 12:50:27] INFO root fetch - processPackages [knifes]: Remove: archive file [/home/abi/fetcher/tmp/knifes-0.8.9.tar.gz]
+[2023-07-29 12:50:27] INFO root fetch - main [MainThread]: End processing [knifes]: success
+[2023-07-29 12:50:27] INFO root fetch - processPackages [xctools-kamaalio]: Remove: archive file [/home/abi/fetcher/tmp/xctools_kamaalio-0.0.2.tar.gz]
+[2023-07-29 12:50:27] INFO root fetch - processPackages [xctools-kamaalio]: Remove: archive file [/home/abi/fetcher/tmp/xctools_kamaalio-0.0.3.tar.gz]
+[2023-07-29 12:50:27] INFO root fetch - main [MainThread]: End processing [xctools-kamaalio]: success
+[2023-07-29 12:50:27] INFO root fetch - processPackages [IMDBTraktSyncer]: Remove: archive file [/home/abi/fetcher/tmp/IMDBTraktSyncer-1.6.0.tar.gz]
+[2023-07-29 12:50:27] INFO root fetch - processPackages [IMDBTraktSyncer]: Remove: archive file [/home/abi/fetcher/tmp/IMDBTraktSyncer-1.7.0.tar.gz]
+[2023-07-29 12:50:27] INFO root fetch - main [MainThread]: End processing [IMDBTraktSyncer]: success
+[2023-07-29 12:50:27] INFO root fetch - processPackages [get-music-lizhanqi]: Remove: archive file [/home/abi/fetcher/tmp/get-music-lizhanqi-1.2.7.tar.gz]
+[2023-07-29 12:50:27] INFO root fetch - processPackages [get-music-lizhanqi]: Remove: archive file [/home/abi/fetcher/tmp/get-music-lizhanqi-1.2.8.tar.gz]
+[2023-07-29 12:50:27] INFO root fetch - main [MainThread]: End processing [get-music-lizhanqi]: success
+[2023-07-29 12:50:27] INFO root fetch - main [MainThread]: Store serial: [19088009]
