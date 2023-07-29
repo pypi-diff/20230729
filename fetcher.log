@@ -22583,3 +22583,66 @@ AssertionError: tmp/pulpcore-3.9.0.tar.gz does not exist
 [2023-07-29 21:10:15] INFO root fetch - processPackages [rk-core]: Remove: archive file [/home/abi/fetcher/tmp/rk_core-0.1.9-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-29 21:10:15] INFO root fetch - main [MainThread]: End processing [rk-core]: success
 [2023-07-29 21:10:15] INFO root fetch - main [MainThread]: Store serial: [19091180]
+[2023-07-29 21:15:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19091180]
+[2023-07-29 21:15:34] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-29 21:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mkdocs-git-revision-date-plugin-blame
+[2023-07-29 21:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tree-of-thoughts
+[2023-07-29 21:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nanohelp
+[2023-07-29 21:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abstract-webtools
+[2023-07-29 21:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gammarer.aws-frontend-web-app-deploy-stack
+[2023-07-29 21:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytransformers
+[2023-07-29 21:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sd-meh
+[2023-07-29 21:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: leakpy
+[2023-07-29 21:15:34] INFO root fetch - processPackages [gammarer.aws-frontend-web-app-deploy-stack]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-29 21:15:34] INFO root fetch - processPackages [mkdocs-git-revision-date-plugin-blame]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-29 21:15:34] INFO root fetch - processPackages [tree-of-thoughts]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-07-29 21:15:34] INFO root fetch - processPackages [nanohelp]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-29 21:15:34] WARNING root fetch - processPackages [pytransformers]: Skipping, unable to determine old version
+[2023-07-29 21:15:34] INFO root fetch - main [MainThread]: End processing [pytransformers] error
+[2023-07-29 21:15:34] INFO root fetch - processPackages [sd-meh]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-29 21:15:34] INFO root fetch - processPackages [leakpy]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-29 21:15:34] WARNING root fetch - processPackages [abstract-webtools]: Skipping, unable to determine old version
+[2023-07-29 21:15:34] INFO root fetch - main [MainThread]: End processing [abstract-webtools] error
+[2023-07-29 21:15:34] INFO root fetch - processPackages [gammarer.aws-frontend-web-app-deploy-stack]: Downloading https://files.pythonhosted.org/packages/45/8f/4de552455b818c1fee368d64e2a3c210f58076f620ce40b1bc3975f534ae/gammarer.aws-frontend-web-app-deploy-stack-0.5.8.tar.gz
+[2023-07-29 21:15:34] INFO root fetch - processPackages [tree-of-thoughts]: Downloading https://files.pythonhosted.org/packages/58/c9/86d112aad631184a2e4b9b75d142d2e26076df305c09649f0326d0fbb580/tree-of-thoughts-0.3.5.tar.gz
+[2023-07-29 21:15:34] INFO root fetch - processPackages [nanohelp]: Downloading https://files.pythonhosted.org/packages/93/f6/f0a92d82cc6d105696d00b1fc9301d5e54c0a41268009dda96da2aacfd73/nanohelp-0.1.2.tar.gz
+[2023-07-29 21:15:34] INFO root fetch - processPackages [leakpy]: Downloading https://files.pythonhosted.org/packages/6b/ce/cd2b6599f3af85df01462ff2d1a74cd7160d20b956cb3238594191fa04d8/leakpy-1.0.2-py3-none-any.whl
+[2023-07-29 21:15:35] INFO root fetch - processPackages [mkdocs-git-revision-date-plugin-blame]: Downloading https://files.pythonhosted.org/packages/69/71/782d7e53fca0b1de87e8697481dba8d638ddf74d8d9e3d02c19b001e2776/mkdocs-git-revision-date-plugin-blame-0.1.0.tar.gz
+[2023-07-29 21:15:35] INFO root fetch - processPackages [sd-meh]: Downloading https://files.pythonhosted.org/packages/de/e1/c38c478310846d76a9cfbacacb0e037545fd0ee2aead31572681b92303b1/sd_meh-0.9.3.tar.gz
+[2023-07-29 21:15:35] INFO root fetch - processPackages [gammarer.aws-frontend-web-app-deploy-stack]: Downloading https://files.pythonhosted.org/packages/a7/50/bc9863bc9e0548d1a3be8246d5886386b8b23785fadb1e1901b8acd0f02b/gammarer.aws-frontend-web-app-deploy-stack-0.5.9.tar.gz
+[2023-07-29 21:15:35] INFO root fetch - processPackages [leakpy]: Downloading https://files.pythonhosted.org/packages/14/6a/d89e40324598b7559072cc57388a42623fea6904264999478924302469fc/leakpy-1.0.3-py3-none-any.whl
+[2023-07-29 21:15:35] INFO root fetch - processPackages [nanohelp]: Downloading https://files.pythonhosted.org/packages/20/a7/368215eb4b4ea460cbea44ee1d2f6474f77e6f730e3aef5071821a688b6e/nanohelp-0.1.3.tar.gz
+[2023-07-29 21:15:35] INFO root fetch - processPackages [tree-of-thoughts]: Downloading https://files.pythonhosted.org/packages/51/a0/43b2a4ab6f1c89a484e71027c8c8034e899d3e5c86578e675876d982d13a/tree-of-thoughts-0.3.6.tar.gz
+[2023-07-29 21:15:35] INFO root fetch - processPackages [gammarer.aws-frontend-web-app-deploy-stack]: executing diffoscope
+[2023-07-29 21:15:35] INFO root fetch - processPackages [gammarer.aws-frontend-web-app-deploy-stack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-frontend-web-app-deploy-stack-0.5.8.tar.gz tmp/gammarer.aws-frontend-web-app-deploy-stack-0.5.9.tar.gz --markdown 20230729/g/gammarer.aws-frontend-web-app-deploy-stack/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-29 21:15:35] INFO root fetch - processPackages [mkdocs-git-revision-date-plugin-blame]: Downloading https://files.pythonhosted.org/packages/ca/61/9e4c760b07afc2d6aebca990dd38c89cbf3a553dadbdcb1c9ac824ee950b/mkdocs-git-revision-date-plugin-blame-0.1.1.tar.gz
+[2023-07-29 21:15:35] INFO root fetch - processPackages [sd-meh]: Downloading https://files.pythonhosted.org/packages/4e/6b/d3e7eef0533dfeeaa413c3918180d35406a79a3cb54d62065025dc0f3d93/sd_meh-0.9.4.tar.gz
+[2023-07-29 21:15:35] INFO root fetch - processPackages [tree-of-thoughts]: executing diffoscope
+[2023-07-29 21:15:35] INFO root fetch - processPackages [tree-of-thoughts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tree-of-thoughts-0.3.5.tar.gz tmp/tree-of-thoughts-0.3.6.tar.gz --markdown 20230729/t/tree-of-thoughts/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-07-29 21:15:35] INFO root fetch - processPackages [nanohelp]: executing diffoscope
+[2023-07-29 21:15:35] INFO root fetch - processPackages [nanohelp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanohelp-0.1.2.tar.gz tmp/nanohelp-0.1.3.tar.gz --markdown 20230729/n/nanohelp/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-29 21:15:35] INFO root fetch - processPackages [mkdocs-git-revision-date-plugin-blame]: executing diffoscope
+[2023-07-29 21:15:35] INFO root fetch - processPackages [mkdocs-git-revision-date-plugin-blame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-git-revision-date-plugin-blame-0.1.0.tar.gz tmp/mkdocs-git-revision-date-plugin-blame-0.1.1.tar.gz --markdown 20230729/m/mkdocs-git-revision-date-plugin-blame/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-29 21:15:35] INFO root fetch - processPackages [leakpy]: executing diffoscope
+[2023-07-29 21:15:35] INFO root fetch - processPackages [leakpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leakpy-1.0.2-py3-none-any.whl.zip tmp/leakpy-1.0.3-py3-none-any.whl.zip --markdown 20230729/l/leakpy/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-29 21:15:35] INFO root fetch - processPackages [sd-meh]: executing diffoscope
+[2023-07-29 21:15:35] INFO root fetch - processPackages [sd-meh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sd_meh-0.9.3.tar.gz tmp/sd_meh-0.9.4.tar.gz --markdown 20230729/s/sd-meh/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-29 21:15:36] INFO root fetch - processPackages [gammarer.aws-frontend-web-app-deploy-stack]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-frontend-web-app-deploy-stack-0.5.8.tar.gz]
+[2023-07-29 21:15:36] INFO root fetch - processPackages [gammarer.aws-frontend-web-app-deploy-stack]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-frontend-web-app-deploy-stack-0.5.9.tar.gz]
+[2023-07-29 21:15:36] INFO root fetch - main [MainThread]: End processing [gammarer.aws-frontend-web-app-deploy-stack]: success
+[2023-07-29 21:15:36] INFO root fetch - processPackages [tree-of-thoughts]: Remove: archive file [/home/abi/fetcher/tmp/tree-of-thoughts-0.3.5.tar.gz]
+[2023-07-29 21:15:36] INFO root fetch - processPackages [tree-of-thoughts]: Remove: archive file [/home/abi/fetcher/tmp/tree-of-thoughts-0.3.6.tar.gz]
+[2023-07-29 21:15:36] INFO root fetch - main [MainThread]: End processing [tree-of-thoughts]: success
+[2023-07-29 21:15:36] INFO root fetch - processPackages [leakpy]: Remove: archive file [/home/abi/fetcher/tmp/leakpy-1.0.2-py3-none-any.whl.zip]
+[2023-07-29 21:15:36] INFO root fetch - processPackages [leakpy]: Remove: archive file [/home/abi/fetcher/tmp/leakpy-1.0.3-py3-none-any.whl.zip]
+[2023-07-29 21:15:36] INFO root fetch - main [MainThread]: End processing [leakpy]: success
+[2023-07-29 21:15:36] INFO root fetch - processPackages [mkdocs-git-revision-date-plugin-blame]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-git-revision-date-plugin-blame-0.1.0.tar.gz]
+[2023-07-29 21:15:36] INFO root fetch - processPackages [mkdocs-git-revision-date-plugin-blame]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-git-revision-date-plugin-blame-0.1.1.tar.gz]
+[2023-07-29 21:15:36] INFO root fetch - main [MainThread]: End processing [mkdocs-git-revision-date-plugin-blame]: success
+[2023-07-29 21:15:36] INFO root fetch - processPackages [nanohelp]: Remove: archive file [/home/abi/fetcher/tmp/nanohelp-0.1.2.tar.gz]
+[2023-07-29 21:15:36] INFO root fetch - processPackages [nanohelp]: Remove: archive file [/home/abi/fetcher/tmp/nanohelp-0.1.3.tar.gz]
+[2023-07-29 21:15:36] INFO root fetch - main [MainThread]: End processing [nanohelp]: success
+[2023-07-29 21:15:36] INFO root fetch - processPackages [sd-meh]: Remove: archive file [/home/abi/fetcher/tmp/sd_meh-0.9.3.tar.gz]
+[2023-07-29 21:15:36] INFO root fetch - processPackages [sd-meh]: Remove: archive file [/home/abi/fetcher/tmp/sd_meh-0.9.4.tar.gz]
+[2023-07-29 21:15:36] INFO root fetch - main [MainThread]: End processing [sd-meh]: success
+[2023-07-29 21:15:36] INFO root fetch - main [MainThread]: Store serial: [19091207]
