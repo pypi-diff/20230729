@@ -10508,3 +10508,26 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 67: invalid
 [2023-07-29 09:31:30] INFO root fetch - processPackages [django-webstack]: Remove: archive file [/home/abi/fetcher/tmp/django-webstack-1.5.0.tar.gz]
 [2023-07-29 09:31:30] INFO root fetch - main [MainThread]: End processing [django-webstack]: success
 [2023-07-29 09:31:30] INFO root fetch - main [MainThread]: Store serial: [19086115]
+[2023-07-29 09:36:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19086115]
+[2023-07-29 09:36:38] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-29 09:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ixBrowser
+[2023-07-29 09:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lighthouse-python-plus
+[2023-07-29 09:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: j9bb-SPCE
+[2023-07-29 09:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lalsuite
+[2023-07-29 09:36:38] WARNING root fetch - processPackages [j9bb-SPCE]: Skipping, unable to determine old version
+[2023-07-29 09:36:38] INFO root fetch - main [MainThread]: End processing [j9bb-SPCE] error
+[2023-07-29 09:36:38] INFO root fetch - processPackages [ixBrowser]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-07-29 09:36:38] WARNING root fetch - processPackages [lighthouse-python-plus]: Skipping, unable to determine old version
+[2023-07-29 09:36:38] INFO root fetch - main [MainThread]: End processing [lighthouse-python-plus] error
+[2023-07-29 09:36:39] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2023-07-29 09:36:39] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-29 09:36:39] INFO root fetch - processPackages [ixBrowser]: Downloading https://files.pythonhosted.org/packages/80/e3/f6477dfa44659394bc8203aa3eb9af3d94f88517657775f89bdaf9432280/ixBrowser-1.4.0.tar.gz
+[2023-07-29 09:36:39] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2023-07-29 09:36:39] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2023-07-29 09:36:39] INFO root fetch - processPackages [ixBrowser]: Downloading https://files.pythonhosted.org/packages/4c/9f/96588247f613601eed4e96ef3bc250cec6a300c1c572a12d9e3e3d5414bd/ixBrowser-1.5.0.tar.gz
+[2023-07-29 09:36:39] INFO root fetch - processPackages [ixBrowser]: executing diffoscope
+[2023-07-29 09:36:39] INFO root fetch - processPackages [ixBrowser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230729:/home/abi/fetcher/20230729:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ixBrowser-1.4.0.tar.gz tmp/ixBrowser-1.5.0.tar.gz --markdown 20230729/i/ixBrowser/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-07-29 09:36:40] INFO root fetch - processPackages [ixBrowser]: Remove: archive file [/home/abi/fetcher/tmp/ixBrowser-1.4.0.tar.gz]
+[2023-07-29 09:36:40] INFO root fetch - processPackages [ixBrowser]: Remove: archive file [/home/abi/fetcher/tmp/ixBrowser-1.5.0.tar.gz]
+[2023-07-29 09:36:40] INFO root fetch - main [MainThread]: End processing [ixBrowser]: success
+[2023-07-29 09:36:40] INFO root fetch - main [MainThread]: Store serial: [19086135]
